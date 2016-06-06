@@ -1,4 +1,4 @@
-package com.example.tests;
+/*package testScripts;
 
 import java.util.regex.Pattern;
 import java.util.concurrent.TimeUnit;
@@ -70,3 +70,4 @@ public class Test {
     }
   }
 }
+*/

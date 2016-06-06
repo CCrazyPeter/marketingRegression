@@ -13,14 +13,18 @@ import org.openqa.selenium.support.PageFactory;
 import java.util.concurrent.TimeUnit;
 
 public class DriverInitialization  {
-
+	
     public static WebDriver driver;
-
+    
     @BeforeClass
     public static void createEnvironment() {
-        //driver = new FirefoxDriver();
-        driver = new ChromeDriver();
-        //driver = new SafariDriver();
+        
+    	//driver = new FirefoxDriver();
+    	
+    	System.setProperty("webdriver.chrome.driver", "C:/selenium/chromedriver.exe");
+    	driver = new ChromeDriver();
+        
+    	//driver = new SafariDriver();
 
         driver.manage().deleteAllCookies();
         driver.get("http://www.integrativenutrition.com/");

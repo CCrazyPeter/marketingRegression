@@ -71,7 +71,8 @@ public class Forms extends AbstractPage {
 
     //Date & time drop down
     @FindBy(id = "edit-submitted-stealthtime-c")
-    private static WebElement dateTime;
+	public
+    static WebElement dateTime;
 
     public static void clickDateTime() {
         dateTime.click();

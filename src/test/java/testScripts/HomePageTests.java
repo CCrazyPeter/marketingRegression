@@ -20,7 +20,7 @@ public class HomePageTests extends DriverInitialization {
             e.printStackTrace();
         }
     }
-
+/*
     @Test //This test is to ensure video plays until the end
     public void videoPlay () {
         driver.get("www.integrativenutrition.com");
@@ -38,5 +38,5 @@ public class HomePageTests extends DriverInitialization {
 
 
     }
-
+*/
 }

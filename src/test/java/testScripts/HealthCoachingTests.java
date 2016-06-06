@@ -62,7 +62,7 @@ public class HealthCoachingTests extends DriverInitialization {
             e.printStackTrace();
         }
     }
-
+/*
     @Test //This test is to ensure video plays until the end
     public void videoPlay() {
         HealthCoachingPage.watchVideo();
@@ -76,7 +76,7 @@ public class HealthCoachingTests extends DriverInitialization {
             e.printStackTrace();
         }
     }
-
+*/
     @Test //Submit Curriculum Guide form with no phone number
     public void submitFormNoPhone() {
         Forms.inputName("hCoachTest");
@@ -92,7 +92,7 @@ public class HealthCoachingTests extends DriverInitialization {
         Forms.enterPhoneNumber("2127305433");
         Forms.clickSubmitButton();
     }
-
+/*
     @Test //Test Privacy Link goes to correct url
     public void testPrivacyPolicy() {
         HealthCoachingPage.clickPrivacyLink();
@@ -103,5 +103,6 @@ public class HealthCoachingTests extends DriverInitialization {
             e.printStackTrace();
         }
     }
+*/
 }
 

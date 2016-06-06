@@ -13,8 +13,9 @@ public class AboutUsTests extends DriverInitialization {
     public void openHomepage() {
         driver.get("www.integrativenutrition.com/about-us");
     }
+    
 
-    @Test //This test is to ensure video plays until the end
+/*    @Test //This test is to ensure video plays until the end
     public void videoPlay() {
         AboutUsPage.watchVideo();
         driver.manage().timeouts().implicitlyWait(136, TimeUnit.SECONDS);
@@ -27,5 +28,5 @@ public class AboutUsTests extends DriverInitialization {
             e.printStackTrace();
         }
     }
-
+*/
 }

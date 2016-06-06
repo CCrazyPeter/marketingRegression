@@ -1,9 +1,16 @@
 package testScripts;
 
 import org.junit.Assert;
+
 import objectRepository.Header;
+
 import org.junit.Test;
+
 import setUpClasses.DriverInitialization;
+
+import org.openqa.selenium.*;
+import org.openqa.selenium.interactions.Actions;
+
 
 public class HeaderTests extends DriverInitialization {
 
@@ -22,7 +29,8 @@ public class HeaderTests extends DriverInitialization {
         Header.conductSearch("learning");
         String currentUrl = driver.getCurrentUrl();
         try {
-            Assert.assertEquals(currentUrl, "http://www.integrativenutrition.com/search/node/learning");
+            //Assert.assertEquals(currentUrl, "http://www.integrativenutrition.com/search/node/learning");
+        	Assert.assertEquals(currentUrl, "http://www.integrativenutrition.com/search/solr/learning");
         } catch (Exception e) {
             e.printStackTrace();
         }
@@ -55,7 +63,17 @@ public class HeaderTests extends DriverInitialization {
 
     @Test //Curriculum Page
     public void headerCurric() {
-        Header.clickCurriculumIcon();
+
+    	Actions actions = new Actions(driver);
+    	WebElement menuHoverLink = driver.findElement(By.xpath("//a[contains(text(),'Our Curriculum')]"));
+    	actions.moveToElement(menuHoverLink);
+
+    	WebElement subLink = driver.findElement(By.xpath("//a[contains(text(),'Curriculum Basics')]"));
+    	actions.moveToElement(subLink);
+    	actions.click();
+    	actions.perform();
+    	
+//        Header.clickCurriculumIcon();
         String currentUrl = driver.getCurrentUrl();
         try {
             Assert.assertEquals(currentUrl, "http://www.integrativenutrition.com/curriculum");
@@ -66,7 +84,16 @@ public class HeaderTests extends DriverInitialization {
 
     @Test //Info Sessions Page
     public void headerInfoSess() {
-        Header.clickInfoSessionsIcon();
+        //Header.clickInfoSessionsIcon();
+    	Actions actions = new Actions(driver);
+    	WebElement menuHoverLink = driver.findElement(By.xpath("//a[contains(text(),'Info Sessions')]"));
+    	actions.moveToElement(menuHoverLink);
+
+    	WebElement subLink = driver.findElement(By.xpath("//a[contains(text(),'Sign Up')]"));
+    	actions.moveToElement(subLink);
+    	actions.click();
+    	actions.perform();    	
+    	
         String currentUrl = driver.getCurrentUrl();
         try {
             Assert.assertEquals(currentUrl, "http://www.integrativenutrition.com/info-sessions");
@@ -77,7 +104,17 @@ public class HeaderTests extends DriverInitialization {
 
     @Test //Health Coaching Page
     public void headerHealthCoach() {
-        Header.clickHealthCoachIcon();
+    	
+    	Actions actions = new Actions(driver);
+    	WebElement menuHoverLink = driver.findElement(By.xpath("//a[contains(text(),'Health Coaching')]"));
+    	actions.moveToElement(menuHoverLink);
+
+    	WebElement subLink = driver.findElement(By.xpath("//a[contains(text(),'What is a Health Coach?')]"));
+    	actions.moveToElement(subLink);
+    	actions.click();
+    	actions.perform();
+
+        //Header.clickHealthCoachIcon();
         String currentUrl = driver.getCurrentUrl();
         try {
             Assert.assertEquals(currentUrl, "http://www.integrativenutrition.com/health-coaching");
@@ -88,7 +125,18 @@ public class HeaderTests extends DriverInitialization {
 
     @Test //About Us Page
     public void headerAboutUs() {
-        Header.clickAboutUsIcon();
+        //Header.clickAboutUsIcon();
+    	
+    	Actions actions = new Actions(driver);
+    	WebElement menuHoverLink = driver.findElement(By.xpath("//a[contains(text(),'About Us')]"));
+    	actions.moveToElement(menuHoverLink);
+
+    	WebElement subLink = driver.findElement(By.xpath("//a[contains(text(),'Who We Are')]"));
+    	actions.moveToElement(subLink);
+    	actions.click();
+    	actions.perform();
+    	
+    	
         String currentUrl = driver.getCurrentUrl();
         try {
             Assert.assertEquals(currentUrl, "http://www.integrativenutrition.com/about-us");
@@ -96,9 +144,4 @@ public class HeaderTests extends DriverInitialization {
             e.printStackTrace();
         }
     }
-
-
 }
-
-
-

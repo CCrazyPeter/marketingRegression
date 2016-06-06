@@ -15,7 +15,7 @@ public class CurriculumPageTests extends DriverInitialization {
     public void openHomepage() {
         driver.get("http://www.integrativenutrition.com/curriculum");
     }
-
+/*
     @Test //This test is to ensure video plays until the end
     public void videoPlay() {
         CurriculumPage.playVideo();
@@ -29,7 +29,7 @@ public class CurriculumPageTests extends DriverInitialization {
             e.printStackTrace();
         }
     }
-
+*/
     @Test //Submit Curriculum Guide form with no phone number
     public void submitFormNoPhone() {
         Forms.inputName("curriculumTest");
@@ -45,7 +45,7 @@ public class CurriculumPageTests extends DriverInitialization {
         Forms.enterPhoneNumber("2127305433");
         Forms.clickSubmitButton();
     }
-
+/*
     @Test //Test Privacy Link goes to correct url
     public void testPrivacyPolicy() {
         CurriculumPage.clickPrivacyLink();
@@ -56,4 +56,5 @@ public class CurriculumPageTests extends DriverInitialization {
             e.printStackTrace();
         }
     }
+*/
 }

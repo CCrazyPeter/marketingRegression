@@ -10,8 +10,11 @@ public class HomePage extends AbstractPage {
     public static WebElement headerBanner;
 
     //Watch Our Video Button
-    @FindBy(xpath =".//*[@id='block-system-main']/div[1]/div/div/div/div[9]/div/div[1]")
+    //@FindBy(xpath =".//*[@id='block-system-main']/div[1]/div/div/div/div[9]/div/div[1]")
+    @FindBy(xpath ="//div[9]/div/div")
+    //section[@id='block-system-main']/div/div/div/div/div[9]/div/div
     private static WebElement watchVideoButton;
+    
 
     public static void clickWatchVideo (){
         watchVideoButton.click();

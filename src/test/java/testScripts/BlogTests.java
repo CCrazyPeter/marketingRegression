@@ -1,6 +1,6 @@
 package testScripts;
 
-import objectRepository.BlogLandingPage;
+//import objectRepository.BlogLandingPage;
 import objectRepository.Forms;
 import org.junit.Assert;
 import org.junit.Before;
@@ -13,7 +13,7 @@ public class BlogTests extends DriverInitialization {
     public void openBlogLanding() {
         driver.get("www.integrativenutrition.com/blog");
     }
-
+/*
     @Test  //This test ensures the banner is displayed
     public void bannerDisplayed() {
         boolean bannerAppear = BlogLandingPage.blogHeaderBanner.isDisplayed();
@@ -23,7 +23,7 @@ public class BlogTests extends DriverInitialization {
             e.printStackTrace();
         }
     }
-
+*/
     @Test //Submit Curriculum Guide form with no phone number
     public void submitFormNoPhone() {
         Forms.inputName("blogTest");
@@ -36,7 +36,7 @@ public class BlogTests extends DriverInitialization {
             e.printStackTrace();
         }
     }
-
+/*
     @Test //Tests that the load more button is displayed at the bottom of the page
     public void loadMoreDisplayed() {
         boolean loadMore = BlogLandingPage.seeMore.isDisplayed();
@@ -46,7 +46,7 @@ public class BlogTests extends DriverInitialization {
             e.printStackTrace();
         }
     }
-
+*/
 }
 
 

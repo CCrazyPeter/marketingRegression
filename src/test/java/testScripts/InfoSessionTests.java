@@ -63,6 +63,7 @@ public class InfoSessionTests extends DriverInitialization {
             e.printStackTrace();
         }
     }
+/*
         @Test //Test Privacy Link goes to correct url
         public void testPrivacyPolicy() {
             InfoSessionsPage.clickPrivacyLink();
@@ -73,6 +74,6 @@ public class InfoSessionTests extends DriverInitialization {
                 e.printStackTrace();
             }
         }
-
+*/
     }
 

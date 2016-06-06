@@ -1,3375 +1,78 @@
-Marketing<?xml version="1.0" encoding="UTF-8"?>
-<project version="4">
-  <component name="CompilerConfiguration">
-    <resourceExtensions />
-    <wildcardResourcePatterns>
-      <entry name="!?*.java" />
-      <entry name="!?*.form" />
-      <entry name="!?*.class" />
-      <entry name="!?*.groovy" />
-      <entry name="!?*.scala" />
-      <entry name="!?*.flex" />
-      <entry name="!?*.kt" />
-      <entry name="!?*.clj" />
-      <entry name="!?*.aj" />
-    </wildcardResourcePatterns>
-    <annotationProcessing>
-      <profile default="true" name="Default" enabled="false">
-        <processorPath useClasspath="true" />
-      </profile>
-      <profile default="false" name="Maven default annotation processors profile" enabled="true">
-        <sourceOutputDir name="target/generated-sources/annotations" />
-        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
-        <outputRelativeToContentRoot value="true" />
-        <processorPath useClasspath="true" />
-        <module name="Marketing" />
-      </profile>
-    </annotationProcessing>
-    <bytecodeTargetLevel>
-      <module name="Marketing" target="1.5" />
-    </bytecodeTargetLevel>
-  </component>
-</project><component name="CopyrightManager">
-  <settings default="" />
-</component><component name="libraryTable">
-  <library name="Maven: cglib:cglib-nodep:2.1_3">
-    <CLASSES>
-      <root url="jar://$MAVEN_REPOSITORY$/cglib/cglib-nodep/2.1_3/cglib-nodep-2.1_3.jar!/" />
-    </CLASSES>
-    <JAVADOC>
-      <root url="jar://$MAVEN_REPOSITORY$/cglib/cglib-nodep/2.1_3/cglib-nodep-2.1_3-javadoc.jar!/" />
-    </JAVADOC>
-    <SOURCES>
-      <root url="jar://$MAVEN_REPOSITORY$/cglib/cglib-nodep/2.1_3/cglib-nodep-2.1_3-sources.jar!/" />
-    </SOURCES>
-  </library>
-</component><component name="libraryTable">
-  <library name="Maven: commons-codec:commons-codec:1.10">
-    <CLASSES>
-      <root url="jar://$MAVEN_REPOSITORY$/commons-codec/commons-codec/1.10/commons-codec-1.10.jar!/" />
-    </CLASSES>
-    <JAVADOC>
-      <root url="jar://$MAVEN_REPOSITORY$/commons-codec/commons-codec/1.10/commons-codec-1.10-javadoc.jar!/" />
-    </JAVADOC>
-    <SOURCES>
-      <root url="jar://$MAVEN_REPOSITORY$/commons-codec/commons-codec/1.10/commons-codec-1.10-sources.jar!/" />
-    </SOURCES>
-  </library>
-</component><component name="libraryTable">
-  <library name="Maven: commons-collections:commons-collections:3.2.1">
-    <CLASSES>
-      <root url="jar://$MAVEN_REPOSITORY$/commons-collections/commons-collections/3.2.1/commons-collections-3.2.1.jar!/" />
-    </CLASSES>
-    <JAVADOC>
-      <root url="jar://$MAVEN_REPOSITORY$/commons-collections/commons-collections/3.2.1/commons-collections-3.2.1-javadoc.jar!/" />
-    </JAVADOC>
-    <SOURCES>
-      <root url="jar://$MAVEN_REPOSITORY$/commons-collections/commons-collections/3.2.1/commons-collections-3.2.1-sources.jar!/" />
-    </SOURCES>
-  </library>
-</component><component name="libraryTable">
-  <library name="Maven: commons-io:commons-io:2.4">
-    <CLASSES>
-      <root url="jar://$MAVEN_REPOSITORY$/commons-io/commons-io/2.4/commons-io-2.4.jar!/" />
-    </CLASSES>
-    <JAVADOC>
-      <root url="jar://$MAVEN_REPOSITORY$/commons-io/commons-io/2.4/commons-io-2.4-javadoc.jar!/" />
-    </JAVADOC>
-    <SOURCES>
-      <root url="jar://$MAVEN_REPOSITORY$/commons-io/commons-io/2.4/commons-io-2.4-sources.jar!/" />
-    </SOURCES>
-  </library>
-</component><component name="libraryTable">
-  <library name="Maven: commons-logging:commons-logging:1.2">
-    <CLASSES>
-      <root url="jar://$MAVEN_REPOSITORY$/commons-logging/commons-logging/1.2/commons-logging-1.2.jar!/" />
-    </CLASSES>
-    <JAVADOC>
-      <root url="jar://$MAVEN_REPOSITORY$/commons-logging/commons-logging/1.2/commons-logging-1.2-javadoc.jar!/" />
-    </JAVADOC>
-    <SOURCES>
-      <root url="jar://$MAVEN_REPOSITORY$/commons-logging/commons-logging/1.2/commons-logging-1.2-sources.jar!/" />
-    </SOURCES>
-  </library>
-</component><component name="libraryTable">
-  <library name="Maven: com.google.code.gson:gson:2.3.1">
-    <CLASSES>
-      <root url="jar://$MAVEN_REPOSITORY$/com/google/code/gson/gson/2.3.1/gson-2.3.1.jar!/" />
-    </CLASSES>
-    <JAVADOC>
-      <root url="jar://$MAVEN_REPOSITORY$/com/google/code/gson/gson/2.3.1/gson-2.3.1-javadoc.jar!/" />
-    </JAVADOC>
-    <SOURCES>
-      <root url="jar://$MAVEN_REPOSITORY$/com/google/code/gson/gson/2.3.1/gson-2.3.1-sources.jar!/" />
-    </SOURCES>
-  </library>
-</component><component name="libraryTable">
-  <library name="Maven: com.google.guava:guava:18.0">
-    <CLASSES>
-      <root url="jar://$MAVEN_REPOSITORY$/com/google/guava/guava/18.0/guava-18.0.jar!/" />
-    </CLASSES>
-    <JAVADOC>
-      <root url="jar://$MAVEN_REPOSITORY$/com/google/guava/guava/18.0/guava-18.0-javadoc.jar!/" />
-    </JAVADOC>
-    <SOURCES>
-      <root url="jar://$MAVEN_REPOSITORY$/com/google/guava/guava/18.0/guava-18.0-sources.jar!/" />
-    </SOURCES>
-  </library>
-</component><component name="libraryTable">
-  <library name="Maven: io.netty:netty:3.5.2.Final">
-    <CLASSES>
-      <root url="jar://$MAVEN_REPOSITORY$/io/netty/netty/3.5.2.Final/netty-3.5.2.Final.jar!/" />
-    </CLASSES>
-    <JAVADOC>
-      <root url="jar://$MAVEN_REPOSITORY$/io/netty/netty/3.5.2.Final/netty-3.5.2.Final-javadoc.jar!/" />
-    </JAVADOC>
-    <SOURCES>
-      <root url="jar://$MAVEN_REPOSITORY$/io/netty/netty/3.5.2.Final/netty-3.5.2.Final-sources.jar!/" />
-    </SOURCES>
-  </library>
-</component><component name="libraryTable">
-  <library name="Maven: junit:junit:4.11">
-    <CLASSES>
-      <root url="jar://$MAVEN_REPOSITORY$/junit/junit/4.11/junit-4.11.jar!/" />
-    </CLASSES>
-    <JAVADOC>
-      <root url="jar://$MAVEN_REPOSITORY$/junit/junit/4.11/junit-4.11-javadoc.jar!/" />
-    </JAVADOC>
-    <SOURCES>
-      <root url="jar://$MAVEN_REPOSITORY$/junit/junit/4.11/junit-4.11-sources.jar!/" />
-    </SOURCES>
-  </library>
-</component><component name="libraryTable">
-  <library name="Maven: net.java.dev.jna:jna:4.1.0">
-    <CLASSES>
-      <root url="jar://$MAVEN_REPOSITORY$/net/java/dev/jna/jna/4.1.0/jna-4.1.0.jar!/" />
-    </CLASSES>
-    <JAVADOC>
-      <root url="jar://$MAVEN_REPOSITORY$/net/java/dev/jna/jna/4.1.0/jna-4.1.0-javadoc.jar!/" />
-    </JAVADOC>
-    <SOURCES>
-      <root url="jar://$MAVEN_REPOSITORY$/net/java/dev/jna/jna/4.1.0/jna-4.1.0-sources.jar!/" />
-    </SOURCES>
-  </library>
-</component><component name="libraryTable">
-  <library name="Maven: net.java.dev.jna:jna-platform:4.1.0">
-    <CLASSES>
-      <root url="jar://$MAVEN_REPOSITORY$/net/java/dev/jna/jna-platform/4.1.0/jna-platform-4.1.0.jar!/" />
-    </CLASSES>
-    <JAVADOC>
-      <root url="jar://$MAVEN_REPOSITORY$/net/java/dev/jna/jna-platform/4.1.0/jna-platform-4.1.0-javadoc.jar!/" />
-    </JAVADOC>
-    <SOURCES>
-      <root url="jar://$MAVEN_REPOSITORY$/net/java/dev/jna/jna-platform/4.1.0/jna-platform-4.1.0-sources.jar!/" />
-    </SOURCES>
-  </library>
-</component><component name="libraryTable">
-  <library name="Maven: net.sourceforge.cssparser:cssparser:0.9.16">
-    <CLASSES>
-      <root url="jar://$MAVEN_REPOSITORY$/net/sourceforge/cssparser/cssparser/0.9.16/cssparser-0.9.16.jar!/" />
-    </CLASSES>
-    <JAVADOC>
-      <root url="jar://$MAVEN_REPOSITORY$/net/sourceforge/cssparser/cssparser/0.9.16/cssparser-0.9.16-javadoc.jar!/" />
-    </JAVADOC>
-    <SOURCES>
-      <root url="jar://$MAVEN_REPOSITORY$/net/sourceforge/cssparser/cssparser/0.9.16/cssparser-0.9.16-sources.jar!/" />
-    </SOURCES>
-  </library>
-</component><component name="libraryTable">
-  <library name="Maven: net.sourceforge.htmlunit:htmlunit:2.17">
-    <CLASSES>
-      <root url="jar://$MAVEN_REPOSITORY$/net/sourceforge/htmlunit/htmlunit/2.17/htmlunit-2.17.jar!/" />
-    </CLASSES>
-    <JAVADOC>
-      <root url="jar://$MAVEN_REPOSITORY$/net/sourceforge/htmlunit/htmlunit/2.17/htmlunit-2.17-javadoc.jar!/" />
-    </JAVADOC>
-    <SOURCES>
-      <root url="jar://$MAVEN_REPOSITORY$/net/sourceforge/htmlunit/htmlunit/2.17/htmlunit-2.17-sources.jar!/" />
-    </SOURCES>
-  </library>
-</component><component name="libraryTable">
-  <library name="Maven: net.sourceforge.htmlunit:htmlunit-core-js:2.17">
-    <CLASSES>
-      <root url="jar://$MAVEN_REPOSITORY$/net/sourceforge/htmlunit/htmlunit-core-js/2.17/htmlunit-core-js-2.17.jar!/" />
-    </CLASSES>
-    <JAVADOC>
-      <root url="jar://$MAVEN_REPOSITORY$/net/sourceforge/htmlunit/htmlunit-core-js/2.17/htmlunit-core-js-2.17-javadoc.jar!/" />
-    </JAVADOC>
-    <SOURCES>
-      <root url="jar://$MAVEN_REPOSITORY$/net/sourceforge/htmlunit/htmlunit-core-js/2.17/htmlunit-core-js-2.17-sources.jar!/" />
-    </SOURCES>
-  </library>
-</component><component name="libraryTable">
-  <library name="Maven: net.sourceforge.nekohtml:nekohtml:1.9.22">
-    <CLASSES>
-      <root url="jar://$MAVEN_REPOSITORY$/net/sourceforge/nekohtml/nekohtml/1.9.22/nekohtml-1.9.22.jar!/" />
-    </CLASSES>
-    <JAVADOC>
-      <root url="jar://$MAVEN_REPOSITORY$/net/sourceforge/nekohtml/nekohtml/1.9.22/nekohtml-1.9.22-javadoc.jar!/" />
-    </JAVADOC>
-    <SOURCES>
-      <root url="jar://$MAVEN_REPOSITORY$/net/sourceforge/nekohtml/nekohtml/1.9.22/nekohtml-1.9.22-sources.jar!/" />
-    </SOURCES>
-  </library>
-</component><component name="libraryTable">
-  <library name="Maven: org.apache.commons:commons-exec:1.3">
-    <CLASSES>
-      <root url="jar://$MAVEN_REPOSITORY$/org/apache/commons/commons-exec/1.3/commons-exec-1.3.jar!/" />
-    </CLASSES>
-    <JAVADOC>
-      <root url="jar://$MAVEN_REPOSITORY$/org/apache/commons/commons-exec/1.3/commons-exec-1.3-javadoc.jar!/" />
-    </JAVADOC>
-    <SOURCES>
-      <root url="jar://$MAVEN_REPOSITORY$/org/apache/commons/commons-exec/1.3/commons-exec-1.3-sources.jar!/" />
-    </SOURCES>
-  </library>
-</component><component name="libraryTable">
-  <library name="Maven: org.apache.commons:commons-lang3:3.4">
-    <CLASSES>
-      <root url="jar://$MAVEN_REPOSITORY$/org/apache/commons/commons-lang3/3.4/commons-lang3-3.4.jar!/" />
-    </CLASSES>
-    <JAVADOC>
-      <root url="jar://$MAVEN_REPOSITORY$/org/apache/commons/commons-lang3/3.4/commons-lang3-3.4-javadoc.jar!/" />
-    </JAVADOC>
-    <SOURCES>
-      <root url="jar://$MAVEN_REPOSITORY$/org/apache/commons/commons-lang3/3.4/commons-lang3-3.4-sources.jar!/" />
-    </SOURCES>
-  </library>
-</component><component name="libraryTable">
-  <library name="Maven: org.apache.httpcomponents:httpclient:4.4.1">
-    <CLASSES>
-      <root url="jar://$MAVEN_REPOSITORY$/org/apache/httpcomponents/httpclient/4.4.1/httpclient-4.4.1.jar!/" />
-    </CLASSES>
-    <JAVADOC>
-      <root url="jar://$MAVEN_REPOSITORY$/org/apache/httpcomponents/httpclient/4.4.1/httpclient-4.4.1-javadoc.jar!/" />
-    </JAVADOC>
-    <SOURCES>
-      <root url="jar://$MAVEN_REPOSITORY$/org/apache/httpcomponents/httpclient/4.4.1/httpclient-4.4.1-sources.jar!/" />
-    </SOURCES>
-  </library>
-</component><component name="libraryTable">
-  <library name="Maven: org.apache.httpcomponents:httpcore:4.4.1">
-    <CLASSES>
-      <root url="jar://$MAVEN_REPOSITORY$/org/apache/httpcomponents/httpcore/4.4.1/httpcore-4.4.1.jar!/" />
-    </CLASSES>
-    <JAVADOC>
-      <root url="jar://$MAVEN_REPOSITORY$/org/apache/httpcomponents/httpcore/4.4.1/httpcore-4.4.1-javadoc.jar!/" />
-    </JAVADOC>
-    <SOURCES>
-      <root url="jar://$MAVEN_REPOSITORY$/org/apache/httpcomponents/httpcore/4.4.1/httpcore-4.4.1-sources.jar!/" />
-    </SOURCES>
-  </library>
-</component><component name="libraryTable">
-  <library name="Maven: org.apache.httpcomponents:httpmime:4.4.1">
-    <CLASSES>
-      <root url="jar://$MAVEN_REPOSITORY$/org/apache/httpcomponents/httpmime/4.4.1/httpmime-4.4.1.jar!/" />
-    </CLASSES>
-    <JAVADOC>
-      <root url="jar://$MAVEN_REPOSITORY$/org/apache/httpcomponents/httpmime/4.4.1/httpmime-4.4.1-javadoc.jar!/" />
-    </JAVADOC>
-    <SOURCES>
-      <root url="jar://$MAVEN_REPOSITORY$/org/apache/httpcomponents/httpmime/4.4.1/httpmime-4.4.1-sources.jar!/" />
-    </SOURCES>
-  </library>
-</component><component name="libraryTable">
-  <library name="Maven: org.eclipse.jetty:jetty-io:9.2.11.v20150529">
-    <CLASSES>
-      <root url="jar://$MAVEN_REPOSITORY$/org/eclipse/jetty/jetty-io/9.2.11.v20150529/jetty-io-9.2.11.v20150529.jar!/" />
-    </CLASSES>
-    <JAVADOC>
-      <root url="jar://$MAVEN_REPOSITORY$/org/eclipse/jetty/jetty-io/9.2.11.v20150529/jetty-io-9.2.11.v20150529-javadoc.jar!/" />
-    </JAVADOC>
-    <SOURCES>
-      <root url="jar://$MAVEN_REPOSITORY$/org/eclipse/jetty/jetty-io/9.2.11.v20150529/jetty-io-9.2.11.v20150529-sources.jar!/" />
-    </SOURCES>
-  </library>
-</component><component name="libraryTable">
-  <library name="Maven: org.eclipse.jetty:jetty-util:9.2.11.v20150529">
-    <CLASSES>
-      <root url="jar://$MAVEN_REPOSITORY$/org/eclipse/jetty/jetty-util/9.2.11.v20150529/jetty-util-9.2.11.v20150529.jar!/" />
-    </CLASSES>
-    <JAVADOC>
-      <root url="jar://$MAVEN_REPOSITORY$/org/eclipse/jetty/jetty-util/9.2.11.v20150529/jetty-util-9.2.11.v20150529-javadoc.jar!/" />
-    </JAVADOC>
-    <SOURCES>
-      <root url="jar://$MAVEN_REPOSITORY$/org/eclipse/jetty/jetty-util/9.2.11.v20150529/jetty-util-9.2.11.v20150529-sources.jar!/" />
-    </SOURCES>
-  </library>
-</component><component name="libraryTable">
-  <library name="Maven: org.eclipse.jetty.websocket:websocket-api:9.2.11.v20150529">
-    <CLASSES>
-      <root url="jar://$MAVEN_REPOSITORY$/org/eclipse/jetty/websocket/websocket-api/9.2.11.v20150529/websocket-api-9.2.11.v20150529.jar!/" />
-    </CLASSES>
-    <JAVADOC>
-      <root url="jar://$MAVEN_REPOSITORY$/org/eclipse/jetty/websocket/websocket-api/9.2.11.v20150529/websocket-api-9.2.11.v20150529-javadoc.jar!/" />
-    </JAVADOC>
-    <SOURCES>
-      <root url="jar://$MAVEN_REPOSITORY$/org/eclipse/jetty/websocket/websocket-api/9.2.11.v20150529/websocket-api-9.2.11.v20150529-sources.jar!/" />
-    </SOURCES>
-  </library>
-</component><component name="libraryTable">
-  <library name="Maven: org.eclipse.jetty.websocket:websocket-client:9.2.11.v20150529">
-    <CLASSES>
-      <root url="jar://$MAVEN_REPOSITORY$/org/eclipse/jetty/websocket/websocket-client/9.2.11.v20150529/websocket-client-9.2.11.v20150529.jar!/" />
-    </CLASSES>
-    <JAVADOC>
-      <root url="jar://$MAVEN_REPOSITORY$/org/eclipse/jetty/websocket/websocket-client/9.2.11.v20150529/websocket-client-9.2.11.v20150529-javadoc.jar!/" />
-    </JAVADOC>
-    <SOURCES>
-      <root url="jar://$MAVEN_REPOSITORY$/org/eclipse/jetty/websocket/websocket-client/9.2.11.v20150529/websocket-client-9.2.11.v20150529-sources.jar!/" />
-    </SOURCES>
-  </library>
-</component><component name="libraryTable">
-  <library name="Maven: org.eclipse.jetty.websocket:websocket-common:9.2.11.v20150529">
-    <CLASSES>
-      <root url="jar://$MAVEN_REPOSITORY$/org/eclipse/jetty/websocket/websocket-common/9.2.11.v20150529/websocket-common-9.2.11.v20150529.jar!/" />
-    </CLASSES>
-    <JAVADOC>
-      <root url="jar://$MAVEN_REPOSITORY$/org/eclipse/jetty/websocket/websocket-common/9.2.11.v20150529/websocket-common-9.2.11.v20150529-javadoc.jar!/" />
-    </JAVADOC>
-    <SOURCES>
-      <root url="jar://$MAVEN_REPOSITORY$/org/eclipse/jetty/websocket/websocket-common/9.2.11.v20150529/websocket-common-9.2.11.v20150529-sources.jar!/" />
-    </SOURCES>
-  </library>
-</component><component name="libraryTable">
-  <library name="Maven: org.hamcrest:hamcrest-core:1.3">
-    <CLASSES>
-      <root url="jar://$MAVEN_REPOSITORY$/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar!/" />
-    </CLASSES>
-    <JAVADOC>
-      <root url="jar://$MAVEN_REPOSITORY$/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3-javadoc.jar!/" />
-    </JAVADOC>
-    <SOURCES>
-      <root url="jar://$MAVEN_REPOSITORY$/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3-sources.jar!/" />
-    </SOURCES>
-  </library>
-</component><component name="libraryTable">
-  <library name="Maven: org.seleniumhq.selenium:selenium-api:2.47.1">
-    <CLASSES>
-      <root url="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-api/2.47.1/selenium-api-2.47.1.jar!/" />
-    </CLASSES>
-    <JAVADOC>
-      <root url="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-api/2.47.1/selenium-api-2.47.1-javadoc.jar!/" />
-    </JAVADOC>
-    <SOURCES>
-      <root url="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-api/2.47.1/selenium-api-2.47.1-sources.jar!/" />
-    </SOURCES>
-  </library>
-</component><component name="libraryTable">
-  <library name="Maven: org.seleniumhq.selenium:selenium-chrome-driver:2.47.1">
-    <CLASSES>
-      <root url="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-chrome-driver/2.47.1/selenium-chrome-driver-2.47.1.jar!/" />
-    </CLASSES>
-    <JAVADOC>
-      <root url="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-chrome-driver/2.47.1/selenium-chrome-driver-2.47.1-javadoc.jar!/" />
-    </JAVADOC>
-    <SOURCES>
-      <root url="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-chrome-driver/2.47.1/selenium-chrome-driver-2.47.1-sources.jar!/" />
-    </SOURCES>
-  </library>
-</component><component name="libraryTable">
-  <library name="Maven: org.seleniumhq.selenium:selenium-edge-driver:2.47.1">
-    <CLASSES>
-      <root url="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-edge-driver/2.47.1/selenium-edge-driver-2.47.1.jar!/" />
-    </CLASSES>
-    <JAVADOC>
-      <root url="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-edge-driver/2.47.1/selenium-edge-driver-2.47.1-javadoc.jar!/" />
-    </JAVADOC>
-    <SOURCES>
-      <root url="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-edge-driver/2.47.1/selenium-edge-driver-2.47.1-sources.jar!/" />
-    </SOURCES>
-  </library>
-</component><component name="libraryTable">
-  <library name="Maven: org.seleniumhq.selenium:selenium-firefox-driver:2.47.1">
-    <CLASSES>
-      <root url="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-firefox-driver/2.47.1/selenium-firefox-driver-2.47.1.jar!/" />
-    </CLASSES>
-    <JAVADOC>
-      <root url="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-firefox-driver/2.47.1/selenium-firefox-driver-2.47.1-javadoc.jar!/" />
-    </JAVADOC>
-    <SOURCES>
-      <root url="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-firefox-driver/2.47.1/selenium-firefox-driver-2.47.1-sources.jar!/" />
-    </SOURCES>
-  </library>
-</component><component name="libraryTable">
-  <library name="Maven: org.seleniumhq.selenium:selenium-htmlunit-driver:2.47.1">
-    <CLASSES>
-      <root url="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-htmlunit-driver/2.47.1/selenium-htmlunit-driver-2.47.1.jar!/" />
-    </CLASSES>
-    <JAVADOC>
-      <root url="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-htmlunit-driver/2.47.1/selenium-htmlunit-driver-2.47.1-javadoc.jar!/" />
-    </JAVADOC>
-    <SOURCES>
-      <root url="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-htmlunit-driver/2.47.1/selenium-htmlunit-driver-2.47.1-sources.jar!/" />
-    </SOURCES>
-  </library>
-</component><component name="libraryTable">
-  <library name="Maven: org.seleniumhq.selenium:selenium-ie-driver:2.47.1">
-    <CLASSES>
-      <root url="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-ie-driver/2.47.1/selenium-ie-driver-2.47.1.jar!/" />
-    </CLASSES>
-    <JAVADOC>
-      <root url="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-ie-driver/2.47.1/selenium-ie-driver-2.47.1-javadoc.jar!/" />
-    </JAVADOC>
-    <SOURCES>
-      <root url="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-ie-driver/2.47.1/selenium-ie-driver-2.47.1-sources.jar!/" />
-    </SOURCES>
-  </library>
-</component><component name="libraryTable">
-  <library name="Maven: org.seleniumhq.selenium:selenium-java:2.47.1">
-    <CLASSES>
-      <root url="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-java/2.47.1/selenium-java-2.47.1.jar!/" />
-    </CLASSES>
-    <JAVADOC>
-      <root url="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-java/2.47.1/selenium-java-2.47.1-javadoc.jar!/" />
-    </JAVADOC>
-    <SOURCES>
-      <root url="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-java/2.47.1/selenium-java-2.47.1-sources.jar!/" />
-    </SOURCES>
-  </library>
-</component><component name="libraryTable">
-  <library name="Maven: org.seleniumhq.selenium:selenium-leg-rc:2.47.1">
-    <CLASSES>
-      <root url="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-leg-rc/2.47.1/selenium-leg-rc-2.47.1.jar!/" />
-    </CLASSES>
-    <JAVADOC>
-      <root url="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-leg-rc/2.47.1/selenium-leg-rc-2.47.1-javadoc.jar!/" />
-    </JAVADOC>
-    <SOURCES>
-      <root url="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-leg-rc/2.47.1/selenium-leg-rc-2.47.1-sources.jar!/" />
-    </SOURCES>
-  </library>
-</component><component name="libraryTable">
-  <library name="Maven: org.seleniumhq.selenium:selenium-remote-driver:2.47.1">
-    <CLASSES>
-      <root url="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-remote-driver/2.47.1/selenium-remote-driver-2.47.1.jar!/" />
-    </CLASSES>
-    <JAVADOC>
-      <root url="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-remote-driver/2.47.1/selenium-remote-driver-2.47.1-javadoc.jar!/" />
-    </JAVADOC>
-    <SOURCES>
-      <root url="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-remote-driver/2.47.1/selenium-remote-driver-2.47.1-sources.jar!/" />
-    </SOURCES>
-  </library>
-</component><component name="libraryTable">
-  <library name="Maven: org.seleniumhq.selenium:selenium-safari-driver:2.47.1">
-    <CLASSES>
-      <root url="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-safari-driver/2.47.1/selenium-safari-driver-2.47.1.jar!/" />
-    </CLASSES>
-    <JAVADOC>
-      <root url="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-safari-driver/2.47.1/selenium-safari-driver-2.47.1-javadoc.jar!/" />
-    </JAVADOC>
-    <SOURCES>
-      <root url="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-safari-driver/2.47.1/selenium-safari-driver-2.47.1-sources.jar!/" />
-    </SOURCES>
-  </library>
-</component><component name="libraryTable">
-  <library name="Maven: org.seleniumhq.selenium:selenium-support:2.47.1">
-    <CLASSES>
-      <root url="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-support/2.47.1/selenium-support-2.47.1.jar!/" />
-    </CLASSES>
-    <JAVADOC>
-      <root url="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-support/2.47.1/selenium-support-2.47.1-javadoc.jar!/" />
-    </JAVADOC>
-    <SOURCES>
-      <root url="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-support/2.47.1/selenium-support-2.47.1-sources.jar!/" />
-    </SOURCES>
-  </library>
-</component><component name="libraryTable">
-  <library name="Maven: org.w3c.css:sac:1.3">
-    <CLASSES>
-      <root url="jar://$MAVEN_REPOSITORY$/org/w3c/css/sac/1.3/sac-1.3.jar!/" />
-    </CLASSES>
-    <JAVADOC>
-      <root url="jar://$MAVEN_REPOSITORY$/org/w3c/css/sac/1.3/sac-1.3-javadoc.jar!/" />
-    </JAVADOC>
-    <SOURCES>
-      <root url="jar://$MAVEN_REPOSITORY$/org/w3c/css/sac/1.3/sac-1.3-sources.jar!/" />
-    </SOURCES>
-  </library>
-</component><component name="libraryTable">
-  <library name="Maven: org.webbitserver:webbit:0.4.14">
-    <CLASSES>
-      <root url="jar://$MAVEN_REPOSITORY$/org/webbitserver/webbit/0.4.14/webbit-0.4.14.jar!/" />
-    </CLASSES>
-    <JAVADOC>
-      <root url="jar://$MAVEN_REPOSITORY$/org/webbitserver/webbit/0.4.14/webbit-0.4.14-javadoc.jar!/" />
-    </JAVADOC>
-    <SOURCES>
-      <root url="jar://$MAVEN_REPOSITORY$/org/webbitserver/webbit/0.4.14/webbit-0.4.14-sources.jar!/" />
-    </SOURCES>
-  </library>
-</component><component name="libraryTable">
-  <library name="Maven: xalan:serializer:2.7.2">
-    <CLASSES>
-      <root url="jar://$MAVEN_REPOSITORY$/xalan/serializer/2.7.2/serializer-2.7.2.jar!/" />
-    </CLASSES>
-    <JAVADOC>
-      <root url="jar://$MAVEN_REPOSITORY$/xalan/serializer/2.7.2/serializer-2.7.2-javadoc.jar!/" />
-    </JAVADOC>
-    <SOURCES>
-      <root url="jar://$MAVEN_REPOSITORY$/xalan/serializer/2.7.2/serializer-2.7.2-sources.jar!/" />
-    </SOURCES>
-  </library>
-</component><component name="libraryTable">
-  <library name="Maven: xalan:xalan:2.7.2">
-    <CLASSES>
-      <root url="jar://$MAVEN_REPOSITORY$/xalan/xalan/2.7.2/xalan-2.7.2.jar!/" />
-    </CLASSES>
-    <JAVADOC>
-      <root url="jar://$MAVEN_REPOSITORY$/xalan/xalan/2.7.2/xalan-2.7.2-javadoc.jar!/" />
-    </JAVADOC>
-    <SOURCES>
-      <root url="jar://$MAVEN_REPOSITORY$/xalan/xalan/2.7.2/xalan-2.7.2-sources.jar!/" />
-    </SOURCES>
-  </library>
-</component><component name="libraryTable">
-  <library name="Maven: xerces:xercesImpl:2.11.0">
-    <CLASSES>
-      <root url="jar://$MAVEN_REPOSITORY$/xerces/xercesImpl/2.11.0/xercesImpl-2.11.0.jar!/" />
-    </CLASSES>
-    <JAVADOC>
-      <root url="jar://$MAVEN_REPOSITORY$/xerces/xercesImpl/2.11.0/xercesImpl-2.11.0-javadoc.jar!/" />
-    </JAVADOC>
-    <SOURCES>
-      <root url="jar://$MAVEN_REPOSITORY$/xerces/xercesImpl/2.11.0/xercesImpl-2.11.0-sources.jar!/" />
-    </SOURCES>
-  </library>
-</component><component name="libraryTable">
-  <library name="Maven: xml-apis:xml-apis:1.4.01">
-    <CLASSES>
-      <root url="jar://$MAVEN_REPOSITORY$/xml-apis/xml-apis/1.4.01/xml-apis-1.4.01.jar!/" />
-    </CLASSES>
-    <JAVADOC>
-      <root url="jar://$MAVEN_REPOSITORY$/xml-apis/xml-apis/1.4.01/xml-apis-1.4.01-javadoc.jar!/" />
-    </JAVADOC>
-    <SOURCES>
-      <root url="jar://$MAVEN_REPOSITORY$/xml-apis/xml-apis/1.4.01/xml-apis-1.4.01-sources.jar!/" />
-    </SOURCES>
-  </library>
-</component><?xml version="1.0" encoding="UTF-8"?>
-<project version="4">
-  <component name="EntryPointsManager">
-    <entry_points version="2.0" />
-  </component>
-  <component name="MavenProjectsManager">
-    <option name="originalFiles">
-      <list>
-        <option value="$PROJECT_DIR$/pom.xml" />
-      </list>
-    </option>
-  </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
-    <OptionsSetting value="true" id="Add" />
-    <OptionsSetting value="true" id="Remove" />
-    <OptionsSetting value="true" id="Checkout" />
-    <OptionsSetting value="true" id="Update" />
-    <OptionsSetting value="true" id="Status" />
-    <OptionsSetting value="true" id="Edit" />
-    <ConfirmationsSetting value="0" id="Add" />
-    <ConfirmationsSetting value="0" id="Remove" />
-  </component>
-  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="false" assert-keyword="true" jdk-15="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
-    <output url="file://$PROJECT_DIR$/out" />
-  </component>
-</project><?xml version="1.0" encoding="UTF-8"?>
-<project version="4">
-  <component name="ProjectModuleManager">
-    <modules>
-      <module fileurl="file://$PROJECT_DIR$/Marketing.iml" filepath="$PROJECT_DIR$/Marketing.iml" />
-    </modules>
-  </component>
-</project><?xml version="1.0" encoding="UTF-8"?>
-<project version="4">
-  <component name="VcsDirectoryMappings">
-    <mapping directory="$PROJECT_DIR$" vcs="Git" />
-  </component>
-</project><?xml version="1.0" encoding="UTF-8"?>
-<projectDescription>
-	<name>MarketingSite</name>
-	<comment></comment>
-	<projects>
-	</projects>
-	<buildSpec>
-		<buildCommand>
-			<name>org.eclipse.jdt.core.javabuilder</name>
-			<arguments>
-			</arguments>
-		</buildCommand>
-		<buildCommand>
-			<name>org.eclipse.m2e.core.maven2Builder</name>
-			<arguments>
-			</arguments>
-		</buildCommand>
-	</buildSpec>
-	<natures>
-		<nature>org.eclipse.jdt.core.javanature</nature>
-		<nature>org.eclipse.m2e.core.maven2Nature</nature>
-	</natures>
-</projectDescription>
-eclipse.preferences.version=1
-org.eclipse.jdt.core.compiler.codegen.targetPlatform=1.5
-org.eclipse.jdt.core.compiler.compliance=1.5
-org.eclipse.jdt.core.compiler.problem.forbiddenReference=warning
-org.eclipse.jdt.core.compiler.source=1.5
-activeProfiles=
-eclipse.preferences.version=1
-resolveWorkspaceProjects=true
-version=1
 <?xml version="1.0" encoding="UTF-8"?>
-<module org.jetbrains.idea.maven.project.MavenProjectsManager.isMavenModule="true" type="JAVA_MODULE" version="4">
-  <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_1_5" inherit-compiler-output="false">
-    <output url="file://$MODULE_DIR$/target/classes" />
-    <output-test url="file://$MODULE_DIR$/target/test-classes" />
-    <content url="file://$MODULE_DIR$">
-      <sourceFolder url="file://$MODULE_DIR$/src/main/java" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/src/main/resources" type="java-resource" />
-      <sourceFolder url="file://$MODULE_DIR$/src/test/java" isTestSource="true" />
-      <excludeFolder url="file://$MODULE_DIR$/target" />
-    </content>
-    <orderEntry type="inheritedJdk" />
-    <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="library" name="Maven: org.seleniumhq.selenium:selenium-java:2.47.1" level="project" />
-    <orderEntry type="library" name="Maven: org.seleniumhq.selenium:selenium-chrome-driver:2.47.1" level="project" />
-    <orderEntry type="library" name="Maven: org.seleniumhq.selenium:selenium-remote-driver:2.47.1" level="project" />
-    <orderEntry type="library" name="Maven: cglib:cglib-nodep:2.1_3" level="project" />
-    <orderEntry type="library" name="Maven: com.google.code.gson:gson:2.3.1" level="project" />
-    <orderEntry type="library" name="Maven: org.seleniumhq.selenium:selenium-api:2.47.1" level="project" />
-    <orderEntry type="library" name="Maven: com.google.guava:guava:18.0" level="project" />
-    <orderEntry type="library" name="Maven: org.seleniumhq.selenium:selenium-edge-driver:2.47.1" level="project" />
-    <orderEntry type="library" name="Maven: commons-io:commons-io:2.4" level="project" />
-    <orderEntry type="library" name="Maven: org.apache.commons:commons-exec:1.3" level="project" />
-    <orderEntry type="library" name="Maven: org.seleniumhq.selenium:selenium-htmlunit-driver:2.47.1" level="project" />
-    <orderEntry type="library" name="Maven: net.sourceforge.htmlunit:htmlunit:2.17" level="project" />
-    <orderEntry type="library" name="Maven: xalan:xalan:2.7.2" level="project" />
-    <orderEntry type="library" name="Maven: xalan:serializer:2.7.2" level="project" />
-    <orderEntry type="library" name="Maven: commons-collections:commons-collections:3.2.1" level="project" />
-    <orderEntry type="library" name="Maven: org.apache.commons:commons-lang3:3.4" level="project" />
-    <orderEntry type="library" name="Maven: org.apache.httpcomponents:httpmime:4.4.1" level="project" />
-    <orderEntry type="library" name="Maven: commons-codec:commons-codec:1.10" level="project" />
-    <orderEntry type="library" name="Maven: net.sourceforge.htmlunit:htmlunit-core-js:2.17" level="project" />
-    <orderEntry type="library" name="Maven: xerces:xercesImpl:2.11.0" level="project" />
-    <orderEntry type="library" name="Maven: xml-apis:xml-apis:1.4.01" level="project" />
-    <orderEntry type="library" name="Maven: net.sourceforge.nekohtml:nekohtml:1.9.22" level="project" />
-    <orderEntry type="library" name="Maven: net.sourceforge.cssparser:cssparser:0.9.16" level="project" />
-    <orderEntry type="library" name="Maven: org.w3c.css:sac:1.3" level="project" />
-    <orderEntry type="library" name="Maven: commons-logging:commons-logging:1.2" level="project" />
-    <orderEntry type="library" name="Maven: org.eclipse.jetty.websocket:websocket-client:9.2.11.v20150529" level="project" />
-    <orderEntry type="library" name="Maven: org.eclipse.jetty:jetty-util:9.2.11.v20150529" level="project" />
-    <orderEntry type="library" name="Maven: org.eclipse.jetty:jetty-io:9.2.11.v20150529" level="project" />
-    <orderEntry type="library" name="Maven: org.eclipse.jetty.websocket:websocket-common:9.2.11.v20150529" level="project" />
-    <orderEntry type="library" name="Maven: org.eclipse.jetty.websocket:websocket-api:9.2.11.v20150529" level="project" />
-    <orderEntry type="library" name="Maven: org.apache.httpcomponents:httpclient:4.4.1" level="project" />
-    <orderEntry type="library" name="Maven: org.apache.httpcomponents:httpcore:4.4.1" level="project" />
-    <orderEntry type="library" name="Maven: org.seleniumhq.selenium:selenium-firefox-driver:2.47.1" level="project" />
-    <orderEntry type="library" name="Maven: org.seleniumhq.selenium:selenium-ie-driver:2.47.1" level="project" />
-    <orderEntry type="library" name="Maven: net.java.dev.jna:jna:4.1.0" level="project" />
-    <orderEntry type="library" name="Maven: net.java.dev.jna:jna-platform:4.1.0" level="project" />
-    <orderEntry type="library" name="Maven: org.seleniumhq.selenium:selenium-safari-driver:2.47.1" level="project" />
-    <orderEntry type="library" name="Maven: org.seleniumhq.selenium:selenium-support:2.47.1" level="project" />
-    <orderEntry type="library" name="Maven: org.webbitserver:webbit:0.4.14" level="project" />
-    <orderEntry type="library" name="Maven: io.netty:netty:3.5.2.Final" level="project" />
-    <orderEntry type="library" name="Maven: org.seleniumhq.selenium:selenium-leg-rc:2.47.1" level="project" />
-    <orderEntry type="library" scope="TEST" name="Maven: junit:junit:4.11" level="project" />
-    <orderEntry type="library" scope="TEST" name="Maven: org.hamcrest:hamcrest-core:1.3" level="project" />
-  </component>
-</module><?xml version="1.0" encoding="UTF-8"?>
-<project xmlns="http://maven.apache.org/POM/4.0.0"
-         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
-    <modelVersion>4.0.0</modelVersion>
-
-    <groupId>MarketingSite</groupId>
-    <artifactId>MarketingSite</artifactId>
-    <version>1.0-SNAPSHOT</version>
-
-    <dependencies>
-
-        <!-- Selenium Dependency -->
-        <dependency>
-            <groupId>org.seleniumhq.selenium</groupId>
-            <artifactId>selenium-java</artifactId>
-            <version>2.47.1</version>
-        </dependency>
-
-        <!-- JUnit Dependency-->
-        <dependency>
-            <groupId>junit</groupId>
-            <artifactId>junit</artifactId>
-            <version>4.11</version>
-            <scope>test</scope>
-        </dependency>
-
-
-    </dependencies>
-
-
-
-
-
-</project>package objectRepository;
-
-import setUpClasses.AbstractPage;
-
-public class AboutUsPage extends AbstractPage {
-}
-package objectRepository;
-
-import setUpClasses.AbstractPage;
-
-public class BlogElements extends AbstractPage {
-}
-package objectRepository;
-
-import setUpClasses.AbstractPage;
-
-public class ContactUsPage extends AbstractPage {
-}
-package objectRepository;
-
-import setUpClasses.AbstractPage;
-
-public class CurriculumPage extends AbstractPage {
-}
-package objectRepository;
-
-import org.openqa.selenium.WebElement;
-import org.openqa.selenium.support.FindBy;
-import org.openqa.selenium.support.PageFactory;
-import setUpClasses.AbstractPage;
-
-public class Footer extends AbstractPage {
-
-    //*** Page Links **********************************************************************************************
-
-    //Curriculum link - click on the link method
-    @FindBy(xpath = ".//*[@id='footer-menu-2']/li[1]/a")
-    private static WebElement curricLink;
-
-    public static void clickCurriculumLink() {
-        curricLink.click();
-    }
-    // PageFactory.initElements(driver, new CurriculumPage());}
-
-    //Learning Center - click on the link method
-    @FindBy(xpath = ".//*[@id='footer-menu-2']/li[1]/ul/li[1]/a")
-    private static WebElement learningCLink;
-
-    public static void clickLearningCenterLink() {
-        learningCLink.click();
-    }
-
-    //Visiting Teachers - click on the link method
-    @FindBy(xpath = "//a[@href='http://www.integrativenutrition.com/curriculum#visitingteachers']")
-    private static WebElement visitTeachLink;
-
-    public static void clickVisitingTeachersLink() {
-        visitTeachLink.click();
-    }
-
-    //Business Training - click on the link method
-    @FindBy(xpath = "//a[@href='http://www.integrativenutrition.com/curriculum#businesstraining']")
-    private static WebElement businessT;
-
-    public static void clickBusinessTrainingLink() {
-        businessT.click();
-    }
-
-    //Health Coaching - click on the link method
-    @FindBy(xpath = ".//*[@id='footer-menu-2']/li[2]/a")
-    private static WebElement healthCoachingLink;
-
-    public static void clickHealthCoachingLink() {
-        healthCoachingLink.click();
-    }
-
-    //What is a HC - click on the link method
-    @FindBy(xpath = "//a[@href='http://www.integrativenutrition.com/health-coaching#definehc']")
-    private static WebElement whatsHCLink;
-
-    public static void clickWhatsHCLink() {
-        whatsHCLink.click();
-    }
-
-    //Grad Success - click on the link method
-    @FindBy(xpath = "//a[@href='http://www.integrativenutrition.com/health-coaching#gradsuccess']")
-    private static WebElement gradSuccessLink;
-
-    public static void clickGradSuccessLink() {
-        gradSuccessLink.click();
-    }
-
-    //Passionate Career - click on the link method
-    @FindBy(xpath = "//a[@href='http://www.integrativenutrition.com/health-coaching#careerpassion']")
-    private static WebElement careerPassionLink;
-
-    public static void clickCareerPassionLink() {
-        careerPassionLink.click();
-    }
-
-    //Info Sessions - click on the link method
-    @FindBy(xpath = ".//*[@id='footer-menu-2']/li[3]/a")
-    private static WebElement infoSessLink;
-
-    public static void clickInfoSessionsLink() {
-        infoSessLink.click();
-    }
-
-    //Meet the Founder - click on the link method
-    @FindBy(xpath = "//a[@href='http://www.integrativenutrition.com/info-sessions#founder']")
-    private static WebElement meetFounderLink;
-
-    public static void clickMeetFounderLink() {
-        meetFounderLink.click();
-    }
-
-    //Student Experience - click on the link method
-    @FindBy(xpath = "//a[@href='http://www.integrativenutrition.com/info-sessions#studentexperience']")
-    private static WebElement studentExperienceLink;
-
-    public static void clickStudentExperienceLink() {
-        studentExperienceLink.click();
-    }
-
-    //Is HC Right For You - click on the link method
-    @FindBy(xpath = "//a[@href='http://www.integrativenutrition.com/info-sessions#hcrightforyou']")
-    private static WebElement hcRightLink;
-
-    public static void clickHCRightForYouLink() {
-        hcRightLink.click();
-    }
-
-    //My-Your Healthy - click on the link method
-    @FindBy(xpath = "//a[@href='http://www.integrativenutrition.com/info-sessions#healthy']")
-    private static WebElement myHealthyLink;
-
-    public static void clickMyYourHealthLink() {
-        myHealthyLink.click();
-    }
-
-    //About Us - click on the link method
-    @FindBy(xpath = ".//*[@id='footer-menu-2']/li[4]/a")
-    private static WebElement aboutUsLink;
-
-    public static void clickAboutUsLink() {
-        aboutUsLink.click();
-    }
-
-    //Health Revolution - click on the link method
-    @FindBy(xpath = "//a[@href='http://www.integrativenutrition.com/about-us#aboutvideo']")
-    private static WebElement healthRevLink;
-
-    public static void clickHealthRevLink() {
-        healthRevLink.click();
-    }
-
-    //Core Values - click on the link method
-    @FindBy(xpath = "//a[@href='http://www.integrativenutrition.com/about-us#corevalues']")
-    private static WebElement coreValuesLink;
-
-    public static void clickCoreValuesLink() {
-        coreValuesLink.click();
-    }
-
-    //Board of Advisors - click on the link method
-    @FindBy(xpath = "//a[@href='http://www.integrativenutrition.com/about-us#advisors']")
-    private static WebElement advisorBoardLink;
-
-    public static void clickAdvisorBoardLink() {
-        advisorBoardLink.click();
-    }
-
-    //Reviews - click on the link method
-    @FindBy(xpath = ".//*[@id='footer-menu-2']/li[4]/ul/li[4]/a")
-    private static WebElement reviewsLink;
-
-    public static void clickReviewsLink() {
-        reviewsLink.click();
-    }
-
-    //Blog - click on the link method
-    @FindBy(xpath = "//a[@href='/blog']")
-    private static WebElement blogLink;
-
-    public static void clickBlogLink() {
-        blogLink.click();
-    }
-
-    //From the Founder - click on the link method
-    @FindBy(xpath = "//a[@href='/blog/categories/notes-from-the-founder']")
-    private static WebElement fromFounder;
-
-    public static void clickFromFounderLink() {
-        fromFounder.click();
-    }
-
-    //Health Trends - click on the link method
-    @FindBy(xpath = "//a[@href='/blog/categories/health-trends']")
-    private static WebElement healthTrends;
-
-    public static void clickHealthTrendsLink() {
-        healthTrends.click();
-    }
-
-    //Regulatory Information - click on the link method
-    @FindBy(xpath = ".//*[@id='footer-menu']/li[1]/a")
-    private static WebElement regInfoLink;
-
-    public static void clickRegulatoryInfoLink() {
-        regInfoLink.click();
-    }
-
-    //Terms & Privacy Policy - click on the link method
-    @FindBy(xpath = ".//*[@id='footer-menu']/li[2]/a")
-    private static WebElement termsPrivacyLink;
-
-    public static void clickTermsPrivacyLink() {
-        termsPrivacyLink.click();
-    }
-
-    //Affiliates - click on the link method
-    @FindBy(xpath = ".//*[@id='footer-menu']/li[3]/a")
-    private static WebElement affiliatesLink;
-
-    public static void clickAffiliatesLink() {
-        affiliatesLink.click();
-    }
-
-    //Jobs - click on the link method
-    @FindBy(xpath = ".//*[@id='footer-menu']/li[4]/a")
-    private static WebElement jobsLink;
-
-    public static void clickJobsLink() {
-        jobsLink.click();
-    }
-
-
-    //*** Connect With Us *****************************************************************************************
-
-    //Facebook - click on the icon method
-    @FindBy(xpath = "html/body/footer/div[1]/div/div[2]/div[3]/ul[1]/li[1]/a/span[1]/i")
-    private static WebElement faceBookIcon;
-
-    public static void clickFacebookIcon() {
-        faceBookIcon.click();
-    }
-
-    //Twitter - click on the icon method
-    @FindBy(xpath = "html/body/footer/div[1]/div/div[2]/div[3]/ul[1]/li[2]/a/span[1]/i")
-    private static WebElement twitterIcon;
-
-    public static void clickTwitterIcon() {
-        twitterIcon.click();
-    }
-
-    //Tumbler - click on the icon method
-    @FindBy(xpath = "html/body/footer/div[1]/div/div[2]/div[3]/ul[1]/li[3]/a/span[1]/i")
-    private static WebElement tumblerIcon;
-
-    public static void clickTumblerIcon() {
-        tumblerIcon.click();
-    }
-
-    //Youtube - click on the icon method
-    @FindBy(xpath = "html/body/footer/div[1]/div/div[2]/div[3]/ul[2]/li[1]/a/span[1]/i")
-    private static WebElement youtubeIcon;
-
-    public static void clickyouTubeIcon() {
-        youtubeIcon.click();
-    }
-
-    //LinkedIn - click on the icon method
-    @FindBy(xpath = "html/body/footer/div[1]/div/div[2]/div[3]/ul[2]/li[2]/a/span[1]/i")
-    private static WebElement linkedInIcon;
-
-    public static void clickLinkedInIcon() {
-        linkedInIcon.click();
-    }
-
-    //Vine - click on the icon method
-    @FindBy(xpath = "html/body/footer/div[1]/div/div[2]/div[3]/ul[2]/li[3]/a/span[1]/i")
-    private static WebElement vineIcon;
-
-    public static void clickVineIcon() {
-        vineIcon.click();
-    }
-
-    //Google Plus - click on the icon method
-    @FindBy(xpath = "html/body/footer/div[1]/div/div[2]/div[3]/ul[3]/li[1]/a/span[1]/i")
-    private static WebElement googlePlusIcon;
-
-    public static void clickGPlusIcon() {
-        googlePlusIcon.click();
-    }
-
-    //Amazon - click on the icon method
-    @FindBy(xpath = "html/body/footer/div[1]/div/div[2]/div[3]/ul[3]/li[2]/a/span[1]/i")
-    private static WebElement amazonIcon;
-
-    public static void clickAmazonIcon() {
-        amazonIcon.click();
-    }
-
-    //SnapChat - click on the icon method
-    @FindBy(xpath = "html/body/footer/div[1]/div/div[2]/div[3]/ul[3]/li[3]/a/span[1]/i")
-    public static WebElement snapchatIcon;
-
-
-}
-
-
-
-
-package objectRepository;
-
-import org.openqa.selenium.WebElement;
-import org.openqa.selenium.support.FindBy;
-import setUpClasses.AbstractPage;
-
-public class Forms extends AbstractPage {
-
-    //First Name text box
-    @FindBy(id = "edit-submitted-firstname")
-    private static WebElement formName;
-
-    public static void inputName(String name) {
-        formName.click();
-        formName.sendKeys(name);
-    }
-
-    //Email text box
-    @FindBy(id = "edit-submitted-email")
-    private static WebElement formEmail;
-
-    public static void inputEmail(String email) {
-        formEmail.click();
-        formEmail.sendKeys(email);
-    }
-
-    //Call checkbox
-    @FindBy(id = "edit-submitted-please-call-c-1")
-    private static WebElement formCheckBox;
-
-    public static void clickPhoneBox() {
-        formCheckBox.click();
-    }
-
-    //Country flag dropdown
-    @FindBy(xpath = "//div[@class='selected-flag']")
-    private static WebElement formFlag;
-    public static void selectFlag() {
-        formFlag.click();
-    }
-
-    //Phone text field
-    @FindBy(id = "edit-submitted-home-phone-c")
-    public static WebElement formPhone;
-
-    public static void enterPhoneNumber(String phone) {
-        formPhone.click();
-        formPhone.sendKeys(phone);
-    }
-
-    //All submit buttons (Register Here, Get Started, etc)
-    @FindBy(id = "edit-submit")
-    private static WebElement formSubmit;
-
-    public static void clickSubmitButton() {
-        formSubmit.click();
-    }
-
-    //Privacy Policy link
-    @FindBy(xpath = ".//*[@id='webform-client-form-6101']/div/p/small/a")
-    private static WebElement formprivacy;
-
-    public static void clickPrivacyLink() {
-        formprivacy.click();
-    }
-
-
-    /*
-        Joshua's Info Session - http://www.integrativenutrition.com/info-sessions
-    */
-
-    //Date & time drop down
-    @FindBy(id = "edit-submitted-stealthtime-c")
-    private static WebElement dateTime;
-
-    public static void clickDateTime() {
-        dateTime.click();
-    }
-
-    //Join Now option
-    @FindBy(xpath = "//option[@value='join_now_lp']")
-    public static WebElement joinNow;
-
-    //First webinar option
-    @FindBy(xpath = ".//*[@id='edit-submitted-stealthtime-c']/option[2]")
-    private static WebElement firstWebinar;
-
-    public static void selectFirstWebinar() {
-        firstWebinar.click();
-    }
-
-    /*
-        Contact Us help field
-    */
-    @FindBy(xpath = "edit-submitted-contact-form-how-can-we-help-c")
-    private static WebElement helpTextBox;
-
-    public static void fillTextBox(String helpInquiry) {
-        helpTextBox.click();
-        helpTextBox.sendKeys(helpInquiry);
-    }
-
-    /*
-        Paid Lead Gen fields
-    */
-
-    //"Why Are You Interested in IIN" field
-    @FindBy(xpath = "edit-submitted-optininterest-c")
-    private static WebElement whyInterestedField;
-
-    public static void clickWhyInterested() {
-        whyInterestedField.click();
-    }
-
-    //"What Topic Are You Excited to Learn" field
-    @FindBy(xpath = "edit-submitted-topic-most-excited-c")
-    private static WebElement topicToLearn;
-
-    public static void clickTopicToLearn() {
-        topicToLearn.click();
-    }
-
-    //"When Might You Begin Your Training" field
-    @FindBy(xpath = "edit-submitted-time-frame-to-begin-c")
-    private static WebElement startTraining;
-
-    public static void clickTrainingDate() {
-        startTraining.click();
-    }
-
-
-}
-package objectRepository;
-
-import org.openqa.selenium.Keys;
-import org.openqa.selenium.WebElement;
-import org.openqa.selenium.support.FindBy;
-import org.openqa.selenium.support.PageFactory;
-import setUpClasses.AbstractPage;
-
-
-public class Header extends AbstractPage {
-
-    //Home icon
-    @FindBy(xpath = ".//*[@id='navbar']/div[2]/div/div[1]/a/span[1]")
-    private static WebElement home;
-    public static void clickHomeIcon(){home.click();}
-
-    //Curriculum icon
-    @FindBy (xpath = ".//*[@id='navbar']/div[2]/div/div[2]/nav/ul/li[1]/a")
-    private static WebElement curriculum;
-    public static void clickCurriculumIcon(){curriculum.click();}
-
-
-    //Info sessions icon
-    @FindBy (xpath = ".//*[@id='navbar']/div[2]/div/div[2]/nav/ul/li[2]/a")
-    private static WebElement info;
-    public static void clickInfoSessionsIcon(){info.click();}
-
-    //Health Coaching icon
-    @FindBy (xpath = ".//*[@id='navbar']/div[2]/div/div[2]/nav/ul/li[3]/a")
-    private static WebElement healthCoach;
-    public static void clickHealthCoachIcon(){healthCoach.click();}
-
-    //About Us
-    @FindBy (xpath = ".//*[@id='navbar']/div[2]/div/div[2]/nav/ul/li[4]/a")
-    private static WebElement about;
-    public static void clickAboutUsIcon(){about.click();}
-
-    //Phone Number
-    @FindBy (xpath = "//p[@class='telephone-number']")
-    public static WebElement phoneNumber;
-
-    //Contact Us
-    @FindBy (xpath = ".//*[@id='secondary-menu']/li/a")
-    private static WebElement contact;
-    public static void clickContactUsIcon(){contact.click();}
-
-    //Search
-    @FindBy (id = "edit-search-block-form--2")
-    private static WebElement search;
-    public static void conductSearch(String term){
-        search.sendKeys(term);
-        search.sendKeys(Keys.RETURN);}
-        //
-
-
-}
-package objectRepository;
-
-import setUpClasses.AbstractPage;
-
-/**
- * Created by carlos on 8/9/15.
- */
-public class HealthCoachingPage extends AbstractPage {
-}
-package objectRepository;
-import org.openqa.selenium.WebElement;
-import org.openqa.selenium.support.FindBy;
-import setUpClasses.AbstractPage;
-
-public class HomePage extends AbstractPage {
-
-    //Banner
-    @FindBy(xpath ="//header[@role='banner']")
-    public static WebElement headerBanner;
-
-    //Watch Our Video Button
-    @FindBy(xpath =".//*[@id='block-system-main']/div[1]/div/div/div/div[9]/div/div[1]")
-    private static WebElement watchVideoButton;
-
-    public static void clickWatchVideo (){
-        watchVideoButton.click();
-    }
-
-    //Sample Our Program button
-    @FindBy (xpath =".//*[@id='block-system-main']/div[1]/div/div/div/div[9]/div/div[2]/a/span")
-    private static WebElement sampleProgramButton;
-
-    public static void clickSampleProgram () {
-        sampleProgramButton.click();
-    }
-
-    /*******************************************************************************************
-     * Video modal
-     *******************************************************************************************/
-
-    //Modal Close button - closes all modals
-    @FindBy(xpath = "//button[@data-dismiss='modal']")
-    public static WebElement modalCloseButton;
-    public static void closeModal(){modalCloseButton.click();}
-
-    //Play/Pause button
-    @FindBy (xpath = "//button[@class='ytp-play-button ytp-button']")
-    private static WebElement playButton;
-    public static void clickPlayPause(){
-        playButton.click();
-    }
-
-    //Video Elapsed Field
-    @FindBy (xpath = "//span[@class='ytp-time-current']")
-    public static WebElement videoElapsed;
-
-
-
-
-
-
-
-}
-package objectRepository;
-
-import org.openqa.selenium.WebElement;
-import org.openqa.selenium.support.FindBy;
-import setUpClasses.AbstractPage;
-
-public class InfoSessionsPage extends AbstractPage {
-
-    //Privacy Policy link
-    @FindBy(xpath = ".//*[@id='webform-client-form-6456']/div/p/small/a")
-    private static WebElement formprivacy;
-
-    public static void clickPrivacyLink() {
-        formprivacy.click();
-    }
-}
-package objectRepository;
-
-import org.openqa.selenium.WebElement;
-import org.openqa.selenium.support.FindBy;
-import setUpClasses.AbstractPage;
-
-public class PaidLeadGen extends AbstractPage{
-
-    //Banner
-    @FindBy(xpath ="//header[@role='banner']")
-    public static WebElement headerBanner;
-
-}
-package objectRepository;
-
-import org.openqa.selenium.WebElement;
-import org.openqa.selenium.support.FindBy;
-import setUpClasses.AbstractPage;
-
-public class SampleClassModulePage extends AbstractPage {
-
-    //Banner
-    @FindBy(xpath ="//header[@role='banner']")
-    public static WebElement SCMHeaderBanner;
-
-    //Mission Video
-    @FindBy(xpath = ".//*[@id='block-system-main']/div[3]/div/div/div/div[5]/div/div/div[1]/div/div")
-    private static WebElement welcomeVideo;
-    public static void clickWelcomeVideo(){welcomeVideo.click();}
-
-    //Modal Close button - closes all modals
-    @FindBy(xpath = "//button[@data-dismiss='modal']")
-    public static WebElement modalCloseButton;
-    public static void closeModal(){modalCloseButton.click();}
-
-    //Play/Pause button
-    @FindBy (xpath = ".//*[@id='modalVideo-2']/div/div/div/div/div[2]/div[1]")
-    private static WebElement playButton;
-    public static void clickPlayPause(){
-        playButton.click();
-    }
-
-    //Video Elapsed Field
-    @FindBy (xpath = ".//*[@id='modalVideo-1']/div/div/div/div/div[2]/div[3]")
-    public static WebElement videoElapsed;
-
-
-
-}
-package objectRepository;
-
-import org.openqa.selenium.WebElement;
-import org.openqa.selenium.support.FindBy;
-import setUpClasses.AbstractPage;
-
-public class ThankYouPages extends AbstractPage {
-
-    //Banner
-    //@FindBy(xpath = ".//*[@id='navbar']/div[2]")
-    @FindBy(xpath ="//header[@role='banner']")
-    public static WebElement headerBanner;
-
-    //Video Button
-    @FindBy(xpath =".//*[@id='block-system-main']/div[3]/div/div/div/div[3]/div/div")
-    private static WebElement watchVideoButton;
-
-    public static void watchVideo (){
-        watchVideoButton.click();
-    }
-
-    //Modal Close button - closes all modals
-    @FindBy(xpath = "//button[@data-dismiss='modal']")
-    public static WebElement modalCloseButton;
-    public static void closeModal(){modalCloseButton.click();}
-
-    //Play/Pause button
-    @FindBy (xpath = "//button[@class='ytp-play-button ytp-button']")
-    private static WebElement playButton;
-    public static void clickPlayPause(){
-        playButton.click();
-    }
-
-    //Video Elapsed Field
-    @FindBy (xpath = "//span[@class='ytp-time-current']")
-    public static WebElement videoElapsed;
-
-}
-package setUpClasses;
-
-import org.openqa.selenium.WebDriver;
-
-
-public class AbstractPage {
-
-    protected static WebDriver driver = DriverInitialization.driver;
-}
-package setUpClasses;
-
-import objectRepository.*;
-import org.junit.AfterClass;
-import org.junit.BeforeClass;
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.chrome.ChromeDriver;
-import org.openqa.selenium.firefox.FirefoxDriver;
-import org.openqa.selenium.htmlunit.HtmlUnitDriver;
-import org.openqa.selenium.safari.SafariDriver;
-import org.openqa.selenium.support.PageFactory;
-
-import java.util.concurrent.TimeUnit;
-
-public class DriverInitialization  {
-
-    public static WebDriver driver;
-
-    @BeforeClass
-    public static void createEnvironment() {
-        //driver = new FirefoxDriver();
-        driver = new ChromeDriver();
-        //driver = new SafariDriver();
-
-        driver.manage().deleteAllCookies();
-        driver.get("http://www.integrativenutrition.com/");
-        driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
-
-        //Initialize all pages
-        PageFactory.initElements(driver, new Header());
-        PageFactory.initElements(driver, new Footer());
-        PageFactory.initElements(driver, new Forms());
-        PageFactory.initElements(driver, new HomePage());
-        PageFactory.initElements(driver, new CurriculumPage());
-        PageFactory.initElements(driver, new InfoSessionsPage());
-        PageFactory.initElements(driver, new HealthCoachingPage());
-        PageFactory.initElements(driver, new AboutUsPage());
-        PageFactory.initElements(driver, new ContactUsPage());
-        PageFactory.initElements(driver, new BlogElements());
-        PageFactory.initElements(driver, new PaidLeadGen());
-    }
-
-    @AfterClass
-    public static void tearDownEnvironment(){driver.quit();
-    }
-
-}
-
-package testScripts;
-
-import objectRepository.AboutUsPage;
-import org.junit.Assert;
-import org.junit.Before;
-import org.junit.Test;
-import setUpClasses.DriverInitialization;
-import java.util.concurrent.TimeUnit;
-
-public class AboutUsTests extends DriverInitialization {
-
-    @Before
-    public void openHomepage() {
-        driver.get("www.integrativenutrition.com/about-us");
-    }
-
-    @Test //This test is to ensure video plays until the end
-    public void videoPlay() {
-        AboutUsPage.watchVideo();
-        driver.manage().timeouts().implicitlyWait(136, TimeUnit.SECONDS);
-        driver.switchTo().frame("media-youtube-lrkty-uqnjy");
-        String videoElapsed = AboutUsPage.videoElapsed.getText();
-        boolean videoComplete = videoElapsed.contains("2:14");
-        try {
-            Assert.assertTrue(videoComplete);
-        } catch (Exception e) {
-            e.printStackTrace();
-        }
-    }
-
-}
-package testScripts;
-
-import objectRepository.BlogLandingPage;
-import objectRepository.Forms;
-import org.junit.Assert;
-import org.junit.Before;
-import org.junit.Test;
-import setUpClasses.DriverInitialization;
-
-public class BlogTests extends DriverInitialization {
-
-    @Before
-    public void openBlogLanding() {
-        driver.get("www.integrativenutrition.com/blog");
-    }
-
-    @Test  //This test ensures the banner is displayed
-    public void bannerDisplayed() {
-        boolean bannerAppear = BlogLandingPage.blogHeaderBanner.isDisplayed();
-        try {
-            Assert.assertTrue(bannerAppear);
-        } catch (Exception e) {
-            e.printStackTrace();
-        }
-    }
-
-    @Test //Submit Curriculum Guide form with no phone number
-    public void submitFormNoPhone() {
-        Forms.inputName("blogTest");
-        Forms.inputEmail("blogNoPhone@qatest.edu");
-        Forms.clickSubmitButton();
-        boolean expectedUrl= driver.getCurrentUrl().contains("http://www.integrativenutrition.com/guide-thank-you?sid=");
-        try {
-            Assert.assertTrue(expectedUrl);
-        } catch (Exception e) {
-            e.printStackTrace();
-        }
-    }
-
-    @Test //Tests that the load more button is displayed at the bottom of the page
-    public void loadMoreDisplayed() {
-        boolean loadMore = BlogLandingPage.seeMore.isDisplayed();
-        try {
-            Assert.assertTrue(loadMore);
-        } catch (Exception e) {
-            e.printStackTrace();
-        }
-    }
-
-}
-
-
-package testScripts;
-
-import objectRepository.CurriculumPage;
-import objectRepository.Forms;
-import org.junit.Assert;
-import org.junit.Before;
-import org.junit.Test;
-import setUpClasses.DriverInitialization;
-
-import java.util.concurrent.TimeUnit;
-
-public class CurriculumPageTests extends DriverInitialization {
-
-    @Before
-    public void openHomepage() {
-        driver.get("http://www.integrativenutrition.com/curriculum");
-    }
-
-    @Test //This test is to ensure video plays until the end
-    public void videoPlay() {
-        CurriculumPage.playVideo();
-        driver.manage().timeouts().implicitlyWait(147, TimeUnit.SECONDS);
-        driver.switchTo().frame("media-youtube-8f0lea1ov4q");
-        String videoElapsed = CurriculumPage.videoElapsed.getText();
-        boolean videoComplete = videoElapsed.contains("2:24");
-        try {
-            Assert.assertTrue(videoComplete);
-        } catch (Exception e) {
-            e.printStackTrace();
-        }
-    }
-
-    @Test //Submit Curriculum Guide form with no phone number
-    public void submitFormNoPhone() {
-        Forms.inputName("curriculumTest");
-        Forms.inputEmail("curriculumNoPhone@qatest.edu");
-        Forms.clickSubmitButton();
-    }
-
-    @Test //Submit Curriculum Guide form with phone number
-    public void submitFormWithPhone() {
-        Forms.inputName("curriculumTest");
-        Forms.inputEmail("curriculumWithPhone@qatest.edu");
-        Forms.clickPhoneBox();
-        Forms.enterPhoneNumber("2127305433");
-        Forms.clickSubmitButton();
-    }
-
-    @Test //Test Privacy Link goes to correct url
-    public void testPrivacyPolicy() {
-        CurriculumPage.clickPrivacyLink();
-        String currentUrl = driver.getCurrentUrl();
-        try {
-            Assert.assertEquals(currentUrl, "http://www.integrativenutrition.com/lp/privacypolicy");
-        } catch (Exception e) {
-            e.printStackTrace();
-        }
-    }
-}
-package testScripts;
-
-import objectRepository.Footer;
-import org.junit.Assert;
-import org.junit.Test;
-import setUpClasses.DriverInitialization;
-import java.util.Iterator;
-import java.util.Set;
-
-public class FooterSocialMedia extends DriverInitialization {
-
-    //*** This section is to test that all social media & sub menu links go to their respective pages on click **********************
-
-    @Test
-    public void footerOpenSocialMedia() {
-        Footer.clickFacebookIcon();
-        Footer.clickTwitterIcon();
-        Footer.clickTumblerIcon();
-        Footer.clickyouTubeIcon();
-        Footer.clickLinkedInIcon();
-        Footer.clickVineIcon();
-        Footer.clickGPlusIcon();
-        Footer.clickAmazonIcon();
-
-        Set<String> tabs = driver.getWindowHandles();
-        Iterator<String> socialMedia = tabs.iterator();
-        String home = socialMedia.next();
-        String faceBook = socialMedia.next();
-        String twitter = socialMedia.next();
-        String tumbler = socialMedia.next();
-        String youTube = socialMedia.next();
-        String linkedIn = socialMedia.next();
-        String vine = socialMedia.next();
-        String googlePlus = socialMedia.next();
-        String amazon = socialMedia.next();
-
-        //Facebook
-        driver.switchTo().window(faceBook);
-        String currentUrlF = driver.getCurrentUrl();
-        try {
-            Assert.assertEquals(currentUrlF, "https://www.facebook.com/NutritionSchool");
-        } catch (Exception e) {
-            e.printStackTrace();
-        }
-
-        //Twitter
-        driver.switchTo().window(twitter);
-        String currentUrlTwit = driver.getCurrentUrl();
-        try {
-            Assert.assertEquals(currentUrlTwit, "https://twitter.com/NutritionSchool");
-        } catch (Exception e) {
-            e.printStackTrace();
-        }
-
-        //Tumbler
-        driver.switchTo().window(tumbler);
-        String currentUrlTum = driver.getCurrentUrl();
-        try {
-            Assert.assertEquals(currentUrlTum, "http://integrativenutrition.tumblr.com/");
-        } catch (Exception e) {
-            e.printStackTrace();
-        }
-
-        //YouTube
-        driver.switchTo().window(youTube);
-        String currentUrlYouTube = driver.getCurrentUrl();
-        try {
-            Assert.assertEquals(currentUrlYouTube, "https://www.youtube.com/user/integrativenutrition");
-        } catch (Exception e) {
-            e.printStackTrace();
-        }
-
-        //LinkedIn
-        driver.switchTo().window(linkedIn);
-        String currentUrlLinked = driver.getCurrentUrl();
-        try {
-            Assert.assertEquals(currentUrlLinked, "https://www.linkedin.com/company/institute-for-integrative-nutrition?trk=NUS_CMPY_TWIT");
-        } catch (Exception e) {
-            e.printStackTrace();
-        }
-
-        //Vine
-        driver.switchTo().window(vine);
-        String currentUrlVine = driver.getCurrentUrl();
-        try {
-            Assert.assertEquals(currentUrlVine, "https://vine.co/u/1194388372626505728?mode=grid");
-        } catch (Exception e) {
-            e.printStackTrace();
-        }
-
-        //Google Plus
-        driver.switchTo().window(googlePlus);
-        String currentUrlGPlus = driver.getCurrentUrl();
-        try {
-            Assert.assertEquals(currentUrlGPlus, "https://plus.google.com/112542079191654541836/posts");
-        } catch (Exception e) {
-            e.printStackTrace();
-        }
-
-        //Amazon
-        driver.switchTo().window(amazon);
-        String currentUrlAmazon = driver.getCurrentUrl();
-        try {
-            Assert.assertEquals(currentUrlAmazon, "http://www.amazon.com/s?marketplaceID=ATVPDKIKX0DER&me=A388GKFOEEICY0&merchant=A388GKFOEEICY0&redirect=true");
-        } catch (Exception e) {
-            e.printStackTrace();
-        }
-
-        /*
-        //Navigate back to the home window
-        driver.switchTo().window(home);
-
-        //verify SnapChat icon is displayed
-        boolean isPresent = Footer.snapchatIcon.isDisplayed();
-        try {
-            Assert.assertTrue(isPresent);
-        } catch (Exception e) {
-            e.printStackTrace();
-        }
-    */
-    }
-
-}
-package testScripts;
-
-import objectRepository.Footer;
-import org.junit.Assert;
-import org.junit.Test;
-import setUpClasses.DriverInitialization;
-import java.util.Iterator;
-import java.util.Set;
-
-
-public class FooterTests extends DriverInitialization {
-
-    //*** This section is to test that all footer links go to their respective pages on click ************************
-
-    @Test //Curriculum link
-    public void footerCurric() {
-        Footer.clickCurriculumLink();
-        String currentUrl = driver.getCurrentUrl();
-        try {
-            Assert.assertEquals(currentUrl, "http://www.integrativenutrition.com/curriculum");
-        } catch (Exception e) {
-            e.printStackTrace();
-        }
-    }
-
-    @Test //IIN Learning Center link
-    public void footerLC() {
-        Footer.clickLearningCenterLink();
-        String currentUrl = driver.getCurrentUrl();
-        try {
-            Assert.assertEquals(currentUrl, "http://www.integrativenutrition.com/curriculum#learningcenter");
-        } catch (Exception e) {
-            e.printStackTrace();
-        }
-    }
-
-    @Test //Visiting Center link
-    public void footerVisitTeach() {
-        Footer.clickVisitingTeachersLink();
-        String currentUrl = driver.getCurrentUrl();
-        try {
-            Assert.assertEquals(currentUrl, "http://www.integrativenutrition.com/curriculum#visitingteachers");
-        } catch (Exception e) {
-            e.printStackTrace();
-        }
-    }
-
-    @Test //Business Training link
-    public void footerBusinessTraining() {
-        Footer.clickBusinessTrainingLink();
-        String currentUrl = driver.getCurrentUrl();
-        try {
-            Assert.assertEquals(currentUrl, "http://www.integrativenutrition.com/curriculum#businesstraining");
-        } catch (Exception e) {
-            e.printStackTrace();
-        }
-    }
-
-    @Test //Health Coaching link
-    public void footerHealthCoaching() {
-        Footer.clickHealthCoachingLink();
-        String currentUrl = driver.getCurrentUrl();
-        try {
-            Assert.assertEquals(currentUrl, "http://www.integrativenutrition.com/health-coaching");
-        } catch (Exception e) {
-            e.printStackTrace();
-        }
-    }
-
-    @Test //What is HC link
-    public void footerWhatIsHC() {
-        Footer.clickWhatsHCLink();
-        String currentUrl = driver.getCurrentUrl();
-        try {
-            Assert.assertEquals(currentUrl, "http://www.integrativenutrition.com/health-coaching#definehc");
-        } catch (Exception e) {
-            e.printStackTrace();
-        }
-    }
-
-    @Test //Grad Success link
-    public void footerGradSuccess() {
-        Footer.clickGradSuccessLink();
-        String currentUrl = driver.getCurrentUrl();
-        try {
-            Assert.assertEquals(currentUrl, "http://www.integrativenutrition.com/health-coaching#gradsuccess");
-        } catch (Exception e) {
-            e.printStackTrace();
-        }
-    }
-
-    @Test //Passionate Career link
-    public void footerPassionateCareer() {
-        Footer.clickCareerPassionLink();
-        String currentUrl = driver.getCurrentUrl();
-        try {
-            Assert.assertEquals(currentUrl, "http://www.integrativenutrition.com/health-coaching#careerpassion");
-        } catch (Exception e) {
-            e.printStackTrace();
-        }
-    }
-
-    @Test //Info Sessions link
-    public void footerInfoSessions() {
-        Footer.clickInfoSessionsLink();
-        String currentUrl = driver.getCurrentUrl();
-        try {
-            Assert.assertEquals(currentUrl, "http://www.integrativenutrition.com/info-sessions");
-        } catch (Exception e) {
-            e.printStackTrace();
-        }
-    }
-
-    @Test //Meet The Founder link
-    public void footerMeetFounder() {
-        Footer.clickMeetFounderLink();
-        String currentUrl = driver.getCurrentUrl();
-        try {
-            Assert.assertEquals(currentUrl, "http://www.integrativenutrition.com/info-sessions#founder");
-        } catch (Exception e) {
-            e.printStackTrace();
-        }
-    }
-
-    @Test //Student Experience link
-    public void footerStudentExperience() {
-        Footer.clickStudentExperienceLink();
-        String currentUrl = driver.getCurrentUrl();
-        try {
-            Assert.assertEquals(currentUrl, "http://www.integrativenutrition.com/info-sessions#studentexperience");
-        } catch (Exception e) {
-            e.printStackTrace();
-        }
-    }
-
-    @Test //HC Right For You link
-    public void footerHCright4You() {
-        Footer.clickHCRightForYouLink();
-        String currentUrl = driver.getCurrentUrl();
-        try {
-            Assert.assertEquals(currentUrl, "http://www.integrativenutrition.com/info-sessions#hcrightforyou");
-        } catch (Exception e) {
-            e.printStackTrace();
-        }
-    }
-
-    @Test //My Healthy Your Healthy link
-    public void footerMyHealthy() {
-        Footer.clickMyYourHealthLink();
-        String currentUrl = driver.getCurrentUrl();
-        try {
-            Assert.assertEquals(currentUrl, "http://www.integrativenutrition.com/info-sessions#healthy");
-        } catch (Exception e) {
-            e.printStackTrace();
-        }
-    }
-
-    @Test //About Us link
-    public void footerAboutUs() {
-        Footer.clickAboutUsLink();
-        String currentUrl = driver.getCurrentUrl();
-        try {
-            Assert.assertEquals(currentUrl, "http://www.integrativenutrition.com/about-us");
-        } catch (Exception e) {
-            e.printStackTrace();
-        }
-    }
-
-    @Test //Health Revolution link
-    public void footerHealthRev() {
-        Footer.clickHealthRevLink();
-        String currentUrl = driver.getCurrentUrl();
-        try {
-            Assert.assertEquals(currentUrl, "http://www.integrativenutrition.com/about-us#aboutvideo");
-        } catch (Exception e) {
-            e.printStackTrace();
-        }
-    }
-
-    @Test //Core Values link
-    public void footerCoreValues() {
-        Footer.clickCoreValuesLink();
-        String currentUrl = driver.getCurrentUrl();
-        try {
-            Assert.assertEquals(currentUrl, "http://www.integrativenutrition.com/about-us#corevalues");
-        } catch (Exception e) {
-            e.printStackTrace();
-        }
-    }
-
-    @Test //Board of Advisors link
-    public void footerAdvisorBoard() {
-        Footer.clickAdvisorBoardLink();
-        String currentUrl = driver.getCurrentUrl();
-        try {
-            Assert.assertEquals(currentUrl, "http://www.integrativenutrition.com/about-us#advisors");
-        } catch (Exception e) {
-            e.printStackTrace();
-        }
-    }
-
-    @Test //Reviews link
-    public void footerReviews() {
-        Footer.clickReviewsLink();
-        String currentUrl = driver.getCurrentUrl();
-        try {
-            Assert.assertEquals(currentUrl, "http://www.integrativenutrition.com/reviews");
-        } catch (Exception e) {
-            e.printStackTrace();
-        }
-    }
-
-    @Test //Blog link
-    public void footerBlog() {
-        Footer.clickBlogLink();
-        String currentUrl = driver.getCurrentUrl();
-        try {
-            Assert.assertEquals(currentUrl, "http://www.integrativenutrition.com/blog");
-        } catch (Exception e) {
-            e.printStackTrace();
-        }
-    }
-
-    @Test //From the Founder link
-    public void footerFromFounder() {
-        Footer.clickFromFounderLink();
-        String currentUrl = driver.getCurrentUrl();
-        try {
-            Assert.assertEquals(currentUrl, "http://www.integrativenutrition.com/blog/categories/notes-from-the-founder");
-        } catch (Exception e) {
-            e.printStackTrace();
-        }
-    }
-
-    @Test //Health Trends link
-    public void footerHealthTrends() {
-        Footer.clickHealthTrendsLink();
-        String currentUrl = driver.getCurrentUrl();
-        try {
-            Assert.assertEquals(currentUrl, "http://www.integrativenutrition.com/blog/categories/health-trends");
-        } catch (Exception e) {
-            e.printStackTrace();
-        }
-    }
-
-    @Test //This tests sub footer menu
-    public void footerOpenSubFooter() {
-        Footer.clickRegulatoryInfoLink();
-        Footer.clickTermsPrivacyLink();
-        Footer.clickAffiliatesLink();
-        Footer.clickJobsLink();
-
-        Set<String> tabs = driver.getWindowHandles();
-        Iterator<String> subFooter = tabs.iterator();
-        String home = subFooter.next();
-        String regInfo = subFooter.next();
-        String termsPrivacy = subFooter.next();
-        String affiliates = subFooter.next();
-        String jobs = subFooter.next();
-
-        //Regulatory Info link
-        driver.switchTo().window(regInfo);
-        String currentUrlRI = driver.getCurrentUrl();
-        try {
-            Assert.assertEquals(currentUrlRI, "http://www.integrativenutrition.com/about/regulatory");
-        } catch (Exception e) {
-            e.printStackTrace();
-        }
-
-        //Terms of Use - Privacy Policy link
-        driver.switchTo().window(termsPrivacy);
-        String currentUrlTerms = driver.getCurrentUrl();
-        try {
-            Assert.assertEquals(currentUrlTerms, "http://www.integrativenutrition.com/lp/privacypolicy");
-        } catch (Exception e) {
-            e.printStackTrace();
-        }
-
-        //Affiliates link
-        driver.switchTo().window(affiliates);
-        String currentUrlAff = driver.getCurrentUrl();
-        try {
-            Assert.assertEquals(currentUrlAff, "http://www.integrativenutrition.com/affiliates");
-        } catch (Exception e) {
-            e.printStackTrace();
-        }
-
-        //Jobs link
-        driver.switchTo().window(jobs);
-        String currentUrlJobs = driver.getCurrentUrl();
-        try {
-            Assert.assertEquals(currentUrlJobs, "http://www.integrativenutrition.com/jobs");
-        } catch (Exception e) {
-            e.printStackTrace();
-        }
-
-        //Navigate back to the home window
-        driver.get("http://www.integrativenutrition.com/curriculum");
-
-    }
-
-}
-
-
-
-
-
-
-package testScripts;
-
-import org.junit.Assert;
-import objectRepository.Header;
-import org.junit.Test;
-import setUpClasses.DriverInitialization;
-
-public class HeaderTests extends DriverInitialization {
-
-    @Test  //Test if phone number is present in header
-    public void headerPhone () {
-        boolean present = Header.phoneNumber.isDisplayed();
-        try {
-            Assert.assertTrue(present);
-        } catch (Exception e) {
-            e.printStackTrace();
-        }
-    }
-
-    @Test //Search functionality - Search for "learning"
-    public void headerSearch(){
-        Header.conductSearch("learning");
-        String currentUrl = driver.getCurrentUrl();
-        try {
-            Assert.assertEquals(currentUrl, "http://www.integrativenutrition.com/search/node/learning");
-        } catch (Exception e) {
-            e.printStackTrace();
-        }
-
-    }
-
-    //*** This section is to test that all header links go to their respective pages on click ************************
-
-    @Test //Home link
-    public void headerHomeIcon() {
-        Header.clickHomeIcon();
-        String currentUrl = driver.getCurrentUrl();
-        try {
-            Assert.assertEquals(currentUrl, "http://www.integrativenutrition.com/");
-        } catch (Exception e) {
-            e.printStackTrace();
-        }
-    }
-
-    @Test //Contact Us link
-    public void headerContactUs() {
-        Header.clickContactUsIcon();
-        String currentUrl = driver.getCurrentUrl();
-        try {
-            Assert.assertEquals(currentUrl, "http://www.integrativenutrition.com/contact-us");
-        } catch (Exception e) {
-            e.printStackTrace();
-        }
-    }
-
-    @Test //Curriculum Page
-    public void headerCurric() {
-        Header.clickCurriculumIcon();
-        String currentUrl = driver.getCurrentUrl();
-        try {
-            Assert.assertEquals(currentUrl, "http://www.integrativenutrition.com/curriculum");
-        } catch (Exception e) {
-            e.printStackTrace();
-        }
-    }
-
-    @Test //Info Sessions Page
-    public void headerInfoSess() {
-        Header.clickInfoSessionsIcon();
-        String currentUrl = driver.getCurrentUrl();
-        try {
-            Assert.assertEquals(currentUrl, "http://www.integrativenutrition.com/info-sessions");
-        } catch (Exception e) {
-            e.printStackTrace();
-        }
-    }
-
-    @Test //Health Coaching Page
-    public void headerHealthCoach() {
-        Header.clickHealthCoachIcon();
-        String currentUrl = driver.getCurrentUrl();
-        try {
-            Assert.assertEquals(currentUrl, "http://www.integrativenutrition.com/health-coaching");
-        } catch (Exception e) {
-            e.printStackTrace();
-        }
-    }
-
-    @Test //About Us Page
-    public void headerAboutUs() {
-        Header.clickAboutUsIcon();
-        String currentUrl = driver.getCurrentUrl();
-        try {
-            Assert.assertEquals(currentUrl, "http://www.integrativenutrition.com/about-us");
-        } catch (Exception e) {
-            e.printStackTrace();
-        }
-    }
-
-
-}
-
-
-
-package testScripts;
-
-import objectRepository.Forms;
-import objectRepository.HealthCoachingPage;
-import objectRepository.HomePage;
-import org.junit.Assert;
-import org.junit.Before;
-import org.junit.Test;
-import org.openqa.selenium.By;
-import org.openqa.selenium.WebElement;
-import setUpClasses.DriverInitialization;
-
-import java.util.concurrent.TimeUnit;
-
-public class HealthCoachingTests extends DriverInitialization {
-
-    @Before
-    public void openInfoSess() {
-        driver.get("http://www.integrativenutrition.com/health-coaching");
-        driver.manage().deleteAllCookies();
-    }
-
-    @Test //Tests form won't submit if name field is blank
-    public void nameValidation() {
-        Forms.inputEmail("hCoachTest@qatest.edu");
-        Forms.clickSubmitButton();
-        String currentUrl = driver.getCurrentUrl();
-        try {
-            Assert.assertEquals(currentUrl, "http://www.integrativenutrition.com/health-coaching");
-        } catch (Exception e) {
-            e.printStackTrace();
-        }
-    }
-
-    @Test //Tests that form won't submit if email field is blank
-    public void emailValidation() {
-        Forms.inputName("qaTest");
-        Forms.clickSubmitButton();
-        String currentUrl = driver.getCurrentUrl();
-        try {
-            Assert.assertEquals(currentUrl, "http://www.integrativenutrition.com/health-coaching");
-        } catch (Exception e) {
-            e.printStackTrace();
-        }
-    }
-
-    @Test //Tests that flags match country code using United Kingdom
-    public void countryFlagMatch() {
-        Forms.inputName("qaTest");
-        Forms.inputEmail("hcoachTest@qatest.edu");
-        Forms.clickPhoneBox();
-        Forms.selectFlag();
-        WebElement unitedKingdom = driver.findElement(By.xpath(".//*[@id='webform-component-Home-Phone--c']/div[1]/div/ul/li[5]/span[1]"));
-        unitedKingdom.click();
-        Forms.enterPhoneNumber("1111111111");
-        Forms.clickSubmitButton();
-        String phoneValue = Forms.formPhone.getAttribute("value");
-        boolean ukFlag = phoneValue.contains("44");
-        try {
-            Assert.assertTrue(ukFlag);
-        } catch (Exception e) {
-            e.printStackTrace();
-        }
-    }
-
-    @Test //This test is to ensure video plays until the end
-    public void videoPlay() {
-        HealthCoachingPage.watchVideo();
-        driver.manage().timeouts().implicitlyWait(118, TimeUnit.SECONDS);
-        driver.switchTo().frame("media-youtube-aivruz1uyqe");
-        String videoElapsed = HealthCoachingPage.videoElapsed.getText();
-        boolean videoComplete = videoElapsed.contains("1:56");
-        try {
-            Assert.assertTrue(videoComplete);
-        } catch (Exception e) {
-            e.printStackTrace();
-        }
-    }
-
-    @Test //Submit Curriculum Guide form with no phone number
-    public void submitFormNoPhone() {
-        Forms.inputName("hCoachTest");
-        Forms.inputEmail("hCoach@qatest.edu");
-        Forms.clickSubmitButton();
-    }
-
-    @Test //Submit Curriculum Guide form with phone number
-    public void submitFormWithPhone() {
-        Forms.inputName("hCoachTest");
-        Forms.inputEmail("hCoach@qatest.edu");
-        Forms.clickPhoneBox();
-        Forms.enterPhoneNumber("2127305433");
-        Forms.clickSubmitButton();
-    }
-
-    @Test //Test Privacy Link goes to correct url
-    public void testPrivacyPolicy() {
-        HealthCoachingPage.clickPrivacyLink();
-        String currentUrl = driver.getCurrentUrl();
-        try {
-            Assert.assertEquals(currentUrl, "http://www.integrativenutrition.com/lp/privacypolicy");
-        } catch (Exception e) {
-            e.printStackTrace();
-        }
-    }
-}
-
-package testScripts;
-
-import objectRepository.HomePage;
-import objectRepository.PaidLeadGen;
-import org.junit.Assert;
-import org.junit.Test;
-import setUpClasses.DriverInitialization;
-
-import java.util.concurrent.TimeUnit;
-
-public class HomePageTests extends DriverInitialization {
-
-    @Test  //This test ensures the banner is displayed
-    public void bannerDisplayed (){
-        //driver.get("http://www.integrativenutrition.com");
-        boolean bannerAppear = PaidLeadGen.headerBanner.isDisplayed();
-        try {
-            Assert.assertTrue(bannerAppear);
-        } catch (Exception e) {
-            e.printStackTrace();
-        }
-    }
-
-    @Test //This test is to ensure video plays until the end
-    public void videoPlay () {
-        driver.get("www.integrativenutrition.com");
-        HomePage.clickWatchVideo();
-        driver.manage().timeouts().implicitlyWait(115, TimeUnit.SECONDS);
-        driver.switchTo().frame("media-youtube-e5ac7sou1s4");
-        String videoElapsed = HomePage.videoElapsed.getText();
-        boolean videoComplete = videoElapsed.contains("1:53");
-        try {
-            Assert.assertTrue(videoComplete);
-        } catch (Exception e) {
-            e.printStackTrace();
-        }
-
-
-
-    }
-
-}
-package testScripts;
-
-import objectRepository.Forms;
-import org.junit.Assert;
-import org.junit.Test;
-import org.openqa.selenium.remote.http.HttpResponse;
-import setUpClasses.DriverInitialization;
-
-public class HTTPstatus extends DriverInitialization {
-
-    //Test that site is not down
-    @Test
-        public void SiteStatus() {
-        HttpResponse response = new HttpResponse();
-        double actualStatus = response.getStatus();
-        Assert.assertNotEquals(actualStatus, 500.0);
-        }
-
-}
-package testScripts;
-
-import objectRepository.Forms;
-import objectRepository.InfoSessionsPage;
-import org.junit.Assert;
-import org.junit.Before;
-import org.junit.Test;
-import org.openqa.selenium.By;
-import org.openqa.selenium.Keys;
-import org.openqa.selenium.WebElement;
-import org.openqa.selenium.support.ui.Select;
-import setUpClasses.DriverInitialization;
-
-public class InfoSessionTests extends DriverInitialization {
-
-    @Before
-    public void openInfoSess() {
-        driver.get("http://www.integrativenutrition.com/info-sessions");
-        Forms.clickDateTime();
-        Select webinar = new Select(Forms.dateTime);
-        webinar.selectByIndex(1);
-        Forms.dateTime.sendKeys(Keys.ENTER);
-        }
-
-    @Test //Tests form won't submit if name field is blank
-    public void nameValidation() {
-        Forms.inputEmail("infoSessTest@qatest.edu");
-        Forms.clickSubmitButton();
-        String currentUrl = driver.getCurrentUrl();
-        try {
-            Assert.assertEquals(currentUrl, "http://www.integrativenutrition.com/info-sessions");
-        } catch (Exception e) {
-            e.printStackTrace();
-        }
-    }
-
-    @Test //Tests that form won't submit if email field is blank
-    public void emailValidation() {
-        Forms.inputName("qaTest");
-        Forms.clickSubmitButton();
-        String currentUrl = driver.getCurrentUrl();
-        try {
-            Assert.assertEquals(currentUrl, "http://www.integrativenutrition.com/info-sessions");
-        } catch (Exception e) {
-            e.printStackTrace();
-        }
-    }
-
-    @Test //Tests that flags match country code using Cyprus
-    public void countryFlagMatch() {
-        Forms.inputName("qaTest");
-        Forms.inputEmail("infoSessTest@qatest.edu");
-        Forms.selectFlag();
-        WebElement cyprus = driver.findElement(By.xpath(".//*[@id='webform-component-Home-Phone--c']/div[1]/div/ul/li[61]/span[1]"));
-        cyprus.click();
-        Forms.enterPhoneNumber("1111111111");
-        Forms.clickSubmitButton();
-        String phoneValue = Forms.formPhone.getAttribute("value");
-        boolean cyprusFlag = phoneValue.contains("357");
-        try {
-            Assert.assertTrue(cyprusFlag);
-        } catch (Exception e) {
-            e.printStackTrace();
-        }
-    }
-        @Test //Test Privacy Link goes to correct url
-        public void testPrivacyPolicy() {
-            InfoSessionsPage.clickPrivacyLink();
-            String currentUrl = driver.getCurrentUrl();
-            try {
-                Assert.assertEquals(currentUrl, "http://www.integrativenutrition.com/lp/privacypolicy");
-            } catch (Exception e) {
-                e.printStackTrace();
-            }
-        }
-
-    }
-
-package testScripts;
-import objectRepository.Forms;
-import objectRepository.PaidLeadGen;
-import org.junit.Assert;
-import org.junit.Before;
-import org.junit.Test;
-import org.openqa.selenium.By;
-import org.openqa.selenium.WebElement;
-import setUpClasses.DriverInitialization;
-
-public class PageLeadTests extends DriverInitialization {
-
-    @Before
-    public void clearCookies() {
-        driver.manage().deleteAllCookies();
-    }
-
-//*** These tests are for the Paid Lead Gen pages
-
-    /**************************************************************
-     * http://www.integrativenutrition.com/info-nutritioneducation
-     **************************************************************/
-
-    @Test //Tests if banner is displayed
-    public void bannerDisplayed() {
-        driver.get("http://www.integrativenutrition.com/info-nutritioneducation");
-        boolean bannerAppear = PaidLeadGen.headerBanner.isDisplayed();
-        try {
-            Assert.assertTrue(bannerAppear);
-        } catch (Exception e) {
-            e.printStackTrace();
-        }
-    }
-
-    @Test //Tests form won't submit if name field is blank
-    public void nameValidation() {
-        driver.get("http://www.integrativenutrition.com/info-nutritioneducation");
-        Forms.inputEmail("paidLeadTest@qatest.edu");
-        Forms.clickSubmitButton();
-        String currentUrl = driver.getCurrentUrl();
-        try {
-            Assert.assertEquals(currentUrl, "http://www.integrativenutrition.com/info-nutritioneducation");
-        } catch (Exception e) {
-            e.printStackTrace();
-        }
-    }
-
-    @Test //Tests that form won't submit if email field is blank
-    public void emailValidation() {
-        driver.get("http://www.integrativenutrition.com/info-nutritioneducation");
-        Forms.inputName("qaTest");
-        Forms.clickSubmitButton();
-        String currentUrl = driver.getCurrentUrl();
-        try {
-            Assert.assertEquals(currentUrl, "http://www.integrativenutrition.com/info-nutritioneducation");
-        } catch (Exception e) {
-            e.printStackTrace();
-        }
-    }
-
-    @Test //Tests that flags match country code using Fiji
-    public void countryFlagMatch() {
-        driver.get("http://www.integrativenutrition.com/info-nutritioneducation");
-        Forms.selectFlag();
-        WebElement fiji = driver.findElement(By.xpath(".//*[@id='webform-component-Home-Phone--c']/div[1]/div/ul/li[76]/span[1]"));
-        fiji.click();
-        Forms.enterPhoneNumber("1111111111");
-        Forms.clickSubmitButton();
-        String phoneValue = Forms.formPhone.getAttribute("value");
-        boolean fijiFlag = phoneValue.contains("679");
-        try {
-            Assert.assertTrue(fijiFlag);
-        } catch (Exception e) {
-            e.printStackTrace();
-        }
-
-    }
-
-    @Test //Tests that form submits properly
-    public void formSubmit() {
-        driver.get("http://www.integrativenutrition.com/info-nutritioneducation");
-        Forms.inputName("qaTest");
-        Forms.inputEmail("qatesting@qatest.edu");
-        Forms.clickSubmitButton();
-        boolean expectedUrl= driver.getCurrentUrl().contains("http://www.integrativenutrition.com/class-thank-you?sid=");
-        try {
-            Assert.assertTrue(expectedUrl);
-        } catch (Exception e) {
-            e.printStackTrace();
-        }
-    }
-
-    /**************************************************************
-     * http://www.integrativenutrition.com/info-nutritioneducation-r
-     **************************************************************/
-
-    @Test //Tests if banner is displayed
-    public void bannerDisplayedR() {
-        driver.get("http://www.integrativenutrition.com/info-nutritioneducation-r");
-        boolean bannerAppear = PaidLeadGen.headerBanner.isDisplayed();
-        try {
-            Assert.assertTrue(bannerAppear);
-        } catch (Exception e) {
-            e.printStackTrace();
-        }
-    }
-
-    @Test //Tests form won't submit if name field is blank
-    public void nameValidationR() {
-        driver.get("http://www.integrativenutrition.com/info-nutritioneducation-r");
-        Forms.inputEmail("paidLeadTest@qatest.edu");
-        Forms.clickSubmitButton();
-        boolean currentUrl = driver.getCurrentUrl().contains("http://www.integrativenutrition.com/info-nutritioneducation-r");
-        try {
-            Assert.assertTrue(currentUrl);
-        } catch (Exception e) {
-            e.printStackTrace();
-        }
-    }
-
-    @Test //Tests that form won't submit if email field is blank
-    public void emailValidationR() {
-        driver.get("http://www.integrativenutrition.com/info-nutritioneducation-r");
-        Forms.inputName("qaTest");
-        Forms.clickSubmitButton();
-        boolean currentUrl = driver.getCurrentUrl().contains("http://www.integrativenutrition.com/info-nutritioneducation-r");
-        try {
-            Assert.assertTrue(currentUrl);
-
-        } catch (Exception e) {
-            e.printStackTrace();
-        }
-    }
-
-    @Test //Tests that flags match country code using Jamaica
-    public void countryFlagMatchR() {
-        driver.get("http://www.integrativenutrition.com/info-nutritioneducation-r3");
-        Forms.clickPhoneBox();
-        Forms.selectFlag();
-        WebElement jamaica = driver.findElement(By.xpath(".//*[@id='webform-component-Home-Phone--c']/div[1]/div/ul/li[108]/span[1]"));
-        jamaica.click();
-        Forms.enterPhoneNumber("1111111111");
-        Forms.clickSubmitButton();
-        String phoneValue = Forms.formPhone.getAttribute("value");
-        boolean jamiacaFlag = phoneValue.contains("876");
-        try {
-            Assert.assertTrue(jamiacaFlag);
-        } catch (Exception e) {
-            e.printStackTrace();
-        }
-    }
-
-    @Test //Tests that form submits properly
-    public void formSubmitR() {
-        driver.get("http://www.integrativenutrition.com/info-nutritioneducation-r");
-        Forms.inputName("qaTest");
-        Forms.inputEmail("qatesting@qatest.edu");
-        Forms.clickSubmitButton();
-        boolean expectedUrl= driver.getCurrentUrl().contains("http://www.integrativenutrition.com/class-thank-you?sid=");
-        try {
-            Assert.assertTrue(expectedUrl);
-        } catch (Exception e) {
-            e.printStackTrace();
-        }
-    }
-
-    /**************************************************************
-     * http://www.integrativenutrition.com/info-nutritioneducation-d
-     **************************************************************/
-
-    @Test //Tests if banner is displayed
-    public void bannerDisplayedD() {
-        driver.get("http://www.integrativenutrition.com/info-nutritioneducation-d");
-        boolean bannerAppear = PaidLeadGen.headerBanner.isDisplayed();
-        try {
-            Assert.assertTrue(bannerAppear);
-        } catch (Exception e) {
-            e.printStackTrace();
-        }
-    }
-
-    @Test //Tests form won't submit if name field is blank
-    public void nameValidationD() {
-        driver.get("http://www.integrativenutrition.com/info-nutritioneducation-d");
-        Forms.inputEmail("paidLeadTest@qatest.edu");
-        Forms.clickSubmitButton();
-        String currentUrl = driver.getCurrentUrl();
-        try {
-            Assert.assertEquals(currentUrl, "http://www.integrativenutrition.com/info-nutritioneducation-d");
-        } catch (Exception e) {
-            e.printStackTrace();
-        }
-    }
-
-    @Test //Tests that form won't submit if email field is blank
-    public void emailValidationD() {
-        driver.get("http://www.integrativenutrition.com/info-nutritioneducation-d");
-        Forms.inputName("qaTest");
-        Forms.clickSubmitButton();
-        String currentUrl = driver.getCurrentUrl();
-        try {
-            Assert.assertEquals(currentUrl, "http://www.integrativenutrition.com/info-nutritioneducation-d");
-        } catch (Exception e) {
-            e.printStackTrace();
-        }
-    }
-
-    @Test //Tests that flags match country code using Uruguay
-    public void countryFlagMatchD() {
-        driver.get("http://www.integrativenutrition.com/info-nutritioneducation-d");
-        Forms.selectFlag();
-        WebElement uruguay = driver.findElement(By.xpath(".//*[@id='webform-component-Home-Phone--c']/div[1]/div/ul/li[230]/span[1]"));
-        uruguay.click();
-        Forms.enterPhoneNumber("1111111111");
-        Forms.clickSubmitButton();
-        String phoneValue = Forms.formPhone.getAttribute("value");
-        boolean uruguayFlag = phoneValue.contains("598");
-        try {
-            Assert.assertTrue(uruguayFlag);
-        } catch (Exception e) {
-            e.printStackTrace();
-        }
-    }
-
-    @Test //Tests that form submits properly
-    public void formSubmitD() {
-        driver.get("http://www.integrativenutrition.com/info-nutritioneducation-d");
-        Forms.inputName("qaTest");
-        Forms.inputEmail("qatesting@qatest.edu");
-        Forms.clickSubmitButton();
-        boolean expectedUrl= driver.getCurrentUrl().contains("http://www.integrativenutrition.com/class-thank-you?sid=");
-        try {
-            Assert.assertTrue(expectedUrl);
-        } catch (Exception e) {
-            e.printStackTrace();
-        }
-    }
-
-    }
-
-
-
-
-
-package testScripts;
-
-import objectRepository.HomePage;
-import objectRepository.SampleClassModulePage;
-import org.junit.Assert;
-import org.junit.Before;
-import org.junit.Test;
-import setUpClasses.DriverInitialization;
-
-import java.util.concurrent.TimeUnit;
-
-public class SampleClassModuleTests extends DriverInitialization {
-
-    @Before
-    public void openSCMpage() {
-        driver.manage().deleteAllCookies();
-        driver.get("http://www.integrativenutrition.com/sample-class-module");
-    }
-
-    @Test //This tests the banner being displayed
-    public void bannerDisplayed() {
-        boolean bannerAppear = SampleClassModulePage.SCMHeaderBanner.isDisplayed();
-        try {
-            Assert.assertTrue(bannerAppear);
-        } catch (Exception e) {
-            e.printStackTrace();
-        }
-    }
-
-    @Test //This test tests the first video module
-    public void videoPlay() {
-        SampleClassModulePage.clickWelcomeVideo();
-        driver.manage().timeouts().implicitlyWait(110, TimeUnit.SECONDS);
-        //driver.switchTo().frame("media-youtube-e5ac7sou1s4");
-        /*
-        String videoElapsed = SampleClassModulePage.videoElapsed.getText();
-        boolean videoComplete = videoElapsed.contains("1:48");
-        try {
-            Assert.assertTrue(videoComplete);
-        } catch (Exception e) {
-            e.printStackTrace();
-        }
-    }
-    */
-    }
-    }
-
-
-package com.example.tests;
-
-import java.util.regex.Pattern;
-import java.util.concurrent.TimeUnit;
-import org.junit.*;
-import static org.junit.Assert.*;
-import static org.hamcrest.CoreMatchers.*;
-import org.openqa.selenium.*;
-import org.openqa.selenium.firefox.FirefoxDriver;
-import org.openqa.selenium.support.ui.Select;
-
-public class Test {
-  private WebDriver driver;
-  private String baseUrl;
-  private boolean acceptNextAlert = true;
-  private StringBuffer verificationErrors = new StringBuffer();
-
-  @Before
-  public void setUp() throws Exception {
-    driver = new FirefoxDriver();
-    baseUrl = "http://www.integrativenutrition.com/";
-    driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
-  }
-
-  @Test
-  public void test() throws Exception {
-    driver.get(baseUrl + "/about-us");
-    driver.findElement(By.cssSelector("div.play-button.center-block")).click();
-  }
-
-  @After
-  public void tearDown() throws Exception {
-    driver.quit();
-    String verificationErrorString = verificationErrors.toString();
-    if (!"".equals(verificationErrorString)) {
-      fail(verificationErrorString);
-    }
-  }
-
-  private boolean isElementPresent(By by) {
-    try {
-      driver.findElement(by);
-      return true;
-    } catch (NoSuchElementException e) {
-      return false;
-    }
-  }
-
-  private boolean isAlertPresent() {
-    try {
-      driver.switchTo().alert();
-      return true;
-    } catch (NoAlertPresentException e) {
-      return false;
-    }
-  }
-
-  private String closeAlertAndGetItsText() {
-    try {
-      Alert alert = driver.switchTo().alert();
-      String alertText = alert.getText();
-      if (acceptNextAlert) {
-        alert.accept();
-      } else {
-        alert.dismiss();
-      }
-      return alertText;
-    } finally {
-      acceptNextAlert = true;
-    }
-  }
-}
-package testScripts;
-
-import objectRepository.ThankYouPages;
-import org.junit.Assert;
-import org.junit.Test;
-import setUpClasses.DriverInitialization;
-
-import java.util.concurrent.TimeUnit;
-
-public class ThankYouPagesTests extends DriverInitialization {
-
-    /*******************************************************************************************
-     * http://www.integrativenutrition.com/class-thank-you
-     *******************************************************************************************/
-
-    @Test
-    public void classTyBanner() {
-        driver.get("http://www.integrativenutrition.com/class-thank-you");
-            boolean bannerAppear = ThankYouPages.headerBanner.isDisplayed();
-            try {
-                Assert.assertTrue(bannerAppear);
-            } catch (Exception e) {
-                e.printStackTrace();
-            }
-        }
-
-    @Test //This test is to ensure video plays until the end
-    public void classTyPlay() {
-        driver.get("http://www.integrativenutrition.com/class-thank-you");
-        ThankYouPages.watchVideo();
-        driver.manage().timeouts().implicitlyWait(147, TimeUnit.SECONDS);
-        driver.switchTo().frame("media-youtube-8f0lea1ov4q");
-        String videoElapsed = ThankYouPages.videoElapsed.getText();
-        boolean videoComplete = videoElapsed.contains("2:24");
-        try {
-            Assert.assertTrue(videoComplete);
-        } catch (Exception e) {
-            e.printStackTrace();
-        }
-
-    }
-        /*******************************************************************************************
-         * http://www.integrativenutrition.com/guide-thank-you
-         *******************************************************************************************/
-
-        @Test
-        public void guideTyBanner() {
-            driver.get("http://www.integrativenutrition.com/guide-thank-you");
-            boolean bannerAppear = ThankYouPages.headerBanner.isDisplayed();
-            try {
-                Assert.assertTrue(bannerAppear);
-            } catch (Exception e) {
-                e.printStackTrace();
-            }
-        }
-
-        @Test //This test is to ensure video plays until the end
-        public void guideTyPlay() {
-            driver.get("http://www.integrativenutrition.com/guide-thank-you");
-            ThankYouPages.watchVideo();
-            driver.manage().timeouts().implicitlyWait(122, TimeUnit.SECONDS);
-            driver.switchTo().frame("media-youtube-snlfol2uu-g");
-            String videoElapsed = ThankYouPages.videoElapsed.getText();
-            boolean videoComplete = videoElapsed.contains("2:00");
-            try {
-                Assert.assertTrue(videoComplete);
-            } catch (Exception e) {
-                e.printStackTrace();
-            }
-    }
-
-
-
-
-}
- ˛∫æ   1   objectRepository/AboutUsPage  setUpClasses/AbstractPage <init> ()V Code
-  	   LineNumberTable LocalVariableTable this LobjectRepository/AboutUsPage; 
-SourceFile AboutUsPage.java !               /     *∑ ±    
-                          ˛∫æ   1   objectRepository/BlogElements  setUpClasses/AbstractPage <init> ()V Code
-  	   LineNumberTable LocalVariableTable this LobjectRepository/BlogElements; 
-SourceFile BlogElements.java !               /     *∑ ±    
-                          ˛∫æ   1   objectRepository/ContactUsPage  setUpClasses/AbstractPage <init> ()V Code
-  	   LineNumberTable LocalVariableTable this  LobjectRepository/ContactUsPage; 
-SourceFile ContactUsPage.java !               /     *∑ ±    
-                          ˛∫æ   1   objectRepository/CurriculumPage  setUpClasses/AbstractPage <init> ()V Code
-  	   LineNumberTable LocalVariableTable this !LobjectRepository/CurriculumPage; 
-SourceFile CurriculumPage.java !               /     *∑ ±    
-                          ˛∫æ   1 ¿  objectRepository/Footer  setUpClasses/AbstractPage 
-curricLink  Lorg/openqa/selenium/WebElement; RuntimeVisibleAnnotations $Lorg/openqa/selenium/support/FindBy; xpath !.//*[@id='footer-menu-2']/li[1]/a learningCLink *.//*[@id='footer-menu-2']/li[1]/ul/li[1]/a visitTeachLink L//a[@href='http://www.integrativenutrition.com/curriculum#visitingteachers'] 	businessT L//a[@href='http://www.integrativenutrition.com/curriculum#businesstraining'] healthCoachingLink !.//*[@id='footer-menu-2']/li[2]/a whatsHCLink I//a[@href='http://www.integrativenutrition.com/health-coaching#definehc'] gradSuccessLink L//a[@href='http://www.integrativenutrition.com/health-coaching#gradsuccess'] careerPassionLink N//a[@href='http://www.integrativenutrition.com/health-coaching#careerpassion'] infoSessLink !.//*[@id='footer-menu-2']/li[3]/a meetFounderLink F//a[@href='http://www.integrativenutrition.com/info-sessions#founder'] studentExperienceLink P//a[@href='http://www.integrativenutrition.com/info-sessions#studentexperience'] hcRightLink L//a[@href='http://www.integrativenutrition.com/info-sessions#hcrightforyou'] myHealthyLink F//a[@href='http://www.integrativenutrition.com/info-sessions#healthy'] aboutUsLink !.//*[@id='footer-menu-2']/li[4]/a healthRevLink D//a[@href='http://www.integrativenutrition.com/about-us#aboutvideo'] coreValuesLink D//a[@href='http://www.integrativenutrition.com/about-us#corevalues'] advisorBoardLink B//a[@href='http://www.integrativenutrition.com/about-us#advisors'] reviewsLink *.//*[@id='footer-menu-2']/li[4]/ul/li[4]/a blogLink //a[@href='/blog'] fromFounder 4//a[@href='/blog/categories/notes-from-the-founder'] healthTrends +//a[@href='/blog/categories/health-trends'] regInfoLink .//*[@id='footer-menu']/li[1]/a termsPrivacyLink .//*[@id='footer-menu']/li[2]/a affiliatesLink .//*[@id='footer-menu']/li[3]/a jobsLink .//*[@id='footer-menu']/li[4]/a faceBookIcon Ahtml/body/footer/div[1]/div/div[2]/div[3]/ul[1]/li[1]/a/span[1]/i twitterIcon Ahtml/body/footer/div[1]/div/div[2]/div[3]/ul[1]/li[2]/a/span[1]/i tumblerIcon Ahtml/body/footer/div[1]/div/div[2]/div[3]/ul[1]/li[3]/a/span[1]/i youtubeIcon Ahtml/body/footer/div[1]/div/div[2]/div[3]/ul[2]/li[1]/a/span[1]/i linkedInIcon Ahtml/body/footer/div[1]/div/div[2]/div[3]/ul[2]/li[2]/a/span[1]/i vineIcon Ahtml/body/footer/div[1]/div/div[2]/div[3]/ul[2]/li[3]/a/span[1]/i googlePlusIcon Ahtml/body/footer/div[1]/div/div[2]/div[3]/ul[3]/li[1]/a/span[1]/i 
-amazonIcon Ahtml/body/footer/div[1]/div/div[2]/div[3]/ul[3]/li[2]/a/span[1]/i snapchatIcon Ahtml/body/footer/div[1]/div/div[2]/div[3]/ul[3]/li[3]/a/span[1]/i <init> ()V Code
-  Q M N LineNumberTable LocalVariableTable this LobjectRepository/Footer; clickCurriculumLink	  X   Z \ [ org/openqa/selenium/WebElement ] N click clickLearningCenterLink	  `   clickVisitingTeachersLink	  c   clickBusinessTrainingLink	  f   clickHealthCoachingLink	  i   clickWhatsHCLink	  l   clickGradSuccessLink	  o   clickCareerPassionLink	  r   clickInfoSessionsLink	  u   clickMeetFounderLink	  x   clickStudentExperienceLink	  {   clickHCRightForYouLink	  ~   clickMyYourHealthLink	  Å !  clickAboutUsLink	  Ñ #  clickHealthRevLink	  á %  clickCoreValuesLink	  ä '  clickAdvisorBoardLink	  ç )  clickReviewsLink	  ê +  clickBlogLink	  ì -  clickFromFounderLink	  ñ /  clickHealthTrendsLink	  ô 1  clickRegulatoryInfoLink	  ú 3  clickTermsPrivacyLink	  ü 5  clickAffiliatesLink	  ¢ 7  clickJobsLink	  • 9  clickFacebookIcon	  ® ;  clickTwitterIcon	  ´ =  clickTumblerIcon	  Æ ?  clickyouTubeIcon	  ± A  clickLinkedInIcon	  ¥ C  clickVineIcon	  ∑ E  clickGPlusIcon	  ∫ G  clickAmazonIcon	  Ω I  
-SourceFile Footer.java !     " 
-           	s 
- 
-           	s  
-           	s  
-           	s  
-           	s  
-           	s  
-           	s  
-           	s  
-           	s  
-           	s  
-           	s  
-           	s   
- !          	s " 
- #          	s $ 
- %          	s & 
- '          	s ( 
- )          	s * 
- +          	s , 
- -          	s . 
- /          	s 0 
- 1          	s 2 
- 3          	s 4 
- 5          	s 6 
- 7          	s 8 
- 9          	s : 
- ;          	s < 
- =          	s > 
- ?          	s @ 
- A          	s B 
- C          	s D 
- E          	s F 
- G          	s H 
- I          	s J 	 K          	s L "  M N  O   /     *∑ P±    R        S        T U   	 V N  O   -      	≤ Wπ Y ±    R   
-       S      	 ^ N  O   -      	≤ _π Y ±    R   
-       S      	 a N  O   -      	≤ bπ Y ±    R   
-    "  # S      	 d N  O   -      	≤ eπ Y ±    R   
-    *  + S      	 g N  O   -      	≤ hπ Y ±    R   
-    2  3 S      	 j N  O   -      	≤ kπ Y ±    R   
-    :  ; S      	 m N  O   -      	≤ nπ Y ±    R   
-    B  C S      	 p N  O   -      	≤ qπ Y ±    R   
-    J  K S      	 s N  O   -      	≤ tπ Y ±    R   
-    R  S S      	 v N  O   -      	≤ wπ Y ±    R   
-    Z  [ S      	 y N  O   -      	≤ zπ Y ±    R   
-    b  c S      	 | N  O   -      	≤ }π Y ±    R   
-    j  k S      	  N  O   -      	≤ Äπ Y ±    R   
-    r  s S      	 Ç N  O   -      	≤ Éπ Y ±    R   
-    z  { S      	 Ö N  O   -      	≤ Üπ Y ±    R   
-    Ç  É S      	 à N  O   -      	≤ âπ Y ±    R   
-    ä  ã S      	 ã N  O   -      	≤ åπ Y ±    R   
-    í  ì S      	 é N  O   -      	≤ èπ Y ±    R   
-    ö  õ S      	 ë N  O   -      	≤ íπ Y ±    R   
-    ¢  £ S      	 î N  O   -      	≤ ïπ Y ±    R   
-    ™  ´ S      	 ó N  O   -      	≤ òπ Y ±    R   
-    ≤  ≥ S      	 ö N  O   -      	≤ õπ Y ±    R   
-    ∫  ª S      	 ù N  O   -      	≤ ûπ Y ±    R   
-    ¬  √ S      	 † N  O   -      	≤ °π Y ±    R   
-       À S      	 £ N  O   -      	≤ §π Y ±    R   
-    “  ” S      	 ¶ N  O   -      	≤ ßπ Y ±    R   
-    ›  ﬁ S      	 © N  O   -      	≤ ™π Y ±    R   
-    Â  Ê S      	 ¨ N  O   -      	≤ ≠π Y ±    R   
-    Ì  Ó S      	 Ø N  O   -      	≤ ∞π Y ±    R   
-    ı  ˆ S      	 ≤ N  O   -      	≤ ≥π Y ±    R   
-    ˝  ˛ S      	 µ N  O   -      	≤ ∂π Y ±    R   
-     S      	 ∏ N  O   -      	≤ ππ Y ±    R   
-     S      	 ª N  O   -      	≤ ºπ Y ±    R   
-     S       æ    ø ˛∫æ   1 i  objectRepository/Forms  setUpClasses/AbstractPage formName  Lorg/openqa/selenium/WebElement; RuntimeVisibleAnnotations $Lorg/openqa/selenium/support/FindBy; id edit-submitted-firstname 	formEmail edit-submitted-email formCheckBox edit-submitted-please-call-c-1 formFlag xpath //div[@class='selected-flag'] 	formPhone edit-submitted-home-phone-c 
-formSubmit edit-submit formprivacy 2.//*[@id='webform-client-form-6101']/div/p/small/a dateTime edit-submitted-stealthtime-c joinNow //option[@value='join_now_lp'] firstWebinar 2.//*[@id='edit-submitted-stealthtime-c']/option[2] helpTextBox -edit-submitted-contact-form-how-can-we-help-c whyInterestedField edit-submitted-optininterest-c topicToLearn #edit-submitted-topic-most-excited-c startTraining $edit-submitted-time-frame-to-begin-c <init> ()V Code
-  * & ' LineNumberTable LocalVariableTable this LobjectRepository/Forms; 	inputName (Ljava/lang/String;)V	  2   4 6 5 org/openqa/selenium/WebElement 7 ' click 9 java/lang/CharSequence 4 ; < = sendKeys ([Ljava/lang/CharSequence;)V name Ljava/lang/String; 
-inputEmail	  B   email clickPhoneBox	  F   
-selectFlag	  I   enterPhoneNumber	  L   phone clickSubmitButton	  P   clickPrivacyLink	  S   clickDateTime	  V   selectFirstWebinar	  Y   fillTextBox	  \   helpInquiry clickWhyInterested	  `    clickTopicToLearn	  c "  clickTrainingDate	  f $  
-SourceFile 
-Forms.java !      
-           	s 
- 
-           	s  
-           	s  
-           s  	           	s  
-           	s  
-           s  
-           	s  	           s  
-           s  
-           s  
-            s ! 
- "          s # 
- $          s %   & '  (   /     *∑ )±    +        ,        - .   	 / 0  (   K     ≤ 1π 3 ≤ 1Ω 8Y*Sπ : ±    +            ,        > ?   	 @ 0  (   K     ≤ Aπ 3 ≤ AΩ 8Y*Sπ : ±    +            ,        C ?   	 D '  (   -      	≤ Eπ 3 ±    +   
-       ! ,      	 G '  (   -      	≤ Hπ 3 ±    +   
-    '  ( ,      	 J 0  (   K     ≤ Kπ 3 ≤ KΩ 8Y*Sπ : ±    +       /  0  1 ,        M ?   	 N '  (   -      	≤ Oπ 3 ±    +   
-    8  9 ,      	 Q '  (   -      	≤ Rπ 3 ±    +   
-    @  A ,      	 T '  (   -      	≤ Uπ 3 ±    +   
-    M  N ,      	 W '  (   -      	≤ Xπ 3 ±    +   
-    Y  Z ,      	 Z 0  (   K     ≤ [π 3 ≤ [Ω 8Y*Sπ : ±    +       c  d  e ,        ] ?   	 ^ '  (   -      	≤ _π 3 ±    +   
-    p  q ,      	 a '  (   -      	≤ bπ 3 ±    +   
-    x  y ,      	 d '  (   -      	≤ eπ 3 ±    +   
-    Ä  Å ,       g    h ˛∫æ   1 N  objectRepository/Header  setUpClasses/AbstractPage home  Lorg/openqa/selenium/WebElement; RuntimeVisibleAnnotations $Lorg/openqa/selenium/support/FindBy; xpath ..//*[@id='navbar']/div[2]/div/div[1]/a/span[1] 
-curriculum 3.//*[@id='navbar']/div[2]/div/div[2]/nav/ul/li[1]/a info 3.//*[@id='navbar']/div[2]/div/div[2]/nav/ul/li[2]/a healthCoach 3.//*[@id='navbar']/div[2]/div/div[2]/nav/ul/li[3]/a about 3.//*[@id='navbar']/div[2]/div/div[2]/nav/ul/li[4]/a phoneNumber //p[@class='telephone-number'] contact .//*[@id='secondary-menu']/li/a search id edit-search-block-form--2 <init> ()V Code
-     LineNumberTable LocalVariableTable this LobjectRepository/Header; clickHomeIcon	  %   ' ) ( org/openqa/selenium/WebElement *  click clickCurriculumIcon	  -   clickInfoSessionsIcon	  0   clickHealthCoachIcon	  3   clickAboutUsIcon	  6   clickContactUsIcon	  9   conductSearch (Ljava/lang/String;)V	  =   ? java/lang/CharSequence ' A B C sendKeys ([Ljava/lang/CharSequence;)V	 E G F org/openqa/selenium/Keys H I RETURN Lorg/openqa/selenium/Keys; term Ljava/lang/String; 
-SourceFile Header.java !      
-           	s 
- 
-           	s  
-           	s  
-           	s  
-           	s  	           	s  
-           	s  
-           s          /     *∑ ±           
-          ! "   	 #      )      	≤ $π & ±                   	 +      )      	≤ ,π & ±                   	 .      )      	≤ /π & ±                   	 1      )      	≤ 2π & ±                   	 4      )      	≤ 5π & ±           $        	 7      )      	≤ 8π & ±           -        	 : ;     Q     #≤ <Ω >Y*Sπ @ ≤ <Ω >Y≤ DSπ @ ±       
-    3  4         # J K    L    M ˛∫æ   1   #objectRepository/HealthCoachingPage  setUpClasses/AbstractPage <init> ()V Code
-  	   LineNumberTable LocalVariableTable this %LobjectRepository/HealthCoachingPage; 
-SourceFile HealthCoachingPage.java !               /     *∑ ±    
-                          ˛∫æ   1 1  objectRepository/HomePage  setUpClasses/AbstractPage headerBanner  Lorg/openqa/selenium/WebElement; RuntimeVisibleAnnotations $Lorg/openqa/selenium/support/FindBy; xpath //header[@role='banner'] watchVideoButton B.//*[@id='block-system-main']/div[1]/div/div/div/div[9]/div/div[1] sampleProgramButton I.//*[@id='block-system-main']/div[1]/div/div/div/div[9]/div/div[2]/a/span modalCloseButton //button[@data-dismiss='modal'] 
-playButton -//button[@class='ytp-play-button ytp-button'] videoElapsed !//span[@class='ytp-time-current'] <init> ()V Code
-     LineNumberTable LocalVariableTable this LobjectRepository/HomePage; clickWatchVideo	      " $ # org/openqa/selenium/WebElement %  click clickSampleProgram	  (   
-closeModal	  +   clickPlayPause	  .   
-SourceFile HomePage.java !      	           	s 
- 
-           	s  
-           	s  	           	s  
-           	s  	           	s          /     *∑ ±                        	       -      	≤ π ! ±       
-             	 &      -      	≤ 'π ! ±       
-             	 )      )      	≤ *π ! ±           #       	 ,      -      	≤ -π ! ±       
-    )  *        /    0 ˛∫æ   1   !objectRepository/InfoSessionsPage  setUpClasses/AbstractPage formprivacy  Lorg/openqa/selenium/WebElement; RuntimeVisibleAnnotations $Lorg/openqa/selenium/support/FindBy; xpath 2.//*[@id='webform-client-form-6456']/div/p/small/a <init> ()V Code
-     LineNumberTable LocalVariableTable this #LobjectRepository/InfoSessionsPage; clickPrivacyLink	        org/openqa/selenium/WebElement   click 
-SourceFile InfoSessionsPage.java !      
-           	s 
-         /     *∑ ±                        	       -      	≤ π  ±       
-                   ˛∫æ   1   objectRepository/PaidLeadGen  setUpClasses/AbstractPage headerBanner  Lorg/openqa/selenium/WebElement; RuntimeVisibleAnnotations $Lorg/openqa/selenium/support/FindBy; xpath //header[@role='banner'] <init> ()V Code
-     LineNumberTable LocalVariableTable this LobjectRepository/PaidLeadGen; 
-SourceFile PaidLeadGen.java !      	           	s 
-         /     *∑ ±                              ˛∫æ   1 ,  &objectRepository/SampleClassModulePage  setUpClasses/AbstractPage SCMHeaderBanner  Lorg/openqa/selenium/WebElement; RuntimeVisibleAnnotations $Lorg/openqa/selenium/support/FindBy; xpath //header[@role='banner'] welcomeVideo N.//*[@id='block-system-main']/div[3]/div/div/div/div[5]/div/div/div[1]/div/div modalCloseButton //button[@data-dismiss='modal'] 
-playButton 6.//*[@id='modalVideo-2']/div/div/div/div/div[2]/div[1] videoElapsed 6.//*[@id='modalVideo-1']/div/div/div/div/div[2]/div[3] <init> ()V Code
-     LineNumberTable LocalVariableTable this (LobjectRepository/SampleClassModulePage; clickWelcomeVideo	       " ! org/openqa/selenium/WebElement #  click 
-closeModal	  &   clickPlayPause	  )   
-SourceFile SampleClassModulePage.java !      	           	s 
- 
-           	s  	           	s  
-           	s  	           	s          /     *∑ ±                        	       )      	≤ π  ±                  	 $      )      	≤ %π  ±                  	 '      -      	≤ (π  ±       
-              *    + ˛∫æ   1 ,  objectRepository/ThankYouPages  setUpClasses/AbstractPage headerBanner  Lorg/openqa/selenium/WebElement; RuntimeVisibleAnnotations $Lorg/openqa/selenium/support/FindBy; xpath //header[@role='banner'] watchVideoButton ?.//*[@id='block-system-main']/div[3]/div/div/div/div[3]/div/div modalCloseButton //button[@data-dismiss='modal'] 
-playButton -//button[@class='ytp-play-button ytp-button'] videoElapsed !//span[@class='ytp-time-current'] <init> ()V Code
-     LineNumberTable LocalVariableTable this  LobjectRepository/ThankYouPages; 
-watchVideo	       " ! org/openqa/selenium/WebElement #  click 
-closeModal	  &   clickPlayPause	  )   
-SourceFile ThankYouPages.java !      	           	s 
- 
-           	s  	           	s  
-           	s  	           	s          /     *∑ ±                        	       -      	≤ π  ±       
-             	 $      )      	≤ %π  ±                  	 '      -      	≤ (π  ±       
-               *    + ˛∫æ   1   setUpClasses/AbstractPage  java/lang/Object driver Lorg/openqa/selenium/WebDriver; <clinit> ()V Code	    !setUpClasses/DriverInitialization  	   LineNumberTable LocalVariableTable <init>
-     this LsetUpClasses/AbstractPage; 
-SourceFile AbstractPage.java !                	   '      ≤ 
-≥ ±                      	   /     *∑ ±                              ˛∫æ   1 l  !setUpClasses/DriverInitialization  java/lang/Object driver Lorg/openqa/selenium/WebDriver; <init> ()V Code
-     LineNumberTable LocalVariableTable this #LsetUpClasses/DriverInitialization; createEnvironment RuntimeVisibleAnnotations Lorg/junit/BeforeClass;  'org/openqa/selenium/chrome/ChromeDriver
-  	        org/openqa/selenium/WebDriver   manage )()Lorg/openqa/selenium/WebDriver$Options;  !   %org/openqa/selenium/WebDriver$Options "  deleteAllCookies $ $http://www.integrativenutrition.com/  & ' ( get (Ljava/lang/String;)V  * + , timeouts *()Lorg/openqa/selenium/WebDriver$Timeouts;       	 0 2 1 java/util/concurrent/TimeUnit 3 4 SECONDS Ljava/util/concurrent/TimeUnit; 6 8 7 &org/openqa/selenium/WebDriver$Timeouts 9 : implicitlyWait J(JLjava/util/concurrent/TimeUnit;)Lorg/openqa/selenium/WebDriver$Timeouts; < objectRepository/Header
- ; 
- ? A @ 'org/openqa/selenium/support/PageFactory B C initElements 4(Lorg/openqa/selenium/WebDriver;Ljava/lang/Object;)V E objectRepository/Footer
- D  H objectRepository/Forms
- G  K objectRepository/HomePage
- J  N objectRepository/CurriculumPage
- M  Q !objectRepository/InfoSessionsPage
- P  T #objectRepository/HealthCoachingPage
- S  W objectRepository/AboutUsPage
- V  Z objectRepository/ContactUsPage
- Y  ] objectRepository/BlogElements
- \  ` objectRepository/PaidLeadGen
- _  tearDownEnvironment Lorg/junit/AfterClass;  e f  quit 
-SourceFile DriverInitialization.java InnerClasses Options Timeouts !      	          	   /     *∑ 
-±                        	            	  &       ª Y∑ ≥ ≤ π  π  ≤ #π % ≤ π  π )  -≤ /π 5 W≤ ª ;Y∑ =∏ >≤ ª DY∑ F∏ >≤ ª GY∑ I∏ >≤ ª JY∑ L∏ >≤ ª MY∑ O∏ >≤ ª PY∑ R∏ >≤ ª SY∑ U∏ >≤ ª VY∑ X∏ >≤ ª YY∑ [∏ >≤ ª \Y∑ ^∏ >≤ ª _Y∑ a∏ >±       B     
-    !  :  G  T   a ! n " { # à $ ï % ¢ & Ø ' º ( … )       	 b        c   	   -      	≤ π d ±       
-    ,  -        g    h i       j	 6  k	 ˛∫æ   1 '  testScripts/AboutUsTests  !setUpClasses/DriverInitialization <init> ()V Code
-  	   LineNumberTable LocalVariableTable this LtestScripts/AboutUsTests; openHomepage RuntimeVisibleAnnotations Lorg/junit/Before;	     driver Lorg/openqa/selenium/WebDriver;  %www.integrativenutrition.com/about-us    org/openqa/selenium/WebDriver   get (Ljava/lang/String;)V 	videoPlay Lorg/junit/Test;   java/lang/Error " îUnresolved compilation problems: 
-	The method watchVideo() is undefined for the type AboutUsPage
-	videoElapsed cannot be resolved or is not a field
-
-  $   
-SourceFile AboutUsTests.java !               /     *∑ ±    
-       
-                            9     ≤ π  ±    
-   
-     
-                             4     
-ª Y!∑ #ø    
-               
-      %    & ˛∫æ   1    testScripts/BlogTests  !setUpClasses/DriverInitialization <init> ()V Code 	 java/lang/Error  ™Unresolved compilation problems: 
-	The import objectRepository.BlogLandingPage cannot be resolved
-	BlogLandingPage cannot be resolved
-	BlogLandingPage cannot be resolved
-
-     (Ljava/lang/String;)V LineNumberTable LocalVariableTable this LtestScripts/BlogTests; openBlogLanding RuntimeVisibleAnnotations Lorg/junit/Before;  !Unresolved compilation problem: 
- bannerDisplayed Lorg/junit/Test;  EUnresolved compilation problem: 
-	BlogLandingPage cannot be resolved
- submitFormNoPhone loadMoreDisplayed 
-SourceFile BlogTests.java !               4     
-ª Y
-∑ ø                   
-                    4     
-ª Y∑ ø                   
-                    4     
-ª Y∑ ø                   
-                    4     
-ª Y∑ ø                   
-                    4     
-ª Y∑ ø           *        
-           ˛∫æ   1 E  testScripts/CurriculumPageTests  !setUpClasses/DriverInitialization <init> ()V Code
-  	   LineNumberTable LocalVariableTable this !LtestScripts/CurriculumPageTests; openHomepage RuntimeVisibleAnnotations Lorg/junit/Before;	     driver Lorg/openqa/selenium/WebDriver;  .http://www.integrativenutrition.com/curriculum    org/openqa/selenium/WebDriver   get (Ljava/lang/String;)V 	videoPlay Lorg/junit/Test;   java/lang/Error " ñUnresolved compilation problems: 
-	The method playVideo() is undefined for the type CurriculumPage
-	videoElapsed cannot be resolved or is not a field
-
-  $   submitFormNoPhone ' curriculumTest
- ) + * objectRepository/Forms ,  	inputName . curriculumNoPhone@qatest.edu
- ) 0 1  
-inputEmail
- ) 3 4  clickSubmitButton submitFormWithPhone 7 curriculumWithPhone@qatest.edu
- ) 9 :  clickPhoneBox < 
-2127305433
- ) > ?  enterPhoneNumber testPrivacyPolicy B iUnresolved compilation problem: 
-	The method clickPrivacyLink() is undefined for the type CurriculumPage
- 
-SourceFile CurriculumPageTests.java !               /     *∑ ±    
-                                   9     ≤ π  ±    
-   
-     
-                             4     
-ª Y!∑ #ø    
-               
-      %              D     &∏ (-∏ /∏ 2±    
-       #  $ 
- %  &              5              T     &∏ (6∏ /∏ 8;∏ =∏ 2±    
-       *  + 
- ,  -  .  /              @              4     
-ª YA∑ #ø    
-       3        
-      C    D ˛∫æ   1 ã  testScripts/FooterSocialMedia  !setUpClasses/DriverInitialization <init> ()V Code
-  	   LineNumberTable LocalVariableTable this LtestScripts/FooterSocialMedia; footerOpenSocialMedia RuntimeVisibleAnnotations Lorg/junit/Test;
-    objectRepository/Footer   clickFacebookIcon
-     clickTwitterIcon
-     clickTumblerIcon
-     clickyouTubeIcon
-    !  clickLinkedInIcon
-  # $  clickVineIcon
-  & '  clickGPlusIcon
-  ) *  clickAmazonIcon	  , - . driver Lorg/openqa/selenium/WebDriver; 0 2 1 org/openqa/selenium/WebDriver 3 4 getWindowHandles ()Ljava/util/Set; 6 8 7 java/util/Set 9 : iterator ()Ljava/util/Iterator; < > = java/util/Iterator ? @ next ()Ljava/lang/Object; B java/lang/String 0 D E F switchTo /()Lorg/openqa/selenium/WebDriver$TargetLocator; H J I +org/openqa/selenium/WebDriver$TargetLocator K L window 3(Ljava/lang/String;)Lorg/openqa/selenium/WebDriver; 0 N O P getCurrentUrl ()Ljava/lang/String; R (https://www.facebook.com/NutritionSchool
- T V U org/junit/Assert W X assertEquals '(Ljava/lang/Object;Ljava/lang/Object;)V
- Z \ [ java/lang/Exception ]  printStackTrace _ #https://twitter.com/NutritionSchool a 'http://integrativenutrition.tumblr.com/ c 1https://www.youtube.com/user/integrativenutrition e Vhttps://www.linkedin.com/company/institute-for-integrative-nutrition?trk=NUS_CMPY_TWIT g /https://vine.co/u/1194388372626505728?mode=grid i 3https://plus.google.com/112542079191654541836/posts k khttp://www.amazon.com/s?marketplaceID=ATVPDKIKX0DER&me=A388GKFOEEICY0&merchant=A388GKFOEEICY0&redirect=true tabs Ljava/util/Set; socialMedia Ljava/util/Iterator; home Ljava/lang/String; faceBook twitter tumbler youTube linkedIn vine 
-googlePlus amazon currentUrlF e Ljava/lang/Exception; currentUrlTwit currentUrlTum currentUrlYouTube currentUrlLinked currentUrlVine currentUrlGPlus currentUrlAmazon LocalVariableTypeTable #Ljava/util/Set<Ljava/lang/String;>; (Ljava/util/Iterator<Ljava/lang/String;>; 
-SourceFile FooterSocialMedia.java InnerClasses TargetLocator !               /     *∑ ±    
-       
-                           c    „∏ ∏ ∏ ∏ ∏ ∏ "∏ %∏ (≤ +π / L+π 5 M,π ; ¿ AN,π ; ¿ A:,π ; ¿ A:,π ; ¿ A:,π ; ¿ A:,π ; ¿ A:,π ; ¿ A:	,π ; ¿ A:
-,π ; ¿ A:≤ +π C π G W≤ +π M :Q∏ Sß 
-:∂ Y≤ +π C π G W≤ +π M :^∏ Sß 
-:∂ Y≤ +π C π G W≤ +π M :`∏ Sß 
-:∂ Y≤ +π C π G W≤ +π M :b∏ Sß 
-:∂ Y≤ +π C π G W≤ +π M :d∏ Sß 
-:∂ Y≤ +π C 	π G W≤ +π M :f∏ Sß 
-:∂ Y≤ +π C 
-π G W≤ +π M :h∏ Sß 
-:∂ Y≤ +π C π G W≤ +π M :j∏ Sß 
-:∂ Y±  § ´ Æ Z œ ÷ Ÿ Z ˙ Z%,/ ZPWZ Z{ÇÖ Z¶≠∞ Z—ÿ€ Z  
-   Ú <        	            !  (  2  =  H  S  ^   i ! t "  # ä & ö ' § ) ´ * ∞ + µ / ≈ 0 œ 2 ÷ 3 € 4 ‡ 8  9 ˙ ; < = A B% D, E1 F6 JF KP MW N\ Oa Sq T{ VÇ Wá Xå \ú ]¶ _≠ `≤ a∑ e« f— hÿ i› j‚ y      „     !¬ l m  (ª n o  2± p q  =¶ r q  Hõ s q  Sê t q  ^Ö u q  iz v q  to w q 	 d x q 
- äY y q  §? z q  ∞  { |  œ } q  €  { |  ˙ È ~ q   { | % æ  q 1  { | P ì Ä q \  { | { h Å q á  { | ¶ = Ç q ≤  { | —  É q ›  { |  Ñ     !¬ l Ö  (ª n Ü   á    à â   
-  H 0 ä	 ˛∫æ   1 Ú  testScripts/FooterTests  !setUpClasses/DriverInitialization <init> ()V Code
-  	   LineNumberTable LocalVariableTable this LtestScripts/FooterTests; footerCurric RuntimeVisibleAnnotations Lorg/junit/Test;
-    objectRepository/Footer   clickCurriculumLink	     driver Lorg/openqa/selenium/WebDriver;    org/openqa/selenium/WebDriver   getCurrentUrl ()Ljava/lang/String; ! .http://www.integrativenutrition.com/curriculum
- # % $ org/junit/Assert & ' assertEquals '(Ljava/lang/Object;Ljava/lang/Object;)V
- ) + * java/lang/Exception ,  printStackTrace 
-currentUrl Ljava/lang/String; e Ljava/lang/Exception; footerLC
-  3 4  clickLearningCenterLink 6 =http://www.integrativenutrition.com/curriculum#learningcenter footerVisitTeach
-  9 :  clickVisitingTeachersLink < ?http://www.integrativenutrition.com/curriculum#visitingteachers footerBusinessTraining
-  ? @  clickBusinessTrainingLink B ?http://www.integrativenutrition.com/curriculum#businesstraining footerHealthCoaching
-  E F  clickHealthCoachingLink H 3http://www.integrativenutrition.com/health-coaching footerWhatIsHC
-  K L  clickWhatsHCLink N <http://www.integrativenutrition.com/health-coaching#definehc footerGradSuccess
-  Q R  clickGradSuccessLink T ?http://www.integrativenutrition.com/health-coaching#gradsuccess footerPassionateCareer
-  W X  clickCareerPassionLink Z Ahttp://www.integrativenutrition.com/health-coaching#careerpassion footerInfoSessions
-  ] ^  clickInfoSessionsLink ` 1http://www.integrativenutrition.com/info-sessions footerMeetFounder
-  c d  clickMeetFounderLink f 9http://www.integrativenutrition.com/info-sessions#founder footerStudentExperience
-  i j  clickStudentExperienceLink l Chttp://www.integrativenutrition.com/info-sessions#studentexperience footerHCright4You
-  o p  clickHCRightForYouLink r ?http://www.integrativenutrition.com/info-sessions#hcrightforyou footerMyHealthy
-  u v  clickMyYourHealthLink x 9http://www.integrativenutrition.com/info-sessions#healthy footerAboutUs
-  { |  clickAboutUsLink ~ ,http://www.integrativenutrition.com/about-us footerHealthRev
-  Å Ç  clickHealthRevLink Ñ 7http://www.integrativenutrition.com/about-us#aboutvideo footerCoreValues
-  á à  clickCoreValuesLink ä 7http://www.integrativenutrition.com/about-us#corevalues footerAdvisorBoard
-  ç é  clickAdvisorBoardLink ê 5http://www.integrativenutrition.com/about-us#advisors footerReviews
-  ì î  clickReviewsLink ñ +http://www.integrativenutrition.com/reviews 
-footerBlog
-  ô ö  clickBlogLink ú (http://www.integrativenutrition.com/blog footerFromFounder
-  ü †  clickFromFounderLink ¢ Jhttp://www.integrativenutrition.com/blog/categories/notes-from-the-founder footerHealthTrends
-  • ¶  clickHealthTrendsLink ® Ahttp://www.integrativenutrition.com/blog/categories/health-trends footerOpenSubFooter
-  ´ ¨  clickRegulatoryInfoLink
-  Æ Ø  clickTermsPrivacyLink
-  ± ≤  clickAffiliatesLink
-  ¥ µ  clickJobsLink  ∑ ∏ π getWindowHandles ()Ljava/util/Set; ª Ω º java/util/Set æ ø iterator ()Ljava/util/Iterator; ¡ √ ¬ java/util/Iterator ƒ ≈ next ()Ljava/lang/Object; « java/lang/String  …   À switchTo /()Lorg/openqa/selenium/WebDriver$TargetLocator; Õ œ Œ +org/openqa/selenium/WebDriver$TargetLocator – — window 3(Ljava/lang/String;)Lorg/openqa/selenium/WebDriver; ” 4http://www.integrativenutrition.com/about/regulatory ’ 4http://www.integrativenutrition.com/lp/privacypolicy ◊ .http://www.integrativenutrition.com/affiliates Ÿ (http://www.integrativenutrition.com/jobs  € ‹ › get (Ljava/lang/String;)V tabs Ljava/util/Set; 	subFooter Ljava/util/Iterator; home regInfo termsPrivacy 
-affiliates jobs currentUrlRI currentUrlTerms currentUrlAff currentUrlJobs LocalVariableTypeTable #Ljava/util/Set<Ljava/lang/String;>; (Ljava/util/Iterator<Ljava/lang/String;>; 
-SourceFile FooterTests.java InnerClasses TargetLocator !               /     *∑ ±    
-                                   u     ∏ ≤ π  L+ ∏ "ß M,∂ (±     )  
-                                 - .    / 0   1              u     ∏ 2≤ π  L+5∏ "ß M,∂ (±     )  
-                !  #                - .    / 0   7              u     ∏ 8≤ π  L+;∏ "ß M,∂ (±     )  
-       '  (  *  +  ,  .                - .    / 0   =              u     ∏ >≤ π  L+A∏ "ß M,∂ (±     )  
-       2  3  5  6  7  9                - .    / 0   C              u     ∏ D≤ π  L+G∏ "ß M,∂ (±     )  
-       =  >  @  A  B  D                - .    / 0   I              u     ∏ J≤ π  L+M∏ "ß M,∂ (±     )  
-       H  I  K  L  M  O                - .    / 0   O              u     ∏ P≤ π  L+S∏ "ß M,∂ (±     )  
-       S  T  V  W  X  Z                - .    / 0   U              u     ∏ V≤ π  L+Y∏ "ß M,∂ (±     )  
-       ^  _  a  b  c  e                - .    / 0   [              u     ∏ \≤ π  L+_∏ "ß M,∂ (±     )  
-       i  j  l  m  n  p                - .    / 0   a              u     ∏ b≤ π  L+e∏ "ß M,∂ (±     )  
-       t  u  w  x  y  {                - .    / 0   g              u     ∏ h≤ π  L+k∏ "ß M,∂ (±     )  
-         Ä  Ç  É  Ñ  Ü                - .    / 0   m              u     ∏ n≤ π  L+q∏ "ß M,∂ (±     )  
-       ä  ã  ç  é  è  ë                - .    / 0   s              u     ∏ t≤ π  L+w∏ "ß M,∂ (±     )  
-       ï  ñ  ò  ô  ö  ú                - .    / 0   y              u     ∏ z≤ π  L+}∏ "ß M,∂ (±     )  
-       †  °  £  §  •  ß                - .    / 0                 u     ∏ Ä≤ π  L+É∏ "ß M,∂ (±     )  
-       ´  ¨  Æ  Ø  ∞  ≤                - .    / 0   Ö              u     ∏ Ü≤ π  L+â∏ "ß M,∂ (±     )  
-       ∂  ∑  π  ∫  ª  Ω                - .    / 0   ã              u     ∏ å≤ π  L+è∏ "ß M,∂ (±     )  
-       ¡  ¬  ƒ  ≈  ∆  »                - .    / 0   ë              u     ∏ í≤ π  L+ï∏ "ß M,∂ (±     )  
-       Ã  Õ  œ  –  —  ”                - .    / 0   ó              u     ∏ ò≤ π  L+õ∏ "ß M,∂ (±     )  
-       ◊  ÿ  ⁄  €  ‹  ﬁ                - .    / 0   ù              u     ∏ û≤ π  L+°∏ "ß M,∂ (±     )  
-       ‚  „  Â  Ê  Á  È                - .    / 0   £              u     ∏ §≤ π  L+ß∏ "ß M,∂ (±     )  
-       Ì  Ó    Ò  Ú  Ù                - .    / 0   ©             Ö    	∏ ™∏ ≠∏ ∞∏ ≥≤ π ∂ L+π ∫ M,π ¿ ¿ ∆N,π ¿ ¿ ∆:,π ¿ ¿ ∆:,π ¿ ¿ ∆:,π ¿ ¿ ∆:≤ π » π Ã W≤ π  :“∏ "ß 
-:		∂ (≤ π » π Ã W≤ π  :		‘∏ "ß 
-:
-
-∂ (≤ π » π Ã W≤ π  :
-
-÷∏ "ß 
-:∂ (≤ π » π Ã W≤ π  :ÿ∏ "ß 
-:∂ (≤  π ⁄ ±  l s v ) ó û ° ) ¬ … Ã ) Ì Ù ˜ )  
-   Ü !   ¯  ˘  ˙ 	 ˚  ˝  ˛  ˇ &  1 < G R b l	 s
- x } ç ó û £ ® ∏ ¬ … Œ ”! „" Ì$ Ù% ˘& ˛*,    ¢   	      Ù ﬁ ﬂ   Ì ‡ ·  & „ ‚ .  1 ÿ „ .  < Õ ‰ .  G ¬ Â .  R ∑ Ê .  l ù Á .  x  / 0 	 ó r Ë . 	 £  / 0 
- ¬ G È . 
- Œ  / 0  Ì  Í .  ˘  / 0  Î      Ù ﬁ Ï   Ì ‡ Ì   Ó    Ô    
-  Õ  Ò	 ˛∫æ   1 k  testScripts/HeaderTests  !setUpClasses/DriverInitialization <init> ()V Code
-  	   LineNumberTable LocalVariableTable this LtestScripts/HeaderTests; headerPhone RuntimeVisibleAnnotations Lorg/junit/Test;	    objectRepository/Header   phoneNumber  Lorg/openqa/selenium/WebElement;    org/openqa/selenium/WebElement   isDisplayed ()Z
-     org/junit/Assert ! " 
-assertTrue (Z)V
- $ & % java/lang/Exception '  printStackTrace present Z e Ljava/lang/Exception; headerSearch . learning
-  0 1 2 conductSearch (Ljava/lang/String;)V	  4 5 6 driver Lorg/openqa/selenium/WebDriver; 8 : 9 org/openqa/selenium/WebDriver ; < getCurrentUrl ()Ljava/lang/String; > 8http://www.integrativenutrition.com/search/node/learning
-  @ A B assertEquals '(Ljava/lang/Object;Ljava/lang/Object;)V 
-currentUrl Ljava/lang/String; headerHomeIcon
-  G H  clickHomeIcon J $http://www.integrativenutrition.com/ headerContactUs
-  M N  clickContactUsIcon P .http://www.integrativenutrition.com/contact-us headerCurric
-  S T  clickCurriculumIcon V .http://www.integrativenutrition.com/curriculum headerInfoSess
-  Y Z  clickInfoSessionsIcon \ 1http://www.integrativenutrition.com/info-sessions headerHealthCoach
-  _ `  clickHealthCoachIcon b 3http://www.integrativenutrition.com/health-coaching headerAboutUs
-  e f  clickAboutUsIcon h ,http://www.integrativenutrition.com/about-us 
-SourceFile HeaderTests.java !       	        /     *∑ ±    
-                                   l     ≤ π  <∏ ß M,∂ #±  	   $  
-        	                     	  ( )    * +   ,              w     -∏ /≤ 3π 7 L+=∏ ?ß M,∂ #±     $  
-                                 C D    * +   E              u     ∏ F≤ 3π 7 L+I∏ ?ß M,∂ #±     $  
-       $  %  '  (  )  +                C D    * +   K              u     ∏ L≤ 3π 7 L+O∏ ?ß M,∂ #±     $  
-       /  0  2  3  4  6                C D    * +   Q              u     ∏ R≤ 3π 7 L+U∏ ?ß M,∂ #±     $  
-       :  ;  =  >  ?  A                C D    * +   W              u     ∏ X≤ 3π 7 L+[∏ ?ß M,∂ #±     $  
-       E  F  H  I  J  L                C D    * +   ]              u     ∏ ^≤ 3π 7 L+a∏ ?ß M,∂ #±     $  
-       P  Q  S  T  U  W                C D    * +   c              u     ∏ d≤ 3π 7 L+g∏ ?ß M,∂ #±     $  
-       [  \  ^  _  `  b                C D    * +   i    j ˛∫æ   1 ö  testScripts/HealthCoachingTests  !setUpClasses/DriverInitialization <init> ()V Code
-  	   LineNumberTable LocalVariableTable this !LtestScripts/HealthCoachingTests; openInfoSess RuntimeVisibleAnnotations Lorg/junit/Before;	     driver Lorg/openqa/selenium/WebDriver;  3http://www.integrativenutrition.com/health-coaching    org/openqa/selenium/WebDriver   get (Ljava/lang/String;)V      manage )()Lorg/openqa/selenium/WebDriver$Options; " $ # %org/openqa/selenium/WebDriver$Options %  deleteAllCookies nameValidation Lorg/junit/Test; ) hCoachTest@qatest.edu
- + - , objectRepository/Forms .  
-inputEmail
- + 0 1  clickSubmitButton  3 4 5 getCurrentUrl ()Ljava/lang/String;
- 7 9 8 org/junit/Assert : ; assertEquals '(Ljava/lang/Object;Ljava/lang/Object;)V
- = ? > java/lang/Exception @  printStackTrace 
-currentUrl Ljava/lang/String; e Ljava/lang/Exception; emailValidation G qaTest
- + I J  	inputName countryFlagMatch M hcoachTest@qatest.edu
- + O P  clickPhoneBox
- + R S  
-selectFlag U G.//*[@id='webform-component-Home-Phone--c']/div[1]/div/ul/li[5]/span[1]
- W Y X org/openqa/selenium/By Z [ xpath ,(Ljava/lang/String;)Lorg/openqa/selenium/By;  ] ^ _ findElement :(Lorg/openqa/selenium/By;)Lorg/openqa/selenium/WebElement; a c b org/openqa/selenium/WebElement d  click f 
-1111111111
- + h i  enterPhoneNumber	 + k l m 	formPhone  Lorg/openqa/selenium/WebElement; o value a q r s getAttribute &(Ljava/lang/String;)Ljava/lang/String; u 44
- w y x java/lang/String z { contains (Ljava/lang/CharSequence;)Z
- 7 } ~  
-assertTrue (Z)V unitedKingdom 
-phoneValue ukFlag Z 	videoPlay Ü java/lang/Error à õUnresolved compilation problems: 
-	The method watchVideo() is undefined for the type HealthCoachingPage
-	videoElapsed cannot be resolved or is not a field
-
- Ö ä   submitFormNoPhone ç 
-hCoachTest è hCoach@qatest.edu submitFormWithPhone í 
-2127305433 testPrivacyPolicy ï mUnresolved compilation problem: 
-	The method clickPrivacyLink() is undefined for the type HealthCoachingPage
- 
-SourceFile HealthCoachingTests.java InnerClasses Options !       	        /     *∑ ±    
-                                   J     ≤ π  ≤ π  π ! ±    
-        
-                 &        '      ~      (∏ *∏ /≤ π 2 L+∏ 6ß M,∂ <±     =  
-                   !                 A B    C D   E        '      ~      F∏ H∏ /≤ π 2 L+∏ 6ß M,∂ <±     =  
-       %  &  '  )  *  +  -                 A B    C D   K        '      €     MF∏ HL∏ *∏ N∏ Q≤ T∏ Vπ \ L+π ` e∏ g∏ /≤ jnπ p M,t∂ v>∏ |ß 
-:∂ <±  > B E =  
-   :    1  2 
- 3  4  5  6 $ 7 ) 8 , 9 7 : > < B = G > L @    4    M      / Ä m  7  Å B  >  Ç É  G  C D   Ñ        '      4     
-ª ÖYá∑ âø    
-       D        
-      ã        '      D     å∏ Hé∏ *∏ /±    
-       R  S 
- T  U              ê        '      T     å∏ Hé∏ *∏ Në∏ g∏ /±    
-       Y  Z 
- [  \  ]  ^              ì        '      4     
-ª ÖYî∑ âø    
-       b        
-      ñ    ó ò   
-  "  ô	 ˛∫æ   1 y  testScripts/HomePageTests  !setUpClasses/DriverInitialization <init> ()V Code
-  	   LineNumberTable LocalVariableTable this LtestScripts/HomePageTests; bannerDisplayed RuntimeVisibleAnnotations Lorg/junit/Test;	    objectRepository/PaidLeadGen   headerBanner  Lorg/openqa/selenium/WebElement;    org/openqa/selenium/WebElement   isDisplayed ()Z
-     org/junit/Assert ! " 
-assertTrue (Z)V
- $ & % java/lang/Exception '  printStackTrace bannerAppear Z e Ljava/lang/Exception; 	videoPlay	  . / 0 driver Lorg/openqa/selenium/WebDriver; 2 www.integrativenutrition.com 4 6 5 org/openqa/selenium/WebDriver 7 8 get (Ljava/lang/String;)V
- : < ; objectRepository/HomePage =  clickWatchVideo 4 ? @ A manage )()Lorg/openqa/selenium/WebDriver$Options; C E D %org/openqa/selenium/WebDriver$Options F G timeouts *()Lorg/openqa/selenium/WebDriver$Timeouts;       s	 K M L java/util/concurrent/TimeUnit N O SECONDS Ljava/util/concurrent/TimeUnit; Q S R &org/openqa/selenium/WebDriver$Timeouts T U implicitlyWait J(JLjava/util/concurrent/TimeUnit;)Lorg/openqa/selenium/WebDriver$Timeouts; 4 W X Y switchTo /()Lorg/openqa/selenium/WebDriver$TargetLocator; [ media-youtube-e5ac7sou1s4 ] _ ^ +org/openqa/selenium/WebDriver$TargetLocator ` a frame 3(Ljava/lang/String;)Lorg/openqa/selenium/WebDriver;	 : c d  videoElapsed  f g h getText ()Ljava/lang/String; j 1:53
- l n m java/lang/String o p contains (Ljava/lang/CharSequence;)Z Ljava/lang/String; videoComplete 
-SourceFile HomePageTests.java InnerClasses Options TargetLocator Timeouts !               /     *∑ ±    
-                                   l     ≤ π  <∏ ß M,∂ #±  	   $  
-        	                     	  ( )    * +   ,              «     S≤ -1π 3 ∏ 9≤ -π > π B  H≤ Jπ P W≤ -π V Zπ \ W≤ bπ e L+i∂ k=∏ ß N-∂ #±  F J M $  
-   * 
-    
-    &  6  ?  F ! J " N # R (    *    S     ?  d q  F  r )  N  * +   s    t u     C 4 v	 ] 4 w	 Q 4 x	 ˛∫æ   1 ,  testScripts/HTTPstatus  !setUpClasses/DriverInitialization <init> ()V Code
-  	   LineNumberTable LocalVariableTable this LtestScripts/HTTPstatus; 
-SiteStatus RuntimeVisibleAnnotations Lorg/junit/Test;  ,org/openqa/selenium/remote/http/HttpResponse
-  	
-     	getStatus ()I
-    java/lang/Double   valueOf (D)Ljava/lang/Double;@@     
- ! # " org/junit/Assert $ % assertNotEquals '(Ljava/lang/Object;Ljava/lang/Object;)V response .Lorg/openqa/selenium/remote/http/HttpResponse; actualStatus D 
-SourceFile HTTPstatus.java !               /     *∑ ±    
-       	                            f     ª Y∑ L+∂ áI(∏  ∏ ∏  ±    
-                             & '    ( )   *    + ˛∫æ   1 É  testScripts/InfoSessionTests  !setUpClasses/DriverInitialization <init> ()V Code
-  	   LineNumberTable LocalVariableTable this LtestScripts/InfoSessionTests; openInfoSess RuntimeVisibleAnnotations Lorg/junit/Before;  java/lang/Error  tUnresolved compilation problems: 
-	The field Forms.dateTime is not visible
-	The field Forms.dateTime is not visible
-
-     (Ljava/lang/String;)V nameValidation Lorg/junit/Test;  infoSessTest@qatest.edu
-    objectRepository/Forms    
-inputEmail
-  " #  clickSubmitButton	  % & ' driver Lorg/openqa/selenium/WebDriver; ) + * org/openqa/selenium/WebDriver , - getCurrentUrl ()Ljava/lang/String; / 1http://www.integrativenutrition.com/info-sessions
- 1 3 2 org/junit/Assert 4 5 assertEquals '(Ljava/lang/Object;Ljava/lang/Object;)V
- 7 9 8 java/lang/Exception :  printStackTrace 
-currentUrl Ljava/lang/String; e Ljava/lang/Exception; emailValidation A qaTest
-  C D  	inputName countryFlagMatch
-  G H  
-selectFlag J H.//*[@id='webform-component-Home-Phone--c']/div[1]/div/ul/li[61]/span[1]
- L N M org/openqa/selenium/By O P xpath ,(Ljava/lang/String;)Lorg/openqa/selenium/By; ) R S T findElement :(Lorg/openqa/selenium/By;)Lorg/openqa/selenium/WebElement; V X W org/openqa/selenium/WebElement Y  click [ 
-1111111111
-  ] ^  enterPhoneNumber	  ` a b 	formPhone  Lorg/openqa/selenium/WebElement; d value V f g h getAttribute &(Ljava/lang/String;)Ljava/lang/String; j 357
- l n m java/lang/String o p contains (Ljava/lang/CharSequence;)Z
- 1 r s t 
-assertTrue (Z)V cyprus 
-phoneValue 
-cyprusFlag Z testPrivacyPolicy
- { } | !objectRepository/InfoSessionsPage ~  clickPrivacyLink Ä 4http://www.integrativenutrition.com/lp/privacypolicy 
-SourceFile InfoSessionTests.java !               /     *∑ ±    
-                                   4     
-ª Y∑ ø    
-               
-                    ~      ∏ ∏ !≤ $π ( L+.∏ 0ß M,∂ 6±     7  
-                  !  #                 ; <    = >   ?              ~      @∏ B∏ !≤ $π ( L+.∏ 0ß M,∂ 6±     7  
-       '  (  )  +  ,  -  /                 ; <    = >   E              ‘     J@∏ B∏ ∏ F≤ $I∏ Kπ Q L+π U Z∏ \∏ !≤ _cπ e M,i∂ k>∏ qß 
-:∂ 6±  ; ? B 7  
-   6    3  4 
- 5  6  7 ! 8 & 9 ) : 4 ; ; = ? > D ? I A    4    J      / u b  4  v <  ;  w x  D  = >   y              u     ∏ z≤ $π ( L+∏ 0ß M,∂ 6±     7  
-       D  E  G  H  I  K                ; <    = >   Å    Ç ˛∫æ   1 ≥  testScripts/PageLeadTests  !setUpClasses/DriverInitialization <init> ()V Code
-  	   LineNumberTable LocalVariableTable this LtestScripts/PageLeadTests; clearCookies RuntimeVisibleAnnotations Lorg/junit/Before;	     driver Lorg/openqa/selenium/WebDriver;    org/openqa/selenium/WebDriver   manage )()Lorg/openqa/selenium/WebDriver$Options;    %org/openqa/selenium/WebDriver$Options   deleteAllCookies bannerDisplayed Lorg/junit/Test; # ;http://www.integrativenutrition.com/info-nutritioneducation  % & ' get (Ljava/lang/String;)V	 ) + * objectRepository/PaidLeadGen , - headerBanner  Lorg/openqa/selenium/WebElement; / 1 0 org/openqa/selenium/WebElement 2 3 isDisplayed ()Z
- 5 7 6 org/junit/Assert 8 9 
-assertTrue (Z)V
- ; = < java/lang/Exception >  printStackTrace bannerAppear Z e Ljava/lang/Exception; nameValidation E paidLeadTest@qatest.edu
- G I H objectRepository/Forms J ' 
-inputEmail
- G L M  clickSubmitButton  O P Q getCurrentUrl ()Ljava/lang/String;
- 5 S T U assertEquals '(Ljava/lang/Object;Ljava/lang/Object;)V 
-currentUrl Ljava/lang/String; emailValidation Z qaTest
- G \ ] ' 	inputName countryFlagMatch
- G ` a  
-selectFlag c H.//*[@id='webform-component-Home-Phone--c']/div[1]/div/ul/li[76]/span[1]
- e g f org/openqa/selenium/By h i xpath ,(Ljava/lang/String;)Lorg/openqa/selenium/By;  k l m findElement :(Lorg/openqa/selenium/By;)Lorg/openqa/selenium/WebElement; / o p  click r 
-1111111111
- G t u ' enterPhoneNumber	 G w x - 	formPhone z value / | } ~ getAttribute &(Ljava/lang/String;)Ljava/lang/String; Ä 679
- Ç Ñ É java/lang/String Ö Ü contains (Ljava/lang/CharSequence;)Z fiji 
-phoneValue fijiFlag 
-formSubmit å qatesting@qatest.edu é 8http://www.integrativenutrition.com/class-thank-you?sid= expectedUrl bannerDisplayedR í =http://www.integrativenutrition.com/info-nutritioneducation-r nameValidationR emailValidationR countryFlagMatchR ó >http://www.integrativenutrition.com/info-nutritioneducation-r3
- G ô ö  clickPhoneBox ú I.//*[@id='webform-component-Home-Phone--c']/div[1]/div/ul/li[108]/span[1] û 876 jamaica jamiacaFlag formSubmitR bannerDisplayedD § =http://www.integrativenutrition.com/info-nutritioneducation-d nameValidationD emailValidationD countryFlagMatchD © I.//*[@id='webform-component-Home-Phone--c']/div[1]/div/ul/li[230]/span[1] ´ 598 uruguay uruguayFlag formSubmitD 
-SourceFile PageLeadTests.java InnerClasses Options !               /     *∑ ±    
-                                   <     ≤ π  π  ±    
-   
-                             !      z      ≤ "π $ ≤ (π . <∏ 4ß M,∂ :±     ;  
-        
-         !                 ? @    A B   C        !      å     *≤ "π $ D∏ F∏ K≤ π N L+"∏ Rß M,∂ :±   ! $ ;  
-   "    % 
- &  '  (  * ! + % , ) .         *       V W  %  A B   X        !      å     *≤ "π $ Y∏ [∏ K≤ π N L+"∏ Rß M,∂ :±   ! $ ;  
-   "    2 
- 3  4  5  7 ! 8 % 9 ) ;         *       V W  %  A B   ^        !      –     J≤ "π $ ∏ _≤ b∏ dπ j L+π n q∏ s∏ K≤ vyπ { M,∂ Å>∏ 4ß 
-:∂ :±  ; ? B ;  
-   2    ? 
- @  A  B ! C & D ) E 4 F ; H ? I D J I M    4    J      / á -  4  à W  ;  â @  D  A B   ä        !      ò     2≤ "π $ Y∏ [ã∏ F∏ K≤ π N ç∂ Å<∏ 4ß M,∂ :±  % ) , ;  
-   & 	   Q 
- R  S  T  U % W ) X - Y 1 [         2     %  è @  -  A B   ê        !      z      ≤ ëπ $ ≤ (π . <∏ 4ß M,∂ :±     ;  
-       c 
- d  f  g  h  j                 ? @    A B   ì        !      è     -≤ ëπ $ D∏ F∏ K≤ π N ë∂ Å<∏ 4ß M,∂ :±    $ ' ;  
-   "    n 
- o  p  q   s $ t ( u , w         -        V @  (  A B   î        !      è     -≤ ëπ $ Y∏ [∏ K≤ π N ë∂ Å<∏ 4ß M,∂ :±    $ ' ;  
-   "    { 
- |  }  ~   Ä $ Ç ( É , Ö         -        V @  (  A B   ï        !      ◊     M≤ ñπ $ ∏ ò∏ _≤ õ∏ dπ j L+π n q∏ s∏ K≤ vyπ { M,ù∂ Å>∏ 4ß 
-:∂ :±  > B E ;  
-   6    â 
- ä  ã  å  ç $ é ) è , ê 7 ë > ì B î G ï L ó    4    M      / ü -  7  à W  >  † @  G  A B   °        !      ò     2≤ ëπ $ Y∏ [ã∏ F∏ K≤ π N ç∂ Å<∏ 4ß M,∂ :±  % ) , ;  
-   & 	   õ 
- ú  ù  û  ü % ° ) ¢ - £ 1 •         2     %  è @  -  A B   ¢        !      z      ≤ £π $ ≤ (π . <∏ 4ß M,∂ :±     ;  
-       ≠ 
- Æ  ∞  ±  ≤  ¥                 ? @    A B   •        !      å     *≤ £π $ D∏ F∏ K≤ π N L+£∏ Rß M,∂ :±   ! $ ;  
-   "    ∏ 
- π  ∫  ª  Ω ! æ % ø ) ¡         *       V W  %  A B   ¶        !      å     *≤ £π $ Y∏ [∏ K≤ π N L+£∏ Rß M,∂ :±   ! $ ;  
-   "    ≈ 
- ∆  «  »    ! À % Ã ) Œ         *       V W  %  A B   ß        !      –     J≤ £π $ ∏ _≤ ®∏ dπ j L+π n q∏ s∏ K≤ vyπ { M,™∂ Å>∏ 4ß 
-:∂ :±  ; ? B ;  
-   2    “ 
- ”  ‘  ’ ! ÷ & ◊ ) ÿ 4 Ÿ ; € ? ‹ D › I ﬂ    4    J      / ¨ -  4  à W  ;  ≠ @  D  A B   Æ        !      ò     2≤ £π $ Y∏ [ã∏ F∏ K≤ π N ç∂ Å<∏ 4ß M,∂ :±  % ) , ;  
-   & 	   „ 
- ‰  Â  Ê  Á % È ) Í - Î 1 Ì         2     %  è @  -  A B   Ø    ∞ ±   
-    ≤	 ˛∫æ   1 ^  "testScripts/SampleClassModuleTests  !setUpClasses/DriverInitialization <init> ()V Code
-  	   LineNumberTable LocalVariableTable this $LtestScripts/SampleClassModuleTests; openSCMpage RuntimeVisibleAnnotations Lorg/junit/Before;	     driver Lorg/openqa/selenium/WebDriver;    org/openqa/selenium/WebDriver   manage )()Lorg/openqa/selenium/WebDriver$Options;    %org/openqa/selenium/WebDriver$Options   deleteAllCookies ! 7http://www.integrativenutrition.com/sample-class-module  # $ % get (Ljava/lang/String;)V bannerDisplayed Lorg/junit/Test;	 ) + * &objectRepository/SampleClassModulePage , - SCMHeaderBanner  Lorg/openqa/selenium/WebElement; / 1 0 org/openqa/selenium/WebElement 2 3 isDisplayed ()Z
- 5 7 6 org/junit/Assert 8 9 
-assertTrue (Z)V
- ; = < java/lang/Exception >  printStackTrace bannerAppear Z e Ljava/lang/Exception; 	videoPlay
- ) E F  clickWelcomeVideo  H I J timeouts *()Lorg/openqa/selenium/WebDriver$Timeouts;       n	 N P O java/util/concurrent/TimeUnit Q R SECONDS Ljava/util/concurrent/TimeUnit; T V U &org/openqa/selenium/WebDriver$Timeouts W X implicitlyWait J(JLjava/util/concurrent/TimeUnit;)Lorg/openqa/selenium/WebDriver$Timeouts; 
-SourceFile SampleClassModuleTests.java InnerClasses Options Timeouts !               /     *∑ ±    
-                                   J     ≤ π  π  ≤  π " ±    
-                         &        '      l     ≤ (π . <∏ 4ß M,∂ :±  	   ;  
-        	                     	  ? @    A B   C        '      O     ∏ D≤ π  π G  K≤ Mπ S W±    
-          !  -              Y    Z [       \	 T  ]	 ˛∫æ   1 1  testScripts/Test  java/lang/Object driver Lorg/openqa/selenium/WebDriver; baseUrl Ljava/lang/String; acceptNextAlert Z verificationErrors Ljava/lang/StringBuffer; <init> ()V Code  java/lang/Error  ÎUnresolved compilation problems: 
-	The declared package "com.example.tests" does not match the expected package "testScripts"
-	The public type Test must be defined in its own file
-	Type mismatch: cannot convert from Test to Annotation
-
-     (Ljava/lang/String;)V LineNumberTable LocalVariableTable this LtestScripts/Test; setUp 
-Exceptions  java/lang/Exception RuntimeVisibleAnnotations Lorg/junit/Before; " !Unresolved compilation problem: 
- test RuntimeInvisibleAnnotations & XUnresolved compilation problem: 
-	Type mismatch: cannot convert from Test to Annotation
- tearDown Lorg/junit/After; isElementPresent (Lorg/openqa/selenium/By;)Z isAlertPresent ()Z closeAlertAndGetItsText ()Ljava/lang/String; 
-SourceFile 	test.java !                 	 
-                4     
-ª Y∑ ø                   
-                           4     
-ª Y!∑ ø                   
-      #         $           4     
-ª Y%∑ ø                   
-      '              (      4     
-ª Y!∑ ø                    
-      ) *     4     
-ª Y!∑ ø           (        
-      + ,     4     
-ª Y!∑ ø           1        
-      - .     4     
-ª Y!∑ ø           :        
-      /    0 ˛∫æ   1 Å  testScripts/ThankYouPagesTests  !setUpClasses/DriverInitialization <init> ()V Code
-  	   LineNumberTable LocalVariableTable this  LtestScripts/ThankYouPagesTests; classTyBanner RuntimeVisibleAnnotations Lorg/junit/Test;	     driver Lorg/openqa/selenium/WebDriver;  3http://www.integrativenutrition.com/class-thank-you    org/openqa/selenium/WebDriver   get (Ljava/lang/String;)V	     objectRepository/ThankYouPages ! " headerBanner  Lorg/openqa/selenium/WebElement; $ & % org/openqa/selenium/WebElement ' ( isDisplayed ()Z
- * , + org/junit/Assert - . 
-assertTrue (Z)V
- 0 2 1 java/lang/Exception 3  printStackTrace bannerAppear Z e Ljava/lang/Exception; classTyPlay
-  : ;  
-watchVideo  = > ? manage )()Lorg/openqa/selenium/WebDriver$Options; A C B %org/openqa/selenium/WebDriver$Options D E timeouts *()Lorg/openqa/selenium/WebDriver$Timeouts;       ì	 I K J java/util/concurrent/TimeUnit L M SECONDS Ljava/util/concurrent/TimeUnit; O Q P &org/openqa/selenium/WebDriver$Timeouts R S implicitlyWait J(JLjava/util/concurrent/TimeUnit;)Lorg/openqa/selenium/WebDriver$Timeouts;  U V W switchTo /()Lorg/openqa/selenium/WebDriver$TargetLocator; Y media-youtube-8f0lea1ov4q [ ] \ +org/openqa/selenium/WebDriver$TargetLocator ^ _ frame 3(Ljava/lang/String;)Lorg/openqa/selenium/WebDriver;	  a b " videoElapsed $ d e f getText ()Ljava/lang/String; h 2:24
- j l k java/lang/String m n contains (Ljava/lang/CharSequence;)Z Ljava/lang/String; videoComplete guideTyBanner s 3http://www.integrativenutrition.com/guide-thank-you guideTyPlay       z x media-youtube-snlfol2uu-g z 2:00 
-SourceFile ThankYouPagesTests.java InnerClasses Options TargetLocator Timeouts !               /     *∑ ±    
-       
-                            z      ≤ π  ≤ π # <∏ )ß M,∂ /±     0  
-        
-                          4 5    6 7   8              «     S≤ π  ∏ 9≤ π < π @  F≤ Hπ N W≤ π T Xπ Z W≤ `π c L+g∂ i=∏ )ß N-∂ /±  F J M 0  
-   * 
-    
-    &   6 ! ? " F $ J % N & R )    *    S     ?  b o  F  p 5  N  6 7   q              z      ≤ rπ  ≤ π # <∏ )ß M,∂ /±     0  
-       0 
- 1  3  4  5  7                 4 5    6 7   t              «     S≤ rπ  ∏ 9≤ π < π @  u≤ Hπ N W≤ π T wπ Z W≤ `π c L+y∂ i=∏ )ß N-∂ /±  F J M 0  
-   * 
-   ; 
- <  = & > 6 ? ? @ F B J C N D R F    *    S     ?  b o  F  p 5  N  6 7   {    | }     A  ~	 [  	 O  Ä	
+<classpath>
+	<classpathentry kind="src" output="target/classes" path="src/main/java">
+		<attributes>
+			<attribute name="optional" value="true"/>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="src" output="target/test-classes" path="src/test/java">
+		<attributes>
+			<attribute name="optional" value="true"/>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/J2SE-1.5">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="con" path="org.eclipse.m2e.MAVEN2_CLASSPATH_CONTAINER">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/ratib/Documents/Work/TechAID/IIN/selenium-2.50.1/selenium-java-2.50.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/ratib/Documents/Work/TechAID/IIN/selenium-2.50.1/selenium-java-2.50.1-srcs.jar"/>
+	<classpathentry kind="lib" path="C:/Users/ratib/Documents/Work/TechAID/IIN/selenium-2.50.1/libs/apache-mime4j-0.6.jar"/>
+	<classpathentry kind="lib" path="C:/Users/ratib/Documents/Work/TechAID/IIN/selenium-2.50.1/libs/bsh-2.0b4.jar"/>
+	<classpathentry kind="lib" path="C:/Users/ratib/Documents/Work/TechAID/IIN/selenium-2.50.1/libs/cglib-nodep-2.1_3.jar"/>
+	<classpathentry kind="lib" path="C:/Users/ratib/Documents/Work/TechAID/IIN/selenium-2.50.1/libs/commons-codec-1.10.jar"/>
+	<classpathentry kind="lib" path="C:/Users/ratib/Documents/Work/TechAID/IIN/selenium-2.50.1/libs/commons-collections-3.2.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/ratib/Documents/Work/TechAID/IIN/selenium-2.50.1/libs/commons-el-1.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/ratib/Documents/Work/TechAID/IIN/selenium-2.50.1/libs/commons-exec-1.3.jar"/>
+	<classpathentry kind="lib" path="C:/Users/ratib/Documents/Work/TechAID/IIN/selenium-2.50.1/libs/commons-io-2.4.jar"/>
+	<classpathentry kind="lib" path="C:/Users/ratib/Documents/Work/TechAID/IIN/selenium-2.50.1/libs/commons-lang3-3.4.jar"/>
+	<classpathentry kind="lib" path="C:/Users/ratib/Documents/Work/TechAID/IIN/selenium-2.50.1/libs/commons-logging-1.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/ratib/Documents/Work/TechAID/IIN/selenium-2.50.1/libs/cssparser-0.9.16.jar"/>
+	<classpathentry kind="lib" path="C:/Users/ratib/Documents/Work/TechAID/IIN/selenium-2.50.1/libs/gson-2.3.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/ratib/Documents/Work/TechAID/IIN/selenium-2.50.1/libs/guava-19.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/ratib/Documents/Work/TechAID/IIN/selenium-2.50.1/libs/hamcrest-core-1.3.jar"/>
+	<classpathentry kind="lib" path="C:/Users/ratib/Documents/Work/TechAID/IIN/selenium-2.50.1/libs/hamcrest-library-1.3.jar"/>
+	<classpathentry kind="lib" path="C:/Users/ratib/Documents/Work/TechAID/IIN/selenium-2.50.1/libs/htmlunit-2.18.jar"/>
+	<classpathentry kind="lib" path="C:/Users/ratib/Documents/Work/TechAID/IIN/selenium-2.50.1/libs/htmlunit-core-js-2.17.jar"/>
+	<classpathentry kind="lib" path="C:/Users/ratib/Documents/Work/TechAID/IIN/selenium-2.50.1/libs/httpclient-4.5.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/ratib/Documents/Work/TechAID/IIN/selenium-2.50.1/libs/httpcore-4.4.3.jar"/>
+	<classpathentry kind="lib" path="C:/Users/ratib/Documents/Work/TechAID/IIN/selenium-2.50.1/libs/httpmime-4.5.jar"/>
+	<classpathentry kind="lib" path="C:/Users/ratib/Documents/Work/TechAID/IIN/selenium-2.50.1/libs/jasper-compiler-5.5.15.jar"/>
+	<classpathentry kind="lib" path="C:/Users/ratib/Documents/Work/TechAID/IIN/selenium-2.50.1/libs/jasper-compiler-jdt-5.5.15.jar"/>
+	<classpathentry kind="lib" path="C:/Users/ratib/Documents/Work/TechAID/IIN/selenium-2.50.1/libs/jasper-runtime-5.5.15.jar"/>
+	<classpathentry kind="lib" path="C:/Users/ratib/Documents/Work/TechAID/IIN/selenium-2.50.1/libs/javax.servlet-api-3.1.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/ratib/Documents/Work/TechAID/IIN/selenium-2.50.1/libs/jcommander-1.48.jar"/>
+	<classpathentry kind="lib" path="C:/Users/ratib/Documents/Work/TechAID/IIN/selenium-2.50.1/libs/jetty-continuation-9.2.13.v20150730.jar"/>
+	<classpathentry kind="lib" path="C:/Users/ratib/Documents/Work/TechAID/IIN/selenium-2.50.1/libs/jetty-http-9.2.13.v20150730.jar"/>
+	<classpathentry kind="lib" path="C:/Users/ratib/Documents/Work/TechAID/IIN/selenium-2.50.1/libs/jetty-io-9.2.13.v20150730.jar"/>
+	<classpathentry kind="lib" path="C:/Users/ratib/Documents/Work/TechAID/IIN/selenium-2.50.1/libs/jetty-jmx-9.2.13.v20150730.jar"/>
+	<classpathentry kind="lib" path="C:/Users/ratib/Documents/Work/TechAID/IIN/selenium-2.50.1/libs/jetty-security-9.2.13.v20150730.jar"/>
+	<classpathentry kind="lib" path="C:/Users/ratib/Documents/Work/TechAID/IIN/selenium-2.50.1/libs/jetty-server-9.2.13.v20150730.jar"/>
+	<classpathentry kind="lib" path="C:/Users/ratib/Documents/Work/TechAID/IIN/selenium-2.50.1/libs/jetty-servlet-9.2.13.v20150730.jar"/>
+	<classpathentry kind="lib" path="C:/Users/ratib/Documents/Work/TechAID/IIN/selenium-2.50.1/libs/jetty-servlets-9.2.13.v20150730.jar"/>
+	<classpathentry kind="lib" path="C:/Users/ratib/Documents/Work/TechAID/IIN/selenium-2.50.1/libs/jetty-util-9.2.13.v20150730.jar"/>
+	<classpathentry kind="lib" path="C:/Users/ratib/Documents/Work/TechAID/IIN/selenium-2.50.1/libs/jna-4.1.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/ratib/Documents/Work/TechAID/IIN/selenium-2.50.1/libs/jna-platform-4.1.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/ratib/Documents/Work/TechAID/IIN/selenium-2.50.1/libs/jsp-api-2.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/ratib/Documents/Work/TechAID/IIN/selenium-2.50.1/libs/junit-4.12.jar"/>
+	<classpathentry kind="lib" path="C:/Users/ratib/Documents/Work/TechAID/IIN/selenium-2.50.1/libs/nekohtml-1.9.22.jar"/>
+	<classpathentry kind="lib" path="C:/Users/ratib/Documents/Work/TechAID/IIN/selenium-2.50.1/libs/netty-3.5.7.Final.jar"/>
+	<classpathentry kind="lib" path="C:/Users/ratib/Documents/Work/TechAID/IIN/selenium-2.50.1/libs/phantomjsdriver-1.2.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/ratib/Documents/Work/TechAID/IIN/selenium-2.50.1/libs/sac-1.3.jar"/>
+	<classpathentry kind="lib" path="C:/Users/ratib/Documents/Work/TechAID/IIN/selenium-2.50.1/libs/serializer-2.7.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/ratib/Documents/Work/TechAID/IIN/selenium-2.50.1/libs/testng-6.9.9.jar"/>
+	<classpathentry kind="lib" path="C:/Users/ratib/Documents/Work/TechAID/IIN/selenium-2.50.1/libs/websocket-api-9.2.13.v20150730.jar"/>
+	<classpathentry kind="lib" path="C:/Users/ratib/Documents/Work/TechAID/IIN/selenium-2.50.1/libs/websocket-client-9.2.13.v20150730.jar"/>
+	<classpathentry kind="lib" path="C:/Users/ratib/Documents/Work/TechAID/IIN/selenium-2.50.1/libs/websocket-common-9.2.13.v20150730.jar"/>
+	<classpathentry kind="lib" path="C:/Users/ratib/Documents/Work/TechAID/IIN/selenium-2.50.1/libs/xalan-2.7.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/ratib/Documents/Work/TechAID/IIN/selenium-2.50.1/libs/xercesImpl-2.11.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/ratib/Documents/Work/TechAID/IIN/selenium-2.50.1/libs/xml-apis-1.4.01.jar"/>
+	<classpathentry kind="output" path="target/classes"/>
+</classpath>
