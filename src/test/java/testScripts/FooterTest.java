@@ -244,7 +244,7 @@ public class FooterTest extends DriverInitialization {
         }
     }
 */
-     
+/*     
     @Test //This tests sub footer menu
     public void footerOpenSubFooter() {
         Footer.clickRegulatoryInfoLink();
@@ -300,5 +300,5 @@ public class FooterTest extends DriverInitialization {
         driver.get("http://www.integrativenutrition.com/curriculum");
 
     }
-
+*/
 }
