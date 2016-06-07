@@ -12,7 +12,8 @@ public class FooterTest extends DriverInitialization {
 
     //*** This section is to test that all footer links go to their respective pages on click ************************
 
-    @Test //Curriculum link
+/*
+	@Test //Curriculum link
     public void footerCurric() {
         Footer.clickCurriculumLink();
         String currentUrl = driver.getCurrentUrl();
@@ -22,7 +23,7 @@ public class FooterTest extends DriverInitialization {
             e.printStackTrace();
         }
     }
-
+	
     @Test //IIN Learning Center link
     public void footerLC() {
         Footer.clickLearningCenterLink();
@@ -242,7 +243,8 @@ public class FooterTest extends DriverInitialization {
             e.printStackTrace();
         }
     }
-
+*/
+     
     @Test //This tests sub footer menu
     public void footerOpenSubFooter() {
         Footer.clickRegulatoryInfoLink();
@@ -300,9 +302,3 @@ public class FooterTest extends DriverInitialization {
     }
 
 }
-
-
-
-
-
-

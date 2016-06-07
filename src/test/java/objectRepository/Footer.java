@@ -9,6 +9,7 @@ public class Footer extends AbstractPage {
 
     //*** Page Links **********************************************************************************************
 
+/*	
     //Curriculum link - click on the link method
     @FindBy(xpath = ".//*[@id='footer-menu-2']/li[1]/a")
     private static WebElement curricLink;
@@ -17,6 +18,8 @@ public class Footer extends AbstractPage {
         curricLink.click();
     }
     // PageFactory.initElements(driver, new CurriculumPage());}
+
+
 
     //Learning Center - click on the link method
     @FindBy(xpath = ".//*[@id='footer-menu-2']/li[1]/ul/li[1]/a")
@@ -177,9 +180,9 @@ public class Footer extends AbstractPage {
     public static void clickHealthTrendsLink() {
         healthTrends.click();
     }
-
+*/
     //Regulatory Information - click on the link method
-    @FindBy(xpath = ".//*[@id='footer-menu']/li[1]/a")
+    @FindBy(xpath = "//a[contains(@href, '/about/regulatory')]")
     private static WebElement regInfoLink;
 
     public static void clickRegulatoryInfoLink() {
@@ -187,7 +190,7 @@ public class Footer extends AbstractPage {
     }
 
     //Terms & Privacy Policy - click on the link method
-    @FindBy(xpath = ".//*[@id='footer-menu']/li[2]/a")
+    @FindBy(xpath = "//ul[@id='footer-menu']/li[2]/a")
     private static WebElement termsPrivacyLink;
 
     public static void clickTermsPrivacyLink() {
@@ -195,7 +198,7 @@ public class Footer extends AbstractPage {
     }
 
     //Affiliates - click on the link method
-    @FindBy(xpath = ".//*[@id='footer-menu']/li[3]/a")
+    @FindBy(xpath = "//ul[@id='footer-menu']/li[3]/a")
     private static WebElement affiliatesLink;
 
     public static void clickAffiliatesLink() {
@@ -203,7 +206,7 @@ public class Footer extends AbstractPage {
     }
 
     //Jobs - click on the link method
-    @FindBy(xpath = ".//*[@id='footer-menu']/li[4]/a")
+    @FindBy(xpath = "//ul[@id='footer-menu']/li[4]/a")
     private static WebElement jobsLink;
 
     public static void clickJobsLink() {
@@ -214,21 +217,31 @@ public class Footer extends AbstractPage {
     //*** Connect With Us *****************************************************************************************
 
     //Facebook - click on the icon method
-    @FindBy(xpath = "html/body/footer/div[1]/div/div[2]/div[3]/ul[1]/li[1]/a/span[1]/i")
+    @FindBy(xpath = "//div[@id='mini-panel-site_footer']/div[3]/div/div/div/div/div/ul/li/a/span/i")
     private static WebElement faceBookIcon;
 
     public static void clickFacebookIcon() {
         faceBookIcon.click();
     }
 
+
+    //Instagram - click on the icon method
+    @FindBy(xpath = "//div[@id='mini-panel-site_footer']/div[3]/div/div/div/div/div/ul/li[2]/a/span/i")
+    private static WebElement instagramIcon;
+
+    public static void clickInstagramIcon() {
+        instagramIcon.click();
+    }
+    
+    
     //Twitter - click on the icon method
-    @FindBy(xpath = "html/body/footer/div[1]/div/div[2]/div[3]/ul[1]/li[2]/a/span[1]/i")
+    @FindBy(xpath = "//div[@id='mini-panel-site_footer']/div[3]/div/div/div/div/div/ul/li[3]/a/span/i")
     private static WebElement twitterIcon;
 
     public static void clickTwitterIcon() {
         twitterIcon.click();
     }
-
+/*
     //Tumbler - click on the icon method
     @FindBy(xpath = "html/body/footer/div[1]/div/div[2]/div[3]/ul[1]/li[3]/a/span[1]/i")
     private static WebElement tumblerIcon;
@@ -236,23 +249,32 @@ public class Footer extends AbstractPage {
     public static void clickTumblerIcon() {
         tumblerIcon.click();
     }
-
+*/
     //Youtube - click on the icon method
-    @FindBy(xpath = "html/body/footer/div[1]/div/div[2]/div[3]/ul[2]/li[1]/a/span[1]/i")
+    @FindBy(xpath = "//div[@id='mini-panel-site_footer']/div[3]/div/div/div/div/div/ul/li[4]/a/span/i")
     private static WebElement youtubeIcon;
 
     public static void clickyouTubeIcon() {
         youtubeIcon.click();
     }
 
+    //Pinterest - click on the icon method
+    @FindBy(xpath = "//div[@id='mini-panel-site_footer']/div[3]/div/div/div/div/div/ul/li[5]/a/span/i")
+    private static WebElement pinterestIcon;
+
+    public static void clickpinterestIcon() {
+        pinterestIcon.click();
+    }
+    
+    
     //LinkedIn - click on the icon method
-    @FindBy(xpath = "html/body/footer/div[1]/div/div[2]/div[3]/ul[2]/li[2]/a/span[1]/i")
+    @FindBy(xpath = "//div[@id='mini-panel-site_footer']/div[3]/div/div/div/div/div/ul/li[6]/a/span/i")
     private static WebElement linkedInIcon;
 
     public static void clickLinkedInIcon() {
         linkedInIcon.click();
     }
-
+/*
     //Vine - click on the icon method
     @FindBy(xpath = "html/body/footer/div[1]/div/div[2]/div[3]/ul[2]/li[3]/a/span[1]/i")
     private static WebElement vineIcon;
@@ -260,9 +282,9 @@ public class Footer extends AbstractPage {
     public static void clickVineIcon() {
         vineIcon.click();
     }
-
+*/
     //Google Plus - click on the icon method
-    @FindBy(xpath = "html/body/footer/div[1]/div/div[2]/div[3]/ul[3]/li[1]/a/span[1]/i")
+    @FindBy(xpath = "//div[@id='mini-panel-site_footer']/div[3]/div/div/div/div/div/ul/li[7]/a/span/i")
     private static WebElement googlePlusIcon;
 
     public static void clickGPlusIcon() {
@@ -270,17 +292,17 @@ public class Footer extends AbstractPage {
     }
 
     //Amazon - click on the icon method
-    @FindBy(xpath = "html/body/footer/div[1]/div/div[2]/div[3]/ul[3]/li[2]/a/span[1]/i")
+    @FindBy(xpath = "//div[@id='mini-panel-site_footer']/div[3]/div/div/div/div/div/ul/li[8]/a/span/i")
     private static WebElement amazonIcon;
 
     public static void clickAmazonIcon() {
         amazonIcon.click();
     }
-
+/*
     //SnapChat - click on the icon method
     @FindBy(xpath = "html/body/footer/div[1]/div/div[2]/div[3]/ul[3]/li[3]/a/span[1]/i")
     public static WebElement snapchatIcon;
-
+*/
 
 }
 
