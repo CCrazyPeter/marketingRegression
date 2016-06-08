@@ -21,7 +21,8 @@ public class DriverInitialization  {
         
     	//driver = new FirefoxDriver();
     	
-    	System.setProperty("webdriver.chrome.driver", "selenium/chromedriver");
+    	//System.setProperty("webdriver.chrome.driver", "selenium/chromedriver");
+    	System.setProperty("webdriver.chrome.driver", "/usr/bin//chromedriver");
     	driver = new ChromeDriver();
         
     	//driver = new SafariDriver();
