@@ -1,9 +1,7 @@
 package testScripts;
 
 import org.testng.annotations.BeforeMethod;
-import objectRepository.AboutUsPage;
 import setUpClasses.DriverInitialization;
-import java.util.concurrent.TimeUnit;
 
 public class AboutUsTest extends DriverInitialization {
 

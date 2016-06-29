@@ -4,7 +4,7 @@ import org.testng.annotations.Test;
 import org.testng.AssertJUnit;
 import org.testng.annotations.Test;
 import org.testng.AssertJUnit;
-import objectRepository.Footer;
+import Pages.Footer;
 
 import setUpClasses.DriverInitialization;
 

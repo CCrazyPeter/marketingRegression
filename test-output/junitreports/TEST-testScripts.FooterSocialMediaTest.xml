@@ -4,7 +4,7 @@
   <testcase name="footerOpenGetSocial" time="0.036" classname="testScripts.FooterSocialMediaTest">
     <error type="java.lang.NullPointerException">
       <![CDATA[java.lang.NullPointerException
-	at objectRepository.Footer.clickFacebookIcon(Footer.java:224)
+	at Pages.Footer.clickFacebookIcon(Footer.java:224)
 	at testScripts.FooterSocialMediaTest.footerOpenGetSocial(FooterSocialMediaTest.java:129)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)

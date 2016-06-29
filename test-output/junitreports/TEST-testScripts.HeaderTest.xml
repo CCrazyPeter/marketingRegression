@@ -102,7 +102,7 @@
   <testcase name="headerHomeIcon" time="0.003" classname="testScripts.HeaderTest">
     <error type="java.lang.NullPointerException">
       <![CDATA[java.lang.NullPointerException
-	at objectRepository.Header.clickHomeIcon(Header.java:24)
+	at Pages.Header.clickHomeIcon(Header.java:24)
 	at testScripts.HeaderTest.headerHomeIcon(HeaderTest.java:41)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
@@ -135,7 +135,7 @@
   <testcase name="headerSearch" time="0.002" classname="testScripts.HeaderTest">
     <error type="java.lang.NullPointerException">
       <![CDATA[java.lang.NullPointerException
-	at objectRepository.Header.conductSearch(Header.java:84)
+	at Pages.Header.conductSearch(Header.java:84)
 	at testScripts.HeaderTest.headerSearch(HeaderTest.java:27)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
@@ -234,7 +234,7 @@
   <testcase name="headerContactUs" time="0.007" classname="testScripts.HeaderTest">
     <error type="java.lang.NullPointerException">
       <![CDATA[java.lang.NullPointerException
-	at objectRepository.Header.clickContactUsIcon(Header.java:78)
+	at Pages.Header.clickContactUsIcon(Header.java:78)
 	at testScripts.HeaderTest.headerContactUs(HeaderTest.java:52)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)

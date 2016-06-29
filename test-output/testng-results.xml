@@ -48,7 +48,7 @@
           <exception class="java.lang.NullPointerException">
             <full-stacktrace>
               <![CDATA[java.lang.NullPointerException
-	at objectRepository.Header.clickContactUsIcon(Header.java:78)
+	at Pages.Header.clickContactUsIcon(Header.java:78)
 	at testScripts.HeaderTest.headerContactUs(HeaderTest.java:52)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
@@ -159,7 +159,7 @@
           <exception class="java.lang.NullPointerException">
             <full-stacktrace>
               <![CDATA[java.lang.NullPointerException
-	at objectRepository.Header.clickHomeIcon(Header.java:24)
+	at Pages.Header.clickHomeIcon(Header.java:24)
 	at testScripts.HeaderTest.headerHomeIcon(HeaderTest.java:41)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
@@ -269,7 +269,7 @@
           <exception class="java.lang.NullPointerException">
             <full-stacktrace>
               <![CDATA[java.lang.NullPointerException
-	at objectRepository.Header.conductSearch(Header.java:84)
+	at Pages.Header.conductSearch(Header.java:84)
 	at testScripts.HeaderTest.headerSearch(HeaderTest.java:27)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
@@ -810,7 +810,7 @@
           <exception class="java.lang.NullPointerException">
             <full-stacktrace>
               <![CDATA[java.lang.NullPointerException
-	at objectRepository.Footer.clickFacebookIcon(Footer.java:224)
+	at Pages.Footer.clickFacebookIcon(Footer.java:224)
 	at testScripts.FooterSocialMediaTest.footerOpenGetSocial(FooterSocialMediaTest.java:129)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
