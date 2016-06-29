@@ -1,0 +1,92 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 70, Failures: 20, Errors: 0, Skipped: 50, Time elapsed: 6.972 sec <<< FAILURE!
+openBlogLanding(testScripts.BlogTest)  Time elapsed: 3.488 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at testScripts.BlogTest.openBlogLanding(BlogTest.java:14)
+
+openHomepage(testScripts.CurriculumPageTest)  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at testScripts.CurriculumPageTest.openHomepage(CurriculumPageTest.java:15)
+
+footerOpenGetSocial(testScripts.FooterSocialMediaTest)  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at objectRepository.Footer.clickFacebookIcon(Footer.java:224)
+	at testScripts.FooterSocialMediaTest.footerOpenGetSocial(FooterSocialMediaTest.java:129)
+
+headerAboutUs(testScripts.HeaderTest)  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at org.openqa.selenium.interactions.Actions.<init>(Actions.java:44)
+	at testScripts.HeaderTest.headerAboutUs(HeaderTest.java:127)
+
+headerContactUs(testScripts.HeaderTest)  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at objectRepository.Header.clickContactUsIcon(Header.java:78)
+	at testScripts.HeaderTest.headerContactUs(HeaderTest.java:52)
+
+headerCurric(testScripts.HeaderTest)  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at org.openqa.selenium.interactions.Actions.<init>(Actions.java:44)
+	at testScripts.HeaderTest.headerCurric(HeaderTest.java:64)
+
+headerHealthCoach(testScripts.HeaderTest)  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at org.openqa.selenium.interactions.Actions.<init>(Actions.java:44)
+	at testScripts.HeaderTest.headerHealthCoach(HeaderTest.java:105)
+
+headerHomeIcon(testScripts.HeaderTest)  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at objectRepository.Header.clickHomeIcon(Header.java:24)
+	at testScripts.HeaderTest.headerHomeIcon(HeaderTest.java:41)
+
+headerInfoSess(testScripts.HeaderTest)  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at org.openqa.selenium.interactions.Actions.<init>(Actions.java:44)
+	at testScripts.HeaderTest.headerInfoSess(HeaderTest.java:85)
+
+headerPhone(testScripts.HeaderTest)  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at testScripts.HeaderTest.headerPhone(HeaderTest.java:17)
+
+headerSearch(testScripts.HeaderTest)  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at objectRepository.Header.conductSearch(Header.java:84)
+	at testScripts.HeaderTest.headerSearch(HeaderTest.java:27)
+
+openInfoSess(testScripts.HealthCoachingTest)  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at testScripts.HealthCoachingTest.openInfoSess(HealthCoachingTest.java:19)
+
+bannerDisplayed(testScripts.HomePageTest)  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at testScripts.HomePageTest.bannerDisplayed(HomePageTest.java:16)
+
+openInfoSess(testScripts.InfoSessionTest)  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at testScripts.InfoSessionTest.openInfoSess(InfoSessionTest.java:18)
+
+clearCookies(testScripts.PageLeadTest)  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at testScripts.PageLeadTest.clearCookies(PageLeadTest.java:15)
+
+openSCMpage(testScripts.SampleClassModuleTest)  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at testScripts.SampleClassModuleTest.openSCMpage(SampleClassModuleTest.java:16)
+
+classTyBanner(testScripts.ThankYouPagesTest)  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at testScripts.ThankYouPagesTest.classTyBanner(ThankYouPagesTest.java:18)
+
+classTyPlay(testScripts.ThankYouPagesTest)  Time elapsed: 0.017 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at testScripts.ThankYouPagesTest.classTyPlay(ThankYouPagesTest.java:29)
+
+guideTyBanner(testScripts.ThankYouPagesTest)  Time elapsed: 0.001 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at testScripts.ThankYouPagesTest.guideTyBanner(ThankYouPagesTest.java:48)
+
+guideTyPlay(testScripts.ThankYouPagesTest)  Time elapsed: 0.001 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at testScripts.ThankYouPagesTest.guideTyPlay(ThankYouPagesTest.java:59)
+

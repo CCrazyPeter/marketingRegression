@@ -1,18 +1,18 @@
 package testScripts;
 
+import org.testng.annotations.Test;
+import org.testng.annotations.BeforeMethod;
+import org.testng.AssertJUnit;
 import objectRepository.HomePage;
 import objectRepository.SampleClassModulePage;
-import org.junit.Assert;
-import org.junit.Before;
-import org.junit.Test;
 import setUpClasses.DriverInitialization;
 
 import java.util.concurrent.TimeUnit;
 
 public class SampleClassModuleTest extends DriverInitialization {
 
-    @Before
-    public void openSCMpage() {
+    @BeforeMethod
+	public void openSCMpage() {
         driver.manage().deleteAllCookies();
         driver.get("http://www.integrativenutrition.com/sample-class-module");
     }
@@ -21,7 +21,7 @@ public class SampleClassModuleTest extends DriverInitialization {
     public void bannerDisplayed() {
         boolean bannerAppear = SampleClassModulePage.SCMHeaderBanner.isDisplayed();
         try {
-            Assert.assertTrue(bannerAppear);
+            AssertJUnit.assertTrue(bannerAppear);
         } catch (Exception e) {
             e.printStackTrace();
         }

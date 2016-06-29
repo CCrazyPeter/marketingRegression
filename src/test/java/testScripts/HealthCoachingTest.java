@@ -1,11 +1,11 @@
 package testScripts;
 
+import org.testng.annotations.Test;
+import org.testng.annotations.BeforeMethod;
+import org.testng.AssertJUnit;
 import objectRepository.Forms;
 import objectRepository.HealthCoachingPage;
 import objectRepository.HomePage;
-import org.junit.Assert;
-import org.junit.Before;
-import org.junit.Test;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import setUpClasses.DriverInitialization;
@@ -14,8 +14,8 @@ import java.util.concurrent.TimeUnit;
 
 public class HealthCoachingTest extends DriverInitialization {
 
-    @Before
-    public void openInfoSess() {
+    @BeforeMethod
+	public void openInfoSess() {
         driver.get("http://www.integrativenutrition.com/health-coaching");
         driver.manage().deleteAllCookies();
     }
@@ -26,7 +26,7 @@ public class HealthCoachingTest extends DriverInitialization {
         Forms.clickSubmitButton();
         String currentUrl = driver.getCurrentUrl();
         try {
-            Assert.assertEquals(currentUrl, "http://www.integrativenutrition.com/health-coaching");
+            AssertJUnit.assertEquals(currentUrl, "http://www.integrativenutrition.com/health-coaching");
         } catch (Exception e) {
             e.printStackTrace();
         }
@@ -38,7 +38,7 @@ public class HealthCoachingTest extends DriverInitialization {
         Forms.clickSubmitButton();
         String currentUrl = driver.getCurrentUrl();
         try {
-            Assert.assertEquals(currentUrl, "http://www.integrativenutrition.com/health-coaching");
+            AssertJUnit.assertEquals(currentUrl, "http://www.integrativenutrition.com/health-coaching");
         } catch (Exception e) {
             e.printStackTrace();
         }
@@ -57,7 +57,7 @@ public class HealthCoachingTest extends DriverInitialization {
         String phoneValue = Forms.formPhone.getAttribute("value");
         boolean ukFlag = phoneValue.contains("44");
         try {
-            Assert.assertTrue(ukFlag);
+            AssertJUnit.assertTrue(ukFlag);
         } catch (Exception e) {
             e.printStackTrace();
         }

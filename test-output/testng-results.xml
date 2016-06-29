@@ -1,0 +1,977 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="28" failed="14" total="43" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="1325" started-at="2016-06-29T13:40:53Z" finished-at="2016-06-29T13:40:54Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="1325" started-at="2016-06-29T13:40:53Z" finished-at="2016-06-29T13:40:54Z">
+      <class name="testScripts.HeaderTest">
+        <test-method status="FAIL" signature="headerAboutUs()[pri:0, instance:testScripts.HeaderTest@21213b92]" name="headerAboutUs" duration-ms="8" started-at="2016-06-29T09:40:53Z" finished-at="2016-06-29T09:40:53Z">
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+	at org.openqa.selenium.interactions.Actions.<init>(Actions.java:44)
+	at testScripts.HeaderTest.headerAboutUs(HeaderTest.java:127)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:646)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:823)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1131)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:778)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1225)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1150)
+	at org.testng.TestNG.runSuites(TestNG.java:1075)
+	at org.testng.TestNG.run(TestNG.java:1047)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:126)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:137)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:58)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- headerAboutUs -->
+        <test-method status="FAIL" signature="headerContactUs()[pri:0, instance:testScripts.HeaderTest@21213b92]" name="headerContactUs" duration-ms="7" started-at="2016-06-29T09:40:53Z" finished-at="2016-06-29T09:40:53Z">
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+	at objectRepository.Header.clickContactUsIcon(Header.java:78)
+	at testScripts.HeaderTest.headerContactUs(HeaderTest.java:52)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:646)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:823)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1131)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:778)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1225)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1150)
+	at org.testng.TestNG.runSuites(TestNG.java:1075)
+	at org.testng.TestNG.run(TestNG.java:1047)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:126)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:137)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:58)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- headerContactUs -->
+        <test-method status="FAIL" signature="headerCurric()[pri:0, instance:testScripts.HeaderTest@21213b92]" name="headerCurric" duration-ms="2" started-at="2016-06-29T09:40:53Z" finished-at="2016-06-29T09:40:53Z">
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+	at org.openqa.selenium.interactions.Actions.<init>(Actions.java:44)
+	at testScripts.HeaderTest.headerCurric(HeaderTest.java:64)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:646)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:823)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1131)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:778)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1225)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1150)
+	at org.testng.TestNG.runSuites(TestNG.java:1075)
+	at org.testng.TestNG.run(TestNG.java:1047)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:126)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:137)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:58)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- headerCurric -->
+        <test-method status="FAIL" signature="headerHealthCoach()[pri:0, instance:testScripts.HeaderTest@21213b92]" name="headerHealthCoach" duration-ms="8" started-at="2016-06-29T09:40:53Z" finished-at="2016-06-29T09:40:53Z">
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+	at org.openqa.selenium.interactions.Actions.<init>(Actions.java:44)
+	at testScripts.HeaderTest.headerHealthCoach(HeaderTest.java:105)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:646)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:823)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1131)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:778)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1225)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1150)
+	at org.testng.TestNG.runSuites(TestNG.java:1075)
+	at org.testng.TestNG.run(TestNG.java:1047)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:126)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:137)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:58)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- headerHealthCoach -->
+        <test-method status="FAIL" signature="headerHomeIcon()[pri:0, instance:testScripts.HeaderTest@21213b92]" name="headerHomeIcon" duration-ms="3" started-at="2016-06-29T09:40:53Z" finished-at="2016-06-29T09:40:53Z">
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+	at objectRepository.Header.clickHomeIcon(Header.java:24)
+	at testScripts.HeaderTest.headerHomeIcon(HeaderTest.java:41)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:646)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:823)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1131)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:778)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1225)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1150)
+	at org.testng.TestNG.runSuites(TestNG.java:1075)
+	at org.testng.TestNG.run(TestNG.java:1047)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:126)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:137)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:58)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- headerHomeIcon -->
+        <test-method status="FAIL" signature="headerInfoSess()[pri:0, instance:testScripts.HeaderTest@21213b92]" name="headerInfoSess" duration-ms="4" started-at="2016-06-29T09:40:53Z" finished-at="2016-06-29T09:40:53Z">
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+	at org.openqa.selenium.interactions.Actions.<init>(Actions.java:44)
+	at testScripts.HeaderTest.headerInfoSess(HeaderTest.java:85)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:646)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:823)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1131)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:778)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1225)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1150)
+	at org.testng.TestNG.runSuites(TestNG.java:1075)
+	at org.testng.TestNG.run(TestNG.java:1047)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:126)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:137)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:58)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- headerInfoSess -->
+        <test-method status="FAIL" signature="headerPhone()[pri:0, instance:testScripts.HeaderTest@21213b92]" name="headerPhone" duration-ms="4" started-at="2016-06-29T09:40:53Z" finished-at="2016-06-29T09:40:53Z">
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+	at testScripts.HeaderTest.headerPhone(HeaderTest.java:17)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:646)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:823)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1131)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:778)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1225)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1150)
+	at org.testng.TestNG.runSuites(TestNG.java:1075)
+	at org.testng.TestNG.run(TestNG.java:1047)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:126)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:137)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:58)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- headerPhone -->
+        <test-method status="FAIL" signature="headerSearch()[pri:0, instance:testScripts.HeaderTest@21213b92]" name="headerSearch" duration-ms="2" started-at="2016-06-29T09:40:53Z" finished-at="2016-06-29T09:40:53Z">
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+	at objectRepository.Header.conductSearch(Header.java:84)
+	at testScripts.HeaderTest.headerSearch(HeaderTest.java:27)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:646)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:823)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1131)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:778)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1225)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1150)
+	at org.testng.TestNG.runSuites(TestNG.java:1075)
+	at org.testng.TestNG.run(TestNG.java:1047)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:126)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:137)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:58)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- headerSearch -->
+      </class> <!-- testScripts.HeaderTest -->
+      <class name="testScripts.InfoSessionTest">
+        <test-method status="FAIL" signature="openInfoSess()[pri:0, instance:testScripts.InfoSessionTest@52a86356]" name="openInfoSess" is-config="true" duration-ms="0" started-at="2016-06-29T09:40:54Z" finished-at="2016-06-29T09:40:54Z">
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+	at testScripts.InfoSessionTest.openInfoSess(InfoSessionTest.java:18)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:515)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:216)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:590)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:823)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1131)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:778)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1225)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1150)
+	at org.testng.TestNG.runSuites(TestNG.java:1075)
+	at org.testng.TestNG.run(TestNG.java:1047)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:126)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:137)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:58)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openInfoSess -->
+        <test-method status="SKIP" signature="countryFlagMatch()[pri:0, instance:testScripts.InfoSessionTest@52a86356]" name="countryFlagMatch" duration-ms="1" started-at="2016-06-29T09:40:54Z" finished-at="2016-06-29T09:40:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- countryFlagMatch -->
+        <test-method status="SKIP" signature="openInfoSess()[pri:0, instance:testScripts.InfoSessionTest@52a86356]" name="openInfoSess" is-config="true" duration-ms="0" started-at="2016-06-29T09:40:54Z" finished-at="2016-06-29T09:40:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openInfoSess -->
+        <test-method status="SKIP" signature="emailValidation()[pri:0, instance:testScripts.InfoSessionTest@52a86356]" name="emailValidation" duration-ms="27" started-at="2016-06-29T09:40:54Z" finished-at="2016-06-29T09:40:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- emailValidation -->
+        <test-method status="SKIP" signature="openInfoSess()[pri:0, instance:testScripts.InfoSessionTest@52a86356]" name="openInfoSess" is-config="true" duration-ms="0" started-at="2016-06-29T09:40:54Z" finished-at="2016-06-29T09:40:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openInfoSess -->
+        <test-method status="SKIP" signature="nameValidation()[pri:0, instance:testScripts.InfoSessionTest@52a86356]" name="nameValidation" duration-ms="2" started-at="2016-06-29T09:40:54Z" finished-at="2016-06-29T09:40:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- nameValidation -->
+      </class> <!-- testScripts.InfoSessionTest -->
+      <class name="testScripts.CurriculumPageTest">
+        <test-method status="FAIL" signature="openHomepage()[pri:0, instance:testScripts.CurriculumPageTest@66480dd7]" name="openHomepage" is-config="true" duration-ms="0" started-at="2016-06-29T09:40:53Z" finished-at="2016-06-29T09:40:53Z">
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+	at testScripts.CurriculumPageTest.openHomepage(CurriculumPageTest.java:15)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:515)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:216)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:590)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:823)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1131)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:778)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1225)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1150)
+	at org.testng.TestNG.runSuites(TestNG.java:1075)
+	at org.testng.TestNG.run(TestNG.java:1047)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:126)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:137)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:58)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openHomepage -->
+        <test-method status="SKIP" signature="submitFormNoPhone()[pri:0, instance:testScripts.CurriculumPageTest@66480dd7]" name="submitFormNoPhone" duration-ms="3" started-at="2016-06-29T09:40:53Z" finished-at="2016-06-29T09:40:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- submitFormNoPhone -->
+        <test-method status="SKIP" signature="openHomepage()[pri:0, instance:testScripts.CurriculumPageTest@66480dd7]" name="openHomepage" is-config="true" duration-ms="0" started-at="2016-06-29T09:40:53Z" finished-at="2016-06-29T09:40:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openHomepage -->
+        <test-method status="SKIP" signature="submitFormWithPhone()[pri:0, instance:testScripts.CurriculumPageTest@66480dd7]" name="submitFormWithPhone" duration-ms="2" started-at="2016-06-29T09:40:53Z" finished-at="2016-06-29T09:40:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- submitFormWithPhone -->
+      </class> <!-- testScripts.CurriculumPageTest -->
+      <class name="testScripts.HomePageTest">
+        <test-method status="FAIL" signature="bannerDisplayed()[pri:0, instance:testScripts.HomePageTest@78c03f1f]" name="bannerDisplayed" duration-ms="27" started-at="2016-06-29T09:40:53Z" finished-at="2016-06-29T09:40:53Z">
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+	at testScripts.HomePageTest.bannerDisplayed(HomePageTest.java:16)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:646)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:823)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1131)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:778)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1225)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1150)
+	at org.testng.TestNG.runSuites(TestNG.java:1075)
+	at org.testng.TestNG.run(TestNG.java:1047)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:126)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:137)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:58)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bannerDisplayed -->
+      </class> <!-- testScripts.HomePageTest -->
+      <class name="testScripts.PageLeadTest">
+        <test-method status="FAIL" signature="clearCookies()[pri:0, instance:testScripts.PageLeadTest@31610302]" name="clearCookies" is-config="true" duration-ms="0" started-at="2016-06-29T09:40:54Z" finished-at="2016-06-29T09:40:54Z">
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+	at testScripts.PageLeadTest.clearCookies(PageLeadTest.java:15)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:515)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:216)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:590)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:823)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1131)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:778)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1225)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1150)
+	at org.testng.TestNG.runSuites(TestNG.java:1075)
+	at org.testng.TestNG.run(TestNG.java:1047)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:126)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:137)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:58)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clearCookies -->
+        <test-method status="SKIP" signature="bannerDisplayed()[pri:0, instance:testScripts.PageLeadTest@31610302]" name="bannerDisplayed" duration-ms="2" started-at="2016-06-29T09:40:54Z" finished-at="2016-06-29T09:40:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bannerDisplayed -->
+        <test-method status="SKIP" signature="clearCookies()[pri:0, instance:testScripts.PageLeadTest@31610302]" name="clearCookies" is-config="true" duration-ms="0" started-at="2016-06-29T09:40:54Z" finished-at="2016-06-29T09:40:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clearCookies -->
+        <test-method status="SKIP" signature="bannerDisplayedD()[pri:0, instance:testScripts.PageLeadTest@31610302]" name="bannerDisplayedD" duration-ms="2" started-at="2016-06-29T09:40:54Z" finished-at="2016-06-29T09:40:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bannerDisplayedD -->
+        <test-method status="SKIP" signature="clearCookies()[pri:0, instance:testScripts.PageLeadTest@31610302]" name="clearCookies" is-config="true" duration-ms="0" started-at="2016-06-29T09:40:54Z" finished-at="2016-06-29T09:40:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clearCookies -->
+        <test-method status="SKIP" signature="bannerDisplayedR()[pri:0, instance:testScripts.PageLeadTest@31610302]" name="bannerDisplayedR" duration-ms="5" started-at="2016-06-29T09:40:54Z" finished-at="2016-06-29T09:40:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bannerDisplayedR -->
+        <test-method status="SKIP" signature="clearCookies()[pri:0, instance:testScripts.PageLeadTest@31610302]" name="clearCookies" is-config="true" duration-ms="0" started-at="2016-06-29T09:40:54Z" finished-at="2016-06-29T09:40:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clearCookies -->
+        <test-method status="SKIP" signature="countryFlagMatch()[pri:0, instance:testScripts.PageLeadTest@31610302]" name="countryFlagMatch" duration-ms="2" started-at="2016-06-29T09:40:54Z" finished-at="2016-06-29T09:40:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- countryFlagMatch -->
+        <test-method status="SKIP" signature="clearCookies()[pri:0, instance:testScripts.PageLeadTest@31610302]" name="clearCookies" is-config="true" duration-ms="0" started-at="2016-06-29T09:40:54Z" finished-at="2016-06-29T09:40:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clearCookies -->
+        <test-method status="SKIP" signature="countryFlagMatchD()[pri:0, instance:testScripts.PageLeadTest@31610302]" name="countryFlagMatchD" duration-ms="8" started-at="2016-06-29T09:40:54Z" finished-at="2016-06-29T09:40:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- countryFlagMatchD -->
+        <test-method status="SKIP" signature="clearCookies()[pri:0, instance:testScripts.PageLeadTest@31610302]" name="clearCookies" is-config="true" duration-ms="0" started-at="2016-06-29T09:40:54Z" finished-at="2016-06-29T09:40:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clearCookies -->
+        <test-method status="SKIP" signature="countryFlagMatchR()[pri:0, instance:testScripts.PageLeadTest@31610302]" name="countryFlagMatchR" duration-ms="6" started-at="2016-06-29T09:40:54Z" finished-at="2016-06-29T09:40:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- countryFlagMatchR -->
+        <test-method status="SKIP" signature="clearCookies()[pri:0, instance:testScripts.PageLeadTest@31610302]" name="clearCookies" is-config="true" duration-ms="0" started-at="2016-06-29T09:40:54Z" finished-at="2016-06-29T09:40:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clearCookies -->
+        <test-method status="SKIP" signature="emailValidation()[pri:0, instance:testScripts.PageLeadTest@31610302]" name="emailValidation" duration-ms="2" started-at="2016-06-29T09:40:54Z" finished-at="2016-06-29T09:40:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- emailValidation -->
+        <test-method status="SKIP" signature="clearCookies()[pri:0, instance:testScripts.PageLeadTest@31610302]" name="clearCookies" is-config="true" duration-ms="0" started-at="2016-06-29T09:40:54Z" finished-at="2016-06-29T09:40:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clearCookies -->
+        <test-method status="SKIP" signature="emailValidationD()[pri:0, instance:testScripts.PageLeadTest@31610302]" name="emailValidationD" duration-ms="2" started-at="2016-06-29T09:40:54Z" finished-at="2016-06-29T09:40:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- emailValidationD -->
+        <test-method status="SKIP" signature="clearCookies()[pri:0, instance:testScripts.PageLeadTest@31610302]" name="clearCookies" is-config="true" duration-ms="0" started-at="2016-06-29T09:40:54Z" finished-at="2016-06-29T09:40:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clearCookies -->
+        <test-method status="SKIP" signature="emailValidationR()[pri:0, instance:testScripts.PageLeadTest@31610302]" name="emailValidationR" duration-ms="2" started-at="2016-06-29T09:40:54Z" finished-at="2016-06-29T09:40:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- emailValidationR -->
+        <test-method status="SKIP" signature="clearCookies()[pri:0, instance:testScripts.PageLeadTest@31610302]" name="clearCookies" is-config="true" duration-ms="0" started-at="2016-06-29T09:40:54Z" finished-at="2016-06-29T09:40:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clearCookies -->
+        <test-method status="SKIP" signature="formSubmit()[pri:0, instance:testScripts.PageLeadTest@31610302]" name="formSubmit" duration-ms="2" started-at="2016-06-29T09:40:54Z" finished-at="2016-06-29T09:40:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- formSubmit -->
+        <test-method status="SKIP" signature="clearCookies()[pri:0, instance:testScripts.PageLeadTest@31610302]" name="clearCookies" is-config="true" duration-ms="0" started-at="2016-06-29T09:40:54Z" finished-at="2016-06-29T09:40:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clearCookies -->
+        <test-method status="SKIP" signature="formSubmitD()[pri:0, instance:testScripts.PageLeadTest@31610302]" name="formSubmitD" duration-ms="2" started-at="2016-06-29T09:40:54Z" finished-at="2016-06-29T09:40:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- formSubmitD -->
+        <test-method status="SKIP" signature="clearCookies()[pri:0, instance:testScripts.PageLeadTest@31610302]" name="clearCookies" is-config="true" duration-ms="0" started-at="2016-06-29T09:40:54Z" finished-at="2016-06-29T09:40:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clearCookies -->
+        <test-method status="SKIP" signature="formSubmitR()[pri:0, instance:testScripts.PageLeadTest@31610302]" name="formSubmitR" duration-ms="3" started-at="2016-06-29T09:40:54Z" finished-at="2016-06-29T09:40:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- formSubmitR -->
+        <test-method status="SKIP" signature="clearCookies()[pri:0, instance:testScripts.PageLeadTest@31610302]" name="clearCookies" is-config="true" duration-ms="0" started-at="2016-06-29T09:40:54Z" finished-at="2016-06-29T09:40:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clearCookies -->
+        <test-method status="SKIP" signature="nameValidation()[pri:0, instance:testScripts.PageLeadTest@31610302]" name="nameValidation" duration-ms="1" started-at="2016-06-29T09:40:54Z" finished-at="2016-06-29T09:40:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- nameValidation -->
+        <test-method status="SKIP" signature="clearCookies()[pri:0, instance:testScripts.PageLeadTest@31610302]" name="clearCookies" is-config="true" duration-ms="0" started-at="2016-06-29T09:40:54Z" finished-at="2016-06-29T09:40:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clearCookies -->
+        <test-method status="SKIP" signature="nameValidationD()[pri:0, instance:testScripts.PageLeadTest@31610302]" name="nameValidationD" duration-ms="1" started-at="2016-06-29T09:40:54Z" finished-at="2016-06-29T09:40:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- nameValidationD -->
+        <test-method status="SKIP" signature="clearCookies()[pri:0, instance:testScripts.PageLeadTest@31610302]" name="clearCookies" is-config="true" duration-ms="0" started-at="2016-06-29T09:40:54Z" finished-at="2016-06-29T09:40:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clearCookies -->
+        <test-method status="SKIP" signature="nameValidationR()[pri:0, instance:testScripts.PageLeadTest@31610302]" name="nameValidationR" duration-ms="1" started-at="2016-06-29T09:40:54Z" finished-at="2016-06-29T09:40:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- nameValidationR -->
+      </class> <!-- testScripts.PageLeadTest -->
+      <class name="testScripts.ThankYouPagesTest">
+        <test-method status="FAIL" signature="classTyBanner()[pri:0, instance:testScripts.ThankYouPagesTest@5ce81285]" name="classTyBanner" duration-ms="2" started-at="2016-06-29T09:40:54Z" finished-at="2016-06-29T09:40:54Z">
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+	at testScripts.ThankYouPagesTest.classTyBanner(ThankYouPagesTest.java:18)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:646)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:823)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1131)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:778)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1225)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1150)
+	at org.testng.TestNG.runSuites(TestNG.java:1075)
+	at org.testng.TestNG.run(TestNG.java:1047)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:126)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:137)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:58)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- classTyBanner -->
+        <test-method status="FAIL" signature="classTyPlay()[pri:0, instance:testScripts.ThankYouPagesTest@5ce81285]" name="classTyPlay" duration-ms="3" started-at="2016-06-29T09:40:54Z" finished-at="2016-06-29T09:40:54Z">
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+	at testScripts.ThankYouPagesTest.classTyPlay(ThankYouPagesTest.java:29)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:646)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:823)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1131)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:778)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1225)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1150)
+	at org.testng.TestNG.runSuites(TestNG.java:1075)
+	at org.testng.TestNG.run(TestNG.java:1047)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:126)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:137)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:58)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- classTyPlay -->
+        <test-method status="FAIL" signature="guideTyBanner()[pri:0, instance:testScripts.ThankYouPagesTest@5ce81285]" name="guideTyBanner" duration-ms="3" started-at="2016-06-29T09:40:54Z" finished-at="2016-06-29T09:40:54Z">
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+	at testScripts.ThankYouPagesTest.guideTyBanner(ThankYouPagesTest.java:48)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:646)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:823)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1131)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:778)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1225)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1150)
+	at org.testng.TestNG.runSuites(TestNG.java:1075)
+	at org.testng.TestNG.run(TestNG.java:1047)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:126)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:137)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:58)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- guideTyBanner -->
+        <test-method status="FAIL" signature="guideTyPlay()[pri:0, instance:testScripts.ThankYouPagesTest@5ce81285]" name="guideTyPlay" duration-ms="6" started-at="2016-06-29T09:40:54Z" finished-at="2016-06-29T09:40:54Z">
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+	at testScripts.ThankYouPagesTest.guideTyPlay(ThankYouPagesTest.java:59)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:646)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:823)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1131)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:778)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1225)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1150)
+	at org.testng.TestNG.runSuites(TestNG.java:1075)
+	at org.testng.TestNG.run(TestNG.java:1047)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:126)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:137)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:58)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- guideTyPlay -->
+      </class> <!-- testScripts.ThankYouPagesTest -->
+      <class name="testScripts.HTTPstatus">
+        <test-method status="PASS" signature="SiteStatus()[pri:0, instance:testScripts.HTTPstatus@a67c67e]" name="SiteStatus" duration-ms="152" started-at="2016-06-29T09:40:54Z" finished-at="2016-06-29T09:40:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SiteStatus -->
+      </class> <!-- testScripts.HTTPstatus -->
+      <class name="testScripts.BlogTest">
+        <test-method status="FAIL" signature="openBlogLanding()[pri:0, instance:testScripts.BlogTest@4e1d422d]" name="openBlogLanding" is-config="true" duration-ms="0" started-at="2016-06-29T09:40:54Z" finished-at="2016-06-29T09:40:54Z">
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+	at testScripts.BlogTest.openBlogLanding(BlogTest.java:14)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:515)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:216)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:590)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:823)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1131)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:778)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1225)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1150)
+	at org.testng.TestNG.runSuites(TestNG.java:1075)
+	at org.testng.TestNG.run(TestNG.java:1047)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:126)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:137)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:58)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBlogLanding -->
+        <test-method status="SKIP" signature="submitFormNoPhone()[pri:0, instance:testScripts.BlogTest@4e1d422d]" name="submitFormNoPhone" duration-ms="1" started-at="2016-06-29T09:40:54Z" finished-at="2016-06-29T09:40:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- submitFormNoPhone -->
+      </class> <!-- testScripts.BlogTest -->
+      <class name="testScripts.FooterSocialMediaTest">
+        <test-method status="FAIL" signature="footerOpenGetSocial()[pri:0, instance:testScripts.FooterSocialMediaTest@544fe44c]" name="footerOpenGetSocial" duration-ms="36" started-at="2016-06-29T09:40:53Z" finished-at="2016-06-29T09:40:53Z">
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+	at objectRepository.Footer.clickFacebookIcon(Footer.java:224)
+	at testScripts.FooterSocialMediaTest.footerOpenGetSocial(FooterSocialMediaTest.java:129)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:646)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:823)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1131)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:778)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1225)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1150)
+	at org.testng.TestNG.runSuites(TestNG.java:1075)
+	at org.testng.TestNG.run(TestNG.java:1047)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:126)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:137)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:58)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- footerOpenGetSocial -->
+      </class> <!-- testScripts.FooterSocialMediaTest -->
+      <class name="testScripts.HealthCoachingTest">
+        <test-method status="FAIL" signature="openInfoSess()[pri:0, instance:testScripts.HealthCoachingTest@3327bd23]" name="openInfoSess" is-config="true" duration-ms="0" started-at="2016-06-29T09:40:53Z" finished-at="2016-06-29T09:40:53Z">
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+	at testScripts.HealthCoachingTest.openInfoSess(HealthCoachingTest.java:19)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:515)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:216)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:590)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:823)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1131)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:778)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1225)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1150)
+	at org.testng.TestNG.runSuites(TestNG.java:1075)
+	at org.testng.TestNG.run(TestNG.java:1047)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:126)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:137)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:58)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openInfoSess -->
+        <test-method status="SKIP" signature="countryFlagMatch()[pri:0, instance:testScripts.HealthCoachingTest@3327bd23]" name="countryFlagMatch" duration-ms="5" started-at="2016-06-29T09:40:53Z" finished-at="2016-06-29T09:40:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- countryFlagMatch -->
+        <test-method status="SKIP" signature="openInfoSess()[pri:0, instance:testScripts.HealthCoachingTest@3327bd23]" name="openInfoSess" is-config="true" duration-ms="0" started-at="2016-06-29T09:40:53Z" finished-at="2016-06-29T09:40:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openInfoSess -->
+        <test-method status="SKIP" signature="emailValidation()[pri:0, instance:testScripts.HealthCoachingTest@3327bd23]" name="emailValidation" duration-ms="3" started-at="2016-06-29T09:40:53Z" finished-at="2016-06-29T09:40:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- emailValidation -->
+        <test-method status="SKIP" signature="openInfoSess()[pri:0, instance:testScripts.HealthCoachingTest@3327bd23]" name="openInfoSess" is-config="true" duration-ms="0" started-at="2016-06-29T09:40:53Z" finished-at="2016-06-29T09:40:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openInfoSess -->
+        <test-method status="SKIP" signature="nameValidation()[pri:0, instance:testScripts.HealthCoachingTest@3327bd23]" name="nameValidation" duration-ms="2" started-at="2016-06-29T09:40:53Z" finished-at="2016-06-29T09:40:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- nameValidation -->
+        <test-method status="SKIP" signature="openInfoSess()[pri:0, instance:testScripts.HealthCoachingTest@3327bd23]" name="openInfoSess" is-config="true" duration-ms="0" started-at="2016-06-29T09:40:53Z" finished-at="2016-06-29T09:40:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openInfoSess -->
+        <test-method status="SKIP" signature="submitFormNoPhone()[pri:0, instance:testScripts.HealthCoachingTest@3327bd23]" name="submitFormNoPhone" duration-ms="107" started-at="2016-06-29T09:40:53Z" finished-at="2016-06-29T09:40:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- submitFormNoPhone -->
+        <test-method status="SKIP" signature="openInfoSess()[pri:0, instance:testScripts.HealthCoachingTest@3327bd23]" name="openInfoSess" is-config="true" duration-ms="0" started-at="2016-06-29T09:40:53Z" finished-at="2016-06-29T09:40:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openInfoSess -->
+        <test-method status="SKIP" signature="submitFormWithPhone()[pri:0, instance:testScripts.HealthCoachingTest@3327bd23]" name="submitFormWithPhone" duration-ms="2" started-at="2016-06-29T09:40:53Z" finished-at="2016-06-29T09:40:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- submitFormWithPhone -->
+      </class> <!-- testScripts.HealthCoachingTest -->
+      <class name="testScripts.SampleClassModuleTest">
+        <test-method status="FAIL" signature="openSCMpage()[pri:0, instance:testScripts.SampleClassModuleTest@71318ec4]" name="openSCMpage" is-config="true" duration-ms="0" started-at="2016-06-29T09:40:53Z" finished-at="2016-06-29T09:40:53Z">
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+	at testScripts.SampleClassModuleTest.openSCMpage(SampleClassModuleTest.java:16)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:515)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:216)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:590)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:823)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1131)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:778)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1225)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1150)
+	at org.testng.TestNG.runSuites(TestNG.java:1075)
+	at org.testng.TestNG.run(TestNG.java:1047)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:126)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:137)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:58)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openSCMpage -->
+        <test-method status="SKIP" signature="bannerDisplayed()[pri:0, instance:testScripts.SampleClassModuleTest@71318ec4]" name="bannerDisplayed" duration-ms="3" started-at="2016-06-29T09:40:53Z" finished-at="2016-06-29T09:40:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bannerDisplayed -->
+        <test-method status="SKIP" signature="openSCMpage()[pri:0, instance:testScripts.SampleClassModuleTest@71318ec4]" name="openSCMpage" is-config="true" duration-ms="0" started-at="2016-06-29T09:40:53Z" finished-at="2016-06-29T09:40:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openSCMpage -->
+        <test-method status="SKIP" signature="videoPlay()[pri:0, instance:testScripts.SampleClassModuleTest@71318ec4]" name="videoPlay" duration-ms="8" started-at="2016-06-29T09:40:53Z" finished-at="2016-06-29T09:40:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- videoPlay -->
+      </class> <!-- testScripts.SampleClassModuleTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

@@ -1,9 +1,10 @@
 package testScripts;
 
+import org.testng.annotations.Test;
+import org.testng.AssertJUnit;
+import org.testng.annotations.Test;
+import org.testng.AssertJUnit;
 import objectRepository.Footer;
-
-import org.junit.Assert;
-import org.junit.Test;
 
 import setUpClasses.DriverInitialization;
 
@@ -150,7 +151,7 @@ public class FooterSocialMediaTest extends DriverInitialization {
         driver.switchTo().window(facebook);
         String currentUrlFB = driver.getCurrentUrl();
         try {
-            Assert.assertEquals(currentUrlFB, "https://www.facebook.com/NutritionSchool");
+            AssertJUnit.assertEquals(currentUrlFB, "https://www.facebook.com/NutritionSchool");
         } catch (Exception e) {
             e.printStackTrace();
         }
@@ -159,7 +160,7 @@ public class FooterSocialMediaTest extends DriverInitialization {
         driver.switchTo().window(instagram);
         String currentUrlInst = driver.getCurrentUrl();
         try {
-            Assert.assertEquals(currentUrlInst, "https://www.instagram.com/NUTRITIONSCHOOL/");
+            AssertJUnit.assertEquals(currentUrlInst, "https://www.instagram.com/NUTRITIONSCHOOL/");
         } catch (Exception e) {
             e.printStackTrace();
         }
@@ -168,7 +169,7 @@ public class FooterSocialMediaTest extends DriverInitialization {
         driver.switchTo().window(twitter);
         String currentUrlTwit = driver.getCurrentUrl();
         try {
-            Assert.assertEquals(currentUrlTwit, "https://twitter.com/NutritionSchool");
+            AssertJUnit.assertEquals(currentUrlTwit, "https://twitter.com/NutritionSchool");
         } catch (Exception e) {
             e.printStackTrace();
         }
@@ -177,7 +178,7 @@ public class FooterSocialMediaTest extends DriverInitialization {
         driver.switchTo().window(youtube);
         String currentUrlYou = driver.getCurrentUrl();
         try {
-            Assert.assertEquals(currentUrlYou, "https://www.youtube.com/c/instituteforintegrativenutrition");
+            AssertJUnit.assertEquals(currentUrlYou, "https://www.youtube.com/c/instituteforintegrativenutrition");
         } catch (Exception e) {
             e.printStackTrace();
         }
@@ -186,7 +187,7 @@ public class FooterSocialMediaTest extends DriverInitialization {
         driver.switchTo().window(pinterest);
         String currentUrlPint = driver.getCurrentUrl();
         try {
-            Assert.assertEquals(currentUrlPint, "https://www.pinterest.com/nutritionschool/");
+            AssertJUnit.assertEquals(currentUrlPint, "https://www.pinterest.com/nutritionschool/");
         } catch (Exception e) {
             e.printStackTrace();
         }
@@ -195,7 +196,7 @@ public class FooterSocialMediaTest extends DriverInitialization {
         driver.switchTo().window(linkedIn);
         String currentUrlLink = driver.getCurrentUrl();
         try {
-            Assert.assertEquals(currentUrlLink, "https://www.linkedin.com/company/902375?trk=NUS_CMPY_TWIT");
+            AssertJUnit.assertEquals(currentUrlLink, "https://www.linkedin.com/company/902375?trk=NUS_CMPY_TWIT");
         } catch (Exception e) {
             e.printStackTrace();
         }
@@ -204,7 +205,7 @@ public class FooterSocialMediaTest extends DriverInitialization {
         driver.switchTo().window(gPlus);
         String currentUrlGplus = driver.getCurrentUrl();
         try {
-            Assert.assertEquals(currentUrlGplus, "https://plus.google.com/+InstituteforIntegrativeNutrition/posts");
+            AssertJUnit.assertEquals(currentUrlGplus, "https://plus.google.com/+InstituteforIntegrativeNutrition/posts");
         } catch (Exception e) {
             e.printStackTrace();
         }
@@ -213,7 +214,7 @@ public class FooterSocialMediaTest extends DriverInitialization {
         driver.switchTo().window(amazon);
         String currentUrlAmaz = driver.getCurrentUrl();
         try {
-            Assert.assertEquals(currentUrlAmaz, "https://www.amazon.com/s?marketplaceID=ATVPDKIKX0DER&me=A388GKFOEEICY0&merchant=A388GKFOEEICY0&redirect=true");
+            AssertJUnit.assertEquals(currentUrlAmaz, "https://www.amazon.com/s?marketplaceID=ATVPDKIKX0DER&me=A388GKFOEEICY0&merchant=A388GKFOEEICY0&redirect=true");
         } catch (Exception e) {
             e.printStackTrace();
         }

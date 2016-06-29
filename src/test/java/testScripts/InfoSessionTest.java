@@ -1,10 +1,10 @@
 package testScripts;
 
+import org.testng.annotations.Test;
+import org.testng.annotations.BeforeMethod;
+import org.testng.AssertJUnit;
 import objectRepository.Forms;
 import objectRepository.InfoSessionsPage;
-import org.junit.Assert;
-import org.junit.Before;
-import org.junit.Test;
 import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebElement;
@@ -13,8 +13,8 @@ import setUpClasses.DriverInitialization;
 
 public class InfoSessionTest extends DriverInitialization {
 
-    @Before
-    public void openInfoSess() {
+    @BeforeMethod
+	public void openInfoSess() {
         driver.get("http://www.integrativenutrition.com/info-sessions");
         Forms.clickDateTime();
         Select webinar = new Select(Forms.dateTime);
@@ -28,7 +28,7 @@ public class InfoSessionTest extends DriverInitialization {
         Forms.clickSubmitButton();
         String currentUrl = driver.getCurrentUrl();
         try {
-            Assert.assertEquals(currentUrl, "http://www.integrativenutrition.com/info-sessions");
+            AssertJUnit.assertEquals(currentUrl, "http://www.integrativenutrition.com/info-sessions");
         } catch (Exception e) {
             e.printStackTrace();
         }
@@ -40,7 +40,7 @@ public class InfoSessionTest extends DriverInitialization {
         Forms.clickSubmitButton();
         String currentUrl = driver.getCurrentUrl();
         try {
-            Assert.assertEquals(currentUrl, "http://www.integrativenutrition.com/info-sessions");
+            AssertJUnit.assertEquals(currentUrl, "http://www.integrativenutrition.com/info-sessions");
         } catch (Exception e) {
             e.printStackTrace();
         }
@@ -58,7 +58,7 @@ public class InfoSessionTest extends DriverInitialization {
         String phoneValue = Forms.formPhone.getAttribute("value");
         boolean cyprusFlag = phoneValue.contains("357");
         try {
-            Assert.assertTrue(cyprusFlag);
+            AssertJUnit.assertTrue(cyprusFlag);
         } catch (Exception e) {
             e.printStackTrace();
         }

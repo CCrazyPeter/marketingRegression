@@ -24,12 +24,29 @@
             <version>4.11</version>
             <scope>test</scope>
         </dependency>
-
+        
+		<dependency>
+			<groupId>org.testng</groupId>
+			<artifactId>testng</artifactId>
+			<version>6.9.8</version>
+			<scope>test</scope>
+		</dependency>
+		
+		<dependency>
+	        <groupId>org.uncommons</groupId>
+	        <artifactId>reportng</artifactId>
+	        <version>1.1.2</version>
+	        <scope>test</scope>
+	        <exclusions>
+	            <exclusion>
+	                <groupId>org.testng</groupId>
+	                <artifactId>testng</artifactId>
+	            </exclusion>
+	        </exclusions>
+	    </dependency>
+    
 
     </dependencies>
-
-
-
 
 
 </project>

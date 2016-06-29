@@ -19,12 +19,13 @@ public class DriverInitialization  {
     @BeforeClass
     public static void createEnvironment() {
         
-    	//driver = new FirefoxDriver();
-    	
-    	System.setProperty("webdriver.chrome.driver", "/usr/bin/chromedriver");
+
+    	System.setProperty("webdriver.chrome.driver", "/MarketingSite/SeleniumWebDrivers/Windows/32bit/chromedriver.exe");
     	driver = new ChromeDriver();
         
     	//driver = new SafariDriver();
+    	
+    	//driver = new FirefoxDriver();
 
         driver.manage().deleteAllCookies();
         driver.get("http://www.integrativenutrition.com/");

@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test name="Default test(failed)">
+    <classes>
+      <class name="testScripts.SampleClassModuleTest">
+        <methods>
+          <include name="videoPlay"/>
+          <include name="bannerDisplayed"/>
+          <include name="openSCMpage"/>
+        </methods>
+      </class> <!-- testScripts.SampleClassModuleTest -->
+      <class name="testScripts.HealthCoachingTest">
+        <methods>
+          <include name="nameValidation"/>
+          <include name="submitFormNoPhone"/>
+          <include name="emailValidation"/>
+          <include name="openInfoSess"/>
+          <include name="submitFormWithPhone"/>
+          <include name="countryFlagMatch"/>
+        </methods>
+      </class> <!-- testScripts.HealthCoachingTest -->
+      <class name="testScripts.FooterSocialMediaTest">
+        <methods>
+          <include name="footerOpenGetSocial"/>
+        </methods>
+      </class> <!-- testScripts.FooterSocialMediaTest -->
+      <class name="testScripts.HomePageTest">
+        <methods>
+          <include name="bannerDisplayed"/>
+        </methods>
+      </class> <!-- testScripts.HomePageTest -->
+      <class name="testScripts.InfoSessionTest">
+        <methods>
+          <include name="countryFlagMatch"/>
+          <include name="openInfoSess"/>
+          <include name="emailValidation"/>
+          <include name="nameValidation"/>
+        </methods>
+      </class> <!-- testScripts.InfoSessionTest -->
+      <class name="testScripts.PageLeadTest">
+        <methods>
+          <include name="emailValidationD"/>
+          <include name="countryFlagMatchD"/>
+          <include name="nameValidationR"/>
+          <include name="bannerDisplayed"/>
+          <include name="clearCookies"/>
+          <include name="countryFlagMatchR"/>
+          <include name="nameValidationD"/>
+          <include name="bannerDisplayedD"/>
+          <include name="formSubmitD"/>
+          <include name="emailValidation"/>
+          <include name="formSubmit"/>
+          <include name="emailValidationR"/>
+          <include name="countryFlagMatch"/>
+          <include name="formSubmitR"/>
+          <include name="nameValidation"/>
+          <include name="bannerDisplayedR"/>
+        </methods>
+      </class> <!-- testScripts.PageLeadTest -->
+      <class name="testScripts.BlogTest">
+        <methods>
+          <include name="openBlogLanding"/>
+          <include name="submitFormNoPhone"/>
+        </methods>
+      </class> <!-- testScripts.BlogTest -->
+      <class name="testScripts.CurriculumPageTest">
+        <methods>
+          <include name="submitFormWithPhone"/>
+          <include name="submitFormNoPhone"/>
+          <include name="openHomepage"/>
+        </methods>
+      </class> <!-- testScripts.CurriculumPageTest -->
+      <class name="testScripts.HeaderTest">
+        <methods>
+          <include name="headerInfoSess"/>
+          <include name="headerSearch"/>
+          <include name="headerCurric"/>
+          <include name="headerHealthCoach"/>
+          <include name="headerPhone"/>
+          <include name="headerHomeIcon"/>
+          <include name="headerContactUs"/>
+          <include name="headerAboutUs"/>
+        </methods>
+      </class> <!-- testScripts.HeaderTest -->
+      <class name="testScripts.ThankYouPagesTest">
+        <methods>
+          <include name="classTyBanner"/>
+          <include name="classTyPlay"/>
+          <include name="guideTyPlay"/>
+          <include name="guideTyBanner"/>
+        </methods>
+      </class> <!-- testScripts.ThankYouPagesTest -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

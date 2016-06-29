@@ -1,22 +1,22 @@
 package testScripts;
 
-//import objectRepository.BlogLandingPage;
+import org.testng.annotations.Test;
+import org.testng.annotations.BeforeMethod;
+import org.testng.AssertJUnit;
+//import objectRepository.BlogElements;
 import objectRepository.Forms;
-import org.junit.Assert;
-import org.junit.Before;
-import org.junit.Test;
 import setUpClasses.DriverInitialization;
 
 public class BlogTest extends DriverInitialization {
 
-    @Before
-    public void openBlogLanding() {
+    @BeforeMethod
+	public void openBlogLanding() {
         driver.get("www.integrativenutrition.com/blog");
     }
 /*
     @Test  //This test ensures the banner is displayed
     public void bannerDisplayed() {
-        boolean bannerAppear = BlogLandingPage.blogHeaderBanner.isDisplayed();
+        boolean bannerAppear = BlogElements.blogHeaderBanner.isDisplayed();
         try {
             Assert.assertTrue(bannerAppear);
         } catch (Exception e) {
@@ -31,7 +31,7 @@ public class BlogTest extends DriverInitialization {
         Forms.clickSubmitButton();
         boolean expectedUrl= driver.getCurrentUrl().contains("http://www.integrativenutrition.com/guide-thank-you?sid=");
         try {
-            Assert.assertTrue(expectedUrl);
+            AssertJUnit.assertTrue(expectedUrl);
         } catch (Exception e) {
             e.printStackTrace();
         }

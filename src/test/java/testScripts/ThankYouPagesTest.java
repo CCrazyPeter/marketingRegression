@@ -1,8 +1,8 @@
 package testScripts;
 
+import org.testng.annotations.Test;
+import org.testng.AssertJUnit;
 import objectRepository.ThankYouPages;
-import org.junit.Assert;
-import org.junit.Test;
 import setUpClasses.DriverInitialization;
 
 import java.util.concurrent.TimeUnit;
@@ -18,7 +18,7 @@ public class ThankYouPagesTest extends DriverInitialization {
         driver.get("http://www.integrativenutrition.com/class-thank-you");
             boolean bannerAppear = ThankYouPages.headerBanner.isDisplayed();
             try {
-                Assert.assertTrue(bannerAppear);
+                AssertJUnit.assertTrue(bannerAppear);
             } catch (Exception e) {
                 e.printStackTrace();
             }
@@ -33,7 +33,7 @@ public class ThankYouPagesTest extends DriverInitialization {
         String videoElapsed = ThankYouPages.videoElapsed.getText();
         boolean videoComplete = videoElapsed.contains("2:24");
         try {
-            Assert.assertTrue(videoComplete);
+            AssertJUnit.assertTrue(videoComplete);
         } catch (Exception e) {
             e.printStackTrace();
         }
@@ -48,7 +48,7 @@ public class ThankYouPagesTest extends DriverInitialization {
             driver.get("http://www.integrativenutrition.com/guide-thank-you");
             boolean bannerAppear = ThankYouPages.headerBanner.isDisplayed();
             try {
-                Assert.assertTrue(bannerAppear);
+                AssertJUnit.assertTrue(bannerAppear);
             } catch (Exception e) {
                 e.printStackTrace();
             }
@@ -63,7 +63,7 @@ public class ThankYouPagesTest extends DriverInitialization {
             String videoElapsed = ThankYouPages.videoElapsed.getText();
             boolean videoComplete = videoElapsed.contains("2:00");
             try {
-                Assert.assertTrue(videoComplete);
+                AssertJUnit.assertTrue(videoComplete);
             } catch (Exception e) {
                 e.printStackTrace();
             }

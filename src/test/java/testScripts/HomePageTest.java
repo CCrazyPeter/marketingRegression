@@ -1,9 +1,9 @@
 package testScripts;
 
+import org.testng.annotations.Test;
+import org.testng.AssertJUnit;
 import objectRepository.HomePage;
 import objectRepository.PaidLeadGen;
-import org.junit.Assert;
-import org.junit.Test;
 import setUpClasses.DriverInitialization;
 
 import java.util.concurrent.TimeUnit;
@@ -15,7 +15,7 @@ public class HomePageTest extends DriverInitialization {
         //driver.get("http://www.integrativenutrition.com");
         boolean bannerAppear = PaidLeadGen.headerBanner.isDisplayed();
         try {
-            Assert.assertTrue(bannerAppear);
+            AssertJUnit.assertTrue(bannerAppear);
         } catch (Exception e) {
             e.printStackTrace();
         }

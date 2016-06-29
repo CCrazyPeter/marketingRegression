@@ -1,17 +1,17 @@
 package testScripts;
+import org.testng.annotations.Test;
+import org.testng.annotations.BeforeMethod;
+import org.testng.AssertJUnit;
 import objectRepository.Forms;
 import objectRepository.PaidLeadGen;
-import org.junit.Assert;
-import org.junit.Before;
-import org.junit.Test;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import setUpClasses.DriverInitialization;
 
 public class PageLeadTest extends DriverInitialization {
 
-    @Before
-    public void clearCookies() {
+    @BeforeMethod
+	public void clearCookies() {
         driver.manage().deleteAllCookies();
     }
 
@@ -26,7 +26,7 @@ public class PageLeadTest extends DriverInitialization {
         driver.get("http://www.integrativenutrition.com/info-nutritioneducation");
         boolean bannerAppear = PaidLeadGen.headerBanner.isDisplayed();
         try {
-            Assert.assertTrue(bannerAppear);
+            AssertJUnit.assertTrue(bannerAppear);
         } catch (Exception e) {
             e.printStackTrace();
         }
@@ -39,7 +39,7 @@ public class PageLeadTest extends DriverInitialization {
         Forms.clickSubmitButton();
         String currentUrl = driver.getCurrentUrl();
         try {
-            Assert.assertEquals(currentUrl, "http://www.integrativenutrition.com/info-nutritioneducation");
+            AssertJUnit.assertEquals(currentUrl, "http://www.integrativenutrition.com/info-nutritioneducation");
         } catch (Exception e) {
             e.printStackTrace();
         }
@@ -52,7 +52,7 @@ public class PageLeadTest extends DriverInitialization {
         Forms.clickSubmitButton();
         String currentUrl = driver.getCurrentUrl();
         try {
-            Assert.assertEquals(currentUrl, "http://www.integrativenutrition.com/info-nutritioneducation");
+            AssertJUnit.assertEquals(currentUrl, "http://www.integrativenutrition.com/info-nutritioneducation");
         } catch (Exception e) {
             e.printStackTrace();
         }
@@ -69,7 +69,7 @@ public class PageLeadTest extends DriverInitialization {
         String phoneValue = Forms.formPhone.getAttribute("value");
         boolean fijiFlag = phoneValue.contains("679");
         try {
-            Assert.assertTrue(fijiFlag);
+            AssertJUnit.assertTrue(fijiFlag);
         } catch (Exception e) {
             e.printStackTrace();
         }
@@ -84,7 +84,7 @@ public class PageLeadTest extends DriverInitialization {
         Forms.clickSubmitButton();
         boolean expectedUrl= driver.getCurrentUrl().contains("http://www.integrativenutrition.com/class-thank-you?sid=");
         try {
-            Assert.assertTrue(expectedUrl);
+            AssertJUnit.assertTrue(expectedUrl);
         } catch (Exception e) {
             e.printStackTrace();
         }
@@ -99,7 +99,7 @@ public class PageLeadTest extends DriverInitialization {
         driver.get("http://www.integrativenutrition.com/info-nutritioneducation-r");
         boolean bannerAppear = PaidLeadGen.headerBanner.isDisplayed();
         try {
-            Assert.assertTrue(bannerAppear);
+            AssertJUnit.assertTrue(bannerAppear);
         } catch (Exception e) {
             e.printStackTrace();
         }
@@ -112,7 +112,7 @@ public class PageLeadTest extends DriverInitialization {
         Forms.clickSubmitButton();
         boolean currentUrl = driver.getCurrentUrl().contains("http://www.integrativenutrition.com/info-nutritioneducation-r");
         try {
-            Assert.assertTrue(currentUrl);
+            AssertJUnit.assertTrue(currentUrl);
         } catch (Exception e) {
             e.printStackTrace();
         }
@@ -125,7 +125,7 @@ public class PageLeadTest extends DriverInitialization {
         Forms.clickSubmitButton();
         boolean currentUrl = driver.getCurrentUrl().contains("http://www.integrativenutrition.com/info-nutritioneducation-r");
         try {
-            Assert.assertTrue(currentUrl);
+            AssertJUnit.assertTrue(currentUrl);
 
         } catch (Exception e) {
             e.printStackTrace();
@@ -144,7 +144,7 @@ public class PageLeadTest extends DriverInitialization {
         String phoneValue = Forms.formPhone.getAttribute("value");
         boolean jamiacaFlag = phoneValue.contains("876");
         try {
-            Assert.assertTrue(jamiacaFlag);
+            AssertJUnit.assertTrue(jamiacaFlag);
         } catch (Exception e) {
             e.printStackTrace();
         }
@@ -158,7 +158,7 @@ public class PageLeadTest extends DriverInitialization {
         Forms.clickSubmitButton();
         boolean expectedUrl= driver.getCurrentUrl().contains("http://www.integrativenutrition.com/class-thank-you?sid=");
         try {
-            Assert.assertTrue(expectedUrl);
+            AssertJUnit.assertTrue(expectedUrl);
         } catch (Exception e) {
             e.printStackTrace();
         }
@@ -173,7 +173,7 @@ public class PageLeadTest extends DriverInitialization {
         driver.get("http://www.integrativenutrition.com/info-nutritioneducation-d");
         boolean bannerAppear = PaidLeadGen.headerBanner.isDisplayed();
         try {
-            Assert.assertTrue(bannerAppear);
+            AssertJUnit.assertTrue(bannerAppear);
         } catch (Exception e) {
             e.printStackTrace();
         }
@@ -186,7 +186,7 @@ public class PageLeadTest extends DriverInitialization {
         Forms.clickSubmitButton();
         String currentUrl = driver.getCurrentUrl();
         try {
-            Assert.assertEquals(currentUrl, "http://www.integrativenutrition.com/info-nutritioneducation-d");
+            AssertJUnit.assertEquals(currentUrl, "http://www.integrativenutrition.com/info-nutritioneducation-d");
         } catch (Exception e) {
             e.printStackTrace();
         }
@@ -199,7 +199,7 @@ public class PageLeadTest extends DriverInitialization {
         Forms.clickSubmitButton();
         String currentUrl = driver.getCurrentUrl();
         try {
-            Assert.assertEquals(currentUrl, "http://www.integrativenutrition.com/info-nutritioneducation-d");
+            AssertJUnit.assertEquals(currentUrl, "http://www.integrativenutrition.com/info-nutritioneducation-d");
         } catch (Exception e) {
             e.printStackTrace();
         }
@@ -216,7 +216,7 @@ public class PageLeadTest extends DriverInitialization {
         String phoneValue = Forms.formPhone.getAttribute("value");
         boolean uruguayFlag = phoneValue.contains("598");
         try {
-            Assert.assertTrue(uruguayFlag);
+            AssertJUnit.assertTrue(uruguayFlag);
         } catch (Exception e) {
             e.printStackTrace();
         }
@@ -230,7 +230,7 @@ public class PageLeadTest extends DriverInitialization {
         Forms.clickSubmitButton();
         boolean expectedUrl= driver.getCurrentUrl().contains("http://www.integrativenutrition.com/class-thank-you?sid=");
         try {
-            Assert.assertTrue(expectedUrl);
+            AssertJUnit.assertTrue(expectedUrl);
         } catch (Exception e) {
             e.printStackTrace();
         }

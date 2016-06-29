@@ -1,16 +1,14 @@
 package testScripts;
 
+import org.testng.annotations.BeforeMethod;
 import objectRepository.AboutUsPage;
-import org.junit.Assert;
-import org.junit.Before;
-import org.junit.Test;
 import setUpClasses.DriverInitialization;
 import java.util.concurrent.TimeUnit;
 
 public class AboutUsTest extends DriverInitialization {
 
-    @Before
-    public void openHomepage() {
+    @BeforeMethod
+	public void openHomepage() {
         driver.get("www.integrativenutrition.com/about-us");
     }
     

@@ -1,10 +1,8 @@
 package testScripts;
 
-import org.junit.Assert;
-
+import org.testng.annotations.Test;
+import org.testng.AssertJUnit;
 import objectRepository.Header;
-
-import org.junit.Test;
 
 import setUpClasses.DriverInitialization;
 
@@ -18,7 +16,7 @@ public class HeaderTest extends DriverInitialization {
     public void headerPhone () {
         boolean present = Header.phoneNumber.isDisplayed();
         try {
-            Assert.assertTrue(present);
+            AssertJUnit.assertTrue(present);
         } catch (Exception e) {
             e.printStackTrace();
         }
@@ -30,7 +28,7 @@ public class HeaderTest extends DriverInitialization {
         String currentUrl = driver.getCurrentUrl();
         try {
             //Assert.assertEquals(currentUrl, "http://www.integrativenutrition.com/search/node/learning");
-        	Assert.assertEquals(currentUrl, "http://www.integrativenutrition.com/search/solr/learning");
+        	AssertJUnit.assertEquals(currentUrl, "http://www.integrativenutrition.com/search/solr/learning");
         } catch (Exception e) {
             e.printStackTrace();
         }
@@ -43,7 +41,7 @@ public class HeaderTest extends DriverInitialization {
         Header.clickHomeIcon();
         String currentUrl = driver.getCurrentUrl();
         try {
-            Assert.assertEquals(currentUrl, "http://www.integrativenutrition.com/");
+            AssertJUnit.assertEquals(currentUrl, "http://www.integrativenutrition.com/");
         } catch (Exception e) {
             e.printStackTrace();
         }
@@ -54,7 +52,7 @@ public class HeaderTest extends DriverInitialization {
         Header.clickContactUsIcon();
         String currentUrl = driver.getCurrentUrl();
         try {
-            Assert.assertEquals(currentUrl, "http://www.integrativenutrition.com/contact-us");
+            AssertJUnit.assertEquals(currentUrl, "http://www.integrativenutrition.com/contact-us");
         } catch (Exception e) {
             e.printStackTrace();
         }
@@ -75,7 +73,7 @@ public class HeaderTest extends DriverInitialization {
 //        Header.clickCurriculumIcon();
         String currentUrl = driver.getCurrentUrl();
         try {
-            Assert.assertEquals(currentUrl, "http://www.integrativenutrition.com/curriculum");
+            AssertJUnit.assertEquals(currentUrl, "http://www.integrativenutrition.com/curriculum");
         } catch (Exception e) {
             e.printStackTrace();
         }
@@ -95,7 +93,7 @@ public class HeaderTest extends DriverInitialization {
     	
         String currentUrl = driver.getCurrentUrl();
         try {
-            Assert.assertEquals(currentUrl, "http://www.integrativenutrition.com/info-sessions");
+            AssertJUnit.assertEquals(currentUrl, "http://www.integrativenutrition.com/info-sessions");
         } catch (Exception e) {
             e.printStackTrace();
         }
@@ -116,7 +114,7 @@ public class HeaderTest extends DriverInitialization {
         //Header.clickHealthCoachIcon();
         String currentUrl = driver.getCurrentUrl();
         try {
-            Assert.assertEquals(currentUrl, "http://www.integrativenutrition.com/health-coaching");
+            AssertJUnit.assertEquals(currentUrl, "http://www.integrativenutrition.com/health-coaching");
         } catch (Exception e) {
             e.printStackTrace();
         }
@@ -138,7 +136,7 @@ public class HeaderTest extends DriverInitialization {
     	
         String currentUrl = driver.getCurrentUrl();
         try {
-            Assert.assertEquals(currentUrl, "http://www.integrativenutrition.com/about-us");
+            AssertJUnit.assertEquals(currentUrl, "http://www.integrativenutrition.com/about-us");
         } catch (Exception e) {
             e.printStackTrace();
         }

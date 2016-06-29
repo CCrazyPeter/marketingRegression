@@ -1,18 +1,17 @@
 package testScripts;
 
+import org.testng.annotations.Test;
+import org.testng.annotations.BeforeMethod;
 import objectRepository.CurriculumPage;
 import objectRepository.Forms;
-import org.junit.Assert;
-import org.junit.Before;
-import org.junit.Test;
 import setUpClasses.DriverInitialization;
 
 import java.util.concurrent.TimeUnit;
 
 public class CurriculumPageTest extends DriverInitialization {
 
-    @Before
-    public void openHomepage() {
+    @BeforeMethod
+	public void openHomepage() {
         driver.get("http://www.integrativenutrition.com/curriculum");
     }
 /*
