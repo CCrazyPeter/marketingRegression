@@ -2,44 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="24a3e954-7eec-46ee-b66a-a545b9ba2a7c" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/IntegrativeNutrition/Marketing/Pages/Screens.java" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_gson_gson_2_3_1.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_guava_18_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_codec_commons_codec_1_10.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_api_2_47_1.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_remote_driver_2_47_1.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/java/objectRepository/AboutUsPage.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/java/objectRepository/BlogElements.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/java/objectRepository/ContactUsPage.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/java/objectRepository/CurriculumPage.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/java/objectRepository/Footer.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/java/objectRepository/Forms.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/java/objectRepository/Header.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/java/objectRepository/HealthCoachingPage.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/java/objectRepository/HomePage.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/java/objectRepository/InfoSessionsPage.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/java/objectRepository/PaidLeadGen.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/java/objectRepository/SampleClassModulePage.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/java/objectRepository/ThankYouPages.java" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Marketing.iml" afterPath="$PROJECT_DIR$/Marketing.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/setUpClasses/DriverInitialization.java" afterPath="$PROJECT_DIR$/src/test/java/setUpClasses/DriverInitialization.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/testScripts/AboutUsTest.java" afterPath="$PROJECT_DIR$/src/test/java/testScripts/AboutUsTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/testScripts/BlogTest.java" afterPath="$PROJECT_DIR$/src/test/java/testScripts/BlogTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/testScripts/CurriculumPageTest.java" afterPath="$PROJECT_DIR$/src/test/java/testScripts/CurriculumPageTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/testScripts/FooterSocialMediaTest.java" afterPath="$PROJECT_DIR$/src/test/java/testScripts/FooterSocialMediaTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/testScripts/HTTPstatus.java" afterPath="$PROJECT_DIR$/src/test/java/testScripts/HTTPstatus.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/testScripts/HeaderTest.java" afterPath="$PROJECT_DIR$/src/test/java/testScripts/HeaderTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/testScripts/HealthCoachingTest.java" afterPath="$PROJECT_DIR$/src/test/java/testScripts/HealthCoachingTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/testScripts/HomePageTest.java" afterPath="$PROJECT_DIR$/src/test/java/testScripts/HomePageTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/testScripts/InfoSessionTest.java" afterPath="$PROJECT_DIR$/src/test/java/testScripts/InfoSessionTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/testScripts/PageLeadTest.java" afterPath="$PROJECT_DIR$/src/test/java/testScripts/PageLeadTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/testScripts/SampleClassModuleTest.java" afterPath="$PROJECT_DIR$/src/test/java/testScripts/SampleClassModuleTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/testScripts/ThankYouPagesTest.java" afterPath="$PROJECT_DIR$/src/test/java/testScripts/ThankYouPagesTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test-output/Default suite/Default test.xml" afterPath="$PROJECT_DIR$/test-output/Default suite/Default test.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test-output/junitreports/TEST-testScripts.FooterSocialMediaTest.xml" afterPath="$PROJECT_DIR$/test-output/junitreports/TEST-testScripts.FooterSocialMediaTest.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test-output/junitreports/TEST-testScripts.HeaderTest.xml" afterPath="$PROJECT_DIR$/test-output/junitreports/TEST-testScripts.HeaderTest.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test-output/testng-results.xml" afterPath="$PROJECT_DIR$/test-output/testng-results.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/IntegrativeNutrition/Marketing/Pages/AboutUsPage.java" afterPath="$PROJECT_DIR$/src/main/java/com/IntegrativeNutrition/Marketing/Pages/AboutUsPage.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/IntegrativeNutrition/Marketing/Pages/Footer.java" afterPath="$PROJECT_DIR$/src/main/java/com/IntegrativeNutrition/Marketing/Pages/Footer.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/IntegrativeNutrition/Marketing/Pages/Screens.java" afterPath="$PROJECT_DIR$/src/main/java/com/IntegrativeNutrition/Marketing/Pages/Screens.java" />
     </list>
     <ignored path="Marketing.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -65,10 +30,12 @@
       <file leaf-file-name="Screens.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/IntegrativeNutrition/Marketing/Pages/Screens.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="21" column="25" selection-start-line="21" selection-start-column="25" selection-end-line="21" selection-end-column="25" />
+            <state relative-caret-position="660">
+              <caret line="44" column="28" selection-start-line="44" selection-start-column="28" selection-end-line="44" selection-end-column="28" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#709#984#0" expanded="true" />
+                <element signature="e#983#984#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -77,27 +44,27 @@
       <file leaf-file-name="Footer.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/IntegrativeNutrition/Marketing/Pages/Footer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-75">
-              <caret line="38" column="5" selection-start-line="38" selection-start-column="5" selection-end-line="38" selection-end-column="5" />
+            <state relative-caret-position="30">
+              <caret line="19" column="30" selection-start-line="19" selection-start-column="30" selection-end-line="19" selection-end-column="30" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#915#1190#0" expanded="true" />
-                <element signature="e#1189#1190#0" expanded="true" />
+                <element signature="e#610#611#0" expanded="true" />
+                <element signature="e#647#648#0" expanded="true" />
                 <element signature="method#assertCorrectURL#0;class#Footer#0" expanded="false" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AboutUsPage.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="AboutUsPage.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/IntegrativeNutrition/Marketing/Pages/AboutUsPage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="388">
-              <caret line="34" column="18" selection-start-line="34" selection-start-column="18" selection-end-line="34" selection-end-column="18" />
+            <state relative-caret-position="91">
+              <caret line="18" column="30" selection-start-line="18" selection-start-column="30" selection-end-line="18" selection-end-column="30" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#924#1199#0" expanded="true" />
-                <element signature="e#1198#1199#0" expanded="true" />
+                <element signature="e#619#620#0" expanded="true" />
+                <element signature="e#656#657#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -106,8 +73,8 @@
       <file leaf-file-name="Common.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/IntegrativeNutrition/Marketing/Global/Common.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+            <state relative-caret-position="255">
+              <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="method#captureScreenShot#0;class#Common#0" expanded="false" />
@@ -118,7 +85,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AboutUsTest.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="AboutUsTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/IntegrativeNutrition/Marketing/Tests/Web/AboutUsTest.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="270">
@@ -133,8 +100,8 @@
       <file leaf-file-name="FooterSocialMediaTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/IntegrativeNutrition/Marketing/Tests/Web/FooterSocialMediaTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="273">
-              <caret line="61" column="4" selection-start-line="61" selection-start-column="4" selection-end-line="61" selection-end-column="58" />
+            <state relative-caret-position="840">
+              <caret line="56" column="36" selection-start-line="56" selection-start-column="36" selection-end-line="56" selection-end-column="36" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -169,13 +136,13 @@
         <option value="$PROJECT_DIR$/src/test/java/com/IntegrativeNutrition/Marketing/Tests/Common/TestStarter.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/IntegrativeNutrition/Marketing/Web/FooterSocialMediaTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/IntegrativeNutrition/Marketing/Tests/Web/FooterSocialMediaTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/IntegrativeNutrition/Marketing/Pages/Screens.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/IntegrativeNutrition/Marketing/Global/SwipeableWebDriver.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/IntegrativeNutrition/Marketing/Global/Common.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/IntegrativeNutrition/Marketing/Global/TestEnvironment.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/IntegrativeNutrition/Marketing/Pages/AboutUsPage.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/IntegrativeNutrition/Marketing/Pages/Footer.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/IntegrativeNutrition/Marketing/Tests/Web/AboutUsTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/IntegrativeNutrition/Marketing/Pages/Footer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/IntegrativeNutrition/Marketing/Pages/Screens.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/IntegrativeNutrition/Marketing/Pages/AboutUsPage.java" />
       </list>
     </option>
   </component>
@@ -910,12 +877,12 @@
       <workItem from="1467217748084" duration="32000" />
       <workItem from="1467217820103" duration="1700000" />
       <workItem from="1467219843339" duration="823000" />
-      <workItem from="1467223978593" duration="9909000" />
+      <workItem from="1467223978593" duration="10512000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14911000" />
+    <option name="totallyTimeSpent" value="15514000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="873" extended-state="6" />
@@ -935,7 +902,7 @@
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3390558" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3290653" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3290653" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -1224,34 +1191,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/IntegrativeNutrition/Marketing/Pages/Screens.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" column="25" selection-start-line="21" selection-start-column="25" selection-end-line="21" selection-end-column="25" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/IntegrativeNutrition/Marketing/Global/SwipeableWebDriver.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
           <caret line="19" column="21" selection-start-line="19" selection-start-column="21" selection-end-line="19" selection-end-column="21" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/IntegrativeNutrition/Marketing/Global/Common.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#captureScreenShot#0;class#Common#0" expanded="false" />
-            <element signature="method#convertInputStreamToString#0;class#Common#0" expanded="false" />
-            <element signature="method#doesFileExist#0;class#Common#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1278,37 +1222,25 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/IntegrativeNutrition/Marketing/Pages/Footer.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/IntegrativeNutrition/Marketing/Global/Common.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-75">
-          <caret line="38" column="5" selection-start-line="38" selection-start-column="5" selection-end-line="38" selection-end-column="5" />
+        <state relative-caret-position="255">
+          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#915#1190#0" expanded="true" />
-            <element signature="e#1189#1190#0" expanded="true" />
-            <element signature="method#assertCorrectURL#0;class#Footer#0" expanded="false" />
+            <element signature="method#captureScreenShot#0;class#Common#0" expanded="false" />
+            <element signature="method#convertInputStreamToString#0;class#Common#0" expanded="false" />
+            <element signature="method#doesFileExist#0;class#Common#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/IntegrativeNutrition/Marketing/Tests/Web/FooterSocialMediaTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="273">
-          <caret line="61" column="4" selection-start-line="61" selection-start-column="4" selection-end-line="61" selection-end-column="58" />
+        <state relative-caret-position="840">
+          <caret line="56" column="36" selection-start-line="56" selection-start-column="36" selection-end-line="56" selection-end-column="36" />
           <folding>
             <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/IntegrativeNutrition/Marketing/Pages/AboutUsPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="388">
-          <caret line="34" column="18" selection-start-line="34" selection-start-column="18" selection-end-line="34" selection-end-column="18" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#924#1199#0" expanded="true" />
-            <element signature="e#1198#1199#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1319,6 +1251,43 @@
           <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/IntegrativeNutrition/Marketing/Pages/Screens.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="660">
+          <caret line="44" column="28" selection-start-line="44" selection-start-column="28" selection-end-line="44" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#709#984#0" expanded="true" />
+            <element signature="e#983#984#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/IntegrativeNutrition/Marketing/Pages/Footer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="19" column="30" selection-start-line="19" selection-start-column="30" selection-end-line="19" selection-end-column="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#610#611#0" expanded="true" />
+            <element signature="e#647#648#0" expanded="true" />
+            <element signature="method#assertCorrectURL#0;class#Footer#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/IntegrativeNutrition/Marketing/Pages/AboutUsPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="91">
+          <caret line="18" column="30" selection-start-line="18" selection-start-column="30" selection-end-line="18" selection-end-column="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#619#620#0" expanded="true" />
+            <element signature="e#656#657#0" expanded="true" />
           </folding>
         </state>
       </provider>
