@@ -105,7 +105,7 @@ public class Footer {
 
     //SnapChat - click on the icon method
     @FindBy(how = How.XPATH, using = "html/body/footer/div[1]/div/div[2]/div[3]/ul[3]/li[3]/a/span[1]/i")
-    public static WebElement snapchatIcon;
+    private static WebElement snapchatIcon;
 
     /************************************
      * PAGE TEST METHODS
