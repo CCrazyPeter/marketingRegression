@@ -33,7 +33,7 @@ public class TestEnvironment {
     }
 
     public static WebDriver StartEnvironment(String appPath, String browserName, String browserVersion,
-                                             String browserPlatform, String testURL) {
+                                             String browserPlatform, String testURL, String string, String string2) {
         try {
 
             DesiredCapabilities capabilities = new DesiredCapabilities();

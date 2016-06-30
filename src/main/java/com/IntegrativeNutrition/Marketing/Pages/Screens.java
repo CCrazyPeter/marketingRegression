@@ -129,4 +129,32 @@ public class Screens {
         return sampleClassModulePage;
     }
     
+    public static PaidLeadGen SampleNutritionClassPage() {
+        driver = TestEnvironment.get_Driver();
+        driver.get(Common.FRONTEND_URL + "/info-nutritioneducation");
+        waitForLoad(driver);
+        PaidLeadGen sampleNutritionClassPage = new PaidLeadGen(driver);
+        PageFactory.initElements(driver, sampleNutritionClassPage);
+        return sampleNutritionClassPage;
+    }
+    
+    public static PaidLeadGen SampleNutritionClassPage_r() {
+        driver = TestEnvironment.get_Driver();
+        driver.get(Common.FRONTEND_URL + "/info-nutritioneducation-r");
+        waitForLoad(driver);
+        PaidLeadGen sampleNutritionClassPage_r = new PaidLeadGen(driver);
+        PageFactory.initElements(driver, sampleNutritionClassPage_r);
+        return sampleNutritionClassPage_r;
+    }
+    
+    public static PaidLeadGen SampleNutritionClassPage_d() {
+        driver = TestEnvironment.get_Driver();
+        driver.get(Common.FRONTEND_URL + "/info-nutritioneducation-d");
+        waitForLoad(driver);
+        PaidLeadGen sampleNutritionClassPage_d = new PaidLeadGen(driver);
+        PageFactory.initElements(driver, sampleNutritionClassPage_d);
+        return sampleNutritionClassPage_d;
+    }
+
+
 }
