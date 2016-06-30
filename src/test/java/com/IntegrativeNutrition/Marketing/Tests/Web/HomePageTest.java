@@ -13,9 +13,8 @@ public class HomePageTest extends TestStarter {
     @Test (groups = {"web.critical", "web"}, priority = 1)
     public void assertBannerIsDisplayed ()  throws Exception {
         HomePage homePage = Screens.HomePage();
-    	homePage.verifyBannerIsDisplayed();
+    	Assert.assertTrue(homePage.verifyBannerIsDisplayed());
     }
-    
 
     //This test ensures the Sample Our Program button triggers a page scroll to the Sample Class form   
     @Test (groups = {"web.critical", "web"}, priority = 1)
@@ -30,7 +29,7 @@ public class HomePageTest extends TestStarter {
     public void videoPlay() throws Exception {
     	HomePage homePage = Screens.HomePage();
         homePage.clickWatchVideo();
-        homePage.verifyVideoPlayback();
+        Assert.assertTrue(homePage.verifyVideoPlayback());
         homePage.closeModal();
     }
 }

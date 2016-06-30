@@ -3,20 +3,15 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="com.IntegrativeNutrition.Marketing.Tests.Web.FooterSocialMediaTest">
+      <class name="com.IntegrativeNutrition.Marketing.Tests.Web.HomePageTest">
         <methods>
           <include name="TestSetup"/>
-          <include name="assertCorrectYouTubeLinkIcon"/>
-          <include name="assertCorrectInstagramLinkIcon"/>
+          <include name="assertBannerIsDisplayed"/>
+          <include name="assertSampleProgramButtonTriggersScroll"/>
           <include name="TestCleanUp"/>
-          <include name="assertCorrectTwitterLinkIcon"/>
-          <include name="assertCorrectAmazonLinkIcon"/>
-          <include name="assertCorrectFacebookLinkIcon"/>
-          <include name="assertCorrectLinkedInLinkIcon"/>
-          <include name="assertCorrectPinterestLinkIcon"/>
-          <include name="assertCorrectGooglePlusLinkIcon"/>
+          <include name="videoPlay"/>
         </methods>
-      </class> <!-- com.IntegrativeNutrition.Marketing.Tests.Web.FooterSocialMediaTest -->
+      </class> <!-- com.IntegrativeNutrition.Marketing.Tests.Web.HomePageTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

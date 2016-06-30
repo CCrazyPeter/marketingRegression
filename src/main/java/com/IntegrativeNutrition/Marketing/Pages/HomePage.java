@@ -77,27 +77,18 @@ public class HomePage {
         playButton.click();
     }
     
-    public void verifyBannerIsDisplayed (){
+    public boolean verifyBannerIsDisplayed (){
         boolean bannerAppear = HomePage.headerBanner.isDisplayed();
-        try {
-            Assert.assertTrue(bannerAppear);
-        } catch (Exception e) {
-            e.printStackTrace();
-        }
+        return bannerAppear;
     }
     
-    public void verifyVideoPlayback (){
+    public boolean verifyVideoPlayback (){
     	driver.manage().timeouts().implicitlyWait(115, TimeUnit.SECONDS);
         driver.switchTo().frame("media-youtube-e5ac7sou1s4");
         String videoElapsed = HomePage.videoElapsed.getText();
         boolean videoComplete = videoElapsed.contains("1:53");
-        try {
-            Assert.assertTrue(videoComplete);
-        } catch (Exception e) {
-            e.printStackTrace();
-        }	
+        return videoComplete;
     }
-    
     
     public boolean assertPageScrolledDown(){
     	JavascriptExecutor executor = (JavascriptExecutor) driver;
