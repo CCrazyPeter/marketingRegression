@@ -8,6 +8,7 @@ package com.IntegrativeNutrition.Marketing.Tests.Common;
  */
 
 import com.IntegrativeNutrition.Marketing.Global.*;
+import org.omg.PortableInterceptor.SYSTEM_EXCEPTION;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 
@@ -23,9 +24,8 @@ public abstract class TestStarter {
                 System.getProperty("browserName"),
                 System.getProperty("browserVersion"),
                 System.getProperty("browserPlatform"),
-                System.getProperty("appPackage"),
-                System.getProperty("appActivity"),
-                System.getProperty("testURL"));
+                System.getProperty("testURL"),
+                System.getProperty("testEnvironment"));
     }
 
     @AfterClass(alwaysRun = true)

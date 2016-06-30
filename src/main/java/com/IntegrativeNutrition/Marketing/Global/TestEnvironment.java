@@ -17,7 +17,6 @@ import org.openqa.selenium.remote.DesiredCapabilities;
 import org.openqa.selenium.chrome.ChromeDriver;
 
 import java.io.File;
-import java.net.URL;
 import java.util.concurrent.TimeUnit;
 
 public class TestEnvironment {
@@ -33,34 +32,34 @@ public class TestEnvironment {
     }
 
     public static WebDriver StartEnvironment(String appPath, String browserName, String browserVersion,
-                                             String browserPlatform, String testURL, String string, String string2) {
+                                             String browserPlatform, String testURL, String testEnvironment) {
         try {
 
             DesiredCapabilities capabilities = new DesiredCapabilities();
-            if (browserVersion != null && !browserVersion.isEmpty())
+            if (browserVersion != null && !(browserVersion.length() == 0))
                 capabilities.setCapability(CapabilityType.VERSION, browserVersion);
-            if (browserPlatform != null && !browserPlatform.isEmpty())
+            if (browserPlatform != null && !(browserPlatform.length() == 0))
                 capabilities.setCapability(CapabilityType.PLATFORM, browserPlatform);
-            if (appPath != null && !appPath.isEmpty())
+            if (appPath != null && !(appPath.length() == 0))
                 capabilities.setCapability("app", appPath);
 
-            if (browserName.toLowerCase().equals("chrome") && (testURL == null || testURL.isEmpty())) {
+            if (browserName.toLowerCase().equals("chrome") && (testURL == null || testURL.length() == 0)) {
                 initializeWebDriver("chromedriver");    //Only need to initialize webdriver for ie and chrome
                 capabilities.setCapability(CapabilityType.BROWSER_NAME, browserName);
                 _driver = new ChromeDriver(capabilities);
                 _driver.manage().timeouts().implicitlyWait(60, TimeUnit.SECONDS);
             }
-            else if (browserName.toLowerCase().equals("headless") && (testURL == null || testURL.isEmpty())) {
+            else if (browserName.toLowerCase().equals("headless") && (testURL == null || testURL.length() == 0)) {
                 capabilities.setCapability(CapabilityType.BROWSER_NAME, browserName);
                 _driver = new PhantomJSDriver(capabilities);
                 _driver.manage().timeouts().implicitlyWait(60, TimeUnit.SECONDS);
             }
-            else if (browserName.toLowerCase().equals("firefox") && (testURL == null || testURL.isEmpty())) {
+            else if (browserName.toLowerCase().equals("firefox") && (testURL == null || testURL.length() == 0)) {
                 capabilities.setCapability(CapabilityType.BROWSER_NAME, browserName);
                 _driver = new FirefoxDriver(capabilities);
                 _driver.manage().timeouts().implicitlyWait(60, TimeUnit.SECONDS);
             }
-            else if (browserName.toLowerCase().equals("ie") && (testURL == null || testURL.isEmpty())) {
+            else if (browserName.toLowerCase().equals("ie") && (testURL == null || testURL.length() == 0)) {
                 initializeWebDriver("IEDriverServer");    //Only need to initialize webdriver for ie and chrome
                 capabilities.setCapability(CapabilityType.BROWSER_NAME, browserName);
                 _driver = new InternetExplorerDriver(capabilities);
@@ -71,6 +70,14 @@ public class TestEnvironment {
                 initializeWebDriver("chromedriver");    //Only need to initialize webdriver for ie and chrome
                 _driver = new ChromeDriver();
                 _driver.manage().timeouts().implicitlyWait(60, TimeUnit.SECONDS);
+            }
+
+            //This must always be set by environment, otherwise tests will fail
+            if (!(testEnvironment.length() == 0)) {
+                Common.FRONTEND_URL = testEnvironment;
+            }
+            else {
+                Common.FRONTEND_URL = "http://iinsandbox.prod.acquia-sites.com";
             }
 
             return _driver;

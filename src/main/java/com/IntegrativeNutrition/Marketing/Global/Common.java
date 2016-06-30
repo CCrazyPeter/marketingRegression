@@ -17,7 +17,7 @@ import java.util.*;
  */
 public class Common {
 
-    public static final String FRONTEND_URL = "http://iinsandbox.prod.acquia-sites.com";
+    public static String FRONTEND_URL;
 
     public static void captureScreenShot(String screenShotName, String imageType, boolean includeDateTime){
         BufferedImage screenCapture;
