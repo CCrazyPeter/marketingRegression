@@ -47,5 +47,59 @@ public class Screens {
         PageFactory.initElements(driver, aboutUsPage);
         return aboutUsPage;
     }
+    
+    public static HomePage HomePage() {
+        driver = TestEnvironment.get_Driver();
+        driver.get(Common.FRONTEND_URL);
+        waitForLoad(driver);
+        HomePage homePage = new HomePage(driver);
+        PageFactory.initElements(driver, homePage);
+        return homePage;
+    }
+    
+    public static Header Header() {
+        driver = TestEnvironment.get_Driver();
+        driver.get(Common.FRONTEND_URL);
+        waitForLoad(driver);
+        Header header = new Header(driver);
+        PageFactory.initElements(driver, header);
+        return header;
+    }
+    
+    public static BlogElements BlogElements() {
+        driver = TestEnvironment.get_Driver();
+        driver.get(Common.FRONTEND_URL + "/blog");
+        waitForLoad(driver);
+        BlogElements blogElement = new BlogElements(driver);
+        PageFactory.initElements(driver, blogElement);
+        return blogElement;
+    }
+    
+    public static CurriculumPage CurriculumPage() {
+        driver = TestEnvironment.get_Driver();
+        driver.get(Common.FRONTEND_URL + "/curriculum");
+        waitForLoad(driver);
+        CurriculumPage curriculumPage = new CurriculumPage(driver);
+        PageFactory.initElements(driver, curriculumPage);
+        return curriculumPage;
+    }
 
+    public static ThankYouPages GuideThankYou() {
+        driver = TestEnvironment.get_Driver();
+        driver.get(Common.FRONTEND_URL + "/guide-thank-you");
+        waitForLoad(driver);
+        ThankYouPages guideThankYou = new ThankYouPages(driver);
+        PageFactory.initElements(driver, guideThankYou);
+        return guideThankYou;
+    }
+    
+    public static ThankYouPages ClassThankYou() {
+        driver = TestEnvironment.get_Driver();
+        driver.get(Common.FRONTEND_URL + "/class-thank-you");
+        waitForLoad(driver);
+        ThankYouPages classThankYou = new ThankYouPages(driver);
+        PageFactory.initElements(driver, classThankYou);
+        return classThankYou;
+    }
+    
 }

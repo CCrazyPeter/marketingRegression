@@ -1,57 +1,112 @@
-package Pages;
+package com.IntegrativeNutrition.Marketing.Pages;
+import java.util.concurrent.TimeUnit;
+
+import org.openqa.selenium.JavascriptExecutor;
+import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
-import setUpClasses.AbstractPage;
+import org.openqa.selenium.support.How;
+import org.testng.Assert;
 
-public class HomePage extends AbstractPage {
+public class HomePage {
+
+    /************************************
+     * CONSTRUCTORS
+     ***********************************/
+    public HomePage(WebDriver _driver){
+        this.driver = _driver;
+    }
+
+    /************************************
+     * INITIALIZE PAGE
+     ************************************/
+
+    WebDriver driver;
+
+    /************************************
+     * PAGE ELEMENTS SETUP
+     ***********************************/
 
     //Banner
-    @FindBy(xpath ="//header[@role='banner']")
-    public static WebElement headerBanner;
+    @FindBy(how = How.XPATH, using = "//header[@role='banner']")
+    private static WebElement headerBanner;
 
     //Watch Our Video Button
-    //@FindBy(xpath =".//*[@id='block-system-main']/div[1]/div/div/div/div[9]/div/div[1]")
-    @FindBy(xpath ="//div[9]/div/div")
-    //section[@id='block-system-main']/div/div/div/div/div[9]/div/div
+    @FindBy(how = How.XPATH, using = "//div[9]/div/div")
     private static WebElement watchVideoButton;
     
 
-    public static void clickWatchVideo (){
-        watchVideoButton.click();
-    }
-
     //Sample Our Program button
-    @FindBy (xpath =".//*[@id='block-system-main']/div[1]/div/div/div/div[9]/div/div[2]/a/span")
+    @FindBy(how = How.XPATH, using = ".//*[@id='block-system-main']/div[1]/div/div/div/div[9]/div/div[2]/a/span")
     private static WebElement sampleProgramButton;
 
-    public static void clickSampleProgram () {
-        sampleProgramButton.click();
-    }
-
-    /*******************************************************************************************
-     * Video modal
-     *******************************************************************************************/
+    
+    //---------------------------------Video modal-------------------------------------------
 
     //Modal Close button - closes all modals
     @FindBy(xpath = "//button[@data-dismiss='modal']")
-    public static WebElement modalCloseButton;
-    public static void closeModal(){modalCloseButton.click();}
+    private static WebElement modalCloseButton;
 
     //Play/Pause button
     @FindBy (xpath = "//button[@class='ytp-play-button ytp-button']")
     private static WebElement playButton;
-    public static void clickPlayPause(){
-        playButton.click();
-    }
+
 
     //Video Elapsed Field
     @FindBy (xpath = "//span[@class='ytp-time-current']")
-    public static WebElement videoElapsed;
+    private static WebElement videoElapsed;
 
 
+    /************************************
+     * PAGE TEST METHODS
+     ************************************/
 
-
-
-
-
+    public void clickWatchVideo (){
+        watchVideoButton.click();
+    }
+    
+    public void clickSampleProgram () {
+        sampleProgramButton.click();
+    }
+   
+    public void closeModal() {
+    	modalCloseButton.click();
+    }
+    
+    public void clickPlayPause(){
+        playButton.click();
+    }
+    
+    public void verifyBannerIsDisplayed (){
+        boolean bannerAppear = HomePage.headerBanner.isDisplayed();
+        try {
+            Assert.assertTrue(bannerAppear);
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+    }
+    
+    public void verifyVideoPlayback (){
+    	driver.manage().timeouts().implicitlyWait(115, TimeUnit.SECONDS);
+        driver.switchTo().frame("media-youtube-e5ac7sou1s4");
+        String videoElapsed = HomePage.videoElapsed.getText();
+        boolean videoComplete = videoElapsed.contains("1:53");
+        try {
+            Assert.assertTrue(videoComplete);
+        } catch (Exception e) {
+            e.printStackTrace();
+        }	
+    }
+    
+    
+    public boolean assertPageScrolledDown(){
+    	JavascriptExecutor executor = (JavascriptExecutor) driver;
+    	Long value = (Long) executor.executeScript("return window.scrollY;");
+    	if (value > 100){
+    		return true;
+    	}
+    	else
+    		return false;
+    }
+    
 }

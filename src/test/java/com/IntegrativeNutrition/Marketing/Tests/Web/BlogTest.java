@@ -1,52 +1,45 @@
-package testScripts;
+package com.IntegrativeNutrition.Marketing.Tests.Web;
 
 import org.testng.annotations.Test;
+import com.IntegrativeNutrition.Marketing.Pages.*;
+import com.IntegrativeNutrition.Marketing.Tests.Common.TestStarter;
 import org.testng.annotations.BeforeMethod;
+import org.testng.Assert;
 import org.testng.AssertJUnit;
-//import objectRepository.BlogElements;
-import Pages.Forms;
-import setUpClasses.DriverInitialization;
 
-public class BlogTest extends DriverInitialization {
 
-    @BeforeMethod
-	public void openBlogLanding() {
-        driver.get("www.integrativenutrition.com/blog");
+
+public class BlogTest extends TestStarter {
+
+	//This test ensures the banner is displayed
+    @Test (groups = {"web.critical", "web"}, priority = 1)
+    public void bannerDisplayed() throws Exception {
+        BlogElements blogElements = Screens.BlogElements();
+    	blogElements.verifyBannerIsDisplayed();
     }
-/*
-    @Test  //This test ensures the banner is displayed
-    public void bannerDisplayed() {
-        boolean bannerAppear = BlogElements.blogHeaderBanner.isDisplayed();
-        try {
-            Assert.assertTrue(bannerAppear);
-        } catch (Exception e) {
-            e.printStackTrace();
-        }
-    }
-*/
-    @Test //Submit Curriculum Guide form with no phone number
+    
+    //Submit Curriculum Guide form with no phone number
+    @Test (groups = {"web.critical", "web"}, priority = 1)
     public void submitFormNoPhone() {
-        Forms.inputName("blogTest");
-        Forms.inputEmail("blogNoPhone@qatest.edu");
+        BlogElements blogElements = Screens.BlogElements();
+        Forms.inputName("QATEST");
+        Forms.inputEmail("iinqatest@gmail.com");
         Forms.clickSubmitButton();
-        boolean expectedUrl= driver.getCurrentUrl().contains("http://www.integrativenutrition.com/guide-thank-you?sid=");
-        try {
-            AssertJUnit.assertTrue(expectedUrl);
-        } catch (Exception e) {
-            e.printStackTrace();
-        }
+        blogElements.assertCorrectURL("http://www.integrativenutrition.com/guide-thank-you?sid=");
     }
-/*
+
+    /* COMMENTED BECAUSE THERE SEEMS TO BE A PROBLEM IN THE BLOG PAGE AND THIS 
+     * BUTTON IS NOT SHOWING SO I HAVE NO WAY OF GETTING THE XPATH TO THIS ELEMENT
     @Test //Tests that the load more button is displayed at the bottom of the page
     public void loadMoreDisplayed() {
-        boolean loadMore = BlogLandingPage.seeMore.isDisplayed();
+        boolean loadMore = BlogElements.seeMore.isDisplayed();
         try {
             Assert.assertTrue(loadMore);
         } catch (Exception e) {
             e.printStackTrace();
         }
-    }
-*/
+    }*/
+
 }
 
 

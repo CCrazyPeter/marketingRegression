@@ -1,144 +1,87 @@
-package testScripts;
+package com.IntegrativeNutrition.Marketing.Tests.Web;
 
-import org.testng.annotations.Test;
-import org.testng.AssertJUnit;
-import Pages.Header;
-
-import setUpClasses.DriverInitialization;
-
+import com.IntegrativeNutrition.Marketing.Pages.Header;
+import com.IntegrativeNutrition.Marketing.Pages.HomePage;
+import com.IntegrativeNutrition.Marketing.Tests.Common.TestStarter;
+import com.IntegrativeNutrition.Marketing.Pages.Screens;
+import org.testng.annotations.*;
+import org.testng.Assert;
 import org.openqa.selenium.*;
 import org.openqa.selenium.interactions.Actions;
 
 
-public class HeaderTest extends DriverInitialization {
+public class HeaderTest extends TestStarter {
 
-    @Test  //Test if phone number is present in header
-    public void headerPhone () {
-        boolean present = Header.phoneNumber.isDisplayed();
-        try {
-            AssertJUnit.assertTrue(present);
-        } catch (Exception e) {
-            e.printStackTrace();
-        }
+	//Test if phone number is present in header
+    @Test  (groups = {"web.critical", "web"}, priority = 1)
+    public void assertHeaderPhoneisDisplayed () throws Exception  {
+        Header header = Screens.Header();
+        
+    	header.verifyPhoneNumberIsDisplayed();
     }
-
-    @Test //Search functionality - Search for "learning"
-    public void headerSearch(){
-        Header.conductSearch("learning");
-        String currentUrl = driver.getCurrentUrl();
-        try {
-            //Assert.assertEquals(currentUrl, "http://www.integrativenutrition.com/search/node/learning");
-        	AssertJUnit.assertEquals(currentUrl, "http://www.integrativenutrition.com/search/solr/learning");
-        } catch (Exception e) {
-            e.printStackTrace();
-        }
+    
+  //Search functionality - Search for "learning"
+    @Test (groups = {"web.critical", "web"}, priority = 1)
+    public void headerSearch() throws Exception {
+        Header header = Screens.Header();
+        
+        header.conductSearch("learning");
+    	header.assertCorrectURL("http://www.integrativenutrition.com/search/solr/learning");
     }
 
     //*** This section is to test that all header links go to their respective pages on click ************************
-
-    @Test //Home link
-    public void headerHomeIcon() {
-        Header.clickHomeIcon();
-        String currentUrl = driver.getCurrentUrl();
-        try {
-            AssertJUnit.assertEquals(currentUrl, "http://www.integrativenutrition.com/");
-        } catch (Exception e) {
-            e.printStackTrace();
-        }
+  
+    //Home link
+    @Test (groups = {"web.critical", "web"}, priority = 1)
+    public void headerHomeIcon() throws Exception {
+    	Header header = Screens.Header();
+    	
+        header.clickHomeIcon();
+        header.assertCorrectURL("http://www.integrativenutrition.com/");
     }
 
-    @Test //Contact Us link
-    public void headerContactUs() {
-        Header.clickContactUsIcon();
-        String currentUrl = driver.getCurrentUrl();
-        try {
-            AssertJUnit.assertEquals(currentUrl, "http://www.integrativenutrition.com/contact-us");
-        } catch (Exception e) {
-            e.printStackTrace();
-        }
+    //Contact Us link
+    @Test (groups = {"web.critical", "web"}, priority = 1)
+    public void headerContactUs() throws Exception {
+    	Header header = Screens.Header();
+    	
+        header.clickContactUsIcon();
+        header.assertCorrectURL("http://www.integrativenutrition.com/contact-us");
+    }
+    
+    //Curriculum Page
+    @Test (groups = {"web.critical", "web"}, priority = 1)
+    public void headerCurric() throws Exception {
+    	Header header = Screens.Header();
+    	
+    	header.clickCurriculumBasics();
+    	header.assertCorrectURL("http://www.integrativenutrition.com/curriculum");
     }
 
-    @Test //Curriculum Page
-    public void headerCurric() {
-
-    	Actions actions = new Actions(driver);
-    	WebElement menuHoverLink = driver.findElement(By.xpath("//a[contains(text(),'Our Curriculum')]"));
-    	actions.moveToElement(menuHoverLink);
-
-    	WebElement subLink = driver.findElement(By.xpath("//a[contains(text(),'Curriculum Basics')]"));
-    	actions.moveToElement(subLink);
-    	actions.click();
-    	actions.perform();
+	//Info Sessions Page
+    @Test (groups = {"web.critical", "web"}, priority = 1)
+    public void headerInfoSess() throws Exception {
+    	Header header = Screens.Header();
     	
-//        Header.clickCurriculumIcon();
-        String currentUrl = driver.getCurrentUrl();
-        try {
-            AssertJUnit.assertEquals(currentUrl, "http://www.integrativenutrition.com/curriculum");
-        } catch (Exception e) {
-            e.printStackTrace();
-        }
+        header.clickInfoSessionsSignUp();
+        header.assertCorrectURL("http://www.integrativenutrition.com/info-sessions");
     }
 
-    @Test //Info Sessions Page
-    public void headerInfoSess() {
-        //Header.clickInfoSessionsIcon();
-    	Actions actions = new Actions(driver);
-    	WebElement menuHoverLink = driver.findElement(By.xpath("//a[contains(text(),'Info Sessions')]"));
-    	actions.moveToElement(menuHoverLink);
-
-    	WebElement subLink = driver.findElement(By.xpath("//a[contains(text(),'Sign Up')]"));
-    	actions.moveToElement(subLink);
-    	actions.click();
-    	actions.perform();    	
+    //Health Coaching Page
+    @Test (groups = {"web.critical", "web"}, priority = 1)
+    public void headerHealthCoach() throws Exception {
+    	Header header = Screens.Header();
     	
-        String currentUrl = driver.getCurrentUrl();
-        try {
-            AssertJUnit.assertEquals(currentUrl, "http://www.integrativenutrition.com/info-sessions");
-        } catch (Exception e) {
-            e.printStackTrace();
-        }
+        header.clickHealthCoachWhatIs();
+        header.assertCorrectURL("http://www.integrativenutrition.com/health-coaching");
     }
 
-    @Test //Health Coaching Page
-    public void headerHealthCoach() {
+    //About Us Page
+    @Test  (groups = {"web.critical", "web"}, priority = 1)
+    public void headerAboutUs() throws Exception {
+    	Header header = Screens.Header();
     	
-    	Actions actions = new Actions(driver);
-    	WebElement menuHoverLink = driver.findElement(By.xpath("//a[contains(text(),'Health Coaching')]"));
-    	actions.moveToElement(menuHoverLink);
-
-    	WebElement subLink = driver.findElement(By.xpath("//a[contains(text(),'What is a Health Coach?')]"));
-    	actions.moveToElement(subLink);
-    	actions.click();
-    	actions.perform();
-
-        //Header.clickHealthCoachIcon();
-        String currentUrl = driver.getCurrentUrl();
-        try {
-            AssertJUnit.assertEquals(currentUrl, "http://www.integrativenutrition.com/health-coaching");
-        } catch (Exception e) {
-            e.printStackTrace();
-        }
-    }
-
-    @Test //About Us Page
-    public void headerAboutUs() {
-        //Header.clickAboutUsIcon();
-    	
-    	Actions actions = new Actions(driver);
-    	WebElement menuHoverLink = driver.findElement(By.xpath("//a[contains(text(),'About Us')]"));
-    	actions.moveToElement(menuHoverLink);
-
-    	WebElement subLink = driver.findElement(By.xpath("//a[contains(text(),'Who We Are')]"));
-    	actions.moveToElement(subLink);
-    	actions.click();
-    	actions.perform();
-    	
-    	
-        String currentUrl = driver.getCurrentUrl();
-        try {
-            AssertJUnit.assertEquals(currentUrl, "http://www.integrativenutrition.com/about-us");
-        } catch (Exception e) {
-            e.printStackTrace();
-        }
+        header.clickAboutUsWhoAreWe();
+    	header.assertCorrectURL("http://www.integrativenutrition.com/about-us");
     }
 }

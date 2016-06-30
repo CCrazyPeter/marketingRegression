@@ -28,11 +28,18 @@ public class AboutUsPage {
     /************************************
      * PAGE ELEMENTS SETUP
      ***********************************/
+    
+    @FindBy(how = How.XPATH, using = "//*[@id=\"loginForm\"]/div[1]/button")
+    private WebElement signInButton;
 
-
+    
     /************************************
      * PAGE TEST METHODS
      ************************************/
+
+    public void clickRegulatoryInfoLink() {
+    	signInButton.click();
+    }
 
 
 

@@ -1,84 +1,160 @@
-package Pages;
+package com.IntegrativeNutrition.Marketing.Pages;
 
+import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
+import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.FindBy;
+import org.openqa.selenium.support.How;
+import org.testng.Assert;
 
 
-import setUpClasses.AbstractPage;
 
+public class Header {
+	
+	
+    /************************************
+     * CONSTRUCTORS
+     ***********************************/
+    public Header(WebDriver _driver){
+        this.driver = _driver;
+    }
 
-public class Header extends AbstractPage {
+    /************************************
+     * INITIALIZE PAGE
+     ************************************/
 
+    WebDriver driver;
+
+    /************************************
+     * PAGE ELEMENTS SETUP
+     ***********************************/
+    
     //Home icon
+    @FindBy(how = How.XPATH, using = "//div[@id='sticky-header']/div/div/div/div/div[2]/a/span")
+    private WebElement home;
+   
+    //Our Curriculum
+    @FindBy(how = How.XPATH, using = "//a[contains(text(),'Our Curriculum')]")
+    private WebElement ourCurriculum;
     
-	//@FindBy(xpath = ".//*[@id='navbar']/div[2]/div/div[1]/a/span[1]")
-    //private static WebElement home;
-    //public static void clickHomeIcon(){home.click();}
+    //Curriculum Basics
+    @FindBy(how = How.XPATH, using = "//a[contains(text(),'Curriculum Basics')]")
+	private WebElement curriculumBasics;
+    
+    //Curriculum icon - Educational Partnerships
+    @FindBy(how = How.XPATH, using = "//a[contains(text(),'Educational Partnerships')]")
+	private WebElement EducationalPartnerships;
 
-    @FindBy(xpath = "//div[@id='sticky-header']/div/div/div/div/div[2]/a/span")
-    private static WebElement home;
-    public static void clickHomeIcon(){home.click();}
-    
-    //Curriculum icon
-    
-    //@FindBy (xpath = ".//*[@id='navbar']/div[2]/div/div[2]/nav/ul/li[1]/a")
-    //private static WebElement curriculum;
-    //public static void clickCurriculumIcon(){curriculum.click();}
+    //Info sessions
+    @FindBy(how = How.XPATH, using = "//a[contains(text(),'Info Sessions')]")
+    private WebElement infoSessions;
 
-    @FindBy (xpath = "//a[contains(text(),'Curriculum Basics')]")
-	private static WebElement curriculum;
-    public static void clickCurriculumIcon(){curriculum.click();}
+    //Info sessions - Sign Up
+    @FindBy(how = How.XPATH, using = "//a[contains(text(),'Sign Up')]")
+    private WebElement signUp;
     
-    
-    @FindBy (xpath = "//a[contains(text(),'Educational Partnerships')]")
-	private static WebElement EducationalPartnerships;
-    public static void clickEducationalPartnershipsIcon(){EducationalPartnerships.click();}
-
-    
-    
-
-    //Info sessions icon
-    
-    //@FindBy (xpath = ".//*[@id='navbar']/div[2]/div/div[2]/nav/ul/li[2]/a")
-    //private static WebElement info;
-    //public static void clickInfoSessionsIcon(){info.click();}
-
-    @FindBy (xpath = "//div[@id='mini-panel-mega_menu_info_sessions-1']/div/div/div/div/ul/li")
-    private static WebElement info;
-    public static void clickInfoSessionsIcon(){info.click();}
-    
-    //Health Coaching icon
-
-	//@FindBy (xpath = ".//*[@id='navbar']/div[2]/div/div[2]/nav/ul/li[3]/a")
-    //private static WebElement healthCoach;
-	//public static void clickHealthCoachIcon(){healthCoach.click();}
-
-	@FindBy (xpath = "//div[@id='mini-panel-mega_menu_health_coaching-1']/div/div/div")
-	private static WebElement healthCoach;
-	public static void clickHealthCoachIcon(){healthCoach.click();}
+    //Health Coaching
+    @FindBy(how = How.XPATH, using = "//a[contains(text(),'Health Coaching')]")
+	private WebElement healthCoach;
 	
-	
+    //Health Coaching
+    @FindBy(how = How.XPATH, using = "//a[contains(text(),'What is a Health Coach?')]")
+	private WebElement whatIsHealthCoach;
+    
     //About Us
-    @FindBy (xpath = ".//*[@id='navbar']/div[2]/div/div[2]/nav/ul/li[4]/a")
-    private static WebElement about;
-    public static void clickAboutUsIcon(){about.click();}
-
+    @FindBy(how = How.XPATH, using = "//a[contains(text(),'About Us')]")
+    private WebElement aboutUs;
+    
+    //About Us - Who Are we
+    @FindBy(how = How.XPATH, using = "//a[contains(text(),'Who We Are')]")
+    private WebElement whoAreWe;
+    
     //Phone Number
-    //@FindBy (xpath = "//p[@class='telephone-number']")
-    @FindBy (css="div.telephone-number")
+    @FindBy(how = How.CSS, using ="div.telephone-number")
     public static WebElement phoneNumber;
 
     //Contact Us
-    @FindBy (xpath = ".//*[@id='secondary-menu']/li/a")
-    private static WebElement contact;
-    public static void clickContactUsIcon(){contact.click();}
+    @FindBy(how = How.XPATH, using = ".//*[@id='secondary-menu']/li/a")
+    private WebElement contact;
 
     //Search
     @FindBy (id = "edit-search-block-form--2")
-    private static WebElement search;
-    public static void conductSearch(String term){
+    private WebElement search;
+    
+    /************************************
+     * PAGE TEST METHODS
+     ************************************/
+    
+    public void clickHomeIcon(){
+    	home.click();
+    }
+    
+    public void clickCurriculumBasics(){
+    	Actions actions = new Actions(driver);
+    	actions.moveToElement(ourCurriculum);
+    	actions.moveToElement(curriculumBasics);
+    	actions.click();
+    	actions.perform();
+    }
+	
+    public void clickEducationalPartnershipsIcon(){
+    	EducationalPartnerships.click();
+    }
+    
+    public void clickInfoSessionsSignUp(){
+    	Actions actions = new Actions(driver);
+    	actions.moveToElement(infoSessions);
+    	actions.moveToElement(signUp);
+    	actions.click();
+    	actions.perform();
+    }
+    
+	public void clickHealthCoachWhatIs(){
+	   	Actions actions = new Actions(driver);
+    	actions.moveToElement(healthCoach);
+    	actions.moveToElement(whatIsHealthCoach);
+    	actions.click();
+    	actions.perform();
+	}
+
+    public void clickAboutUsWhoAreWe(){
+	   	Actions actions = new Actions(driver);
+    	actions.moveToElement(aboutUs);
+    	actions.moveToElement(whoAreWe);
+    	actions.click();
+    	actions.perform();
+    	
+    }
+    
+    public void clickContactUsIcon(){
+    	contact.click();
+    }
+    
+    public void conductSearch(String term){
         search.sendKeys(term);
-        search.sendKeys(Keys.RETURN);}
-        
+        search.sendKeys(Keys.RETURN);
+    }
+    
+    
+    public void verifyPhoneNumberIsDisplayed() {
+	    boolean present = Header.phoneNumber.isDisplayed();
+	    try {
+	        Assert.assertTrue(present);
+	    } catch (Exception e) {
+	        e.printStackTrace();
+	    }
+    }
+    
+    public boolean assertCorrectURL(String url){
+        if (url == driver.getCurrentUrl()){
+            return true;
+        }
+        else {
+            return false;
+        }
+    }
+
+    
 }

@@ -1,16 +1,11 @@
-package testScripts;
+package com.IntegrativeNutrition.Marketing.Tests.Web;
 
 import org.testng.annotations.Test;
-import org.testng.annotations.BeforeMethod;
-import Pages.Forms;
-import setUpClasses.DriverInitialization;
+import com.IntegrativeNutrition.Marketing.Tests.Common.TestStarter;
+import com.IntegrativeNutrition.Marketing.Pages.*;
 
-public class CurriculumPageTest extends DriverInitialization {
+public class CurriculumPageTest extends TestStarter {
 
-    @BeforeMethod
-	public void openHomepage() {
-        driver.get("http://www.integrativenutrition.com/curriculum");
-    }
 /*
     @Test //This test is to ensure video plays until the end
     public void videoPlay() {
@@ -26,31 +21,21 @@ public class CurriculumPageTest extends DriverInitialization {
         }
     }
 */
-    @Test //Submit Curriculum Guide form with no phone number
-    public void submitFormNoPhone() {
-        Forms.inputName("curriculumTest");
-        Forms.inputEmail("curriculumNoPhone@qatest.edu");
+	//Submit Curriculum Guide form with no phone number
+    @Test (groups = {"web.critical", "web"}, priority = 1)
+    public void submitFormNoPhone() throws Exception{
+        Forms.inputName("QATEST");
+        Forms.inputEmail("iinqatest@gmail.com");
         Forms.clickSubmitButton();
     }
 
-    @Test //Submit Curriculum Guide form with phone number
+    //Submit Curriculum Guide form with phone number
+    @Test (groups = {"web.critical", "web"}, priority = 1)
     public void submitFormWithPhone() {
-        Forms.inputName("curriculumTest");
-        Forms.inputEmail("curriculumWithPhone@qatest.edu");
+        Forms.inputName("QATEST");
+        Forms.inputEmail("iinqatest@gmail.com");
         Forms.clickPhoneBox();
         Forms.enterPhoneNumber("2127305433");
         Forms.clickSubmitButton();
     }
-/*
-    @Test //Test Privacy Link goes to correct url
-    public void testPrivacyPolicy() {
-        CurriculumPage.clickPrivacyLink();
-        String currentUrl = driver.getCurrentUrl();
-        try {
-            Assert.assertEquals(currentUrl, "http://www.integrativenutrition.com/lp/privacypolicy");
-        } catch (Exception e) {
-            e.printStackTrace();
-        }
-    }
-*/
 }

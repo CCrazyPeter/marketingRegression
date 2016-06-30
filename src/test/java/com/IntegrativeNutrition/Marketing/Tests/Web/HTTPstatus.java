@@ -1,13 +1,12 @@
-package testScripts;
+package com.IntegrativeNutrition.Marketing.Tests.Web;
 
 import org.testng.annotations.Test;
-
-//import junit.framework.Assert;
+import com.IntegrativeNutrition.Marketing.Tests.Common.TestStarter;
 import org.junit.Assert;
 import org.openqa.selenium.remote.http.HttpResponse;
-import setUpClasses.DriverInitialization;
 
-public class HTTPstatus extends DriverInitialization {
+
+public class HTTPstatus extends TestStarter {
 
     //Test that site is not down
     @Test

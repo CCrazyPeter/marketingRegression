@@ -1,39 +1,36 @@
-package testScripts;
+package com.IntegrativeNutrition.Marketing.Tests.Web;
 
-import org.testng.annotations.Test;
-import org.testng.AssertJUnit;
-import Pages.PaidLeadGen;
-import setUpClasses.DriverInitialization;
 
-public class HomePageTest extends DriverInitialization {
+import com.IntegrativeNutrition.Marketing.Tests.Common.TestStarter;
+import com.IntegrativeNutrition.Marketing.Pages.HomePage;
+import com.IntegrativeNutrition.Marketing.Pages.Screens;
+import org.testng.annotations.*;
+import org.testng.Assert;
 
-    @Test  //This test ensures the banner is displayed
-    public void bannerDisplayed (){
-        //driver.get("http://www.integrativenutrition.com");
-        boolean bannerAppear = PaidLeadGen.headerBanner.isDisplayed();
-        try {
-            AssertJUnit.assertTrue(bannerAppear);
-        } catch (Exception e) {
-            e.printStackTrace();
-        }
+public class HomePageTest extends TestStarter {
+
+	//This test ensures the banner is displayed  
+    @Test (groups = {"web.critical", "web"}, priority = 1)
+    public void assertBannerIsDisplayed ()  throws Exception {
+        HomePage homePage = Screens.HomePage();
+    	homePage.verifyBannerIsDisplayed();
     }
-/*
-    @Test //This test is to ensure video plays until the end
-    public void videoPlay () {
-        driver.get("www.integrativenutrition.com");
-        HomePage.clickWatchVideo();
-        driver.manage().timeouts().implicitlyWait(115, TimeUnit.SECONDS);
-        driver.switchTo().frame("media-youtube-e5ac7sou1s4");
-        String videoElapsed = HomePage.videoElapsed.getText();
-        boolean videoComplete = videoElapsed.contains("1:53");
-        try {
-            Assert.assertTrue(videoComplete);
-        } catch (Exception e) {
-            e.printStackTrace();
-        }
+    
 
-
-
+    //This test ensures the Sample Our Program button triggers a page scroll to the Sample Class form   
+    @Test (groups = {"web.critical", "web"}, priority = 1)
+    public void assertSampleProgramButtonTriggersScroll () throws Exception {
+        HomePage homePage = Screens.HomePage();
+    	homePage.clickSampleProgram();
+    	Assert.assertTrue(homePage.assertPageScrolledDown());
     }
-*/
+    
+    //This test is to ensure video plays until the end
+    @Test (groups = {"web.critical", "web"}, priority = 1)
+    public void videoPlay() throws Exception {
+    	HomePage homePage = Screens.HomePage();
+        homePage.clickWatchVideo();
+        homePage.verifyVideoPlayback();
+        homePage.closeModal();
+    }
 }
