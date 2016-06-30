@@ -130,6 +130,11 @@ public class Forms {
     public static void clickPrivacyLink() {
         formprivacy.click();
     }
+    
+    public static String getPhoneValue(){
+    	String phoneValue = Forms.formPhone.getAttribute("value");
+    	return phoneValue;
+    }
 
     
     /*

@@ -1,47 +1,29 @@
-package testScripts;
+package com.IntegrativeNutrition.Marketing.Tests.Web;
 
 import org.testng.annotations.Test;
-import org.testng.annotations.BeforeMethod;
-import org.testng.AssertJUnit;
-import Pages.SampleClassModulePage;
-import setUpClasses.DriverInitialization;
+import com.IntegrativeNutrition.Marketing.Pages.*;
+import com.IntegrativeNutrition.Marketing.Tests.Common.TestStarter;
 
-import java.util.concurrent.TimeUnit;
+public class SampleClassModuleTest extends TestStarter {
 
-public class SampleClassModuleTest extends DriverInitialization {
-
-    @BeforeMethod
-	public void openSCMpage() {
-        driver.manage().deleteAllCookies();
-        driver.get("http://www.integrativenutrition.com/sample-class-module");
+	 //This tests the banner being displayed
+    @Test (groups = {"web.critical", "web"}, priority = 1)
+    public void bannerDisplayed() throws Exception{
+    	SampleClassModulePage sampleClassModulePage = Screens.SampleClassModulePage();
+    	
+    	sampleClassModulePage.verifyBannerIsDisplayed();
     }
-
-    @Test //This tests the banner being displayed
-    public void bannerDisplayed() {
-        boolean bannerAppear = SampleClassModulePage.SCMHeaderBanner.isDisplayed();
-        try {
-            AssertJUnit.assertTrue(bannerAppear);
-        } catch (Exception e) {
-            e.printStackTrace();
-        }
+    
+  //This test tests the first video module
+    @Test (groups = {"web.critical", "web"}, priority = 1)
+    public void videoPlay() throws Exception {
+    	SampleClassModulePage sampleClassModulePage = Screens.SampleClassModulePage();
+    	
+    	sampleClassModulePage.clickWelcomeVideo();
+    	sampleClassModulePage.verifyVideoPlayback();
+    	sampleClassModulePage.closeModal();
     }
-
-    @Test //This test tests the first video module
-    public void videoPlay() {
-        SampleClassModulePage.clickWelcomeVideo();
-        driver.manage().timeouts().implicitlyWait(110, TimeUnit.SECONDS);
-        //driver.switchTo().frame("media-youtube-e5ac7sou1s4");
-        /*
-        String videoElapsed = SampleClassModulePage.videoElapsed.getText();
-        boolean videoComplete = videoElapsed.contains("1:48");
-        try {
-            Assert.assertTrue(videoComplete);
-        } catch (Exception e) {
-            e.printStackTrace();
-        }
-    }
-    */
-    }
-    }
+    
+}
 
 

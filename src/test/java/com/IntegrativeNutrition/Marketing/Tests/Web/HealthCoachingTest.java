@@ -1,104 +1,84 @@
-package testScripts;
+package com.IntegrativeNutrition.Marketing.Tests.Web;
 
 import org.testng.annotations.Test;
-import org.testng.annotations.BeforeMethod;
-import org.testng.AssertJUnit;
-import Pages.Forms;
-import org.openqa.selenium.By;
-import org.openqa.selenium.WebElement;
-import setUpClasses.DriverInitialization;
+import com.IntegrativeNutrition.Marketing.Tests.Common.TestStarter;
+import com.IntegrativeNutrition.Marketing.Pages.*;
+import org.testng.Assert;
 
-public class HealthCoachingTest extends DriverInitialization {
 
-    @BeforeMethod
-	public void openInfoSess() {
-        driver.get("http://www.integrativenutrition.com/health-coaching");
-        driver.manage().deleteAllCookies();
-    }
 
-    @Test //Tests form won't submit if name field is blank
-    public void nameValidation() {
-        Forms.inputEmail("hCoachTest@qatest.edu");
+public class HealthCoachingTest extends TestStarter {
+
+
+	//Tests form won't submit if name field is blank
+	@Test (groups = {"web.critical", "web"}, priority = 1)
+    public void nameValidation() throws Exception {
+    	HealthCoachingPage healthCoachingPage = Screens.HealthCoachingPage();
+    	
+        Forms.inputEmail("iinqatest@gmail.com");
         Forms.clickSubmitButton();
-        String currentUrl = driver.getCurrentUrl();
-        try {
-            AssertJUnit.assertEquals(currentUrl, "http://www.integrativenutrition.com/health-coaching");
-        } catch (Exception e) {
-            e.printStackTrace();
-        }
+        healthCoachingPage.assertCorrectURL("http://www.integrativenutrition.com/health-coaching");
+
     }
 
-    @Test //Tests that form won't submit if email field is blank
-    public void emailValidation() {
+	//Tests that form won't submit if email field is blank
+	@Test (groups = {"web.critical", "web"}, priority = 1) 
+    public void emailValidation() throws Exception {
+    	HealthCoachingPage healthCoachingPage = Screens.HealthCoachingPage();
+    	
         Forms.inputName("qaTest");
         Forms.clickSubmitButton();
-        String currentUrl = driver.getCurrentUrl();
-        try {
-            AssertJUnit.assertEquals(currentUrl, "http://www.integrativenutrition.com/health-coaching");
-        } catch (Exception e) {
-            e.printStackTrace();
-        }
+        healthCoachingPage.assertCorrectURL("http://www.integrativenutrition.com/health-coaching");
+
     }
 
-    @Test //Tests that flags match country code using United Kingdom
-    public void countryFlagMatch() {
+	//Tests that flags match country code using United Kingdom
+	@Test (groups = {"web.critical", "web"}, priority = 1) 
+    public void countryFlagMatch() throws Exception {
+    	HealthCoachingPage healthCoachingPage = Screens.HealthCoachingPage();
+    	
         Forms.inputName("qaTest");
         Forms.inputEmail("hcoachTest@qatest.edu");
         Forms.clickPhoneBox();
         Forms.selectFlag();
-        WebElement unitedKingdom = driver.findElement(By.xpath(".//*[@id='webform-component-Home-Phone--c']/div[1]/div/ul/li[5]/span[1]"));
-        unitedKingdom.click();
+        healthCoachingPage.clickUnitedKingdomFlag();
         Forms.enterPhoneNumber("1111111111");
         Forms.clickSubmitButton();
-        String phoneValue = Forms.formPhone.getAttribute("value");
+        String phoneValue = Forms.getPhoneValue();
         boolean ukFlag = phoneValue.contains("44");
         try {
-            AssertJUnit.assertTrue(ukFlag);
+            Assert.assertTrue(ukFlag);
         } catch (Exception e) {
             e.printStackTrace();
         }
     }
-/*
-    @Test //This test is to ensure video plays until the end
-    public void videoPlay() {
-        HealthCoachingPage.watchVideo();
-        driver.manage().timeouts().implicitlyWait(118, TimeUnit.SECONDS);
-        driver.switchTo().frame("media-youtube-aivruz1uyqe");
-        String videoElapsed = HealthCoachingPage.videoElapsed.getText();
-        boolean videoComplete = videoElapsed.contains("1:56");
-        try {
-            Assert.assertTrue(videoComplete);
-        } catch (Exception e) {
-            e.printStackTrace();
-        }
+
+    //This test is to ensure video plays until the end
+    @Test (groups = {"web.critical", "web"}, priority = 1)
+    public void videoPlay() throws Exception {
+    	HealthCoachingPage healthCoachingPage = Screens.HealthCoachingPage();
+    	healthCoachingPage.clickWatchVideo();
+    	healthCoachingPage.verifyVideoPlayback();
+    	healthCoachingPage.closeModal();
     }
-*/
-    @Test //Submit Curriculum Guide form with no phone number
+	
+	//Submit Curriculum Guide form with no phone number
+	@Test (groups = {"web.critical", "web"}, priority = 1) 
     public void submitFormNoPhone() {
-        Forms.inputName("hCoachTest");
-        Forms.inputEmail("hCoach@qatest.edu");
+        Forms.inputName("QATEST");
+        Forms.inputEmail("iinqatest@gmail.com");
         Forms.clickSubmitButton();
     }
 
-    @Test //Submit Curriculum Guide form with phone number
+	//Submit Curriculum Guide form with phone number
+	@Test (groups = {"web.critical", "web"}, priority = 1)
     public void submitFormWithPhone() {
-        Forms.inputName("hCoachTest");
-        Forms.inputEmail("hCoach@qatest.edu");
+        Forms.inputName("QATEST");
+        Forms.inputEmail("iinqatest@gmail.com");
         Forms.clickPhoneBox();
         Forms.enterPhoneNumber("2127305433");
         Forms.clickSubmitButton();
     }
-/*
-    @Test //Test Privacy Link goes to correct url
-    public void testPrivacyPolicy() {
-        HealthCoachingPage.clickPrivacyLink();
-        String currentUrl = driver.getCurrentUrl();
-        try {
-            Assert.assertEquals(currentUrl, "http://www.integrativenutrition.com/lp/privacypolicy");
-        } catch (Exception e) {
-            e.printStackTrace();
-        }
-    }
-*/
+
 }
 

@@ -1,78 +1,52 @@
-package testScripts;
+package com.IntegrativeNutrition.Marketing.Tests.Web;
 
+import org.testng.Assert;
 import org.testng.annotations.Test;
-import org.testng.annotations.BeforeMethod;
-import org.testng.AssertJUnit;
-import Pages.Forms;
-import org.openqa.selenium.By;
-import org.openqa.selenium.Keys;
-import org.openqa.selenium.WebElement;
-import org.openqa.selenium.support.ui.Select;
-import setUpClasses.DriverInitialization;
+import com.IntegrativeNutrition.Marketing.Pages.*;
+import com.IntegrativeNutrition.Marketing.Tests.Common.TestStarter;
 
-public class InfoSessionTest extends DriverInitialization {
 
-    @BeforeMethod
-	public void openInfoSess() {
-        driver.get("http://www.integrativenutrition.com/info-sessions");
-        Forms.clickDateTime();
-        Select webinar = new Select(Forms.dateTime);
-        webinar.selectByIndex(1);
-        Forms.dateTime.sendKeys(Keys.ENTER);
-        }
+public class InfoSessionTest extends TestStarter {
 
-    @Test //Tests form won't submit if name field is blank
-    public void nameValidation() {
-        Forms.inputEmail("infoSessTest@qatest.edu");
+	//Tests form won't submit if name field is blank
+    @Test (groups = {"web.critical", "web"}, priority = 1)
+    public void nameValidation() throws Exception{
+        InfoSessionsPage infoSessionsPage = Screens.InfoSessionsPage();
+        
+        Forms.inputEmail("iinqatest@gmail.com");
         Forms.clickSubmitButton();
-        String currentUrl = driver.getCurrentUrl();
-        try {
-            AssertJUnit.assertEquals(currentUrl, "http://www.integrativenutrition.com/info-sessions");
-        } catch (Exception e) {
-            e.printStackTrace();
-        }
+        infoSessionsPage.assertCorrectURL("http://www.integrativenutrition.com/info-sessions");
     }
 
-    @Test //Tests that form won't submit if email field is blank
-    public void emailValidation() {
+  //Tests that form won't submit if email field is blank
+    @Test (groups = {"web.critical", "web"}, priority = 1)
+    public void emailValidation() throws Exception{
+        InfoSessionsPage infoSessionsPage = Screens.InfoSessionsPage();
+        
         Forms.inputName("qaTest");
         Forms.clickSubmitButton();
-        String currentUrl = driver.getCurrentUrl();
-        try {
-            AssertJUnit.assertEquals(currentUrl, "http://www.integrativenutrition.com/info-sessions");
-        } catch (Exception e) {
-            e.printStackTrace();
-        }
+        infoSessionsPage.assertCorrectURL("http://www.integrativenutrition.com/info-sessions");
+ 
     }
 
-    @Test //Tests that flags match country code using Cyprus
-    public void countryFlagMatch() {
+  //Tests that flags match country code using Cyprus
+    @Test (groups = {"web.critical", "web"}, priority = 1)
+    public void countryFlagMatch() throws Exception {
+        InfoSessionsPage infoSessionsPage = Screens.InfoSessionsPage();
+        
         Forms.inputName("qaTest");
-        Forms.inputEmail("infoSessTest@qatest.edu");
+        Forms.inputEmail("iinqatest@gmail.com");
         Forms.selectFlag();
-        WebElement cyprus = driver.findElement(By.xpath(".//*[@id='webform-component-Home-Phone--c']/div[1]/div/ul/li[61]/span[1]"));
-        cyprus.click();
+        infoSessionsPage.clickCyprusFlag();
         Forms.enterPhoneNumber("1111111111");
         Forms.clickSubmitButton();
-        String phoneValue = Forms.formPhone.getAttribute("value");
+        String phoneValue = Forms.getPhoneValue();
         boolean cyprusFlag = phoneValue.contains("357");
         try {
-            AssertJUnit.assertTrue(cyprusFlag);
+            Assert.assertTrue(cyprusFlag);
         } catch (Exception e) {
             e.printStackTrace();
         }
-    }
-/*
-        @Test //Test Privacy Link goes to correct url
-        public void testPrivacyPolicy() {
-            InfoSessionsPage.clickPrivacyLink();
-            String currentUrl = driver.getCurrentUrl();
-            try {
-                Assert.assertEquals(currentUrl, "http://www.integrativenutrition.com/lp/privacypolicy");
-            } catch (Exception e) {
-                e.printStackTrace();
-            }
-        }
-*/
-    }
+    }    
+}
 

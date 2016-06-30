@@ -102,4 +102,31 @@ public class Screens {
         return classThankYou;
     }
     
+    public static HealthCoachingPage HealthCoachingPage() {
+        driver = TestEnvironment.get_Driver();
+        driver.get(Common.FRONTEND_URL + "/health-coaching");
+        waitForLoad(driver);
+        HealthCoachingPage healthCoachingPage = new HealthCoachingPage(driver);
+        PageFactory.initElements(driver, healthCoachingPage);
+        return healthCoachingPage;
+    }
+    
+    public static InfoSessionsPage InfoSessionsPage() {
+        driver = TestEnvironment.get_Driver();
+        driver.get(Common.FRONTEND_URL + "/info-sessions");
+        waitForLoad(driver);
+        InfoSessionsPage infoSessionsPage = new InfoSessionsPage(driver);
+        PageFactory.initElements(driver, infoSessionsPage);
+        return infoSessionsPage;
+    }
+    
+    public static SampleClassModulePage SampleClassModulePage() {
+        driver = TestEnvironment.get_Driver();
+        driver.get(Common.FRONTEND_URL + "/sample-class-module?sid=6041241");
+        waitForLoad(driver);
+        SampleClassModulePage sampleClassModulePage = new SampleClassModulePage(driver);
+        PageFactory.initElements(driver, sampleClassModulePage);
+        return sampleClassModulePage;
+    }
+    
 }
