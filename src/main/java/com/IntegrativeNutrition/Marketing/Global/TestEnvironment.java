@@ -7,6 +7,7 @@ package com.IntegrativeNutrition.Marketing.Global;
  * Contains test environment methods. This class is used when setting up a test.
  */
 
+import org.openqa.selenium.Dimension;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.ie.InternetExplorerDriver;
@@ -31,17 +32,18 @@ public class TestEnvironment {
         return _waitForElement;
     }
 
-    public static WebDriver StartEnvironment(String appPath, String browserName, String browserVersion,
-                                             String browserPlatform, String testURL, String testEnvironment) {
+    public static WebDriver StartEnvironment(String browserName, String browserVersion,
+                                             String browserPlatform, String testURL, String testEnvironment,
+                                             String browserType) {
         try {
 
             DesiredCapabilities capabilities = new DesiredCapabilities();
+
             if (browserVersion != null && !(browserVersion.length() == 0))
                 capabilities.setCapability(CapabilityType.VERSION, browserVersion);
+
             if (browserPlatform != null && !(browserPlatform.length() == 0))
                 capabilities.setCapability(CapabilityType.PLATFORM, browserPlatform);
-            if (appPath != null && !(appPath.length() == 0))
-                capabilities.setCapability("app", appPath);
 
             if (browserName.toLowerCase().equals("chrome") && (testURL == null || testURL.length() == 0)) {
                 initializeWebDriver("chromedriver");    //Only need to initialize webdriver for ie and chrome
@@ -73,11 +75,27 @@ public class TestEnvironment {
             }
 
             //This must always be set by environment, otherwise tests will fail
-            if (!(testEnvironment.length() == 0)) {
-                Common.FRONTEND_URL = testEnvironment;
-            }
-            else {
+            testEnvironment = testEnvironment.toLowerCase();
+            if (testEnvironment.equals("test")) {
                 Common.FRONTEND_URL = "http://iinsandbox.prod.acquia-sites.com";
+            }else if (testEnvironment.equals("stage")) {
+                Common.FRONTEND_URL = "http://iinstg.prod.acquia-sites.com";
+            }else if (testEnvironment.equals("live")) {
+                Common.FRONTEND_URL = "http://iinsandbox.prod.acquia-sites.com";
+            } else {
+                Common.FRONTEND_URL = "http://www.integrativenutrition.com";
+            }
+
+            browserType = browserType.toLowerCase();
+
+            if (browserType.equals("desktop")) {
+                _driver.manage().window().maximize();
+            } else if (browserType.equals("tablet")) {
+                _driver.manage().window().setSize(new Dimension(1199,500));
+            } else if (browserType.equals("mobile")) {
+                _driver.manage().window().setSize(new Dimension(767,900));
+            } else {
+                _driver.manage().window().maximize();
             }
 
             return _driver;
@@ -104,7 +122,7 @@ public class TestEnvironment {
         String Operation_System = System.getProperty("os.name").toLowerCase();
         String OS_Arch = System.getProperty("os.arch").toLowerCase();
         String OS_Simple_Name = null;
-        String OS_Simple_Arch;
+        String OS_Simple_Arch = null;
         String fileExtension = "";
         String webDriverPropertyName = null;
 
@@ -116,20 +134,21 @@ public class TestEnvironment {
 
         if (Operation_System.contains("mac")) {
             OS_Simple_Name = "Mac";
+            OS_Simple_Arch = "32bit";
         } else if (Operation_System.contains("win")) {
             OS_Simple_Name = "Windows";
             fileExtension = ".exe";
         } else if (Operation_System.contains("nix")) {
             OS_Simple_Name = "Linux";
         }
-
-        if (OS_Arch.equals("64")) {
+        
+        if (OS_Arch.contains("64") && OS_Simple_Arch.length()==0) {
             OS_Simple_Arch = "64bit";
         } else {
             OS_Simple_Arch = "32bit";
         }
 
-        String driveFilePath = System.getProperty("user.dir") + "/classes/SeleniumWebDrivers/"
+        String driveFilePath = System.getProperty("user.dir") + "/target/classes/SeleniumWebDrivers/"
                 + OS_Simple_Name + "/"
                 + OS_Simple_Arch + "/"
                 + WebDriverName
