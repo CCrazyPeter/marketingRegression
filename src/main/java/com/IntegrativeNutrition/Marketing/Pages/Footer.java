@@ -1,14 +1,9 @@
 package com.IntegrativeNutrition.Marketing.Pages;
 
-import com.IntegrativeNutrition.Marketing.Global.Common;
-import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.support.How;
-import org.openqa.selenium.support.ui.ExpectedCondition;
-import org.openqa.selenium.support.ui.WebDriverWait;
-
 import java.util.*;
 
 public class Footer {
@@ -106,6 +101,8 @@ public class Footer {
     //SnapChat - click on the icon method
     @FindBy(how = How.XPATH, using = "html/body/footer/div[1]/div/div[2]/div[3]/ul[3]/li[3]/a/span[1]/i")
     private static WebElement snapchatIcon;
+    
+    
 
     /************************************
      * PAGE TEST METHODS

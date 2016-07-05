@@ -48,6 +48,15 @@ public class Screens {
         return aboutUsPage;
     }
     
+    public static ContactUsPage ContactUsPage() {
+        driver = TestEnvironment.get_Driver();
+        driver.get(Common.FRONTEND_URL + "/contact-us");
+        waitForLoad(driver);
+        ContactUsPage contactUsPage = new ContactUsPage(driver);
+        PageFactory.initElements(driver, contactUsPage);
+        return contactUsPage;
+    }
+    
     public static HomePage HomePage() {
         driver = TestEnvironment.get_Driver();
         driver.get(Common.FRONTEND_URL);

@@ -2,9 +2,8 @@ package com.IntegrativeNutrition.Marketing.Tests.Web;
 
 import org.testng.annotations.Test;
 import com.IntegrativeNutrition.Marketing.Tests.Common.TestStarter;
-import org.testng.AssertJUnit;
+import org.testng.Assert;
 import com.IntegrativeNutrition.Marketing.Pages.*;
-import java.util.concurrent.TimeUnit;
 
 public class ThankYouPagesTest extends TestStarter {
 
@@ -26,7 +25,7 @@ public class ThankYouPagesTest extends TestStarter {
     	ThankYouPages classThankYou = Screens.ClassThankYou();
     	
     	classThankYou.watchVideo();
-    	classThankYou.verifyClassVideoPlayback();
+    	Assert.assertTrue(classThankYou.verifyClassVideoPlayback());
     	classThankYou.closeModal();
     }
     
@@ -48,7 +47,7 @@ public class ThankYouPagesTest extends TestStarter {
         	ThankYouPages guideThankYou = Screens.GuideThankYou();
         	
         	guideThankYou.watchVideo();
-        	guideThankYou.verifyGuideVideoPlayback();
+        	Assert.assertTrue(guideThankYou.verifyGuideVideoPlayback());
         	guideThankYou.closeModal();
     }
 

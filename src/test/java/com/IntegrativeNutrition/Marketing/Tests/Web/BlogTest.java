@@ -1,13 +1,9 @@
 package com.IntegrativeNutrition.Marketing.Tests.Web;
 
+import org.testng.Assert;
 import org.testng.annotations.Test;
 import com.IntegrativeNutrition.Marketing.Pages.*;
 import com.IntegrativeNutrition.Marketing.Tests.Common.TestStarter;
-import org.testng.annotations.BeforeMethod;
-import org.testng.Assert;
-import org.testng.AssertJUnit;
-
-
 
 public class BlogTest extends TestStarter {
 
@@ -15,7 +11,7 @@ public class BlogTest extends TestStarter {
     @Test (groups = {"web.critical", "web"}, priority = 1)
     public void bannerDisplayed() throws Exception {
         BlogElements blogElements = Screens.BlogElements();
-    	blogElements.verifyBannerIsDisplayed();
+    	Assert.assertTrue(blogElements.verifyBannerIsDisplayed());
     }
     
     //Submit Curriculum Guide form with no phone number

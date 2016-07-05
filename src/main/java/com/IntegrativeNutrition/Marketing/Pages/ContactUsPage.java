@@ -24,16 +24,43 @@ public class ContactUsPage {
      * PAGE ELEMENTS SETUP
      ***********************************/
     
-    @FindBy(how = How.XPATH, using = "//*[@id=\"loginForm\"]/div[1]/button")
-    private WebElement signInButton;
+    @FindBy(how = How.XPATH, using = "//section[@id='block-system-main']/div/div")
+    private static WebElement headerBanner;
+
+    @FindBy(how = How.XPATH, using = "//div[@id='node-6121']/div")
+    private static WebElement letsConnect;
+
+    @FindBy(how = How.XPATH, using = "//section[@id='block-system-main']/div/div[2]/div/div/div/div[2]/div")
+    private static WebElement contactInformation;
 
     
     /************************************
      * PAGE TEST METHODS
      ************************************/
-
-    public void clickRegulatoryInfoLink() {
-    	signInButton.click();
+    
+    public boolean verifyBannerIsDisplayed (){
+        boolean bannerAppear = ContactUsPage.headerBanner.isDisplayed();
+        return bannerAppear;
+    }
+    
+    public boolean verifyLetsConnectIsDisplayed (){
+        boolean letsConnectAppear = ContactUsPage.letsConnect.isDisplayed();
+        return letsConnectAppear;
+    }
+    
+    public boolean verifycontactInformationIsDisplayed (){
+        boolean contactInformationAppear = ContactUsPage.contactInformation.isDisplayed();
+        return contactInformationAppear;
+    }
+    
+    public boolean assertCorrectURL(String url){
+    	
+        if (driver.getCurrentUrl().contains(url)){
+            return true;
+        }
+        else {
+            return false;
+        }
     }
 
 }

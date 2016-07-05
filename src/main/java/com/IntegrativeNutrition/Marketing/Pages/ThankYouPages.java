@@ -1,7 +1,6 @@
 package com.IntegrativeNutrition.Marketing.Pages;
 
 import java.util.concurrent.TimeUnit;
-
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -64,36 +63,39 @@ public class ThankYouPages {
     public static WebElement videoElapsed;
         
     
-    public void verifyClassVideoPlayback (){
+    public boolean verifyClassVideoPlayback (){
     	driver.manage().timeouts().implicitlyWait(147, TimeUnit.SECONDS);
         driver.switchTo().frame("media-youtube-8f0lea1ov4q");
         String videoElapsed = ThankYouPages.videoElapsed.getText();
         boolean videoComplete = videoElapsed.contains("2:24");
-        try {
-            Assert.assertTrue(videoComplete);
-        } catch (Exception e) {
-            e.printStackTrace();
-        }	
+        if (videoComplete){
+        	return true;
+        }
+        else {
+        	return false;
+        }
     }
     
-    public void verifyGuideVideoPlayback (){
+    public boolean verifyGuideVideoPlayback (){
     	driver.manage().timeouts().implicitlyWait(122, TimeUnit.SECONDS);
         driver.switchTo().frame("media-youtube-snlfol2uu-g");
         String videoElapsed = ThankYouPages.videoElapsed.getText();
         boolean videoComplete = videoElapsed.contains("2:00");
-        try {
-            Assert.assertTrue(videoComplete);
-        } catch (Exception e) {
-            e.printStackTrace();
-        }	
+        if (videoComplete){
+        	return true;
+        }
+        else {
+        	return false;
+        }
     }
     
-    public void verifyBannerIsDisplayed (){
+    public boolean verifyBannerIsDisplayed (){
         boolean bannerAppear = ThankYouPages.headerBanner.isDisplayed();
-        try {
-            Assert.assertTrue(bannerAppear);
-        } catch (Exception e) {
-            e.printStackTrace();
+        if (bannerAppear){
+        	return true;
+        }
+        else {
+        	return false;
         }
     }
     

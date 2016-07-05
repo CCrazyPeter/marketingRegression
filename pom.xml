@@ -25,13 +25,16 @@
             <scope>test</scope>
         </dependency>
         
+        <!-- TestNG Dependency-->
 		<dependency>
 			<groupId>org.testng</groupId>
 			<artifactId>testng</artifactId>
 			<version>6.9.8</version>
-			<scope>test</scope>
+			<scope>compile</scope>
 		</dependency>
 		
+		
+		<!-- ReportNG Dependency-->
 		<dependency>
 	        <groupId>org.uncommons</groupId>
 	        <artifactId>reportng</artifactId>

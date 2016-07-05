@@ -1,4 +1,4 @@
-package com.IntegrativeNutrition.Marketing.Tests.Web;
+/*package com.IntegrativeNutrition.Marketing.Tests.Web;
 
 import org.testng.annotations.Test;
 import com.IntegrativeNutrition.Marketing.Tests.Common.TestStarter;
@@ -17,3 +17,4 @@ public class HTTPstatus extends TestStarter {
         }
 
 }
+*/

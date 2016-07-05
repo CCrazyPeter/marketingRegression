@@ -20,7 +20,8 @@ public abstract class TestStarter {
 
     @BeforeClass(alwaysRun = true)
     public static void TestSetup() {
-        TestEnvironment.StartEnvironment(System.getProperty("appPath"),
+        TestEnvironment.StartEnvironment(
+        		System.getProperty("appPath"),
                 System.getProperty("browserName"),
                 System.getProperty("browserVersion"),
                 System.getProperty("browserPlatform"),

@@ -78,8 +78,13 @@ public class Header {
     private WebElement contact;
 
     //Search
-    @FindBy (id = "edit-search-block-form--2")
+    @FindBy(how = How.ID, using =  "edit-search-block-form--2")
     private WebElement search;
+    
+    @FindBy(how = How.CSS, using =  "css=div.no-results")
+    private static WebElement searchNoResults;
+    
+        
     
     /************************************
      * PAGE TEST METHODS
@@ -136,13 +141,24 @@ public class Header {
     }
     
     
-    public void verifyPhoneNumberIsDisplayed() {
+    public boolean verifyPhoneNumberIsDisplayed() {
 	    boolean present = Header.phoneNumber.isDisplayed();
-	    try {
-	        Assert.assertTrue(present);
-	    } catch (Exception e) {
-	        e.printStackTrace();
+	    if (present){
+	    	return true;
 	    }
+	    else {
+	    	return false;
+    	}
+    }
+    
+    public boolean verifySearchNoResultsMessageIsDisplayed() {
+	    boolean present = Header.searchNoResults.isDisplayed();
+	    if (present){
+	    	return true;
+	    }
+	    else {
+	    	return false;
+    	}
     }
     
     public boolean assertCorrectURL(String url){
@@ -153,6 +169,4 @@ public class Header {
             return false;
         }
     }
-
-    
 }

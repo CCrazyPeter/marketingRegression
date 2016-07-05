@@ -1,13 +1,10 @@
 package com.IntegrativeNutrition.Marketing.Tests.Web;
 
 import com.IntegrativeNutrition.Marketing.Pages.Header;
-import com.IntegrativeNutrition.Marketing.Pages.HomePage;
 import com.IntegrativeNutrition.Marketing.Tests.Common.TestStarter;
 import com.IntegrativeNutrition.Marketing.Pages.Screens;
-import org.testng.annotations.*;
 import org.testng.Assert;
-import org.openqa.selenium.*;
-import org.openqa.selenium.interactions.Actions;
+import org.testng.annotations.*;
 
 
 public class HeaderTest extends TestStarter {
@@ -16,8 +13,7 @@ public class HeaderTest extends TestStarter {
     @Test  (groups = {"web.critical", "web"}, priority = 1)
     public void assertHeaderPhoneisDisplayed () throws Exception  {
         Header header = Screens.Header();
-        
-    	header.verifyPhoneNumberIsDisplayed();
+        Assert.assertTrue(header.verifyPhoneNumberIsDisplayed());
     }
     
   //Search functionality - Search for "learning"
@@ -26,9 +22,19 @@ public class HeaderTest extends TestStarter {
         Header header = Screens.Header();
         
         header.conductSearch("learning");
-    	header.assertCorrectURL("http://www.integrativenutrition.com/search/solr/learning");
+        Assert.assertTrue(header.assertCorrectURL("http://www.integrativenutrition.com/search/solr/learning"));
     }
 
+    //Search functionality - Search for "aaabbbccc" (test No Results Page)
+    @Test (groups = {"web.critical", "web"}, priority = 1)
+    public void headerSearchNoResults() throws Exception {
+        Header header = Screens.Header();
+        
+        header.conductSearch("aaabbbccc");
+        Assert.assertTrue(header.assertCorrectURL("http://www.integrativenutrition.com/search/solr/aaabbbccc"));
+        Assert.assertTrue(header.verifySearchNoResultsMessageIsDisplayed());
+    }
+    
     //*** This section is to test that all header links go to their respective pages on click ************************
   
     //Home link
@@ -37,7 +43,7 @@ public class HeaderTest extends TestStarter {
     	Header header = Screens.Header();
     	
         header.clickHomeIcon();
-        header.assertCorrectURL("http://www.integrativenutrition.com/");
+        Assert.assertTrue(header.assertCorrectURL("http://www.integrativenutrition.com/"));
     }
 
     //Contact Us link
@@ -46,7 +52,7 @@ public class HeaderTest extends TestStarter {
     	Header header = Screens.Header();
     	
         header.clickContactUsIcon();
-        header.assertCorrectURL("http://www.integrativenutrition.com/contact-us");
+        Assert.assertTrue(header.assertCorrectURL("http://www.integrativenutrition.com/contact-us"));
     }
     
     //Curriculum Page
@@ -55,7 +61,7 @@ public class HeaderTest extends TestStarter {
     	Header header = Screens.Header();
     	
     	header.clickCurriculumBasics();
-    	header.assertCorrectURL("http://www.integrativenutrition.com/curriculum");
+    	Assert.assertTrue(header.assertCorrectURL("http://www.integrativenutrition.com/curriculum"));
     }
 
 	//Info Sessions Page
@@ -64,7 +70,7 @@ public class HeaderTest extends TestStarter {
     	Header header = Screens.Header();
     	
         header.clickInfoSessionsSignUp();
-        header.assertCorrectURL("http://www.integrativenutrition.com/info-sessions");
+        Assert.assertTrue(header.assertCorrectURL("http://www.integrativenutrition.com/info-sessions"));
     }
 
     //Health Coaching Page
@@ -73,7 +79,7 @@ public class HeaderTest extends TestStarter {
     	Header header = Screens.Header();
     	
         header.clickHealthCoachWhatIs();
-        header.assertCorrectURL("http://www.integrativenutrition.com/health-coaching");
+        Assert.assertTrue(header.assertCorrectURL("http://www.integrativenutrition.com/health-coaching"));
     }
 
     //About Us Page
@@ -82,6 +88,6 @@ public class HeaderTest extends TestStarter {
     	Header header = Screens.Header();
     	
         header.clickAboutUsWhoAreWe();
-    	header.assertCorrectURL("http://www.integrativenutrition.com/about-us");
+        Assert.assertTrue(header.assertCorrectURL("http://www.integrativenutrition.com/about-us"));
     }
 }
