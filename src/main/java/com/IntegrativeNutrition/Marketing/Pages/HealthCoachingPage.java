@@ -82,16 +82,17 @@ public class HealthCoachingPage {
         unitedKingdom.click();
     }
     
-    public void verifyVideoPlayback (){
+    public boolean verifyVideoPlayback (){
     	driver.manage().timeouts().implicitlyWait(118, TimeUnit.SECONDS);
         driver.switchTo().frame("media-youtube-aivruz1uyqe");
         String videoElapsed = HealthCoachingPage.videoElapsed.getText();
         boolean videoComplete = videoElapsed.contains("1:56");
-        try {
-            Assert.assertTrue(videoComplete);
-        } catch (Exception e) {
-            e.printStackTrace();
-        }	
+        if (videoComplete){
+            return true;
+        }
+        else {
+            return false;
+        }
     }
 
 }

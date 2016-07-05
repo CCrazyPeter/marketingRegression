@@ -58,7 +58,7 @@ public class HealthCoachingTest extends TestStarter {
     public void videoPlay() throws Exception {
     	HealthCoachingPage healthCoachingPage = Screens.HealthCoachingPage();
     	healthCoachingPage.clickWatchVideo();
-    	healthCoachingPage.verifyVideoPlayback();
+    	Assert.assertTrue(healthCoachingPage.verifyVideoPlayback());
     	healthCoachingPage.closeModal();
     }
 	

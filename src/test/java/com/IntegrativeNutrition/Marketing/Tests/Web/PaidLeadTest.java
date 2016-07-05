@@ -3,6 +3,7 @@ package com.IntegrativeNutrition.Marketing.Tests.Web;
 import com.IntegrativeNutrition.Marketing.Tests.Common.TestStarter;
 import com.IntegrativeNutrition.Marketing.Pages.*;
 import org.testng.annotations.Test;
+import org.testng.Assert;
 import org.testng.AssertJUnit;
 
 
@@ -19,7 +20,7 @@ public class PaidLeadTest extends TestStarter {
     public void assertBannerIsDisplayed ()  throws Exception {
     	PaidLeadGen sampleNutritionClassPage = Screens.SampleNutritionClassPage();
     	
-    	sampleNutritionClassPage.verifyBannerIsDisplayed();
+    	Assert.assertTrue(sampleNutritionClassPage.verifyBannerIsDisplayed());
     }
 
     

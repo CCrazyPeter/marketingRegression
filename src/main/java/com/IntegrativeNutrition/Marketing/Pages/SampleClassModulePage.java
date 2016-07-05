@@ -65,25 +65,27 @@ public class SampleClassModulePage {
         playButton.click();
     }
     
-    public void verifyBannerIsDisplayed (){
+    public boolean verifyBannerIsDisplayed (){
         boolean bannerAppear = SampleClassModulePage.SCMHeaderBanner.isDisplayed();
-        try {
-            Assert.assertTrue(bannerAppear);
-        } catch (Exception e) {
-            e.printStackTrace();
+        if (bannerAppear){
+            return true;
+        }
+        else {
+            return false;
         }
     }
 
-    public void verifyVideoPlayback (){
+    public boolean verifyVideoPlayback (){
     	driver.manage().timeouts().implicitlyWait(110, TimeUnit.SECONDS);
         driver.switchTo().frame("iin-html5-video-1");
         String videoElapsed = SampleClassModulePage.videoElapsed.getText();
         boolean videoComplete = videoElapsed.contains("1:48");
-        try {
-            Assert.assertTrue(videoComplete);
-        } catch (Exception e) {
-            e.printStackTrace();
-        }	
+        if (videoComplete){
+            return true;
+        }
+        else {
+            return false;
+        }
     }
 
 }

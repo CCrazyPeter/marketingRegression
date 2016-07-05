@@ -43,12 +43,13 @@ public class PaidLeadGen {
      * PAGE TEST METHODS
      ************************************/
 
-    public void verifyBannerIsDisplayed (){
+    public boolean verifyBannerIsDisplayed (){
         boolean bannerAppear = PaidLeadGen.headerBanner.isDisplayed();
-        try {
-            Assert.assertTrue(bannerAppear);
-        } catch (Exception e) {
-            e.printStackTrace();
+        if (bannerAppear){
+            return true;
+        }
+        else {
+            return false;
         }
     }
 

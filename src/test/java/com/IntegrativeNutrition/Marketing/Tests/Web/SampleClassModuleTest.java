@@ -1,5 +1,6 @@
 package com.IntegrativeNutrition.Marketing.Tests.Web;
 
+import org.testng.Assert;
 import org.testng.annotations.Test;
 import com.IntegrativeNutrition.Marketing.Pages.*;
 import com.IntegrativeNutrition.Marketing.Tests.Common.TestStarter;
@@ -11,7 +12,7 @@ public class SampleClassModuleTest extends TestStarter {
     public void bannerDisplayed() throws Exception{
     	SampleClassModulePage sampleClassModulePage = Screens.SampleClassModulePage();
     	
-    	sampleClassModulePage.verifyBannerIsDisplayed();
+    	Assert.assertTrue(sampleClassModulePage.verifyBannerIsDisplayed());
     }
     
   //This test tests the first video module
@@ -20,7 +21,7 @@ public class SampleClassModuleTest extends TestStarter {
     	SampleClassModulePage sampleClassModulePage = Screens.SampleClassModulePage();
     	
     	sampleClassModulePage.clickWelcomeVideo();
-    	sampleClassModulePage.verifyVideoPlayback();
+    	Assert.assertTrue(sampleClassModulePage.verifyVideoPlayback());
     	sampleClassModulePage.closeModal();
     }
     
