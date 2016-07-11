@@ -3,18 +3,18 @@
 <suite name="Suite">
   <test name="Test">
     <classes>
-      <class name="testScripts.InfoSessionTest"/>
-      <class name="testScripts.HeaderTest"/>
-      <class name="testScripts.HomePageTest"/>
-      <class name="testScripts.AboutUsTest"/>
-      <class name="testScripts.BlogTest"/>
-      <class name="testScripts.HealthCoachingTest"/>
-      <class name="testScripts.FooterSocialMediaTest"/>
-      <class name="testScripts.SampleClassModuleTest"/>
-      <class name="testScripts.PageLeadTest"/>
-      <class name="testScripts.CurriculumPageTest"/>
-      <class name="testScripts.HTTPstatus"/>
-      <class name="testScripts.ThankYouPagesTest"/>
+      <class name="com.IntegrativeNutrition.Marketing.Tests.Web.HeaderTest"/>
+      <class name="com.IntegrativeNutrition.Marketing.Tests.Web.InfoSessionTest"/>
+      <class name="com.IntegrativeNutrition.Marketing.Tests.Web.CurriculumPageTest"/>
+      <class name="com.IntegrativeNutrition.Marketing.Tests.Web.ThankYouPagesTest"/>
+      <class name="com.IntegrativeNutrition.Marketing.Tests.Web.ContactUsTest"/>
+      <class name="com.IntegrativeNutrition.Marketing.Tests.Web.PaidLeadTest"/>
+      <class name="com.IntegrativeNutrition.Marketing.Tests.Web.SampleClassModuleTest"/>
+      <class name="com.IntegrativeNutrition.Marketing.Tests.Web.BlogTest"/>
+      <class name="com.IntegrativeNutrition.Marketing.Tests.Web.HealthCoachingTest"/>
+      <class name="com.IntegrativeNutrition.Marketing.Tests.Web.HomePageTest"/>
+      <class name="com.IntegrativeNutrition.Marketing.Tests.Web.AboutUsTest"/>
+      <class name="com.IntegrativeNutrition.Marketing.Tests.Web.FooterSocialMediaTest"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

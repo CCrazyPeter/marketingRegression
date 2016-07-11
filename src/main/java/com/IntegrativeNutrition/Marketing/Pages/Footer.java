@@ -4,6 +4,8 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.support.How;
+
+
 import java.util.*;
 
 public class Footer {
@@ -57,13 +59,13 @@ public class Footer {
     private static WebElement jobsLink;
 
     //*** Connect With Us *****************************************************************************************
-
+  
     //Facebook - click on the icon method
-    @FindBy(how = How.XPATH, using = "//div[@id='mini-panel-site_footer']/div[3]/div/div/div/div/div/ul/li/a/span/i")
+    @FindBy(how = How.CSS, using = "i.icon-font_facebookcircle")
     private static WebElement faceBookIcon;
-
+    
     //Instagram - click on the icon method
-    @FindBy(how = How.XPATH, using = "//div[@id='mini-panel-site_footer']/div[3]/div/div/div/div/div/ul/li[2]/a/span/i")
+    @FindBy(how = How.CSS, using = "i.icon-font_instacircle")
     private static WebElement instagramIcon;
 
     //Twitter - click on the icon method
@@ -109,26 +111,34 @@ public class Footer {
      ************************************/
 
     public void clickRegulatoryInfoLink() {
-        regInfoLink.click();
+        // Scroll the browser to the element's Y position (doesn't work in Chrome if the page is not scrolled down)
+       ((org.openqa.selenium.JavascriptExecutor) driver).executeScript("window.scrollTo(0,"+regInfoLink.getLocation().y+")");
+       // Click the element    	
+    	regInfoLink.click();
     }
 
     public void clickTermsPrivacyLink() {
-        termsPrivacyLink.click();
+        // Scroll the browser to the element's Y position (doesn't work in Chrome if the page is not scrolled down)
+       ((org.openqa.selenium.JavascriptExecutor) driver).executeScript("window.scrollTo(0,"+termsPrivacyLink.getLocation().y+")");
+       // Click the element    	
+    	termsPrivacyLink.click();
     }
 
     public void clickAffiliatesLink() {
+        // Scroll the browser to the element's Y position (doesn't work in Chrome if the page is not scrolled down)
+       ((org.openqa.selenium.JavascriptExecutor) driver).executeScript("window.scrollTo(0,"+affiliatesLink.getLocation().y+")");
+       // Click the element    	
         affiliatesLink.click();
     }
 
     public void clickJobsLink() {
+        // Scroll the browser to the element's Y position (doesn't work in Chrome if the page is not scrolled down)
+       ((org.openqa.selenium.JavascriptExecutor) driver).executeScript("window.scrollTo(0,"+jobsLink.getLocation().y+")");
+       // Click the element    	
         jobsLink.click();
     }
 
-    public void clickFacebookIcon() {
-        faceBookIcon.click();
-    }
-
-    public boolean assertCorrectURL(String url, boolean newWindow) {
+    public boolean assertCorrectURL(String url, boolean newWindow, boolean newTab) {
         String currentURL;
 
         if (newWindow){
@@ -139,17 +149,39 @@ public class Footer {
 
             driver.close();
 
-            if (url == currentURL){
+            if (url.equals(currentURL)){
                 return true;
             }
             else {
                 return false;
             }
         }
-        else {
+        else if(newTab) {
+            ArrayList<String> tabs2 = new ArrayList<String> (driver.getWindowHandles());
+            
+            driver.switchTo().window(tabs2.get(1));
+            
             currentURL = driver.getCurrentUrl();
-            driver.navigate().back();
-            if (url == driver.getCurrentUrl()){
+            
+            driver.close();
+
+            driver.switchTo().window(tabs2.get(0));
+
+            if (url.equals(currentURL)){
+                return true;
+            }
+            else {
+                return false;
+            }
+
+        }
+        else {
+
+        	currentURL = driver.getCurrentUrl();
+            
+        	driver.navigate().back();
+
+            if (url.equals(currentURL)){
                 return true;
             }
             else {
@@ -157,41 +189,76 @@ public class Footer {
             }
         }
     }
+    
+
+    public void clickFacebookIcon() {
+        // Scroll the browser to the element's Y position (doesn't work in Chrome if the page is not scrolled down)
+       ((org.openqa.selenium.JavascriptExecutor) driver).executeScript("window.scrollTo(0,"+faceBookIcon.getLocation().y+")");
+       // Click the element
+       faceBookIcon.click();
+   }
 
     public void clickInstagramIcon() {
+        // Scroll the browser to the element's Y position (doesn't work in Chrome if the page is not scrolled down)
+       ((org.openqa.selenium.JavascriptExecutor) driver).executeScript("window.scrollTo(0,"+instagramIcon.getLocation().y+")");
+       // Click the element
         instagramIcon.click();
     }
 
     public void clickTwitterIcon() {
-        twitterIcon.click();
+        // Scroll the browser to the element's Y position (doesn't work in Chrome if the page is not scrolled down)
+       ((org.openqa.selenium.JavascriptExecutor) driver).executeScript("window.scrollTo(0,"+twitterIcon.getLocation().y+")");
+       // Click the element
+    	twitterIcon.click();
     }
 
     public void clickYouTubeIcon() {
-        youtubeIcon.click();
+        // Scroll the browser to the element's Y position (doesn't work in Chrome if the page is not scrolled down)
+       ((org.openqa.selenium.JavascriptExecutor) driver).executeScript("window.scrollTo(0,"+youtubeIcon.getLocation().y+")");
+       // Click the element
+    	youtubeIcon.click();
     }
 
     public void clickPinterestIcon() {
-        pinterestIcon.click();
+        // Scroll the browser to the element's Y position (doesn't work in Chrome if the page is not scrolled down)
+       ((org.openqa.selenium.JavascriptExecutor) driver).executeScript("window.scrollTo(0,"+pinterestIcon.getLocation().y+")");
+       // Click the element
+    	pinterestIcon.click();
     }
 
     public void clickLinkedInIcon() {
-        linkedInIcon.click();
+        // Scroll the browser to the element's Y position (doesn't work in Chrome if the page is not scrolled down)
+       ((org.openqa.selenium.JavascriptExecutor) driver).executeScript("window.scrollTo(0,"+linkedInIcon.getLocation().y+")");
+       // Click the element
+    	linkedInIcon.click();
     }
 
     public void clickGPlusIcon() {
-        googlePlusIcon.click();
+        // Scroll the browser to the element's Y position (doesn't work in Chrome if the page is not scrolled down)
+       ((org.openqa.selenium.JavascriptExecutor) driver).executeScript("window.scrollTo(0,"+googlePlusIcon.getLocation().y+")");
+       // Click the element
+    	googlePlusIcon.click();
     }
 
     public void clickAmazonIcon() {
-        amazonIcon.click();
+        // Scroll the browser to the element's Y position (doesn't work in Chrome if the page is not scrolled down)
+       ((org.openqa.selenium.JavascriptExecutor) driver).executeScript("window.scrollTo(0,"+amazonIcon.getLocation().y+")");
+       // Click the element
+    	amazonIcon.click();
     }
 
     public void clickTumblerIcon() {
-        tumblerIcon.click();
+        // Scroll the browser to the element's Y position (doesn't work in Chrome if the page is not scrolled down)
+       ((org.openqa.selenium.JavascriptExecutor) driver).executeScript("window.scrollTo(0,"+tumblerIcon.getLocation().y+")");
+       // Click the element
+    	tumblerIcon.click();
     }
 
     public void clickVineIcon() {
-        vineIcon.click();
+        // Scroll the browser to the element's Y position (doesn't work in Chrome if the page is not scrolled down)
+       ((org.openqa.selenium.JavascriptExecutor) driver).executeScript("window.scrollTo(0,"+vineIcon.getLocation().y+")");
+       // Click the element
+       vineIcon.click();
     }
 
 }

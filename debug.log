@@ -1,0 +1,10 @@
+[0709/214156:ERROR:process_reader_win.cc(141)] SuspendThread: Acceso denegado. (0x5)
+[0709/214156:ERROR:process_reader_win.cc(141)] SuspendThread: Acceso denegado. (0x5)
+[0709/214156:ERROR:process_reader_win.cc(141)] SuspendThread: Acceso denegado. (0x5)
+[0709/214156:ERROR:process_reader_win.cc(141)] SuspendThread: Acceso denegado. (0x5)
+[0709/214156:ERROR:process_reader_win.cc(141)] SuspendThread: Acceso denegado. (0x5)
+[0709/214156:ERROR:exception_snapshot_win.cc(57)] thread ID 2776 not found in process
+[0709/214156:WARNING:crash_report_exception_handler.cc(60)] ProcessSnapshotWin::InitializeException failed
+[0710/120640:ERROR:process_reader_win.cc(141)] SuspendThread: Acceso denegado. (0x5)
+[0710/120640:ERROR:exception_snapshot_win.cc(57)] thread ID 10168 not found in process
+[0710/120640:WARNING:crash_report_exception_handler.cc(60)] ProcessSnapshotWin::InitializeException failed

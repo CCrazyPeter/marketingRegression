@@ -1,11 +1,14 @@
 package com.IntegrativeNutrition.Marketing.Pages;
-import java.util.concurrent.TimeUnit;
 
+import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.How;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
+
 
 public class HomePage {
 
@@ -43,9 +46,10 @@ public class HomePage {
     //---------------------------------Video modal-------------------------------------------
 
     //Modal Close button - closes all modals
-    @FindBy(xpath = "//button[@data-dismiss='modal']")
+    @FindBy(xpath = "//*[@id='modalVideo-1']/div/button")
     private static WebElement modalCloseButton;
-
+  
+    
     //Play/Pause button
     @FindBy (xpath = "//button[@class='ytp-play-button ytp-button']")
     private static WebElement playButton;
@@ -69,6 +73,7 @@ public class HomePage {
     }
    
     public void closeModal() {
+        //driver.switchTo().frame(driver.findElement(By.id("media-youtube-e5ac7sou1s4")));
     	modalCloseButton.click();
     }
     
@@ -81,18 +86,26 @@ public class HomePage {
         return bannerAppear;
     }
     
+    
+    
+
     public boolean verifyVideoPlayback (){
-    	driver.manage().timeouts().implicitlyWait(115, TimeUnit.SECONDS);
-        driver.switchTo().frame("media-youtube-e5ac7sou1s4");
+
+        driver.switchTo().frame(driver.findElement(By.id("media-youtube-e5ac7sou1s4")));
+        WebDriverWait wait = new WebDriverWait(driver,200);
+        wait.until(ExpectedConditions.textToBePresentInElement(HomePage.videoElapsed, "1:53"));
+        
         String videoElapsed = HomePage.videoElapsed.getText();
         boolean videoComplete = videoElapsed.contains("1:53");
+        
+        driver.switchTo().defaultContent();
         return videoComplete;
     }
-    
+
     public boolean assertPageScrolledDown(){
     	JavascriptExecutor executor = (JavascriptExecutor) driver;
     	Long value = (Long) executor.executeScript("return window.scrollY;");
-    	if (value > 100){
+    	if (value > 10){
     		return true;
     	}
     	else

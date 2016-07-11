@@ -81,7 +81,7 @@ public class Header {
     @FindBy(how = How.ID, using =  "edit-search-block-form--2")
     private WebElement search;
     
-    @FindBy(how = How.CSS, using =  "css=div.no-results")
+    @FindBy(how = How.CSS, using =  "div.no-results")
     private static WebElement searchNoResults;
     
         
@@ -162,7 +162,11 @@ public class Header {
     }
     
     public boolean assertCorrectURL(String url){
-        if (url == driver.getCurrentUrl()){
+        String currentURL;
+        
+    	currentURL = driver.getCurrentUrl();
+    	
+        if (url.equals(currentURL)){
             return true;
         }
         else {

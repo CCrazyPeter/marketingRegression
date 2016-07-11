@@ -1,10 +1,14 @@
 package com.IntegrativeNutrition.Marketing.Pages;
 
 import java.util.concurrent.TimeUnit;
+
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.How;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
 
 public class ThankYouPages {
 
@@ -63,17 +67,17 @@ public class ThankYouPages {
     public static WebElement videoElapsed;
         
     
-    public boolean verifyClassVideoPlayback (){
-    	driver.manage().timeouts().implicitlyWait(147, TimeUnit.SECONDS);
-        driver.switchTo().frame("media-youtube-8f0lea1ov4q");
+    public boolean verifyVideoPlayback (){
+
+        driver.switchTo().frame(driver.findElement(By.id("media-youtube-8f0lea1ov4q")));
+        WebDriverWait wait = new WebDriverWait(driver,200);
+        wait.until(ExpectedConditions.textToBePresentInElement(ThankYouPages.videoElapsed, "2:24"));
+        
         String videoElapsed = ThankYouPages.videoElapsed.getText();
         boolean videoComplete = videoElapsed.contains("2:24");
-        if (videoComplete){
-        	return true;
-        }
-        else {
-        	return false;
-        }
+        
+        driver.switchTo().defaultContent();
+        return videoComplete;
     }
     
     public boolean verifyGuideVideoPlayback (){

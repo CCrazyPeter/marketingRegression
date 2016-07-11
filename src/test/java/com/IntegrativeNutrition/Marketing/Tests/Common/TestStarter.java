@@ -29,6 +29,8 @@ public abstract class TestStarter {
                 System.getProperty("browserType"));
     }
 
+
+    
     @AfterClass(alwaysRun = true)
     public static void TestCleanUp() {
         TestEnvironment.StopEnvironment();

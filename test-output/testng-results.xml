@@ -2,31 +2,31 @@
 <testng-results skipped="0" failed="3" total="3" passed="0">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="326" started-at="2016-07-04T13:25:45Z" finished-at="2016-07-04T13:25:46Z">
+  <suite name="Default suite" duration-ms="25730" started-at="2016-07-11T04:06:04Z" finished-at="2016-07-11T04:06:30Z">
     <groups>
       <group name="web">
-        <method signature="HomePageTest.assertBannerIsDisplayed()[pri:1, instance:com.IntegrativeNutrition.Marketing.Tests.Web.HomePageTest@1ed4004b]" name="assertBannerIsDisplayed" class="com.IntegrativeNutrition.Marketing.Tests.Web.HomePageTest"/>
-        <method signature="HomePageTest.assertSampleProgramButtonTriggersScroll()[pri:1, instance:com.IntegrativeNutrition.Marketing.Tests.Web.HomePageTest@1ed4004b]" name="assertSampleProgramButtonTriggersScroll" class="com.IntegrativeNutrition.Marketing.Tests.Web.HomePageTest"/>
-        <method signature="HomePageTest.videoPlay()[pri:1, instance:com.IntegrativeNutrition.Marketing.Tests.Web.HomePageTest@1ed4004b]" name="videoPlay" class="com.IntegrativeNutrition.Marketing.Tests.Web.HomePageTest"/>
+        <method signature="InfoSessionTest.countryFlagMatch()[pri:1, instance:com.IntegrativeNutrition.Marketing.Tests.Web.InfoSessionTest@343f4d3d]" name="countryFlagMatch" class="com.IntegrativeNutrition.Marketing.Tests.Web.InfoSessionTest"/>
+        <method signature="InfoSessionTest.emailValidation()[pri:1, instance:com.IntegrativeNutrition.Marketing.Tests.Web.InfoSessionTest@343f4d3d]" name="emailValidation" class="com.IntegrativeNutrition.Marketing.Tests.Web.InfoSessionTest"/>
+        <method signature="InfoSessionTest.nameValidation()[pri:1, instance:com.IntegrativeNutrition.Marketing.Tests.Web.InfoSessionTest@343f4d3d]" name="nameValidation" class="com.IntegrativeNutrition.Marketing.Tests.Web.InfoSessionTest"/>
       </group> <!-- web -->
       <group name="web.critical">
-        <method signature="HomePageTest.assertBannerIsDisplayed()[pri:1, instance:com.IntegrativeNutrition.Marketing.Tests.Web.HomePageTest@1ed4004b]" name="assertBannerIsDisplayed" class="com.IntegrativeNutrition.Marketing.Tests.Web.HomePageTest"/>
-        <method signature="HomePageTest.assertSampleProgramButtonTriggersScroll()[pri:1, instance:com.IntegrativeNutrition.Marketing.Tests.Web.HomePageTest@1ed4004b]" name="assertSampleProgramButtonTriggersScroll" class="com.IntegrativeNutrition.Marketing.Tests.Web.HomePageTest"/>
-        <method signature="HomePageTest.videoPlay()[pri:1, instance:com.IntegrativeNutrition.Marketing.Tests.Web.HomePageTest@1ed4004b]" name="videoPlay" class="com.IntegrativeNutrition.Marketing.Tests.Web.HomePageTest"/>
+        <method signature="InfoSessionTest.countryFlagMatch()[pri:1, instance:com.IntegrativeNutrition.Marketing.Tests.Web.InfoSessionTest@343f4d3d]" name="countryFlagMatch" class="com.IntegrativeNutrition.Marketing.Tests.Web.InfoSessionTest"/>
+        <method signature="InfoSessionTest.emailValidation()[pri:1, instance:com.IntegrativeNutrition.Marketing.Tests.Web.InfoSessionTest@343f4d3d]" name="emailValidation" class="com.IntegrativeNutrition.Marketing.Tests.Web.InfoSessionTest"/>
+        <method signature="InfoSessionTest.nameValidation()[pri:1, instance:com.IntegrativeNutrition.Marketing.Tests.Web.InfoSessionTest@343f4d3d]" name="nameValidation" class="com.IntegrativeNutrition.Marketing.Tests.Web.InfoSessionTest"/>
       </group> <!-- web.critical -->
     </groups>
-    <test name="Default test" duration-ms="326" started-at="2016-07-04T13:25:45Z" finished-at="2016-07-04T13:25:46Z">
-      <class name="com.IntegrativeNutrition.Marketing.Tests.Web.HomePageTest">
-        <test-method status="PASS" signature="TestSetup()[pri:0, instance:com.IntegrativeNutrition.Marketing.Tests.Web.HomePageTest@1ed4004b]" name="TestSetup" is-config="true" duration-ms="49" started-at="2016-07-04T09:25:45Z" finished-at="2016-07-04T09:25:45Z">
+    <test name="Default test" duration-ms="25730" started-at="2016-07-11T04:06:04Z" finished-at="2016-07-11T04:06:30Z">
+      <class name="com.IntegrativeNutrition.Marketing.Tests.Web.InfoSessionTest">
+        <test-method status="PASS" signature="TestSetup()[pri:0, instance:com.IntegrativeNutrition.Marketing.Tests.Web.InfoSessionTest@343f4d3d]" name="TestSetup" is-config="true" duration-ms="5007" started-at="2016-07-11T00:06:04Z" finished-at="2016-07-11T00:06:09Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TestSetup -->
-        <test-method status="FAIL" signature="assertBannerIsDisplayed()[pri:1, instance:com.IntegrativeNutrition.Marketing.Tests.Web.HomePageTest@1ed4004b]" name="assertBannerIsDisplayed" duration-ms="35" started-at="2016-07-04T09:25:45Z" finished-at="2016-07-04T09:25:45Z">
+        <test-method status="FAIL" signature="countryFlagMatch()[pri:1, instance:com.IntegrativeNutrition.Marketing.Tests.Web.InfoSessionTest@343f4d3d]" name="countryFlagMatch" duration-ms="12862" started-at="2016-07-11T00:06:09Z" finished-at="2016-07-11T00:06:22Z">
           <exception class="java.lang.NullPointerException">
             <full-stacktrace>
               <![CDATA[java.lang.NullPointerException
-	at com.IntegrativeNutrition.Marketing.Pages.Screens.HomePage(Screens.java:53)
-	at com.IntegrativeNutrition.Marketing.Tests.Web.HomePageTest.assertBannerIsDisplayed(HomePageTest.java:15)
+	at com.IntegrativeNutrition.Marketing.Pages.Forms.inputName(Forms.java:104)
+	at com.IntegrativeNutrition.Marketing.Tests.Web.InfoSessionTest.countryFlagMatch(InfoSessionTest.java:37)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -57,13 +57,13 @@
           </exception> <!-- java.lang.NullPointerException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- assertBannerIsDisplayed -->
-        <test-method status="FAIL" signature="assertSampleProgramButtonTriggersScroll()[pri:1, instance:com.IntegrativeNutrition.Marketing.Tests.Web.HomePageTest@1ed4004b]" name="assertSampleProgramButtonTriggersScroll" duration-ms="8" started-at="2016-07-04T09:25:46Z" finished-at="2016-07-04T09:25:46Z">
+        </test-method> <!-- countryFlagMatch -->
+        <test-method status="FAIL" signature="emailValidation()[pri:1, instance:com.IntegrativeNutrition.Marketing.Tests.Web.InfoSessionTest@343f4d3d]" name="emailValidation" duration-ms="3923" started-at="2016-07-11T00:06:22Z" finished-at="2016-07-11T00:06:26Z">
           <exception class="java.lang.NullPointerException">
             <full-stacktrace>
               <![CDATA[java.lang.NullPointerException
-	at com.IntegrativeNutrition.Marketing.Pages.Screens.HomePage(Screens.java:53)
-	at com.IntegrativeNutrition.Marketing.Tests.Web.HomePageTest.assertSampleProgramButtonTriggersScroll(HomePageTest.java:22)
+	at com.IntegrativeNutrition.Marketing.Pages.Forms.inputName(Forms.java:104)
+	at com.IntegrativeNutrition.Marketing.Tests.Web.InfoSessionTest.emailValidation(InfoSessionTest.java:26)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -94,13 +94,13 @@
           </exception> <!-- java.lang.NullPointerException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- assertSampleProgramButtonTriggersScroll -->
-        <test-method status="FAIL" signature="videoPlay()[pri:1, instance:com.IntegrativeNutrition.Marketing.Tests.Web.HomePageTest@1ed4004b]" name="videoPlay" duration-ms="8" started-at="2016-07-04T09:25:46Z" finished-at="2016-07-04T09:25:46Z">
+        </test-method> <!-- emailValidation -->
+        <test-method status="FAIL" signature="nameValidation()[pri:1, instance:com.IntegrativeNutrition.Marketing.Tests.Web.InfoSessionTest@343f4d3d]" name="nameValidation" duration-ms="2455" started-at="2016-07-11T00:06:26Z" finished-at="2016-07-11T00:06:29Z">
           <exception class="java.lang.NullPointerException">
             <full-stacktrace>
               <![CDATA[java.lang.NullPointerException
-	at com.IntegrativeNutrition.Marketing.Pages.Screens.HomePage(Screens.java:53)
-	at com.IntegrativeNutrition.Marketing.Tests.Web.HomePageTest.videoPlay(HomePageTest.java:30)
+	at com.IntegrativeNutrition.Marketing.Pages.Forms.inputEmail(Forms.java:109)
+	at com.IntegrativeNutrition.Marketing.Tests.Web.InfoSessionTest.nameValidation(InfoSessionTest.java:16)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -131,12 +131,12 @@
           </exception> <!-- java.lang.NullPointerException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- videoPlay -->
-        <test-method status="PASS" signature="TestCleanUp()[pri:0, instance:com.IntegrativeNutrition.Marketing.Tests.Web.HomePageTest@1ed4004b]" name="TestCleanUp" is-config="true" duration-ms="1" started-at="2016-07-04T09:25:46Z" finished-at="2016-07-04T09:25:46Z">
+        </test-method> <!-- nameValidation -->
+        <test-method status="PASS" signature="TestCleanUp()[pri:0, instance:com.IntegrativeNutrition.Marketing.Tests.Web.InfoSessionTest@343f4d3d]" name="TestCleanUp" is-config="true" duration-ms="1420" started-at="2016-07-11T00:06:29Z" finished-at="2016-07-11T00:06:30Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TestCleanUp -->
-      </class> <!-- com.IntegrativeNutrition.Marketing.Tests.Web.HomePageTest -->
+      </class> <!-- com.IntegrativeNutrition.Marketing.Tests.Web.InfoSessionTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

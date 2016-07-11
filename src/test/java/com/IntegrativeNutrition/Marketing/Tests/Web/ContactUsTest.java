@@ -3,8 +3,8 @@ package com.IntegrativeNutrition.Marketing.Tests.Web;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
+import com.IntegrativeNutrition.Marketing.Global.Common;
 import com.IntegrativeNutrition.Marketing.Pages.ContactUsPage;
-import com.IntegrativeNutrition.Marketing.Pages.Forms;
 import com.IntegrativeNutrition.Marketing.Pages.Screens;
 import com.IntegrativeNutrition.Marketing.Tests.Common.TestStarter;
 
@@ -17,7 +17,7 @@ public class ContactUsTest  extends TestStarter{
     	Assert.assertTrue(contactUsPage.verifyBannerIsDisplayed());
     }
 
-	//This test ensures the banner is displayed  
+	//This test ensures "let's connect" is displayed  
     @Test (groups = {"web.critical", "web"}, priority = 1)
     public void assertLetsConnectIsDisplayed ()  throws Exception {
     	ContactUsPage contactUsPage = Screens.ContactUsPage();
@@ -36,12 +36,12 @@ public class ContactUsTest  extends TestStarter{
     public void verifyForm() throws Exception {
     	ContactUsPage contactUsPage = Screens.ContactUsPage();
         
-        Forms.inputName("qaTest");
-        Forms.inputEmail("iinqatest@gmail.com");
-        Forms.enterPhoneNumber("8099521818");
-        Forms.fillTextBox("You Can Help Me By Passing This Test");
-        Forms.clickSubmitButton();
-        contactUsPage.assertCorrectURL("http://www.integrativenutrition.com/contact-thank-you?sid=");
+    	ContactUsPage.inputName("qaTest");
+    	ContactUsPage.inputEmail("iinqatest@gmail.com");
+    	ContactUsPage.enterPhoneNumber("8099521818");
+    	ContactUsPage.fillTextBox("You Can Help Me By Passing This Test");
+    	ContactUsPage.clickSubmitButton();
+        contactUsPage.assertCorrectURL(Common.FRONTEND_URL + "/contact-thank-you?sid=");
     }    
     
 }

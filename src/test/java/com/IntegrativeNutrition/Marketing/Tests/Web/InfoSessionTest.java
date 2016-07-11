@@ -2,6 +2,8 @@ package com.IntegrativeNutrition.Marketing.Tests.Web;
 
 import org.testng.Assert;
 import org.testng.annotations.Test;
+
+import com.IntegrativeNutrition.Marketing.Global.Common;
 import com.IntegrativeNutrition.Marketing.Pages.*;
 import com.IntegrativeNutrition.Marketing.Tests.Common.TestStarter;
 
@@ -15,7 +17,7 @@ public class InfoSessionTest extends TestStarter {
         
         Forms.inputEmail("iinqatest@gmail.com");
         Forms.clickSubmitButton();
-        infoSessionsPage.assertCorrectURL("http://www.integrativenutrition.com/info-sessions");
+        infoSessionsPage.assertCorrectURL(Common.FRONTEND_URL + "/info-sessions");
     }
 
   //Tests that form won't submit if email field is blank
@@ -25,7 +27,7 @@ public class InfoSessionTest extends TestStarter {
         
         Forms.inputName("qaTest");
         Forms.clickSubmitButton();
-        infoSessionsPage.assertCorrectURL("http://www.integrativenutrition.com/info-sessions");
+        infoSessionsPage.assertCorrectURL(Common.FRONTEND_URL + "/info-sessions");
  
     }
 
@@ -34,19 +36,15 @@ public class InfoSessionTest extends TestStarter {
     public void countryFlagMatch() throws Exception {
         InfoSessionsPage infoSessionsPage = Screens.InfoSessionsPage();
         
-        Forms.inputName("qaTest");
-        Forms.inputEmail("iinqatest@gmail.com");
-        Forms.selectFlag();
+        infoSessionsPage.inputName("qaTest");
+        infoSessionsPage.inputEmail("iinqatest@gmail.com");
+        infoSessionsPage.selectFlag();
         infoSessionsPage.clickCyprusFlag();
-        Forms.enterPhoneNumber("1111111111");
-        Forms.clickSubmitButton();
-        String phoneValue = Forms.getPhoneValue();
-        boolean cyprusFlag = phoneValue.contains("357");
-        try {
-            Assert.assertTrue(cyprusFlag);
-        } catch (Exception e) {
-            e.printStackTrace();
-        }
+        infoSessionsPage.enterPhoneNumber("22123456");
+        infoSessionsPage.clickSubmitButton();
+
+        Assert.assertTrue(infoSessionsPage.verifyAreaCodeMatchesFlag());
+
+        
     }    
 }
-

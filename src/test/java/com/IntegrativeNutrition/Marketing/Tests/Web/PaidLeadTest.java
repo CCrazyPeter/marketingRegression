@@ -1,6 +1,7 @@
 package com.IntegrativeNutrition.Marketing.Tests.Web;
 
 import com.IntegrativeNutrition.Marketing.Tests.Common.TestStarter;
+import com.IntegrativeNutrition.Marketing.Global.Common;
 import com.IntegrativeNutrition.Marketing.Pages.*;
 import org.testng.annotations.Test;
 import org.testng.Assert;
@@ -31,7 +32,7 @@ public class PaidLeadTest extends TestStarter {
     	
         Forms.inputEmail("iinqatest@gmail.com");
         Forms.clickSubmitButton();    
-        sampleNutritionClassPage.assertCorrectURL("http://www.integrativenutrition.com/info-nutritioneducation");
+        sampleNutritionClassPage.assertCorrectURL(Common.FRONTEND_URL + "/info-nutritioneducation");
 
     }
 
@@ -42,7 +43,7 @@ public class PaidLeadTest extends TestStarter {
     	
         Forms.inputName("qaTest");
         Forms.clickSubmitButton();
-        sampleNutritionClassPage.assertCorrectURL("http://www.integrativenutrition.com/info-nutritioneducation");
+        sampleNutritionClassPage.assertCorrectURL(Common.FRONTEND_URL + "/info-nutritioneducation");
     }
 
     //Tests that flags match country code using Fiji
@@ -72,7 +73,7 @@ public class PaidLeadTest extends TestStarter {
         Forms.inputName("qaTest");
         Forms.inputEmail("iinqatest@gmail.com");
         Forms.clickSubmitButton();
-        sampleNutritionClassPage.assertCorrectURL("http://www.integrativenutrition.com/class-thank-you?sid=");
+        sampleNutritionClassPage.assertCorrectURL(Common.FRONTEND_URL + "/class-thank-you?sid=");
 
     }
 
@@ -96,7 +97,7 @@ public class PaidLeadTest extends TestStarter {
     	
         Forms.inputEmail("iinqatest@gmail.com");
         Forms.clickSubmitButton();
-        sampleNutritionClassPage_r.assertCorrectURL("http://www.integrativenutrition.com/info-nutritioneducation-r");
+        sampleNutritionClassPage_r.assertCorrectURL(Common.FRONTEND_URL + "/info-nutritioneducation-r");
     }
 
     
@@ -106,7 +107,7 @@ public class PaidLeadTest extends TestStarter {
     	PaidLeadGen sampleNutritionClassPage_r = Screens.SampleNutritionClassPage_r();
         Forms.inputName("qaTest");
         Forms.clickSubmitButton();
-        sampleNutritionClassPage_r.assertCorrectURL("http://www.integrativenutrition.com/info-nutritioneducation-r");
+        sampleNutritionClassPage_r.assertCorrectURL(Common.FRONTEND_URL + "/info-nutritioneducation-r");
     }
 
     //Tests that flags match country code using Jamaica
@@ -134,7 +135,7 @@ public class PaidLeadTest extends TestStarter {
         Forms.inputName("qaTest");
         Forms.inputEmail("iinqatest@gmail.com");
         Forms.clickSubmitButton();
-        sampleNutritionClassPage_r.assertCorrectURL("http://www.integrativenutrition.com/class-thank-you?sid=");
+        sampleNutritionClassPage_r.assertCorrectURL(Common.FRONTEND_URL + "/class-thank-you?sid=");
     }
 
     /**************************************************************
@@ -157,7 +158,7 @@ public class PaidLeadTest extends TestStarter {
     	
         Forms.inputEmail("iinqatest@gmail.com");
         Forms.clickSubmitButton();
-        sampleNutritionClassPage_d.assertCorrectURL("http://www.integrativenutrition.com/info-nutritioneducation-d");
+        sampleNutritionClassPage_d.assertCorrectURL(Common.FRONTEND_URL + "/info-nutritioneducation-d");
     }
 
     //Tests that form won't submit if email field is blank
@@ -167,7 +168,7 @@ public class PaidLeadTest extends TestStarter {
     	
         Forms.inputName("qaTest");
         Forms.clickSubmitButton();    
-        sampleNutritionClassPage_d.assertCorrectURL("http://www.integrativenutrition.com/info-nutritioneducation-d");
+        sampleNutritionClassPage_d.assertCorrectURL(Common.FRONTEND_URL + "/info-nutritioneducation-d");
     }
 
     //Tests that flags match country code using Uruguay
@@ -193,7 +194,7 @@ public class PaidLeadTest extends TestStarter {
         Forms.inputName("qaTest");
         Forms.inputEmail("qatesting@qatest.edu");
         Forms.clickSubmitButton();
-        sampleNutritionClassPage_d.assertCorrectURL("http://www.integrativenutrition.com/class-thank-you?sid=");
+        sampleNutritionClassPage_d.assertCorrectURL(Common.FRONTEND_URL + "/class-thank-you?sid=");
     }
 
     }

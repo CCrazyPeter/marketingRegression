@@ -2,9 +2,11 @@ package com.IntegrativeNutrition.Marketing.Pages;
 
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.support.How;
-import java.util.concurrent.TimeUnit;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
 
 public class AboutUsPage {
 
@@ -29,12 +31,12 @@ public class AboutUsPage {
     private static WebElement headerBanner;
 
     
-    @FindBy(how = How.XPATH, using = "css=div.play-button.center-block")
+    @FindBy(how = How.CSS, using = "div.play-button.center-block")
     private static WebElement watchVideoButton;
-    
+  
     
     //Modal Close button - closes all modals
-    @FindBy(xpath = "//button[@data-dismiss='modal']")
+    @FindBy(xpath = "//*[@id='modalVideo-1']/div/button")
     private static WebElement modalCloseButton;
 
     //Play/Pause button
@@ -83,10 +85,15 @@ public class AboutUsPage {
     }
     
     public boolean verifyVideoPlayback (){
-    	driver.manage().timeouts().implicitlyWait(115, TimeUnit.SECONDS);
-        driver.switchTo().frame("media-youtube-lrkty-uqnjy");
+
+        driver.switchTo().frame(driver.findElement(By.id("media-youtube-lrkty-uqnjy")));
+        WebDriverWait wait = new WebDriverWait(driver,200);
+        wait.until(ExpectedConditions.textToBePresentInElement(AboutUsPage.videoElapsed, "2:14"));
+        
         String videoElapsed = AboutUsPage.videoElapsed.getText();
         boolean videoComplete = videoElapsed.contains("2:14");
+        
+        driver.switchTo().defaultContent();
         return videoComplete;
     }
     

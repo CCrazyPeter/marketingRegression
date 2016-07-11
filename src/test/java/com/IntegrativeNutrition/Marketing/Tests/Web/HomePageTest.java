@@ -1,6 +1,5 @@
 package com.IntegrativeNutrition.Marketing.Tests.Web;
 
-
 import com.IntegrativeNutrition.Marketing.Tests.Common.TestStarter;
 import com.IntegrativeNutrition.Marketing.Pages.HomePage;
 import com.IntegrativeNutrition.Marketing.Pages.Screens;
@@ -23,7 +22,7 @@ public class HomePageTest extends TestStarter {
     	homePage.clickSampleProgram();
     	Assert.assertTrue(homePage.assertPageScrolledDown());
     }
-    
+
     //This test is to ensure video plays until the end
     @Test (groups = {"web.critical", "web"}, priority = 1)
     public void videoPlay() throws Exception {

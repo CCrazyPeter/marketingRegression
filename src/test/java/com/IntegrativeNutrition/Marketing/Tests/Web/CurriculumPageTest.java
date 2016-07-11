@@ -8,29 +8,33 @@ import com.IntegrativeNutrition.Marketing.Pages.*;
 public class CurriculumPageTest extends TestStarter {
 
 
-    @Test //This test is to ensure video plays until the end
-    public void videoPlay() {
+     //This test is to ensure video plays until the end
+    @Test (groups = {"web.critical", "web"}, priority = 1)
+    public void videoPlay() throws Exception {
     	CurriculumPage curriculumPage = Screens.CurriculumPage();
     	curriculumPage.clickWatchVideo();
         Assert.assertTrue(curriculumPage.verifyVideoPlayback());
         curriculumPage.closeModal();
     }
+    
 
 	//Submit Curriculum Guide form with no phone number
     @Test (groups = {"web.critical", "web"}, priority = 1)
     public void submitFormNoPhone() throws Exception{
-        Forms.inputName("QATEST");
-        Forms.inputEmail("iinqatest@gmail.com");
-        Forms.clickSubmitButton();
+    	CurriculumPage curriculumPage = Screens.CurriculumPage();
+    	curriculumPage.inputName("QATEST");
+    	curriculumPage.inputEmail("iinqatest@gmail.com");
+    	curriculumPage.clickSubmitButton();
     }
 
     //Submit Curriculum Guide form with phone number
     @Test (groups = {"web.critical", "web"}, priority = 1)
     public void submitFormWithPhone() {
-        Forms.inputName("QATEST");
-        Forms.inputEmail("iinqatest@gmail.com");
-        Forms.clickPhoneBox();
-        Forms.enterPhoneNumber("2127305433");
-        Forms.clickSubmitButton();
+    	CurriculumPage curriculumPage = Screens.CurriculumPage();
+    	curriculumPage.inputName("QATEST");
+    	curriculumPage.inputEmail("iinqatest@gmail.com");
+    	curriculumPage.clickPhoneBox();
+    	curriculumPage.enterPhoneNumber("2127305433");
+    	curriculumPage.clickSubmitButton();
     }
 }

@@ -1,5 +1,6 @@
 package com.IntegrativeNutrition.Marketing.Tests.Web;
 
+import com.IntegrativeNutrition.Marketing.Global.Common;
 import com.IntegrativeNutrition.Marketing.Pages.Header;
 import com.IntegrativeNutrition.Marketing.Tests.Common.TestStarter;
 import com.IntegrativeNutrition.Marketing.Pages.Screens;
@@ -22,7 +23,7 @@ public class HeaderTest extends TestStarter {
         Header header = Screens.Header();
         
         header.conductSearch("learning");
-        Assert.assertTrue(header.assertCorrectURL("http://www.integrativenutrition.com/search/solr/learning"));
+        Assert.assertTrue(header.assertCorrectURL(Common.FRONTEND_URL + "/search/solr/learning"));
     }
 
     //Search functionality - Search for "aaabbbccc" (test No Results Page)
@@ -31,7 +32,7 @@ public class HeaderTest extends TestStarter {
         Header header = Screens.Header();
         
         header.conductSearch("aaabbbccc");
-        Assert.assertTrue(header.assertCorrectURL("http://www.integrativenutrition.com/search/solr/aaabbbccc"));
+        Assert.assertTrue(header.assertCorrectURL(Common.FRONTEND_URL + "/search/solr/aaabbbccc"));
         Assert.assertTrue(header.verifySearchNoResultsMessageIsDisplayed());
     }
     
@@ -43,7 +44,7 @@ public class HeaderTest extends TestStarter {
     	Header header = Screens.Header();
     	
         header.clickHomeIcon();
-        Assert.assertTrue(header.assertCorrectURL("http://www.integrativenutrition.com/"));
+        Assert.assertTrue(header.assertCorrectURL(Common.FRONTEND_URL + "/"));
     }
 
     //Contact Us link
@@ -52,7 +53,7 @@ public class HeaderTest extends TestStarter {
     	Header header = Screens.Header();
     	
         header.clickContactUsIcon();
-        Assert.assertTrue(header.assertCorrectURL("http://www.integrativenutrition.com/contact-us"));
+        Assert.assertTrue(header.assertCorrectURL(Common.FRONTEND_URL + "/contact-us"));
     }
     
     //Curriculum Page
@@ -61,7 +62,7 @@ public class HeaderTest extends TestStarter {
     	Header header = Screens.Header();
     	
     	header.clickCurriculumBasics();
-    	Assert.assertTrue(header.assertCorrectURL("http://www.integrativenutrition.com/curriculum"));
+    	Assert.assertTrue(header.assertCorrectURL(Common.FRONTEND_URL + "/curriculum"));
     }
 
 	//Info Sessions Page
@@ -70,7 +71,7 @@ public class HeaderTest extends TestStarter {
     	Header header = Screens.Header();
     	
         header.clickInfoSessionsSignUp();
-        Assert.assertTrue(header.assertCorrectURL("http://www.integrativenutrition.com/info-sessions"));
+        Assert.assertTrue(header.assertCorrectURL(Common.FRONTEND_URL + "/info-sessions"));
     }
 
     //Health Coaching Page
@@ -79,7 +80,7 @@ public class HeaderTest extends TestStarter {
     	Header header = Screens.Header();
     	
         header.clickHealthCoachWhatIs();
-        Assert.assertTrue(header.assertCorrectURL("http://www.integrativenutrition.com/health-coaching"));
+        Assert.assertTrue(header.assertCorrectURL(Common.FRONTEND_URL + "/health-coaching"));
     }
 
     //About Us Page
@@ -88,6 +89,6 @@ public class HeaderTest extends TestStarter {
     	Header header = Screens.Header();
     	
         header.clickAboutUsWhoAreWe();
-        Assert.assertTrue(header.assertCorrectURL("http://www.integrativenutrition.com/about-us"));
+        Assert.assertTrue(header.assertCorrectURL(Common.FRONTEND_URL + "/about-us"));
     }
 }

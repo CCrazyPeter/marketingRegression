@@ -142,7 +142,8 @@ public class TestEnvironment {
             OS_Simple_Name = "Linux";
         }
         
-        if (OS_Arch.contains("64") && OS_Simple_Arch.length()==0) {
+        if (OS_Arch.contains("64") )// && OS_Simple_Arch.length()==0) 
+        {
             OS_Simple_Arch = "64bit";
         } else {
             OS_Simple_Arch = "32bit";

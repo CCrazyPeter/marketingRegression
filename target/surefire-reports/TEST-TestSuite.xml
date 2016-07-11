@@ -1,146 +1,170 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="63" failures="49" name="TestSuite" time="566.274" errors="0" skipped="0">
+<testsuite tests="63" failures="63" name="TestSuite" time="0.163" errors="0" skipped="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
-    <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_91.jdk/Contents/Home/jre/lib"/>
-    <property name="java.vm.version" value="25.91-b14"/>
-    <property name="gopherProxySet" value="false"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_91\jre\bin"/>
+    <property name="java.vm.version" value="25.91-b15"/>
     <property name="java.vm.vendor" value="Oracle Corporation"/>
-    <property name="maven.multiModuleProjectDirectory" value="/Users/alexdillon/Development/IIN/marketingRegression"/>
+    <property name="maven.multiModuleProjectDirectory" value="C:\Users\ratib_000\Documents\Work\IIN\marketingRegression"/>
     <property name="java.vendor.url" value="http://java.oracle.com/"/>
-    <property name="path.separator" value=":"/>
+    <property name="path.separator" value=";"/>
     <property name="guice.disable.misplaced.annotation.check" value="true"/>
     <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
     <property name="file.encoding.pkg" value="sun.io"/>
-    <property name="user.country" value="US"/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="ES"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
-    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="sun.os.patch.level" value=""/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
-    <property name="user.dir" value="/Users/alexdillon/Development/IIN/marketingRegression"/>
-    <property name="groups" value="web.critical"/>
-    <property name="java.runtime.version" value="1.8.0_91-b14"/>
-    <property name="java.awt.graphicsenv" value="sun.awt.CGraphicsEnvironment"/>
-    <property name="basedir" value="/Users/alexdillon/Development/IIN/marketingRegression"/>
-    <property name="java.endorsed.dirs" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_91.jdk/Contents/Home/jre/lib/endorsed"/>
-    <property name="os.arch" value="x86_64"/>
-    <property name="java.io.tmpdir" value="/var/folders/21/jx_p6g5x53b643vfr7mcn2j00000gn/T/"/>
+    <property name="user.dir" value="C:\Users\ratib_000\Documents\Work\IIN\marketingRegression"/>
+    <property name="java.runtime.version" value="1.8.0_91-b15"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_91\jre\lib\endorsed"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\RATIB_~1\AppData\Local\Temp\"/>
     <property name="line.separator" value="
 "/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
-    <property name="os.name" value="Mac OS X"/>
-    <property name="classworlds.conf" value="/usr/local/apache-maven/apache-maven-3.3.9/bin/m2.conf"/>
-    <property name="sun.jnu.encoding" value="UTF-8"/>
-    <property name="java.library.path" value="/Users/alexdillon/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
-    <property name="browserName" value="chrome"/>
-    <property name="surefire.test.class.path" value="/Users/alexdillon/Development/IIN/marketingRegression/target/test-classes:/Users/alexdillon/Development/IIN/marketingRegression/target/classes:/Users/alexdillon/.m2/repository/org/seleniumhq/selenium/selenium-java/2.53.0/selenium-java-2.53.0.jar:/Users/alexdillon/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/2.53.0/selenium-chrome-driver-2.53.0.jar:/Users/alexdillon/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/2.53.0/selenium-edge-driver-2.53.0.jar:/Users/alexdillon/.m2/repository/commons-io/commons-io/2.4/commons-io-2.4.jar:/Users/alexdillon/.m2/repository/org/apache/commons/commons-exec/1.3/commons-exec-1.3.jar:/Users/alexdillon/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/2.53.0/selenium-firefox-driver-2.53.0.jar:/Users/alexdillon/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/2.53.0/selenium-ie-driver-2.53.0.jar:/Users/alexdillon/.m2/repository/net/java/dev/jna/jna/4.1.0/jna-4.1.0.jar:/Users/alexdillon/.m2/repository/net/java/dev/jna/jna-platform/4.1.0/jna-platform-4.1.0.jar:/Users/alexdillon/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/2.53.0/selenium-safari-driver-2.53.0.jar:/Users/alexdillon/.m2/repository/io/netty/netty/3.5.7.Final/netty-3.5.7.Final.jar:/Users/alexdillon/.m2/repository/org/seleniumhq/selenium/selenium-support/2.53.0/selenium-support-2.53.0.jar:/Users/alexdillon/.m2/repository/org/seleniumhq/selenium/selenium-leg-rc/2.53.0/selenium-leg-rc-2.53.0.jar:/Users/alexdillon/.m2/repository/junit/junit/4.11/junit-4.11.jar:/Users/alexdillon/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/Users/alexdillon/.m2/repository/org/testng/testng/6.9.10/testng-6.9.10.jar:/Users/alexdillon/.m2/repository/com/beust/jcommander/1.48/jcommander-1.48.jar:/Users/alexdillon/.m2/repository/org/beanshell/bsh/2.0b4/bsh-2.0b4.jar:/Users/alexdillon/.m2/repository/org/uncommons/reportng/1.1.4/reportng-1.1.4.jar:/Users/alexdillon/.m2/repository/velocity/velocity/1.4/velocity-1.4.jar:/Users/alexdillon/.m2/repository/velocity/velocity-dep/1.4/velocity-dep-1.4.jar:/Users/alexdillon/.m2/repository/com/codeborne/phantomjsdriver/1.3.0/phantomjsdriver-1.3.0.jar:/Users/alexdillon/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/2.53.0/selenium-remote-driver-2.53.0.jar:/Users/alexdillon/.m2/repository/cglib/cglib-nodep/2.1_3/cglib-nodep-2.1_3.jar:/Users/alexdillon/.m2/repository/com/google/code/gson/gson/2.3.1/gson-2.3.1.jar:/Users/alexdillon/.m2/repository/org/seleniumhq/selenium/selenium-api/2.53.0/selenium-api-2.53.0.jar:/Users/alexdillon/.m2/repository/org/apache/httpcomponents/httpclient/4.5.1/httpclient-4.5.1.jar:/Users/alexdillon/.m2/repository/org/apache/httpcomponents/httpcore/4.4.3/httpcore-4.4.3.jar:/Users/alexdillon/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/Users/alexdillon/.m2/repository/commons-codec/commons-codec/1.9/commons-codec-1.9.jar:/Users/alexdillon/.m2/repository/com/google/guava/guava/19.0/guava-19.0.jar:/Users/alexdillon/.m2/repository/org/apache/maven/surefire/surefire-testng-utils/2.12.4/surefire-testng-utils-2.12.4.jar:/Users/alexdillon/.m2/repository/org/apache/maven/surefire/surefire-grouper/2.12.4/surefire-grouper-2.12.4.jar:"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="classworlds.conf" value="C:\Users\ratib_000\workspace\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf4911363054581894478.tmp"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_91\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/Program Files/Java/jre1.8.0_91/bin/server;C:/Program Files/Java/jre1.8.0_91/bin;C:/Program Files/Java/jre1.8.0_91/lib/amd64;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\OpenCL SDK\2.0\bin\x86;C:\Program Files (x86)\Intel\OpenCL SDK\2.0\bin\x64;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Users\ratib_000\.dnx\bin;C:\Program Files\Microsoft DNX\Dnvm\;C:\Program Files\Microsoft SQL Server\120\Tools\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\110\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\120\Tools\Binn\;C:\Program Files\Microsoft SQL Server\120\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\120\Tools\Binn\ManagementStudio\;C:\Program Files (x86)\Microsoft SQL Server\120\DTS\Binn\;C:\Program Files (x86)\Windows Kits\8.1\Windows Performance Toolkit\;C:\Program Files\Git\cmd;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Program Files (x86)\DevDesktop\drush;C:\Users\ratib_000\Documents\Work\IIN\apache-maven-3.3.9\bin;C:\Ruby22\bin;C:\Users\ratib_000\AppData\Local\Programs\Python\Python35\Scripts\;C:\Users\ratib_000\AppData\Local\Programs\Python\Python35\;C:\Users\ratib_000\AppData\Local\Programs\Python\Python35-32\Scripts\;C:\Users\ratib_000\AppData\Local\Programs\Python\Python35-32\;C:\WINDOWS\system32;;."/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.class.version" value="52.0"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
-    <property name="os.version" value="10.11.5"/>
-    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
-    <property name="user.home" value="/Users/alexdillon"/>
-    <property name="user.timezone" value="America/Guayaquil"/>
-    <property name="java.awt.printerjob" value="sun.lwawt.macosx.CPrinterJob"/>
-    <property name="testEnvironment" value="test"/>
+    <property name="os.version" value="10.0"/>
+    <property name="user.home" value="C:\Users\ratib_000"/>
+    <property name="user.timezone" value="GMT-04:00"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
     <property name="java.specification.version" value="1.8"/>
-    <property name="file.encoding" value="UTF-8"/>
-    <property name="user.name" value="alexdillon"/>
-    <property name="java.class.path" value="/usr/local/apache-maven/apache-maven-3.3.9/boot/plexus-classworlds-2.5.2.jar"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="user.name" value="ratib_000"/>
+    <property name="java.class.path" value="/C:/Users/ratib_000/eclipse/testing-neon/eclipse/../../../.p2/pool/plugins/org.eclipse.m2e.maven.runtime_1.7.0.20160603-1931/jars/plexus-classworlds-2.5.2.jar"/>
     <property name="java.vm.specification.version" value="1.8"/>
     <property name="sun.arch.data.model" value="64"/>
-    <property name="java.home" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_91.jdk/Contents/Home/jre"/>
-    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher clean test -DbrowserName=chrome -DtestEnvironment=test -DforkMode=never -Dgroups=web.critical"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_91\jre"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -B install"/>
     <property name="java.specification.vendor" value="Oracle Corporation"/>
-    <property name="user.language" value="en"/>
-    <property name="awt.toolkit" value="sun.lwawt.macosx.LWCToolkit"/>
+    <property name="user.language" value="es"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
     <property name="java.vm.info" value="mixed mode"/>
     <property name="java.version" value="1.8.0_91"/>
-    <property name="java.ext.dirs" value="/Users/alexdillon/Library/Java/Extensions:/Library/Java/JavaVirtualMachines/jdk1.8.0_91.jdk/Contents/Home/jre/lib/ext:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java"/>
-    <property name="sun.boot.class.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_91.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_91.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_91.jdk/Contents/Home/jre/lib/sunrsasign.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_91.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_91.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_91.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_91.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_91.jdk/Contents/Home/jre/classes"/>
-    <property name="webdriver.chrome.driver" value="/Users/alexdillon/Development/IIN/marketingRegression/target/classes/SeleniumWebDrivers/Mac/32bit/chromedriver"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_91\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_91\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_91\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_91\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_91\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_91\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_91\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_91\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_91\jre\classes"/>
     <property name="java.vendor" value="Oracle Corporation"/>
-    <property name="maven.home" value="/usr/local/apache-maven/apache-maven-3.3.9"/>
-    <property name="localRepository" value="/Users/alexdillon/.m2/repository"/>
-    <property name="file.separator" value="/"/>
+    <property name="maven.home" value="C:\Users\ratib_000\Documents\Work\IIN\marketingRegression\EMBEDDED"/>
+    <property name="file.separator" value="\"/>
     <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
-    <property name="forkMode" value="never"/>
     <property name="sun.cpu.endian" value="little"/>
-    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
-    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
-    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
-    <property name="sun.cpu.isalist" value=""/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase classname="com.IntegrativeNutrition.Marketing.Tests.Web.AboutUsTest" name="assertAboutOurFounderIsDisplayed" time="13.101"/>
-  <testcase classname="com.IntegrativeNutrition.Marketing.Tests.Web.AboutUsTest" name="assertBannerIsDisplayed" time="1.636"/>
-  <testcase classname="com.IntegrativeNutrition.Marketing.Tests.Web.AboutUsTest" name="assertOurBoardOfAdvisorsIsDisplayed" time="1.113"/>
-  <testcase classname="com.IntegrativeNutrition.Marketing.Tests.Web.AboutUsTest" name="assertOurCoreValuesIsDisplayed" time="1.086"/>
-  <testcase classname="com.IntegrativeNutrition.Marketing.Tests.Web.AboutUsTest" name="assertOurHistoryIsDisplayed" time="0.964"/>
-  <testcase classname="com.IntegrativeNutrition.Marketing.Tests.Web.AboutUsTest" name="videoPlay" time="1.106">
-    <failure message="invalid selector: Unable to locate an element with the xpath expression css=div.play-button.center-block because of the following error:
-TypeError: Failed to execute &apos;evaluate&apos; on &apos;Document&apos;: The result is not a node set, and therefore cannot be converted to the desired type.
-  (Session info: chrome=51.0.2704.103)
-  (Driver info: chromedriver=2.22.397929 (fb72fb249a903a0b1041ea71eb4c8b3fa0d9be5a),platform=Mac OS X 10.11.5 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 49 milliseconds
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/invalid_selector_exception.html
-Build info: version: &apos;2.53.0&apos;, revision: &apos;35ae25b1534ae328c771e0856c93e187490ca824&apos;, time: &apos;2016-03-15 10:43:46&apos;
-System info: host: &apos;Alexs-MBP&apos;, ip: &apos;10.10.0.254&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.11.5&apos;, java.version: &apos;1.8.0_91&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, chrome={chromedriverVersion=2.22.397929 (fb72fb249a903a0b1041ea71eb4c8b3fa0d9be5a), userDataDir=/var/folders/21/jx_p6g5x53b643vfr7mcn2j00000gn/T/.org.chromium.Chromium.lElO1U}, takesHeapSnapshot=true, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=51.0.2704.103, platform=MAC, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
-Session ID: 8d30ba53cc855a09d9811a4df31f1910
-*** Element info: {Using=xpath, value=css=div.play-button.center-block}" type="org.openqa.selenium.InvalidSelectorException">org.openqa.selenium.InvalidSelectorException: invalid selector: Unable to locate an element with the xpath expression css=div.play-button.center-block because of the following error:
-TypeError: Failed to execute &apos;evaluate&apos; on &apos;Document&apos;: The result is not a node set, and therefore cannot be converted to the desired type.
-  (Session info: chrome=51.0.2704.103)
-  (Driver info: chromedriver=2.22.397929 (fb72fb249a903a0b1041ea71eb4c8b3fa0d9be5a),platform=Mac OS X 10.11.5 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 49 milliseconds
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/invalid_selector_exception.html
-Build info: version: &apos;2.53.0&apos;, revision: &apos;35ae25b1534ae328c771e0856c93e187490ca824&apos;, time: &apos;2016-03-15 10:43:46&apos;
-System info: host: &apos;Alexs-MBP&apos;, ip: &apos;10.10.0.254&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.11.5&apos;, java.version: &apos;1.8.0_91&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, chrome={chromedriverVersion=2.22.397929 (fb72fb249a903a0b1041ea71eb4c8b3fa0d9be5a), userDataDir=/var/folders/21/jx_p6g5x53b643vfr7mcn2j00000gn/T/.org.chromium.Chromium.lElO1U}, takesHeapSnapshot=true, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=51.0.2704.103, platform=MAC, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
-Session ID: 8d30ba53cc855a09d9811a4df31f1910
-*** Element info: {Using=xpath, value=css=div.play-button.center-block}
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
-	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
-	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:500)
-	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
-	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-	at com.sun.proxy.$Proxy27.click(Unknown Source)
-	at com.IntegrativeNutrition.Marketing.Pages.AboutUsPage.clickWatchVideo(AboutUsPage.java:82)
-	at com.IntegrativeNutrition.Marketing.Tests.Web.AboutUsTest.videoPlay(AboutUsTest.java:51)
-</failure>
-  </testcase>
-  <testcase classname="com.IntegrativeNutrition.Marketing.Tests.Web.BlogTest" name="bannerDisplayed" time="9.212"/>
-  <testcase classname="com.IntegrativeNutrition.Marketing.Tests.Web.BlogTest" name="submitFormNoPhone" time="1.006">
+  <testcase classname="com.IntegrativeNutrition.Marketing.Tests.Web.CurriculumPageTest" name="videoPlay" time="0.021">
     <failure type="java.lang.NullPointerException">java.lang.NullPointerException
-	at com.IntegrativeNutrition.Marketing.Pages.Forms.inputName(Forms.java:104)
-	at com.IntegrativeNutrition.Marketing.Tests.Web.BlogTest.submitFormNoPhone(BlogTest.java:21)
+	at com.IntegrativeNutrition.Marketing.Pages.Screens.CurriculumPage(Screens.java:89)
+	at com.IntegrativeNutrition.Marketing.Tests.Web.CurriculumPageTest.videoPlay(CurriculumPageTest.java:13)
 </failure>
+    <system-out>Configuring TestNG with: org.apache.maven.surefire.testng.conf.TestNG652Configurator@41a4555e
+null
+</system-out>
   </testcase>
-  <testcase classname="com.IntegrativeNutrition.Marketing.Tests.Web.ContactUsTest" name="assertBannerIsDisplayed" time="5.455"/>
-  <testcase classname="com.IntegrativeNutrition.Marketing.Tests.Web.ContactUsTest" name="assertContactInformationIsDisplayed" time="1.04"/>
-  <testcase classname="com.IntegrativeNutrition.Marketing.Tests.Web.ContactUsTest" name="assertLetsConnectIsDisplayed" time="0.753"/>
-  <testcase classname="com.IntegrativeNutrition.Marketing.Tests.Web.ContactUsTest" name="verifyForm" time="0.978">
+  <testcase classname="com.IntegrativeNutrition.Marketing.Tests.Web.PaidLeadTest" name="formSubmitD" time="0.004">
     <failure type="java.lang.NullPointerException">java.lang.NullPointerException
-	at com.IntegrativeNutrition.Marketing.Pages.Forms.inputName(Forms.java:104)
-	at com.IntegrativeNutrition.Marketing.Tests.Web.ContactUsTest.verifyForm(ContactUsTest.java:39)
+	at com.IntegrativeNutrition.Marketing.Pages.Screens.SampleNutritionClassPage_d(Screens.java:161)
+	at com.IntegrativeNutrition.Marketing.Tests.Web.PaidLeadTest.formSubmitD(PaidLeadTest.java:192)
+</failure>
+    <system-out>null
+</system-out>
+  </testcase>
+  <testcase classname="com.IntegrativeNutrition.Marketing.Tests.Web.AboutUsTest" name="assertAboutOurFounderIsDisplayed" time="0.002">
+    <failure type="java.lang.NullPointerException">java.lang.NullPointerException
+	at com.IntegrativeNutrition.Marketing.Pages.Screens.AboutUsPage(Screens.java:44)
+	at com.IntegrativeNutrition.Marketing.Tests.Web.AboutUsTest.assertAboutOurFounderIsDisplayed(AboutUsTest.java:29)
+</failure>
+    <system-out>null
+</system-out>
+  </testcase>
+  <testcase classname="com.IntegrativeNutrition.Marketing.Tests.Web.AboutUsTest" name="assertBannerIsDisplayed" time="0.015">
+    <failure type="java.lang.NullPointerException">java.lang.NullPointerException
+	at com.IntegrativeNutrition.Marketing.Pages.Screens.AboutUsPage(Screens.java:44)
+	at com.IntegrativeNutrition.Marketing.Tests.Web.AboutUsTest.assertBannerIsDisplayed(AboutUsTest.java:15)
 </failure>
   </testcase>
-  <testcase classname="com.IntegrativeNutrition.Marketing.Tests.Web.CurriculumPageTest" name="submitFormNoPhone" time="0">
+  <testcase classname="com.IntegrativeNutrition.Marketing.Tests.Web.AboutUsTest" name="assertOurBoardOfAdvisorsIsDisplayed" time="0.014">
+    <failure type="java.lang.NullPointerException">java.lang.NullPointerException
+	at com.IntegrativeNutrition.Marketing.Pages.Screens.AboutUsPage(Screens.java:44)
+	at com.IntegrativeNutrition.Marketing.Tests.Web.AboutUsTest.assertOurBoardOfAdvisorsIsDisplayed(AboutUsTest.java:43)
+</failure>
+  </testcase>
+  <testcase classname="com.IntegrativeNutrition.Marketing.Tests.Web.AboutUsTest" name="assertOurCoreValuesIsDisplayed" time="0.003">
+    <failure type="java.lang.NullPointerException">java.lang.NullPointerException
+	at com.IntegrativeNutrition.Marketing.Pages.Screens.AboutUsPage(Screens.java:44)
+	at com.IntegrativeNutrition.Marketing.Tests.Web.AboutUsTest.assertOurCoreValuesIsDisplayed(AboutUsTest.java:36)
+</failure>
+  </testcase>
+  <testcase classname="com.IntegrativeNutrition.Marketing.Tests.Web.AboutUsTest" name="assertOurHistoryIsDisplayed" time="0.003">
+    <failure type="java.lang.NullPointerException">java.lang.NullPointerException
+	at com.IntegrativeNutrition.Marketing.Pages.Screens.AboutUsPage(Screens.java:44)
+	at com.IntegrativeNutrition.Marketing.Tests.Web.AboutUsTest.assertOurHistoryIsDisplayed(AboutUsTest.java:22)
+</failure>
+  </testcase>
+  <testcase classname="com.IntegrativeNutrition.Marketing.Tests.Web.AboutUsTest" name="videoPlay" time="0.003">
+    <failure type="java.lang.NullPointerException">java.lang.NullPointerException
+	at com.IntegrativeNutrition.Marketing.Pages.Screens.AboutUsPage(Screens.java:44)
+	at com.IntegrativeNutrition.Marketing.Tests.Web.AboutUsTest.videoPlay(AboutUsTest.java:50)
+</failure>
+  </testcase>
+  <testcase classname="com.IntegrativeNutrition.Marketing.Tests.Web.BlogTest" name="bannerDisplayed" time="0.001">
+    <failure type="java.lang.NullPointerException">java.lang.NullPointerException
+	at com.IntegrativeNutrition.Marketing.Pages.Screens.BlogElements(Screens.java:80)
+	at com.IntegrativeNutrition.Marketing.Tests.Web.BlogTest.bannerDisplayed(BlogTest.java:13)
+</failure>
+    <system-out>null
+null
+</system-out>
+  </testcase>
+  <testcase classname="com.IntegrativeNutrition.Marketing.Tests.Web.BlogTest" name="submitFormNoPhone" time="0.006">
+    <failure type="java.lang.NullPointerException">java.lang.NullPointerException
+	at com.IntegrativeNutrition.Marketing.Pages.Screens.BlogElements(Screens.java:80)
+	at com.IntegrativeNutrition.Marketing.Tests.Web.BlogTest.submitFormNoPhone(BlogTest.java:20)
+</failure>
+  </testcase>
+  <testcase classname="com.IntegrativeNutrition.Marketing.Tests.Web.ContactUsTest" name="assertBannerIsDisplayed" time="0.002">
+    <failure type="java.lang.NullPointerException">java.lang.NullPointerException
+	at com.IntegrativeNutrition.Marketing.Pages.Screens.ContactUsPage(Screens.java:53)
+	at com.IntegrativeNutrition.Marketing.Tests.Web.ContactUsTest.assertBannerIsDisplayed(ContactUsTest.java:16)
+</failure>
+    <system-out>null
+null
+</system-out>
+  </testcase>
+  <testcase classname="com.IntegrativeNutrition.Marketing.Tests.Web.ContactUsTest" name="assertContactInformationIsDisplayed" time="0.002">
+    <failure type="java.lang.NullPointerException">java.lang.NullPointerException
+	at com.IntegrativeNutrition.Marketing.Pages.Screens.ContactUsPage(Screens.java:53)
+	at com.IntegrativeNutrition.Marketing.Tests.Web.ContactUsTest.assertContactInformationIsDisplayed(ContactUsTest.java:30)
+</failure>
+  </testcase>
+  <testcase classname="com.IntegrativeNutrition.Marketing.Tests.Web.ContactUsTest" name="assertLetsConnectIsDisplayed" time="0.001">
+    <failure type="java.lang.NullPointerException">java.lang.NullPointerException
+	at com.IntegrativeNutrition.Marketing.Pages.Screens.ContactUsPage(Screens.java:53)
+	at com.IntegrativeNutrition.Marketing.Tests.Web.ContactUsTest.assertLetsConnectIsDisplayed(ContactUsTest.java:23)
+</failure>
+  </testcase>
+  <testcase classname="com.IntegrativeNutrition.Marketing.Tests.Web.ContactUsTest" name="verifyForm" time="0.001">
+    <failure type="java.lang.NullPointerException">java.lang.NullPointerException
+	at com.IntegrativeNutrition.Marketing.Pages.Screens.ContactUsPage(Screens.java:53)
+	at com.IntegrativeNutrition.Marketing.Tests.Web.ContactUsTest.verifyForm(ContactUsTest.java:37)
+</failure>
+  </testcase>
+  <testcase classname="com.IntegrativeNutrition.Marketing.Tests.Web.CurriculumPageTest" name="submitFormNoPhone" time="0.007">
     <failure type="java.lang.NullPointerException">java.lang.NullPointerException
 	at com.IntegrativeNutrition.Marketing.Pages.Forms.inputName(Forms.java:104)
 	at com.IntegrativeNutrition.Marketing.Tests.Web.CurriculumPageTest.submitFormNoPhone(CurriculumPageTest.java:22)
 </failure>
-    <system-err>Starting ChromeDriver 2.22.397929 (fb72fb249a903a0b1041ea71eb4c8b3fa0d9be5a) on port 42581
-Only local connections are allowed.
-</system-err>
+    <system-out>null
+</system-out>
   </testcase>
   <testcase classname="com.IntegrativeNutrition.Marketing.Tests.Web.CurriculumPageTest" name="submitFormWithPhone" time="0">
     <failure type="java.lang.NullPointerException">java.lang.NullPointerException
@@ -148,337 +172,136 @@ Only local connections are allowed.
 	at com.IntegrativeNutrition.Marketing.Tests.Web.CurriculumPageTest.submitFormWithPhone(CurriculumPageTest.java:30)
 </failure>
   </testcase>
-  <testcase classname="com.IntegrativeNutrition.Marketing.Tests.Web.FooterSocialMediaTest" name="assertCorrectAmazonLinkIcon" time="4.44">
-    <failure message="expected [true] but found [false]" type="java.lang.AssertionError">java.lang.AssertionError: expected [true] but found [false]
-	at org.testng.Assert.fail(Assert.java:94)
-	at org.testng.Assert.failNotEquals(Assert.java:513)
-	at org.testng.Assert.assertTrue(Assert.java:42)
-	at org.testng.Assert.assertTrue(Assert.java:52)
-	at com.IntegrativeNutrition.Marketing.Tests.Web.FooterSocialMediaTest.assertCorrectAmazonLinkIcon(FooterSocialMediaTest.java:85)
+  <testcase classname="com.IntegrativeNutrition.Marketing.Tests.Web.FooterSocialMediaTest" name="assertCorrectAmazonLinkIcon" time="0.001">
+    <failure type="java.lang.NullPointerException">java.lang.NullPointerException
+	at com.IntegrativeNutrition.Marketing.Pages.Screens.Footer(Screens.java:35)
+	at com.IntegrativeNutrition.Marketing.Tests.Web.FooterSocialMediaTest.assertCorrectAmazonLinkIcon(FooterSocialMediaTest.java:82)
 </failure>
-    <system-err>Starting ChromeDriver 2.22.397929 (fb72fb249a903a0b1041ea71eb4c8b3fa0d9be5a) on port 33043
-Only local connections are allowed.
-</system-err>
+    <system-out>null
+null
+</system-out>
   </testcase>
-  <testcase classname="com.IntegrativeNutrition.Marketing.Tests.Web.FooterSocialMediaTest" name="assertCorrectFacebookLinkIcon" time="0.096">
-    <failure message="no such window: target window already closed
-from unknown error: web view not found
-  (Session info: chrome=51.0.2704.103)
-  (Driver info: chromedriver=2.22.397929 (fb72fb249a903a0b1041ea71eb4c8b3fa0d9be5a),platform=Mac OS X 10.11.5 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 2 milliseconds
-Build info: version: &apos;2.53.0&apos;, revision: &apos;35ae25b1534ae328c771e0856c93e187490ca824&apos;, time: &apos;2016-03-15 10:43:46&apos;
-System info: host: &apos;Alexs-MBP&apos;, ip: &apos;10.10.0.254&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.11.5&apos;, java.version: &apos;1.8.0_91&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, chrome={chromedriverVersion=2.22.397929 (fb72fb249a903a0b1041ea71eb4c8b3fa0d9be5a), userDataDir=/var/folders/21/jx_p6g5x53b643vfr7mcn2j00000gn/T/.org.chromium.Chromium.13oxpi}, takesHeapSnapshot=true, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=51.0.2704.103, platform=MAC, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
-Session ID: 7bbb5bef84c9bdb22c53dc2ef6fae93b" type="org.openqa.selenium.NoSuchWindowException">org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
-from unknown error: web view not found
-  (Session info: chrome=51.0.2704.103)
-  (Driver info: chromedriver=2.22.397929 (fb72fb249a903a0b1041ea71eb4c8b3fa0d9be5a),platform=Mac OS X 10.11.5 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 2 milliseconds
-Build info: version: &apos;2.53.0&apos;, revision: &apos;35ae25b1534ae328c771e0856c93e187490ca824&apos;, time: &apos;2016-03-15 10:43:46&apos;
-System info: host: &apos;Alexs-MBP&apos;, ip: &apos;10.10.0.254&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.11.5&apos;, java.version: &apos;1.8.0_91&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, chrome={chromedriverVersion=2.22.397929 (fb72fb249a903a0b1041ea71eb4c8b3fa0d9be5a), userDataDir=/var/folders/21/jx_p6g5x53b643vfr7mcn2j00000gn/T/.org.chromium.Chromium.13oxpi}, takesHeapSnapshot=true, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=51.0.2704.103, platform=MAC, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
-Session ID: 7bbb5bef84c9bdb22c53dc2ef6fae93b
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
-	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
-	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
-	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:316)
+  <testcase classname="com.IntegrativeNutrition.Marketing.Tests.Web.FooterSocialMediaTest" name="assertCorrectFacebookLinkIcon" time="0.002">
+    <failure type="java.lang.NullPointerException">java.lang.NullPointerException
 	at com.IntegrativeNutrition.Marketing.Pages.Screens.Footer(Screens.java:35)
 	at com.IntegrativeNutrition.Marketing.Tests.Web.FooterSocialMediaTest.assertCorrectFacebookLinkIcon(FooterSocialMediaTest.java:19)
 </failure>
   </testcase>
-  <testcase classname="com.IntegrativeNutrition.Marketing.Tests.Web.FooterSocialMediaTest" name="assertCorrectGooglePlusLinkIcon" time="0.002">
-    <failure message="no such window: target window already closed
-from unknown error: web view not found
-  (Session info: chrome=51.0.2704.103)
-  (Driver info: chromedriver=2.22.397929 (fb72fb249a903a0b1041ea71eb4c8b3fa0d9be5a),platform=Mac OS X 10.11.5 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 2 milliseconds
-Build info: version: &apos;2.53.0&apos;, revision: &apos;35ae25b1534ae328c771e0856c93e187490ca824&apos;, time: &apos;2016-03-15 10:43:46&apos;
-System info: host: &apos;Alexs-MBP&apos;, ip: &apos;10.10.0.254&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.11.5&apos;, java.version: &apos;1.8.0_91&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, chrome={chromedriverVersion=2.22.397929 (fb72fb249a903a0b1041ea71eb4c8b3fa0d9be5a), userDataDir=/var/folders/21/jx_p6g5x53b643vfr7mcn2j00000gn/T/.org.chromium.Chromium.13oxpi}, takesHeapSnapshot=true, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=51.0.2704.103, platform=MAC, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
-Session ID: 7bbb5bef84c9bdb22c53dc2ef6fae93b" type="org.openqa.selenium.NoSuchWindowException">org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
-from unknown error: web view not found
-  (Session info: chrome=51.0.2704.103)
-  (Driver info: chromedriver=2.22.397929 (fb72fb249a903a0b1041ea71eb4c8b3fa0d9be5a),platform=Mac OS X 10.11.5 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 2 milliseconds
-Build info: version: &apos;2.53.0&apos;, revision: &apos;35ae25b1534ae328c771e0856c93e187490ca824&apos;, time: &apos;2016-03-15 10:43:46&apos;
-System info: host: &apos;Alexs-MBP&apos;, ip: &apos;10.10.0.254&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.11.5&apos;, java.version: &apos;1.8.0_91&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, chrome={chromedriverVersion=2.22.397929 (fb72fb249a903a0b1041ea71eb4c8b3fa0d9be5a), userDataDir=/var/folders/21/jx_p6g5x53b643vfr7mcn2j00000gn/T/.org.chromium.Chromium.13oxpi}, takesHeapSnapshot=true, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=51.0.2704.103, platform=MAC, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
-Session ID: 7bbb5bef84c9bdb22c53dc2ef6fae93b
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
-	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
-	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
-	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:316)
+  <testcase classname="com.IntegrativeNutrition.Marketing.Tests.Web.FooterSocialMediaTest" name="assertCorrectGooglePlusLinkIcon" time="0.001">
+    <failure type="java.lang.NullPointerException">java.lang.NullPointerException
 	at com.IntegrativeNutrition.Marketing.Pages.Screens.Footer(Screens.java:35)
 	at com.IntegrativeNutrition.Marketing.Tests.Web.FooterSocialMediaTest.assertCorrectGooglePlusLinkIcon(FooterSocialMediaTest.java:73)
 </failure>
   </testcase>
-  <testcase classname="com.IntegrativeNutrition.Marketing.Tests.Web.FooterSocialMediaTest" name="assertCorrectInstagramLinkIcon" time="0.002">
-    <failure message="no such window: target window already closed
-from unknown error: web view not found
-  (Session info: chrome=51.0.2704.103)
-  (Driver info: chromedriver=2.22.397929 (fb72fb249a903a0b1041ea71eb4c8b3fa0d9be5a),platform=Mac OS X 10.11.5 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 2 milliseconds
-Build info: version: &apos;2.53.0&apos;, revision: &apos;35ae25b1534ae328c771e0856c93e187490ca824&apos;, time: &apos;2016-03-15 10:43:46&apos;
-System info: host: &apos;Alexs-MBP&apos;, ip: &apos;10.10.0.254&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.11.5&apos;, java.version: &apos;1.8.0_91&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, chrome={chromedriverVersion=2.22.397929 (fb72fb249a903a0b1041ea71eb4c8b3fa0d9be5a), userDataDir=/var/folders/21/jx_p6g5x53b643vfr7mcn2j00000gn/T/.org.chromium.Chromium.13oxpi}, takesHeapSnapshot=true, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=51.0.2704.103, platform=MAC, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
-Session ID: 7bbb5bef84c9bdb22c53dc2ef6fae93b" type="org.openqa.selenium.NoSuchWindowException">org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
-from unknown error: web view not found
-  (Session info: chrome=51.0.2704.103)
-  (Driver info: chromedriver=2.22.397929 (fb72fb249a903a0b1041ea71eb4c8b3fa0d9be5a),platform=Mac OS X 10.11.5 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 2 milliseconds
-Build info: version: &apos;2.53.0&apos;, revision: &apos;35ae25b1534ae328c771e0856c93e187490ca824&apos;, time: &apos;2016-03-15 10:43:46&apos;
-System info: host: &apos;Alexs-MBP&apos;, ip: &apos;10.10.0.254&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.11.5&apos;, java.version: &apos;1.8.0_91&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, chrome={chromedriverVersion=2.22.397929 (fb72fb249a903a0b1041ea71eb4c8b3fa0d9be5a), userDataDir=/var/folders/21/jx_p6g5x53b643vfr7mcn2j00000gn/T/.org.chromium.Chromium.13oxpi}, takesHeapSnapshot=true, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=51.0.2704.103, platform=MAC, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
-Session ID: 7bbb5bef84c9bdb22c53dc2ef6fae93b
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
-	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
-	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
-	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:316)
+  <testcase classname="com.IntegrativeNutrition.Marketing.Tests.Web.FooterSocialMediaTest" name="assertCorrectInstagramLinkIcon" time="0.001">
+    <failure type="java.lang.NullPointerException">java.lang.NullPointerException
 	at com.IntegrativeNutrition.Marketing.Pages.Screens.Footer(Screens.java:35)
 	at com.IntegrativeNutrition.Marketing.Tests.Web.FooterSocialMediaTest.assertCorrectInstagramLinkIcon(FooterSocialMediaTest.java:28)
 </failure>
   </testcase>
-  <testcase classname="com.IntegrativeNutrition.Marketing.Tests.Web.FooterSocialMediaTest" name="assertCorrectLinkedInLinkIcon" time="0.002">
-    <failure message="no such window: target window already closed
-from unknown error: web view not found
-  (Session info: chrome=51.0.2704.103)
-  (Driver info: chromedriver=2.22.397929 (fb72fb249a903a0b1041ea71eb4c8b3fa0d9be5a),platform=Mac OS X 10.11.5 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 2 milliseconds
-Build info: version: &apos;2.53.0&apos;, revision: &apos;35ae25b1534ae328c771e0856c93e187490ca824&apos;, time: &apos;2016-03-15 10:43:46&apos;
-System info: host: &apos;Alexs-MBP&apos;, ip: &apos;10.10.0.254&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.11.5&apos;, java.version: &apos;1.8.0_91&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, chrome={chromedriverVersion=2.22.397929 (fb72fb249a903a0b1041ea71eb4c8b3fa0d9be5a), userDataDir=/var/folders/21/jx_p6g5x53b643vfr7mcn2j00000gn/T/.org.chromium.Chromium.13oxpi}, takesHeapSnapshot=true, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=51.0.2704.103, platform=MAC, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
-Session ID: 7bbb5bef84c9bdb22c53dc2ef6fae93b" type="org.openqa.selenium.NoSuchWindowException">org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
-from unknown error: web view not found
-  (Session info: chrome=51.0.2704.103)
-  (Driver info: chromedriver=2.22.397929 (fb72fb249a903a0b1041ea71eb4c8b3fa0d9be5a),platform=Mac OS X 10.11.5 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 2 milliseconds
-Build info: version: &apos;2.53.0&apos;, revision: &apos;35ae25b1534ae328c771e0856c93e187490ca824&apos;, time: &apos;2016-03-15 10:43:46&apos;
-System info: host: &apos;Alexs-MBP&apos;, ip: &apos;10.10.0.254&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.11.5&apos;, java.version: &apos;1.8.0_91&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, chrome={chromedriverVersion=2.22.397929 (fb72fb249a903a0b1041ea71eb4c8b3fa0d9be5a), userDataDir=/var/folders/21/jx_p6g5x53b643vfr7mcn2j00000gn/T/.org.chromium.Chromium.13oxpi}, takesHeapSnapshot=true, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=51.0.2704.103, platform=MAC, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
-Session ID: 7bbb5bef84c9bdb22c53dc2ef6fae93b
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
-	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
-	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
-	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:316)
+  <testcase classname="com.IntegrativeNutrition.Marketing.Tests.Web.FooterSocialMediaTest" name="assertCorrectLinkedInLinkIcon" time="0.006">
+    <failure type="java.lang.NullPointerException">java.lang.NullPointerException
 	at com.IntegrativeNutrition.Marketing.Pages.Screens.Footer(Screens.java:35)
 	at com.IntegrativeNutrition.Marketing.Tests.Web.FooterSocialMediaTest.assertCorrectLinkedInLinkIcon(FooterSocialMediaTest.java:64)
 </failure>
   </testcase>
-  <testcase classname="com.IntegrativeNutrition.Marketing.Tests.Web.FooterSocialMediaTest" name="assertCorrectPinterestLinkIcon" time="0.002">
-    <failure message="no such window: target window already closed
-from unknown error: web view not found
-  (Session info: chrome=51.0.2704.103)
-  (Driver info: chromedriver=2.22.397929 (fb72fb249a903a0b1041ea71eb4c8b3fa0d9be5a),platform=Mac OS X 10.11.5 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 2 milliseconds
-Build info: version: &apos;2.53.0&apos;, revision: &apos;35ae25b1534ae328c771e0856c93e187490ca824&apos;, time: &apos;2016-03-15 10:43:46&apos;
-System info: host: &apos;Alexs-MBP&apos;, ip: &apos;10.10.0.254&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.11.5&apos;, java.version: &apos;1.8.0_91&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, chrome={chromedriverVersion=2.22.397929 (fb72fb249a903a0b1041ea71eb4c8b3fa0d9be5a), userDataDir=/var/folders/21/jx_p6g5x53b643vfr7mcn2j00000gn/T/.org.chromium.Chromium.13oxpi}, takesHeapSnapshot=true, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=51.0.2704.103, platform=MAC, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
-Session ID: 7bbb5bef84c9bdb22c53dc2ef6fae93b" type="org.openqa.selenium.NoSuchWindowException">org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
-from unknown error: web view not found
-  (Session info: chrome=51.0.2704.103)
-  (Driver info: chromedriver=2.22.397929 (fb72fb249a903a0b1041ea71eb4c8b3fa0d9be5a),platform=Mac OS X 10.11.5 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 2 milliseconds
-Build info: version: &apos;2.53.0&apos;, revision: &apos;35ae25b1534ae328c771e0856c93e187490ca824&apos;, time: &apos;2016-03-15 10:43:46&apos;
-System info: host: &apos;Alexs-MBP&apos;, ip: &apos;10.10.0.254&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.11.5&apos;, java.version: &apos;1.8.0_91&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, chrome={chromedriverVersion=2.22.397929 (fb72fb249a903a0b1041ea71eb4c8b3fa0d9be5a), userDataDir=/var/folders/21/jx_p6g5x53b643vfr7mcn2j00000gn/T/.org.chromium.Chromium.13oxpi}, takesHeapSnapshot=true, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=51.0.2704.103, platform=MAC, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
-Session ID: 7bbb5bef84c9bdb22c53dc2ef6fae93b
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
-	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
-	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
-	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:316)
+  <testcase classname="com.IntegrativeNutrition.Marketing.Tests.Web.FooterSocialMediaTest" name="assertCorrectPinterestLinkIcon" time="0.001">
+    <failure type="java.lang.NullPointerException">java.lang.NullPointerException
 	at com.IntegrativeNutrition.Marketing.Pages.Screens.Footer(Screens.java:35)
 	at com.IntegrativeNutrition.Marketing.Tests.Web.FooterSocialMediaTest.assertCorrectPinterestLinkIcon(FooterSocialMediaTest.java:55)
 </failure>
   </testcase>
-  <testcase classname="com.IntegrativeNutrition.Marketing.Tests.Web.FooterSocialMediaTest" name="assertCorrectTwitterLinkIcon" time="0.002">
-    <failure message="no such window: target window already closed
-from unknown error: web view not found
-  (Session info: chrome=51.0.2704.103)
-  (Driver info: chromedriver=2.22.397929 (fb72fb249a903a0b1041ea71eb4c8b3fa0d9be5a),platform=Mac OS X 10.11.5 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 2 milliseconds
-Build info: version: &apos;2.53.0&apos;, revision: &apos;35ae25b1534ae328c771e0856c93e187490ca824&apos;, time: &apos;2016-03-15 10:43:46&apos;
-System info: host: &apos;Alexs-MBP&apos;, ip: &apos;10.10.0.254&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.11.5&apos;, java.version: &apos;1.8.0_91&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, chrome={chromedriverVersion=2.22.397929 (fb72fb249a903a0b1041ea71eb4c8b3fa0d9be5a), userDataDir=/var/folders/21/jx_p6g5x53b643vfr7mcn2j00000gn/T/.org.chromium.Chromium.13oxpi}, takesHeapSnapshot=true, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=51.0.2704.103, platform=MAC, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
-Session ID: 7bbb5bef84c9bdb22c53dc2ef6fae93b" type="org.openqa.selenium.NoSuchWindowException">org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
-from unknown error: web view not found
-  (Session info: chrome=51.0.2704.103)
-  (Driver info: chromedriver=2.22.397929 (fb72fb249a903a0b1041ea71eb4c8b3fa0d9be5a),platform=Mac OS X 10.11.5 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 2 milliseconds
-Build info: version: &apos;2.53.0&apos;, revision: &apos;35ae25b1534ae328c771e0856c93e187490ca824&apos;, time: &apos;2016-03-15 10:43:46&apos;
-System info: host: &apos;Alexs-MBP&apos;, ip: &apos;10.10.0.254&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.11.5&apos;, java.version: &apos;1.8.0_91&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, chrome={chromedriverVersion=2.22.397929 (fb72fb249a903a0b1041ea71eb4c8b3fa0d9be5a), userDataDir=/var/folders/21/jx_p6g5x53b643vfr7mcn2j00000gn/T/.org.chromium.Chromium.13oxpi}, takesHeapSnapshot=true, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=51.0.2704.103, platform=MAC, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
-Session ID: 7bbb5bef84c9bdb22c53dc2ef6fae93b
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
-	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
-	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
-	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:316)
+  <testcase classname="com.IntegrativeNutrition.Marketing.Tests.Web.FooterSocialMediaTest" name="assertCorrectTwitterLinkIcon" time="0.004">
+    <failure type="java.lang.NullPointerException">java.lang.NullPointerException
 	at com.IntegrativeNutrition.Marketing.Pages.Screens.Footer(Screens.java:35)
 	at com.IntegrativeNutrition.Marketing.Tests.Web.FooterSocialMediaTest.assertCorrectTwitterLinkIcon(FooterSocialMediaTest.java:37)
 </failure>
   </testcase>
-  <testcase classname="com.IntegrativeNutrition.Marketing.Tests.Web.FooterSocialMediaTest" name="assertCorrectYouTubeLinkIcon" time="0.002">
-    <failure message="no such window: target window already closed
-from unknown error: web view not found
-  (Session info: chrome=51.0.2704.103)
-  (Driver info: chromedriver=2.22.397929 (fb72fb249a903a0b1041ea71eb4c8b3fa0d9be5a),platform=Mac OS X 10.11.5 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 1 milliseconds
-Build info: version: &apos;2.53.0&apos;, revision: &apos;35ae25b1534ae328c771e0856c93e187490ca824&apos;, time: &apos;2016-03-15 10:43:46&apos;
-System info: host: &apos;Alexs-MBP&apos;, ip: &apos;10.10.0.254&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.11.5&apos;, java.version: &apos;1.8.0_91&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, chrome={chromedriverVersion=2.22.397929 (fb72fb249a903a0b1041ea71eb4c8b3fa0d9be5a), userDataDir=/var/folders/21/jx_p6g5x53b643vfr7mcn2j00000gn/T/.org.chromium.Chromium.13oxpi}, takesHeapSnapshot=true, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=51.0.2704.103, platform=MAC, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
-Session ID: 7bbb5bef84c9bdb22c53dc2ef6fae93b" type="org.openqa.selenium.NoSuchWindowException">org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
-from unknown error: web view not found
-  (Session info: chrome=51.0.2704.103)
-  (Driver info: chromedriver=2.22.397929 (fb72fb249a903a0b1041ea71eb4c8b3fa0d9be5a),platform=Mac OS X 10.11.5 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 1 milliseconds
-Build info: version: &apos;2.53.0&apos;, revision: &apos;35ae25b1534ae328c771e0856c93e187490ca824&apos;, time: &apos;2016-03-15 10:43:46&apos;
-System info: host: &apos;Alexs-MBP&apos;, ip: &apos;10.10.0.254&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.11.5&apos;, java.version: &apos;1.8.0_91&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, chrome={chromedriverVersion=2.22.397929 (fb72fb249a903a0b1041ea71eb4c8b3fa0d9be5a), userDataDir=/var/folders/21/jx_p6g5x53b643vfr7mcn2j00000gn/T/.org.chromium.Chromium.13oxpi}, takesHeapSnapshot=true, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=51.0.2704.103, platform=MAC, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
-Session ID: 7bbb5bef84c9bdb22c53dc2ef6fae93b
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
-	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
-	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
-	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:316)
+  <testcase classname="com.IntegrativeNutrition.Marketing.Tests.Web.FooterSocialMediaTest" name="assertCorrectYouTubeLinkIcon" time="0.001">
+    <failure type="java.lang.NullPointerException">java.lang.NullPointerException
 	at com.IntegrativeNutrition.Marketing.Pages.Screens.Footer(Screens.java:35)
 	at com.IntegrativeNutrition.Marketing.Tests.Web.FooterSocialMediaTest.assertCorrectYouTubeLinkIcon(FooterSocialMediaTest.java:46)
 </failure>
   </testcase>
-  <testcase classname="com.IntegrativeNutrition.Marketing.Tests.Web.HeaderTest" name="assertHeaderPhoneisDisplayed" time="3.33"/>
-  <testcase classname="com.IntegrativeNutrition.Marketing.Tests.Web.HeaderTest" name="headerAboutUs" time="1.446">
-    <failure message="expected [true] but found [false]" type="java.lang.AssertionError">java.lang.AssertionError: expected [true] but found [false]
-	at org.testng.Assert.fail(Assert.java:94)
-	at org.testng.Assert.failNotEquals(Assert.java:513)
-	at org.testng.Assert.assertTrue(Assert.java:42)
-	at org.testng.Assert.assertTrue(Assert.java:52)
-	at com.IntegrativeNutrition.Marketing.Tests.Web.HeaderTest.headerAboutUs(HeaderTest.java:91)
-</failure>
-  </testcase>
-  <testcase classname="com.IntegrativeNutrition.Marketing.Tests.Web.HeaderTest" name="headerContactUs" time="6.808">
-    <failure message="expected [true] but found [false]" type="java.lang.AssertionError">java.lang.AssertionError: expected [true] but found [false]
-	at org.testng.Assert.fail(Assert.java:94)
-	at org.testng.Assert.failNotEquals(Assert.java:513)
-	at org.testng.Assert.assertTrue(Assert.java:42)
-	at org.testng.Assert.assertTrue(Assert.java:52)
-	at com.IntegrativeNutrition.Marketing.Tests.Web.HeaderTest.headerContactUs(HeaderTest.java:55)
-</failure>
-  </testcase>
-  <testcase classname="com.IntegrativeNutrition.Marketing.Tests.Web.HeaderTest" name="headerCurric" time="1.101">
-    <failure message="expected [true] but found [false]" type="java.lang.AssertionError">java.lang.AssertionError: expected [true] but found [false]
-	at org.testng.Assert.fail(Assert.java:94)
-	at org.testng.Assert.failNotEquals(Assert.java:513)
-	at org.testng.Assert.assertTrue(Assert.java:42)
-	at org.testng.Assert.assertTrue(Assert.java:52)
-	at com.IntegrativeNutrition.Marketing.Tests.Web.HeaderTest.headerCurric(HeaderTest.java:64)
-</failure>
-  </testcase>
-  <testcase classname="com.IntegrativeNutrition.Marketing.Tests.Web.HeaderTest" name="headerHealthCoach" time="1.173">
-    <failure message="expected [true] but found [false]" type="java.lang.AssertionError">java.lang.AssertionError: expected [true] but found [false]
-	at org.testng.Assert.fail(Assert.java:94)
-	at org.testng.Assert.failNotEquals(Assert.java:513)
-	at org.testng.Assert.assertTrue(Assert.java:42)
-	at org.testng.Assert.assertTrue(Assert.java:52)
-	at com.IntegrativeNutrition.Marketing.Tests.Web.HeaderTest.headerHealthCoach(HeaderTest.java:82)
-</failure>
-  </testcase>
-  <testcase classname="com.IntegrativeNutrition.Marketing.Tests.Web.HeaderTest" name="headerHomeIcon" time="2.857">
-    <failure message="expected [true] but found [false]" type="java.lang.AssertionError">java.lang.AssertionError: expected [true] but found [false]
-	at org.testng.Assert.fail(Assert.java:94)
-	at org.testng.Assert.failNotEquals(Assert.java:513)
-	at org.testng.Assert.assertTrue(Assert.java:42)
-	at org.testng.Assert.assertTrue(Assert.java:52)
-	at com.IntegrativeNutrition.Marketing.Tests.Web.HeaderTest.headerHomeIcon(HeaderTest.java:46)
-</failure>
-  </testcase>
-  <testcase classname="com.IntegrativeNutrition.Marketing.Tests.Web.HeaderTest" name="headerInfoSess" time="1.053">
-    <failure message="expected [true] but found [false]" type="java.lang.AssertionError">java.lang.AssertionError: expected [true] but found [false]
-	at org.testng.Assert.fail(Assert.java:94)
-	at org.testng.Assert.failNotEquals(Assert.java:513)
-	at org.testng.Assert.assertTrue(Assert.java:42)
-	at org.testng.Assert.assertTrue(Assert.java:52)
-	at com.IntegrativeNutrition.Marketing.Tests.Web.HeaderTest.headerInfoSess(HeaderTest.java:73)
-</failure>
-  </testcase>
-  <testcase classname="com.IntegrativeNutrition.Marketing.Tests.Web.HeaderTest" name="headerSearch" time="6.545">
-    <failure message="expected [true] but found [false]" type="java.lang.AssertionError">java.lang.AssertionError: expected [true] but found [false]
-	at org.testng.Assert.fail(Assert.java:94)
-	at org.testng.Assert.failNotEquals(Assert.java:513)
-	at org.testng.Assert.assertTrue(Assert.java:42)
-	at org.testng.Assert.assertTrue(Assert.java:52)
-	at com.IntegrativeNutrition.Marketing.Tests.Web.HeaderTest.headerSearch(HeaderTest.java:25)
-</failure>
-  </testcase>
-  <testcase classname="com.IntegrativeNutrition.Marketing.Tests.Web.HeaderTest" name="headerSearchNoResults" time="4.547">
-    <failure message="expected [true] but found [false]" type="java.lang.AssertionError">java.lang.AssertionError: expected [true] but found [false]
-	at org.testng.Assert.fail(Assert.java:94)
-	at org.testng.Assert.failNotEquals(Assert.java:513)
-	at org.testng.Assert.assertTrue(Assert.java:42)
-	at org.testng.Assert.assertTrue(Assert.java:52)
-	at com.IntegrativeNutrition.Marketing.Tests.Web.HeaderTest.headerSearchNoResults(HeaderTest.java:34)
-</failure>
-  </testcase>
-  <testcase classname="com.IntegrativeNutrition.Marketing.Tests.Web.HealthCoachingTest" name="countryFlagMatch" time="4.661">
+  <testcase classname="com.IntegrativeNutrition.Marketing.Tests.Web.HeaderTest" name="assertHeaderPhoneisDisplayed" time="0.001">
     <failure type="java.lang.NullPointerException">java.lang.NullPointerException
-	at com.IntegrativeNutrition.Marketing.Pages.Forms.inputName(Forms.java:104)
-	at com.IntegrativeNutrition.Marketing.Tests.Web.HealthCoachingTest.countryFlagMatch(HealthCoachingTest.java:40)
+	at com.IntegrativeNutrition.Marketing.Pages.Screens.Header(Screens.java:71)
+	at com.IntegrativeNutrition.Marketing.Tests.Web.HeaderTest.assertHeaderPhoneisDisplayed(HeaderTest.java:15)
 </failure>
-    <system-err>Starting ChromeDriver 2.22.397929 (fb72fb249a903a0b1041ea71eb4c8b3fa0d9be5a) on port 21651
-Only local connections are allowed.
-</system-err>
+    <system-out>null
+null
+</system-out>
   </testcase>
-  <testcase classname="com.IntegrativeNutrition.Marketing.Tests.Web.HealthCoachingTest" name="emailValidation" time="1.272">
+  <testcase classname="com.IntegrativeNutrition.Marketing.Tests.Web.HeaderTest" name="headerAboutUs" time="0.001">
     <failure type="java.lang.NullPointerException">java.lang.NullPointerException
-	at com.IntegrativeNutrition.Marketing.Pages.Forms.inputName(Forms.java:104)
-	at com.IntegrativeNutrition.Marketing.Tests.Web.HealthCoachingTest.emailValidation(HealthCoachingTest.java:29)
+	at com.IntegrativeNutrition.Marketing.Pages.Screens.Header(Screens.java:71)
+	at com.IntegrativeNutrition.Marketing.Tests.Web.HeaderTest.headerAboutUs(HeaderTest.java:88)
 </failure>
   </testcase>
-  <testcase classname="com.IntegrativeNutrition.Marketing.Tests.Web.HealthCoachingTest" name="nameValidation" time="1.118">
+  <testcase classname="com.IntegrativeNutrition.Marketing.Tests.Web.HeaderTest" name="headerContactUs" time="0.002">
     <failure type="java.lang.NullPointerException">java.lang.NullPointerException
-	at com.IntegrativeNutrition.Marketing.Pages.Forms.inputEmail(Forms.java:109)
-	at com.IntegrativeNutrition.Marketing.Tests.Web.HealthCoachingTest.nameValidation(HealthCoachingTest.java:18)
+	at com.IntegrativeNutrition.Marketing.Pages.Screens.Header(Screens.java:71)
+	at com.IntegrativeNutrition.Marketing.Tests.Web.HeaderTest.headerContactUs(HeaderTest.java:52)
 </failure>
   </testcase>
-  <testcase classname="com.IntegrativeNutrition.Marketing.Tests.Web.HealthCoachingTest" name="submitFormNoPhone" time="0">
+  <testcase classname="com.IntegrativeNutrition.Marketing.Tests.Web.HeaderTest" name="headerCurric" time="0.004">
+    <failure type="java.lang.NullPointerException">java.lang.NullPointerException
+	at com.IntegrativeNutrition.Marketing.Pages.Screens.Header(Screens.java:71)
+	at com.IntegrativeNutrition.Marketing.Tests.Web.HeaderTest.headerCurric(HeaderTest.java:61)
+</failure>
+  </testcase>
+  <testcase classname="com.IntegrativeNutrition.Marketing.Tests.Web.HeaderTest" name="headerHealthCoach" time="0.001">
+    <failure type="java.lang.NullPointerException">java.lang.NullPointerException
+	at com.IntegrativeNutrition.Marketing.Pages.Screens.Header(Screens.java:71)
+	at com.IntegrativeNutrition.Marketing.Tests.Web.HeaderTest.headerHealthCoach(HeaderTest.java:79)
+</failure>
+  </testcase>
+  <testcase classname="com.IntegrativeNutrition.Marketing.Tests.Web.HeaderTest" name="headerHomeIcon" time="0.001">
+    <failure type="java.lang.NullPointerException">java.lang.NullPointerException
+	at com.IntegrativeNutrition.Marketing.Pages.Screens.Header(Screens.java:71)
+	at com.IntegrativeNutrition.Marketing.Tests.Web.HeaderTest.headerHomeIcon(HeaderTest.java:43)
+</failure>
+  </testcase>
+  <testcase classname="com.IntegrativeNutrition.Marketing.Tests.Web.HeaderTest" name="headerInfoSess" time="0.001">
+    <failure type="java.lang.NullPointerException">java.lang.NullPointerException
+	at com.IntegrativeNutrition.Marketing.Pages.Screens.Header(Screens.java:71)
+	at com.IntegrativeNutrition.Marketing.Tests.Web.HeaderTest.headerInfoSess(HeaderTest.java:70)
+</failure>
+  </testcase>
+  <testcase classname="com.IntegrativeNutrition.Marketing.Tests.Web.HeaderTest" name="headerSearch" time="0.001">
+    <failure type="java.lang.NullPointerException">java.lang.NullPointerException
+	at com.IntegrativeNutrition.Marketing.Pages.Screens.Header(Screens.java:71)
+	at com.IntegrativeNutrition.Marketing.Tests.Web.HeaderTest.headerSearch(HeaderTest.java:22)
+</failure>
+  </testcase>
+  <testcase classname="com.IntegrativeNutrition.Marketing.Tests.Web.HeaderTest" name="headerSearchNoResults" time="0.001">
+    <failure type="java.lang.NullPointerException">java.lang.NullPointerException
+	at com.IntegrativeNutrition.Marketing.Pages.Screens.Header(Screens.java:71)
+	at com.IntegrativeNutrition.Marketing.Tests.Web.HeaderTest.headerSearchNoResults(HeaderTest.java:31)
+</failure>
+  </testcase>
+  <testcase classname="com.IntegrativeNutrition.Marketing.Tests.Web.HealthCoachingTest" name="countryFlagMatch" time="0.001">
+    <failure type="java.lang.NullPointerException">java.lang.NullPointerException
+	at com.IntegrativeNutrition.Marketing.Pages.Screens.HealthCoachingPage(Screens.java:116)
+	at com.IntegrativeNutrition.Marketing.Tests.Web.HealthCoachingTest.countryFlagMatch(HealthCoachingTest.java:38)
+</failure>
+    <system-out>null
+null
+</system-out>
+  </testcase>
+  <testcase classname="com.IntegrativeNutrition.Marketing.Tests.Web.HealthCoachingTest" name="emailValidation" time="0.001">
+    <failure type="java.lang.NullPointerException">java.lang.NullPointerException
+	at com.IntegrativeNutrition.Marketing.Pages.Screens.HealthCoachingPage(Screens.java:116)
+	at com.IntegrativeNutrition.Marketing.Tests.Web.HealthCoachingTest.emailValidation(HealthCoachingTest.java:27)
+</failure>
+  </testcase>
+  <testcase classname="com.IntegrativeNutrition.Marketing.Tests.Web.HealthCoachingTest" name="nameValidation" time="0.002">
+    <failure type="java.lang.NullPointerException">java.lang.NullPointerException
+	at com.IntegrativeNutrition.Marketing.Pages.Screens.HealthCoachingPage(Screens.java:116)
+	at com.IntegrativeNutrition.Marketing.Tests.Web.HealthCoachingTest.nameValidation(HealthCoachingTest.java:16)
+</failure>
+  </testcase>
+  <testcase classname="com.IntegrativeNutrition.Marketing.Tests.Web.HealthCoachingTest" name="submitFormNoPhone" time="0.001">
     <failure type="java.lang.NullPointerException">java.lang.NullPointerException
 	at com.IntegrativeNutrition.Marketing.Pages.Forms.inputName(Forms.java:104)
 	at com.IntegrativeNutrition.Marketing.Tests.Web.HealthCoachingTest.submitFormNoPhone(HealthCoachingTest.java:68)
@@ -490,246 +313,168 @@ Only local connections are allowed.
 	at com.IntegrativeNutrition.Marketing.Tests.Web.HealthCoachingTest.submitFormWithPhone(HealthCoachingTest.java:76)
 </failure>
   </testcase>
-  <testcase classname="com.IntegrativeNutrition.Marketing.Tests.Web.HealthCoachingTest" name="videoPlay" time="1.109">
-    <failure message="invalid selector: An invalid or illegal selector was specified
-  (Session info: chrome=51.0.2704.103)
-  (Driver info: chromedriver=2.22.397929 (fb72fb249a903a0b1041ea71eb4c8b3fa0d9be5a),platform=Mac OS X 10.11.5 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 14 milliseconds
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/invalid_selector_exception.html
-Build info: version: &apos;2.53.0&apos;, revision: &apos;35ae25b1534ae328c771e0856c93e187490ca824&apos;, time: &apos;2016-03-15 10:43:46&apos;
-System info: host: &apos;Alexs-MBP&apos;, ip: &apos;10.10.0.254&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.11.5&apos;, java.version: &apos;1.8.0_91&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, chrome={chromedriverVersion=2.22.397929 (fb72fb249a903a0b1041ea71eb4c8b3fa0d9be5a), userDataDir=/var/folders/21/jx_p6g5x53b643vfr7mcn2j00000gn/T/.org.chromium.Chromium.JYXgQj}, takesHeapSnapshot=true, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=51.0.2704.103, platform=MAC, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
-Session ID: 618e5c05062df6f925a09b42b79e54e4
-*** Element info: {Using=css selector, value=css=div.play-button.center-block}" type="org.openqa.selenium.InvalidSelectorException">org.openqa.selenium.InvalidSelectorException: invalid selector: An invalid or illegal selector was specified
-  (Session info: chrome=51.0.2704.103)
-  (Driver info: chromedriver=2.22.397929 (fb72fb249a903a0b1041ea71eb4c8b3fa0d9be5a),platform=Mac OS X 10.11.5 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 14 milliseconds
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/invalid_selector_exception.html
-Build info: version: &apos;2.53.0&apos;, revision: &apos;35ae25b1534ae328c771e0856c93e187490ca824&apos;, time: &apos;2016-03-15 10:43:46&apos;
-System info: host: &apos;Alexs-MBP&apos;, ip: &apos;10.10.0.254&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.11.5&apos;, java.version: &apos;1.8.0_91&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, chrome={chromedriverVersion=2.22.397929 (fb72fb249a903a0b1041ea71eb4c8b3fa0d9be5a), userDataDir=/var/folders/21/jx_p6g5x53b643vfr7mcn2j00000gn/T/.org.chromium.Chromium.JYXgQj}, takesHeapSnapshot=true, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=51.0.2704.103, platform=MAC, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
-Session ID: 618e5c05062df6f925a09b42b79e54e4
-*** Element info: {Using=css selector, value=css=div.play-button.center-block}
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
-	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
-	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementByCssSelector(RemoteWebDriver.java:492)
-	at org.openqa.selenium.By$ByCssSelector.findElement(By.java:430)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
-	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-	at com.sun.proxy.$Proxy27.click(Unknown Source)
-	at com.IntegrativeNutrition.Marketing.Pages.HealthCoachingPage.clickWatchVideo(HealthCoachingPage.java:61)
-	at com.IntegrativeNutrition.Marketing.Tests.Web.HealthCoachingTest.videoPlay(HealthCoachingTest.java:60)
-</failure>
-  </testcase>
-  <testcase classname="com.IntegrativeNutrition.Marketing.Tests.Web.HomePageTest" name="assertBannerIsDisplayed" time="3.049"/>
-  <testcase classname="com.IntegrativeNutrition.Marketing.Tests.Web.HomePageTest" name="assertSampleProgramButtonTriggersScroll" time="1.311">
-    <failure message="expected [true] but found [false]" type="java.lang.AssertionError">java.lang.AssertionError: expected [true] but found [false]
-	at org.testng.Assert.fail(Assert.java:94)
-	at org.testng.Assert.failNotEquals(Assert.java:513)
-	at org.testng.Assert.assertTrue(Assert.java:42)
-	at org.testng.Assert.assertTrue(Assert.java:52)
-	at com.IntegrativeNutrition.Marketing.Tests.Web.HomePageTest.assertSampleProgramButtonTriggersScroll(HomePageTest.java:24)
-</failure>
-  </testcase>
-  <testcase classname="com.IntegrativeNutrition.Marketing.Tests.Web.HomePageTest" name="videoPlay" time="116.01">
-    <failure message="expected [true] but found [false]" type="java.lang.AssertionError">java.lang.AssertionError: expected [true] but found [false]
-	at org.testng.Assert.fail(Assert.java:94)
-	at org.testng.Assert.failNotEquals(Assert.java:513)
-	at org.testng.Assert.assertTrue(Assert.java:42)
-	at org.testng.Assert.assertTrue(Assert.java:52)
-	at com.IntegrativeNutrition.Marketing.Tests.Web.HomePageTest.videoPlay(HomePageTest.java:32)
-</failure>
-  </testcase>
-  <testcase classname="com.IntegrativeNutrition.Marketing.Tests.Web.InfoSessionTest" name="countryFlagMatch" time="4.661">
+  <testcase classname="com.IntegrativeNutrition.Marketing.Tests.Web.HealthCoachingTest" name="videoPlay" time="0">
     <failure type="java.lang.NullPointerException">java.lang.NullPointerException
-	at com.IntegrativeNutrition.Marketing.Pages.Forms.inputName(Forms.java:104)
-	at com.IntegrativeNutrition.Marketing.Tests.Web.InfoSessionTest.countryFlagMatch(InfoSessionTest.java:37)
-</failure>
-    <system-err>Starting ChromeDriver 2.22.397929 (fb72fb249a903a0b1041ea71eb4c8b3fa0d9be5a) on port 42293
-Only local connections are allowed.
-</system-err>
-  </testcase>
-  <testcase classname="com.IntegrativeNutrition.Marketing.Tests.Web.InfoSessionTest" name="emailValidation" time="1.931">
-    <failure type="java.lang.NullPointerException">java.lang.NullPointerException
-	at com.IntegrativeNutrition.Marketing.Pages.Forms.inputName(Forms.java:104)
-	at com.IntegrativeNutrition.Marketing.Tests.Web.InfoSessionTest.emailValidation(InfoSessionTest.java:26)
+	at com.IntegrativeNutrition.Marketing.Pages.Screens.HealthCoachingPage(Screens.java:116)
+	at com.IntegrativeNutrition.Marketing.Tests.Web.HealthCoachingTest.videoPlay(HealthCoachingTest.java:59)
 </failure>
   </testcase>
-  <testcase classname="com.IntegrativeNutrition.Marketing.Tests.Web.InfoSessionTest" name="nameValidation" time="1.738">
+  <testcase classname="com.IntegrativeNutrition.Marketing.Tests.Web.HomePageTest" name="videoPlay" time="0.001">
     <failure type="java.lang.NullPointerException">java.lang.NullPointerException
-	at com.IntegrativeNutrition.Marketing.Pages.Forms.inputEmail(Forms.java:109)
-	at com.IntegrativeNutrition.Marketing.Tests.Web.InfoSessionTest.nameValidation(InfoSessionTest.java:16)
+	at com.IntegrativeNutrition.Marketing.Pages.Screens.HomePage(Screens.java:62)
+	at com.IntegrativeNutrition.Marketing.Tests.Web.HomePageTest.videoPlay(HomePageTest.java:29)
+</failure>
+    <system-out>null
+null
+</system-out>
+  </testcase>
+  <testcase classname="com.IntegrativeNutrition.Marketing.Tests.Web.InfoSessionTest" name="countryFlagMatch" time="0.005">
+    <failure type="java.lang.NullPointerException">java.lang.NullPointerException
+	at com.IntegrativeNutrition.Marketing.Pages.Screens.InfoSessionsPage(Screens.java:125)
+	at com.IntegrativeNutrition.Marketing.Tests.Web.InfoSessionTest.countryFlagMatch(InfoSessionTest.java:35)
+</failure>
+    <system-out>null
+null
+</system-out>
+  </testcase>
+  <testcase classname="com.IntegrativeNutrition.Marketing.Tests.Web.InfoSessionTest" name="emailValidation" time="0.001">
+    <failure type="java.lang.NullPointerException">java.lang.NullPointerException
+	at com.IntegrativeNutrition.Marketing.Pages.Screens.InfoSessionsPage(Screens.java:125)
+	at com.IntegrativeNutrition.Marketing.Tests.Web.InfoSessionTest.emailValidation(InfoSessionTest.java:24)
 </failure>
   </testcase>
-  <testcase classname="com.IntegrativeNutrition.Marketing.Tests.Web.PaidLeadTest" name="assertBannerIsDisplayed" time="5.591">
+  <testcase classname="com.IntegrativeNutrition.Marketing.Tests.Web.InfoSessionTest" name="nameValidation" time="0.002">
     <failure type="java.lang.NullPointerException">java.lang.NullPointerException
-	at com.IntegrativeNutrition.Marketing.Pages.PaidLeadGen.&lt;init&gt;(PaidLeadGen.java:40)
-	at com.IntegrativeNutrition.Marketing.Pages.Screens.SampleNutritionClassPage(Screens.java:145)
+	at com.IntegrativeNutrition.Marketing.Pages.Screens.InfoSessionsPage(Screens.java:125)
+	at com.IntegrativeNutrition.Marketing.Tests.Web.InfoSessionTest.nameValidation(InfoSessionTest.java:14)
+</failure>
+  </testcase>
+  <testcase classname="com.IntegrativeNutrition.Marketing.Tests.Web.PaidLeadTest" name="assertBannerIsDisplayed" time="0.001">
+    <failure type="java.lang.NullPointerException">java.lang.NullPointerException
+	at com.IntegrativeNutrition.Marketing.Pages.Screens.SampleNutritionClassPage(Screens.java:143)
 	at com.IntegrativeNutrition.Marketing.Tests.Web.PaidLeadTest.assertBannerIsDisplayed(PaidLeadTest.java:21)
 </failure>
-    <system-err>Starting ChromeDriver 2.22.397929 (fb72fb249a903a0b1041ea71eb4c8b3fa0d9be5a) on port 15736
-Only local connections are allowed.
-</system-err>
+    <system-out>null
+</system-out>
   </testcase>
-  <testcase classname="com.IntegrativeNutrition.Marketing.Tests.Web.PaidLeadTest" name="bannerDisplayedD" time="1.505">
+  <testcase classname="com.IntegrativeNutrition.Marketing.Tests.Web.PaidLeadTest" name="bannerDisplayedD" time="0.001">
     <failure type="java.lang.NullPointerException">java.lang.NullPointerException
-	at com.IntegrativeNutrition.Marketing.Pages.PaidLeadGen.&lt;init&gt;(PaidLeadGen.java:40)
-	at com.IntegrativeNutrition.Marketing.Pages.Screens.SampleNutritionClassPage_d(Screens.java:163)
+	at com.IntegrativeNutrition.Marketing.Pages.Screens.SampleNutritionClassPage_d(Screens.java:161)
 	at com.IntegrativeNutrition.Marketing.Tests.Web.PaidLeadTest.bannerDisplayedD(PaidLeadTest.java:147)
 </failure>
   </testcase>
-  <testcase classname="com.IntegrativeNutrition.Marketing.Tests.Web.PaidLeadTest" name="bannerDisplayedR" time="1.246">
+  <testcase classname="com.IntegrativeNutrition.Marketing.Tests.Web.PaidLeadTest" name="bannerDisplayedR" time="0.002">
     <failure type="java.lang.NullPointerException">java.lang.NullPointerException
-	at com.IntegrativeNutrition.Marketing.Pages.PaidLeadGen.&lt;init&gt;(PaidLeadGen.java:40)
-	at com.IntegrativeNutrition.Marketing.Pages.Screens.SampleNutritionClassPage_r(Screens.java:154)
+	at com.IntegrativeNutrition.Marketing.Pages.Screens.SampleNutritionClassPage_r(Screens.java:152)
 	at com.IntegrativeNutrition.Marketing.Tests.Web.PaidLeadTest.bannerDisplayedR(PaidLeadTest.java:86)
 </failure>
   </testcase>
-  <testcase classname="com.IntegrativeNutrition.Marketing.Tests.Web.PaidLeadTest" name="countryFlagMatch" time="1.079">
+  <testcase classname="com.IntegrativeNutrition.Marketing.Tests.Web.PaidLeadTest" name="countryFlagMatch" time="0">
     <failure type="java.lang.NullPointerException">java.lang.NullPointerException
-	at com.IntegrativeNutrition.Marketing.Pages.PaidLeadGen.&lt;init&gt;(PaidLeadGen.java:40)
-	at com.IntegrativeNutrition.Marketing.Pages.Screens.SampleNutritionClassPage(Screens.java:145)
+	at com.IntegrativeNutrition.Marketing.Pages.Screens.SampleNutritionClassPage(Screens.java:143)
 	at com.IntegrativeNutrition.Marketing.Tests.Web.PaidLeadTest.countryFlagMatch(PaidLeadTest.java:51)
 </failure>
   </testcase>
-  <testcase classname="com.IntegrativeNutrition.Marketing.Tests.Web.PaidLeadTest" name="countryFlagMatchD" time="0.682">
+  <testcase classname="com.IntegrativeNutrition.Marketing.Tests.Web.PaidLeadTest" name="countryFlagMatchD" time="0.001">
     <failure type="java.lang.NullPointerException">java.lang.NullPointerException
-	at com.IntegrativeNutrition.Marketing.Pages.PaidLeadGen.&lt;init&gt;(PaidLeadGen.java:40)
-	at com.IntegrativeNutrition.Marketing.Pages.Screens.SampleNutritionClassPage_d(Screens.java:163)
+	at com.IntegrativeNutrition.Marketing.Pages.Screens.SampleNutritionClassPage_d(Screens.java:161)
 	at com.IntegrativeNutrition.Marketing.Tests.Web.PaidLeadTest.countryFlagMatchD(PaidLeadTest.java:176)
 </failure>
   </testcase>
-  <testcase classname="com.IntegrativeNutrition.Marketing.Tests.Web.PaidLeadTest" name="countryFlagMatchR" time="0.924">
+  <testcase classname="com.IntegrativeNutrition.Marketing.Tests.Web.PaidLeadTest" name="countryFlagMatchR" time="0.001">
     <failure type="java.lang.NullPointerException">java.lang.NullPointerException
-	at com.IntegrativeNutrition.Marketing.Pages.PaidLeadGen.&lt;init&gt;(PaidLeadGen.java:40)
-	at com.IntegrativeNutrition.Marketing.Pages.Screens.SampleNutritionClassPage_r(Screens.java:154)
+	at com.IntegrativeNutrition.Marketing.Pages.Screens.SampleNutritionClassPage_r(Screens.java:152)
 	at com.IntegrativeNutrition.Marketing.Tests.Web.PaidLeadTest.countryFlagMatchR(PaidLeadTest.java:115)
 </failure>
   </testcase>
-  <testcase classname="com.IntegrativeNutrition.Marketing.Tests.Web.PaidLeadTest" name="emailValidation" time="0.655">
+  <testcase classname="com.IntegrativeNutrition.Marketing.Tests.Web.PaidLeadTest" name="emailValidation" time="0.001">
     <failure type="java.lang.NullPointerException">java.lang.NullPointerException
-	at com.IntegrativeNutrition.Marketing.Pages.PaidLeadGen.&lt;init&gt;(PaidLeadGen.java:40)
-	at com.IntegrativeNutrition.Marketing.Pages.Screens.SampleNutritionClassPage(Screens.java:145)
+	at com.IntegrativeNutrition.Marketing.Pages.Screens.SampleNutritionClassPage(Screens.java:143)
 	at com.IntegrativeNutrition.Marketing.Tests.Web.PaidLeadTest.emailValidation(PaidLeadTest.java:41)
 </failure>
   </testcase>
-  <testcase classname="com.IntegrativeNutrition.Marketing.Tests.Web.PaidLeadTest" name="emailValidationD" time="0.745">
+  <testcase classname="com.IntegrativeNutrition.Marketing.Tests.Web.PaidLeadTest" name="emailValidationD" time="0.002">
     <failure type="java.lang.NullPointerException">java.lang.NullPointerException
-	at com.IntegrativeNutrition.Marketing.Pages.PaidLeadGen.&lt;init&gt;(PaidLeadGen.java:40)
-	at com.IntegrativeNutrition.Marketing.Pages.Screens.SampleNutritionClassPage_d(Screens.java:163)
+	at com.IntegrativeNutrition.Marketing.Pages.Screens.SampleNutritionClassPage_d(Screens.java:161)
 	at com.IntegrativeNutrition.Marketing.Tests.Web.PaidLeadTest.emailValidationD(PaidLeadTest.java:166)
 </failure>
   </testcase>
-  <testcase classname="com.IntegrativeNutrition.Marketing.Tests.Web.PaidLeadTest" name="emailValidationR" time="0.723">
+  <testcase classname="com.IntegrativeNutrition.Marketing.Tests.Web.PaidLeadTest" name="emailValidationR" time="0.001">
     <failure type="java.lang.NullPointerException">java.lang.NullPointerException
-	at com.IntegrativeNutrition.Marketing.Pages.PaidLeadGen.&lt;init&gt;(PaidLeadGen.java:40)
-	at com.IntegrativeNutrition.Marketing.Pages.Screens.SampleNutritionClassPage_r(Screens.java:154)
+	at com.IntegrativeNutrition.Marketing.Pages.Screens.SampleNutritionClassPage_r(Screens.java:152)
 	at com.IntegrativeNutrition.Marketing.Tests.Web.PaidLeadTest.emailValidationR(PaidLeadTest.java:106)
 </failure>
   </testcase>
-  <testcase classname="com.IntegrativeNutrition.Marketing.Tests.Web.PaidLeadTest" name="formSubmit" time="0.695">
+  <testcase classname="com.IntegrativeNutrition.Marketing.Tests.Web.PaidLeadTest" name="formSubmit" time="0">
     <failure type="java.lang.NullPointerException">java.lang.NullPointerException
-	at com.IntegrativeNutrition.Marketing.Pages.PaidLeadGen.&lt;init&gt;(PaidLeadGen.java:40)
-	at com.IntegrativeNutrition.Marketing.Pages.Screens.SampleNutritionClassPage(Screens.java:145)
+	at com.IntegrativeNutrition.Marketing.Pages.Screens.SampleNutritionClassPage(Screens.java:143)
 	at com.IntegrativeNutrition.Marketing.Tests.Web.PaidLeadTest.formSubmit(PaidLeadTest.java:70)
 </failure>
   </testcase>
-  <testcase classname="com.IntegrativeNutrition.Marketing.Tests.Web.PaidLeadTest" name="formSubmitR" time="1.05">
+  <testcase classname="com.IntegrativeNutrition.Marketing.Tests.Web.PaidLeadTest" name="formSubmitR" time="0.001">
     <failure type="java.lang.NullPointerException">java.lang.NullPointerException
-	at com.IntegrativeNutrition.Marketing.Pages.PaidLeadGen.&lt;init&gt;(PaidLeadGen.java:40)
-	at com.IntegrativeNutrition.Marketing.Pages.Screens.SampleNutritionClassPage_r(Screens.java:154)
+	at com.IntegrativeNutrition.Marketing.Pages.Screens.SampleNutritionClassPage_r(Screens.java:152)
 	at com.IntegrativeNutrition.Marketing.Tests.Web.PaidLeadTest.formSubmitR(PaidLeadTest.java:133)
 </failure>
   </testcase>
-  <testcase classname="com.IntegrativeNutrition.Marketing.Tests.Web.PaidLeadTest" name="nameValidation" time="0.568">
+  <testcase classname="com.IntegrativeNutrition.Marketing.Tests.Web.PaidLeadTest" name="nameValidation" time="0.001">
     <failure type="java.lang.NullPointerException">java.lang.NullPointerException
-	at com.IntegrativeNutrition.Marketing.Pages.PaidLeadGen.&lt;init&gt;(PaidLeadGen.java:40)
-	at com.IntegrativeNutrition.Marketing.Pages.Screens.SampleNutritionClassPage(Screens.java:145)
+	at com.IntegrativeNutrition.Marketing.Pages.Screens.SampleNutritionClassPage(Screens.java:143)
 	at com.IntegrativeNutrition.Marketing.Tests.Web.PaidLeadTest.nameValidation(PaidLeadTest.java:30)
 </failure>
   </testcase>
-  <testcase classname="com.IntegrativeNutrition.Marketing.Tests.Web.PaidLeadTest" name="nameValidationD" time="0.859">
+  <testcase classname="com.IntegrativeNutrition.Marketing.Tests.Web.PaidLeadTest" name="nameValidationD" time="0.001">
     <failure type="java.lang.NullPointerException">java.lang.NullPointerException
-	at com.IntegrativeNutrition.Marketing.Pages.PaidLeadGen.&lt;init&gt;(PaidLeadGen.java:40)
-	at com.IntegrativeNutrition.Marketing.Pages.Screens.SampleNutritionClassPage_d(Screens.java:163)
+	at com.IntegrativeNutrition.Marketing.Pages.Screens.SampleNutritionClassPage_d(Screens.java:161)
 	at com.IntegrativeNutrition.Marketing.Tests.Web.PaidLeadTest.nameValidationD(PaidLeadTest.java:156)
 </failure>
   </testcase>
-  <testcase classname="com.IntegrativeNutrition.Marketing.Tests.Web.PaidLeadTest" name="nameValidationR" time="0.713">
+  <testcase classname="com.IntegrativeNutrition.Marketing.Tests.Web.PaidLeadTest" name="nameValidationR" time="0.017">
     <failure type="java.lang.NullPointerException">java.lang.NullPointerException
-	at com.IntegrativeNutrition.Marketing.Pages.PaidLeadGen.&lt;init&gt;(PaidLeadGen.java:40)
-	at com.IntegrativeNutrition.Marketing.Pages.Screens.SampleNutritionClassPage_r(Screens.java:154)
+	at com.IntegrativeNutrition.Marketing.Pages.Screens.SampleNutritionClassPage_r(Screens.java:152)
 	at com.IntegrativeNutrition.Marketing.Tests.Web.PaidLeadTest.nameValidationR(PaidLeadTest.java:95)
 </failure>
   </testcase>
-  <testcase classname="com.IntegrativeNutrition.Marketing.Tests.Web.SampleClassModuleTest" name="bannerDisplayed" time="3.185"/>
-  <testcase classname="com.IntegrativeNutrition.Marketing.Tests.Web.SampleClassModuleTest" name="videoPlay" time="61.617">
-    <failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;.//*[@id=&apos;block-system-main&apos;]/div[3]/div/div/div/div[5]/div/div/div[1]/div/div&quot;}
-  (Session info: chrome=51.0.2704.103)
-  (Driver info: chromedriver=2.22.397929 (fb72fb249a903a0b1041ea71eb4c8b3fa0d9be5a),platform=Mac OS X 10.11.5 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 60.04 seconds
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
-Build info: version: &apos;2.53.0&apos;, revision: &apos;35ae25b1534ae328c771e0856c93e187490ca824&apos;, time: &apos;2016-03-15 10:43:46&apos;
-System info: host: &apos;Alexs-MBP&apos;, ip: &apos;10.10.0.254&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.11.5&apos;, java.version: &apos;1.8.0_91&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, chrome={chromedriverVersion=2.22.397929 (fb72fb249a903a0b1041ea71eb4c8b3fa0d9be5a), userDataDir=/var/folders/21/jx_p6g5x53b643vfr7mcn2j00000gn/T/.org.chromium.Chromium.JYRmCm}, takesHeapSnapshot=true, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=51.0.2704.103, platform=MAC, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
-Session ID: a8caadab9393d0a80ff66c3d054553f3
-*** Element info: {Using=xpath, value=.//*[@id=&apos;block-system-main&apos;]/div[3]/div/div/div/div[5]/div/div/div[1]/div/div}" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;.//*[@id=&apos;block-system-main&apos;]/div[3]/div/div/div/div[5]/div/div/div[1]/div/div&quot;}
-  (Session info: chrome=51.0.2704.103)
-  (Driver info: chromedriver=2.22.397929 (fb72fb249a903a0b1041ea71eb4c8b3fa0d9be5a),platform=Mac OS X 10.11.5 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 60.04 seconds
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
-Build info: version: &apos;2.53.0&apos;, revision: &apos;35ae25b1534ae328c771e0856c93e187490ca824&apos;, time: &apos;2016-03-15 10:43:46&apos;
-System info: host: &apos;Alexs-MBP&apos;, ip: &apos;10.10.0.254&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.11.5&apos;, java.version: &apos;1.8.0_91&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, chrome={chromedriverVersion=2.22.397929 (fb72fb249a903a0b1041ea71eb4c8b3fa0d9be5a), userDataDir=/var/folders/21/jx_p6g5x53b643vfr7mcn2j00000gn/T/.org.chromium.Chromium.JYRmCm}, takesHeapSnapshot=true, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=51.0.2704.103, platform=MAC, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
-Session ID: a8caadab9393d0a80ff66c3d054553f3
-*** Element info: {Using=xpath, value=.//*[@id=&apos;block-system-main&apos;]/div[3]/div/div/div/div[5]/div/div/div[1]/div/div}
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
-	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
-	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:500)
-	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
-	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-	at com.sun.proxy.$Proxy27.click(Unknown Source)
-	at com.IntegrativeNutrition.Marketing.Pages.SampleClassModulePage.clickWelcomeVideo(SampleClassModulePage.java:57)
-	at com.IntegrativeNutrition.Marketing.Tests.Web.SampleClassModuleTest.videoPlay(SampleClassModuleTest.java:23)
+  <testcase classname="com.IntegrativeNutrition.Marketing.Tests.Web.SampleClassModuleTest" name="bannerDisplayed" time="0">
+    <failure type="java.lang.NullPointerException">java.lang.NullPointerException
+	at com.IntegrativeNutrition.Marketing.Pages.Screens.SampleClassModulePage(Screens.java:134)
+	at com.IntegrativeNutrition.Marketing.Tests.Web.SampleClassModuleTest.bannerDisplayed(SampleClassModuleTest.java:13)
+</failure>
+    <system-out>null
+null
+</system-out>
+  </testcase>
+  <testcase classname="com.IntegrativeNutrition.Marketing.Tests.Web.SampleClassModuleTest" name="videoPlay" time="0">
+    <failure type="java.lang.NullPointerException">java.lang.NullPointerException
+	at com.IntegrativeNutrition.Marketing.Pages.Screens.SampleClassModulePage(Screens.java:134)
+	at com.IntegrativeNutrition.Marketing.Tests.Web.SampleClassModuleTest.videoPlay(SampleClassModuleTest.java:21)
 </failure>
   </testcase>
-  <testcase classname="com.IntegrativeNutrition.Marketing.Tests.Web.ThankYouPagesTest" name="assertBannerIsDisplayed" time="3.343"/>
-  <testcase classname="com.IntegrativeNutrition.Marketing.Tests.Web.ThankYouPagesTest" name="guideTyPlay" time="123.286">
-    <failure message="expected [true] but found [false]" type="java.lang.AssertionError">java.lang.AssertionError: expected [true] but found [false]
-	at org.testng.Assert.fail(Assert.java:94)
-	at org.testng.Assert.failNotEquals(Assert.java:513)
-	at org.testng.Assert.assertTrue(Assert.java:42)
-	at org.testng.Assert.assertTrue(Assert.java:52)
-	at com.IntegrativeNutrition.Marketing.Tests.Web.ThankYouPagesTest.guideTyPlay(ThankYouPagesTest.java:50)
+  <testcase classname="com.IntegrativeNutrition.Marketing.Tests.Web.ThankYouPagesTest" name="assertBannerIsDisplayed" time="0.001">
+    <failure type="java.lang.NullPointerException">java.lang.NullPointerException
+	at com.IntegrativeNutrition.Marketing.Pages.Screens.GuideThankYou(Screens.java:98)
+	at com.IntegrativeNutrition.Marketing.Tests.Web.ThankYouPagesTest.assertBannerIsDisplayed(ThankYouPagesTest.java:40)
+</failure>
+    <system-out>null
+null
+</system-out>
+  </testcase>
+  <testcase classname="com.IntegrativeNutrition.Marketing.Tests.Web.ThankYouPagesTest" name="guideTyPlay" time="0">
+    <failure type="java.lang.NullPointerException">java.lang.NullPointerException
+	at com.IntegrativeNutrition.Marketing.Pages.Screens.GuideThankYou(Screens.java:98)
+	at com.IntegrativeNutrition.Marketing.Tests.Web.ThankYouPagesTest.guideTyPlay(ThankYouPagesTest.java:47)
 </failure>
   </testcase>
-  <testcase classname="com.IntegrativeNutrition.Marketing.Tests.Web.ThankYouPagesTest" name="verifyBannerIsDisplayed" time="1.122"/>
-  <testcase classname="com.IntegrativeNutrition.Marketing.Tests.Web.ThankYouPagesTest" name="videoPlay" time="148.967">
-    <failure message="expected [true] but found [false]" type="java.lang.AssertionError">java.lang.AssertionError: expected [true] but found [false]
-	at org.testng.Assert.fail(Assert.java:94)
-	at org.testng.Assert.failNotEquals(Assert.java:513)
-	at org.testng.Assert.assertTrue(Assert.java:42)
-	at org.testng.Assert.assertTrue(Assert.java:52)
-	at com.IntegrativeNutrition.Marketing.Tests.Web.ThankYouPagesTest.videoPlay(ThankYouPagesTest.java:28)
+  <testcase classname="com.IntegrativeNutrition.Marketing.Tests.Web.ThankYouPagesTest" name="verifyBannerIsDisplayed" time="0.001">
+    <failure type="java.lang.NullPointerException">java.lang.NullPointerException
+	at com.IntegrativeNutrition.Marketing.Pages.Screens.GuideThankYou(Screens.java:98)
+	at com.IntegrativeNutrition.Marketing.Tests.Web.ThankYouPagesTest.verifyBannerIsDisplayed(ThankYouPagesTest.java:17)
+</failure>
+  </testcase>
+  <testcase classname="com.IntegrativeNutrition.Marketing.Tests.Web.ThankYouPagesTest" name="videoPlay" time="0.001">
+    <failure type="java.lang.NullPointerException">java.lang.NullPointerException
+	at com.IntegrativeNutrition.Marketing.Pages.Screens.ClassThankYou(Screens.java:107)
+	at com.IntegrativeNutrition.Marketing.Tests.Web.ThankYouPagesTest.videoPlay(ThankYouPagesTest.java:25)
 </failure>
   </testcase>
 </testsuite>

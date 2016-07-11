@@ -25,7 +25,7 @@ public class ThankYouPagesTest extends TestStarter {
     	ThankYouPages classThankYou = Screens.ClassThankYou();
     	
     	classThankYou.watchVideo();
-    	Assert.assertTrue(classThankYou.verifyClassVideoPlayback());
+    	Assert.assertTrue(classThankYou.verifyVideoPlayback());
     	classThankYou.closeModal();
     }
     

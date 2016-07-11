@@ -2,6 +2,8 @@ package com.IntegrativeNutrition.Marketing.Tests.Web;
 
 import org.testng.Assert;
 import org.testng.annotations.Test;
+
+import com.IntegrativeNutrition.Marketing.Global.Common;
 import com.IntegrativeNutrition.Marketing.Pages.*;
 import com.IntegrativeNutrition.Marketing.Tests.Common.TestStarter;
 
@@ -18,10 +20,10 @@ public class BlogTest extends TestStarter {
     @Test (groups = {"web.critical", "web"}, priority = 1)
     public void submitFormNoPhone() {
         BlogElements blogElements = Screens.BlogElements();
-        Forms.inputName("QATEST");
-        Forms.inputEmail("iinqatest@gmail.com");
-        Forms.clickSubmitButton();
-        blogElements.assertCorrectURL("http://www.integrativenutrition.com/guide-thank-you?sid=");
+        blogElements.inputName("QATEST");
+        blogElements.inputEmail("iinqatest@gmail.com");
+        blogElements.clickSubmitButton();
+        blogElements.assertCorrectURL(Common.FRONTEND_URL + "/guide-thank-you?sid=");
     }
 
     /* COMMENTED BECAUSE THERE SEEMS TO BE A PROBLEM IN THE BLOG PAGE AND THIS 
