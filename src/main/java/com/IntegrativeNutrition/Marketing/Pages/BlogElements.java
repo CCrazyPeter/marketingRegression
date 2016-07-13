@@ -2,6 +2,10 @@ package com.IntegrativeNutrition.Marketing.Pages;
 
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
+
+import java.util.concurrent.TimeUnit;
+
+import org.openqa.selenium.Cookie;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.support.How;
 
@@ -26,9 +30,25 @@ public class BlogElements  {
      * PAGE ELEMENTS SETUP
      ***********************************/
 
+
+    @FindBy(how = How.XPATH, using = "//*[@id='webform-component-Home-Phone--c']/div[1]/div/div[2]/div/ul/li[5]")
+    private WebElement unitedKingdom;
+    
     //Banner
     @FindBy(how = How.XPATH, using = "//section[@id='block-system-main']/div")
     private static WebElement blogHeaderBanner;
+    
+    //Banner Text
+    @FindBy(how = How.CSS, using = "h1")
+    private static WebElement pageHeadingH1;
+    
+    //Latest Post
+    @FindBy(how = How.XPATH, using = "//section[@id='block-system-main']/div[2]/div/div/div/div/div/div/div/div/div/div/a/picture/img")
+    private static WebElement latestPost;
+    
+    //Most Recent Posts
+    @FindBy(how = How.XPATH, using = "//section[@id='block-system-main']/div[2]/div/div/div/div[3]/div")
+    private static WebElement RecentPosts;
     
     //First Name text box
     @FindBy(how = How.ID, using = "edit-submitted-firstname")
@@ -62,21 +82,29 @@ public class BlogElements  {
     
     public boolean verifyBannerIsDisplayed (){
         boolean bannerAppear = BlogElements.blogHeaderBanner.isDisplayed();
-        if (bannerAppear){
-            return true;
-        }
-        else {
-            return false;
-        }
- }
+        return bannerAppear;
+    }
+
+    public boolean verifyBannerTextIsDisplayed(){
+
+        String pageHeadingH1 = BlogElements.pageHeadingH1.getText();
+        boolean TextPresent = pageHeadingH1.toLowerCase().contains("integrative nutrition blog");
+        return TextPresent;
+    }
+    
+    public boolean verifyLatestsPostIsDisplayed (){
+        boolean latestsPostAppear = BlogElements.latestPost.isDisplayed();
+        return latestsPostAppear;
+    }
+    
+    public boolean verifyRecentPostsIsDisplayed (){
+        boolean recentPostsAppear = BlogElements.RecentPosts.isDisplayed();
+        return recentPostsAppear;
+    }
     
     public boolean assertCorrectURL(String url){
-        if (url == driver.getCurrentUrl()){
-            return true;
-        }
-        else {
-            return false;
-        }
+    	boolean correctURL = driver.getCurrentUrl().contains(url);
+    	return correctURL;
     }
 
     public void inputName(String name) {
@@ -89,15 +117,15 @@ public class BlogElements  {
         formEmail.sendKeys(email);
     }
 
-    public static void clickPhoneBox() {
+    public void clickPhoneBox() {
         formCheckBox.click();
     }
 
-    public static void selectFlag() {
+    public void selectFlag() {
         formFlag.click();
     }
 
-    public static void enterPhoneNumber(String phone) {
+    public void enterPhoneNumber(String phone) {
         formPhone.click();
         formPhone.sendKeys(phone);
     }
@@ -105,12 +133,27 @@ public class BlogElements  {
     public void clickSubmitButton() {
         formSubmit.click();
     }
-
     
-    public static String getPhoneValue(){
+    public String getPhoneValue(){
     	String phoneValue = BlogElements.formPhone.getAttribute("value");
     	return phoneValue;
     }
+    
+    public void clickUnitedKingdomFlag(){
+        unitedKingdom.click();
+    }
 
+    public boolean verifyAreaCodeMatchesFlag(){
+        
+    	clickSubmitButton();
+        
+    	driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
+    	
+        Cookie cookie= driver.manage().getCookieNamed("strikeiron");  
+        String cookieVal= cookie.getValue();
+
+        boolean containsNumber = cookieVal.contains("447712345678");
+        return containsNumber;
+    }
     
 }

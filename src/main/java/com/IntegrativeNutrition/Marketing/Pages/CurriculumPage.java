@@ -1,6 +1,9 @@
 package com.IntegrativeNutrition.Marketing.Pages;
 
+import java.util.concurrent.TimeUnit;
+
 import org.openqa.selenium.By;
+import org.openqa.selenium.Cookie;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -26,7 +29,32 @@ public class CurriculumPage {
     /************************************
      * PAGE ELEMENTS SETUP
      ***********************************/
+
+    @FindBy(how = How.XPATH, using = "//*[@id='webform-component-Home-Phone--c']/div[1]/div/div[2]/div/ul/li[5]")
+    private WebElement unitedKingdom;
+
+
+    @FindBy(how = How.CSS, using = "div.band.head")
+    private static WebElement headerBanner;
+     
+    @FindBy(how = How.CSS, using = "h1")
+    private static WebElement headerText;
+     
+    @FindBy(how = How.CSS, using = "span.hidden-xs")
+    private static WebElement bodyText;
     
+    @FindBy(how = How.CSS, using = "h2.pane-title")
+    private static WebElement ourVisitingTeachers;
+    
+    @FindBy(how = How.ID, using = "node-6446")
+    private static WebElement testimonialsCarrousel;
+    
+    @FindBy(how = How.CSS, using = "div.pane-content > h2")
+    private static WebElement getRealWorldTraining;    
+    
+    @FindBy(how = How.XPATH, using = "//section[@id='block-system-main']/div[7]/div/div/div/div/div/div/div/div/div/div/div/h2")
+    private static WebElement academicPartnership;   
+  
     
     //Watch Our Video Button
     @FindBy(how = How.CSS, using = "div.play-button.center-block")
@@ -76,6 +104,56 @@ public class CurriculumPage {
      ************************************/
 
     
+
+    public boolean verifyBannerIsDisplayed (){
+        boolean bannerAppear = CurriculumPage.headerBanner.isDisplayed();
+        return bannerAppear;
+    }
+    
+    public boolean verifyBannerTextIsDisplayed(){
+
+        String headerText = CurriculumPage.headerText.getText();
+        boolean TextPresent = headerText.toLowerCase().contains("world's largest nutrition school");
+        return TextPresent;
+    }
+    
+    
+    public boolean verifyBodyTextIsDisplayed(){
+
+        String bodyText = CurriculumPage.bodyText.getText();
+        boolean TextPresent = bodyText.toLowerCase().contains("integrative nutrition is the only school that explores "
+        		+ "more than 100 dietary theories. get an education that will empower you to transform your health and "
+        		+ "happiness and launch a fulfilling new career.");
+        return TextPresent;
+    }
+    
+    public boolean verifyOurVisitinTeachersIsDisplayed(){
+
+        String headerText = CurriculumPage.headerText.getText();
+        boolean TextPresent = headerText.toLowerCase().contains("our visiting teachers");
+        return TextPresent;
+    }
+    
+    public boolean verifyTestimonialCarrouselIsDisplayed (){
+        boolean bannerAppear = CurriculumPage.testimonialsCarrousel.isDisplayed();
+        return bannerAppear;
+    }
+    
+    public boolean verifyGetRealWorldTrainingIsDisplayed(){
+
+        String getRealWorldTraining = CurriculumPage.getRealWorldTraining.getText();
+        boolean TextPresent = getRealWorldTraining.toLowerCase().contains("get real world business training");
+        return TextPresent;
+    }
+    
+    
+    public boolean verifyAcademicPartnershipsIsDisplayed(){
+
+        String headerText = CurriculumPage.headerText.getText();
+        boolean TextPresent = headerText.toLowerCase().contains("pursue a bachelor's or a master's degree through our academic partnerships");
+        return TextPresent;
+    }
+    
     public void clickWatchVideo (){
         watchVideoButton.click();
     }
@@ -116,7 +194,7 @@ public class CurriculumPage {
         formCheckBox.click();
     }
 
-    public static void selectFlag() {
+    public void selectFlag() {
         formFlag.click();
     }
 
@@ -135,5 +213,29 @@ public class CurriculumPage {
     	return phoneValue;
     }
 
+    public boolean assertCorrectURL(String url){
+        String currentURL;
+        
+    	currentURL = driver.getCurrentUrl();
+    	boolean correctURL = currentURL.contains(url);
+        return correctURL;
+    }
+    
+    public void clickUnitedKingdomFlag(){
+        unitedKingdom.click();
+    }
 
+    public boolean verifyAreaCodeMatchesFlag(){
+        
+    	clickSubmitButton();
+        
+    	driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
+    	
+        Cookie cookie= driver.manage().getCookieNamed("strikeiron");  
+        String cookieVal= cookie.getValue();
+
+        boolean containsNumber = cookieVal.contains("447712345678");
+        return containsNumber;
+    }
+    
 }

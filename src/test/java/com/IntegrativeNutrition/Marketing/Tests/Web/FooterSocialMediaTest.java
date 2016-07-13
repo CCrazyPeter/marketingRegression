@@ -8,6 +8,65 @@ import org.testng.Assert;
 
 public class FooterSocialMediaTest extends TestStarter {
 
+    //Need Help Info Local Phone
+    @Test (groups = {"web.critical", "web"}, priority = 1)
+    public void assertLocalPhoneNumberIsDisplayed() throws Exception {
+        Footer footer = Screens.Footer();
+
+        Assert.assertTrue(footer.verifyLocalPhoneNumberIsDisplayed());
+    }
+    
+    //Need Help Info International Phone
+    @Test (groups = {"web.critical", "web"}, priority = 1)
+    public void assertInternationalPhoneNumberIsDisplayed() throws Exception {
+        Footer footer = Screens.Footer();
+
+        Assert.assertTrue(footer.verifyInternationalPhoneNumberIsDisplayed());
+    }
+    
+	//Tests correct form submission
+	@Test (groups = {"web.critical", "web"}, priority = 1) 
+    public void assertFormSubmissionWorks() throws Exception {
+    	Footer footer = Screens.Footer();
+    	
+    	footer.inputEmail("iinqatest@gmail.com");
+    	footer.clickSubscribe();
+    	footer.formConfirmationDisplayed("thank you for joining the mission – check your inbox for the latest from integrative nutrition!");
+	}
+	
+	//Tests form submission no email
+	@Test (groups = {"web.critical", "web"}, priority = 1) 
+    public void assertFormSubmissionNoEmailWorks() throws Exception {
+    	Footer footer = Screens.Footer();
+    	
+    	footer.inputEmail("");
+    	footer.clickSubscribe();
+    	footer.formMessageDisplayed("email field is required.");
+	}
+	
+	
+	//Tests form submission invalid email
+	@Test (groups = {"web.critical", "web"}, priority = 1) 
+    public void assertFormSubmissionInvalidEmailWorks() throws Exception {
+    	Footer footer = Screens.Footer();
+    	
+    	footer.inputEmail("fgvbhjnkl");
+    	footer.clickSubscribe();
+    	footer.formMessageDisplayed("the value in email is not a valid email address.");
+	}
+	
+	//Tests form submission inactive email
+	@Test (groups = {"web.critical", "web"}, priority = 1) 
+    public void assertFormSubmissionInactiveEmailWorks() throws Exception {
+    	Footer footer = Screens.Footer();
+    	
+    	footer.inputEmail("NotAnActiveEmail@justatestemailaddress.com");
+    	footer.clickSubscribe();
+    	footer.formMessageDisplayed("please enter an active email address.");
+	}
+	
+	
+	
     /***************************************
      * This section is to test that all social media & sub menu links go to their respective pages on click
      ***************************************/

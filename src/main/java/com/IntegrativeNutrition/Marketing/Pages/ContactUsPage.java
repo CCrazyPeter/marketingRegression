@@ -1,5 +1,8 @@
 package com.IntegrativeNutrition.Marketing.Pages;
 
+import java.util.concurrent.TimeUnit;
+
+import org.openqa.selenium.Cookie;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -24,8 +27,16 @@ public class ContactUsPage {
      * PAGE ELEMENTS SETUP
      ***********************************/
     
+    @FindBy(how = How.XPATH, using = "//*[@id='webform-component-Home-Phone--c']/div[1]/div/div[2]/div/ul/li[5]")
+    private WebElement unitedKingdom;
+
+    
     @FindBy(how = How.XPATH, using = "//section[@id='block-system-main']/div/div")
     private static WebElement headerBanner;
+    
+    @FindBy(how = How.CSS, using = "h1")
+    private static WebElement headerText;
+
 
     @FindBy(how = How.XPATH, using = "//div[@id='node-6121']/div")
     private static WebElement letsConnect;
@@ -33,6 +44,8 @@ public class ContactUsPage {
     @FindBy(how = How.XPATH, using = "//section[@id='block-system-main']/div/div[2]/div/div/div/div[2]/div")
     private static WebElement contactInformation;
 
+    @FindBy(how = How.XPATH, using = "p.first")
+    private static WebElement phones;
     
     /*
     Contact Us help field
@@ -72,10 +85,23 @@ public class ContactUsPage {
      * PAGE TEST METHODS
      ************************************/
     
+    
+    public void clickUnitedKingdomFlag(){
+        unitedKingdom.click();
+    }
+    
     public boolean verifyBannerIsDisplayed (){
         boolean bannerAppear = ContactUsPage.headerBanner.isDisplayed();
         return bannerAppear;
     }
+    
+    public boolean verifyBannerTextIsDisplayed(){
+
+        String headerText = ContactUsPage.headerText.getText();
+        boolean TextPresent = headerText.toLowerCase().contains("contact us");
+        return TextPresent;
+    }
+    
     
     public boolean verifyLetsConnectIsDisplayed (){
         boolean letsConnectAppear = ContactUsPage.letsConnect.isDisplayed();
@@ -83,7 +109,12 @@ public class ContactUsPage {
     }
     
     public boolean verifycontactInformationIsDisplayed (){
-        boolean contactInformationAppear = ContactUsPage.contactInformation.isDisplayed();
+    	String phones = ContactUsPage.phones.getText();
+        boolean contactInformationAppear = ContactUsPage.contactInformation.isDisplayed() 
+        		&& phones.toLowerCase().contains("us: (877) 730-5444")
+        		&& phones.toLowerCase().contains("in the uk: (800) 086-8961")
+        		&& phones.toLowerCase().contains("international: +1 (212) 730-5433");
+  
         return contactInformationAppear;
     }
     
@@ -97,30 +128,30 @@ public class ContactUsPage {
         }
     }
     
-    public static void inputName(String name) {
-        formName.click();
+    public void inputName(String name) {
+    	formName.click();
+    	formName.clear();
         formName.sendKeys(name);
     }
 
-    public static void inputEmail(String email) {
-        formEmail.click();
+    public void inputEmail(String email) {
+    	formEmail.click();
+    	formEmail.clear();
         formEmail.sendKeys(email);
     }
 
-    public static void clickPhoneBox() {
-        formCheckBox.click();
-    }
 
-    public static void selectFlag() {
+    public void selectFlag() {
         formFlag.click();
     }
 
-    public static void enterPhoneNumber(String phone) {
-        formPhone.click();
+    public void enterPhoneNumber(String phone) {
+    	formPhone.click();
+    	formPhone.clear();
         formPhone.sendKeys(phone);
     }
 
-    public static void clickSubmitButton() {
+    public void clickSubmitButton() {
         formSubmit.click();
     }
     
@@ -129,8 +160,23 @@ public class ContactUsPage {
     	return phoneValue;
     }
 
-    public static void fillTextBox(String helpInquiry) {
+    public boolean verifyAreaCodeMatchesFlag(){
+        
+    	clickSubmitButton();
+        
+    	driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
+    	
+        Cookie cookie= driver.manage().getCookieNamed("strikeiron");  
+        String cookieVal= cookie.getValue();
+
+        boolean containsNumber = cookieVal.contains("447712345678");
+        return containsNumber;
+    }
+    
+    
+    public void fillTextBox(String helpInquiry) {
         helpTextBox.click();
+        helpTextBox.clear();
         helpTextBox.sendKeys(helpInquiry);
     }
 

@@ -28,17 +28,33 @@ public class Footer {
      * PAGE ELEMENTS SETUP
      ***********************************/
 
-    @FindBy(how = How.ID, using = "username")
-    private WebElement usernameTextbox;
+    //--------------------------------Form-----------------------------
+    
 
-    @FindBy(how = How.ID, using = "password")
-    private WebElement passwordTextbox;
+	    //Email text box
+	    @FindBy(how = How.ID, using = "edit-submitted-email--2")
+	    private static WebElement formEmail;
 
-    @FindBy(how = How.XPATH, using = "//*[@id=\"loginForm\"]/div[1]/button")
-    private WebElement signInButton;
+	    //Form Subscribe button
+	    @FindBy(how = How.ID, using = "edit-webform-ajax-submit-9871--2")
+	    private static WebElement formSubscribe;
+	    
+	    //Form Error Message
+	    @FindBy(how = How.XPATH, using = "//div[@id='webform-component-email']/div")
+	    private static WebElement formMessage;
+	    
+	  //Form Confirmation Message
+	    @FindBy(how = How.CSS, using = "div.webform-confirmation")
+	    private static WebElement formConfirmation;
+	  
+    
+    //--------------------------------NEED HELP?-----------------------------
+    
+    
+    //Regulatory Information - click on the link method
+    @FindBy(how = How.XPATH, using = "//div[@id='mini-panel-site_footer']/div/div/div/div")
+    private static WebElement NeedHelpInfo;
 
-    @FindBy(how = How.XPATH, using = "//*[@id=\"loginForm\"]/div[2]/span[2]/a")
-    private WebElement forgotPasswordlink;
 
     //*** Page Links **********************************************************************************************
 
@@ -110,6 +126,41 @@ public class Footer {
      * PAGE TEST METHODS
      ************************************/
 
+    public void inputEmail(String email) {
+        formEmail.click();
+        formEmail.clear();
+        formEmail.sendKeys(email);
+    }
+    
+    public void clickSubscribe() {
+        formSubscribe.click();
+    }
+    
+    public boolean formMessageDisplayed(String message){
+	    String formMessage = Footer.formMessage.getText();
+	    boolean TextPresent = formMessage.toLowerCase().contains(message);
+	    return TextPresent;
+    }
+    
+    public boolean formConfirmationDisplayed(String message){
+	    String formMessage = Footer.formConfirmation.getText();
+	    boolean TextPresent = formMessage.toLowerCase().contains(message);
+	    return TextPresent;
+    }
+    
+    
+    public boolean verifyLocalPhoneNumberIsDisplayed() {
+	    String NeedHelpInfo = Footer.NeedHelpInfo.getText();
+	    boolean TextPresent = NeedHelpInfo.toLowerCase().contains("us: (877) 730-5444");
+	    return TextPresent;
+    }
+    
+    public boolean verifyInternationalPhoneNumberIsDisplayed() {
+	    String NeedHelpInfo = Footer.NeedHelpInfo.getText();
+	    boolean TextPresent = NeedHelpInfo.toLowerCase().contains("international: (800) 086-8961");
+	    return TextPresent;
+    }
+    
     public void clickRegulatoryInfoLink() {
         // Scroll the browser to the element's Y position (doesn't work in Chrome if the page is not scrolled down)
        ((org.openqa.selenium.JavascriptExecutor) driver).executeScript("window.scrollTo(0,"+regInfoLink.getLocation().y+")");

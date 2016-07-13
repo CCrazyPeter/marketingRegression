@@ -8,7 +8,6 @@ package com.IntegrativeNutrition.Marketing.Tests.Common;
  */
 
 import com.IntegrativeNutrition.Marketing.Global.*;
-import org.omg.PortableInterceptor.SYSTEM_EXCEPTION;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 

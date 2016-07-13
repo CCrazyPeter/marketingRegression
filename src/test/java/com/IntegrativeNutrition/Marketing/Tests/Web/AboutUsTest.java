@@ -16,28 +16,49 @@ public class AboutUsTest extends TestStarter {
     	Assert.assertTrue(aboutUsPage.verifyBannerIsDisplayed());
     }
     
-	//This test ensures the banner is displayed  
+  	//This test ensures the banner text is displayed  
+    @Test (groups = {"web.critical", "web"}, priority = 1)
+    public void assertBannerTextIsDisplayed ()  throws Exception {
+        AboutUsPage aboutUsPage = Screens.AboutUsPage();
+    	Assert.assertTrue(aboutUsPage.verifyBannerTextIsDisplayed());
+    }
+    
+  	//This test ensures the body text is displayed  
+    @Test (groups = {"web.critical", "web"}, priority = 1)
+    public void assertBodyTextIsDisplayed ()  throws Exception {
+        AboutUsPage aboutUsPage = Screens.AboutUsPage();
+    	Assert.assertTrue(aboutUsPage.verifyBodyCopyIsPresent());
+    }
+    
+  	//This test ensures the banner text is displayed  
+    @Test (groups = {"web.critical", "web"}, priority = 1)
+    public void assertVideoIntroTextIsDisplayed ()  throws Exception {
+        AboutUsPage aboutUsPage = Screens.AboutUsPage();
+    	Assert.assertTrue(aboutUsPage.verifyVideoIntroTextIsPresent());
+    }
+    
+	//This test ensures Our History is displayed  
     @Test (groups = {"web.critical", "web"}, priority = 1)
     public void assertOurHistoryIsDisplayed ()  throws Exception {
         AboutUsPage aboutUsPage = Screens.AboutUsPage();
     	Assert.assertTrue(aboutUsPage.verifyOurHistoryIsDisplayed());
     }
     
-	//This test ensures the banner is displayed  
+	//This test ensures About Our Founder is displayed  
     @Test (groups = {"web.critical", "web"}, priority = 1)
     public void assertAboutOurFounderIsDisplayed ()  throws Exception {
         AboutUsPage aboutUsPage = Screens.AboutUsPage();
     	Assert.assertTrue(aboutUsPage.verifyAboutOurFounderIsDisplayed());
     }
     
-	//This test ensures the banner is displayed  
+	//This test ensures Our Core Values is displayed  
     @Test (groups = {"web.critical", "web"}, priority = 1)
     public void assertOurCoreValuesIsDisplayed ()  throws Exception {
         AboutUsPage aboutUsPage = Screens.AboutUsPage();
     	Assert.assertTrue(aboutUsPage.verifyOurCoreValuesIsDisplayed());
     }
     
-	//This test ensures the banner is displayed  
+	//This test ensures Our Board Of Advisors is displayed  
     @Test (groups = {"web.critical", "web"}, priority = 1)
     public void assertOurBoardOfAdvisorsIsDisplayed ()  throws Exception {
         AboutUsPage aboutUsPage = Screens.AboutUsPage();

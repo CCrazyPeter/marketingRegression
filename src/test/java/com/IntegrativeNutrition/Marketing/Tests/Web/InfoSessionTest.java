@@ -15,8 +15,9 @@ public class InfoSessionTest extends TestStarter {
     public void nameValidation() throws Exception{
         InfoSessionsPage infoSessionsPage = Screens.InfoSessionsPage();
         
-        Forms.inputEmail("iinqatest@gmail.com");
-        Forms.clickSubmitButton();
+        //infoSessionsPage.closePromoModal();
+        infoSessionsPage.inputEmail("iinqatest@gmail.com");
+        infoSessionsPage.clickSubmitButton();
         infoSessionsPage.assertCorrectURL(Common.FRONTEND_URL + "/info-sessions");
     }
 
@@ -25,8 +26,9 @@ public class InfoSessionTest extends TestStarter {
     public void emailValidation() throws Exception{
         InfoSessionsPage infoSessionsPage = Screens.InfoSessionsPage();
         
-        Forms.inputName("qaTest");
-        Forms.clickSubmitButton();
+        //infoSessionsPage.closePromoModal();
+        infoSessionsPage.inputName("qaTest");
+        infoSessionsPage.clickSubmitButton();
         infoSessionsPage.assertCorrectURL(Common.FRONTEND_URL + "/info-sessions");
  
     }
@@ -36,6 +38,7 @@ public class InfoSessionTest extends TestStarter {
     public void countryFlagMatch() throws Exception {
         InfoSessionsPage infoSessionsPage = Screens.InfoSessionsPage();
         
+        //infoSessionsPage.closePromoModal();
         infoSessionsPage.inputName("qaTest");
         infoSessionsPage.inputEmail("iinqatest@gmail.com");
         infoSessionsPage.selectFlag();
@@ -45,6 +48,5 @@ public class InfoSessionTest extends TestStarter {
 
         Assert.assertTrue(infoSessionsPage.verifyAreaCodeMatchesFlag());
 
-        
     }    
 }

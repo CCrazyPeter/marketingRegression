@@ -103,7 +103,11 @@ public class Header {
     }
 	
     public void clickEducationalPartnershipsIcon(){
-    	EducationalPartnerships.click();
+	   	Actions actions = new Actions(driver);
+    	actions.moveToElement(ourCurriculum);
+    	actions.moveToElement(EducationalPartnerships);
+    	actions.click();
+    	actions.perform();
     }
     
     public void clickInfoSessionsSignUp(){
@@ -142,35 +146,22 @@ public class Header {
     
     
     public boolean verifyPhoneNumberIsDisplayed() {
-	    boolean present = Header.phoneNumber.isDisplayed();
-	    if (present){
-	    	return true;
-	    }
-	    else {
-	    	return false;
-    	}
+	    String pageHeadingH1 = Header.phoneNumber.getText();
+	    boolean TextPresent = pageHeadingH1.toLowerCase().contains("(877) 730-5444");
+	    return TextPresent;
     }
+
     
     public boolean verifySearchNoResultsMessageIsDisplayed() {
 	    boolean present = Header.searchNoResults.isDisplayed();
-	    if (present){
-	    	return true;
-	    }
-	    else {
-	    	return false;
-    	}
+	    return present;
     }
     
     public boolean assertCorrectURL(String url){
         String currentURL;
         
     	currentURL = driver.getCurrentUrl();
-    	
-        if (url.equals(currentURL)){
-            return true;
-        }
-        else {
-            return false;
-        }
+    	boolean URLCorrect = currentURL.contains(url);
+    	return URLCorrect;
     }
 }

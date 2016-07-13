@@ -61,7 +61,7 @@ public class PaidLeadGen {
             return false;
         }
     }
-        
+
     public void clickFijiFlag(){
     	fiji.click();
     }

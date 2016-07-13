@@ -33,6 +33,15 @@ public class ThankYouPages {
     @FindBy(how = How.XPATH, using = "//header[@role='banner']")
     private static WebElement headerBanner;
     
+    //Banner Text
+    @FindBy(how = How.CSS, using = "h1.page-title")
+    private static WebElement headerText;
+    
+    //Body Text
+    @FindBy(how = How.CSS, using = "div.field-item.even > h2")
+    private static WebElement bodyText;
+        
+        
     //Video Button
     @FindBy(how = How.XPATH, using = ".//*[@id='block-system-main']/div[3]/div/div/div/div[3]/div/div")
     private static WebElement watchVideoButton;
@@ -45,6 +54,9 @@ public class ThankYouPages {
     @FindBy(how = How.XPATH, using = "//button[@class='ytp-play-button ytp-button']")
     private static WebElement playButton;
     
+  //Video Elapsed Field
+    @FindBy (xpath = "//span[@class='ytp-time-current']")
+    public static WebElement videoElapsed;
     
     /************************************
      * PAGE TEST METHODS
@@ -62,10 +74,7 @@ public class ThankYouPages {
         playButton.click();
     }
 
-    //Video Elapsed Field
-    @FindBy (xpath = "//span[@class='ytp-time-current']")
-    public static WebElement videoElapsed;
-        
+
     
     public boolean verifyVideoPlayback (){
 
@@ -95,15 +104,30 @@ public class ThankYouPages {
     
     public boolean verifyBannerIsDisplayed (){
         boolean bannerAppear = ThankYouPages.headerBanner.isDisplayed();
-        if (bannerAppear){
-        	return true;
-        }
-        else {
-        	return false;
-        }
+        return bannerAppear;
+    }
+
+    public boolean verifyBannerTextIsDisplayed(){
+
+        String pageHeadingH1 = ThankYouPages.headerText.getText();
+        boolean TextPresent = pageHeadingH1.toLowerCase().contains("welcome to the future of nutrition!");
+        return TextPresent;
     }
     
+
+    public boolean verifyClassBodyTextIsDisplayed(){
+
+        String classBody = ThankYouPages.bodyText.getText();
+        boolean TextPresent = classBody.toLowerCase().contains("You’re on your way to an awesome, exciting education. Please check your inbox to watch your sample class. It’s amazing!".toLowerCase());
+        return TextPresent;
+    }
     
+    public boolean verifyGuideBodyTextIsDisplayed(){
+
+        String guideBody = ThankYouPages.bodyText.getText();
+        boolean TextPresent = guideBody.toLowerCase().contains("You’re on your way to an awesome, exciting education! Please check your inbox for our curriculum guide. It’s amazing!".toLowerCase());
+        return TextPresent;
+    }
     
 
 }

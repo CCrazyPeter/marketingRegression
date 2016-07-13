@@ -30,6 +30,17 @@ public class AboutUsPage {
     @FindBy(how = How.XPATH, using = "//section[@id='block-system-main']/div")
     private static WebElement headerBanner;
 
+  
+    @FindBy(how = How.XPATH, using = "//section[@id='block-system-main']/div/div/div/div/div/div/h1")
+    private static WebElement pageHeadingH1;
+    
+    @FindBy(how = How.CSS, using = "div.field-item.even > h2")
+    private static WebElement copyText;
+  
+    @FindBy(how = How.CSS, using = "h2.col-sm-5.center-block")
+    private static WebElement videoIntroText;
+    
+    
     
     @FindBy(how = How.CSS, using = "div.play-button.center-block")
     private static WebElement watchVideoButton;
@@ -71,6 +82,30 @@ public class AboutUsPage {
         boolean bannerAppear = AboutUsPage.headerBanner.isDisplayed();
         return bannerAppear;
     }
+    
+    public boolean verifyBannerTextIsDisplayed(){
+
+        String pageHeadingH1 = AboutUsPage.pageHeadingH1.getText();
+        boolean TextPresent = pageHeadingH1.toLowerCase().contains("about us");
+        return TextPresent;
+    }
+    
+    
+    public boolean verifyVideoIntroTextIsPresent(){
+    	
+    	String CopyText = AboutUsPage.videoIntroText.getText();
+        boolean TextPresent = CopyText.toLowerCase().contains("welcome to the future of nutrition");
+        return TextPresent;
+    }
+    
+public boolean verifyBodyCopyIsPresent(){
+    	
+    	String CopyText = AboutUsPage.copyText.getText();
+        boolean TextPresent = CopyText.toLowerCase().contains("our mission is to play a crucial role in "
+        		+ "improving health and happiness, and through that process, create a ripple effect that transforms the world.");
+        return TextPresent;
+    }
+    
     
     public void closeModal() {
     	modalCloseButton.click();

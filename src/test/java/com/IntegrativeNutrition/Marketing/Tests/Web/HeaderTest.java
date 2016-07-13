@@ -64,6 +64,15 @@ public class HeaderTest extends TestStarter {
     	header.clickCurriculumBasics();
     	Assert.assertTrue(header.assertCorrectURL(Common.FRONTEND_URL + "/curriculum"));
     }
+    
+    //Educational Partnerships Page
+    @Test (groups = {"web.critical", "web"}, priority = 1)
+    public void headerEducationalPartnerships() throws Exception {
+    	Header header = Screens.Header();
+
+    	header.clickEducationalPartnershipsIcon();
+    	Assert.assertTrue(header.assertCorrectURL(Common.FRONTEND_URL + "/career/certification"));
+    }
 
 	//Info Sessions Page
     @Test (groups = {"web.critical", "web"}, priority = 1)

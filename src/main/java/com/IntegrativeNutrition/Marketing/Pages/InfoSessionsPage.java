@@ -1,11 +1,11 @@
 package com.IntegrativeNutrition.Marketing.Pages;
 
+import java.util.concurrent.TimeUnit;
 import org.openqa.selenium.Cookie;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.How;
-
 
 public class InfoSessionsPage {
 
@@ -29,7 +29,8 @@ public class InfoSessionsPage {
     @FindBy(how = How.XPATH, using = "//*[@id=\"loginForm\"]/div[1]/button")
     private WebElement signInButton;
     
-    @FindBy(how = How.XPATH, using = ".//*[@id='webform-component-Home-Phone--c']/div[1]/div/ul/li[61]/span[1]")
+    //@FindBy(how = How.XPATH, using = ".//*[@id='webform-component-Home-Phone--c']/div[1]/div/ul/li[61]/span[1]")
+    @FindBy(how = How.XPATH, using = "//div[@id='webform-component-Home-Phone--c']/div/div/ul/li[61]")
     private WebElement cyprus;
     
     //First Name text box
@@ -57,7 +58,7 @@ public class InfoSessionsPage {
     private static WebElement formSubmit;
     
     //Date & time drop down
-    @FindBy(how = How.ID, using = "edit-submitted-stealthtime-c")
+    @FindBy(how = How.ID, using = "edit-submitted-webinar-date")
 	private static WebElement dateTime;
 
     //Join Now option
@@ -65,30 +66,36 @@ public class InfoSessionsPage {
     private static WebElement joinNow;
     
     //First webinar option
-    @FindBy(xpath = ".//*[@id='edit-submitted-stealthtime-c']/option[2]")
+    @FindBy(xpath = ".//*[@id='edit-submitted-webinar-date']/option[2]")
     private static WebElement firstWebinar;
-    
+
+    //First webinar option
+    @FindBy(xpath = "(//button[@type='button'])[5]")
+    private static WebElement promoModalClose;
 
     
     /************************************
      * PAGE TEST METHODS
      ************************************/
-    
 
+    public void closePromoModal(){
+    	driver.switchTo().activeElement();
+        promoModalClose.click();
+        driver.switchTo().defaultContent();
+    }
+    
     public void clickCyprusFlag(){
     	cyprus.click();	
     }
     
-    
     public boolean assertCorrectURL(String url){
-        if (url == driver.getCurrentUrl()){
+        if (url.equals(driver.getCurrentUrl())){
             return true;
         }
         else {
             return false;
         }
     }
-    
 
     public void inputName(String name) {
         formName.click();
@@ -117,12 +124,11 @@ public class InfoSessionsPage {
         formSubmit.click();
     }
 
-    
     public boolean verifyAreaCodeMatchesFlag(){
-        
+
     	clickSubmitButton();
 
-    	String teststr = driver.getCurrentUrl();
+    	driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
 
         Cookie cookie= driver.manage().getCookieNamed("strikeiron");  
         String cookieVal= cookie.getValue();
@@ -134,10 +140,11 @@ public class InfoSessionsPage {
     	return false;
         }
     }
+
     public void clickDateTime() {
         dateTime.click();
     }
-    
+
     public void clickJoinNow(){
     	joinNow.click();
     }

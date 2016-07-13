@@ -1,5 +1,7 @@
 package com.IntegrativeNutrition.Marketing.Pages;
 
+import java.util.concurrent.TimeUnit;
+
 import org.openqa.selenium.By;
 import org.openqa.selenium.Cookie;
 import org.openqa.selenium.WebDriver;
@@ -32,9 +34,30 @@ public class HealthCoachingPage {
      * PAGE ELEMENTS SETUP
      ***********************************/
   
+    @FindBy(how = How.CSS, using = "div.band.head")
+    private static WebElement headerBanner; 
+    
+    
+    @FindBy(how = How.CSS, using = "h1")
+    private static WebElement headerText; 
+    
+    
     @FindBy(how = How.XPATH, using = "//*[@id='webform-component-Home-Phone--c']/div[1]/div/div[2]/div/ul/li[5]")
     private WebElement unitedKingdom;
+
+   
+    @FindBy(how = How.CSS, using = "h2.pane-title")
+    private static WebElement worldNeedsHealthCoaches;
     
+    
+    @FindBy(how = How.CSS, using = "div.pane-title > h2")
+    private static WebElement benefitsOfBeingAHealthCoach;
+    
+    
+    @FindBy(how = How.XPATH, using = "//section[@id='block-system-main']/div[5]/div/div/div/div/div/h2")
+    private static WebElement healthCoachingIsRightForYou;
+    
+  
     
     //Play Video Button
     @FindBy(how = How.CSS, using = "div.play-button.center-block")
@@ -81,13 +104,47 @@ public class HealthCoachingPage {
     @FindBy(how = How.ID, using = "edit-submit")
     private static WebElement formSubmit;
 
+    
 
     /************************************
      * PAGE TEST METHODS
      ************************************/
 
-    
 
+    public boolean verifyBannerIsDisplayed (){
+        boolean bannerAppear = HealthCoachingPage.headerBanner.isDisplayed();
+        return bannerAppear;
+    }
+
+    public boolean verifyBannerTextIsDisplayed(){
+
+        String headerText = HealthCoachingPage.headerText.getText();
+        boolean TextPresent = headerText.toLowerCase().contains("world's largest nutrition school");
+        return TextPresent;
+    }
+
+    
+    public boolean verifyWorldNeedsHealthCoachesIsDisplayed (){
+        String worldNeedsHealthCoaches = HealthCoachingPage.worldNeedsHealthCoaches.getText();
+        boolean TextPresent = worldNeedsHealthCoaches.toLowerCase().contains("the world needs health coaches");
+        return TextPresent;
+
+    }
+    
+    public boolean verifyHealthCoachingIsRightForYouIsDisplayed (){
+        String healthCoachingIsRightForYou = HealthCoachingPage.healthCoachingIsRightForYou.getText();
+        boolean TextPresent = healthCoachingIsRightForYou.toLowerCase().contains("health coaching is right for you if...");
+        return TextPresent;
+    }
+    
+    public boolean verifybenefitsOfBeingAHealthCoachIsDisplayed (){
+        String benefitsOfBeingAHealthCoach = HealthCoachingPage.benefitsOfBeingAHealthCoach.getText();
+        boolean TextPresent = benefitsOfBeingAHealthCoach.toLowerCase().contains("benefits of being a health coach");
+        return TextPresent;
+    }
+        
+    
+    
     public void clickWatchVideo (){
         watchVideoButton.click();
     }
@@ -95,7 +152,7 @@ public class HealthCoachingPage {
     public void closeModal() {
     	modalCloseButton.click();
     }
-    
+
     public void clickPlayPause(){
         playButton.click();
     }
@@ -162,7 +219,7 @@ public class HealthCoachingPage {
         
     	clickSubmitButton();
         
-    	String teststr = driver.getCurrentUrl();
+    	driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
     	
         Cookie cookie= driver.manage().getCookieNamed("strikeiron");  
         String cookieVal= cookie.getValue();
