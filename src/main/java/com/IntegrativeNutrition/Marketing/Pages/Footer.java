@@ -121,11 +121,23 @@ public class Footer {
     private static WebElement snapchatIcon;
     
     
+    //----------------------------------Promo modal---------------------------------------
 
+    //Close button
+    @FindBy (xpath = "(//button[@type='button'])[5]")
+    private static WebElement promoCloseButton;
+
+   
     /************************************
      * PAGE TEST METHODS
      ************************************/
 
+    public void closePromo(){
+    	if(Footer.promoCloseButton.isDisplayed()){
+    		promoCloseButton.click();	
+    	}
+    }
+    
     public void inputEmail(String email) {
         formEmail.click();
         formEmail.clear();

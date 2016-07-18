@@ -52,6 +52,7 @@ public class TestEnvironment {
                 _driver.manage().timeouts().implicitlyWait(60, TimeUnit.SECONDS);
             }
             else if (browserName.toLowerCase().equals("headless") && (testURL == null || testURL.length() == 0)) {
+            	initializeWebDriver("phantomjs");
                 capabilities.setCapability(CapabilityType.BROWSER_NAME, browserName);
                 _driver = new PhantomJSDriver(capabilities);
                 _driver.manage().timeouts().implicitlyWait(60, TimeUnit.SECONDS);
@@ -130,6 +131,9 @@ public class TestEnvironment {
             webDriverPropertyName = "chrome";
         } else if (WebDriverName.toLowerCase().equals("iedriverserver")) {
             webDriverPropertyName = "ie";
+        } else if (WebDriverName.toLowerCase().equals("phantomjs")){
+        	webDriverPropertyName = "phantomjs";
+        	
         }
 
         if (Operation_System.contains("mac")) {
@@ -163,8 +167,11 @@ public class TestEnvironment {
             if (!cDriver.canExecute()) {
                 cDriver.setExecutable(true);
             }
-
-            System.setProperty("webdriver." + webDriverPropertyName + ".driver", driveFilePath);
+            if (webDriverPropertyName.equals("phantomjs")){
+            	System.setProperty("phantomjs.binary.path", driveFilePath);
+            } else{
+            	System.setProperty("webdriver." + webDriverPropertyName + ".driver", driveFilePath);
+            }
         } else {
 
             //If we are on a 64 bit OS but don't have a 64 bit driver, we want to default to 32 bit driver.
@@ -182,8 +189,11 @@ public class TestEnvironment {
                     if (!cDriver.canExecute()) {
                         cDriver.setExecutable(true);
                     }
-
-                    System.setProperty("webdriver." + webDriverPropertyName + ".driver",driveFilePath);
+                    if (webDriverPropertyName.equals("phantomjs")){
+                    	System.setProperty("phantomjs.binary.path", driveFilePath);
+                    } else{
+                    	System.setProperty("webdriver." + webDriverPropertyName + ".driver",driveFilePath);
+                    }
                 }
             }
         }

@@ -26,9 +26,16 @@ public class InfoSessionsPage {
      * PAGE ELEMENTS SETUP
      ***********************************/
     
-    @FindBy(how = How.XPATH, using = "//*[@id=\"loginForm\"]/div[1]/button")
-    private WebElement signInButton;
     
+    //Banner
+    @FindBy(how = How.CSS, using = "div.band.head ")
+    private static WebElement headerBanner;
+
+    //Banner Text
+    @FindBy(how = How.CSS, using = "h1")
+    private static WebElement pageHeadingH1;
+   
+        
     //@FindBy(how = How.XPATH, using = ".//*[@id='webform-component-Home-Phone--c']/div[1]/div/ul/li[61]/span[1]")
     @FindBy(how = How.XPATH, using = "//div[@id='webform-component-Home-Phone--c']/div/div/ul/li[61]")
     private WebElement cyprus;
@@ -74,15 +81,37 @@ public class InfoSessionsPage {
     private static WebElement promoModalClose;
 
     
+    //----------------------------------Promo modal---------------------------------------
+
+    //Close button
+    @FindBy (xpath = "(//button[@type='button'])[5]")
+    private static WebElement promoCloseButton;
+
+   
     /************************************
      * PAGE TEST METHODS
      ************************************/
-
-    public void closePromoModal(){
-    	driver.switchTo().activeElement();
-        promoModalClose.click();
-        driver.switchTo().defaultContent();
+    
+    
+    public boolean verifyBannerIsDisplayed (){
+        boolean bannerAppear = InfoSessionsPage.headerBanner.isDisplayed();
+        return bannerAppear;
     }
+    
+    public boolean verifyBannerTextIsDisplayed(){
+
+        String pageHeadingH1 = InfoSessionsPage.pageHeadingH1.getText();
+        boolean TextPresent = pageHeadingH1.toLowerCase().contains("Info Sessions".toLowerCase());
+        return TextPresent;
+    }
+    
+
+    public void closePromo(){
+    	if(InfoSessionsPage.promoCloseButton.isDisplayed()){
+    		promoCloseButton.click();	
+    	}
+    }
+
     
     public void clickCyprusFlag(){
     	cyprus.click();	

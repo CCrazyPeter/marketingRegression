@@ -74,12 +74,22 @@ public class BlogElements  {
     @FindBy(how = How.ID, using = "edit-submit")
     private static WebElement formSubmit;
 
-    
+    //----------------------------------Promo modal---------------------------------------
+
+    //Close button
+    @FindBy (xpath = "(//button[@type='button'])[5]")
+    private static WebElement promoCloseButton;
+
+   
     /************************************
      * PAGE TEST METHODS
      ************************************/
 
-    
+    public void closePromo(){
+    	if(BlogElements.promoCloseButton.isDisplayed()){
+    		promoCloseButton.click();	
+    	}
+    }
     public boolean verifyBannerIsDisplayed (){
         boolean bannerAppear = BlogElements.blogHeaderBanner.isDisplayed();
         return bannerAppear;

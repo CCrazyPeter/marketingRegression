@@ -1,0 +1,1022 @@
+[INFO  - 2016-07-18T02:11:33.017Z] GhostDriver - Main - running on port 27141
+[INFO  - 2016-07-18T02:11:33.845Z] Session [f30e9390-4c8c-11e6-a1f5-b73c1b86bf4e] - page.settings - {"XSSAuditingEnabled":false,"javascriptCanCloseWindows":true,"javascriptCanOpenWindows":true,"javascriptEnabled":true,"loadImages":true,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.1.1 Safari/538.1","webSecurityEnabled":true}
+[INFO  - 2016-07-18T02:11:33.845Z] Session [f30e9390-4c8c-11e6-a1f5-b73c1b86bf4e] - page.customHeaders:  - {}
+[INFO  - 2016-07-18T02:11:33.846Z] Session [f30e9390-4c8c-11e6-a1f5-b73c1b86bf4e] - Session.negotiatedCapabilities - {"browserName":"phantomjs","version":"2.1.1","driverName":"ghostdriver","driverVersion":"1.2.0","platform":"windows-10-32bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2016-07-18T02:11:33.847Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: f30e9390-4c8c-11e6-a1f5-b73c1b86bf4e
+[ERROR - 2016-07-18T02:11:38.112Z] Session [f30e9390-4c8c-11e6-a1f5-b73c1b86bf4e] - page.onError - msg: TypeError: undefined is not an object (evaluating 'this.src.replace')
+[ERROR - 2016-07-18T02:11:38.113Z] Session [f30e9390-4c8c-11e6-a1f5-b73c1b86bf4e] - page.onError - stack:
+  (anonymous function) (http://iinsandbox.prod.acquia-sites.com/sites/default/files//advagg_js/js__08PbjE0JtW8r5z3i2z7kQyu5G4U05mbBwdUYVNoAcHk__erspXjsDLAjYzx-UJs3fuNnSnocf5sxtuqEdyzpAkRc__DFS7sfByEXJKuikTGVRoW4mN5oUoszzrS0h-6JAzqc0.js:8)
+  access (http://code.jquery.com/jquery-1.10.2.min.js:4)
+  attr (http://code.jquery.com/jquery-1.10.2.min.js:5)
+  replaceSource (http://iinsandbox.prod.acquia-sites.com/sites/default/files//advagg_js/js__08PbjE0JtW8r5z3i2z7kQyu5G4U05mbBwdUYVNoAcHk__erspXjsDLAjYzx-UJs3fuNnSnocf5sxtuqEdyzpAkRc__DFS7sfByEXJKuikTGVRoW4mN5oUoszzrS0h-6JAzqc0.js:8)
+  attach (http://iinsandbox.prod.acquia-sites.com/sites/default/files//advagg_js/js__08PbjE0JtW8r5z3i2z7kQyu5G4U05mbBwdUYVNoAcHk__erspXjsDLAjYzx-UJs3fuNnSnocf5sxtuqEdyzpAkRc__DFS7sfByEXJKuikTGVRoW4mN5oUoszzrS0h-6JAzqc0.js:8)
+  (anonymous function) (http://iinsandbox.prod.acquia-sites.com/sites/default/files//advagg_js/js__H5AFmq1RrXKsrazzPq_xPQPy4K0wUKqecPjczzRiTgQ__p930YZ_ODW6ZjDLOJmxJnRL7juGStYuszD6uNS8_FFo__DFS7sfByEXJKuikTGVRoW4mN5oUoszzrS0h-6JAzqc0.js:5)
+  each (http://code.jquery.com/jquery-1.10.2.min.js:4)
+  attachBehaviors (http://iinsandbox.prod.acquia-sites.com/sites/default/files//advagg_js/js__H5AFmq1RrXKsrazzPq_xPQPy4K0wUKqecPjczzRiTgQ__p930YZ_ODW6ZjDLOJmxJnRL7juGStYuszD6uNS8_FFo__DFS7sfByEXJKuikTGVRoW4mN5oUoszzrS0h-6JAzqc0.js:5)
+  (anonymous function) (http://iinsandbox.prod.acquia-sites.com/sites/default/files//advagg_js/js__H5AFmq1RrXKsrazzPq_xPQPy4K0wUKqecPjczzRiTgQ__p930YZ_ODW6ZjDLOJmxJnRL7juGStYuszD6uNS8_FFo__DFS7sfByEXJKuikTGVRoW4mN5oUoszzrS0h-6JAzqc0.js:5)
+  c (http://code.jquery.com/jquery-1.10.2.min.js:4)
+  fireWith (http://code.jquery.com/jquery-1.10.2.min.js:4)
+  ready (http://code.jquery.com/jquery-1.10.2.min.js:4)
+  q (http://code.jquery.com/jquery-1.10.2.min.js:4)
+[ERROR - 2016-07-18T02:11:40.085Z] Session [f30e9390-4c8c-11e6-a1f5-b73c1b86bf4e] - page.onError - msg: getPresentingPlayerType@https://s.ytimg.com/yts/jsbin/player-es_ES-vflA-put7/base.js:7090:113
+tA@https://s.ytimg.com/yts/jsbin/player-es_ES-vflA-put7/base.js:2179:78
+Q7@https://s.ytimg.com/yts/jsbin/player-es_ES-vflA-put7/base.js:4115:87
+t8@https://s.ytimg.com/yts/jsbin/player-es_ES-vflA-put7/base.js:4202:301
+create@https://s.ytimg.com/yts/jsbin/player-es_ES-vflA-put7/base.js:7080:555
+https://s.ytimg.com/yts/jsbin/www-embed-player-vflPCVbP_/www-embed-player.js:479:276
+[native code]
+pe@https://s.ytimg.com/yts/jsbin/www-embed-player-vflPCVbP_/www-embed-player.js:479:318
+Qh@https://s.ytimg.com/yts/jsbin/www-embed-player-vflPCVbP_/www-embed-player.js:477:147
+Tb@https://s.ytimg.com/yts/jsbin/www-embed-player-vflPCVbP_/www-embed-player.js:470:189
+https://s.ytimg.com/yts/jsbin/www-embed-player-vflPCVbP_/www-embed-player.js:511:422
+[ERROR - 2016-07-18T02:11:40.086Z] Session [f30e9390-4c8c-11e6-a1f5-b73c1b86bf4e] - page.onError - stack:
+  (anonymous function) (https://s.ytimg.com/yts/jsbin/player-es_ES-vflA-put7/base.js:3871)
+  (anonymous function) (:0)
+[ERROR - 2016-07-18T02:11:42.114Z] Session [f30e9390-4c8c-11e6-a1f5-b73c1b86bf4e] - page.onError - msg: TypeError: undefined is not an object (evaluating 'this.src.replace')
+[ERROR - 2016-07-18T02:11:42.114Z] Session [f30e9390-4c8c-11e6-a1f5-b73c1b86bf4e] - page.onError - stack:
+  (anonymous function) (http://iinsandbox.prod.acquia-sites.com/sites/default/files//advagg_js/js__08PbjE0JtW8r5z3i2z7kQyu5G4U05mbBwdUYVNoAcHk__erspXjsDLAjYzx-UJs3fuNnSnocf5sxtuqEdyzpAkRc__DFS7sfByEXJKuikTGVRoW4mN5oUoszzrS0h-6JAzqc0.js:8)
+  access (http://code.jquery.com/jquery-1.10.2.min.js:4)
+  attr (http://code.jquery.com/jquery-1.10.2.min.js:5)
+  replaceSource (http://iinsandbox.prod.acquia-sites.com/sites/default/files//advagg_js/js__08PbjE0JtW8r5z3i2z7kQyu5G4U05mbBwdUYVNoAcHk__erspXjsDLAjYzx-UJs3fuNnSnocf5sxtuqEdyzpAkRc__DFS7sfByEXJKuikTGVRoW4mN5oUoszzrS0h-6JAzqc0.js:8)
+  attach (http://iinsandbox.prod.acquia-sites.com/sites/default/files//advagg_js/js__08PbjE0JtW8r5z3i2z7kQyu5G4U05mbBwdUYVNoAcHk__erspXjsDLAjYzx-UJs3fuNnSnocf5sxtuqEdyzpAkRc__DFS7sfByEXJKuikTGVRoW4mN5oUoszzrS0h-6JAzqc0.js:8)
+  (anonymous function) (http://iinsandbox.prod.acquia-sites.com/sites/default/files//advagg_js/js__H5AFmq1RrXKsrazzPq_xPQPy4K0wUKqecPjczzRiTgQ__p930YZ_ODW6ZjDLOJmxJnRL7juGStYuszD6uNS8_FFo__DFS7sfByEXJKuikTGVRoW4mN5oUoszzrS0h-6JAzqc0.js:5)
+  each (http://code.jquery.com/jquery-1.10.2.min.js:4)
+  attachBehaviors (http://iinsandbox.prod.acquia-sites.com/sites/default/files//advagg_js/js__H5AFmq1RrXKsrazzPq_xPQPy4K0wUKqecPjczzRiTgQ__p930YZ_ODW6ZjDLOJmxJnRL7juGStYuszD6uNS8_FFo__DFS7sfByEXJKuikTGVRoW4mN5oUoszzrS0h-6JAzqc0.js:5)
+  (anonymous function) (http://iinsandbox.prod.acquia-sites.com/sites/default/files//advagg_js/js__H5AFmq1RrXKsrazzPq_xPQPy4K0wUKqecPjczzRiTgQ__p930YZ_ODW6ZjDLOJmxJnRL7juGStYuszD6uNS8_FFo__DFS7sfByEXJKuikTGVRoW4mN5oUoszzrS0h-6JAzqc0.js:5)
+  c (http://code.jquery.com/jquery-1.10.2.min.js:4)
+  fireWith (http://code.jquery.com/jquery-1.10.2.min.js:4)
+  ready (http://code.jquery.com/jquery-1.10.2.min.js:4)
+  q (http://code.jquery.com/jquery-1.10.2.min.js:4)
+[ERROR - 2016-07-18T02:11:42.346Z] Session [f30e9390-4c8c-11e6-a1f5-b73c1b86bf4e] - page.onError - msg: getPresentingPlayerType@https://s.ytimg.com/yts/jsbin/player-es_ES-vflA-put7/base.js:7090:113
+tA@https://s.ytimg.com/yts/jsbin/player-es_ES-vflA-put7/base.js:2179:78
+Q7@https://s.ytimg.com/yts/jsbin/player-es_ES-vflA-put7/base.js:4115:87
+t8@https://s.ytimg.com/yts/jsbin/player-es_ES-vflA-put7/base.js:4202:301
+create@https://s.ytimg.com/yts/jsbin/player-es_ES-vflA-put7/base.js:7080:555
+https://s.ytimg.com/yts/jsbin/www-embed-player-vflPCVbP_/www-embed-player.js:479:276
+[native code]
+pe@https://s.ytimg.com/yts/jsbin/www-embed-player-vflPCVbP_/www-embed-player.js:479:318
+Qh@https://s.ytimg.com/yts/jsbin/www-embed-player-vflPCVbP_/www-embed-player.js:477:147
+Tb@https://s.ytimg.com/yts/jsbin/www-embed-player-vflPCVbP_/www-embed-player.js:470:189
+https://s.ytimg.com/yts/jsbin/www-embed-player-vflPCVbP_/www-embed-player.js:511:422
+[ERROR - 2016-07-18T02:11:42.347Z] Session [f30e9390-4c8c-11e6-a1f5-b73c1b86bf4e] - page.onError - stack:
+  (anonymous function) (https://s.ytimg.com/yts/jsbin/player-es_ES-vflA-put7/base.js:3871)
+  (anonymous function) (:0)
+[ERROR - 2016-07-18T02:11:44.993Z] Session [f30e9390-4c8c-11e6-a1f5-b73c1b86bf4e] - page.onError - msg: TypeError: undefined is not an object (evaluating 'this.src.replace')
+[ERROR - 2016-07-18T02:11:44.994Z] Session [f30e9390-4c8c-11e6-a1f5-b73c1b86bf4e] - page.onError - stack:
+  (anonymous function) (http://iinsandbox.prod.acquia-sites.com/sites/default/files//advagg_js/js__08PbjE0JtW8r5z3i2z7kQyu5G4U05mbBwdUYVNoAcHk__erspXjsDLAjYzx-UJs3fuNnSnocf5sxtuqEdyzpAkRc__DFS7sfByEXJKuikTGVRoW4mN5oUoszzrS0h-6JAzqc0.js:8)
+  access (http://code.jquery.com/jquery-1.10.2.min.js:4)
+  attr (http://code.jquery.com/jquery-1.10.2.min.js:5)
+  replaceSource (http://iinsandbox.prod.acquia-sites.com/sites/default/files//advagg_js/js__08PbjE0JtW8r5z3i2z7kQyu5G4U05mbBwdUYVNoAcHk__erspXjsDLAjYzx-UJs3fuNnSnocf5sxtuqEdyzpAkRc__DFS7sfByEXJKuikTGVRoW4mN5oUoszzrS0h-6JAzqc0.js:8)
+  attach (http://iinsandbox.prod.acquia-sites.com/sites/default/files//advagg_js/js__08PbjE0JtW8r5z3i2z7kQyu5G4U05mbBwdUYVNoAcHk__erspXjsDLAjYzx-UJs3fuNnSnocf5sxtuqEdyzpAkRc__DFS7sfByEXJKuikTGVRoW4mN5oUoszzrS0h-6JAzqc0.js:8)
+  (anonymous function) (http://iinsandbox.prod.acquia-sites.com/sites/default/files//advagg_js/js__H5AFmq1RrXKsrazzPq_xPQPy4K0wUKqecPjczzRiTgQ__p930YZ_ODW6ZjDLOJmxJnRL7juGStYuszD6uNS8_FFo__DFS7sfByEXJKuikTGVRoW4mN5oUoszzrS0h-6JAzqc0.js:5)
+  each (http://code.jquery.com/jquery-1.10.2.min.js:4)
+  attachBehaviors (http://iinsandbox.prod.acquia-sites.com/sites/default/files//advagg_js/js__H5AFmq1RrXKsrazzPq_xPQPy4K0wUKqecPjczzRiTgQ__p930YZ_ODW6ZjDLOJmxJnRL7juGStYuszD6uNS8_FFo__DFS7sfByEXJKuikTGVRoW4mN5oUoszzrS0h-6JAzqc0.js:5)
+  (anonymous function) (http://iinsandbox.prod.acquia-sites.com/sites/default/files//advagg_js/js__H5AFmq1RrXKsrazzPq_xPQPy4K0wUKqecPjczzRiTgQ__p930YZ_ODW6ZjDLOJmxJnRL7juGStYuszD6uNS8_FFo__DFS7sfByEXJKuikTGVRoW4mN5oUoszzrS0h-6JAzqc0.js:5)
+  c (http://code.jquery.com/jquery-1.10.2.min.js:4)
+  fireWith (http://code.jquery.com/jquery-1.10.2.min.js:4)
+  ready (http://code.jquery.com/jquery-1.10.2.min.js:4)
+  q (http://code.jquery.com/jquery-1.10.2.min.js:4)
+[ERROR - 2016-07-18T02:11:45.212Z] Session [f30e9390-4c8c-11e6-a1f5-b73c1b86bf4e] - page.onError - msg: getPresentingPlayerType@https://s.ytimg.com/yts/jsbin/player-es_ES-vflA-put7/base.js:7090:113
+tA@https://s.ytimg.com/yts/jsbin/player-es_ES-vflA-put7/base.js:2179:78
+Q7@https://s.ytimg.com/yts/jsbin/player-es_ES-vflA-put7/base.js:4115:87
+t8@https://s.ytimg.com/yts/jsbin/player-es_ES-vflA-put7/base.js:4202:301
+create@https://s.ytimg.com/yts/jsbin/player-es_ES-vflA-put7/base.js:7080:555
+https://s.ytimg.com/yts/jsbin/www-embed-player-vflPCVbP_/www-embed-player.js:479:276
+[native code]
+pe@https://s.ytimg.com/yts/jsbin/www-embed-player-vflPCVbP_/www-embed-player.js:479:318
+Qh@https://s.ytimg.com/yts/jsbin/www-embed-player-vflPCVbP_/www-embed-player.js:477:147
+Tb@https://s.ytimg.com/yts/jsbin/www-embed-player-vflPCVbP_/www-embed-player.js:470:189
+https://s.ytimg.com/yts/jsbin/www-embed-player-vflPCVbP_/www-embed-player.js:511:422
+[ERROR - 2016-07-18T02:11:45.213Z] Session [f30e9390-4c8c-11e6-a1f5-b73c1b86bf4e] - page.onError - stack:
+  (anonymous function) (https://s.ytimg.com/yts/jsbin/player-es_ES-vflA-put7/base.js:3871)
+  (anonymous function) (:0)
+[ERROR - 2016-07-18T02:11:47.270Z] Session [f30e9390-4c8c-11e6-a1f5-b73c1b86bf4e] - page.onError - msg: TypeError: undefined is not an object (evaluating 'this.src.replace')
+[ERROR - 2016-07-18T02:11:47.270Z] Session [f30e9390-4c8c-11e6-a1f5-b73c1b86bf4e] - page.onError - stack:
+  (anonymous function) (http://iinsandbox.prod.acquia-sites.com/sites/default/files//advagg_js/js__08PbjE0JtW8r5z3i2z7kQyu5G4U05mbBwdUYVNoAcHk__erspXjsDLAjYzx-UJs3fuNnSnocf5sxtuqEdyzpAkRc__DFS7sfByEXJKuikTGVRoW4mN5oUoszzrS0h-6JAzqc0.js:8)
+  access (http://code.jquery.com/jquery-1.10.2.min.js:4)
+  attr (http://code.jquery.com/jquery-1.10.2.min.js:5)
+  replaceSource (http://iinsandbox.prod.acquia-sites.com/sites/default/files//advagg_js/js__08PbjE0JtW8r5z3i2z7kQyu5G4U05mbBwdUYVNoAcHk__erspXjsDLAjYzx-UJs3fuNnSnocf5sxtuqEdyzpAkRc__DFS7sfByEXJKuikTGVRoW4mN5oUoszzrS0h-6JAzqc0.js:8)
+  attach (http://iinsandbox.prod.acquia-sites.com/sites/default/files//advagg_js/js__08PbjE0JtW8r5z3i2z7kQyu5G4U05mbBwdUYVNoAcHk__erspXjsDLAjYzx-UJs3fuNnSnocf5sxtuqEdyzpAkRc__DFS7sfByEXJKuikTGVRoW4mN5oUoszzrS0h-6JAzqc0.js:8)
+  (anonymous function) (http://iinsandbox.prod.acquia-sites.com/sites/default/files//advagg_js/js__H5AFmq1RrXKsrazzPq_xPQPy4K0wUKqecPjczzRiTgQ__p930YZ_ODW6ZjDLOJmxJnRL7juGStYuszD6uNS8_FFo__DFS7sfByEXJKuikTGVRoW4mN5oUoszzrS0h-6JAzqc0.js:5)
+  each (http://code.jquery.com/jquery-1.10.2.min.js:4)
+  attachBehaviors (http://iinsandbox.prod.acquia-sites.com/sites/default/files//advagg_js/js__H5AFmq1RrXKsrazzPq_xPQPy4K0wUKqecPjczzRiTgQ__p930YZ_ODW6ZjDLOJmxJnRL7juGStYuszD6uNS8_FFo__DFS7sfByEXJKuikTGVRoW4mN5oUoszzrS0h-6JAzqc0.js:5)
+  (anonymous function) (http://iinsandbox.prod.acquia-sites.com/sites/default/files//advagg_js/js__H5AFmq1RrXKsrazzPq_xPQPy4K0wUKqecPjczzRiTgQ__p930YZ_ODW6ZjDLOJmxJnRL7juGStYuszD6uNS8_FFo__DFS7sfByEXJKuikTGVRoW4mN5oUoszzrS0h-6JAzqc0.js:5)
+  c (http://code.jquery.com/jquery-1.10.2.min.js:4)
+  fireWith (http://code.jquery.com/jquery-1.10.2.min.js:4)
+  ready (http://code.jquery.com/jquery-1.10.2.min.js:4)
+  q (http://code.jquery.com/jquery-1.10.2.min.js:4)
+[ERROR - 2016-07-18T02:11:47.517Z] Session [f30e9390-4c8c-11e6-a1f5-b73c1b86bf4e] - page.onError - msg: getPresentingPlayerType@https://s.ytimg.com/yts/jsbin/player-es_ES-vflA-put7/base.js:7090:113
+tA@https://s.ytimg.com/yts/jsbin/player-es_ES-vflA-put7/base.js:2179:78
+Q7@https://s.ytimg.com/yts/jsbin/player-es_ES-vflA-put7/base.js:4115:87
+t8@https://s.ytimg.com/yts/jsbin/player-es_ES-vflA-put7/base.js:4202:301
+create@https://s.ytimg.com/yts/jsbin/player-es_ES-vflA-put7/base.js:7080:555
+https://s.ytimg.com/yts/jsbin/www-embed-player-vflPCVbP_/www-embed-player.js:479:276
+[native code]
+pe@https://s.ytimg.com/yts/jsbin/www-embed-player-vflPCVbP_/www-embed-player.js:479:318
+Qh@https://s.ytimg.com/yts/jsbin/www-embed-player-vflPCVbP_/www-embed-player.js:477:147
+Tb@https://s.ytimg.com/yts/jsbin/www-embed-player-vflPCVbP_/www-embed-player.js:470:189
+https://s.ytimg.com/yts/jsbin/www-embed-player-vflPCVbP_/www-embed-player.js:511:422
+[ERROR - 2016-07-18T02:11:47.517Z] Session [f30e9390-4c8c-11e6-a1f5-b73c1b86bf4e] - page.onError - stack:
+  (anonymous function) (https://s.ytimg.com/yts/jsbin/player-es_ES-vflA-put7/base.js:3871)
+  (anonymous function) (:0)
+[ERROR - 2016-07-18T02:11:49.569Z] Session [f30e9390-4c8c-11e6-a1f5-b73c1b86bf4e] - page.onError - msg: TypeError: undefined is not an object (evaluating 'this.src.replace')
+[ERROR - 2016-07-18T02:11:49.570Z] Session [f30e9390-4c8c-11e6-a1f5-b73c1b86bf4e] - page.onError - stack:
+  (anonymous function) (http://iinsandbox.prod.acquia-sites.com/sites/default/files//advagg_js/js__08PbjE0JtW8r5z3i2z7kQyu5G4U05mbBwdUYVNoAcHk__erspXjsDLAjYzx-UJs3fuNnSnocf5sxtuqEdyzpAkRc__DFS7sfByEXJKuikTGVRoW4mN5oUoszzrS0h-6JAzqc0.js:8)
+  access (http://code.jquery.com/jquery-1.10.2.min.js:4)
+  attr (http://code.jquery.com/jquery-1.10.2.min.js:5)
+  replaceSource (http://iinsandbox.prod.acquia-sites.com/sites/default/files//advagg_js/js__08PbjE0JtW8r5z3i2z7kQyu5G4U05mbBwdUYVNoAcHk__erspXjsDLAjYzx-UJs3fuNnSnocf5sxtuqEdyzpAkRc__DFS7sfByEXJKuikTGVRoW4mN5oUoszzrS0h-6JAzqc0.js:8)
+  attach (http://iinsandbox.prod.acquia-sites.com/sites/default/files//advagg_js/js__08PbjE0JtW8r5z3i2z7kQyu5G4U05mbBwdUYVNoAcHk__erspXjsDLAjYzx-UJs3fuNnSnocf5sxtuqEdyzpAkRc__DFS7sfByEXJKuikTGVRoW4mN5oUoszzrS0h-6JAzqc0.js:8)
+  (anonymous function) (http://iinsandbox.prod.acquia-sites.com/sites/default/files//advagg_js/js__H5AFmq1RrXKsrazzPq_xPQPy4K0wUKqecPjczzRiTgQ__p930YZ_ODW6ZjDLOJmxJnRL7juGStYuszD6uNS8_FFo__DFS7sfByEXJKuikTGVRoW4mN5oUoszzrS0h-6JAzqc0.js:5)
+  each (http://code.jquery.com/jquery-1.10.2.min.js:4)
+  attachBehaviors (http://iinsandbox.prod.acquia-sites.com/sites/default/files//advagg_js/js__H5AFmq1RrXKsrazzPq_xPQPy4K0wUKqecPjczzRiTgQ__p930YZ_ODW6ZjDLOJmxJnRL7juGStYuszD6uNS8_FFo__DFS7sfByEXJKuikTGVRoW4mN5oUoszzrS0h-6JAzqc0.js:5)
+  (anonymous function) (http://iinsandbox.prod.acquia-sites.com/sites/default/files//advagg_js/js__H5AFmq1RrXKsrazzPq_xPQPy4K0wUKqecPjczzRiTgQ__p930YZ_ODW6ZjDLOJmxJnRL7juGStYuszD6uNS8_FFo__DFS7sfByEXJKuikTGVRoW4mN5oUoszzrS0h-6JAzqc0.js:5)
+  c (http://code.jquery.com/jquery-1.10.2.min.js:4)
+  fireWith (http://code.jquery.com/jquery-1.10.2.min.js:4)
+  ready (http://code.jquery.com/jquery-1.10.2.min.js:4)
+  q (http://code.jquery.com/jquery-1.10.2.min.js:4)
+[ERROR - 2016-07-18T02:11:49.814Z] Session [f30e9390-4c8c-11e6-a1f5-b73c1b86bf4e] - page.onError - msg: getPresentingPlayerType@https://s.ytimg.com/yts/jsbin/player-es_ES-vflA-put7/base.js:7090:113
+tA@https://s.ytimg.com/yts/jsbin/player-es_ES-vflA-put7/base.js:2179:78
+Q7@https://s.ytimg.com/yts/jsbin/player-es_ES-vflA-put7/base.js:4115:87
+t8@https://s.ytimg.com/yts/jsbin/player-es_ES-vflA-put7/base.js:4202:301
+create@https://s.ytimg.com/yts/jsbin/player-es_ES-vflA-put7/base.js:7080:555
+https://s.ytimg.com/yts/jsbin/www-embed-player-vflPCVbP_/www-embed-player.js:479:276
+[native code]
+pe@https://s.ytimg.com/yts/jsbin/www-embed-player-vflPCVbP_/www-embed-player.js:479:318
+Qh@https://s.ytimg.com/yts/jsbin/www-embed-player-vflPCVbP_/www-embed-player.js:477:147
+Tb@https://s.ytimg.com/yts/jsbin/www-embed-player-vflPCVbP_/www-embed-player.js:470:189
+https://s.ytimg.com/yts/jsbin/www-embed-player-vflPCVbP_/www-embed-player.js:511:422
+[ERROR - 2016-07-18T02:11:49.815Z] Session [f30e9390-4c8c-11e6-a1f5-b73c1b86bf4e] - page.onError - stack:
+  (anonymous function) (https://s.ytimg.com/yts/jsbin/player-es_ES-vflA-put7/base.js:3871)
+  (anonymous function) (:0)
+[ERROR - 2016-07-18T02:11:51.951Z] Session [f30e9390-4c8c-11e6-a1f5-b73c1b86bf4e] - page.onError - msg: TypeError: undefined is not an object (evaluating 'this.src.replace')
+[ERROR - 2016-07-18T02:11:51.952Z] Session [f30e9390-4c8c-11e6-a1f5-b73c1b86bf4e] - page.onError - stack:
+  (anonymous function) (http://iinsandbox.prod.acquia-sites.com/sites/default/files//advagg_js/js__08PbjE0JtW8r5z3i2z7kQyu5G4U05mbBwdUYVNoAcHk__erspXjsDLAjYzx-UJs3fuNnSnocf5sxtuqEdyzpAkRc__DFS7sfByEXJKuikTGVRoW4mN5oUoszzrS0h-6JAzqc0.js:8)
+  access (http://code.jquery.com/jquery-1.10.2.min.js:4)
+  attr (http://code.jquery.com/jquery-1.10.2.min.js:5)
+  replaceSource (http://iinsandbox.prod.acquia-sites.com/sites/default/files//advagg_js/js__08PbjE0JtW8r5z3i2z7kQyu5G4U05mbBwdUYVNoAcHk__erspXjsDLAjYzx-UJs3fuNnSnocf5sxtuqEdyzpAkRc__DFS7sfByEXJKuikTGVRoW4mN5oUoszzrS0h-6JAzqc0.js:8)
+  attach (http://iinsandbox.prod.acquia-sites.com/sites/default/files//advagg_js/js__08PbjE0JtW8r5z3i2z7kQyu5G4U05mbBwdUYVNoAcHk__erspXjsDLAjYzx-UJs3fuNnSnocf5sxtuqEdyzpAkRc__DFS7sfByEXJKuikTGVRoW4mN5oUoszzrS0h-6JAzqc0.js:8)
+  (anonymous function) (http://iinsandbox.prod.acquia-sites.com/sites/default/files//advagg_js/js__H5AFmq1RrXKsrazzPq_xPQPy4K0wUKqecPjczzRiTgQ__p930YZ_ODW6ZjDLOJmxJnRL7juGStYuszD6uNS8_FFo__DFS7sfByEXJKuikTGVRoW4mN5oUoszzrS0h-6JAzqc0.js:5)
+  each (http://code.jquery.com/jquery-1.10.2.min.js:4)
+  attachBehaviors (http://iinsandbox.prod.acquia-sites.com/sites/default/files//advagg_js/js__H5AFmq1RrXKsrazzPq_xPQPy4K0wUKqecPjczzRiTgQ__p930YZ_ODW6ZjDLOJmxJnRL7juGStYuszD6uNS8_FFo__DFS7sfByEXJKuikTGVRoW4mN5oUoszzrS0h-6JAzqc0.js:5)
+  (anonymous function) (http://iinsandbox.prod.acquia-sites.com/sites/default/files//advagg_js/js__H5AFmq1RrXKsrazzPq_xPQPy4K0wUKqecPjczzRiTgQ__p930YZ_ODW6ZjDLOJmxJnRL7juGStYuszD6uNS8_FFo__DFS7sfByEXJKuikTGVRoW4mN5oUoszzrS0h-6JAzqc0.js:5)
+  c (http://code.jquery.com/jquery-1.10.2.min.js:4)
+  fireWith (http://code.jquery.com/jquery-1.10.2.min.js:4)
+  ready (http://code.jquery.com/jquery-1.10.2.min.js:4)
+  q (http://code.jquery.com/jquery-1.10.2.min.js:4)
+[ERROR - 2016-07-18T02:11:52.173Z] Session [f30e9390-4c8c-11e6-a1f5-b73c1b86bf4e] - page.onError - msg: getPresentingPlayerType@https://s.ytimg.com/yts/jsbin/player-es_ES-vflA-put7/base.js:7090:113
+tA@https://s.ytimg.com/yts/jsbin/player-es_ES-vflA-put7/base.js:2179:78
+Q7@https://s.ytimg.com/yts/jsbin/player-es_ES-vflA-put7/base.js:4115:87
+t8@https://s.ytimg.com/yts/jsbin/player-es_ES-vflA-put7/base.js:4202:301
+create@https://s.ytimg.com/yts/jsbin/player-es_ES-vflA-put7/base.js:7080:555
+https://s.ytimg.com/yts/jsbin/www-embed-player-vflPCVbP_/www-embed-player.js:479:276
+[native code]
+pe@https://s.ytimg.com/yts/jsbin/www-embed-player-vflPCVbP_/www-embed-player.js:479:318
+Qh@https://s.ytimg.com/yts/jsbin/www-embed-player-vflPCVbP_/www-embed-player.js:477:147
+Tb@https://s.ytimg.com/yts/jsbin/www-embed-player-vflPCVbP_/www-embed-player.js:470:189
+https://s.ytimg.com/yts/jsbin/www-embed-player-vflPCVbP_/www-embed-player.js:511:422
+[ERROR - 2016-07-18T02:11:52.174Z] Session [f30e9390-4c8c-11e6-a1f5-b73c1b86bf4e] - page.onError - stack:
+  (anonymous function) (https://s.ytimg.com/yts/jsbin/player-es_ES-vflA-put7/base.js:3871)
+  (anonymous function) (:0)
+[ERROR - 2016-07-18T02:11:53.414Z] Session [f30e9390-4c8c-11e6-a1f5-b73c1b86bf4e] - page.onError - msg: TypeError: undefined is not an object (evaluating 'this.src.replace')
+[ERROR - 2016-07-18T02:11:53.415Z] Session [f30e9390-4c8c-11e6-a1f5-b73c1b86bf4e] - page.onError - stack:
+  (anonymous function) (http://iinsandbox.prod.acquia-sites.com/sites/default/files//advagg_js/js__08PbjE0JtW8r5z3i2z7kQyu5G4U05mbBwdUYVNoAcHk__erspXjsDLAjYzx-UJs3fuNnSnocf5sxtuqEdyzpAkRc__DFS7sfByEXJKuikTGVRoW4mN5oUoszzrS0h-6JAzqc0.js:8)
+  access (http://code.jquery.com/jquery-1.10.2.min.js:4)
+  attr (http://code.jquery.com/jquery-1.10.2.min.js:5)
+  replaceSource (http://iinsandbox.prod.acquia-sites.com/sites/default/files//advagg_js/js__08PbjE0JtW8r5z3i2z7kQyu5G4U05mbBwdUYVNoAcHk__erspXjsDLAjYzx-UJs3fuNnSnocf5sxtuqEdyzpAkRc__DFS7sfByEXJKuikTGVRoW4mN5oUoszzrS0h-6JAzqc0.js:8)
+  attach (http://iinsandbox.prod.acquia-sites.com/sites/default/files//advagg_js/js__08PbjE0JtW8r5z3i2z7kQyu5G4U05mbBwdUYVNoAcHk__erspXjsDLAjYzx-UJs3fuNnSnocf5sxtuqEdyzpAkRc__DFS7sfByEXJKuikTGVRoW4mN5oUoszzrS0h-6JAzqc0.js:8)
+  (anonymous function) (http://iinsandbox.prod.acquia-sites.com/sites/default/files//advagg_js/js__H5AFmq1RrXKsrazzPq_xPQPy4K0wUKqecPjczzRiTgQ__p930YZ_ODW6ZjDLOJmxJnRL7juGStYuszD6uNS8_FFo__DFS7sfByEXJKuikTGVRoW4mN5oUoszzrS0h-6JAzqc0.js:5)
+  each (http://code.jquery.com/jquery-1.10.2.min.js:4)
+  attachBehaviors (http://iinsandbox.prod.acquia-sites.com/sites/default/files//advagg_js/js__H5AFmq1RrXKsrazzPq_xPQPy4K0wUKqecPjczzRiTgQ__p930YZ_ODW6ZjDLOJmxJnRL7juGStYuszD6uNS8_FFo__DFS7sfByEXJKuikTGVRoW4mN5oUoszzrS0h-6JAzqc0.js:5)
+  (anonymous function) (http://iinsandbox.prod.acquia-sites.com/sites/default/files//advagg_js/js__H5AFmq1RrXKsrazzPq_xPQPy4K0wUKqecPjczzRiTgQ__p930YZ_ODW6ZjDLOJmxJnRL7juGStYuszD6uNS8_FFo__DFS7sfByEXJKuikTGVRoW4mN5oUoszzrS0h-6JAzqc0.js:5)
+  c (http://code.jquery.com/jquery-1.10.2.min.js:4)
+  fireWith (http://code.jquery.com/jquery-1.10.2.min.js:4)
+  ready (http://code.jquery.com/jquery-1.10.2.min.js:4)
+  q (http://code.jquery.com/jquery-1.10.2.min.js:4)
+[ERROR - 2016-07-18T02:11:53.674Z] Session [f30e9390-4c8c-11e6-a1f5-b73c1b86bf4e] - page.onError - msg: getPresentingPlayerType@https://s.ytimg.com/yts/jsbin/player-es_ES-vflA-put7/base.js:7090:113
+tA@https://s.ytimg.com/yts/jsbin/player-es_ES-vflA-put7/base.js:2179:78
+Q7@https://s.ytimg.com/yts/jsbin/player-es_ES-vflA-put7/base.js:4115:87
+t8@https://s.ytimg.com/yts/jsbin/player-es_ES-vflA-put7/base.js:4202:301
+create@https://s.ytimg.com/yts/jsbin/player-es_ES-vflA-put7/base.js:7080:555
+https://s.ytimg.com/yts/jsbin/www-embed-player-vflPCVbP_/www-embed-player.js:479:276
+[native code]
+pe@https://s.ytimg.com/yts/jsbin/www-embed-player-vflPCVbP_/www-embed-player.js:479:318
+Qh@https://s.ytimg.com/yts/jsbin/www-embed-player-vflPCVbP_/www-embed-player.js:477:147
+Tb@https://s.ytimg.com/yts/jsbin/www-embed-player-vflPCVbP_/www-embed-player.js:470:189
+https://s.ytimg.com/yts/jsbin/www-embed-player-vflPCVbP_/www-embed-player.js:511:422
+[ERROR - 2016-07-18T02:11:53.674Z] Session [f30e9390-4c8c-11e6-a1f5-b73c1b86bf4e] - page.onError - stack:
+  (anonymous function) (https://s.ytimg.com/yts/jsbin/player-es_ES-vflA-put7/base.js:3871)
+  (anonymous function) (:0)
+[ERROR - 2016-07-18T02:11:54.735Z] Session [f30e9390-4c8c-11e6-a1f5-b73c1b86bf4e] - page.onError - msg: TypeError: undefined is not an object (evaluating 'this.src.replace')
+[ERROR - 2016-07-18T02:11:54.736Z] Session [f30e9390-4c8c-11e6-a1f5-b73c1b86bf4e] - page.onError - stack:
+  (anonymous function) (http://iinsandbox.prod.acquia-sites.com/sites/default/files//advagg_js/js__08PbjE0JtW8r5z3i2z7kQyu5G4U05mbBwdUYVNoAcHk__erspXjsDLAjYzx-UJs3fuNnSnocf5sxtuqEdyzpAkRc__DFS7sfByEXJKuikTGVRoW4mN5oUoszzrS0h-6JAzqc0.js:8)
+  access (http://code.jquery.com/jquery-1.10.2.min.js:4)
+  attr (http://code.jquery.com/jquery-1.10.2.min.js:5)
+  replaceSource (http://iinsandbox.prod.acquia-sites.com/sites/default/files//advagg_js/js__08PbjE0JtW8r5z3i2z7kQyu5G4U05mbBwdUYVNoAcHk__erspXjsDLAjYzx-UJs3fuNnSnocf5sxtuqEdyzpAkRc__DFS7sfByEXJKuikTGVRoW4mN5oUoszzrS0h-6JAzqc0.js:8)
+  attach (http://iinsandbox.prod.acquia-sites.com/sites/default/files//advagg_js/js__08PbjE0JtW8r5z3i2z7kQyu5G4U05mbBwdUYVNoAcHk__erspXjsDLAjYzx-UJs3fuNnSnocf5sxtuqEdyzpAkRc__DFS7sfByEXJKuikTGVRoW4mN5oUoszzrS0h-6JAzqc0.js:8)
+  (anonymous function) (http://iinsandbox.prod.acquia-sites.com/sites/default/files//advagg_js/js__H5AFmq1RrXKsrazzPq_xPQPy4K0wUKqecPjczzRiTgQ__p930YZ_ODW6ZjDLOJmxJnRL7juGStYuszD6uNS8_FFo__DFS7sfByEXJKuikTGVRoW4mN5oUoszzrS0h-6JAzqc0.js:5)
+  each (http://code.jquery.com/jquery-1.10.2.min.js:4)
+  attachBehaviors (http://iinsandbox.prod.acquia-sites.com/sites/default/files//advagg_js/js__H5AFmq1RrXKsrazzPq_xPQPy4K0wUKqecPjczzRiTgQ__p930YZ_ODW6ZjDLOJmxJnRL7juGStYuszD6uNS8_FFo__DFS7sfByEXJKuikTGVRoW4mN5oUoszzrS0h-6JAzqc0.js:5)
+  (anonymous function) (http://iinsandbox.prod.acquia-sites.com/sites/default/files//advagg_js/js__H5AFmq1RrXKsrazzPq_xPQPy4K0wUKqecPjczzRiTgQ__p930YZ_ODW6ZjDLOJmxJnRL7juGStYuszD6uNS8_FFo__DFS7sfByEXJKuikTGVRoW4mN5oUoszzrS0h-6JAzqc0.js:5)
+  c (http://code.jquery.com/jquery-1.10.2.min.js:4)
+  fireWith (http://code.jquery.com/jquery-1.10.2.min.js:4)
+  ready (http://code.jquery.com/jquery-1.10.2.min.js:4)
+  q (http://code.jquery.com/jquery-1.10.2.min.js:4)
+[ERROR - 2016-07-18T02:11:54.986Z] Session [f30e9390-4c8c-11e6-a1f5-b73c1b86bf4e] - page.onError - msg: getPresentingPlayerType@https://s.ytimg.com/yts/jsbin/player-es_ES-vflA-put7/base.js:7090:113
+tA@https://s.ytimg.com/yts/jsbin/player-es_ES-vflA-put7/base.js:2179:78
+Q7@https://s.ytimg.com/yts/jsbin/player-es_ES-vflA-put7/base.js:4115:87
+t8@https://s.ytimg.com/yts/jsbin/player-es_ES-vflA-put7/base.js:4202:301
+create@https://s.ytimg.com/yts/jsbin/player-es_ES-vflA-put7/base.js:7080:555
+https://s.ytimg.com/yts/jsbin/www-embed-player-vflPCVbP_/www-embed-player.js:479:276
+[native code]
+pe@https://s.ytimg.com/yts/jsbin/www-embed-player-vflPCVbP_/www-embed-player.js:479:318
+Qh@https://s.ytimg.com/yts/jsbin/www-embed-player-vflPCVbP_/www-embed-player.js:477:147
+Tb@https://s.ytimg.com/yts/jsbin/www-embed-player-vflPCVbP_/www-embed-player.js:470:189
+https://s.ytimg.com/yts/jsbin/www-embed-player-vflPCVbP_/www-embed-player.js:511:422
+[ERROR - 2016-07-18T02:11:54.986Z] Session [f30e9390-4c8c-11e6-a1f5-b73c1b86bf4e] - page.onError - stack:
+  (anonymous function) (https://s.ytimg.com/yts/jsbin/player-es_ES-vflA-put7/base.js:3871)
+  (anonymous function) (:0)
+[ERROR - 2016-07-18T02:11:56.029Z] Session [f30e9390-4c8c-11e6-a1f5-b73c1b86bf4e] - page.onError - msg: TypeError: undefined is not an object (evaluating 'this.src.replace')
+[ERROR - 2016-07-18T02:11:56.030Z] Session [f30e9390-4c8c-11e6-a1f5-b73c1b86bf4e] - page.onError - stack:
+  (anonymous function) (http://iinsandbox.prod.acquia-sites.com/sites/default/files//advagg_js/js__08PbjE0JtW8r5z3i2z7kQyu5G4U05mbBwdUYVNoAcHk__erspXjsDLAjYzx-UJs3fuNnSnocf5sxtuqEdyzpAkRc__DFS7sfByEXJKuikTGVRoW4mN5oUoszzrS0h-6JAzqc0.js:8)
+  access (http://code.jquery.com/jquery-1.10.2.min.js:4)
+  attr (http://code.jquery.com/jquery-1.10.2.min.js:5)
+  replaceSource (http://iinsandbox.prod.acquia-sites.com/sites/default/files//advagg_js/js__08PbjE0JtW8r5z3i2z7kQyu5G4U05mbBwdUYVNoAcHk__erspXjsDLAjYzx-UJs3fuNnSnocf5sxtuqEdyzpAkRc__DFS7sfByEXJKuikTGVRoW4mN5oUoszzrS0h-6JAzqc0.js:8)
+  attach (http://iinsandbox.prod.acquia-sites.com/sites/default/files//advagg_js/js__08PbjE0JtW8r5z3i2z7kQyu5G4U05mbBwdUYVNoAcHk__erspXjsDLAjYzx-UJs3fuNnSnocf5sxtuqEdyzpAkRc__DFS7sfByEXJKuikTGVRoW4mN5oUoszzrS0h-6JAzqc0.js:8)
+  (anonymous function) (http://iinsandbox.prod.acquia-sites.com/sites/default/files//advagg_js/js__H5AFmq1RrXKsrazzPq_xPQPy4K0wUKqecPjczzRiTgQ__p930YZ_ODW6ZjDLOJmxJnRL7juGStYuszD6uNS8_FFo__DFS7sfByEXJKuikTGVRoW4mN5oUoszzrS0h-6JAzqc0.js:5)
+  each (http://code.jquery.com/jquery-1.10.2.min.js:4)
+  attachBehaviors (http://iinsandbox.prod.acquia-sites.com/sites/default/files//advagg_js/js__H5AFmq1RrXKsrazzPq_xPQPy4K0wUKqecPjczzRiTgQ__p930YZ_ODW6ZjDLOJmxJnRL7juGStYuszD6uNS8_FFo__DFS7sfByEXJKuikTGVRoW4mN5oUoszzrS0h-6JAzqc0.js:5)
+  (anonymous function) (http://iinsandbox.prod.acquia-sites.com/sites/default/files//advagg_js/js__H5AFmq1RrXKsrazzPq_xPQPy4K0wUKqecPjczzRiTgQ__p930YZ_ODW6ZjDLOJmxJnRL7juGStYuszD6uNS8_FFo__DFS7sfByEXJKuikTGVRoW4mN5oUoszzrS0h-6JAzqc0.js:5)
+  c (http://code.jquery.com/jquery-1.10.2.min.js:4)
+  fireWith (http://code.jquery.com/jquery-1.10.2.min.js:4)
+  ready (http://code.jquery.com/jquery-1.10.2.min.js:4)
+  q (http://code.jquery.com/jquery-1.10.2.min.js:4)
+[ERROR - 2016-07-18T02:11:56.214Z] Session [f30e9390-4c8c-11e6-a1f5-b73c1b86bf4e] - page.onError - msg: getPresentingPlayerType@https://s.ytimg.com/yts/jsbin/player-es_ES-vflA-put7/base.js:7090:113
+tA@https://s.ytimg.com/yts/jsbin/player-es_ES-vflA-put7/base.js:2179:78
+Q7@https://s.ytimg.com/yts/jsbin/player-es_ES-vflA-put7/base.js:4115:87
+t8@https://s.ytimg.com/yts/jsbin/player-es_ES-vflA-put7/base.js:4202:301
+create@https://s.ytimg.com/yts/jsbin/player-es_ES-vflA-put7/base.js:7080:555
+https://s.ytimg.com/yts/jsbin/www-embed-player-vflPCVbP_/www-embed-player.js:479:276
+[native code]
+pe@https://s.ytimg.com/yts/jsbin/www-embed-player-vflPCVbP_/www-embed-player.js:479:318
+Qh@https://s.ytimg.com/yts/jsbin/www-embed-player-vflPCVbP_/www-embed-player.js:477:147
+Tb@https://s.ytimg.com/yts/jsbin/www-embed-player-vflPCVbP_/www-embed-player.js:470:189
+https://s.ytimg.com/yts/jsbin/www-embed-player-vflPCVbP_/www-embed-player.js:511:422
+[ERROR - 2016-07-18T02:11:56.216Z] Session [f30e9390-4c8c-11e6-a1f5-b73c1b86bf4e] - page.onError - stack:
+  (anonymous function) (https://s.ytimg.com/yts/jsbin/player-es_ES-vflA-put7/base.js:3871)
+  (anonymous function) (:0)
+[ERROR - 2016-07-18T02:11:57.203Z] Session [f30e9390-4c8c-11e6-a1f5-b73c1b86bf4e] - page.onError - msg: TypeError: undefined is not an object (evaluating 'this.src.replace')
+[ERROR - 2016-07-18T02:11:57.204Z] Session [f30e9390-4c8c-11e6-a1f5-b73c1b86bf4e] - page.onError - stack:
+  (anonymous function) (http://iinsandbox.prod.acquia-sites.com/sites/default/files//advagg_js/js__08PbjE0JtW8r5z3i2z7kQyu5G4U05mbBwdUYVNoAcHk__erspXjsDLAjYzx-UJs3fuNnSnocf5sxtuqEdyzpAkRc__DFS7sfByEXJKuikTGVRoW4mN5oUoszzrS0h-6JAzqc0.js:8)
+  access (http://code.jquery.com/jquery-1.10.2.min.js:4)
+  attr (http://code.jquery.com/jquery-1.10.2.min.js:5)
+  replaceSource (http://iinsandbox.prod.acquia-sites.com/sites/default/files//advagg_js/js__08PbjE0JtW8r5z3i2z7kQyu5G4U05mbBwdUYVNoAcHk__erspXjsDLAjYzx-UJs3fuNnSnocf5sxtuqEdyzpAkRc__DFS7sfByEXJKuikTGVRoW4mN5oUoszzrS0h-6JAzqc0.js:8)
+  attach (http://iinsandbox.prod.acquia-sites.com/sites/default/files//advagg_js/js__08PbjE0JtW8r5z3i2z7kQyu5G4U05mbBwdUYVNoAcHk__erspXjsDLAjYzx-UJs3fuNnSnocf5sxtuqEdyzpAkRc__DFS7sfByEXJKuikTGVRoW4mN5oUoszzrS0h-6JAzqc0.js:8)
+  (anonymous function) (http://iinsandbox.prod.acquia-sites.com/sites/default/files//advagg_js/js__H5AFmq1RrXKsrazzPq_xPQPy4K0wUKqecPjczzRiTgQ__p930YZ_ODW6ZjDLOJmxJnRL7juGStYuszD6uNS8_FFo__DFS7sfByEXJKuikTGVRoW4mN5oUoszzrS0h-6JAzqc0.js:5)
+  each (http://code.jquery.com/jquery-1.10.2.min.js:4)
+  attachBehaviors (http://iinsandbox.prod.acquia-sites.com/sites/default/files//advagg_js/js__H5AFmq1RrXKsrazzPq_xPQPy4K0wUKqecPjczzRiTgQ__p930YZ_ODW6ZjDLOJmxJnRL7juGStYuszD6uNS8_FFo__DFS7sfByEXJKuikTGVRoW4mN5oUoszzrS0h-6JAzqc0.js:5)
+  (anonymous function) (http://iinsandbox.prod.acquia-sites.com/sites/default/files//advagg_js/js__H5AFmq1RrXKsrazzPq_xPQPy4K0wUKqecPjczzRiTgQ__p930YZ_ODW6ZjDLOJmxJnRL7juGStYuszD6uNS8_FFo__DFS7sfByEXJKuikTGVRoW4mN5oUoszzrS0h-6JAzqc0.js:5)
+  c (http://code.jquery.com/jquery-1.10.2.min.js:4)
+  fireWith (http://code.jquery.com/jquery-1.10.2.min.js:4)
+  ready (http://code.jquery.com/jquery-1.10.2.min.js:4)
+  q (http://code.jquery.com/jquery-1.10.2.min.js:4)
+[ERROR - 2016-07-18T02:11:57.400Z] Session [f30e9390-4c8c-11e6-a1f5-b73c1b86bf4e] - page.onError - msg: getPresentingPlayerType@https://s.ytimg.com/yts/jsbin/player-es_ES-vflA-put7/base.js:7090:113
+tA@https://s.ytimg.com/yts/jsbin/player-es_ES-vflA-put7/base.js:2179:78
+Q7@https://s.ytimg.com/yts/jsbin/player-es_ES-vflA-put7/base.js:4115:87
+t8@https://s.ytimg.com/yts/jsbin/player-es_ES-vflA-put7/base.js:4202:301
+create@https://s.ytimg.com/yts/jsbin/player-es_ES-vflA-put7/base.js:7080:555
+https://s.ytimg.com/yts/jsbin/www-embed-player-vflPCVbP_/www-embed-player.js:479:276
+[native code]
+pe@https://s.ytimg.com/yts/jsbin/www-embed-player-vflPCVbP_/www-embed-player.js:479:318
+Qh@https://s.ytimg.com/yts/jsbin/www-embed-player-vflPCVbP_/www-embed-player.js:477:147
+Tb@https://s.ytimg.com/yts/jsbin/www-embed-player-vflPCVbP_/www-embed-player.js:470:189
+https://s.ytimg.com/yts/jsbin/www-embed-player-vflPCVbP_/www-embed-player.js:511:422
+[ERROR - 2016-07-18T02:11:57.400Z] Session [f30e9390-4c8c-11e6-a1f5-b73c1b86bf4e] - page.onError - stack:
+  (anonymous function) (https://s.ytimg.com/yts/jsbin/player-es_ES-vflA-put7/base.js:3871)
+  (anonymous function) (:0)
+[INFO  - 2016-07-18T02:11:57.864Z] ShutdownReqHand - _handle - About to shutdown
+[INFO  - 2016-07-18T02:13:27.874Z] GhostDriver - Main - running on port 40810
+[INFO  - 2016-07-18T02:13:28.346Z] Session [374e31f0-4c8d-11e6-aaa7-7f12abf80eda] - page.settings - {"XSSAuditingEnabled":false,"javascriptCanCloseWindows":true,"javascriptCanOpenWindows":true,"javascriptEnabled":true,"loadImages":true,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.1.1 Safari/538.1","webSecurityEnabled":true}
+[INFO  - 2016-07-18T02:13:28.346Z] Session [374e31f0-4c8d-11e6-aaa7-7f12abf80eda] - page.customHeaders:  - {}
+[INFO  - 2016-07-18T02:13:28.346Z] Session [374e31f0-4c8d-11e6-aaa7-7f12abf80eda] - Session.negotiatedCapabilities - {"browserName":"phantomjs","version":"2.1.1","driverName":"ghostdriver","driverVersion":"1.2.0","platform":"windows-10-32bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2016-07-18T02:13:28.347Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: 374e31f0-4c8d-11e6-aaa7-7f12abf80eda
+[ERROR - 2016-07-18T02:13:31.074Z] Session [374e31f0-4c8d-11e6-aaa7-7f12abf80eda] - page.onError - msg: TypeError: undefined is not an object (evaluating 'this.src.replace')
+[ERROR - 2016-07-18T02:13:31.075Z] Session [374e31f0-4c8d-11e6-aaa7-7f12abf80eda] - page.onError - stack:
+  (anonymous function) (http://iinstg.prod.acquia-sites.com/sites/default/files//advagg_js/js__2CbJdweXjJhBRpnIrxS5Um6_w9bfFpJz3NgDFmPg_yY__t_Z9bWNJEmKUO5KEHZXovslFIngxze4qSizENrhxBSs__DFS7sfByEXJKuikTGVRoW4mN5oUoszzrS0h-6JAzqc0.js:8)
+  access (http://code.jquery.com/jquery-1.10.2.min.js:4)
+  attr (http://code.jquery.com/jquery-1.10.2.min.js:5)
+  replaceSource (http://iinstg.prod.acquia-sites.com/sites/default/files//advagg_js/js__2CbJdweXjJhBRpnIrxS5Um6_w9bfFpJz3NgDFmPg_yY__t_Z9bWNJEmKUO5KEHZXovslFIngxze4qSizENrhxBSs__DFS7sfByEXJKuikTGVRoW4mN5oUoszzrS0h-6JAzqc0.js:8)
+  attach (http://iinstg.prod.acquia-sites.com/sites/default/files//advagg_js/js__2CbJdweXjJhBRpnIrxS5Um6_w9bfFpJz3NgDFmPg_yY__t_Z9bWNJEmKUO5KEHZXovslFIngxze4qSizENrhxBSs__DFS7sfByEXJKuikTGVRoW4mN5oUoszzrS0h-6JAzqc0.js:8)
+  (anonymous function) (http://iinstg.prod.acquia-sites.com/sites/default/files//advagg_js/js__H5AFmq1RrXKsrazzPq_xPQPy4K0wUKqecPjczzRiTgQ__p930YZ_ODW6ZjDLOJmxJnRL7juGStYuszD6uNS8_FFo__DFS7sfByEXJKuikTGVRoW4mN5oUoszzrS0h-6JAzqc0.js:5)
+  each (http://code.jquery.com/jquery-1.10.2.min.js:4)
+  attachBehaviors (http://iinstg.prod.acquia-sites.com/sites/default/files//advagg_js/js__H5AFmq1RrXKsrazzPq_xPQPy4K0wUKqecPjczzRiTgQ__p930YZ_ODW6ZjDLOJmxJnRL7juGStYuszD6uNS8_FFo__DFS7sfByEXJKuikTGVRoW4mN5oUoszzrS0h-6JAzqc0.js:5)
+  (anonymous function) (http://iinstg.prod.acquia-sites.com/sites/default/files//advagg_js/js__H5AFmq1RrXKsrazzPq_xPQPy4K0wUKqecPjczzRiTgQ__p930YZ_ODW6ZjDLOJmxJnRL7juGStYuszD6uNS8_FFo__DFS7sfByEXJKuikTGVRoW4mN5oUoszzrS0h-6JAzqc0.js:5)
+  c (http://code.jquery.com/jquery-1.10.2.min.js:4)
+  fireWith (http://code.jquery.com/jquery-1.10.2.min.js:4)
+  ready (http://code.jquery.com/jquery-1.10.2.min.js:4)
+  q (http://code.jquery.com/jquery-1.10.2.min.js:4)
+[ERROR - 2016-07-18T02:13:33.082Z] Session [374e31f0-4c8d-11e6-aaa7-7f12abf80eda] - page.onError - msg: getPresentingPlayerType@https://s.ytimg.com/yts/jsbin/player-es_ES-vflA-put7/base.js:7090:113
+tA@https://s.ytimg.com/yts/jsbin/player-es_ES-vflA-put7/base.js:2179:78
+Q7@https://s.ytimg.com/yts/jsbin/player-es_ES-vflA-put7/base.js:4115:87
+t8@https://s.ytimg.com/yts/jsbin/player-es_ES-vflA-put7/base.js:4202:301
+create@https://s.ytimg.com/yts/jsbin/player-es_ES-vflA-put7/base.js:7080:555
+https://s.ytimg.com/yts/jsbin/www-embed-player-vflPCVbP_/www-embed-player.js:479:276
+[native code]
+pe@https://s.ytimg.com/yts/jsbin/www-embed-player-vflPCVbP_/www-embed-player.js:479:318
+Qh@https://s.ytimg.com/yts/jsbin/www-embed-player-vflPCVbP_/www-embed-player.js:477:147
+Tb@https://s.ytimg.com/yts/jsbin/www-embed-player-vflPCVbP_/www-embed-player.js:470:189
+https://s.ytimg.com/yts/jsbin/www-embed-player-vflPCVbP_/www-embed-player.js:511:422
+[ERROR - 2016-07-18T02:13:33.083Z] Session [374e31f0-4c8d-11e6-aaa7-7f12abf80eda] - page.onError - stack:
+  (anonymous function) (https://s.ytimg.com/yts/jsbin/player-es_ES-vflA-put7/base.js:3871)
+  (anonymous function) (:0)
+[ERROR - 2016-07-18T02:13:34.610Z] Session [374e31f0-4c8d-11e6-aaa7-7f12abf80eda] - page.onError - msg: TypeError: undefined is not an object (evaluating 'this.src.replace')
+[ERROR - 2016-07-18T02:13:34.610Z] Session [374e31f0-4c8d-11e6-aaa7-7f12abf80eda] - page.onError - stack:
+  (anonymous function) (http://iinstg.prod.acquia-sites.com/sites/default/files//advagg_js/js__2CbJdweXjJhBRpnIrxS5Um6_w9bfFpJz3NgDFmPg_yY__t_Z9bWNJEmKUO5KEHZXovslFIngxze4qSizENrhxBSs__DFS7sfByEXJKuikTGVRoW4mN5oUoszzrS0h-6JAzqc0.js:8)
+  access (http://code.jquery.com/jquery-1.10.2.min.js:4)
+  attr (http://code.jquery.com/jquery-1.10.2.min.js:5)
+  replaceSource (http://iinstg.prod.acquia-sites.com/sites/default/files//advagg_js/js__2CbJdweXjJhBRpnIrxS5Um6_w9bfFpJz3NgDFmPg_yY__t_Z9bWNJEmKUO5KEHZXovslFIngxze4qSizENrhxBSs__DFS7sfByEXJKuikTGVRoW4mN5oUoszzrS0h-6JAzqc0.js:8)
+  attach (http://iinstg.prod.acquia-sites.com/sites/default/files//advagg_js/js__2CbJdweXjJhBRpnIrxS5Um6_w9bfFpJz3NgDFmPg_yY__t_Z9bWNJEmKUO5KEHZXovslFIngxze4qSizENrhxBSs__DFS7sfByEXJKuikTGVRoW4mN5oUoszzrS0h-6JAzqc0.js:8)
+  (anonymous function) (http://iinstg.prod.acquia-sites.com/sites/default/files//advagg_js/js__H5AFmq1RrXKsrazzPq_xPQPy4K0wUKqecPjczzRiTgQ__p930YZ_ODW6ZjDLOJmxJnRL7juGStYuszD6uNS8_FFo__DFS7sfByEXJKuikTGVRoW4mN5oUoszzrS0h-6JAzqc0.js:5)
+  each (http://code.jquery.com/jquery-1.10.2.min.js:4)
+  attachBehaviors (http://iinstg.prod.acquia-sites.com/sites/default/files//advagg_js/js__H5AFmq1RrXKsrazzPq_xPQPy4K0wUKqecPjczzRiTgQ__p930YZ_ODW6ZjDLOJmxJnRL7juGStYuszD6uNS8_FFo__DFS7sfByEXJKuikTGVRoW4mN5oUoszzrS0h-6JAzqc0.js:5)
+  (anonymous function) (http://iinstg.prod.acquia-sites.com/sites/default/files//advagg_js/js__H5AFmq1RrXKsrazzPq_xPQPy4K0wUKqecPjczzRiTgQ__p930YZ_ODW6ZjDLOJmxJnRL7juGStYuszD6uNS8_FFo__DFS7sfByEXJKuikTGVRoW4mN5oUoszzrS0h-6JAzqc0.js:5)
+  c (http://code.jquery.com/jquery-1.10.2.min.js:4)
+  fireWith (http://code.jquery.com/jquery-1.10.2.min.js:4)
+  ready (http://code.jquery.com/jquery-1.10.2.min.js:4)
+  q (http://code.jquery.com/jquery-1.10.2.min.js:4)
+[ERROR - 2016-07-18T02:13:34.886Z] Session [374e31f0-4c8d-11e6-aaa7-7f12abf80eda] - page.onError - msg: getPresentingPlayerType@https://s.ytimg.com/yts/jsbin/player-es_ES-vflA-put7/base.js:7090:113
+tA@https://s.ytimg.com/yts/jsbin/player-es_ES-vflA-put7/base.js:2179:78
+Q7@https://s.ytimg.com/yts/jsbin/player-es_ES-vflA-put7/base.js:4115:87
+t8@https://s.ytimg.com/yts/jsbin/player-es_ES-vflA-put7/base.js:4202:301
+create@https://s.ytimg.com/yts/jsbin/player-es_ES-vflA-put7/base.js:7080:555
+https://s.ytimg.com/yts/jsbin/www-embed-player-vflPCVbP_/www-embed-player.js:479:276
+[native code]
+pe@https://s.ytimg.com/yts/jsbin/www-embed-player-vflPCVbP_/www-embed-player.js:479:318
+Qh@https://s.ytimg.com/yts/jsbin/www-embed-player-vflPCVbP_/www-embed-player.js:477:147
+Tb@https://s.ytimg.com/yts/jsbin/www-embed-player-vflPCVbP_/www-embed-player.js:470:189
+https://s.ytimg.com/yts/jsbin/www-embed-player-vflPCVbP_/www-embed-player.js:511:422
+[ERROR - 2016-07-18T02:13:34.887Z] Session [374e31f0-4c8d-11e6-aaa7-7f12abf80eda] - page.onError - stack:
+  (anonymous function) (https://s.ytimg.com/yts/jsbin/player-es_ES-vflA-put7/base.js:3871)
+  (anonymous function) (:0)
+[ERROR - 2016-07-18T02:13:36.095Z] Session [374e31f0-4c8d-11e6-aaa7-7f12abf80eda] - page.onError - msg: TypeError: undefined is not an object (evaluating 'this.src.replace')
+[ERROR - 2016-07-18T02:13:36.095Z] Session [374e31f0-4c8d-11e6-aaa7-7f12abf80eda] - page.onError - stack:
+  (anonymous function) (http://iinstg.prod.acquia-sites.com/sites/default/files//advagg_js/js__2CbJdweXjJhBRpnIrxS5Um6_w9bfFpJz3NgDFmPg_yY__t_Z9bWNJEmKUO5KEHZXovslFIngxze4qSizENrhxBSs__DFS7sfByEXJKuikTGVRoW4mN5oUoszzrS0h-6JAzqc0.js:8)
+  access (http://code.jquery.com/jquery-1.10.2.min.js:4)
+  attr (http://code.jquery.com/jquery-1.10.2.min.js:5)
+  replaceSource (http://iinstg.prod.acquia-sites.com/sites/default/files//advagg_js/js__2CbJdweXjJhBRpnIrxS5Um6_w9bfFpJz3NgDFmPg_yY__t_Z9bWNJEmKUO5KEHZXovslFIngxze4qSizENrhxBSs__DFS7sfByEXJKuikTGVRoW4mN5oUoszzrS0h-6JAzqc0.js:8)
+  attach (http://iinstg.prod.acquia-sites.com/sites/default/files//advagg_js/js__2CbJdweXjJhBRpnIrxS5Um6_w9bfFpJz3NgDFmPg_yY__t_Z9bWNJEmKUO5KEHZXovslFIngxze4qSizENrhxBSs__DFS7sfByEXJKuikTGVRoW4mN5oUoszzrS0h-6JAzqc0.js:8)
+  (anonymous function) (http://iinstg.prod.acquia-sites.com/sites/default/files//advagg_js/js__H5AFmq1RrXKsrazzPq_xPQPy4K0wUKqecPjczzRiTgQ__p930YZ_ODW6ZjDLOJmxJnRL7juGStYuszD6uNS8_FFo__DFS7sfByEXJKuikTGVRoW4mN5oUoszzrS0h-6JAzqc0.js:5)
+  each (http://code.jquery.com/jquery-1.10.2.min.js:4)
+  attachBehaviors (http://iinstg.prod.acquia-sites.com/sites/default/files//advagg_js/js__H5AFmq1RrXKsrazzPq_xPQPy4K0wUKqecPjczzRiTgQ__p930YZ_ODW6ZjDLOJmxJnRL7juGStYuszD6uNS8_FFo__DFS7sfByEXJKuikTGVRoW4mN5oUoszzrS0h-6JAzqc0.js:5)
+  (anonymous function) (http://iinstg.prod.acquia-sites.com/sites/default/files//advagg_js/js__H5AFmq1RrXKsrazzPq_xPQPy4K0wUKqecPjczzRiTgQ__p930YZ_ODW6ZjDLOJmxJnRL7juGStYuszD6uNS8_FFo__DFS7sfByEXJKuikTGVRoW4mN5oUoszzrS0h-6JAzqc0.js:5)
+  c (http://code.jquery.com/jquery-1.10.2.min.js:4)
+  fireWith (http://code.jquery.com/jquery-1.10.2.min.js:4)
+  ready (http://code.jquery.com/jquery-1.10.2.min.js:4)
+  q (http://code.jquery.com/jquery-1.10.2.min.js:4)
+[ERROR - 2016-07-18T02:13:36.408Z] Session [374e31f0-4c8d-11e6-aaa7-7f12abf80eda] - page.onError - msg: getPresentingPlayerType@https://s.ytimg.com/yts/jsbin/player-es_ES-vflA-put7/base.js:7090:113
+tA@https://s.ytimg.com/yts/jsbin/player-es_ES-vflA-put7/base.js:2179:78
+Q7@https://s.ytimg.com/yts/jsbin/player-es_ES-vflA-put7/base.js:4115:87
+t8@https://s.ytimg.com/yts/jsbin/player-es_ES-vflA-put7/base.js:4202:301
+create@https://s.ytimg.com/yts/jsbin/player-es_ES-vflA-put7/base.js:7080:555
+https://s.ytimg.com/yts/jsbin/www-embed-player-vflPCVbP_/www-embed-player.js:479:276
+[native code]
+pe@https://s.ytimg.com/yts/jsbin/www-embed-player-vflPCVbP_/www-embed-player.js:479:318
+Qh@https://s.ytimg.com/yts/jsbin/www-embed-player-vflPCVbP_/www-embed-player.js:477:147
+Tb@https://s.ytimg.com/yts/jsbin/www-embed-player-vflPCVbP_/www-embed-player.js:470:189
+https://s.ytimg.com/yts/jsbin/www-embed-player-vflPCVbP_/www-embed-player.js:511:422
+[ERROR - 2016-07-18T02:13:36.409Z] Session [374e31f0-4c8d-11e6-aaa7-7f12abf80eda] - page.onError - stack:
+  (anonymous function) (https://s.ytimg.com/yts/jsbin/player-es_ES-vflA-put7/base.js:3871)
+  (anonymous function) (:0)
+[ERROR - 2016-07-18T02:13:38.452Z] Session [374e31f0-4c8d-11e6-aaa7-7f12abf80eda] - page.onError - msg: TypeError: undefined is not an object (evaluating 'this.src.replace')
+[ERROR - 2016-07-18T02:13:38.453Z] Session [374e31f0-4c8d-11e6-aaa7-7f12abf80eda] - page.onError - stack:
+  (anonymous function) (http://iinstg.prod.acquia-sites.com/sites/default/files//advagg_js/js__2CbJdweXjJhBRpnIrxS5Um6_w9bfFpJz3NgDFmPg_yY__t_Z9bWNJEmKUO5KEHZXovslFIngxze4qSizENrhxBSs__DFS7sfByEXJKuikTGVRoW4mN5oUoszzrS0h-6JAzqc0.js:8)
+  access (http://code.jquery.com/jquery-1.10.2.min.js:4)
+  attr (http://code.jquery.com/jquery-1.10.2.min.js:5)
+  replaceSource (http://iinstg.prod.acquia-sites.com/sites/default/files//advagg_js/js__2CbJdweXjJhBRpnIrxS5Um6_w9bfFpJz3NgDFmPg_yY__t_Z9bWNJEmKUO5KEHZXovslFIngxze4qSizENrhxBSs__DFS7sfByEXJKuikTGVRoW4mN5oUoszzrS0h-6JAzqc0.js:8)
+  attach (http://iinstg.prod.acquia-sites.com/sites/default/files//advagg_js/js__2CbJdweXjJhBRpnIrxS5Um6_w9bfFpJz3NgDFmPg_yY__t_Z9bWNJEmKUO5KEHZXovslFIngxze4qSizENrhxBSs__DFS7sfByEXJKuikTGVRoW4mN5oUoszzrS0h-6JAzqc0.js:8)
+  (anonymous function) (http://iinstg.prod.acquia-sites.com/sites/default/files//advagg_js/js__H5AFmq1RrXKsrazzPq_xPQPy4K0wUKqecPjczzRiTgQ__p930YZ_ODW6ZjDLOJmxJnRL7juGStYuszD6uNS8_FFo__DFS7sfByEXJKuikTGVRoW4mN5oUoszzrS0h-6JAzqc0.js:5)
+  each (http://code.jquery.com/jquery-1.10.2.min.js:4)
+  attachBehaviors (http://iinstg.prod.acquia-sites.com/sites/default/files//advagg_js/js__H5AFmq1RrXKsrazzPq_xPQPy4K0wUKqecPjczzRiTgQ__p930YZ_ODW6ZjDLOJmxJnRL7juGStYuszD6uNS8_FFo__DFS7sfByEXJKuikTGVRoW4mN5oUoszzrS0h-6JAzqc0.js:5)
+  (anonymous function) (http://iinstg.prod.acquia-sites.com/sites/default/files//advagg_js/js__H5AFmq1RrXKsrazzPq_xPQPy4K0wUKqecPjczzRiTgQ__p930YZ_ODW6ZjDLOJmxJnRL7juGStYuszD6uNS8_FFo__DFS7sfByEXJKuikTGVRoW4mN5oUoszzrS0h-6JAzqc0.js:5)
+  c (http://code.jquery.com/jquery-1.10.2.min.js:4)
+  fireWith (http://code.jquery.com/jquery-1.10.2.min.js:4)
+  ready (http://code.jquery.com/jquery-1.10.2.min.js:4)
+  q (http://code.jquery.com/jquery-1.10.2.min.js:4)
+[ERROR - 2016-07-18T02:13:38.806Z] Session [374e31f0-4c8d-11e6-aaa7-7f12abf80eda] - page.onError - msg: getPresentingPlayerType@https://s.ytimg.com/yts/jsbin/player-es_ES-vflA-put7/base.js:7090:113
+tA@https://s.ytimg.com/yts/jsbin/player-es_ES-vflA-put7/base.js:2179:78
+Q7@https://s.ytimg.com/yts/jsbin/player-es_ES-vflA-put7/base.js:4115:87
+t8@https://s.ytimg.com/yts/jsbin/player-es_ES-vflA-put7/base.js:4202:301
+create@https://s.ytimg.com/yts/jsbin/player-es_ES-vflA-put7/base.js:7080:555
+https://s.ytimg.com/yts/jsbin/www-embed-player-vflPCVbP_/www-embed-player.js:479:276
+[native code]
+pe@https://s.ytimg.com/yts/jsbin/www-embed-player-vflPCVbP_/www-embed-player.js:479:318
+Qh@https://s.ytimg.com/yts/jsbin/www-embed-player-vflPCVbP_/www-embed-player.js:477:147
+Tb@https://s.ytimg.com/yts/jsbin/www-embed-player-vflPCVbP_/www-embed-player.js:470:189
+https://s.ytimg.com/yts/jsbin/www-embed-player-vflPCVbP_/www-embed-player.js:511:422
+[ERROR - 2016-07-18T02:13:38.807Z] Session [374e31f0-4c8d-11e6-aaa7-7f12abf80eda] - page.onError - stack:
+  (anonymous function) (https://s.ytimg.com/yts/jsbin/player-es_ES-vflA-put7/base.js:3871)
+  (anonymous function) (:0)
+[ERROR - 2016-07-18T02:13:40.028Z] Session [374e31f0-4c8d-11e6-aaa7-7f12abf80eda] - page.onError - msg: TypeError: undefined is not an object (evaluating 'this.src.replace')
+[ERROR - 2016-07-18T02:13:40.028Z] Session [374e31f0-4c8d-11e6-aaa7-7f12abf80eda] - page.onError - stack:
+  (anonymous function) (http://iinstg.prod.acquia-sites.com/sites/default/files//advagg_js/js__2CbJdweXjJhBRpnIrxS5Um6_w9bfFpJz3NgDFmPg_yY__t_Z9bWNJEmKUO5KEHZXovslFIngxze4qSizENrhxBSs__DFS7sfByEXJKuikTGVRoW4mN5oUoszzrS0h-6JAzqc0.js:8)
+  access (http://code.jquery.com/jquery-1.10.2.min.js:4)
+  attr (http://code.jquery.com/jquery-1.10.2.min.js:5)
+  replaceSource (http://iinstg.prod.acquia-sites.com/sites/default/files//advagg_js/js__2CbJdweXjJhBRpnIrxS5Um6_w9bfFpJz3NgDFmPg_yY__t_Z9bWNJEmKUO5KEHZXovslFIngxze4qSizENrhxBSs__DFS7sfByEXJKuikTGVRoW4mN5oUoszzrS0h-6JAzqc0.js:8)
+  attach (http://iinstg.prod.acquia-sites.com/sites/default/files//advagg_js/js__2CbJdweXjJhBRpnIrxS5Um6_w9bfFpJz3NgDFmPg_yY__t_Z9bWNJEmKUO5KEHZXovslFIngxze4qSizENrhxBSs__DFS7sfByEXJKuikTGVRoW4mN5oUoszzrS0h-6JAzqc0.js:8)
+  (anonymous function) (http://iinstg.prod.acquia-sites.com/sites/default/files//advagg_js/js__H5AFmq1RrXKsrazzPq_xPQPy4K0wUKqecPjczzRiTgQ__p930YZ_ODW6ZjDLOJmxJnRL7juGStYuszD6uNS8_FFo__DFS7sfByEXJKuikTGVRoW4mN5oUoszzrS0h-6JAzqc0.js:5)
+  each (http://code.jquery.com/jquery-1.10.2.min.js:4)
+  attachBehaviors (http://iinstg.prod.acquia-sites.com/sites/default/files//advagg_js/js__H5AFmq1RrXKsrazzPq_xPQPy4K0wUKqecPjczzRiTgQ__p930YZ_ODW6ZjDLOJmxJnRL7juGStYuszD6uNS8_FFo__DFS7sfByEXJKuikTGVRoW4mN5oUoszzrS0h-6JAzqc0.js:5)
+  (anonymous function) (http://iinstg.prod.acquia-sites.com/sites/default/files//advagg_js/js__H5AFmq1RrXKsrazzPq_xPQPy4K0wUKqecPjczzRiTgQ__p930YZ_ODW6ZjDLOJmxJnRL7juGStYuszD6uNS8_FFo__DFS7sfByEXJKuikTGVRoW4mN5oUoszzrS0h-6JAzqc0.js:5)
+  c (http://code.jquery.com/jquery-1.10.2.min.js:4)
+  fireWith (http://code.jquery.com/jquery-1.10.2.min.js:4)
+  ready (http://code.jquery.com/jquery-1.10.2.min.js:4)
+  q (http://code.jquery.com/jquery-1.10.2.min.js:4)
+[ERROR - 2016-07-18T02:13:40.292Z] Session [374e31f0-4c8d-11e6-aaa7-7f12abf80eda] - page.onError - msg: getPresentingPlayerType@https://s.ytimg.com/yts/jsbin/player-es_ES-vflA-put7/base.js:7090:113
+tA@https://s.ytimg.com/yts/jsbin/player-es_ES-vflA-put7/base.js:2179:78
+Q7@https://s.ytimg.com/yts/jsbin/player-es_ES-vflA-put7/base.js:4115:87
+t8@https://s.ytimg.com/yts/jsbin/player-es_ES-vflA-put7/base.js:4202:301
+create@https://s.ytimg.com/yts/jsbin/player-es_ES-vflA-put7/base.js:7080:555
+https://s.ytimg.com/yts/jsbin/www-embed-player-vflPCVbP_/www-embed-player.js:479:276
+[native code]
+pe@https://s.ytimg.com/yts/jsbin/www-embed-player-vflPCVbP_/www-embed-player.js:479:318
+Qh@https://s.ytimg.com/yts/jsbin/www-embed-player-vflPCVbP_/www-embed-player.js:477:147
+Tb@https://s.ytimg.com/yts/jsbin/www-embed-player-vflPCVbP_/www-embed-player.js:470:189
+https://s.ytimg.com/yts/jsbin/www-embed-player-vflPCVbP_/www-embed-player.js:511:422
+[ERROR - 2016-07-18T02:13:40.292Z] Session [374e31f0-4c8d-11e6-aaa7-7f12abf80eda] - page.onError - stack:
+  (anonymous function) (https://s.ytimg.com/yts/jsbin/player-es_ES-vflA-put7/base.js:3871)
+  (anonymous function) (:0)
+[ERROR - 2016-07-18T02:13:41.555Z] Session [374e31f0-4c8d-11e6-aaa7-7f12abf80eda] - page.onError - msg: TypeError: undefined is not an object (evaluating 'this.src.replace')
+[ERROR - 2016-07-18T02:13:41.555Z] Session [374e31f0-4c8d-11e6-aaa7-7f12abf80eda] - page.onError - stack:
+  (anonymous function) (http://iinstg.prod.acquia-sites.com/sites/default/files//advagg_js/js__2CbJdweXjJhBRpnIrxS5Um6_w9bfFpJz3NgDFmPg_yY__t_Z9bWNJEmKUO5KEHZXovslFIngxze4qSizENrhxBSs__DFS7sfByEXJKuikTGVRoW4mN5oUoszzrS0h-6JAzqc0.js:8)
+  access (http://code.jquery.com/jquery-1.10.2.min.js:4)
+  attr (http://code.jquery.com/jquery-1.10.2.min.js:5)
+  replaceSource (http://iinstg.prod.acquia-sites.com/sites/default/files//advagg_js/js__2CbJdweXjJhBRpnIrxS5Um6_w9bfFpJz3NgDFmPg_yY__t_Z9bWNJEmKUO5KEHZXovslFIngxze4qSizENrhxBSs__DFS7sfByEXJKuikTGVRoW4mN5oUoszzrS0h-6JAzqc0.js:8)
+  attach (http://iinstg.prod.acquia-sites.com/sites/default/files//advagg_js/js__2CbJdweXjJhBRpnIrxS5Um6_w9bfFpJz3NgDFmPg_yY__t_Z9bWNJEmKUO5KEHZXovslFIngxze4qSizENrhxBSs__DFS7sfByEXJKuikTGVRoW4mN5oUoszzrS0h-6JAzqc0.js:8)
+  (anonymous function) (http://iinstg.prod.acquia-sites.com/sites/default/files//advagg_js/js__H5AFmq1RrXKsrazzPq_xPQPy4K0wUKqecPjczzRiTgQ__p930YZ_ODW6ZjDLOJmxJnRL7juGStYuszD6uNS8_FFo__DFS7sfByEXJKuikTGVRoW4mN5oUoszzrS0h-6JAzqc0.js:5)
+  each (http://code.jquery.com/jquery-1.10.2.min.js:4)
+  attachBehaviors (http://iinstg.prod.acquia-sites.com/sites/default/files//advagg_js/js__H5AFmq1RrXKsrazzPq_xPQPy4K0wUKqecPjczzRiTgQ__p930YZ_ODW6ZjDLOJmxJnRL7juGStYuszD6uNS8_FFo__DFS7sfByEXJKuikTGVRoW4mN5oUoszzrS0h-6JAzqc0.js:5)
+  (anonymous function) (http://iinstg.prod.acquia-sites.com/sites/default/files//advagg_js/js__H5AFmq1RrXKsrazzPq_xPQPy4K0wUKqecPjczzRiTgQ__p930YZ_ODW6ZjDLOJmxJnRL7juGStYuszD6uNS8_FFo__DFS7sfByEXJKuikTGVRoW4mN5oUoszzrS0h-6JAzqc0.js:5)
+  c (http://code.jquery.com/jquery-1.10.2.min.js:4)
+  fireWith (http://code.jquery.com/jquery-1.10.2.min.js:4)
+  ready (http://code.jquery.com/jquery-1.10.2.min.js:4)
+  q (http://code.jquery.com/jquery-1.10.2.min.js:4)
+[ERROR - 2016-07-18T02:13:41.823Z] Session [374e31f0-4c8d-11e6-aaa7-7f12abf80eda] - page.onError - msg: getPresentingPlayerType@https://s.ytimg.com/yts/jsbin/player-es_ES-vflA-put7/base.js:7090:113
+tA@https://s.ytimg.com/yts/jsbin/player-es_ES-vflA-put7/base.js:2179:78
+Q7@https://s.ytimg.com/yts/jsbin/player-es_ES-vflA-put7/base.js:4115:87
+t8@https://s.ytimg.com/yts/jsbin/player-es_ES-vflA-put7/base.js:4202:301
+create@https://s.ytimg.com/yts/jsbin/player-es_ES-vflA-put7/base.js:7080:555
+https://s.ytimg.com/yts/jsbin/www-embed-player-vflPCVbP_/www-embed-player.js:479:276
+[native code]
+pe@https://s.ytimg.com/yts/jsbin/www-embed-player-vflPCVbP_/www-embed-player.js:479:318
+Qh@https://s.ytimg.com/yts/jsbin/www-embed-player-vflPCVbP_/www-embed-player.js:477:147
+Tb@https://s.ytimg.com/yts/jsbin/www-embed-player-vflPCVbP_/www-embed-player.js:470:189
+https://s.ytimg.com/yts/jsbin/www-embed-player-vflPCVbP_/www-embed-player.js:511:422
+[ERROR - 2016-07-18T02:13:41.823Z] Session [374e31f0-4c8d-11e6-aaa7-7f12abf80eda] - page.onError - stack:
+  (anonymous function) (https://s.ytimg.com/yts/jsbin/player-es_ES-vflA-put7/base.js:3871)
+  (anonymous function) (:0)
+[ERROR - 2016-07-18T02:13:43.027Z] Session [374e31f0-4c8d-11e6-aaa7-7f12abf80eda] - page.onError - msg: TypeError: undefined is not an object (evaluating 'this.src.replace')
+[ERROR - 2016-07-18T02:13:43.028Z] Session [374e31f0-4c8d-11e6-aaa7-7f12abf80eda] - page.onError - stack:
+  (anonymous function) (http://iinstg.prod.acquia-sites.com/sites/default/files//advagg_js/js__2CbJdweXjJhBRpnIrxS5Um6_w9bfFpJz3NgDFmPg_yY__t_Z9bWNJEmKUO5KEHZXovslFIngxze4qSizENrhxBSs__DFS7sfByEXJKuikTGVRoW4mN5oUoszzrS0h-6JAzqc0.js:8)
+  access (http://code.jquery.com/jquery-1.10.2.min.js:4)
+  attr (http://code.jquery.com/jquery-1.10.2.min.js:5)
+  replaceSource (http://iinstg.prod.acquia-sites.com/sites/default/files//advagg_js/js__2CbJdweXjJhBRpnIrxS5Um6_w9bfFpJz3NgDFmPg_yY__t_Z9bWNJEmKUO5KEHZXovslFIngxze4qSizENrhxBSs__DFS7sfByEXJKuikTGVRoW4mN5oUoszzrS0h-6JAzqc0.js:8)
+  attach (http://iinstg.prod.acquia-sites.com/sites/default/files//advagg_js/js__2CbJdweXjJhBRpnIrxS5Um6_w9bfFpJz3NgDFmPg_yY__t_Z9bWNJEmKUO5KEHZXovslFIngxze4qSizENrhxBSs__DFS7sfByEXJKuikTGVRoW4mN5oUoszzrS0h-6JAzqc0.js:8)
+  (anonymous function) (http://iinstg.prod.acquia-sites.com/sites/default/files//advagg_js/js__H5AFmq1RrXKsrazzPq_xPQPy4K0wUKqecPjczzRiTgQ__p930YZ_ODW6ZjDLOJmxJnRL7juGStYuszD6uNS8_FFo__DFS7sfByEXJKuikTGVRoW4mN5oUoszzrS0h-6JAzqc0.js:5)
+  each (http://code.jquery.com/jquery-1.10.2.min.js:4)
+  attachBehaviors (http://iinstg.prod.acquia-sites.com/sites/default/files//advagg_js/js__H5AFmq1RrXKsrazzPq_xPQPy4K0wUKqecPjczzRiTgQ__p930YZ_ODW6ZjDLOJmxJnRL7juGStYuszD6uNS8_FFo__DFS7sfByEXJKuikTGVRoW4mN5oUoszzrS0h-6JAzqc0.js:5)
+  (anonymous function) (http://iinstg.prod.acquia-sites.com/sites/default/files//advagg_js/js__H5AFmq1RrXKsrazzPq_xPQPy4K0wUKqecPjczzRiTgQ__p930YZ_ODW6ZjDLOJmxJnRL7juGStYuszD6uNS8_FFo__DFS7sfByEXJKuikTGVRoW4mN5oUoszzrS0h-6JAzqc0.js:5)
+  c (http://code.jquery.com/jquery-1.10.2.min.js:4)
+  fireWith (http://code.jquery.com/jquery-1.10.2.min.js:4)
+  ready (http://code.jquery.com/jquery-1.10.2.min.js:4)
+  q (http://code.jquery.com/jquery-1.10.2.min.js:4)
+[ERROR - 2016-07-18T02:13:43.273Z] Session [374e31f0-4c8d-11e6-aaa7-7f12abf80eda] - page.onError - msg: getPresentingPlayerType@https://s.ytimg.com/yts/jsbin/player-es_ES-vflA-put7/base.js:7090:113
+tA@https://s.ytimg.com/yts/jsbin/player-es_ES-vflA-put7/base.js:2179:78
+Q7@https://s.ytimg.com/yts/jsbin/player-es_ES-vflA-put7/base.js:4115:87
+t8@https://s.ytimg.com/yts/jsbin/player-es_ES-vflA-put7/base.js:4202:301
+create@https://s.ytimg.com/yts/jsbin/player-es_ES-vflA-put7/base.js:7080:555
+https://s.ytimg.com/yts/jsbin/www-embed-player-vflPCVbP_/www-embed-player.js:479:276
+[native code]
+pe@https://s.ytimg.com/yts/jsbin/www-embed-player-vflPCVbP_/www-embed-player.js:479:318
+Qh@https://s.ytimg.com/yts/jsbin/www-embed-player-vflPCVbP_/www-embed-player.js:477:147
+Tb@https://s.ytimg.com/yts/jsbin/www-embed-player-vflPCVbP_/www-embed-player.js:470:189
+https://s.ytimg.com/yts/jsbin/www-embed-player-vflPCVbP_/www-embed-player.js:511:422
+[ERROR - 2016-07-18T02:13:43.274Z] Session [374e31f0-4c8d-11e6-aaa7-7f12abf80eda] - page.onError - stack:
+  (anonymous function) (https://s.ytimg.com/yts/jsbin/player-es_ES-vflA-put7/base.js:3871)
+  (anonymous function) (:0)
+[ERROR - 2016-07-18T02:13:44.556Z] Session [374e31f0-4c8d-11e6-aaa7-7f12abf80eda] - page.onError - msg: TypeError: undefined is not an object (evaluating 'this.src.replace')
+[ERROR - 2016-07-18T02:13:44.557Z] Session [374e31f0-4c8d-11e6-aaa7-7f12abf80eda] - page.onError - stack:
+  (anonymous function) (http://iinstg.prod.acquia-sites.com/sites/default/files//advagg_js/js__2CbJdweXjJhBRpnIrxS5Um6_w9bfFpJz3NgDFmPg_yY__t_Z9bWNJEmKUO5KEHZXovslFIngxze4qSizENrhxBSs__DFS7sfByEXJKuikTGVRoW4mN5oUoszzrS0h-6JAzqc0.js:8)
+  access (http://code.jquery.com/jquery-1.10.2.min.js:4)
+  attr (http://code.jquery.com/jquery-1.10.2.min.js:5)
+  replaceSource (http://iinstg.prod.acquia-sites.com/sites/default/files//advagg_js/js__2CbJdweXjJhBRpnIrxS5Um6_w9bfFpJz3NgDFmPg_yY__t_Z9bWNJEmKUO5KEHZXovslFIngxze4qSizENrhxBSs__DFS7sfByEXJKuikTGVRoW4mN5oUoszzrS0h-6JAzqc0.js:8)
+  attach (http://iinstg.prod.acquia-sites.com/sites/default/files//advagg_js/js__2CbJdweXjJhBRpnIrxS5Um6_w9bfFpJz3NgDFmPg_yY__t_Z9bWNJEmKUO5KEHZXovslFIngxze4qSizENrhxBSs__DFS7sfByEXJKuikTGVRoW4mN5oUoszzrS0h-6JAzqc0.js:8)
+  (anonymous function) (http://iinstg.prod.acquia-sites.com/sites/default/files//advagg_js/js__H5AFmq1RrXKsrazzPq_xPQPy4K0wUKqecPjczzRiTgQ__p930YZ_ODW6ZjDLOJmxJnRL7juGStYuszD6uNS8_FFo__DFS7sfByEXJKuikTGVRoW4mN5oUoszzrS0h-6JAzqc0.js:5)
+  each (http://code.jquery.com/jquery-1.10.2.min.js:4)
+  attachBehaviors (http://iinstg.prod.acquia-sites.com/sites/default/files//advagg_js/js__H5AFmq1RrXKsrazzPq_xPQPy4K0wUKqecPjczzRiTgQ__p930YZ_ODW6ZjDLOJmxJnRL7juGStYuszD6uNS8_FFo__DFS7sfByEXJKuikTGVRoW4mN5oUoszzrS0h-6JAzqc0.js:5)
+  (anonymous function) (http://iinstg.prod.acquia-sites.com/sites/default/files//advagg_js/js__H5AFmq1RrXKsrazzPq_xPQPy4K0wUKqecPjczzRiTgQ__p930YZ_ODW6ZjDLOJmxJnRL7juGStYuszD6uNS8_FFo__DFS7sfByEXJKuikTGVRoW4mN5oUoszzrS0h-6JAzqc0.js:5)
+  c (http://code.jquery.com/jquery-1.10.2.min.js:4)
+  fireWith (http://code.jquery.com/jquery-1.10.2.min.js:4)
+  ready (http://code.jquery.com/jquery-1.10.2.min.js:4)
+  q (http://code.jquery.com/jquery-1.10.2.min.js:4)
+[ERROR - 2016-07-18T02:13:44.884Z] Session [374e31f0-4c8d-11e6-aaa7-7f12abf80eda] - page.onError - msg: getPresentingPlayerType@https://s.ytimg.com/yts/jsbin/player-es_ES-vflA-put7/base.js:7090:113
+tA@https://s.ytimg.com/yts/jsbin/player-es_ES-vflA-put7/base.js:2179:78
+Q7@https://s.ytimg.com/yts/jsbin/player-es_ES-vflA-put7/base.js:4115:87
+t8@https://s.ytimg.com/yts/jsbin/player-es_ES-vflA-put7/base.js:4202:301
+create@https://s.ytimg.com/yts/jsbin/player-es_ES-vflA-put7/base.js:7080:555
+https://s.ytimg.com/yts/jsbin/www-embed-player-vflPCVbP_/www-embed-player.js:479:276
+[native code]
+pe@https://s.ytimg.com/yts/jsbin/www-embed-player-vflPCVbP_/www-embed-player.js:479:318
+Qh@https://s.ytimg.com/yts/jsbin/www-embed-player-vflPCVbP_/www-embed-player.js:477:147
+Tb@https://s.ytimg.com/yts/jsbin/www-embed-player-vflPCVbP_/www-embed-player.js:470:189
+https://s.ytimg.com/yts/jsbin/www-embed-player-vflPCVbP_/www-embed-player.js:511:422
+[ERROR - 2016-07-18T02:13:44.885Z] Session [374e31f0-4c8d-11e6-aaa7-7f12abf80eda] - page.onError - stack:
+  (anonymous function) (https://s.ytimg.com/yts/jsbin/player-es_ES-vflA-put7/base.js:3871)
+  (anonymous function) (:0)
+[ERROR - 2016-07-18T02:14:45.570Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1468808085551
+[ERROR - 2016-07-18T02:15:47.496Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1468808147438
+[ERROR - 2016-07-18T02:16:49.168Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1468808209155
+[ERROR - 2016-07-18T02:17:50.824Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1468808270810
+[INFO  - 2016-07-18T02:18:27.869Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[ERROR - 2016-07-18T02:18:52.008Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1468808331979
+[ERROR - 2016-07-18T02:18:54.776Z] Session [374e31f0-4c8d-11e6-aaa7-7f12abf80eda] - page.onError - msg: TypeError: undefined is not an object (evaluating 'this.src.replace')
+[ERROR - 2016-07-18T02:18:54.777Z] Session [374e31f0-4c8d-11e6-aaa7-7f12abf80eda] - page.onError - stack:
+  (anonymous function) (http://iinstg.prod.acquia-sites.com/sites/default/files//advagg_js/js__2CbJdweXjJhBRpnIrxS5Um6_w9bfFpJz3NgDFmPg_yY__t_Z9bWNJEmKUO5KEHZXovslFIngxze4qSizENrhxBSs__DFS7sfByEXJKuikTGVRoW4mN5oUoszzrS0h-6JAzqc0.js:8)
+  access (http://code.jquery.com/jquery-1.10.2.min.js:4)
+  attr (http://code.jquery.com/jquery-1.10.2.min.js:5)
+  replaceSource (http://iinstg.prod.acquia-sites.com/sites/default/files//advagg_js/js__2CbJdweXjJhBRpnIrxS5Um6_w9bfFpJz3NgDFmPg_yY__t_Z9bWNJEmKUO5KEHZXovslFIngxze4qSizENrhxBSs__DFS7sfByEXJKuikTGVRoW4mN5oUoszzrS0h-6JAzqc0.js:8)
+  attach (http://iinstg.prod.acquia-sites.com/sites/default/files//advagg_js/js__2CbJdweXjJhBRpnIrxS5Um6_w9bfFpJz3NgDFmPg_yY__t_Z9bWNJEmKUO5KEHZXovslFIngxze4qSizENrhxBSs__DFS7sfByEXJKuikTGVRoW4mN5oUoszzrS0h-6JAzqc0.js:8)
+  (anonymous function) (http://iinstg.prod.acquia-sites.com/sites/default/files//advagg_js/js__H5AFmq1RrXKsrazzPq_xPQPy4K0wUKqecPjczzRiTgQ__p930YZ_ODW6ZjDLOJmxJnRL7juGStYuszD6uNS8_FFo__DFS7sfByEXJKuikTGVRoW4mN5oUoszzrS0h-6JAzqc0.js:5)
+  each (http://code.jquery.com/jquery-1.10.2.min.js:4)
+  attachBehaviors (http://iinstg.prod.acquia-sites.com/sites/default/files//advagg_js/js__H5AFmq1RrXKsrazzPq_xPQPy4K0wUKqecPjczzRiTgQ__p930YZ_ODW6ZjDLOJmxJnRL7juGStYuszD6uNS8_FFo__DFS7sfByEXJKuikTGVRoW4mN5oUoszzrS0h-6JAzqc0.js:5)
+  (anonymous function) (http://iinstg.prod.acquia-sites.com/sites/default/files//advagg_js/js__H5AFmq1RrXKsrazzPq_xPQPy4K0wUKqecPjczzRiTgQ__p930YZ_ODW6ZjDLOJmxJnRL7juGStYuszD6uNS8_FFo__DFS7sfByEXJKuikTGVRoW4mN5oUoszzrS0h-6JAzqc0.js:5)
+  c (http://code.jquery.com/jquery-1.10.2.min.js:4)
+  fireWith (http://code.jquery.com/jquery-1.10.2.min.js:4)
+  ready (http://code.jquery.com/jquery-1.10.2.min.js:4)
+  q (http://code.jquery.com/jquery-1.10.2.min.js:4)
+[ERROR - 2016-07-18T02:18:55.650Z] Session [374e31f0-4c8d-11e6-aaa7-7f12abf80eda] - page.onError - msg: getPresentingPlayerType@https://s.ytimg.com/yts/jsbin/player-es_ES-vflA-put7/base.js:7090:113
+tA@https://s.ytimg.com/yts/jsbin/player-es_ES-vflA-put7/base.js:2179:78
+Q7@https://s.ytimg.com/yts/jsbin/player-es_ES-vflA-put7/base.js:4115:87
+t8@https://s.ytimg.com/yts/jsbin/player-es_ES-vflA-put7/base.js:4202:301
+create@https://s.ytimg.com/yts/jsbin/player-es_ES-vflA-put7/base.js:7080:555
+https://s.ytimg.com/yts/jsbin/www-embed-player-vflPCVbP_/www-embed-player.js:479:276
+[native code]
+pe@https://s.ytimg.com/yts/jsbin/www-embed-player-vflPCVbP_/www-embed-player.js:479:318
+Qh@https://s.ytimg.com/yts/jsbin/www-embed-player-vflPCVbP_/www-embed-player.js:477:147
+Tb@https://s.ytimg.com/yts/jsbin/www-embed-player-vflPCVbP_/www-embed-player.js:470:189
+https://s.ytimg.com/yts/jsbin/www-embed-player-vflPCVbP_/www-embed-player.js:511:422
+[ERROR - 2016-07-18T02:18:55.652Z] Session [374e31f0-4c8d-11e6-aaa7-7f12abf80eda] - page.onError - stack:
+  (anonymous function) (https://s.ytimg.com/yts/jsbin/player-es_ES-vflA-put7/base.js:3871)
+  (anonymous function) (:0)
+[ERROR - 2016-07-18T02:19:01.429Z] Session [374e31f0-4c8d-11e6-aaa7-7f12abf80eda] - page.onError - msg: TypeError: undefined is not an object (evaluating 'this.src.replace')
+[ERROR - 2016-07-18T02:19:01.430Z] Session [374e31f0-4c8d-11e6-aaa7-7f12abf80eda] - page.onError - stack:
+  (anonymous function) (http://iinstg.prod.acquia-sites.com/sites/default/files//advagg_js/js__2CbJdweXjJhBRpnIrxS5Um6_w9bfFpJz3NgDFmPg_yY__t_Z9bWNJEmKUO5KEHZXovslFIngxze4qSizENrhxBSs__DFS7sfByEXJKuikTGVRoW4mN5oUoszzrS0h-6JAzqc0.js:8)
+  access (http://code.jquery.com/jquery-1.10.2.min.js:4)
+  attr (http://code.jquery.com/jquery-1.10.2.min.js:5)
+  replaceSource (http://iinstg.prod.acquia-sites.com/sites/default/files//advagg_js/js__2CbJdweXjJhBRpnIrxS5Um6_w9bfFpJz3NgDFmPg_yY__t_Z9bWNJEmKUO5KEHZXovslFIngxze4qSizENrhxBSs__DFS7sfByEXJKuikTGVRoW4mN5oUoszzrS0h-6JAzqc0.js:8)
+  attach (http://iinstg.prod.acquia-sites.com/sites/default/files//advagg_js/js__2CbJdweXjJhBRpnIrxS5Um6_w9bfFpJz3NgDFmPg_yY__t_Z9bWNJEmKUO5KEHZXovslFIngxze4qSizENrhxBSs__DFS7sfByEXJKuikTGVRoW4mN5oUoszzrS0h-6JAzqc0.js:8)
+  (anonymous function) (http://iinstg.prod.acquia-sites.com/sites/default/files//advagg_js/js__H5AFmq1RrXKsrazzPq_xPQPy4K0wUKqecPjczzRiTgQ__p930YZ_ODW6ZjDLOJmxJnRL7juGStYuszD6uNS8_FFo__DFS7sfByEXJKuikTGVRoW4mN5oUoszzrS0h-6JAzqc0.js:5)
+  each (http://code.jquery.com/jquery-1.10.2.min.js:4)
+  attachBehaviors (http://iinstg.prod.acquia-sites.com/sites/default/files//advagg_js/js__H5AFmq1RrXKsrazzPq_xPQPy4K0wUKqecPjczzRiTgQ__p930YZ_ODW6ZjDLOJmxJnRL7juGStYuszD6uNS8_FFo__DFS7sfByEXJKuikTGVRoW4mN5oUoszzrS0h-6JAzqc0.js:5)
+  (anonymous function) (http://iinstg.prod.acquia-sites.com/sites/default/files//advagg_js/js__H5AFmq1RrXKsrazzPq_xPQPy4K0wUKqecPjczzRiTgQ__p930YZ_ODW6ZjDLOJmxJnRL7juGStYuszD6uNS8_FFo__DFS7sfByEXJKuikTGVRoW4mN5oUoszzrS0h-6JAzqc0.js:5)
+  c (http://code.jquery.com/jquery-1.10.2.min.js:4)
+  fireWith (http://code.jquery.com/jquery-1.10.2.min.js:4)
+  ready (http://code.jquery.com/jquery-1.10.2.min.js:4)
+  q (http://code.jquery.com/jquery-1.10.2.min.js:4)
+[ERROR - 2016-07-18T02:19:01.720Z] Session [374e31f0-4c8d-11e6-aaa7-7f12abf80eda] - page.onError - msg: getPresentingPlayerType@https://s.ytimg.com/yts/jsbin/player-es_ES-vflA-put7/base.js:7090:113
+tA@https://s.ytimg.com/yts/jsbin/player-es_ES-vflA-put7/base.js:2179:78
+Q7@https://s.ytimg.com/yts/jsbin/player-es_ES-vflA-put7/base.js:4115:87
+t8@https://s.ytimg.com/yts/jsbin/player-es_ES-vflA-put7/base.js:4202:301
+create@https://s.ytimg.com/yts/jsbin/player-es_ES-vflA-put7/base.js:7080:555
+https://s.ytimg.com/yts/jsbin/www-embed-player-vflPCVbP_/www-embed-player.js:479:276
+[native code]
+pe@https://s.ytimg.com/yts/jsbin/www-embed-player-vflPCVbP_/www-embed-player.js:479:318
+Qh@https://s.ytimg.com/yts/jsbin/www-embed-player-vflPCVbP_/www-embed-player.js:477:147
+Tb@https://s.ytimg.com/yts/jsbin/www-embed-player-vflPCVbP_/www-embed-player.js:470:189
+https://s.ytimg.com/yts/jsbin/www-embed-player-vflPCVbP_/www-embed-player.js:511:422
+[ERROR - 2016-07-18T02:19:01.720Z] Session [374e31f0-4c8d-11e6-aaa7-7f12abf80eda] - page.onError - stack:
+  (anonymous function) (https://s.ytimg.com/yts/jsbin/player-es_ES-vflA-put7/base.js:3871)
+  (anonymous function) (:0)
+[ERROR - 2016-07-18T02:19:02.909Z] Session [374e31f0-4c8d-11e6-aaa7-7f12abf80eda] - page.onError - msg: TypeError: undefined is not an object (evaluating 'this.src.replace')
+[ERROR - 2016-07-18T02:19:02.909Z] Session [374e31f0-4c8d-11e6-aaa7-7f12abf80eda] - page.onError - stack:
+  (anonymous function) (http://iinstg.prod.acquia-sites.com/sites/default/files//advagg_js/js__2CbJdweXjJhBRpnIrxS5Um6_w9bfFpJz3NgDFmPg_yY__t_Z9bWNJEmKUO5KEHZXovslFIngxze4qSizENrhxBSs__DFS7sfByEXJKuikTGVRoW4mN5oUoszzrS0h-6JAzqc0.js:8)
+  access (http://code.jquery.com/jquery-1.10.2.min.js:4)
+  attr (http://code.jquery.com/jquery-1.10.2.min.js:5)
+  replaceSource (http://iinstg.prod.acquia-sites.com/sites/default/files//advagg_js/js__2CbJdweXjJhBRpnIrxS5Um6_w9bfFpJz3NgDFmPg_yY__t_Z9bWNJEmKUO5KEHZXovslFIngxze4qSizENrhxBSs__DFS7sfByEXJKuikTGVRoW4mN5oUoszzrS0h-6JAzqc0.js:8)
+  attach (http://iinstg.prod.acquia-sites.com/sites/default/files//advagg_js/js__2CbJdweXjJhBRpnIrxS5Um6_w9bfFpJz3NgDFmPg_yY__t_Z9bWNJEmKUO5KEHZXovslFIngxze4qSizENrhxBSs__DFS7sfByEXJKuikTGVRoW4mN5oUoszzrS0h-6JAzqc0.js:8)
+  (anonymous function) (http://iinstg.prod.acquia-sites.com/sites/default/files//advagg_js/js__H5AFmq1RrXKsrazzPq_xPQPy4K0wUKqecPjczzRiTgQ__p930YZ_ODW6ZjDLOJmxJnRL7juGStYuszD6uNS8_FFo__DFS7sfByEXJKuikTGVRoW4mN5oUoszzrS0h-6JAzqc0.js:5)
+  each (http://code.jquery.com/jquery-1.10.2.min.js:4)
+  attachBehaviors (http://iinstg.prod.acquia-sites.com/sites/default/files//advagg_js/js__H5AFmq1RrXKsrazzPq_xPQPy4K0wUKqecPjczzRiTgQ__p930YZ_ODW6ZjDLOJmxJnRL7juGStYuszD6uNS8_FFo__DFS7sfByEXJKuikTGVRoW4mN5oUoszzrS0h-6JAzqc0.js:5)
+  (anonymous function) (http://iinstg.prod.acquia-sites.com/sites/default/files//advagg_js/js__H5AFmq1RrXKsrazzPq_xPQPy4K0wUKqecPjczzRiTgQ__p930YZ_ODW6ZjDLOJmxJnRL7juGStYuszD6uNS8_FFo__DFS7sfByEXJKuikTGVRoW4mN5oUoszzrS0h-6JAzqc0.js:5)
+  c (http://code.jquery.com/jquery-1.10.2.min.js:4)
+  fireWith (http://code.jquery.com/jquery-1.10.2.min.js:4)
+  ready (http://code.jquery.com/jquery-1.10.2.min.js:4)
+  q (http://code.jquery.com/jquery-1.10.2.min.js:4)
+[ERROR - 2016-07-18T02:19:03.158Z] Session [374e31f0-4c8d-11e6-aaa7-7f12abf80eda] - page.onError - msg: getPresentingPlayerType@https://s.ytimg.com/yts/jsbin/player-es_ES-vflA-put7/base.js:7090:113
+tA@https://s.ytimg.com/yts/jsbin/player-es_ES-vflA-put7/base.js:2179:78
+Q7@https://s.ytimg.com/yts/jsbin/player-es_ES-vflA-put7/base.js:4115:87
+t8@https://s.ytimg.com/yts/jsbin/player-es_ES-vflA-put7/base.js:4202:301
+create@https://s.ytimg.com/yts/jsbin/player-es_ES-vflA-put7/base.js:7080:555
+https://s.ytimg.com/yts/jsbin/www-embed-player-vflPCVbP_/www-embed-player.js:479:276
+[native code]
+pe@https://s.ytimg.com/yts/jsbin/www-embed-player-vflPCVbP_/www-embed-player.js:479:318
+Qh@https://s.ytimg.com/yts/jsbin/www-embed-player-vflPCVbP_/www-embed-player.js:477:147
+Tb@https://s.ytimg.com/yts/jsbin/www-embed-player-vflPCVbP_/www-embed-player.js:470:189
+https://s.ytimg.com/yts/jsbin/www-embed-player-vflPCVbP_/www-embed-player.js:511:422
+[ERROR - 2016-07-18T02:19:03.159Z] Session [374e31f0-4c8d-11e6-aaa7-7f12abf80eda] - page.onError - stack:
+  (anonymous function) (https://s.ytimg.com/yts/jsbin/player-es_ES-vflA-put7/base.js:3871)
+  (anonymous function) (:0)
+[ERROR - 2016-07-18T02:19:06.931Z] Session [374e31f0-4c8d-11e6-aaa7-7f12abf80eda] - page.onError - msg: TypeError: undefined is not an object (evaluating 'this.src.replace')
+[ERROR - 2016-07-18T02:19:06.932Z] Session [374e31f0-4c8d-11e6-aaa7-7f12abf80eda] - page.onError - stack:
+  (anonymous function) (http://iinstg.prod.acquia-sites.com/sites/default/files//advagg_js/js__2CbJdweXjJhBRpnIrxS5Um6_w9bfFpJz3NgDFmPg_yY__t_Z9bWNJEmKUO5KEHZXovslFIngxze4qSizENrhxBSs__DFS7sfByEXJKuikTGVRoW4mN5oUoszzrS0h-6JAzqc0.js:8)
+  access (http://code.jquery.com/jquery-1.10.2.min.js:4)
+  attr (http://code.jquery.com/jquery-1.10.2.min.js:5)
+  replaceSource (http://iinstg.prod.acquia-sites.com/sites/default/files//advagg_js/js__2CbJdweXjJhBRpnIrxS5Um6_w9bfFpJz3NgDFmPg_yY__t_Z9bWNJEmKUO5KEHZXovslFIngxze4qSizENrhxBSs__DFS7sfByEXJKuikTGVRoW4mN5oUoszzrS0h-6JAzqc0.js:8)
+  attach (http://iinstg.prod.acquia-sites.com/sites/default/files//advagg_js/js__2CbJdweXjJhBRpnIrxS5Um6_w9bfFpJz3NgDFmPg_yY__t_Z9bWNJEmKUO5KEHZXovslFIngxze4qSizENrhxBSs__DFS7sfByEXJKuikTGVRoW4mN5oUoszzrS0h-6JAzqc0.js:8)
+  (anonymous function) (http://iinstg.prod.acquia-sites.com/sites/default/files//advagg_js/js__H5AFmq1RrXKsrazzPq_xPQPy4K0wUKqecPjczzRiTgQ__p930YZ_ODW6ZjDLOJmxJnRL7juGStYuszD6uNS8_FFo__DFS7sfByEXJKuikTGVRoW4mN5oUoszzrS0h-6JAzqc0.js:5)
+  each (http://code.jquery.com/jquery-1.10.2.min.js:4)
+  attachBehaviors (http://iinstg.prod.acquia-sites.com/sites/default/files//advagg_js/js__H5AFmq1RrXKsrazzPq_xPQPy4K0wUKqecPjczzRiTgQ__p930YZ_ODW6ZjDLOJmxJnRL7juGStYuszD6uNS8_FFo__DFS7sfByEXJKuikTGVRoW4mN5oUoszzrS0h-6JAzqc0.js:5)
+  (anonymous function) (http://iinstg.prod.acquia-sites.com/sites/default/files//advagg_js/js__H5AFmq1RrXKsrazzPq_xPQPy4K0wUKqecPjczzRiTgQ__p930YZ_ODW6ZjDLOJmxJnRL7juGStYuszD6uNS8_FFo__DFS7sfByEXJKuikTGVRoW4mN5oUoszzrS0h-6JAzqc0.js:5)
+  c (http://code.jquery.com/jquery-1.10.2.min.js:4)
+  fireWith (http://code.jquery.com/jquery-1.10.2.min.js:4)
+  ready (http://code.jquery.com/jquery-1.10.2.min.js:4)
+  q (http://code.jquery.com/jquery-1.10.2.min.js:4)
+[ERROR - 2016-07-18T02:19:07.576Z] Session [374e31f0-4c8d-11e6-aaa7-7f12abf80eda] - page.onError - msg: getPresentingPlayerType@https://s.ytimg.com/yts/jsbin/player-es_ES-vflA-put7/base.js:7090:113
+tA@https://s.ytimg.com/yts/jsbin/player-es_ES-vflA-put7/base.js:2179:78
+Q7@https://s.ytimg.com/yts/jsbin/player-es_ES-vflA-put7/base.js:4115:87
+t8@https://s.ytimg.com/yts/jsbin/player-es_ES-vflA-put7/base.js:4202:301
+create@https://s.ytimg.com/yts/jsbin/player-es_ES-vflA-put7/base.js:7080:555
+https://s.ytimg.com/yts/jsbin/www-embed-player-vflPCVbP_/www-embed-player.js:479:276
+[native code]
+pe@https://s.ytimg.com/yts/jsbin/www-embed-player-vflPCVbP_/www-embed-player.js:479:318
+Qh@https://s.ytimg.com/yts/jsbin/www-embed-player-vflPCVbP_/www-embed-player.js:477:147
+Tb@https://s.ytimg.com/yts/jsbin/www-embed-player-vflPCVbP_/www-embed-player.js:470:189
+https://s.ytimg.com/yts/jsbin/www-embed-player-vflPCVbP_/www-embed-player.js:511:422
+[ERROR - 2016-07-18T02:19:07.577Z] Session [374e31f0-4c8d-11e6-aaa7-7f12abf80eda] - page.onError - stack:
+  (anonymous function) (https://s.ytimg.com/yts/jsbin/player-es_ES-vflA-put7/base.js:3871)
+  (anonymous function) (:0)
+[ERROR - 2016-07-18T02:19:08.761Z] Session [374e31f0-4c8d-11e6-aaa7-7f12abf80eda] - page.onError - msg: TypeError: undefined is not an object (evaluating 'this.src.replace')
+[ERROR - 2016-07-18T02:19:08.762Z] Session [374e31f0-4c8d-11e6-aaa7-7f12abf80eda] - page.onError - stack:
+  (anonymous function) (http://iinstg.prod.acquia-sites.com/sites/default/files//advagg_js/js__2CbJdweXjJhBRpnIrxS5Um6_w9bfFpJz3NgDFmPg_yY__t_Z9bWNJEmKUO5KEHZXovslFIngxze4qSizENrhxBSs__DFS7sfByEXJKuikTGVRoW4mN5oUoszzrS0h-6JAzqc0.js:8)
+  access (http://code.jquery.com/jquery-1.10.2.min.js:4)
+  attr (http://code.jquery.com/jquery-1.10.2.min.js:5)
+  replaceSource (http://iinstg.prod.acquia-sites.com/sites/default/files//advagg_js/js__2CbJdweXjJhBRpnIrxS5Um6_w9bfFpJz3NgDFmPg_yY__t_Z9bWNJEmKUO5KEHZXovslFIngxze4qSizENrhxBSs__DFS7sfByEXJKuikTGVRoW4mN5oUoszzrS0h-6JAzqc0.js:8)
+  attach (http://iinstg.prod.acquia-sites.com/sites/default/files//advagg_js/js__2CbJdweXjJhBRpnIrxS5Um6_w9bfFpJz3NgDFmPg_yY__t_Z9bWNJEmKUO5KEHZXovslFIngxze4qSizENrhxBSs__DFS7sfByEXJKuikTGVRoW4mN5oUoszzrS0h-6JAzqc0.js:8)
+  (anonymous function) (http://iinstg.prod.acquia-sites.com/sites/default/files//advagg_js/js__H5AFmq1RrXKsrazzPq_xPQPy4K0wUKqecPjczzRiTgQ__p930YZ_ODW6ZjDLOJmxJnRL7juGStYuszD6uNS8_FFo__DFS7sfByEXJKuikTGVRoW4mN5oUoszzrS0h-6JAzqc0.js:5)
+  each (http://code.jquery.com/jquery-1.10.2.min.js:4)
+  attachBehaviors (http://iinstg.prod.acquia-sites.com/sites/default/files//advagg_js/js__H5AFmq1RrXKsrazzPq_xPQPy4K0wUKqecPjczzRiTgQ__p930YZ_ODW6ZjDLOJmxJnRL7juGStYuszD6uNS8_FFo__DFS7sfByEXJKuikTGVRoW4mN5oUoszzrS0h-6JAzqc0.js:5)
+  (anonymous function) (http://iinstg.prod.acquia-sites.com/sites/default/files//advagg_js/js__H5AFmq1RrXKsrazzPq_xPQPy4K0wUKqecPjczzRiTgQ__p930YZ_ODW6ZjDLOJmxJnRL7juGStYuszD6uNS8_FFo__DFS7sfByEXJKuikTGVRoW4mN5oUoszzrS0h-6JAzqc0.js:5)
+  c (http://code.jquery.com/jquery-1.10.2.min.js:4)
+  fireWith (http://code.jquery.com/jquery-1.10.2.min.js:4)
+  ready (http://code.jquery.com/jquery-1.10.2.min.js:4)
+  q (http://code.jquery.com/jquery-1.10.2.min.js:4)
+[ERROR - 2016-07-18T02:19:09.020Z] Session [374e31f0-4c8d-11e6-aaa7-7f12abf80eda] - page.onError - msg: getPresentingPlayerType@https://s.ytimg.com/yts/jsbin/player-es_ES-vflA-put7/base.js:7090:113
+tA@https://s.ytimg.com/yts/jsbin/player-es_ES-vflA-put7/base.js:2179:78
+Q7@https://s.ytimg.com/yts/jsbin/player-es_ES-vflA-put7/base.js:4115:87
+t8@https://s.ytimg.com/yts/jsbin/player-es_ES-vflA-put7/base.js:4202:301
+create@https://s.ytimg.com/yts/jsbin/player-es_ES-vflA-put7/base.js:7080:555
+https://s.ytimg.com/yts/jsbin/www-embed-player-vflPCVbP_/www-embed-player.js:479:276
+[native code]
+pe@https://s.ytimg.com/yts/jsbin/www-embed-player-vflPCVbP_/www-embed-player.js:479:318
+Qh@https://s.ytimg.com/yts/jsbin/www-embed-player-vflPCVbP_/www-embed-player.js:477:147
+Tb@https://s.ytimg.com/yts/jsbin/www-embed-player-vflPCVbP_/www-embed-player.js:470:189
+https://s.ytimg.com/yts/jsbin/www-embed-player-vflPCVbP_/www-embed-player.js:511:422
+[ERROR - 2016-07-18T02:19:09.021Z] Session [374e31f0-4c8d-11e6-aaa7-7f12abf80eda] - page.onError - stack:
+  (anonymous function) (https://s.ytimg.com/yts/jsbin/player-es_ES-vflA-put7/base.js:3871)
+  (anonymous function) (:0)
+[ERROR - 2016-07-18T02:19:13.890Z] Session [374e31f0-4c8d-11e6-aaa7-7f12abf80eda] - page.onError - msg: TypeError: undefined is not an object (evaluating 'this.src.replace')
+[ERROR - 2016-07-18T02:19:13.890Z] Session [374e31f0-4c8d-11e6-aaa7-7f12abf80eda] - page.onError - stack:
+  (anonymous function) (http://iinstg.prod.acquia-sites.com/sites/default/files//advagg_js/js__2CbJdweXjJhBRpnIrxS5Um6_w9bfFpJz3NgDFmPg_yY__t_Z9bWNJEmKUO5KEHZXovslFIngxze4qSizENrhxBSs__DFS7sfByEXJKuikTGVRoW4mN5oUoszzrS0h-6JAzqc0.js:8)
+  access (http://code.jquery.com/jquery-1.10.2.min.js:4)
+  attr (http://code.jquery.com/jquery-1.10.2.min.js:5)
+  replaceSource (http://iinstg.prod.acquia-sites.com/sites/default/files//advagg_js/js__2CbJdweXjJhBRpnIrxS5Um6_w9bfFpJz3NgDFmPg_yY__t_Z9bWNJEmKUO5KEHZXovslFIngxze4qSizENrhxBSs__DFS7sfByEXJKuikTGVRoW4mN5oUoszzrS0h-6JAzqc0.js:8)
+  attach (http://iinstg.prod.acquia-sites.com/sites/default/files//advagg_js/js__2CbJdweXjJhBRpnIrxS5Um6_w9bfFpJz3NgDFmPg_yY__t_Z9bWNJEmKUO5KEHZXovslFIngxze4qSizENrhxBSs__DFS7sfByEXJKuikTGVRoW4mN5oUoszzrS0h-6JAzqc0.js:8)
+  (anonymous function) (http://iinstg.prod.acquia-sites.com/sites/default/files//advagg_js/js__H5AFmq1RrXKsrazzPq_xPQPy4K0wUKqecPjczzRiTgQ__p930YZ_ODW6ZjDLOJmxJnRL7juGStYuszD6uNS8_FFo__DFS7sfByEXJKuikTGVRoW4mN5oUoszzrS0h-6JAzqc0.js:5)
+  each (http://code.jquery.com/jquery-1.10.2.min.js:4)
+  attachBehaviors (http://iinstg.prod.acquia-sites.com/sites/default/files//advagg_js/js__H5AFmq1RrXKsrazzPq_xPQPy4K0wUKqecPjczzRiTgQ__p930YZ_ODW6ZjDLOJmxJnRL7juGStYuszD6uNS8_FFo__DFS7sfByEXJKuikTGVRoW4mN5oUoszzrS0h-6JAzqc0.js:5)
+  (anonymous function) (http://iinstg.prod.acquia-sites.com/sites/default/files//advagg_js/js__H5AFmq1RrXKsrazzPq_xPQPy4K0wUKqecPjczzRiTgQ__p930YZ_ODW6ZjDLOJmxJnRL7juGStYuszD6uNS8_FFo__DFS7sfByEXJKuikTGVRoW4mN5oUoszzrS0h-6JAzqc0.js:5)
+  c (http://code.jquery.com/jquery-1.10.2.min.js:4)
+  fireWith (http://code.jquery.com/jquery-1.10.2.min.js:4)
+  ready (http://code.jquery.com/jquery-1.10.2.min.js:4)
+  q (http://code.jquery.com/jquery-1.10.2.min.js:4)
+[ERROR - 2016-07-18T02:19:16.967Z] Session [374e31f0-4c8d-11e6-aaa7-7f12abf80eda] - page.onError - msg: TypeError: undefined is not an object (evaluating 'this.src.replace')
+[ERROR - 2016-07-18T02:19:16.968Z] Session [374e31f0-4c8d-11e6-aaa7-7f12abf80eda] - page.onError - stack:
+  (anonymous function) (http://iinstg.prod.acquia-sites.com/sites/default/files//advagg_js/js__2CbJdweXjJhBRpnIrxS5Um6_w9bfFpJz3NgDFmPg_yY__t_Z9bWNJEmKUO5KEHZXovslFIngxze4qSizENrhxBSs__DFS7sfByEXJKuikTGVRoW4mN5oUoszzrS0h-6JAzqc0.js:8)
+  access (http://code.jquery.com/jquery-1.10.2.min.js:4)
+  attr (http://code.jquery.com/jquery-1.10.2.min.js:5)
+  replaceSource (http://iinstg.prod.acquia-sites.com/sites/default/files//advagg_js/js__2CbJdweXjJhBRpnIrxS5Um6_w9bfFpJz3NgDFmPg_yY__t_Z9bWNJEmKUO5KEHZXovslFIngxze4qSizENrhxBSs__DFS7sfByEXJKuikTGVRoW4mN5oUoszzrS0h-6JAzqc0.js:8)
+  attach (http://iinstg.prod.acquia-sites.com/sites/default/files//advagg_js/js__2CbJdweXjJhBRpnIrxS5Um6_w9bfFpJz3NgDFmPg_yY__t_Z9bWNJEmKUO5KEHZXovslFIngxze4qSizENrhxBSs__DFS7sfByEXJKuikTGVRoW4mN5oUoszzrS0h-6JAzqc0.js:8)
+  (anonymous function) (http://iinstg.prod.acquia-sites.com/sites/default/files//advagg_js/js__H5AFmq1RrXKsrazzPq_xPQPy4K0wUKqecPjczzRiTgQ__p930YZ_ODW6ZjDLOJmxJnRL7juGStYuszD6uNS8_FFo__DFS7sfByEXJKuikTGVRoW4mN5oUoszzrS0h-6JAzqc0.js:5)
+  each (http://code.jquery.com/jquery-1.10.2.min.js:4)
+  attachBehaviors (http://iinstg.prod.acquia-sites.com/sites/default/files//advagg_js/js__H5AFmq1RrXKsrazzPq_xPQPy4K0wUKqecPjczzRiTgQ__p930YZ_ODW6ZjDLOJmxJnRL7juGStYuszD6uNS8_FFo__DFS7sfByEXJKuikTGVRoW4mN5oUoszzrS0h-6JAzqc0.js:5)
+  (anonymous function) (http://iinstg.prod.acquia-sites.com/sites/default/files//advagg_js/js__H5AFmq1RrXKsrazzPq_xPQPy4K0wUKqecPjczzRiTgQ__p930YZ_ODW6ZjDLOJmxJnRL7juGStYuszD6uNS8_FFo__DFS7sfByEXJKuikTGVRoW4mN5oUoszzrS0h-6JAzqc0.js:5)
+  c (http://code.jquery.com/jquery-1.10.2.min.js:4)
+  fireWith (http://code.jquery.com/jquery-1.10.2.min.js:4)
+  ready (http://code.jquery.com/jquery-1.10.2.min.js:4)
+  q (http://code.jquery.com/jquery-1.10.2.min.js:4)
+[ERROR - 2016-07-18T02:19:17.552Z] Session [374e31f0-4c8d-11e6-aaa7-7f12abf80eda] - page.onError - msg: getPresentingPlayerType@https://s.ytimg.com/yts/jsbin/player-es_ES-vflA-put7/base.js:7090:113
+tA@https://s.ytimg.com/yts/jsbin/player-es_ES-vflA-put7/base.js:2179:78
+Q7@https://s.ytimg.com/yts/jsbin/player-es_ES-vflA-put7/base.js:4115:87
+t8@https://s.ytimg.com/yts/jsbin/player-es_ES-vflA-put7/base.js:4202:301
+create@https://s.ytimg.com/yts/jsbin/player-es_ES-vflA-put7/base.js:7080:555
+https://s.ytimg.com/yts/jsbin/www-embed-player-vflPCVbP_/www-embed-player.js:479:276
+[native code]
+pe@https://s.ytimg.com/yts/jsbin/www-embed-player-vflPCVbP_/www-embed-player.js:479:318
+Qh@https://s.ytimg.com/yts/jsbin/www-embed-player-vflPCVbP_/www-embed-player.js:477:147
+Tb@https://s.ytimg.com/yts/jsbin/www-embed-player-vflPCVbP_/www-embed-player.js:470:189
+https://s.ytimg.com/yts/jsbin/www-embed-player-vflPCVbP_/www-embed-player.js:511:422
+[ERROR - 2016-07-18T02:19:17.553Z] Session [374e31f0-4c8d-11e6-aaa7-7f12abf80eda] - page.onError - stack:
+  (anonymous function) (https://s.ytimg.com/yts/jsbin/player-es_ES-vflA-put7/base.js:3871)
+  (anonymous function) (:0)
+[ERROR - 2016-07-18T02:19:21.857Z] Session [374e31f0-4c8d-11e6-aaa7-7f12abf80eda] - page.onError - msg: TypeError: undefined is not an object (evaluating 'this.src.replace')
+[ERROR - 2016-07-18T02:19:21.858Z] Session [374e31f0-4c8d-11e6-aaa7-7f12abf80eda] - page.onError - stack:
+  (anonymous function) (http://iinstg.prod.acquia-sites.com/sites/default/files//advagg_js/js__2CbJdweXjJhBRpnIrxS5Um6_w9bfFpJz3NgDFmPg_yY__t_Z9bWNJEmKUO5KEHZXovslFIngxze4qSizENrhxBSs__DFS7sfByEXJKuikTGVRoW4mN5oUoszzrS0h-6JAzqc0.js:8)
+  access (http://code.jquery.com/jquery-1.10.2.min.js:4)
+  attr (http://code.jquery.com/jquery-1.10.2.min.js:5)
+  replaceSource (http://iinstg.prod.acquia-sites.com/sites/default/files//advagg_js/js__2CbJdweXjJhBRpnIrxS5Um6_w9bfFpJz3NgDFmPg_yY__t_Z9bWNJEmKUO5KEHZXovslFIngxze4qSizENrhxBSs__DFS7sfByEXJKuikTGVRoW4mN5oUoszzrS0h-6JAzqc0.js:8)
+  attach (http://iinstg.prod.acquia-sites.com/sites/default/files//advagg_js/js__2CbJdweXjJhBRpnIrxS5Um6_w9bfFpJz3NgDFmPg_yY__t_Z9bWNJEmKUO5KEHZXovslFIngxze4qSizENrhxBSs__DFS7sfByEXJKuikTGVRoW4mN5oUoszzrS0h-6JAzqc0.js:8)
+  (anonymous function) (http://iinstg.prod.acquia-sites.com/sites/default/files//advagg_js/js__H5AFmq1RrXKsrazzPq_xPQPy4K0wUKqecPjczzRiTgQ__p930YZ_ODW6ZjDLOJmxJnRL7juGStYuszD6uNS8_FFo__DFS7sfByEXJKuikTGVRoW4mN5oUoszzrS0h-6JAzqc0.js:5)
+  each (http://code.jquery.com/jquery-1.10.2.min.js:4)
+  attachBehaviors (http://iinstg.prod.acquia-sites.com/sites/default/files//advagg_js/js__H5AFmq1RrXKsrazzPq_xPQPy4K0wUKqecPjczzRiTgQ__p930YZ_ODW6ZjDLOJmxJnRL7juGStYuszD6uNS8_FFo__DFS7sfByEXJKuikTGVRoW4mN5oUoszzrS0h-6JAzqc0.js:5)
+  (anonymous function) (http://iinstg.prod.acquia-sites.com/sites/default/files//advagg_js/js__H5AFmq1RrXKsrazzPq_xPQPy4K0wUKqecPjczzRiTgQ__p930YZ_ODW6ZjDLOJmxJnRL7juGStYuszD6uNS8_FFo__DFS7sfByEXJKuikTGVRoW4mN5oUoszzrS0h-6JAzqc0.js:5)
+  c (http://code.jquery.com/jquery-1.10.2.min.js:4)
+  fireWith (http://code.jquery.com/jquery-1.10.2.min.js:4)
+  ready (http://code.jquery.com/jquery-1.10.2.min.js:4)
+  q (http://code.jquery.com/jquery-1.10.2.min.js:4)
+[ERROR - 2016-07-18T02:19:24.565Z] Session [374e31f0-4c8d-11e6-aaa7-7f12abf80eda] - page.onError - msg: TypeError: undefined is not an object (evaluating 'this.src.replace')
+[ERROR - 2016-07-18T02:19:24.566Z] Session [374e31f0-4c8d-11e6-aaa7-7f12abf80eda] - page.onError - stack:
+  (anonymous function) (http://iinstg.prod.acquia-sites.com/sites/default/files//advagg_js/js__2CbJdweXjJhBRpnIrxS5Um6_w9bfFpJz3NgDFmPg_yY__t_Z9bWNJEmKUO5KEHZXovslFIngxze4qSizENrhxBSs__DFS7sfByEXJKuikTGVRoW4mN5oUoszzrS0h-6JAzqc0.js:8)
+  access (http://code.jquery.com/jquery-1.10.2.min.js:4)
+  attr (http://code.jquery.com/jquery-1.10.2.min.js:5)
+  replaceSource (http://iinstg.prod.acquia-sites.com/sites/default/files//advagg_js/js__2CbJdweXjJhBRpnIrxS5Um6_w9bfFpJz3NgDFmPg_yY__t_Z9bWNJEmKUO5KEHZXovslFIngxze4qSizENrhxBSs__DFS7sfByEXJKuikTGVRoW4mN5oUoszzrS0h-6JAzqc0.js:8)
+  attach (http://iinstg.prod.acquia-sites.com/sites/default/files//advagg_js/js__2CbJdweXjJhBRpnIrxS5Um6_w9bfFpJz3NgDFmPg_yY__t_Z9bWNJEmKUO5KEHZXovslFIngxze4qSizENrhxBSs__DFS7sfByEXJKuikTGVRoW4mN5oUoszzrS0h-6JAzqc0.js:8)
+  (anonymous function) (http://iinstg.prod.acquia-sites.com/sites/default/files//advagg_js/js__H5AFmq1RrXKsrazzPq_xPQPy4K0wUKqecPjczzRiTgQ__p930YZ_ODW6ZjDLOJmxJnRL7juGStYuszD6uNS8_FFo__DFS7sfByEXJKuikTGVRoW4mN5oUoszzrS0h-6JAzqc0.js:5)
+  each (http://code.jquery.com/jquery-1.10.2.min.js:4)
+  attachBehaviors (http://iinstg.prod.acquia-sites.com/sites/default/files//advagg_js/js__H5AFmq1RrXKsrazzPq_xPQPy4K0wUKqecPjczzRiTgQ__p930YZ_ODW6ZjDLOJmxJnRL7juGStYuszD6uNS8_FFo__DFS7sfByEXJKuikTGVRoW4mN5oUoszzrS0h-6JAzqc0.js:5)
+  (anonymous function) (http://iinstg.prod.acquia-sites.com/sites/default/files//advagg_js/js__H5AFmq1RrXKsrazzPq_xPQPy4K0wUKqecPjczzRiTgQ__p930YZ_ODW6ZjDLOJmxJnRL7juGStYuszD6uNS8_FFo__DFS7sfByEXJKuikTGVRoW4mN5oUoszzrS0h-6JAzqc0.js:5)
+  c (http://code.jquery.com/jquery-1.10.2.min.js:4)
+  fireWith (http://code.jquery.com/jquery-1.10.2.min.js:4)
+  ready (http://code.jquery.com/jquery-1.10.2.min.js:4)
+  q (http://code.jquery.com/jquery-1.10.2.min.js:4)
+[ERROR - 2016-07-18T02:19:24.834Z] Session [374e31f0-4c8d-11e6-aaa7-7f12abf80eda] - page.onError - msg: getPresentingPlayerType@https://s.ytimg.com/yts/jsbin/player-es_ES-vflA-put7/base.js:7090:113
+tA@https://s.ytimg.com/yts/jsbin/player-es_ES-vflA-put7/base.js:2179:78
+Q7@https://s.ytimg.com/yts/jsbin/player-es_ES-vflA-put7/base.js:4115:87
+t8@https://s.ytimg.com/yts/jsbin/player-es_ES-vflA-put7/base.js:4202:301
+create@https://s.ytimg.com/yts/jsbin/player-es_ES-vflA-put7/base.js:7080:555
+https://s.ytimg.com/yts/jsbin/www-embed-player-vflPCVbP_/www-embed-player.js:479:276
+[native code]
+pe@https://s.ytimg.com/yts/jsbin/www-embed-player-vflPCVbP_/www-embed-player.js:479:318
+Qh@https://s.ytimg.com/yts/jsbin/www-embed-player-vflPCVbP_/www-embed-player.js:477:147
+Tb@https://s.ytimg.com/yts/jsbin/www-embed-player-vflPCVbP_/www-embed-player.js:470:189
+https://s.ytimg.com/yts/jsbin/www-embed-player-vflPCVbP_/www-embed-player.js:511:422
+[ERROR - 2016-07-18T02:19:24.835Z] Session [374e31f0-4c8d-11e6-aaa7-7f12abf80eda] - page.onError - stack:
+  (anonymous function) (https://s.ytimg.com/yts/jsbin/player-es_ES-vflA-put7/base.js:3871)
+  (anonymous function) (:0)
+[ERROR - 2016-07-18T02:19:28.338Z] Session [374e31f0-4c8d-11e6-aaa7-7f12abf80eda] - page.onError - msg: TypeError: undefined is not an object (evaluating 'this.src.replace')
+[ERROR - 2016-07-18T02:19:28.339Z] Session [374e31f0-4c8d-11e6-aaa7-7f12abf80eda] - page.onError - stack:
+  (anonymous function) (http://iinstg.prod.acquia-sites.com/sites/default/files//advagg_js/js__2CbJdweXjJhBRpnIrxS5Um6_w9bfFpJz3NgDFmPg_yY__t_Z9bWNJEmKUO5KEHZXovslFIngxze4qSizENrhxBSs__DFS7sfByEXJKuikTGVRoW4mN5oUoszzrS0h-6JAzqc0.js:8)
+  access (http://code.jquery.com/jquery-1.10.2.min.js:4)
+  attr (http://code.jquery.com/jquery-1.10.2.min.js:5)
+  replaceSource (http://iinstg.prod.acquia-sites.com/sites/default/files//advagg_js/js__2CbJdweXjJhBRpnIrxS5Um6_w9bfFpJz3NgDFmPg_yY__t_Z9bWNJEmKUO5KEHZXovslFIngxze4qSizENrhxBSs__DFS7sfByEXJKuikTGVRoW4mN5oUoszzrS0h-6JAzqc0.js:8)
+  attach (http://iinstg.prod.acquia-sites.com/sites/default/files//advagg_js/js__2CbJdweXjJhBRpnIrxS5Um6_w9bfFpJz3NgDFmPg_yY__t_Z9bWNJEmKUO5KEHZXovslFIngxze4qSizENrhxBSs__DFS7sfByEXJKuikTGVRoW4mN5oUoszzrS0h-6JAzqc0.js:8)
+  (anonymous function) (http://iinstg.prod.acquia-sites.com/sites/default/files//advagg_js/js__H5AFmq1RrXKsrazzPq_xPQPy4K0wUKqecPjczzRiTgQ__p930YZ_ODW6ZjDLOJmxJnRL7juGStYuszD6uNS8_FFo__DFS7sfByEXJKuikTGVRoW4mN5oUoszzrS0h-6JAzqc0.js:5)
+  each (http://code.jquery.com/jquery-1.10.2.min.js:4)
+  attachBehaviors (http://iinstg.prod.acquia-sites.com/sites/default/files//advagg_js/js__H5AFmq1RrXKsrazzPq_xPQPy4K0wUKqecPjczzRiTgQ__p930YZ_ODW6ZjDLOJmxJnRL7juGStYuszD6uNS8_FFo__DFS7sfByEXJKuikTGVRoW4mN5oUoszzrS0h-6JAzqc0.js:5)
+  (anonymous function) (http://iinstg.prod.acquia-sites.com/sites/default/files//advagg_js/js__H5AFmq1RrXKsrazzPq_xPQPy4K0wUKqecPjczzRiTgQ__p930YZ_ODW6ZjDLOJmxJnRL7juGStYuszD6uNS8_FFo__DFS7sfByEXJKuikTGVRoW4mN5oUoszzrS0h-6JAzqc0.js:5)
+  c (http://code.jquery.com/jquery-1.10.2.min.js:4)
+  fireWith (http://code.jquery.com/jquery-1.10.2.min.js:4)
+  ready (http://code.jquery.com/jquery-1.10.2.min.js:4)
+  q (http://code.jquery.com/jquery-1.10.2.min.js:4)
+[ERROR - 2016-07-18T02:19:28.731Z] Session [374e31f0-4c8d-11e6-aaa7-7f12abf80eda] - page.onError - msg: getPresentingPlayerType@https://s.ytimg.com/yts/jsbin/player-es_ES-vflA-put7/base.js:7090:113
+tA@https://s.ytimg.com/yts/jsbin/player-es_ES-vflA-put7/base.js:2179:78
+Q7@https://s.ytimg.com/yts/jsbin/player-es_ES-vflA-put7/base.js:4115:87
+t8@https://s.ytimg.com/yts/jsbin/player-es_ES-vflA-put7/base.js:4202:301
+create@https://s.ytimg.com/yts/jsbin/player-es_ES-vflA-put7/base.js:7080:555
+https://s.ytimg.com/yts/jsbin/www-embed-player-vflPCVbP_/www-embed-player.js:479:276
+[native code]
+pe@https://s.ytimg.com/yts/jsbin/www-embed-player-vflPCVbP_/www-embed-player.js:479:318
+Qh@https://s.ytimg.com/yts/jsbin/www-embed-player-vflPCVbP_/www-embed-player.js:477:147
+Tb@https://s.ytimg.com/yts/jsbin/www-embed-player-vflPCVbP_/www-embed-player.js:470:189
+https://s.ytimg.com/yts/jsbin/www-embed-player-vflPCVbP_/www-embed-player.js:511:422
+[ERROR - 2016-07-18T02:19:28.732Z] Session [374e31f0-4c8d-11e6-aaa7-7f12abf80eda] - page.onError - stack:
+  (anonymous function) (https://s.ytimg.com/yts/jsbin/player-es_ES-vflA-put7/base.js:3871)
+  (anonymous function) (:0)
+[ERROR - 2016-07-18T02:19:31.322Z] Session [374e31f0-4c8d-11e6-aaa7-7f12abf80eda] - page.onError - msg: TypeError: undefined is not an object (evaluating 'this.src.replace')
+[ERROR - 2016-07-18T02:19:31.323Z] Session [374e31f0-4c8d-11e6-aaa7-7f12abf80eda] - page.onError - stack:
+  (anonymous function) (http://iinstg.prod.acquia-sites.com/sites/default/files//advagg_js/js__2CbJdweXjJhBRpnIrxS5Um6_w9bfFpJz3NgDFmPg_yY__t_Z9bWNJEmKUO5KEHZXovslFIngxze4qSizENrhxBSs__DFS7sfByEXJKuikTGVRoW4mN5oUoszzrS0h-6JAzqc0.js:8)
+  access (http://code.jquery.com/jquery-1.10.2.min.js:4)
+  attr (http://code.jquery.com/jquery-1.10.2.min.js:5)
+  replaceSource (http://iinstg.prod.acquia-sites.com/sites/default/files//advagg_js/js__2CbJdweXjJhBRpnIrxS5Um6_w9bfFpJz3NgDFmPg_yY__t_Z9bWNJEmKUO5KEHZXovslFIngxze4qSizENrhxBSs__DFS7sfByEXJKuikTGVRoW4mN5oUoszzrS0h-6JAzqc0.js:8)
+  attach (http://iinstg.prod.acquia-sites.com/sites/default/files//advagg_js/js__2CbJdweXjJhBRpnIrxS5Um6_w9bfFpJz3NgDFmPg_yY__t_Z9bWNJEmKUO5KEHZXovslFIngxze4qSizENrhxBSs__DFS7sfByEXJKuikTGVRoW4mN5oUoszzrS0h-6JAzqc0.js:8)
+  (anonymous function) (http://iinstg.prod.acquia-sites.com/sites/default/files//advagg_js/js__H5AFmq1RrXKsrazzPq_xPQPy4K0wUKqecPjczzRiTgQ__p930YZ_ODW6ZjDLOJmxJnRL7juGStYuszD6uNS8_FFo__DFS7sfByEXJKuikTGVRoW4mN5oUoszzrS0h-6JAzqc0.js:5)
+  each (http://code.jquery.com/jquery-1.10.2.min.js:4)
+  attachBehaviors (http://iinstg.prod.acquia-sites.com/sites/default/files//advagg_js/js__H5AFmq1RrXKsrazzPq_xPQPy4K0wUKqecPjczzRiTgQ__p930YZ_ODW6ZjDLOJmxJnRL7juGStYuszD6uNS8_FFo__DFS7sfByEXJKuikTGVRoW4mN5oUoszzrS0h-6JAzqc0.js:5)
+  (anonymous function) (http://iinstg.prod.acquia-sites.com/sites/default/files//advagg_js/js__H5AFmq1RrXKsrazzPq_xPQPy4K0wUKqecPjczzRiTgQ__p930YZ_ODW6ZjDLOJmxJnRL7juGStYuszD6uNS8_FFo__DFS7sfByEXJKuikTGVRoW4mN5oUoszzrS0h-6JAzqc0.js:5)
+  c (http://code.jquery.com/jquery-1.10.2.min.js:4)
+  fireWith (http://code.jquery.com/jquery-1.10.2.min.js:4)
+  ready (http://code.jquery.com/jquery-1.10.2.min.js:4)
+  q (http://code.jquery.com/jquery-1.10.2.min.js:4)
+[ERROR - 2016-07-18T02:19:31.607Z] Session [374e31f0-4c8d-11e6-aaa7-7f12abf80eda] - page.onError - msg: getPresentingPlayerType@https://s.ytimg.com/yts/jsbin/player-es_ES-vflA-put7/base.js:7090:113
+tA@https://s.ytimg.com/yts/jsbin/player-es_ES-vflA-put7/base.js:2179:78
+Q7@https://s.ytimg.com/yts/jsbin/player-es_ES-vflA-put7/base.js:4115:87
+t8@https://s.ytimg.com/yts/jsbin/player-es_ES-vflA-put7/base.js:4202:301
+create@https://s.ytimg.com/yts/jsbin/player-es_ES-vflA-put7/base.js:7080:555
+https://s.ytimg.com/yts/jsbin/www-embed-player-vflPCVbP_/www-embed-player.js:479:276
+[native code]
+pe@https://s.ytimg.com/yts/jsbin/www-embed-player-vflPCVbP_/www-embed-player.js:479:318
+Qh@https://s.ytimg.com/yts/jsbin/www-embed-player-vflPCVbP_/www-embed-player.js:477:147
+Tb@https://s.ytimg.com/yts/jsbin/www-embed-player-vflPCVbP_/www-embed-player.js:470:189
+https://s.ytimg.com/yts/jsbin/www-embed-player-vflPCVbP_/www-embed-player.js:511:422
+[ERROR - 2016-07-18T02:19:31.608Z] Session [374e31f0-4c8d-11e6-aaa7-7f12abf80eda] - page.onError - stack:
+  (anonymous function) (https://s.ytimg.com/yts/jsbin/player-es_ES-vflA-put7/base.js:3871)
+  (anonymous function) (:0)
+[ERROR - 2016-07-18T02:19:35.344Z] Session [374e31f0-4c8d-11e6-aaa7-7f12abf80eda] - page.onError - msg: TypeError: undefined is not an object (evaluating 'this.src.replace')
+[ERROR - 2016-07-18T02:19:35.345Z] Session [374e31f0-4c8d-11e6-aaa7-7f12abf80eda] - page.onError - stack:
+  (anonymous function) (http://iinstg.prod.acquia-sites.com/sites/default/files//advagg_js/js__2CbJdweXjJhBRpnIrxS5Um6_w9bfFpJz3NgDFmPg_yY__t_Z9bWNJEmKUO5KEHZXovslFIngxze4qSizENrhxBSs__DFS7sfByEXJKuikTGVRoW4mN5oUoszzrS0h-6JAzqc0.js:8)
+  access (http://code.jquery.com/jquery-1.10.2.min.js:4)
+  attr (http://code.jquery.com/jquery-1.10.2.min.js:5)
+  replaceSource (http://iinstg.prod.acquia-sites.com/sites/default/files//advagg_js/js__2CbJdweXjJhBRpnIrxS5Um6_w9bfFpJz3NgDFmPg_yY__t_Z9bWNJEmKUO5KEHZXovslFIngxze4qSizENrhxBSs__DFS7sfByEXJKuikTGVRoW4mN5oUoszzrS0h-6JAzqc0.js:8)
+  attach (http://iinstg.prod.acquia-sites.com/sites/default/files//advagg_js/js__2CbJdweXjJhBRpnIrxS5Um6_w9bfFpJz3NgDFmPg_yY__t_Z9bWNJEmKUO5KEHZXovslFIngxze4qSizENrhxBSs__DFS7sfByEXJKuikTGVRoW4mN5oUoszzrS0h-6JAzqc0.js:8)
+  (anonymous function) (http://iinstg.prod.acquia-sites.com/sites/default/files//advagg_js/js__H5AFmq1RrXKsrazzPq_xPQPy4K0wUKqecPjczzRiTgQ__p930YZ_ODW6ZjDLOJmxJnRL7juGStYuszD6uNS8_FFo__DFS7sfByEXJKuikTGVRoW4mN5oUoszzrS0h-6JAzqc0.js:5)
+  each (http://code.jquery.com/jquery-1.10.2.min.js:4)
+  attachBehaviors (http://iinstg.prod.acquia-sites.com/sites/default/files//advagg_js/js__H5AFmq1RrXKsrazzPq_xPQPy4K0wUKqecPjczzRiTgQ__p930YZ_ODW6ZjDLOJmxJnRL7juGStYuszD6uNS8_FFo__DFS7sfByEXJKuikTGVRoW4mN5oUoszzrS0h-6JAzqc0.js:5)
+  (anonymous function) (http://iinstg.prod.acquia-sites.com/sites/default/files//advagg_js/js__H5AFmq1RrXKsrazzPq_xPQPy4K0wUKqecPjczzRiTgQ__p930YZ_ODW6ZjDLOJmxJnRL7juGStYuszD6uNS8_FFo__DFS7sfByEXJKuikTGVRoW4mN5oUoszzrS0h-6JAzqc0.js:5)
+  c (http://code.jquery.com/jquery-1.10.2.min.js:4)
+  fireWith (http://code.jquery.com/jquery-1.10.2.min.js:4)
+  ready (http://code.jquery.com/jquery-1.10.2.min.js:4)
+  q (http://code.jquery.com/jquery-1.10.2.min.js:4)
+[ERROR - 2016-07-18T02:19:35.585Z] Session [374e31f0-4c8d-11e6-aaa7-7f12abf80eda] - page.onError - msg: getPresentingPlayerType@https://s.ytimg.com/yts/jsbin/player-es_ES-vflA-put7/base.js:7090:113
+tA@https://s.ytimg.com/yts/jsbin/player-es_ES-vflA-put7/base.js:2179:78
+Q7@https://s.ytimg.com/yts/jsbin/player-es_ES-vflA-put7/base.js:4115:87
+t8@https://s.ytimg.com/yts/jsbin/player-es_ES-vflA-put7/base.js:4202:301
+create@https://s.ytimg.com/yts/jsbin/player-es_ES-vflA-put7/base.js:7080:555
+https://s.ytimg.com/yts/jsbin/www-embed-player-vflPCVbP_/www-embed-player.js:479:276
+[native code]
+pe@https://s.ytimg.com/yts/jsbin/www-embed-player-vflPCVbP_/www-embed-player.js:479:318
+Qh@https://s.ytimg.com/yts/jsbin/www-embed-player-vflPCVbP_/www-embed-player.js:477:147
+Tb@https://s.ytimg.com/yts/jsbin/www-embed-player-vflPCVbP_/www-embed-player.js:470:189
+https://s.ytimg.com/yts/jsbin/www-embed-player-vflPCVbP_/www-embed-player.js:511:422
+[ERROR - 2016-07-18T02:19:35.585Z] Session [374e31f0-4c8d-11e6-aaa7-7f12abf80eda] - page.onError - stack:
+  (anonymous function) (https://s.ytimg.com/yts/jsbin/player-es_ES-vflA-put7/base.js:3871)
+  (anonymous function) (:0)
+[ERROR - 2016-07-18T02:19:38.239Z] Session [374e31f0-4c8d-11e6-aaa7-7f12abf80eda] - page.onError - msg: TypeError: undefined is not an object (evaluating 'this.src.replace')
+[ERROR - 2016-07-18T02:19:38.240Z] Session [374e31f0-4c8d-11e6-aaa7-7f12abf80eda] - page.onError - stack:
+  (anonymous function) (http://iinstg.prod.acquia-sites.com/sites/default/files//advagg_js/js__2CbJdweXjJhBRpnIrxS5Um6_w9bfFpJz3NgDFmPg_yY__t_Z9bWNJEmKUO5KEHZXovslFIngxze4qSizENrhxBSs__DFS7sfByEXJKuikTGVRoW4mN5oUoszzrS0h-6JAzqc0.js:8)
+  access (http://code.jquery.com/jquery-1.10.2.min.js:4)
+  attr (http://code.jquery.com/jquery-1.10.2.min.js:5)
+  replaceSource (http://iinstg.prod.acquia-sites.com/sites/default/files//advagg_js/js__2CbJdweXjJhBRpnIrxS5Um6_w9bfFpJz3NgDFmPg_yY__t_Z9bWNJEmKUO5KEHZXovslFIngxze4qSizENrhxBSs__DFS7sfByEXJKuikTGVRoW4mN5oUoszzrS0h-6JAzqc0.js:8)
+  attach (http://iinstg.prod.acquia-sites.com/sites/default/files//advagg_js/js__2CbJdweXjJhBRpnIrxS5Um6_w9bfFpJz3NgDFmPg_yY__t_Z9bWNJEmKUO5KEHZXovslFIngxze4qSizENrhxBSs__DFS7sfByEXJKuikTGVRoW4mN5oUoszzrS0h-6JAzqc0.js:8)
+  (anonymous function) (http://iinstg.prod.acquia-sites.com/sites/default/files//advagg_js/js__H5AFmq1RrXKsrazzPq_xPQPy4K0wUKqecPjczzRiTgQ__p930YZ_ODW6ZjDLOJmxJnRL7juGStYuszD6uNS8_FFo__DFS7sfByEXJKuikTGVRoW4mN5oUoszzrS0h-6JAzqc0.js:5)
+  each (http://code.jquery.com/jquery-1.10.2.min.js:4)
+  attachBehaviors (http://iinstg.prod.acquia-sites.com/sites/default/files//advagg_js/js__H5AFmq1RrXKsrazzPq_xPQPy4K0wUKqecPjczzRiTgQ__p930YZ_ODW6ZjDLOJmxJnRL7juGStYuszD6uNS8_FFo__DFS7sfByEXJKuikTGVRoW4mN5oUoszzrS0h-6JAzqc0.js:5)
+  (anonymous function) (http://iinstg.prod.acquia-sites.com/sites/default/files//advagg_js/js__H5AFmq1RrXKsrazzPq_xPQPy4K0wUKqecPjczzRiTgQ__p930YZ_ODW6ZjDLOJmxJnRL7juGStYuszD6uNS8_FFo__DFS7sfByEXJKuikTGVRoW4mN5oUoszzrS0h-6JAzqc0.js:5)
+  c (http://code.jquery.com/jquery-1.10.2.min.js:4)
+  fireWith (http://code.jquery.com/jquery-1.10.2.min.js:4)
+  ready (http://code.jquery.com/jquery-1.10.2.min.js:4)
+  q (http://code.jquery.com/jquery-1.10.2.min.js:4)
+[ERROR - 2016-07-18T02:19:38.486Z] Session [374e31f0-4c8d-11e6-aaa7-7f12abf80eda] - page.onError - msg: getPresentingPlayerType@https://s.ytimg.com/yts/jsbin/player-es_ES-vflA-put7/base.js:7090:113
+tA@https://s.ytimg.com/yts/jsbin/player-es_ES-vflA-put7/base.js:2179:78
+Q7@https://s.ytimg.com/yts/jsbin/player-es_ES-vflA-put7/base.js:4115:87
+t8@https://s.ytimg.com/yts/jsbin/player-es_ES-vflA-put7/base.js:4202:301
+create@https://s.ytimg.com/yts/jsbin/player-es_ES-vflA-put7/base.js:7080:555
+https://s.ytimg.com/yts/jsbin/www-embed-player-vflPCVbP_/www-embed-player.js:479:276
+[native code]
+pe@https://s.ytimg.com/yts/jsbin/www-embed-player-vflPCVbP_/www-embed-player.js:479:318
+Qh@https://s.ytimg.com/yts/jsbin/www-embed-player-vflPCVbP_/www-embed-player.js:477:147
+Tb@https://s.ytimg.com/yts/jsbin/www-embed-player-vflPCVbP_/www-embed-player.js:470:189
+https://s.ytimg.com/yts/jsbin/www-embed-player-vflPCVbP_/www-embed-player.js:511:422
+[ERROR - 2016-07-18T02:19:38.495Z] Session [374e31f0-4c8d-11e6-aaa7-7f12abf80eda] - page.onError - stack:
+  (anonymous function) (https://s.ytimg.com/yts/jsbin/player-es_ES-vflA-put7/base.js:3871)
+  (anonymous function) (:0)
+[ERROR - 2016-07-18T02:19:43.209Z] Session [374e31f0-4c8d-11e6-aaa7-7f12abf80eda] - page.onError - msg: TypeError: undefined is not an object (evaluating 'this.src.replace')
+[ERROR - 2016-07-18T02:19:43.209Z] Session [374e31f0-4c8d-11e6-aaa7-7f12abf80eda] - page.onError - stack:
+  (anonymous function) (http://iinstg.prod.acquia-sites.com/sites/default/files//advagg_js/js__2CbJdweXjJhBRpnIrxS5Um6_w9bfFpJz3NgDFmPg_yY__t_Z9bWNJEmKUO5KEHZXovslFIngxze4qSizENrhxBSs__DFS7sfByEXJKuikTGVRoW4mN5oUoszzrS0h-6JAzqc0.js:8)
+  access (http://code.jquery.com/jquery-1.10.2.min.js:4)
+  attr (http://code.jquery.com/jquery-1.10.2.min.js:5)
+  replaceSource (http://iinstg.prod.acquia-sites.com/sites/default/files//advagg_js/js__2CbJdweXjJhBRpnIrxS5Um6_w9bfFpJz3NgDFmPg_yY__t_Z9bWNJEmKUO5KEHZXovslFIngxze4qSizENrhxBSs__DFS7sfByEXJKuikTGVRoW4mN5oUoszzrS0h-6JAzqc0.js:8)
+  attach (http://iinstg.prod.acquia-sites.com/sites/default/files//advagg_js/js__2CbJdweXjJhBRpnIrxS5Um6_w9bfFpJz3NgDFmPg_yY__t_Z9bWNJEmKUO5KEHZXovslFIngxze4qSizENrhxBSs__DFS7sfByEXJKuikTGVRoW4mN5oUoszzrS0h-6JAzqc0.js:8)
+  (anonymous function) (http://iinstg.prod.acquia-sites.com/sites/default/files//advagg_js/js__H5AFmq1RrXKsrazzPq_xPQPy4K0wUKqecPjczzRiTgQ__p930YZ_ODW6ZjDLOJmxJnRL7juGStYuszD6uNS8_FFo__DFS7sfByEXJKuikTGVRoW4mN5oUoszzrS0h-6JAzqc0.js:5)
+  each (http://code.jquery.com/jquery-1.10.2.min.js:4)
+  attachBehaviors (http://iinstg.prod.acquia-sites.com/sites/default/files//advagg_js/js__H5AFmq1RrXKsrazzPq_xPQPy4K0wUKqecPjczzRiTgQ__p930YZ_ODW6ZjDLOJmxJnRL7juGStYuszD6uNS8_FFo__DFS7sfByEXJKuikTGVRoW4mN5oUoszzrS0h-6JAzqc0.js:5)
+  (anonymous function) (http://iinstg.prod.acquia-sites.com/sites/default/files//advagg_js/js__H5AFmq1RrXKsrazzPq_xPQPy4K0wUKqecPjczzRiTgQ__p930YZ_ODW6ZjDLOJmxJnRL7juGStYuszD6uNS8_FFo__DFS7sfByEXJKuikTGVRoW4mN5oUoszzrS0h-6JAzqc0.js:5)
+  c (http://code.jquery.com/jquery-1.10.2.min.js:4)
+  fireWith (http://code.jquery.com/jquery-1.10.2.min.js:4)
+  ready (http://code.jquery.com/jquery-1.10.2.min.js:4)
+  q (http://code.jquery.com/jquery-1.10.2.min.js:4)
+[ERROR - 2016-07-18T02:19:46.502Z] Session [374e31f0-4c8d-11e6-aaa7-7f12abf80eda] - page.onError - msg: TypeError: undefined is not an object (evaluating 'this.src.replace')
+[ERROR - 2016-07-18T02:19:46.503Z] Session [374e31f0-4c8d-11e6-aaa7-7f12abf80eda] - page.onError - stack:
+  (anonymous function) (http://iinstg.prod.acquia-sites.com/sites/default/files//advagg_js/js__2CbJdweXjJhBRpnIrxS5Um6_w9bfFpJz3NgDFmPg_yY__t_Z9bWNJEmKUO5KEHZXovslFIngxze4qSizENrhxBSs__DFS7sfByEXJKuikTGVRoW4mN5oUoszzrS0h-6JAzqc0.js:8)
+  access (http://code.jquery.com/jquery-1.10.2.min.js:4)
+  attr (http://code.jquery.com/jquery-1.10.2.min.js:5)
+  replaceSource (http://iinstg.prod.acquia-sites.com/sites/default/files//advagg_js/js__2CbJdweXjJhBRpnIrxS5Um6_w9bfFpJz3NgDFmPg_yY__t_Z9bWNJEmKUO5KEHZXovslFIngxze4qSizENrhxBSs__DFS7sfByEXJKuikTGVRoW4mN5oUoszzrS0h-6JAzqc0.js:8)
+  attach (http://iinstg.prod.acquia-sites.com/sites/default/files//advagg_js/js__2CbJdweXjJhBRpnIrxS5Um6_w9bfFpJz3NgDFmPg_yY__t_Z9bWNJEmKUO5KEHZXovslFIngxze4qSizENrhxBSs__DFS7sfByEXJKuikTGVRoW4mN5oUoszzrS0h-6JAzqc0.js:8)
+  (anonymous function) (http://iinstg.prod.acquia-sites.com/sites/default/files//advagg_js/js__H5AFmq1RrXKsrazzPq_xPQPy4K0wUKqecPjczzRiTgQ__p930YZ_ODW6ZjDLOJmxJnRL7juGStYuszD6uNS8_FFo__DFS7sfByEXJKuikTGVRoW4mN5oUoszzrS0h-6JAzqc0.js:5)
+  each (http://code.jquery.com/jquery-1.10.2.min.js:4)
+  attachBehaviors (http://iinstg.prod.acquia-sites.com/sites/default/files//advagg_js/js__H5AFmq1RrXKsrazzPq_xPQPy4K0wUKqecPjczzRiTgQ__p930YZ_ODW6ZjDLOJmxJnRL7juGStYuszD6uNS8_FFo__DFS7sfByEXJKuikTGVRoW4mN5oUoszzrS0h-6JAzqc0.js:5)
+  (anonymous function) (http://iinstg.prod.acquia-sites.com/sites/default/files//advagg_js/js__H5AFmq1RrXKsrazzPq_xPQPy4K0wUKqecPjczzRiTgQ__p930YZ_ODW6ZjDLOJmxJnRL7juGStYuszD6uNS8_FFo__DFS7sfByEXJKuikTGVRoW4mN5oUoszzrS0h-6JAzqc0.js:5)
+  c (http://code.jquery.com/jquery-1.10.2.min.js:4)
+  fireWith (http://code.jquery.com/jquery-1.10.2.min.js:4)
+  ready (http://code.jquery.com/jquery-1.10.2.min.js:4)
+  q (http://code.jquery.com/jquery-1.10.2.min.js:4)
+[ERROR - 2016-07-18T02:19:46.770Z] Session [374e31f0-4c8d-11e6-aaa7-7f12abf80eda] - page.onError - msg: getPresentingPlayerType@https://s.ytimg.com/yts/jsbin/player-es_ES-vflA-put7/base.js:7090:113
+tA@https://s.ytimg.com/yts/jsbin/player-es_ES-vflA-put7/base.js:2179:78
+Q7@https://s.ytimg.com/yts/jsbin/player-es_ES-vflA-put7/base.js:4115:87
+t8@https://s.ytimg.com/yts/jsbin/player-es_ES-vflA-put7/base.js:4202:301
+create@https://s.ytimg.com/yts/jsbin/player-es_ES-vflA-put7/base.js:7080:555
+https://s.ytimg.com/yts/jsbin/www-embed-player-vflPCVbP_/www-embed-player.js:479:276
+[native code]
+pe@https://s.ytimg.com/yts/jsbin/www-embed-player-vflPCVbP_/www-embed-player.js:479:318
+Qh@https://s.ytimg.com/yts/jsbin/www-embed-player-vflPCVbP_/www-embed-player.js:477:147
+Tb@https://s.ytimg.com/yts/jsbin/www-embed-player-vflPCVbP_/www-embed-player.js:470:189
+https://s.ytimg.com/yts/jsbin/www-embed-player-vflPCVbP_/www-embed-player.js:511:422
+[ERROR - 2016-07-18T02:19:46.771Z] Session [374e31f0-4c8d-11e6-aaa7-7f12abf80eda] - page.onError - stack:
+  (anonymous function) (https://s.ytimg.com/yts/jsbin/player-es_ES-vflA-put7/base.js:3871)
+  (anonymous function) (:0)
+[ERROR - 2016-07-18T02:20:48.371Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1468808448328
+[ERROR - 2016-07-18T02:20:52.229Z] Session [374e31f0-4c8d-11e6-aaa7-7f12abf80eda] - page.onError - msg: TypeError: undefined is not an object (evaluating 'this.src.replace')
+[ERROR - 2016-07-18T02:20:52.230Z] Session [374e31f0-4c8d-11e6-aaa7-7f12abf80eda] - page.onError - stack:
+  (anonymous function) (http://iinstg.prod.acquia-sites.com/sites/default/files//advagg_js/js__2CbJdweXjJhBRpnIrxS5Um6_w9bfFpJz3NgDFmPg_yY__t_Z9bWNJEmKUO5KEHZXovslFIngxze4qSizENrhxBSs__DFS7sfByEXJKuikTGVRoW4mN5oUoszzrS0h-6JAzqc0.js:8)
+  access (http://code.jquery.com/jquery-1.10.2.min.js:4)
+  attr (http://code.jquery.com/jquery-1.10.2.min.js:5)
+  replaceSource (http://iinstg.prod.acquia-sites.com/sites/default/files//advagg_js/js__2CbJdweXjJhBRpnIrxS5Um6_w9bfFpJz3NgDFmPg_yY__t_Z9bWNJEmKUO5KEHZXovslFIngxze4qSizENrhxBSs__DFS7sfByEXJKuikTGVRoW4mN5oUoszzrS0h-6JAzqc0.js:8)
+  attach (http://iinstg.prod.acquia-sites.com/sites/default/files//advagg_js/js__2CbJdweXjJhBRpnIrxS5Um6_w9bfFpJz3NgDFmPg_yY__t_Z9bWNJEmKUO5KEHZXovslFIngxze4qSizENrhxBSs__DFS7sfByEXJKuikTGVRoW4mN5oUoszzrS0h-6JAzqc0.js:8)
+  (anonymous function) (http://iinstg.prod.acquia-sites.com/sites/default/files//advagg_js/js__H5AFmq1RrXKsrazzPq_xPQPy4K0wUKqecPjczzRiTgQ__p930YZ_ODW6ZjDLOJmxJnRL7juGStYuszD6uNS8_FFo__DFS7sfByEXJKuikTGVRoW4mN5oUoszzrS0h-6JAzqc0.js:5)
+  each (http://code.jquery.com/jquery-1.10.2.min.js:4)
+  attachBehaviors (http://iinstg.prod.acquia-sites.com/sites/default/files//advagg_js/js__H5AFmq1RrXKsrazzPq_xPQPy4K0wUKqecPjczzRiTgQ__p930YZ_ODW6ZjDLOJmxJnRL7juGStYuszD6uNS8_FFo__DFS7sfByEXJKuikTGVRoW4mN5oUoszzrS0h-6JAzqc0.js:5)
+  (anonymous function) (http://iinstg.prod.acquia-sites.com/sites/default/files//advagg_js/js__H5AFmq1RrXKsrazzPq_xPQPy4K0wUKqecPjczzRiTgQ__p930YZ_ODW6ZjDLOJmxJnRL7juGStYuszD6uNS8_FFo__DFS7sfByEXJKuikTGVRoW4mN5oUoszzrS0h-6JAzqc0.js:5)
+  c (http://code.jquery.com/jquery-1.10.2.min.js:4)
+  fireWith (http://code.jquery.com/jquery-1.10.2.min.js:4)
+  ready (http://code.jquery.com/jquery-1.10.2.min.js:4)
+  q (http://code.jquery.com/jquery-1.10.2.min.js:4)
+[ERROR - 2016-07-18T02:20:53.018Z] Session [374e31f0-4c8d-11e6-aaa7-7f12abf80eda] - page.onError - msg: getPresentingPlayerType@https://s.ytimg.com/yts/jsbin/player-es_ES-vflA-put7/base.js:7090:113
+tA@https://s.ytimg.com/yts/jsbin/player-es_ES-vflA-put7/base.js:2179:78
+Q7@https://s.ytimg.com/yts/jsbin/player-es_ES-vflA-put7/base.js:4115:87
+t8@https://s.ytimg.com/yts/jsbin/player-es_ES-vflA-put7/base.js:4202:301
+create@https://s.ytimg.com/yts/jsbin/player-es_ES-vflA-put7/base.js:7080:555
+https://s.ytimg.com/yts/jsbin/www-embed-player-vflPCVbP_/www-embed-player.js:479:276
+[native code]
+pe@https://s.ytimg.com/yts/jsbin/www-embed-player-vflPCVbP_/www-embed-player.js:479:318
+Qh@https://s.ytimg.com/yts/jsbin/www-embed-player-vflPCVbP_/www-embed-player.js:477:147
+Tb@https://s.ytimg.com/yts/jsbin/www-embed-player-vflPCVbP_/www-embed-player.js:470:189
+https://s.ytimg.com/yts/jsbin/www-embed-player-vflPCVbP_/www-embed-player.js:511:422
+[ERROR - 2016-07-18T02:20:53.019Z] Session [374e31f0-4c8d-11e6-aaa7-7f12abf80eda] - page.onError - stack:
+  (anonymous function) (https://s.ytimg.com/yts/jsbin/player-es_ES-vflA-put7/base.js:3871)
+  (anonymous function) (:0)
+[ERROR - 2016-07-18T02:20:57.042Z] Session [374e31f0-4c8d-11e6-aaa7-7f12abf80eda] - page.onError - msg: TypeError: undefined is not an object (evaluating 'this.src.replace')
+[ERROR - 2016-07-18T02:20:57.043Z] Session [374e31f0-4c8d-11e6-aaa7-7f12abf80eda] - page.onError - stack:
+  (anonymous function) (http://iinstg.prod.acquia-sites.com/sites/default/files//advagg_js/js__2CbJdweXjJhBRpnIrxS5Um6_w9bfFpJz3NgDFmPg_yY__t_Z9bWNJEmKUO5KEHZXovslFIngxze4qSizENrhxBSs__DFS7sfByEXJKuikTGVRoW4mN5oUoszzrS0h-6JAzqc0.js:8)
+  access (http://code.jquery.com/jquery-1.10.2.min.js:4)
+  attr (http://code.jquery.com/jquery-1.10.2.min.js:5)
+  replaceSource (http://iinstg.prod.acquia-sites.com/sites/default/files//advagg_js/js__2CbJdweXjJhBRpnIrxS5Um6_w9bfFpJz3NgDFmPg_yY__t_Z9bWNJEmKUO5KEHZXovslFIngxze4qSizENrhxBSs__DFS7sfByEXJKuikTGVRoW4mN5oUoszzrS0h-6JAzqc0.js:8)
+  attach (http://iinstg.prod.acquia-sites.com/sites/default/files//advagg_js/js__2CbJdweXjJhBRpnIrxS5Um6_w9bfFpJz3NgDFmPg_yY__t_Z9bWNJEmKUO5KEHZXovslFIngxze4qSizENrhxBSs__DFS7sfByEXJKuikTGVRoW4mN5oUoszzrS0h-6JAzqc0.js:8)
+  (anonymous function) (http://iinstg.prod.acquia-sites.com/sites/default/files//advagg_js/js__H5AFmq1RrXKsrazzPq_xPQPy4K0wUKqecPjczzRiTgQ__p930YZ_ODW6ZjDLOJmxJnRL7juGStYuszD6uNS8_FFo__DFS7sfByEXJKuikTGVRoW4mN5oUoszzrS0h-6JAzqc0.js:5)
+  each (http://code.jquery.com/jquery-1.10.2.min.js:4)
+  attachBehaviors (http://iinstg.prod.acquia-sites.com/sites/default/files//advagg_js/js__H5AFmq1RrXKsrazzPq_xPQPy4K0wUKqecPjczzRiTgQ__p930YZ_ODW6ZjDLOJmxJnRL7juGStYuszD6uNS8_FFo__DFS7sfByEXJKuikTGVRoW4mN5oUoszzrS0h-6JAzqc0.js:5)
+  (anonymous function) (http://iinstg.prod.acquia-sites.com/sites/default/files//advagg_js/js__H5AFmq1RrXKsrazzPq_xPQPy4K0wUKqecPjczzRiTgQ__p930YZ_ODW6ZjDLOJmxJnRL7juGStYuszD6uNS8_FFo__DFS7sfByEXJKuikTGVRoW4mN5oUoszzrS0h-6JAzqc0.js:5)
+  c (http://code.jquery.com/jquery-1.10.2.min.js:4)
+  fireWith (http://code.jquery.com/jquery-1.10.2.min.js:4)
+  ready (http://code.jquery.com/jquery-1.10.2.min.js:4)
+  q (http://code.jquery.com/jquery-1.10.2.min.js:4)
+[ERROR - 2016-07-18T02:21:00.816Z] Session [374e31f0-4c8d-11e6-aaa7-7f12abf80eda] - page.onError - msg: TypeError: undefined is not an object (evaluating 'this.src.replace')
+[ERROR - 2016-07-18T02:21:00.817Z] Session [374e31f0-4c8d-11e6-aaa7-7f12abf80eda] - page.onError - stack:
+  (anonymous function) (http://iinstg.prod.acquia-sites.com/sites/default/files//advagg_js/js__2CbJdweXjJhBRpnIrxS5Um6_w9bfFpJz3NgDFmPg_yY__t_Z9bWNJEmKUO5KEHZXovslFIngxze4qSizENrhxBSs__DFS7sfByEXJKuikTGVRoW4mN5oUoszzrS0h-6JAzqc0.js:8)
+  access (http://code.jquery.com/jquery-1.10.2.min.js:4)
+  attr (http://code.jquery.com/jquery-1.10.2.min.js:5)
+  replaceSource (http://iinstg.prod.acquia-sites.com/sites/default/files//advagg_js/js__2CbJdweXjJhBRpnIrxS5Um6_w9bfFpJz3NgDFmPg_yY__t_Z9bWNJEmKUO5KEHZXovslFIngxze4qSizENrhxBSs__DFS7sfByEXJKuikTGVRoW4mN5oUoszzrS0h-6JAzqc0.js:8)
+  attach (http://iinstg.prod.acquia-sites.com/sites/default/files//advagg_js/js__2CbJdweXjJhBRpnIrxS5Um6_w9bfFpJz3NgDFmPg_yY__t_Z9bWNJEmKUO5KEHZXovslFIngxze4qSizENrhxBSs__DFS7sfByEXJKuikTGVRoW4mN5oUoszzrS0h-6JAzqc0.js:8)
+  (anonymous function) (http://iinstg.prod.acquia-sites.com/sites/default/files//advagg_js/js__H5AFmq1RrXKsrazzPq_xPQPy4K0wUKqecPjczzRiTgQ__p930YZ_ODW6ZjDLOJmxJnRL7juGStYuszD6uNS8_FFo__DFS7sfByEXJKuikTGVRoW4mN5oUoszzrS0h-6JAzqc0.js:5)
+  each (http://code.jquery.com/jquery-1.10.2.min.js:4)
+  attachBehaviors (http://iinstg.prod.acquia-sites.com/sites/default/files//advagg_js/js__H5AFmq1RrXKsrazzPq_xPQPy4K0wUKqecPjczzRiTgQ__p930YZ_ODW6ZjDLOJmxJnRL7juGStYuszD6uNS8_FFo__DFS7sfByEXJKuikTGVRoW4mN5oUoszzrS0h-6JAzqc0.js:5)
+  (anonymous function) (http://iinstg.prod.acquia-sites.com/sites/default/files//advagg_js/js__H5AFmq1RrXKsrazzPq_xPQPy4K0wUKqecPjczzRiTgQ__p930YZ_ODW6ZjDLOJmxJnRL7juGStYuszD6uNS8_FFo__DFS7sfByEXJKuikTGVRoW4mN5oUoszzrS0h-6JAzqc0.js:5)
+  c (http://code.jquery.com/jquery-1.10.2.min.js:4)
+  fireWith (http://code.jquery.com/jquery-1.10.2.min.js:4)
+  ready (http://code.jquery.com/jquery-1.10.2.min.js:4)
+  q (http://code.jquery.com/jquery-1.10.2.min.js:4)
+[ERROR - 2016-07-18T02:21:01.065Z] Session [374e31f0-4c8d-11e6-aaa7-7f12abf80eda] - page.onError - msg: getPresentingPlayerType@https://s.ytimg.com/yts/jsbin/player-es_ES-vflA-put7/base.js:7090:113
+tA@https://s.ytimg.com/yts/jsbin/player-es_ES-vflA-put7/base.js:2179:78
+Q7@https://s.ytimg.com/yts/jsbin/player-es_ES-vflA-put7/base.js:4115:87
+t8@https://s.ytimg.com/yts/jsbin/player-es_ES-vflA-put7/base.js:4202:301
+create@https://s.ytimg.com/yts/jsbin/player-es_ES-vflA-put7/base.js:7080:555
+https://s.ytimg.com/yts/jsbin/www-embed-player-vflPCVbP_/www-embed-player.js:479:276
+[native code]
+pe@https://s.ytimg.com/yts/jsbin/www-embed-player-vflPCVbP_/www-embed-player.js:479:318
+Qh@https://s.ytimg.com/yts/jsbin/www-embed-player-vflPCVbP_/www-embed-player.js:477:147
+Tb@https://s.ytimg.com/yts/jsbin/www-embed-player-vflPCVbP_/www-embed-player.js:470:189
+https://s.ytimg.com/yts/jsbin/www-embed-player-vflPCVbP_/www-embed-player.js:511:422
+[ERROR - 2016-07-18T02:21:01.066Z] Session [374e31f0-4c8d-11e6-aaa7-7f12abf80eda] - page.onError - stack:
+  (anonymous function) (https://s.ytimg.com/yts/jsbin/player-es_ES-vflA-put7/base.js:3871)
+  (anonymous function) (:0)
+[ERROR - 2016-07-18T02:21:05.178Z] Session [374e31f0-4c8d-11e6-aaa7-7f12abf80eda] - page.onError - msg: TypeError: undefined is not an object (evaluating 'this.src.replace')
+[ERROR - 2016-07-18T02:21:05.179Z] Session [374e31f0-4c8d-11e6-aaa7-7f12abf80eda] - page.onError - stack:
+  (anonymous function) (http://iinstg.prod.acquia-sites.com/sites/default/files//advagg_js/js__2CbJdweXjJhBRpnIrxS5Um6_w9bfFpJz3NgDFmPg_yY__t_Z9bWNJEmKUO5KEHZXovslFIngxze4qSizENrhxBSs__DFS7sfByEXJKuikTGVRoW4mN5oUoszzrS0h-6JAzqc0.js:8)
+  access (http://code.jquery.com/jquery-1.10.2.min.js:4)
+  attr (http://code.jquery.com/jquery-1.10.2.min.js:5)
+  replaceSource (http://iinstg.prod.acquia-sites.com/sites/default/files//advagg_js/js__2CbJdweXjJhBRpnIrxS5Um6_w9bfFpJz3NgDFmPg_yY__t_Z9bWNJEmKUO5KEHZXovslFIngxze4qSizENrhxBSs__DFS7sfByEXJKuikTGVRoW4mN5oUoszzrS0h-6JAzqc0.js:8)
+  attach (http://iinstg.prod.acquia-sites.com/sites/default/files//advagg_js/js__2CbJdweXjJhBRpnIrxS5Um6_w9bfFpJz3NgDFmPg_yY__t_Z9bWNJEmKUO5KEHZXovslFIngxze4qSizENrhxBSs__DFS7sfByEXJKuikTGVRoW4mN5oUoszzrS0h-6JAzqc0.js:8)
+  (anonymous function) (http://iinstg.prod.acquia-sites.com/sites/default/files//advagg_js/js__H5AFmq1RrXKsrazzPq_xPQPy4K0wUKqecPjczzRiTgQ__p930YZ_ODW6ZjDLOJmxJnRL7juGStYuszD6uNS8_FFo__DFS7sfByEXJKuikTGVRoW4mN5oUoszzrS0h-6JAzqc0.js:5)
+  each (http://code.jquery.com/jquery-1.10.2.min.js:4)
+  attachBehaviors (http://iinstg.prod.acquia-sites.com/sites/default/files//advagg_js/js__H5AFmq1RrXKsrazzPq_xPQPy4K0wUKqecPjczzRiTgQ__p930YZ_ODW6ZjDLOJmxJnRL7juGStYuszD6uNS8_FFo__DFS7sfByEXJKuikTGVRoW4mN5oUoszzrS0h-6JAzqc0.js:5)
+  (anonymous function) (http://iinstg.prod.acquia-sites.com/sites/default/files//advagg_js/js__H5AFmq1RrXKsrazzPq_xPQPy4K0wUKqecPjczzRiTgQ__p930YZ_ODW6ZjDLOJmxJnRL7juGStYuszD6uNS8_FFo__DFS7sfByEXJKuikTGVRoW4mN5oUoszzrS0h-6JAzqc0.js:5)
+  c (http://code.jquery.com/jquery-1.10.2.min.js:4)
+  fireWith (http://code.jquery.com/jquery-1.10.2.min.js:4)
+  ready (http://code.jquery.com/jquery-1.10.2.min.js:4)
+  q (http://code.jquery.com/jquery-1.10.2.min.js:4)
+[INFO  - 2016-07-18T02:21:05.764Z] ShutdownReqHand - _handle - About to shutdown

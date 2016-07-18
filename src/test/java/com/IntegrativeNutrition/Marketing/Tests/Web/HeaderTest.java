@@ -11,14 +11,14 @@ import org.testng.annotations.*;
 public class HeaderTest extends TestStarter {
 
 	//Test if phone number is present in header
-    @Test  (groups = {"web.critical", "web"}, priority = 1)
+    @Test  (groups = {"web", "beforemerge", "fasttest"}, priority = 1)
     public void assertHeaderPhoneisDisplayed () throws Exception  {
         Header header = Screens.Header();
         Assert.assertTrue(header.verifyPhoneNumberIsDisplayed());
     }
-    
+
   //Search functionality - Search for "learning"
-    @Test (groups = {"web.critical", "web"}, priority = 1)
+    @Test (groups = {"web.critical", "web", "beforemerge", "slowtest"}, priority = 2)
     public void headerSearch() throws Exception {
         Header header = Screens.Header();
         
@@ -27,7 +27,7 @@ public class HeaderTest extends TestStarter {
     }
 
     //Search functionality - Search for "aaabbbccc" (test No Results Page)
-    @Test (groups = {"web.critical", "web"}, priority = 1)
+    @Test (groups = {"web.critical", "web", "beforemerge", "slowtest"}, priority = 3)
     public void headerSearchNoResults() throws Exception {
         Header header = Screens.Header();
         
@@ -39,7 +39,7 @@ public class HeaderTest extends TestStarter {
     //*** This section is to test that all header links go to their respective pages on click ************************
   
     //Home link
-    @Test (groups = {"web.critical", "web"}, priority = 1)
+    @Test (groups = {"web.critical", "web", "beforemerge", "slowtest"}, priority = 4)
     public void headerHomeIcon() throws Exception {
     	Header header = Screens.Header();
     	
@@ -48,7 +48,7 @@ public class HeaderTest extends TestStarter {
     }
 
     //Contact Us link
-    @Test (groups = {"web.critical", "web"}, priority = 1)
+    @Test (groups = {"web.critical", "web", "beforemerge", "slowtest"}, priority = 5)
     public void headerContactUs() throws Exception {
     	Header header = Screens.Header();
     	
@@ -57,7 +57,7 @@ public class HeaderTest extends TestStarter {
     }
     
     //Curriculum Page
-    @Test (groups = {"web.critical", "web"}, priority = 1)
+    @Test (groups = {"web.critical", "web", "beforemerge", "slowtest"}, priority = 6)
     public void headerCurric() throws Exception {
     	Header header = Screens.Header();
     	
@@ -66,7 +66,7 @@ public class HeaderTest extends TestStarter {
     }
     
     //Educational Partnerships Page
-    @Test (groups = {"web.critical", "web"}, priority = 1)
+    @Test (groups = {"web.critical", "web", "beforemerge", "slowtest"}, priority = 7)
     public void headerEducationalPartnerships() throws Exception {
     	Header header = Screens.Header();
 
@@ -75,7 +75,7 @@ public class HeaderTest extends TestStarter {
     }
 
 	//Info Sessions Page
-    @Test (groups = {"web.critical", "web"}, priority = 1)
+    @Test (groups = {"web.critical", "web", "beforemerge", "slowtest"}, priority = 8)
     public void headerInfoSess() throws Exception {
     	Header header = Screens.Header();
     	
@@ -84,7 +84,7 @@ public class HeaderTest extends TestStarter {
     }
 
     //Health Coaching Page
-    @Test (groups = {"web.critical", "web"}, priority = 1)
+    @Test (groups = {"web.critical", "web", "beforemerge", "slowtest"}, priority = 9)
     public void headerHealthCoach() throws Exception {
     	Header header = Screens.Header();
     	
@@ -93,7 +93,7 @@ public class HeaderTest extends TestStarter {
     }
 
     //About Us Page
-    @Test  (groups = {"web.critical", "web"}, priority = 1)
+    @Test  (groups = {"web.critical", "web", "beforemerge", "slowtest"}, priority = 10)
     public void headerAboutUs() throws Exception {
     	Header header = Screens.Header();
     	

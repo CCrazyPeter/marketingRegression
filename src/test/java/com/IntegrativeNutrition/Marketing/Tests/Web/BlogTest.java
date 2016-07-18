@@ -9,35 +9,35 @@ import com.IntegrativeNutrition.Marketing.Tests.Common.TestStarter;
 public class BlogTest extends TestStarter {
 
 	//This test ensures the banner is displayed
-    @Test (groups = {"web.critical", "web"}, priority = 1)
+    @Test (groups = {"web.critical", "web", "beforemerge", "fasttest"}, priority = 1)
     public void bannerDisplayed() throws Exception {
         BlogElements blogElements = Screens.BlogElements();
     	Assert.assertTrue(blogElements.verifyBannerIsDisplayed());
     }
 
 	//This test ensures the banner text is displayed
-    @Test (groups = {"web.critical", "web"}, priority = 1)
+    @Test (groups = {"web.critical", "web", "beforemerge", "fasttest"}, priority = 1)
     public void assertBannerTextIsDisplayed() throws Exception {
         BlogElements blogElements = Screens.BlogElements();
     	Assert.assertTrue(blogElements.verifyBannerTextIsDisplayed());
     }
-    
+
 	//This test ensures the latest post is displayed
-    @Test (groups = {"web.critical", "web"}, priority = 1)
+    @Test (groups = {"web.critical", "web", "beforemerge", "fasttest"}, priority = 1)
     public void assertLatestsPostIsDisplayed() throws Exception {
         BlogElements blogElements = Screens.BlogElements();
     	Assert.assertTrue(blogElements.verifyLatestsPostIsDisplayed());
     }
     
 	//This test ensures the recent posts is displayed
-    @Test (groups = {"web.critical", "web"}, priority = 1)
+    @Test (groups = {"web.critical", "web", "beforemerge", "fasttest"}, priority = 1)
     public void assertRecentPostsIsDisplayed() throws Exception {
         BlogElements blogElements = Screens.BlogElements();
     	Assert.assertTrue(blogElements.verifyRecentPostsIsDisplayed());
     }
     
 	//Tests form won't submit if name field is blank
-	@Test (groups = {"web.critical", "web"}, priority = 1)
+	@Test (groups = {"web", "afterproduction", "fasttest"}, priority = 1)
     public void nameValidation() throws Exception {
     	BlogElements blogElements = Screens.BlogElements();
     	
@@ -47,7 +47,7 @@ public class BlogTest extends TestStarter {
     }
 
 	//Tests that form won't submit if email field is blank
-	@Test (groups = {"web.critical", "web"}, priority = 1) 
+	@Test (groups = {"web", "afterproduction", "fasttest"}, priority = 1) 
     public void emailValidation() throws Exception {
     	BlogElements blogElements = Screens.BlogElements();
     	
@@ -57,7 +57,7 @@ public class BlogTest extends TestStarter {
     }
 	
 	//Tests that form won't submit if email is invalid
-	@Test (groups = {"web.critical", "web"}, priority = 1) 
+	@Test (groups = {"web", "afterproduction", "fasttest"}, priority = 1) 
     public void invalidEmailNoPhoneValidation() throws Exception {
     	BlogElements blogElements = Screens.BlogElements();
     	
@@ -68,7 +68,7 @@ public class BlogTest extends TestStarter {
     }
 	
 	//Tests that form won't submit if email is invalid
-	@Test (groups = {"web.critical", "web"}, priority = 1) 
+	@Test (groups = {"web", "afterproduction", "fasttest"}, priority = 1) 
     public void invalidEmailPhoneValidation() throws Exception {
     	BlogElements blogElements = Screens.BlogElements();
     	
@@ -81,7 +81,7 @@ public class BlogTest extends TestStarter {
     }
 	
 	//Tests that form won't submit if all fields are blank
-	@Test (groups = {"web.critical", "web"}, priority = 1) 
+	@Test (groups = {"web", "afterproduction", "fasttest"}, priority = 1) 
     public void blankFieldsNoPhoneValidation() throws Exception {
     	BlogElements blogElements = Screens.BlogElements();
     	blogElements.inputName("");
@@ -91,7 +91,7 @@ public class BlogTest extends TestStarter {
     }
 
 	//Tests that form won't submit if all fields are blank
-	@Test (groups = {"web.critical", "web"}, priority = 1) 
+	@Test (groups = {"web", "afterproduction", "fasttest"}, priority = 1) 
     public void blankFieldsPhoneValidation() throws Exception {
     	BlogElements blogElements = Screens.BlogElements();
     	blogElements.inputName("");
@@ -101,9 +101,9 @@ public class BlogTest extends TestStarter {
     	blogElements.clickSubmitButton();
         blogElements.assertCorrectURL(Common.FRONTEND_URL + "/");
     }
-	
+
 	//Tests that form won't submit if phone is invalid
-	@Test (groups = {"web.critical", "web"}, priority = 1) 
+	@Test (groups = {"web", "afterproduction", "fasttest"}, priority = 1) 
     public void phoneValidation() throws Exception {
     	BlogElements blogElements = Screens.BlogElements();
     	blogElements.inputName("qaTest");
@@ -113,9 +113,9 @@ public class BlogTest extends TestStarter {
     	blogElements.clickSubmitButton();
         blogElements.assertCorrectURL(Common.FRONTEND_URL + "/");
     }
-	
+
 	//Tests that flags match country code using United Kingdom
-	@Test (groups = {"web.critical", "web"}, priority = 1) 
+	@Test (groups = {"web.critical", "web", "beforedeploy", "fasttest"}, priority = 1) 
     public void countryFlagMatch() throws Exception {
     	BlogElements blogElements = Screens.BlogElements();
     	
@@ -130,7 +130,7 @@ public class BlogTest extends TestStarter {
     }
 	
 	//Submit Sample Class form with no phone number
-	@Test (groups = {"web.critical", "web"}, priority = 1) 
+	@Test (groups = {"web.critical", "web", "beforedeploy", "fasttest"}, priority = 1) 
     public void submitFormNoPhone() {
     	BlogElements blogElements = Screens.BlogElements();
     	
@@ -141,7 +141,7 @@ public class BlogTest extends TestStarter {
     }
 
 	//Submit Sample Class form with phone number
-	@Test (groups = {"web.critical", "web"}, priority = 1)
+	@Test (groups = {"web.critical", "web", "beforedeploy", "fasttest"}, priority = 1)
     public void submitFormWithPhone() {
     	BlogElements blogElements = Screens.BlogElements();
     	

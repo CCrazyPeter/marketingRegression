@@ -72,12 +72,24 @@ public class AboutUsPage {
     @FindBy (xpath = "//section[@id='block-system-main']/div[8]")
     private static WebElement ourBoardOfAdvisors;
     
-    
+    //----------------------------------Promo modal---------------------------------------
+
+    //Close button
+    @FindBy (xpath = "(//button[@type='button'])[5]")
+    private static WebElement promoCloseButton;
+
+   
     
     /************************************
      * PAGE TEST METHODS
      ************************************/
 
+    public void closePromo(){
+    	if(AboutUsPage.promoCloseButton.isDisplayed()){
+    		promoCloseButton.click();	
+    	}
+    }
+    
     public boolean verifyBannerIsDisplayed (){
         boolean bannerAppear = AboutUsPage.headerBanner.isDisplayed();
         return bannerAppear;

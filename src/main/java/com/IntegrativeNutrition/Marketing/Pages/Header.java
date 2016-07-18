@@ -84,11 +84,23 @@ public class Header {
     @FindBy(how = How.CSS, using =  "div.no-results")
     private static WebElement searchNoResults;
     
-        
+    //----------------------------------Promo modal---------------------------------------
+
+    //Close button
+    @FindBy (xpath = "(//button[@type='button'])[5]")
+    private static WebElement promoCloseButton;
+
+   
     
     /************************************
      * PAGE TEST METHODS
      ************************************/
+    
+    public void closePromo(){
+    	if(Header.promoCloseButton.isDisplayed()){
+    		promoCloseButton.click();	
+    	}
+    }
     
     public void clickHomeIcon(){
     	home.click();

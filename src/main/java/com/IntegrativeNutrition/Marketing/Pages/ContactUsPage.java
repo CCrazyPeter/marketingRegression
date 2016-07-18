@@ -79,12 +79,23 @@ public class ContactUsPage {
     @FindBy(how = How.ID, using = "edit-submit")
     private static WebElement formSubmit;
 
-    
+    //----------------------------------Promo modal---------------------------------------
+
+    //Close button
+    @FindBy (xpath = "(//button[@type='button'])[5]")
+    private static WebElement promoCloseButton;
+
+   
     
     /************************************
      * PAGE TEST METHODS
      ************************************/
     
+    public void closePromo(){
+    	if(ContactUsPage.promoCloseButton.isDisplayed()){
+    		promoCloseButton.click();	
+    	}
+    }
     
     public void clickUnitedKingdomFlag(){
         unitedKingdom.click();

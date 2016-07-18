@@ -105,11 +105,22 @@ public class HealthCoachingPage {
     private static WebElement formSubmit;
 
     
+    //----------------------------------Promo modal---------------------------------------
 
+    //Close button
+    @FindBy (xpath = "(//button[@type='button'])[5]")
+    private static WebElement promoCloseButton;
+
+   
     /************************************
      * PAGE TEST METHODS
      ************************************/
 
+    public void closePromo(){
+    	if(HealthCoachingPage.promoCloseButton.isDisplayed()){
+    		promoCloseButton.click();	
+    	}
+    }
 
     public boolean verifyBannerIsDisplayed (){
         boolean bannerAppear = HealthCoachingPage.headerBanner.isDisplayed();

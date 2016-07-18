@@ -1,7 +1,6 @@
 package com.IntegrativeNutrition.Marketing.Pages;
 
 import java.util.concurrent.TimeUnit;
-
 import org.openqa.selenium.By;
 import org.openqa.selenium.Cookie;
 import org.openqa.selenium.JavascriptExecutor;
@@ -82,7 +81,7 @@ public class HomePage {
     @FindBy(xpath = "//*[@id='modalVideo-1']/div/button")
     private static WebElement modalCloseButton;
   
-    
+    		
     //Play/Pause button
     @FindBy (xpath = "//button[@class='ytp-play-button ytp-button']")
     private static WebElement playButton;
@@ -93,6 +92,13 @@ public class HomePage {
     private static WebElement videoElapsed;
 
     
+    //----------------------------------Promo modal---------------------------------------
+
+    //Close button
+    @FindBy (xpath = "(//button[@type='button'])[5]")
+    private static WebElement promoCloseButton;
+
+   
     //---------------------------------------Form-----------------------------------------
     
     //First Name text box
@@ -136,7 +142,9 @@ public class HomePage {
     
     public void clickUnitedKingdomFlag(){
         unitedKingdom.click();
+
     }
+
 
     public boolean verifyAreaCodeMatchesFlag(){
         
@@ -160,7 +168,15 @@ public class HomePage {
     }
    
     public void closeModal() {
+    	
     	modalCloseButton.click();
+    }
+    
+    
+    public void closePromo(){
+    	if(HomePage.promoCloseButton.isDisplayed()){
+    		promoCloseButton.click();
+    	}
     }
     
     public void clickPlayPause(){

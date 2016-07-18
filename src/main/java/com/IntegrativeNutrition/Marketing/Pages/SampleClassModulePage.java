@@ -87,11 +87,27 @@ public class SampleClassModulePage {
     private static WebElement videoElapsed;
 
     
+    //----------------------------------Promo modal---------------------------------------
+
+    //Close button
+    @FindBy (xpath = "(//button[@type='button'])[5]")
+    private static WebElement promoCloseButton;
+
+   
+    
     
     /************************************
      * PAGE TEST METHODS
      ************************************/
 
+
+    public void closePromo(){
+    	if(SampleClassModulePage.promoCloseButton.isDisplayed()){
+    		promoCloseButton.click();	
+    	}
+    }
+
+    
     public void clickWelcomeVideo(){
     	welcomeVideo.click();
     }

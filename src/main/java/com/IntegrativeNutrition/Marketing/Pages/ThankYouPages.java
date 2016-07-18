@@ -58,10 +58,26 @@ public class ThankYouPages {
     @FindBy (xpath = "//span[@class='ytp-time-current']")
     public static WebElement videoElapsed;
     
+    
+    //----------------------------------Promo modal---------------------------------------
+
+    //Close button
+    @FindBy (xpath = "(//button[@type='button'])[5]")
+    private static WebElement promoCloseButton;
+
+   
+    
     /************************************
      * PAGE TEST METHODS
      ************************************/
 
+    public void closePromo(){
+    	if(ThankYouPages.promoCloseButton.isDisplayed()){
+    		promoCloseButton.click();	
+    	}
+    }
+
+    
     public void watchVideo (){
         watchVideoButton.click();    
     }

@@ -3,151 +3,15 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="com.IntegrativeNutrition.Marketing.Tests.Web.ContactUsTest">
-        <methods>
-          <include name="TestSetup"/>
-          <include name="TestCleanUp"/>
-          <include name="assertContactInformationIsDisplayed"/>
-          <include name="assertContactInfoIsDisplayed"/>
-        </methods>
-      </class> <!-- com.IntegrativeNutrition.Marketing.Tests.Web.ContactUsTest -->
-      <class name="com.IntegrativeNutrition.Marketing.Tests.Web.HealthCoachingTest">
-        <methods>
-          <include name="TestSetup"/>
-          <include name="emailValidation"/>
-          <include name="nameValidation"/>
-          <include name="videoPlay"/>
-          <include name="countryFlagMatch"/>
-          <include name="submitFormNoPhone"/>
-          <include name="submitFormWithPhone"/>
-          <include name="TestCleanUp"/>
-          <include name="assertBannerTextIsDisplayed"/>
-        </methods>
-      </class> <!-- com.IntegrativeNutrition.Marketing.Tests.Web.HealthCoachingTest -->
-      <class name="com.IntegrativeNutrition.Marketing.Tests.Web.PaidLeadTest">
-        <methods>
-          <include name="bannerDisplayedD"/>
-          <include name="formSubmitD"/>
-          <include name="countryFlagMatchR"/>
-          <include name="nameValidationD"/>
-          <include name="TestSetup"/>
-          <include name="countryFlagMatchD"/>
-          <include name="TestCleanUp"/>
-          <include name="emailValidationD"/>
-          <include name="nameValidationR"/>
-          <include name="nameValidation"/>
-          <include name="bannerDisplayedR"/>
-          <include name="emailValidation"/>
-          <include name="emailValidationR"/>
-          <include name="assertBannerIsDisplayed"/>
-          <include name="formSubmit"/>
-          <include name="countryFlagMatch"/>
-          <include name="formSubmitR"/>
-        </methods>
-      </class> <!-- com.IntegrativeNutrition.Marketing.Tests.Web.PaidLeadTest -->
-      <class name="com.IntegrativeNutrition.Marketing.Tests.Web.BlogTest">
-        <methods>
-          <include name="blankFieldsPhoneValidation"/>
-          <include name="emailValidation"/>
-          <include name="TestSetup"/>
-          <include name="invalidEmailNoPhoneValidation"/>
-          <include name="submitFormWithPhone"/>
-          <include name="blankFieldsNoPhoneValidation"/>
-          <include name="countryFlagMatch"/>
-          <include name="submitFormNoPhone"/>
-          <include name="phoneValidation"/>
-          <include name="TestCleanUp"/>
-          <include name="nameValidation"/>
-          <include name="invalidEmailPhoneValidation"/>
-        </methods>
-      </class> <!-- com.IntegrativeNutrition.Marketing.Tests.Web.BlogTest -->
-      <class name="com.IntegrativeNutrition.Marketing.Tests.Web.InfoSessionTest">
-        <methods>
-          <include name="TestSetup"/>
-          <include name="countryFlagMatch"/>
-          <include name="emailValidation"/>
-          <include name="TestCleanUp"/>
-          <include name="nameValidation"/>
-        </methods>
-      </class> <!-- com.IntegrativeNutrition.Marketing.Tests.Web.InfoSessionTest -->
-      <class name="com.IntegrativeNutrition.Marketing.Tests.Web.AboutUsTest">
-        <methods>
-          <include name="TestSetup"/>
-          <include name="assertOurBoardOfAdvisorsIsDisplayed"/>
-          <include name="videoPlay"/>
-          <include name="TestCleanUp"/>
-          <include name="assertOurCoreValuesIsDisplayed"/>
-        </methods>
-      </class> <!-- com.IntegrativeNutrition.Marketing.Tests.Web.AboutUsTest -->
-      <class name="com.IntegrativeNutrition.Marketing.Tests.Web.SampleClassModuleTest">
-        <methods>
-          <include name="videoPlay"/>
-          <include name="TestSetup"/>
-          <include name="videoIntroTextDisplayed"/>
-          <include name="TestCleanUp"/>
-          <include name="bannerTextDisplayed"/>
-        </methods>
-      </class> <!-- com.IntegrativeNutrition.Marketing.Tests.Web.SampleClassModuleTest -->
-      <class name="com.IntegrativeNutrition.Marketing.Tests.Web.ThankYouPagesTest">
-        <methods>
-          <include name="TestSetup"/>
-          <include name="videoPlay"/>
-          <include name="TestCleanUp"/>
-          <include name="guideTyPlay"/>
-        </methods>
-      </class> <!-- com.IntegrativeNutrition.Marketing.Tests.Web.ThankYouPagesTest -->
-      <class name="com.IntegrativeNutrition.Marketing.Tests.Web.CurriculumPageTest">
-        <methods>
-          <include name="submitFormWithPhone"/>
-          <include name="assertTestimonialCarrouselIsDisplayed"/>
-          <include name="invalidEmailNoPhoneValidation"/>
-          <include name="TestSetup"/>
-          <include name="blankFieldsPhoneValidation"/>
-          <include name="emailValidation"/>
-          <include name="blankFieldsNoPhoneValidation"/>
-          <include name="countryFlagMatch"/>
-          <include name="TestCleanUp"/>
-          <include name="assertGetRealWorldTrainingIsDisplayed"/>
-          <include name="phoneValidation"/>
-          <include name="invalidEmailPhoneValidation"/>
-          <include name="assertOurVisitinTeachersIsDisplayed"/>
-          <include name="nameValidation"/>
-          <include name="assertBannerTextIsDisplayed"/>
-          <include name="videoPlay"/>
-          <include name="submitFormNoPhone"/>
-        </methods>
-      </class> <!-- com.IntegrativeNutrition.Marketing.Tests.Web.CurriculumPageTest -->
       <class name="com.IntegrativeNutrition.Marketing.Tests.Web.HomePageTest">
         <methods>
-          <include name="submitFormWithPhone"/>
           <include name="TestSetup"/>
-          <include name="blankFieldsPhoneValidation"/>
-          <include name="phoneValidation"/>
-          <include name="blankFieldsNoPhoneValidation"/>
           <include name="TestCleanUp"/>
-          <include name="invalidEmailPhoneValidation"/>
+          <include name="assertBodyCopyIsPresent"/>
+          <include name="videoPlay"/>
           <include name="countryFlagMatch"/>
-          <include name="nameValidation"/>
         </methods>
       </class> <!-- com.IntegrativeNutrition.Marketing.Tests.Web.HomePageTest -->
-      <class name="com.IntegrativeNutrition.Marketing.Tests.Web.HeaderTest">
-        <methods>
-          <include name="TestSetup"/>
-          <include name="TestCleanUp"/>
-          <include name="headerAboutUs"/>
-        </methods>
-      </class> <!-- com.IntegrativeNutrition.Marketing.Tests.Web.HeaderTest -->
-      <class name="com.IntegrativeNutrition.Marketing.Tests.Web.FooterSocialMediaTest">
-        <methods>
-          <include name="TestSetup"/>
-          <include name="assertCorrectYouTubeLinkIcon"/>
-          <include name="assertFormSubmissionInactiveEmailWorks"/>
-          <include name="TestCleanUp"/>
-          <include name="assertCorrectTwitterLinkIcon"/>
-          <include name="assertCorrectLinkedInLinkIcon"/>
-          <include name="assertCorrectGooglePlusLinkIcon"/>
-        </methods>
-      </class> <!-- com.IntegrativeNutrition.Marketing.Tests.Web.FooterSocialMediaTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
