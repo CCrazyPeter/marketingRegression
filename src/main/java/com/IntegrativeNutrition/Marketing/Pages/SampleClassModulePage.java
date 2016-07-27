@@ -2,6 +2,7 @@ package com.IntegrativeNutrition.Marketing.Pages;
 
 import java.util.concurrent.TimeUnit;
 
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -28,7 +29,7 @@ public class SampleClassModulePage {
      ***********************************/
 
     //Banner
-    @FindBy(how = How.XPATH, using = "//header[@role='banner']")
+    @FindBy(how = How.XPATH, using = "//section[@id='block-system-main']/div")
     private static WebElement SCMHeaderBanner;
     
     @FindBy(how = How.XPATH, using = "//h1")
@@ -71,7 +72,7 @@ public class SampleClassModulePage {
     private static WebElement video7;
     
     //Mission Video
-    @FindBy(how = How.XPATH, using = ".//*[@id='block-system-main']/div[3]/div/div/div/div[5]/div/div/div[1]/div/div")
+    @FindBy(how = How.XPATH, using = "//section[@id='block-system-main']/div[3]/div/div/div/div[5]/div/div/div/div/div")
     private WebElement welcomeVideo;
     
     //Modal Close button - closes all modals
@@ -85,6 +86,33 @@ public class SampleClassModulePage {
     //Video Elapsed Field
     @FindBy (xpath = ".//*[@id='modalVideo-1']/div/div/div/div/div[2]/div[3]")
     private static WebElement videoElapsed;
+
+    
+    //---------------------------------------Form-----------------------------------------
+    
+    //First Name text box
+    @FindBy(how = How.ID, using = "edit-submitted-firstname")
+    private static WebElement formName;
+
+    //Email text box
+    @FindBy(how = How.ID, using = "edit-submitted-email")
+    private static WebElement formEmail;
+
+    //Call checkbox
+    @FindBy(how = How.ID, using = "edit-submitted-please-call-c-1")
+    private static WebElement formCheckBox;
+
+    //Country flag dropdown
+    @FindBy(how = How.XPATH, using = "//div[@class='selected-flag']")
+    private static WebElement formFlag;
+    
+    //Phone text field
+    @FindBy(how = How.ID, using = "edit-submitted-home-phone-c")
+    private static WebElement formPhone;
+    
+    //All submit buttons (Register Here, Get Started, etc)
+    @FindBy(how = How.ID, using = "edit-submit")
+    private static WebElement formSubmit;
 
     
     //----------------------------------Promo modal---------------------------------------
@@ -102,11 +130,15 @@ public class SampleClassModulePage {
 
 
     public void closePromo(){
-    	if(SampleClassModulePage.promoCloseButton.isDisplayed()){
-    		promoCloseButton.click();	
+    	
+    	driver.manage().timeouts().implicitlyWait(0, TimeUnit.MILLISECONDS);
+    	boolean exists = driver.findElements( By.id("(//button[@type='button'])[5]") ).size() != 0;
+    	driver.manage().timeouts().implicitlyWait(3, TimeUnit.SECONDS);
+    	
+    	if(exists){
+        	promoCloseButton.click();
     	}
     }
-
     
     public void clickWelcomeVideo(){
     	welcomeVideo.click();
@@ -133,7 +165,7 @@ public class SampleClassModulePage {
     public boolean verifyBannerTextIsDisplayed(){
 
         String pageHeadingH1 = SampleClassModulePage.headerText1.getText() + " " + SampleClassModulePage.headerText2.getText(); 
-        boolean TextPresent = pageHeadingH1.toLowerCase().contains("welcome, qatest! your first class is starting below.");
+        boolean TextPresent = pageHeadingH1.toLowerCase().contains("WELCOME, QATEST! YOUR FIRST CLASS IS STARTING BELOW.".toLowerCase());
         return TextPresent;
     }
     
@@ -201,5 +233,45 @@ public class SampleClassModulePage {
             return false;
         }
     }
+    
+    public void inputName(String name) {
+        formName.click();
+        formName.sendKeys(name);
+    }
 
+    public void inputEmail(String email) {
+        formEmail.click();
+        formEmail.sendKeys(email);
+    }
+
+    public void clickPhoneBox() {
+        formCheckBox.click();
+    }
+
+    public void selectFlag() {
+        formFlag.click();
+    }
+
+    public void enterPhoneNumber(String phone) {
+        formPhone.click();
+        formPhone.sendKeys(phone);
+    }
+
+    public void clickSubmitButton() {
+        formSubmit.click();
+    }
+
+   
+    public String getPhoneValue(){
+    	String phoneValue = formPhone.getAttribute("value");
+    	return phoneValue;
+    }
+    
+    public boolean assertCorrectURL(String url){
+        String currentURL;
+        
+    	currentURL = driver.getCurrentUrl();
+    	boolean URLCorrect = currentURL.contains(url);
+    	return URLCorrect;
+    }
 }

@@ -72,8 +72,13 @@ public class ThankYouPages {
      ************************************/
 
     public void closePromo(){
-    	if(ThankYouPages.promoCloseButton.isDisplayed()){
-    		promoCloseButton.click();	
+    	
+    	driver.manage().timeouts().implicitlyWait(0, TimeUnit.MILLISECONDS);
+    	boolean exists = driver.findElements( By.id("(//button[@type='button'])[5]") ).size() != 0;
+    	driver.manage().timeouts().implicitlyWait(3, TimeUnit.SECONDS);
+    	
+    	if(exists){
+        	promoCloseButton.click();
     	}
     }
 

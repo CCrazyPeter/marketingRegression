@@ -2,6 +2,7 @@ package com.IntegrativeNutrition.Marketing.Pages;
 
 import java.util.concurrent.TimeUnit;
 
+import org.openqa.selenium.By;
 import org.openqa.selenium.Cookie;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -44,7 +45,7 @@ public class ContactUsPage {
     @FindBy(how = How.XPATH, using = "//section[@id='block-system-main']/div/div[2]/div/div/div/div[2]/div")
     private static WebElement contactInformation;
 
-    @FindBy(how = How.XPATH, using = "p.first")
+    @FindBy(how = How.XPATH, using = "//section[@id='block-system-main']/div/div[2]/div/div/div/div[2]/div/div/p[2]")
     private static WebElement phones;
     
     /*
@@ -92,8 +93,13 @@ public class ContactUsPage {
      ************************************/
     
     public void closePromo(){
-    	if(ContactUsPage.promoCloseButton.isDisplayed()){
-    		promoCloseButton.click();	
+    	
+    	driver.manage().timeouts().implicitlyWait(0, TimeUnit.MILLISECONDS);
+    	boolean exists = driver.findElements( By.id("(//button[@type='button'])[5]") ).size() != 0;
+    	driver.manage().timeouts().implicitlyWait(3, TimeUnit.SECONDS);
+    	
+    	if(exists){
+        	promoCloseButton.click();
     	}
     }
     

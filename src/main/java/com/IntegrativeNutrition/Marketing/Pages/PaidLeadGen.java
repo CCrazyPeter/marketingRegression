@@ -28,7 +28,7 @@ public class PaidLeadGen {
      ***********************************/
 
     //Banner
-    @FindBy(how = How.XPATH, using = "//header[@role='banner']")
+    @FindBy(how = How.XPATH, using = "//section[@id='block-system-main']/div")
     private static WebElement headerBanner;
     
     ///Fiji Flag
@@ -83,19 +83,20 @@ public class PaidLeadGen {
      ************************************/
     
     public void closePromo(){
-    	if(PaidLeadGen.promoCloseButton.isDisplayed()){
-    		promoCloseButton.click();	
+    	
+    	driver.manage().timeouts().implicitlyWait(0, TimeUnit.MILLISECONDS);
+    	boolean exists = driver.findElements( By.id("(//button[@type='button'])[5]") ).size() != 0;
+    	driver.manage().timeouts().implicitlyWait(3, TimeUnit.SECONDS);
+    	
+    	if(exists){
+        	promoCloseButton.click();
     	}
     }
 
     public boolean verifyBannerIsDisplayed (){
         boolean bannerAppear = PaidLeadGen.headerBanner.isDisplayed();
-        if (bannerAppear){
-            return true;
-        }
-        else {
-            return false;
-        }
+        return bannerAppear;
+        
     }
 
 

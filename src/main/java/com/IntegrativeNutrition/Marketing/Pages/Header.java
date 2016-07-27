@@ -1,5 +1,8 @@
 package com.IntegrativeNutrition.Marketing.Pages;
 
+import java.util.concurrent.TimeUnit;
+
+import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -97,8 +100,13 @@ public class Header {
      ************************************/
     
     public void closePromo(){
-    	if(Header.promoCloseButton.isDisplayed()){
-    		promoCloseButton.click();	
+    	
+    	driver.manage().timeouts().implicitlyWait(0, TimeUnit.MILLISECONDS);
+    	boolean exists = driver.findElements( By.id("(//button[@type='button'])[5]") ).size() != 0;
+    	driver.manage().timeouts().implicitlyWait(3, TimeUnit.SECONDS);
+    	
+    	if(exists){
+        	promoCloseButton.click();
     	}
     }
     

@@ -14,6 +14,7 @@ public class HeaderTest extends TestStarter {
     @Test  (groups = {"web", "beforemerge", "fasttest"}, priority = 1)
     public void assertHeaderPhoneisDisplayed () throws Exception  {
         Header header = Screens.Header();
+        header.closePromo();
         Assert.assertTrue(header.verifyPhoneNumberIsDisplayed());
     }
 
@@ -21,16 +22,16 @@ public class HeaderTest extends TestStarter {
     @Test (groups = {"web.critical", "web", "beforemerge", "slowtest"}, priority = 2)
     public void headerSearch() throws Exception {
         Header header = Screens.Header();
-        
+        header.closePromo();
         header.conductSearch("learning");
         Assert.assertTrue(header.assertCorrectURL(Common.FRONTEND_URL + "/search/solr/learning"));
     }
 
     //Search functionality - Search for "aaabbbccc" (test No Results Page)
-    @Test (groups = {"web.critical", "web", "beforemerge", "slowtest"}, priority = 3)
+    @Test (groups = {"web.critical", "web", "beforedeploy", "slowtest"}, priority = 3)
     public void headerSearchNoResults() throws Exception {
         Header header = Screens.Header();
-        
+        header.closePromo();
         header.conductSearch("aaabbbccc");
         Assert.assertTrue(header.assertCorrectURL(Common.FRONTEND_URL + "/search/solr/aaabbbccc"));
         Assert.assertTrue(header.verifySearchNoResultsMessageIsDisplayed());
@@ -42,7 +43,7 @@ public class HeaderTest extends TestStarter {
     @Test (groups = {"web.critical", "web", "beforemerge", "slowtest"}, priority = 4)
     public void headerHomeIcon() throws Exception {
     	Header header = Screens.Header();
-    	
+    	header.closePromo();
         header.clickHomeIcon();
         Assert.assertTrue(header.assertCorrectURL(Common.FRONTEND_URL + "/"));
     }
@@ -51,52 +52,52 @@ public class HeaderTest extends TestStarter {
     @Test (groups = {"web.critical", "web", "beforemerge", "slowtest"}, priority = 5)
     public void headerContactUs() throws Exception {
     	Header header = Screens.Header();
-    	
+    	header.closePromo();
         header.clickContactUsIcon();
         Assert.assertTrue(header.assertCorrectURL(Common.FRONTEND_URL + "/contact-us"));
     }
-    
+
     //Curriculum Page
-    @Test (groups = {"web.critical", "web", "beforemerge", "slowtest"}, priority = 6)
+    @Test (groups = {"web.critical", "web", "beforedeploy", "slowtest"}, priority = 6)
     public void headerCurric() throws Exception {
     	Header header = Screens.Header();
-    	
+    	header.closePromo();
     	header.clickCurriculumBasics();
     	Assert.assertTrue(header.assertCorrectURL(Common.FRONTEND_URL + "/curriculum"));
     }
     
     //Educational Partnerships Page
-    @Test (groups = {"web.critical", "web", "beforemerge", "slowtest"}, priority = 7)
+    @Test (groups = {"web.critical", "web", "beforedeploy", "slowtest"}, priority = 7)
     public void headerEducationalPartnerships() throws Exception {
     	Header header = Screens.Header();
-
+    	header.closePromo();
     	header.clickEducationalPartnershipsIcon();
     	Assert.assertTrue(header.assertCorrectURL(Common.FRONTEND_URL + "/career/certification"));
     }
 
 	//Info Sessions Page
-    @Test (groups = {"web.critical", "web", "beforemerge", "slowtest"}, priority = 8)
+    @Test (groups = {"web.critical", "web", "beforedeploy", "slowtest"}, priority = 8)
     public void headerInfoSess() throws Exception {
     	Header header = Screens.Header();
-    	
+    	header.closePromo();
         header.clickInfoSessionsSignUp();
         Assert.assertTrue(header.assertCorrectURL(Common.FRONTEND_URL + "/info-sessions"));
     }
 
     //Health Coaching Page
-    @Test (groups = {"web.critical", "web", "beforemerge", "slowtest"}, priority = 9)
+    @Test (groups = {"web.critical", "web", "beforedeploy", "slowtest"}, priority = 9)
     public void headerHealthCoach() throws Exception {
     	Header header = Screens.Header();
-    	
+    	header.closePromo();
         header.clickHealthCoachWhatIs();
         Assert.assertTrue(header.assertCorrectURL(Common.FRONTEND_URL + "/health-coaching"));
     }
 
     //About Us Page
-    @Test  (groups = {"web.critical", "web", "beforemerge", "slowtest"}, priority = 10)
+    @Test  (groups = {"web.critical", "web", "beforedeploy", "slowtest"}, priority = 10)
     public void headerAboutUs() throws Exception {
     	Header header = Screens.Header();
-    	
+    	header.closePromo();
         header.clickAboutUsWhoAreWe();
         Assert.assertTrue(header.assertCorrectURL(Common.FRONTEND_URL + "/about-us"));
     }

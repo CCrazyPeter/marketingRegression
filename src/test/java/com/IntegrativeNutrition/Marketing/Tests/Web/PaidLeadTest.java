@@ -17,7 +17,7 @@ public class PaidLeadTest extends TestStarter {
      **************************************************************/
 	
 	//This test ensures the banner is displayed  
-    @Test (groups = {"web.critical", "web", "beforemerge", "fasttest"}, priority = 1)
+    @Test (groups = {"web.critical", "web", "beforedeploy", "fasttest"}, priority = 1)
     public void assertBannerIsDisplayed ()  throws Exception {
     	PaidLeadGen sampleNutritionClassPage = Screens.SampleNutritionClassPage();
     	
@@ -81,7 +81,7 @@ public class PaidLeadTest extends TestStarter {
      **************************************************************/
 
     //Tests if banner is displayed
-    @Test (groups = {"web.critical", "web", "beforemerge", "fasttest"}, priority = 1)
+    @Test (groups = {"web.critical", "web", "beforedeploy", "fasttest"}, priority = 1)
     public void bannerDisplayedR() throws Exception{
     	PaidLeadGen sampleNutritionClassPage_r = Screens.SampleNutritionClassPage_r();
     	
@@ -142,7 +142,7 @@ public class PaidLeadTest extends TestStarter {
      **************************************************************/
 
     //Tests if banner is displayed
-    @Test (groups = {"web.critical", "web", "beforemerge", "fasttest"}, priority = 1)
+    @Test (groups = {"web.critical", "web", "beforedeploy", "fasttest"}, priority = 1)
     public void bannerDisplayedD() throws Exception{
     	PaidLeadGen sampleNutritionClassPage_d = Screens.SampleNutritionClassPage_d();
     	

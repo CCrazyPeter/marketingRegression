@@ -50,7 +50,7 @@ public class HomePageTest extends TestStarter {
     }
     
 	//This test ensures the SlideShow is present  
-    @Test (groups = {"web", "beforemerge", "fasttest"}, priority = 5)
+    @Test (groups = {"web", "beforedeploy", "fasttest"}, priority = 5)
     public void assertSlideShowIsPresent ()  throws Exception {
         HomePage homePage = Screens.HomePage();
         homePage.closePromo();
@@ -58,7 +58,7 @@ public class HomePageTest extends TestStarter {
     }
 
     //This test ensures the Sample Our Program button triggers a page scroll to the Sample Class form   
-    @Test (groups = {"web", "beforemerge", "fasttest"}, priority = 6)
+    @Test (groups = {"web", "beforedeploy", "fasttest"}, priority = 6)
     public void assertSampleProgramButtonTriggersScroll () throws Exception {
         HomePage homePage = Screens.HomePage();
         homePage.closePromo();
@@ -190,7 +190,7 @@ public class HomePageTest extends TestStarter {
     }
 
 	//Submit Sample Class form with phone number
-	@Test (groups = {"web", "beforedeploy", "fasttest"}, priority = 17)
+	@Test (groups = {"web", "beforemerge", "fasttest"}, priority = 17)
     public void submitFormWithPhone() {
     	HomePage homePage = Screens.HomePage();
         homePage.closePromo();

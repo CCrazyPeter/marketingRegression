@@ -23,20 +23,23 @@ public class HealthCoachingTest extends TestStarter {
     @Test (groups = {"web.critical", "web", "beforemerge", "fasttest"}, priority = 2)
     public void assertBannerTextIsDisplayed ()  throws Exception {
     	HealthCoachingPage healthCoachingPage = Screens.HealthCoachingPage();
+    	healthCoachingPage.closePromo();
     	Assert.assertTrue(healthCoachingPage.verifyBannerTextIsDisplayed());
     }
     
 	//This test ensures the "World need health coaches" section is displayed  
-    @Test (groups = {"web", "beforemerge", "fasttest"}, priority = 3)
+    @Test (groups = {"web", "beforedeploy", "fasttest"}, priority = 3)
     public void assertWorldNeedsHealthCoachesIsDisplayed ()  throws Exception {
     	HealthCoachingPage healthCoachingPage = Screens.HealthCoachingPage();
+    	healthCoachingPage.closePromo();
     	Assert.assertTrue(healthCoachingPage.verifyWorldNeedsHealthCoachesIsDisplayed());
     }
 
 	//This test ensures the "Health Coaching Is Right For You" section is displayed  
-    @Test (groups = {"web", "beforemerge", "fasttest"}, priority = 4)
+    @Test (groups = {"web", "beforedeploy", "fasttest"}, priority = 4)
     public void assertHealthCoachingIsRightForYouIsDisplayed ()  throws Exception {
     	HealthCoachingPage healthCoachingPage = Screens.HealthCoachingPage();
+    	healthCoachingPage.closePromo();
     	Assert.assertTrue(healthCoachingPage.verifyHealthCoachingIsRightForYouIsDisplayed());
     }
 
@@ -46,6 +49,7 @@ public class HealthCoachingTest extends TestStarter {
     @Test (groups = {"web", "beforedeploy", "slowtest"}, priority = 5)
     public void videoPlay() throws Exception {
     	HealthCoachingPage healthCoachingPage = Screens.HealthCoachingPage();
+    	healthCoachingPage.closePromo();
     	healthCoachingPage.clickWatchVideo();
     	Assert.assertTrue(healthCoachingPage.verifyVideoPlayback());
     	healthCoachingPage.closeModal();
@@ -56,7 +60,7 @@ public class HealthCoachingTest extends TestStarter {
 	@Test (groups = {"web", "afterproduction", "fasttest"}, priority = 6)
     public void nameValidation() throws Exception {
     	HealthCoachingPage healthCoachingPage = Screens.HealthCoachingPage();
-    	
+    	healthCoachingPage.closePromo();
     	healthCoachingPage.inputEmail("iinqatest@gmail.com");
     	healthCoachingPage.clickSubmitButton();
         healthCoachingPage.assertCorrectURL(Common.FRONTEND_URL + "/health-coaching");
@@ -67,7 +71,7 @@ public class HealthCoachingTest extends TestStarter {
 	@Test (groups = {"web", "afterproduction", "fasttest"}, priority = 7) 
     public void emailValidation() throws Exception {
     	HealthCoachingPage healthCoachingPage = Screens.HealthCoachingPage();
-    	
+    	healthCoachingPage.closePromo();
     	healthCoachingPage.inputName("qaTest");
     	healthCoachingPage.clickSubmitButton();
         healthCoachingPage.assertCorrectURL(Common.FRONTEND_URL + "/health-coaching");
@@ -75,10 +79,10 @@ public class HealthCoachingTest extends TestStarter {
     }
 
 	//Tests that flags match country code using United Kingdom
-	@Test (groups = {"web.critical", "web", "beforemerge", "fasttest"}, priority = 8) 
+	@Test (groups = {"web.critical", "web", "beforedeploy", "fasttest"}, priority = 8) 
     public void countryFlagMatch() throws Exception {
     	HealthCoachingPage healthCoachingPage = Screens.HealthCoachingPage();
-    	
+    	healthCoachingPage.closePromo();
     	healthCoachingPage.inputName("qaTest");
     	healthCoachingPage.inputEmail("iinqatest@gmail.com");
     	healthCoachingPage.clickPhoneBox();
@@ -91,10 +95,10 @@ public class HealthCoachingTest extends TestStarter {
     }
 	
 	//Submit Curriculum Guide form with no phone number
-	@Test (groups = {"web.critical", "web", "beforemerge", "fasttest"}, priority = 9) 
+	@Test (groups = {"web.critical", "web", "beforedeploy", "fasttest"}, priority = 9) 
     public void submitFormNoPhone() {
     	HealthCoachingPage healthCoachingPage = Screens.HealthCoachingPage();
-    	
+    	healthCoachingPage.closePromo();
 		healthCoachingPage.inputName("QATEST");
 		healthCoachingPage.inputEmail("iinqatest@gmail.com");
 		healthCoachingPage.clickSubmitButton();
@@ -102,10 +106,10 @@ public class HealthCoachingTest extends TestStarter {
     }
 
 	//Submit Curriculum Guide form with phone number
-	@Test (groups = {"web.critical", "web", "beforemerge", "fasttest"}, priority = 10)
+	@Test (groups = {"web.critical", "web", "beforedeploy", "fasttest"}, priority = 10)
     public void submitFormWithPhone() {
     	HealthCoachingPage healthCoachingPage = Screens.HealthCoachingPage();
-    	
+    	healthCoachingPage.closePromo();
     	healthCoachingPage.inputName("QATEST");
     	healthCoachingPage.inputEmail("iinqatest@gmail.com");
     	healthCoachingPage.clickPhoneBox();
@@ -115,4 +119,3 @@ public class HealthCoachingTest extends TestStarter {
     }
 
 }
-

@@ -111,8 +111,13 @@ public class CurriculumPage {
      ************************************/
 
     public void closePromo(){
-    	if(CurriculumPage.promoCloseButton.isDisplayed()){
-    		promoCloseButton.click();	
+    	
+    	driver.manage().timeouts().implicitlyWait(0, TimeUnit.MILLISECONDS);
+    	boolean exists = driver.findElements( By.id("(//button[@type='button'])[5]") ).size() != 0;
+    	driver.manage().timeouts().implicitlyWait(3, TimeUnit.SECONDS);
+    	
+    	if(exists){
+        	promoCloseButton.click();
     	}
     }
 
@@ -124,7 +129,7 @@ public class CurriculumPage {
     public boolean verifyBannerTextIsDisplayed(){
 
         String headerText = CurriculumPage.headerText.getText();
-        boolean TextPresent = headerText.toLowerCase().contains("world's largest nutrition school");
+        boolean TextPresent = headerText.toLowerCase().contains("HEALTH COACH TRAINING CURRICULUM".toLowerCase());
         return TextPresent;
     }
     

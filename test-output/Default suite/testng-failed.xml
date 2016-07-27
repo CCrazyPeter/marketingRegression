@@ -3,15 +3,14 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="com.IntegrativeNutrition.Marketing.Tests.Web.HomePageTest">
+      <class name="com.IntegrativeNutrition.Marketing.Tests.Web.CurriculumPageTest">
         <methods>
           <include name="TestSetup"/>
-          <include name="TestCleanUp"/>
-          <include name="assertBodyCopyIsPresent"/>
-          <include name="videoPlay"/>
           <include name="countryFlagMatch"/>
+          <include name="TestCleanUp"/>
+          <include name="assertOurVisitinTeachersIsDisplayed"/>
         </methods>
-      </class> <!-- com.IntegrativeNutrition.Marketing.Tests.Web.HomePageTest -->
+      </class> <!-- com.IntegrativeNutrition.Marketing.Tests.Web.CurriculumPageTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
