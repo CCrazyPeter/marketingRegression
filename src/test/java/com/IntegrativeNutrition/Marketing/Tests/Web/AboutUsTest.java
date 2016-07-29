@@ -10,7 +10,7 @@ import org.testng.Assert;
 public class AboutUsTest extends TestStarter {
 
 	//This test ensures the banner is displayed  
-    @Test (groups = {"web.critical", "web", "beforemerge", "fasttest"}, priority = 1)
+    @Test (groups = {"web.critical", "web", "beforemerge", "fasttest", "beforedeploy"}, priority = 1)
     public void assertBannerIsDisplayed ()  throws Exception {
         AboutUsPage aboutUsPage = Screens.AboutUsPage();
         aboutUsPage.closePromo();
@@ -18,7 +18,7 @@ public class AboutUsTest extends TestStarter {
     }
 
   	//This test ensures the banner text is displayed  
-    @Test (groups = {"web.critical", "web", "beforemerge", "fasttest"}, priority = 2)
+    @Test (groups = {"web.critical", "web", "beforemerge", "fasttest", "beforedeploy"}, priority = 2)
     public void assertBannerTextIsDisplayed ()  throws Exception {
         AboutUsPage aboutUsPage = Screens.AboutUsPage();
         aboutUsPage.closePromo();
@@ -26,7 +26,7 @@ public class AboutUsTest extends TestStarter {
     }
 
   	//This test ensures the body text is displayed  
-    @Test (groups = {"web.critical", "web", "beforemerge", "fasttest"}, priority = 3)
+    @Test (groups = {"web.critical", "web", "beforemerge", "fasttest", "beforedeploy"}, priority = 3)
     public void assertBodyTextIsDisplayed ()  throws Exception {
         AboutUsPage aboutUsPage = Screens.AboutUsPage();
         aboutUsPage.closePromo();

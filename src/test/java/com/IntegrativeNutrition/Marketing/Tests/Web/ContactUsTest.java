@@ -10,7 +10,7 @@ import com.IntegrativeNutrition.Marketing.Tests.Common.TestStarter;
 public class ContactUsTest  extends TestStarter{
 
 	//This test ensures the banner is displayed  
-    @Test (groups = {"web.critical", "web","beforemerge", "fasttest"}, priority = 1)
+    @Test (groups = {"web.critical", "web","beforemerge", "fasttest", "beforedeploy"}, priority = 1)
     public void assertBannerIsDisplayed ()  throws Exception {
     	ContactUsPage contactUsPage = Screens.ContactUsPage();
     	contactUsPage.closePromo();
@@ -18,7 +18,7 @@ public class ContactUsTest  extends TestStarter{
     }
 
 	//This test ensures the header banner text is displayed  
-    @Test (groups = {"web.critical", "web","beforemerge", "fasttest"}, priority = 2)
+    @Test (groups = {"web.critical", "web","beforemerge", "fasttest", "beforedeploy"}, priority = 2)
     public void assertBannerTextIsDisplayed ()  throws Exception {
     	ContactUsPage contactUsPage = Screens.ContactUsPage();
     	contactUsPage.closePromo();
@@ -58,7 +58,7 @@ public class ContactUsTest  extends TestStarter{
     }
 	
 	//Tests form won't submit if inquiry field is blank
-	@Test (groups = {"web","afterproduction", "fasttest"}, priority = 6)
+	@Test (groups = {"web","afterproduction", "fasttest", "beforedeploy"}, priority = 6)
     public void inquiryValidation() throws Exception {
     	ContactUsPage contactUsPage = Screens.ContactUsPage();
     	contactUsPage.closePromo();
@@ -71,7 +71,7 @@ public class ContactUsTest  extends TestStarter{
     }
     
 	//Tests form won't submit if name field is blank
-	@Test (groups = {"web","afterproduction", "fasttest"}, priority = 7)
+	@Test (groups = {"web","afterproduction", "fasttest", "beforedeploy"}, priority = 7)
     public void nameValidation() throws Exception {
     	ContactUsPage contactUsPage = Screens.ContactUsPage();
     	contactUsPage.closePromo();
@@ -84,7 +84,7 @@ public class ContactUsTest  extends TestStarter{
     }
 
 	//Tests that form won't submit if email field is blank
-	@Test (groups = {"web","afterproduction", "fasttest"}, priority = 8) 
+	@Test (groups = {"web","afterproduction", "fasttest", "beforedeploy"}, priority = 8) 
     public void emailValidation() throws Exception {
     	ContactUsPage contactUsPage = Screens.ContactUsPage();
     	contactUsPage.closePromo();
@@ -97,7 +97,7 @@ public class ContactUsTest  extends TestStarter{
     }
 	
 	//Tests that form won't submit if email is invalid
-	@Test (groups = {"web","afterproduction", "fasttest"}, priority = 9) 
+	@Test (groups = {"web","afterproduction", "fasttest", "beforedeploy"}, priority = 9) 
     public void invalidEmailValidation() throws Exception {
     	ContactUsPage contactUsPage = Screens.ContactUsPage();
     	contactUsPage.closePromo();
@@ -111,7 +111,7 @@ public class ContactUsTest  extends TestStarter{
 	
 	
 	//Tests that form won't submit if email is inactive
-	@Test (groups = {"web","afterproduction", "fasttest"}, priority = 10) 
+	@Test (groups = {"web","afterproduction", "fasttest", "beforedeploy"}, priority = 10) 
     public void inactiveEmailValidation() throws Exception {
     	ContactUsPage contactUsPage = Screens.ContactUsPage();
     	contactUsPage.closePromo();
@@ -124,7 +124,7 @@ public class ContactUsTest  extends TestStarter{
     }
 		
 	//Tests that form won't submit if all fields are blank
-	@Test (groups = {"web","afterproduction", "fasttest"}, priority = 11) 
+	@Test (groups = {"web","afterproduction", "fasttest", "beforedeploy"}, priority = 11) 
     public void blankFieldsNoPhoneValidation() throws Exception {
     	ContactUsPage contactUsPage = Screens.ContactUsPage();
     	contactUsPage.closePromo();
@@ -137,7 +137,7 @@ public class ContactUsTest  extends TestStarter{
     }
 
 	//Tests that form won't submit if phone is invalid
-	@Test (groups = {"web","afterproduction", "fasttest"}, priority = 12) 
+	@Test (groups = {"web","afterproduction", "fasttest", "beforedeploy"}, priority = 12) 
     public void invalidPhoneValidation() throws Exception {
     	ContactUsPage contactUsPage = Screens.ContactUsPage();
     	contactUsPage.closePromo();
@@ -151,7 +151,7 @@ public class ContactUsTest  extends TestStarter{
 	
 	
 	//Submit form with no phone number
-	@Test (groups = {"web","afterproduction", "fasttest"}, priority = 13) 
+	@Test (groups = {"web","afterproduction", "fasttest", "beforedeploy"}, priority = 13) 
     public void submitFormNoPhone() throws Exception {
     	ContactUsPage contactUsPage = Screens.ContactUsPage();
     	contactUsPage.closePromo();

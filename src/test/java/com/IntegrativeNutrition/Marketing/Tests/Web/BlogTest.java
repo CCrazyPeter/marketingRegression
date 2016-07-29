@@ -9,7 +9,7 @@ import com.IntegrativeNutrition.Marketing.Tests.Common.TestStarter;
 public class BlogTest extends TestStarter {
 
 	//This test ensures the banner is displayed
-    @Test (groups = {"web.critical", "web", "beforemerge", "fasttest"}, priority = 1)
+    @Test (groups = {"web.critical", "web", "beforemerge", "fasttest", "beforedeploy"}, priority = 1)
     public void bannerDisplayed() throws Exception {
         BlogElements blogElements = Screens.BlogElements();
         blogElements.closePromo();
@@ -17,7 +17,7 @@ public class BlogTest extends TestStarter {
     }
 
 	//This test ensures the banner text is displayed
-    @Test (groups = {"web.critical", "web", "beforemerge", "fasttest"}, priority = 2)
+    @Test (groups = {"web.critical", "web", "beforemerge", "fasttest", "beforedeploy"}, priority = 2)
     public void assertBannerTextIsDisplayed() throws Exception {
         BlogElements blogElements = Screens.BlogElements();
         blogElements.closePromo();
@@ -41,7 +41,7 @@ public class BlogTest extends TestStarter {
     }
     
 	//Tests form won't submit if name field is blank
-	@Test (groups = {"web", "afterproduction", "slowtest"}, priority = 5)
+	@Test (groups = {"web", "afterproduction", "slowtest", "beforedeploy"}, priority = 5)
     public void nameValidation() throws Exception {
     	BlogElements blogElements = Screens.BlogElements();
     	blogElements.closePromo();
@@ -51,7 +51,7 @@ public class BlogTest extends TestStarter {
     }
 
 	//Tests that form won't submit if email field is blank
-	@Test (groups = {"web", "afterproduction", "slowtest"}, priority = 6) 
+	@Test (groups = {"web", "afterproduction", "slowtest", "beforedeploy"}, priority = 6) 
     public void emailValidation() throws Exception {
     	BlogElements blogElements = Screens.BlogElements();
     	blogElements.closePromo();
@@ -61,7 +61,7 @@ public class BlogTest extends TestStarter {
     }
 	
 	//Tests that form won't submit if email is invalid
-	@Test (groups = {"web", "afterproduction", "slowtest"}, priority = 7) 
+	@Test (groups = {"web", "afterproduction", "slowtest", "beforedeploy"}, priority = 7) 
     public void invalidEmailNoPhoneValidation() throws Exception {
     	BlogElements blogElements = Screens.BlogElements();
     	blogElements.closePromo();
@@ -72,7 +72,7 @@ public class BlogTest extends TestStarter {
     }
 	
 	//Tests that form won't submit if email is invalid
-	@Test (groups = {"web", "afterproduction", "slowtest"}, priority = 8) 
+	@Test (groups = {"web", "afterproduction", "slowtest", "beforedeploy"}, priority = 8) 
     public void invalidEmailPhoneValidation() throws Exception {
     	BlogElements blogElements = Screens.BlogElements();
     	blogElements.closePromo();
@@ -85,7 +85,7 @@ public class BlogTest extends TestStarter {
     }
 	
 	//Tests that form won't submit if all fields are blank
-	@Test (groups = {"web", "afterproduction", "slowtest"}, priority = 9) 
+	@Test (groups = {"web", "afterproduction", "slowtest", "beforedeploy"}, priority = 9) 
     public void blankFieldsNoPhoneValidation() throws Exception {
     	BlogElements blogElements = Screens.BlogElements();
     	blogElements.closePromo();
@@ -96,7 +96,7 @@ public class BlogTest extends TestStarter {
     }
 
 	//Tests that form won't submit if all fields are blank
-	@Test (groups = {"web", "afterproduction", "slowtest"}, priority = 10) 
+	@Test (groups = {"web", "afterproduction", "slowtest", "beforedeploy"}, priority = 10) 
     public void blankFieldsPhoneValidation() throws Exception {
     	BlogElements blogElements = Screens.BlogElements();
     	blogElements.closePromo();
@@ -159,18 +159,6 @@ public class BlogTest extends TestStarter {
     	blogElements.clickSubmitButton();
     	blogElements.assertCorrectURL(Common.FRONTEND_URL + "/guide-thank-you?sid=");
     }
-
-    /* COMMENTED BECAUSE THERE SEEMS TO BE A PROBLEM IN THE BLOG PAGE AND THIS 
-     * BUTTON IS NOT SHOWING SO I HAVE NO WAY OF GETTING THE XPATH TO THIS ELEMENT
-    @Test //Tests that the load more button is displayed at the bottom of the page
-    public void loadMoreDisplayed() {
-        boolean loadMore = BlogElements.seeMore.isDisplayed();
-        try {
-            Assert.assertTrue(loadMore);
-        } catch (Exception e) {
-            e.printStackTrace();
-        }
-    }*/
 
 }
 

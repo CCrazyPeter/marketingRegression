@@ -25,7 +25,7 @@ public class PaidLeadTest extends TestStarter {
     }
 
     //Tests form won't submit if name field is blank
-    @Test (groups = {"web", "afterproduction", "fasttest"}, priority = 1) 
+    @Test (groups = {"web", "afterproduction", "fasttest","beforedeploy"}, priority = 1) 
     public void nameValidation() throws Exception{
     	PaidLeadGen sampleNutritionClassPage = Screens.SampleNutritionClassPage();
     	
@@ -36,7 +36,7 @@ public class PaidLeadTest extends TestStarter {
     }
 
     //Tests that form won't submit if email field is blank
-    @Test (groups = {"web", "afterproduction", "fasttest"}, priority = 1) 
+    @Test (groups = {"web", "afterproduction", "fasttest","beforedeploy"}, priority = 1) 
     public void emailValidation() throws Exception{
     	PaidLeadGen sampleNutritionClassPage = Screens.SampleNutritionClassPage();
     	
@@ -90,7 +90,7 @@ public class PaidLeadTest extends TestStarter {
 
     
     //Tests form won't submit if name field is blank
-    @Test (groups = {"web", "afterproduction", "fasttest"}, priority = 1)
+    @Test (groups = {"web", "afterproduction", "fasttest","beforedeploy"}, priority = 1)
     public void nameValidationR() throws Exception{
     	PaidLeadGen sampleNutritionClassPage_r = Screens.SampleNutritionClassPage_r();
     	
@@ -101,7 +101,7 @@ public class PaidLeadTest extends TestStarter {
 
     
     //Tests that form won't submit if email field is blank
-    @Test (groups = {"web", "afterproduction", "fasttest"}, priority = 1)
+    @Test (groups = {"web", "afterproduction", "fasttest","beforedeploy"}, priority = 1)
     public void emailValidationR() throws Exception{
     	PaidLeadGen sampleNutritionClassPage_r = Screens.SampleNutritionClassPage_r();
     	sampleNutritionClassPage_r.inputName("qaTest");
@@ -151,7 +151,7 @@ public class PaidLeadTest extends TestStarter {
 
     
     //Tests form won't submit if name field is blank
-    @Test (groups = {"web", "afterproduction", "fasttest"}, priority = 1)
+    @Test (groups = {"web", "afterproduction", "fasttest","beforedeploy"}, priority = 1)
     public void nameValidationD() throws Exception{
     	PaidLeadGen sampleNutritionClassPage_d = Screens.SampleNutritionClassPage_d();
     	
@@ -161,7 +161,7 @@ public class PaidLeadTest extends TestStarter {
     }
 
     //Tests that form won't submit if email field is blank
-    @Test (groups = {"web", "afterproduction", "fasttest"}, priority = 1)
+    @Test (groups = {"web", "afterproduction", "fasttest","beforedeploy"}, priority = 1)
     public void emailValidationD() throws Exception{
     	PaidLeadGen sampleNutritionClassPage_d = Screens.SampleNutritionClassPage_d();
     	

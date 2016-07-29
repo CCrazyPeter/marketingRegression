@@ -9,7 +9,7 @@ import org.testng.Assert;
 public class FooterSocialMediaTest extends TestStarter {
 
     //Need Help Info Local Phone
-    @Test (groups = {"web.critical", "web", "beforemerge", "fasttest"}, priority = 1)
+    @Test (groups = {"web.critical", "web", "beforemerge", "fasttest","beforedeploy"}, priority = 1)
     public void assertLocalPhoneNumberIsDisplayed() throws Exception {
         Footer footer = Screens.Footer();
         footer.closePromo();
@@ -17,7 +17,7 @@ public class FooterSocialMediaTest extends TestStarter {
     }
 
     //Need Help Info International Phone
-    @Test (groups = {"web.critical", "web", "beforemerge", "fasttest"}, priority = 2)
+    @Test (groups = {"web.critical", "web", "beforemerge", "fasttest","beforedeploy"}, priority = 2)
     public void assertInternationalPhoneNumberIsDisplayed() throws Exception {
         Footer footer = Screens.Footer();
         footer.closePromo();
@@ -25,7 +25,7 @@ public class FooterSocialMediaTest extends TestStarter {
     }
 
 	//Tests correct form submission
-	@Test (groups = {"web.critical", "web", "beforemerge", "slowtest"}, priority = 3) 
+	@Test (groups = {"web.critical", "web", "beforemerge", "slowtest","beforedeploy"}, priority = 3) 
     public void assertFormSubmissionWorks() throws Exception {
     	Footer footer = Screens.Footer();
     	footer.closePromo();

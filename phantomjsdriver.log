@@ -6115,3 +6115,1881 @@ https://s.ytimg.com/yts/jsbin/www-embed-player-vfl_57x5d/www-embed-player.js:492
 [INFO  - 2016-07-27T17:47:55.963Z] Session [3fed33f0-5422-11e6-a362-e325f33728b5] - Session.negotiatedCapabilities - {"browserName":"phantomjs","version":"2.1.1","driverName":"ghostdriver","driverVersion":"1.2.0","platform":"windows-10-32bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
 [INFO  - 2016-07-27T17:47:55.963Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: 3fed33f0-5422-11e6-a362-e325f33728b5
 [INFO  - 2016-07-27T17:48:01.223Z] ShutdownReqHand - _handle - About to shutdown
+[INFO  - 2016-07-29T16:00:23.193Z] GhostDriver - Main - running on port 6158
+[INFO  - 2016-07-29T16:00:24.589Z] Session [8f6f2710-55a5-11e6-b1d3-4784bc66eb45] - page.settings - {"XSSAuditingEnabled":false,"javascriptCanCloseWindows":true,"javascriptCanOpenWindows":true,"javascriptEnabled":true,"loadImages":true,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.1.1 Safari/538.1","webSecurityEnabled":true}
+[INFO  - 2016-07-29T16:00:24.589Z] Session [8f6f2710-55a5-11e6-b1d3-4784bc66eb45] - page.customHeaders:  - {}
+[INFO  - 2016-07-29T16:00:24.590Z] Session [8f6f2710-55a5-11e6-b1d3-4784bc66eb45] - Session.negotiatedCapabilities - {"browserName":"phantomjs","version":"2.1.1","driverName":"ghostdriver","driverVersion":"1.2.0","platform":"windows-10-32bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2016-07-29T16:00:24.592Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: 8f6f2710-55a5-11e6-b1d3-4784bc66eb45
+[ERROR - 2016-07-29T16:01:40.479Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1469808100469
+[INFO  - 2016-07-29T16:01:56.054Z] ShutdownReqHand - _handle - About to shutdown
+[INFO  - 2016-07-29T16:02:00.053Z] GhostDriver - Main - running on port 12788
+[INFO  - 2016-07-29T16:02:00.236Z] Session [c871e110-55a5-11e6-8ae5-f79a4a8f767b] - page.settings - {"XSSAuditingEnabled":false,"javascriptCanCloseWindows":true,"javascriptCanOpenWindows":true,"javascriptEnabled":true,"loadImages":true,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.1.1 Safari/538.1","webSecurityEnabled":true}
+[INFO  - 2016-07-29T16:02:00.237Z] Session [c871e110-55a5-11e6-8ae5-f79a4a8f767b] - page.customHeaders:  - {}
+[INFO  - 2016-07-29T16:02:00.237Z] Session [c871e110-55a5-11e6-8ae5-f79a4a8f767b] - Session.negotiatedCapabilities - {"browserName":"phantomjs","version":"2.1.1","driverName":"ghostdriver","driverVersion":"1.2.0","platform":"windows-10-32bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2016-07-29T16:02:00.237Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: c871e110-55a5-11e6-8ae5-f79a4a8f767b
+[ERROR - 2016-07-29T16:02:46.337Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1469808166281
+[ERROR - 2016-07-29T16:03:10.520Z] Session [c871e110-55a5-11e6-8ae5-f79a4a8f767b] - page.onError - msg: getPresentingPlayerType@https://s.ytimg.com/yts/jsbin/player-es_ES-vflY26K4P/base.js:7240:109
+Sr@https://s.ytimg.com/yts/jsbin/player-es_ES-vflY26K4P/base.js:2139:78
+v8@https://s.ytimg.com/yts/jsbin/player-es_ES-vflY26K4P/base.js:4209:81
+Z8@https://s.ytimg.com/yts/jsbin/player-es_ES-vflY26K4P/base.js:4295:299
+create@https://s.ytimg.com/yts/jsbin/player-es_ES-vflY26K4P/base.js:7230:552
+https://s.ytimg.com/yts/jsbin/www-embed-player-vfl_5XjZ-/www-embed-player.js:459:276
+[native code]
+pe@https://s.ytimg.com/yts/jsbin/www-embed-player-vfl_5XjZ-/www-embed-player.js:459:318
+yh@https://s.ytimg.com/yts/jsbin/www-embed-player-vfl_5XjZ-/www-embed-player.js:457:147
+Tb@https://s.ytimg.com/yts/jsbin/www-embed-player-vfl_5XjZ-/www-embed-player.js:450:189
+https://s.ytimg.com/yts/jsbin/www-embed-player-vfl_5XjZ-/www-embed-player.js:492:422
+[ERROR - 2016-07-29T16:03:10.521Z] Session [c871e110-55a5-11e6-8ae5-f79a4a8f767b] - page.onError - stack:
+  (anonymous function) (https://s.ytimg.com/yts/jsbin/player-es_ES-vflY26K4P/base.js:3948)
+  (anonymous function) (:0)
+[ERROR - 2016-07-29T16:03:31.268Z] Session [c871e110-55a5-11e6-8ae5-f79a4a8f767b] - page.onError - msg: getPresentingPlayerType@https://s.ytimg.com/yts/jsbin/player-es_ES-vflY26K4P/base.js:7240:109
+Sr@https://s.ytimg.com/yts/jsbin/player-es_ES-vflY26K4P/base.js:2139:78
+v8@https://s.ytimg.com/yts/jsbin/player-es_ES-vflY26K4P/base.js:4209:81
+Z8@https://s.ytimg.com/yts/jsbin/player-es_ES-vflY26K4P/base.js:4295:299
+create@https://s.ytimg.com/yts/jsbin/player-es_ES-vflY26K4P/base.js:7230:552
+https://s.ytimg.com/yts/jsbin/www-embed-player-vfl_5XjZ-/www-embed-player.js:459:276
+[native code]
+pe@https://s.ytimg.com/yts/jsbin/www-embed-player-vfl_5XjZ-/www-embed-player.js:459:318
+yh@https://s.ytimg.com/yts/jsbin/www-embed-player-vfl_5XjZ-/www-embed-player.js:457:147
+Tb@https://s.ytimg.com/yts/jsbin/www-embed-player-vfl_5XjZ-/www-embed-player.js:450:189
+https://s.ytimg.com/yts/jsbin/www-embed-player-vfl_5XjZ-/www-embed-player.js:492:422
+[ERROR - 2016-07-29T16:03:31.270Z] Session [c871e110-55a5-11e6-8ae5-f79a4a8f767b] - page.onError - stack:
+  (anonymous function) (https://s.ytimg.com/yts/jsbin/player-es_ES-vflY26K4P/base.js:3948)
+  (anonymous function) (:0)
+[INFO  - 2016-07-29T16:03:31.878Z] ShutdownReqHand - _handle - About to shutdown
+[INFO  - 2016-07-29T16:03:35.868Z] GhostDriver - Main - running on port 14531
+[INFO  - 2016-07-29T16:03:36.005Z] Session [0186ea90-55a6-11e6-9cbc-1b7f090e7197] - page.settings - {"XSSAuditingEnabled":false,"javascriptCanCloseWindows":true,"javascriptCanOpenWindows":true,"javascriptEnabled":true,"loadImages":true,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.1.1 Safari/538.1","webSecurityEnabled":true}
+[INFO  - 2016-07-29T16:03:36.005Z] Session [0186ea90-55a6-11e6-9cbc-1b7f090e7197] - page.customHeaders:  - {}
+[INFO  - 2016-07-29T16:03:36.006Z] Session [0186ea90-55a6-11e6-9cbc-1b7f090e7197] - Session.negotiatedCapabilities - {"browserName":"phantomjs","version":"2.1.1","driverName":"ghostdriver","driverVersion":"1.2.0","platform":"windows-10-32bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2016-07-29T16:03:36.006Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: 0186ea90-55a6-11e6-9cbc-1b7f090e7197
+[ERROR - 2016-07-29T16:03:40.096Z] Session [0186ea90-55a6-11e6-9cbc-1b7f090e7197] - page.onError - msg: TypeError: undefined is not a constructor (evaluating 'videoLoopObj.play()')
+[ERROR - 2016-07-29T16:03:40.097Z] Session [0186ea90-55a6-11e6-9cbc-1b7f090e7197] - page.onError - stack:
+  (anonymous function) (http://iinsandbox.prod.acquia-sites.com/sites/default/files//advagg_js/js__ovbvDb5JvP01kpSIeTp3975god7lfHtbBHtwAlESp7E__RbNrCX1II7sWtYJLa6wHFwFLE1WfYn6RDuiI1lWds8g__DFS7sfByEXJKuikTGVRoW4mN5oUoszzrS0h-6JAzqc0.js:13)
+  c (http://code.jquery.com/jquery-1.10.2.min.js:4)
+  fireWith (http://code.jquery.com/jquery-1.10.2.min.js:4)
+  ready (http://code.jquery.com/jquery-1.10.2.min.js:4)
+  q (http://code.jquery.com/jquery-1.10.2.min.js:4)
+[ERROR - 2016-07-29T16:03:47.781Z] Session [0186ea90-55a6-11e6-9cbc-1b7f090e7197] - page.onError - msg: getPresentingPlayerType@https://s.ytimg.com/yts/jsbin/player-es_ES-vflY26K4P/base.js:7240:109
+Sr@https://s.ytimg.com/yts/jsbin/player-es_ES-vflY26K4P/base.js:2139:78
+v8@https://s.ytimg.com/yts/jsbin/player-es_ES-vflY26K4P/base.js:4209:81
+Z8@https://s.ytimg.com/yts/jsbin/player-es_ES-vflY26K4P/base.js:4295:299
+create@https://s.ytimg.com/yts/jsbin/player-es_ES-vflY26K4P/base.js:7230:552
+https://s.ytimg.com/yts/jsbin/www-embed-player-vfl_5XjZ-/www-embed-player.js:459:276
+[native code]
+pe@https://s.ytimg.com/yts/jsbin/www-embed-player-vfl_5XjZ-/www-embed-player.js:459:318
+yh@https://s.ytimg.com/yts/jsbin/www-embed-player-vfl_5XjZ-/www-embed-player.js:457:147
+Tb@https://s.ytimg.com/yts/jsbin/www-embed-player-vfl_5XjZ-/www-embed-player.js:450:189
+https://s.ytimg.com/yts/jsbin/www-embed-player-vfl_5XjZ-/www-embed-player.js:492:422
+[ERROR - 2016-07-29T16:03:47.782Z] Session [0186ea90-55a6-11e6-9cbc-1b7f090e7197] - page.onError - stack:
+  (anonymous function) (https://s.ytimg.com/yts/jsbin/player-es_ES-vflY26K4P/base.js:3948)
+  (anonymous function) (:0)
+[ERROR - 2016-07-29T16:04:05.641Z] Session [0186ea90-55a6-11e6-9cbc-1b7f090e7197] - page.onError - msg: TypeError: undefined is not a constructor (evaluating 'html5Player.play()')
+[ERROR - 2016-07-29T16:04:05.642Z] Session [0186ea90-55a6-11e6-9cbc-1b7f090e7197] - page.onError - stack:
+  controlAnyVideo (http://iinsandbox.prod.acquia-sites.com/sites/default/files//advagg_js/js__NRRIdJWLZorgmc336aHUpMs_YOORKB0fminQKwMmPlo__a23o3pDyiqh4XWawXDnBKYDIdjMPzWIe-m369ICoKnA__DFS7sfByEXJKuikTGVRoW4mN5oUoszzrS0h-6JAzqc0.js:19)
+  (anonymous function) (http://iinsandbox.prod.acquia-sites.com/sites/default/files//advagg_js/js__NRRIdJWLZorgmc336aHUpMs_YOORKB0fminQKwMmPlo__a23o3pDyiqh4XWawXDnBKYDIdjMPzWIe-m369ICoKnA__DFS7sfByEXJKuikTGVRoW4mN5oUoszzrS0h-6JAzqc0.js:19)
+  dispatch (http://code.jquery.com/jquery-1.10.2.min.js:5)
+  handle (http://code.jquery.com/jquery-1.10.2.min.js:5)
+  trigger (http://code.jquery.com/jquery-1.10.2.min.js:5)
+  trigger (http://code.jquery.com/jquery-migrate-1.2.1.js:493)
+  (anonymous function) (http://code.jquery.com/jquery-1.10.2.min.js:5)
+  each (http://code.jquery.com/jquery-1.10.2.min.js:4)
+  each (http://code.jquery.com/jquery-1.10.2.min.js:4)
+  trigger (http://code.jquery.com/jquery-1.10.2.min.js:5)
+  (anonymous function) (http://iinsandbox.prod.acquia-sites.com/sites/default/files//advagg_js/js__BmkJkT6Jj1J_nO6cEq7TMXpZqA0b29AvcrG3Hl4oAro__aHWB2PacgJTM3o_6vuOWfDqFz8CiMeLik0JsvbaJFsk__DFS7sfByEXJKuikTGVRoW4mN5oUoszzrS0h-6JAzqc0.js:215)
+  i (http://code.jquery.com/jquery-1.10.2.min.js:5)
+  handle (http://iinsandbox.prod.acquia-sites.com/sites/default/files//advagg_js/js__BmkJkT6Jj1J_nO6cEq7TMXpZqA0b29AvcrG3Hl4oAro__aHWB2PacgJTM3o_6vuOWfDqFz8CiMeLik0JsvbaJFsk__DFS7sfByEXJKuikTGVRoW4mN5oUoszzrS0h-6JAzqc0.js:239)
+  dispatch (http://code.jquery.com/jquery-1.10.2.min.js:5)
+  handle (http://code.jquery.com/jquery-1.10.2.min.js:5)
+  trigger (http://code.jquery.com/jquery-1.10.2.min.js:5)
+  trigger (http://code.jquery.com/jquery-migrate-1.2.1.js:493)
+  (anonymous function) (http://code.jquery.com/jquery-1.10.2.min.js:5)
+  each (http://code.jquery.com/jquery-1.10.2.min.js:4)
+  each (http://code.jquery.com/jquery-1.10.2.min.js:4)
+  trigger (http://code.jquery.com/jquery-1.10.2.min.js:5)
+  callback (http://iinsandbox.prod.acquia-sites.com/sites/default/files//advagg_js/js__BmkJkT6Jj1J_nO6cEq7TMXpZqA0b29AvcrG3Hl4oAro__aHWB2PacgJTM3o_6vuOWfDqFz8CiMeLik0JsvbaJFsk__DFS7sfByEXJKuikTGVRoW4mN5oUoszzrS0h-6JAzqc0.js:239)
+[INFO  - 2016-07-29T16:07:45.332Z] ShutdownReqHand - _handle - About to shutdown
+[INFO  - 2016-07-29T16:07:48.729Z] GhostDriver - Main - running on port 5338
+[INFO  - 2016-07-29T16:07:49.185Z] Session [986f1e50-55a6-11e6-a763-9183c24d29b1] - page.settings - {"XSSAuditingEnabled":false,"javascriptCanCloseWindows":true,"javascriptCanOpenWindows":true,"javascriptEnabled":true,"loadImages":true,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.1.1 Safari/538.1","webSecurityEnabled":true}
+[INFO  - 2016-07-29T16:07:49.186Z] Session [986f1e50-55a6-11e6-a763-9183c24d29b1] - page.customHeaders:  - {}
+[INFO  - 2016-07-29T16:07:49.186Z] Session [986f1e50-55a6-11e6-a763-9183c24d29b1] - Session.negotiatedCapabilities - {"browserName":"phantomjs","version":"2.1.1","driverName":"ghostdriver","driverVersion":"1.2.0","platform":"windows-10-32bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2016-07-29T16:07:49.186Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: 986f1e50-55a6-11e6-a763-9183c24d29b1
+[ERROR - 2016-07-29T16:07:54.991Z] Session [986f1e50-55a6-11e6-a763-9183c24d29b1] - page.onError - msg: getPresentingPlayerType@https://s.ytimg.com/yts/jsbin/player-es_ES-vflY26K4P/base.js:7240:109
+Sr@https://s.ytimg.com/yts/jsbin/player-es_ES-vflY26K4P/base.js:2139:78
+v8@https://s.ytimg.com/yts/jsbin/player-es_ES-vflY26K4P/base.js:4209:81
+Z8@https://s.ytimg.com/yts/jsbin/player-es_ES-vflY26K4P/base.js:4295:299
+create@https://s.ytimg.com/yts/jsbin/player-es_ES-vflY26K4P/base.js:7230:552
+https://s.ytimg.com/yts/jsbin/www-embed-player-vfl_5XjZ-/www-embed-player.js:459:276
+[native code]
+pe@https://s.ytimg.com/yts/jsbin/www-embed-player-vfl_5XjZ-/www-embed-player.js:459:318
+yh@https://s.ytimg.com/yts/jsbin/www-embed-player-vfl_5XjZ-/www-embed-player.js:457:147
+Tb@https://s.ytimg.com/yts/jsbin/www-embed-player-vfl_5XjZ-/www-embed-player.js:450:189
+https://s.ytimg.com/yts/jsbin/www-embed-player-vfl_5XjZ-/www-embed-player.js:492:422
+[ERROR - 2016-07-29T16:07:54.992Z] Session [986f1e50-55a6-11e6-a763-9183c24d29b1] - page.onError - stack:
+  (anonymous function) (https://s.ytimg.com/yts/jsbin/player-es_ES-vflY26K4P/base.js:3948)
+  (anonymous function) (:0)
+[ERROR - 2016-07-29T16:07:57.444Z] Session [986f1e50-55a6-11e6-a763-9183c24d29b1] - page.onError - msg: getPresentingPlayerType@https://s.ytimg.com/yts/jsbin/player-es_ES-vflY26K4P/base.js:7240:109
+Sr@https://s.ytimg.com/yts/jsbin/player-es_ES-vflY26K4P/base.js:2139:78
+v8@https://s.ytimg.com/yts/jsbin/player-es_ES-vflY26K4P/base.js:4209:81
+Z8@https://s.ytimg.com/yts/jsbin/player-es_ES-vflY26K4P/base.js:4295:299
+create@https://s.ytimg.com/yts/jsbin/player-es_ES-vflY26K4P/base.js:7230:552
+https://s.ytimg.com/yts/jsbin/www-embed-player-vfl_5XjZ-/www-embed-player.js:459:276
+[native code]
+pe@https://s.ytimg.com/yts/jsbin/www-embed-player-vfl_5XjZ-/www-embed-player.js:459:318
+yh@https://s.ytimg.com/yts/jsbin/www-embed-player-vfl_5XjZ-/www-embed-player.js:457:147
+Tb@https://s.ytimg.com/yts/jsbin/www-embed-player-vfl_5XjZ-/www-embed-player.js:450:189
+https://s.ytimg.com/yts/jsbin/www-embed-player-vfl_5XjZ-/www-embed-player.js:492:422
+[ERROR - 2016-07-29T16:07:57.446Z] Session [986f1e50-55a6-11e6-a763-9183c24d29b1] - page.onError - stack:
+  (anonymous function) (https://s.ytimg.com/yts/jsbin/player-es_ES-vflY26K4P/base.js:3948)
+  (anonymous function) (:0)
+[ERROR - 2016-07-29T16:07:59.891Z] Session [986f1e50-55a6-11e6-a763-9183c24d29b1] - page.onError - msg: getPresentingPlayerType@https://s.ytimg.com/yts/jsbin/player-es_ES-vflY26K4P/base.js:7240:109
+Sr@https://s.ytimg.com/yts/jsbin/player-es_ES-vflY26K4P/base.js:2139:78
+v8@https://s.ytimg.com/yts/jsbin/player-es_ES-vflY26K4P/base.js:4209:81
+Z8@https://s.ytimg.com/yts/jsbin/player-es_ES-vflY26K4P/base.js:4295:299
+create@https://s.ytimg.com/yts/jsbin/player-es_ES-vflY26K4P/base.js:7230:552
+https://s.ytimg.com/yts/jsbin/www-embed-player-vfl_5XjZ-/www-embed-player.js:459:276
+[native code]
+pe@https://s.ytimg.com/yts/jsbin/www-embed-player-vfl_5XjZ-/www-embed-player.js:459:318
+yh@https://s.ytimg.com/yts/jsbin/www-embed-player-vfl_5XjZ-/www-embed-player.js:457:147
+Tb@https://s.ytimg.com/yts/jsbin/www-embed-player-vfl_5XjZ-/www-embed-player.js:450:189
+https://s.ytimg.com/yts/jsbin/www-embed-player-vfl_5XjZ-/www-embed-player.js:492:422
+[ERROR - 2016-07-29T16:07:59.894Z] Session [986f1e50-55a6-11e6-a763-9183c24d29b1] - page.onError - stack:
+  (anonymous function) (https://s.ytimg.com/yts/jsbin/player-es_ES-vflY26K4P/base.js:3948)
+  (anonymous function) (:0)
+[ERROR - 2016-07-29T16:08:02.299Z] Session [986f1e50-55a6-11e6-a763-9183c24d29b1] - page.onError - msg: getPresentingPlayerType@https://s.ytimg.com/yts/jsbin/player-es_ES-vflY26K4P/base.js:7240:109
+Sr@https://s.ytimg.com/yts/jsbin/player-es_ES-vflY26K4P/base.js:2139:78
+v8@https://s.ytimg.com/yts/jsbin/player-es_ES-vflY26K4P/base.js:4209:81
+Z8@https://s.ytimg.com/yts/jsbin/player-es_ES-vflY26K4P/base.js:4295:299
+create@https://s.ytimg.com/yts/jsbin/player-es_ES-vflY26K4P/base.js:7230:552
+https://s.ytimg.com/yts/jsbin/www-embed-player-vfl_5XjZ-/www-embed-player.js:459:276
+[native code]
+pe@https://s.ytimg.com/yts/jsbin/www-embed-player-vfl_5XjZ-/www-embed-player.js:459:318
+yh@https://s.ytimg.com/yts/jsbin/www-embed-player-vfl_5XjZ-/www-embed-player.js:457:147
+Tb@https://s.ytimg.com/yts/jsbin/www-embed-player-vfl_5XjZ-/www-embed-player.js:450:189
+https://s.ytimg.com/yts/jsbin/www-embed-player-vfl_5XjZ-/www-embed-player.js:492:422
+[ERROR - 2016-07-29T16:08:02.299Z] Session [986f1e50-55a6-11e6-a763-9183c24d29b1] - page.onError - stack:
+  (anonymous function) (https://s.ytimg.com/yts/jsbin/player-es_ES-vflY26K4P/base.js:3948)
+  (anonymous function) (:0)
+[ERROR - 2016-07-29T16:08:04.728Z] Session [986f1e50-55a6-11e6-a763-9183c24d29b1] - page.onError - msg: getPresentingPlayerType@https://s.ytimg.com/yts/jsbin/player-es_ES-vflY26K4P/base.js:7240:109
+Sr@https://s.ytimg.com/yts/jsbin/player-es_ES-vflY26K4P/base.js:2139:78
+v8@https://s.ytimg.com/yts/jsbin/player-es_ES-vflY26K4P/base.js:4209:81
+Z8@https://s.ytimg.com/yts/jsbin/player-es_ES-vflY26K4P/base.js:4295:299
+create@https://s.ytimg.com/yts/jsbin/player-es_ES-vflY26K4P/base.js:7230:552
+https://s.ytimg.com/yts/jsbin/www-embed-player-vfl_5XjZ-/www-embed-player.js:459:276
+[native code]
+pe@https://s.ytimg.com/yts/jsbin/www-embed-player-vfl_5XjZ-/www-embed-player.js:459:318
+yh@https://s.ytimg.com/yts/jsbin/www-embed-player-vfl_5XjZ-/www-embed-player.js:457:147
+Tb@https://s.ytimg.com/yts/jsbin/www-embed-player-vfl_5XjZ-/www-embed-player.js:450:189
+https://s.ytimg.com/yts/jsbin/www-embed-player-vfl_5XjZ-/www-embed-player.js:492:422
+[ERROR - 2016-07-29T16:08:04.729Z] Session [986f1e50-55a6-11e6-a763-9183c24d29b1] - page.onError - stack:
+  (anonymous function) (https://s.ytimg.com/yts/jsbin/player-es_ES-vflY26K4P/base.js:3948)
+  (anonymous function) (:0)
+[ERROR - 2016-07-29T16:08:07.388Z] Session [986f1e50-55a6-11e6-a763-9183c24d29b1] - page.onError - msg: getPresentingPlayerType@https://s.ytimg.com/yts/jsbin/player-es_ES-vflY26K4P/base.js:7240:109
+Sr@https://s.ytimg.com/yts/jsbin/player-es_ES-vflY26K4P/base.js:2139:78
+v8@https://s.ytimg.com/yts/jsbin/player-es_ES-vflY26K4P/base.js:4209:81
+Z8@https://s.ytimg.com/yts/jsbin/player-es_ES-vflY26K4P/base.js:4295:299
+create@https://s.ytimg.com/yts/jsbin/player-es_ES-vflY26K4P/base.js:7230:552
+https://s.ytimg.com/yts/jsbin/www-embed-player-vfl_5XjZ-/www-embed-player.js:459:276
+[native code]
+pe@https://s.ytimg.com/yts/jsbin/www-embed-player-vfl_5XjZ-/www-embed-player.js:459:318
+yh@https://s.ytimg.com/yts/jsbin/www-embed-player-vfl_5XjZ-/www-embed-player.js:457:147
+Tb@https://s.ytimg.com/yts/jsbin/www-embed-player-vfl_5XjZ-/www-embed-player.js:450:189
+https://s.ytimg.com/yts/jsbin/www-embed-player-vfl_5XjZ-/www-embed-player.js:492:422
+[ERROR - 2016-07-29T16:08:07.389Z] Session [986f1e50-55a6-11e6-a763-9183c24d29b1] - page.onError - stack:
+  (anonymous function) (https://s.ytimg.com/yts/jsbin/player-es_ES-vflY26K4P/base.js:3948)
+  (anonymous function) (:0)
+[ERROR - 2016-07-29T16:08:10.342Z] Session [986f1e50-55a6-11e6-a763-9183c24d29b1] - page.onError - msg: getPresentingPlayerType@https://s.ytimg.com/yts/jsbin/player-es_ES-vflY26K4P/base.js:7240:109
+Sr@https://s.ytimg.com/yts/jsbin/player-es_ES-vflY26K4P/base.js:2139:78
+v8@https://s.ytimg.com/yts/jsbin/player-es_ES-vflY26K4P/base.js:4209:81
+Z8@https://s.ytimg.com/yts/jsbin/player-es_ES-vflY26K4P/base.js:4295:299
+create@https://s.ytimg.com/yts/jsbin/player-es_ES-vflY26K4P/base.js:7230:552
+https://s.ytimg.com/yts/jsbin/www-embed-player-vfl_5XjZ-/www-embed-player.js:459:276
+[native code]
+pe@https://s.ytimg.com/yts/jsbin/www-embed-player-vfl_5XjZ-/www-embed-player.js:459:318
+yh@https://s.ytimg.com/yts/jsbin/www-embed-player-vfl_5XjZ-/www-embed-player.js:457:147
+Tb@https://s.ytimg.com/yts/jsbin/www-embed-player-vfl_5XjZ-/www-embed-player.js:450:189
+https://s.ytimg.com/yts/jsbin/www-embed-player-vfl_5XjZ-/www-embed-player.js:492:422
+[ERROR - 2016-07-29T16:08:10.343Z] Session [986f1e50-55a6-11e6-a763-9183c24d29b1] - page.onError - stack:
+  (anonymous function) (https://s.ytimg.com/yts/jsbin/player-es_ES-vflY26K4P/base.js:3948)
+  (anonymous function) (:0)
+[ERROR - 2016-07-29T16:08:14.271Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1469808494250
+[ERROR - 2016-07-29T16:08:27.349Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1469808507292
+[ERROR - 2016-07-29T16:08:40.162Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1469808520156
+[ERROR - 2016-07-29T16:08:52.759Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1469808532744
+[ERROR - 2016-07-29T16:09:05.225Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1469808545186
+[ERROR - 2016-07-29T16:09:17.866Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1469808557853
+[ERROR - 2016-07-29T16:09:30.240Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1469808570196
+[ERROR - 2016-07-29T16:09:42.272Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1469808582241
+[ERROR - 2016-07-29T16:09:54.907Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1469808594891
+[ERROR - 2016-07-29T16:10:07.475Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1469808607473
+[ERROR - 2016-07-29T16:10:22.820Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1469808622793
+[ERROR - 2016-07-29T16:10:35.802Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1469808635777
+[ERROR - 2016-07-29T16:10:50.350Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1469808650310
+[ERROR - 2016-07-29T16:11:03.336Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1469808663312
+[ERROR - 2016-07-29T16:11:15.977Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1469808675959
+[ERROR - 2016-07-29T16:11:31.037Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1469808691004
+[ERROR - 2016-07-29T16:11:49.662Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1469808709649
+[ERROR - 2016-07-29T16:12:05.972Z] Session [986f1e50-55a6-11e6-a763-9183c24d29b1] - page.onError - msg: getPresentingPlayerType@https://s.ytimg.com/yts/jsbin/player-es_ES-vflY26K4P/base.js:7240:109
+Sr@https://s.ytimg.com/yts/jsbin/player-es_ES-vflY26K4P/base.js:2139:78
+v8@https://s.ytimg.com/yts/jsbin/player-es_ES-vflY26K4P/base.js:4209:81
+Z8@https://s.ytimg.com/yts/jsbin/player-es_ES-vflY26K4P/base.js:4295:299
+create@https://s.ytimg.com/yts/jsbin/player-es_ES-vflY26K4P/base.js:7230:552
+https://s.ytimg.com/yts/jsbin/www-embed-player-vfl_5XjZ-/www-embed-player.js:459:276
+[native code]
+pe@https://s.ytimg.com/yts/jsbin/www-embed-player-vfl_5XjZ-/www-embed-player.js:459:318
+yh@https://s.ytimg.com/yts/jsbin/www-embed-player-vfl_5XjZ-/www-embed-player.js:457:147
+Tb@https://s.ytimg.com/yts/jsbin/www-embed-player-vfl_5XjZ-/www-embed-player.js:450:189
+https://s.ytimg.com/yts/jsbin/www-embed-player-vfl_5XjZ-/www-embed-player.js:492:422
+[ERROR - 2016-07-29T16:12:05.974Z] Session [986f1e50-55a6-11e6-a763-9183c24d29b1] - page.onError - stack:
+  (anonymous function) (https://s.ytimg.com/yts/jsbin/player-es_ES-vflY26K4P/base.js:3948)
+  (anonymous function) (:0)
+[ERROR - 2016-07-29T16:12:11.494Z] Session [986f1e50-55a6-11e6-a763-9183c24d29b1] - page.onError - msg: getPresentingPlayerType@https://s.ytimg.com/yts/jsbin/player-es_ES-vflY26K4P/base.js:7240:109
+Sr@https://s.ytimg.com/yts/jsbin/player-es_ES-vflY26K4P/base.js:2139:78
+v8@https://s.ytimg.com/yts/jsbin/player-es_ES-vflY26K4P/base.js:4209:81
+Z8@https://s.ytimg.com/yts/jsbin/player-es_ES-vflY26K4P/base.js:4295:299
+create@https://s.ytimg.com/yts/jsbin/player-es_ES-vflY26K4P/base.js:7230:552
+https://s.ytimg.com/yts/jsbin/www-embed-player-vfl_5XjZ-/www-embed-player.js:459:276
+[native code]
+pe@https://s.ytimg.com/yts/jsbin/www-embed-player-vfl_5XjZ-/www-embed-player.js:459:318
+yh@https://s.ytimg.com/yts/jsbin/www-embed-player-vfl_5XjZ-/www-embed-player.js:457:147
+Tb@https://s.ytimg.com/yts/jsbin/www-embed-player-vfl_5XjZ-/www-embed-player.js:450:189
+https://s.ytimg.com/yts/jsbin/www-embed-player-vfl_5XjZ-/www-embed-player.js:492:422
+[ERROR - 2016-07-29T16:12:11.496Z] Session [986f1e50-55a6-11e6-a763-9183c24d29b1] - page.onError - stack:
+  (anonymous function) (https://s.ytimg.com/yts/jsbin/player-es_ES-vflY26K4P/base.js:3948)
+  (anonymous function) (:0)
+[ERROR - 2016-07-29T16:12:15.028Z] Session [986f1e50-55a6-11e6-a763-9183c24d29b1] - page.onError - msg: getPresentingPlayerType@https://s.ytimg.com/yts/jsbin/player-es_ES-vflY26K4P/base.js:7240:109
+Sr@https://s.ytimg.com/yts/jsbin/player-es_ES-vflY26K4P/base.js:2139:78
+v8@https://s.ytimg.com/yts/jsbin/player-es_ES-vflY26K4P/base.js:4209:81
+Z8@https://s.ytimg.com/yts/jsbin/player-es_ES-vflY26K4P/base.js:4295:299
+create@https://s.ytimg.com/yts/jsbin/player-es_ES-vflY26K4P/base.js:7230:552
+https://s.ytimg.com/yts/jsbin/www-embed-player-vfl_5XjZ-/www-embed-player.js:459:276
+[native code]
+pe@https://s.ytimg.com/yts/jsbin/www-embed-player-vfl_5XjZ-/www-embed-player.js:459:318
+yh@https://s.ytimg.com/yts/jsbin/www-embed-player-vfl_5XjZ-/www-embed-player.js:457:147
+Tb@https://s.ytimg.com/yts/jsbin/www-embed-player-vfl_5XjZ-/www-embed-player.js:450:189
+https://s.ytimg.com/yts/jsbin/www-embed-player-vfl_5XjZ-/www-embed-player.js:492:422
+[ERROR - 2016-07-29T16:12:15.029Z] Session [986f1e50-55a6-11e6-a763-9183c24d29b1] - page.onError - stack:
+  (anonymous function) (https://s.ytimg.com/yts/jsbin/player-es_ES-vflY26K4P/base.js:3948)
+  (anonymous function) (:0)
+[ERROR - 2016-07-29T16:12:19.768Z] Session [986f1e50-55a6-11e6-a763-9183c24d29b1] - page.onError - msg: getPresentingPlayerType@https://s.ytimg.com/yts/jsbin/player-es_ES-vflY26K4P/base.js:7240:109
+Sr@https://s.ytimg.com/yts/jsbin/player-es_ES-vflY26K4P/base.js:2139:78
+v8@https://s.ytimg.com/yts/jsbin/player-es_ES-vflY26K4P/base.js:4209:81
+Z8@https://s.ytimg.com/yts/jsbin/player-es_ES-vflY26K4P/base.js:4295:299
+create@https://s.ytimg.com/yts/jsbin/player-es_ES-vflY26K4P/base.js:7230:552
+https://s.ytimg.com/yts/jsbin/www-embed-player-vfl_5XjZ-/www-embed-player.js:459:276
+[native code]
+pe@https://s.ytimg.com/yts/jsbin/www-embed-player-vfl_5XjZ-/www-embed-player.js:459:318
+yh@https://s.ytimg.com/yts/jsbin/www-embed-player-vfl_5XjZ-/www-embed-player.js:457:147
+Tb@https://s.ytimg.com/yts/jsbin/www-embed-player-vfl_5XjZ-/www-embed-player.js:450:189
+https://s.ytimg.com/yts/jsbin/www-embed-player-vfl_5XjZ-/www-embed-player.js:492:422
+[ERROR - 2016-07-29T16:12:19.769Z] Session [986f1e50-55a6-11e6-a763-9183c24d29b1] - page.onError - stack:
+  (anonymous function) (https://s.ytimg.com/yts/jsbin/player-es_ES-vflY26K4P/base.js:3948)
+  (anonymous function) (:0)
+[ERROR - 2016-07-29T16:12:25.006Z] Session [986f1e50-55a6-11e6-a763-9183c24d29b1] - page.onError - msg: getPresentingPlayerType@https://s.ytimg.com/yts/jsbin/player-es_ES-vflY26K4P/base.js:7240:109
+Sr@https://s.ytimg.com/yts/jsbin/player-es_ES-vflY26K4P/base.js:2139:78
+v8@https://s.ytimg.com/yts/jsbin/player-es_ES-vflY26K4P/base.js:4209:81
+Z8@https://s.ytimg.com/yts/jsbin/player-es_ES-vflY26K4P/base.js:4295:299
+create@https://s.ytimg.com/yts/jsbin/player-es_ES-vflY26K4P/base.js:7230:552
+https://s.ytimg.com/yts/jsbin/www-embed-player-vfl_5XjZ-/www-embed-player.js:459:276
+[native code]
+pe@https://s.ytimg.com/yts/jsbin/www-embed-player-vfl_5XjZ-/www-embed-player.js:459:318
+yh@https://s.ytimg.com/yts/jsbin/www-embed-player-vfl_5XjZ-/www-embed-player.js:457:147
+Tb@https://s.ytimg.com/yts/jsbin/www-embed-player-vfl_5XjZ-/www-embed-player.js:450:189
+https://s.ytimg.com/yts/jsbin/www-embed-player-vfl_5XjZ-/www-embed-player.js:492:422
+[ERROR - 2016-07-29T16:12:25.009Z] Session [986f1e50-55a6-11e6-a763-9183c24d29b1] - page.onError - stack:
+  (anonymous function) (https://s.ytimg.com/yts/jsbin/player-es_ES-vflY26K4P/base.js:3948)
+  (anonymous function) (:0)
+[ERROR - 2016-07-29T16:12:28.289Z] Session [986f1e50-55a6-11e6-a763-9183c24d29b1] - page.onError - msg: getPresentingPlayerType@https://s.ytimg.com/yts/jsbin/player-es_ES-vflY26K4P/base.js:7240:109
+Sr@https://s.ytimg.com/yts/jsbin/player-es_ES-vflY26K4P/base.js:2139:78
+v8@https://s.ytimg.com/yts/jsbin/player-es_ES-vflY26K4P/base.js:4209:81
+Z8@https://s.ytimg.com/yts/jsbin/player-es_ES-vflY26K4P/base.js:4295:299
+create@https://s.ytimg.com/yts/jsbin/player-es_ES-vflY26K4P/base.js:7230:552
+https://s.ytimg.com/yts/jsbin/www-embed-player-vfl_5XjZ-/www-embed-player.js:459:276
+[native code]
+pe@https://s.ytimg.com/yts/jsbin/www-embed-player-vfl_5XjZ-/www-embed-player.js:459:318
+yh@https://s.ytimg.com/yts/jsbin/www-embed-player-vfl_5XjZ-/www-embed-player.js:457:147
+Tb@https://s.ytimg.com/yts/jsbin/www-embed-player-vfl_5XjZ-/www-embed-player.js:450:189
+https://s.ytimg.com/yts/jsbin/www-embed-player-vfl_5XjZ-/www-embed-player.js:492:422
+[ERROR - 2016-07-29T16:12:28.290Z] Session [986f1e50-55a6-11e6-a763-9183c24d29b1] - page.onError - stack:
+  (anonymous function) (https://s.ytimg.com/yts/jsbin/player-es_ES-vflY26K4P/base.js:3948)
+  (anonymous function) (:0)
+[ERROR - 2016-07-29T16:12:31.852Z] Session [986f1e50-55a6-11e6-a763-9183c24d29b1] - page.onError - msg: getPresentingPlayerType@https://s.ytimg.com/yts/jsbin/player-es_ES-vflY26K4P/base.js:7240:109
+Sr@https://s.ytimg.com/yts/jsbin/player-es_ES-vflY26K4P/base.js:2139:78
+v8@https://s.ytimg.com/yts/jsbin/player-es_ES-vflY26K4P/base.js:4209:81
+Z8@https://s.ytimg.com/yts/jsbin/player-es_ES-vflY26K4P/base.js:4295:299
+create@https://s.ytimg.com/yts/jsbin/player-es_ES-vflY26K4P/base.js:7230:552
+https://s.ytimg.com/yts/jsbin/www-embed-player-vfl_5XjZ-/www-embed-player.js:459:276
+[native code]
+pe@https://s.ytimg.com/yts/jsbin/www-embed-player-vfl_5XjZ-/www-embed-player.js:459:318
+yh@https://s.ytimg.com/yts/jsbin/www-embed-player-vfl_5XjZ-/www-embed-player.js:457:147
+Tb@https://s.ytimg.com/yts/jsbin/www-embed-player-vfl_5XjZ-/www-embed-player.js:450:189
+https://s.ytimg.com/yts/jsbin/www-embed-player-vfl_5XjZ-/www-embed-player.js:492:422
+[ERROR - 2016-07-29T16:12:31.855Z] Session [986f1e50-55a6-11e6-a763-9183c24d29b1] - page.onError - stack:
+  (anonymous function) (https://s.ytimg.com/yts/jsbin/player-es_ES-vflY26K4P/base.js:3948)
+  (anonymous function) (:0)
+[ERROR - 2016-07-29T16:12:37.170Z] Session [986f1e50-55a6-11e6-a763-9183c24d29b1] - page.onError - msg: getPresentingPlayerType@https://s.ytimg.com/yts/jsbin/player-es_ES-vflY26K4P/base.js:7240:109
+Sr@https://s.ytimg.com/yts/jsbin/player-es_ES-vflY26K4P/base.js:2139:78
+v8@https://s.ytimg.com/yts/jsbin/player-es_ES-vflY26K4P/base.js:4209:81
+Z8@https://s.ytimg.com/yts/jsbin/player-es_ES-vflY26K4P/base.js:4295:299
+create@https://s.ytimg.com/yts/jsbin/player-es_ES-vflY26K4P/base.js:7230:552
+https://s.ytimg.com/yts/jsbin/www-embed-player-vfl_5XjZ-/www-embed-player.js:459:276
+[native code]
+pe@https://s.ytimg.com/yts/jsbin/www-embed-player-vfl_5XjZ-/www-embed-player.js:459:318
+yh@https://s.ytimg.com/yts/jsbin/www-embed-player-vfl_5XjZ-/www-embed-player.js:457:147
+Tb@https://s.ytimg.com/yts/jsbin/www-embed-player-vfl_5XjZ-/www-embed-player.js:450:189
+https://s.ytimg.com/yts/jsbin/www-embed-player-vfl_5XjZ-/www-embed-player.js:492:422
+[ERROR - 2016-07-29T16:12:37.174Z] Session [986f1e50-55a6-11e6-a763-9183c24d29b1] - page.onError - stack:
+  (anonymous function) (https://s.ytimg.com/yts/jsbin/player-es_ES-vflY26K4P/base.js:3948)
+  (anonymous function) (:0)
+[ERROR - 2016-07-29T16:12:42.541Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1469808762496
+[INFO  - 2016-07-29T16:12:55.855Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[ERROR - 2016-07-29T16:13:00.818Z] Session [986f1e50-55a6-11e6-a763-9183c24d29b1] - page.onError - msg: getPresentingPlayerType@https://s.ytimg.com/yts/jsbin/player-es_ES-vflY26K4P/base.js:7240:109
+Sr@https://s.ytimg.com/yts/jsbin/player-es_ES-vflY26K4P/base.js:2139:78
+v8@https://s.ytimg.com/yts/jsbin/player-es_ES-vflY26K4P/base.js:4209:81
+Z8@https://s.ytimg.com/yts/jsbin/player-es_ES-vflY26K4P/base.js:4295:299
+create@https://s.ytimg.com/yts/jsbin/player-es_ES-vflY26K4P/base.js:7230:552
+https://s.ytimg.com/yts/jsbin/www-embed-player-vfl_5XjZ-/www-embed-player.js:459:276
+[native code]
+pe@https://s.ytimg.com/yts/jsbin/www-embed-player-vfl_5XjZ-/www-embed-player.js:459:318
+yh@https://s.ytimg.com/yts/jsbin/www-embed-player-vfl_5XjZ-/www-embed-player.js:457:147
+Tb@https://s.ytimg.com/yts/jsbin/www-embed-player-vfl_5XjZ-/www-embed-player.js:450:189
+https://s.ytimg.com/yts/jsbin/www-embed-player-vfl_5XjZ-/www-embed-player.js:492:422
+[ERROR - 2016-07-29T16:13:00.819Z] Session [986f1e50-55a6-11e6-a763-9183c24d29b1] - page.onError - stack:
+  (anonymous function) (https://s.ytimg.com/yts/jsbin/player-es_ES-vflY26K4P/base.js:3948)
+  (anonymous function) (:0)
+[ERROR - 2016-07-29T16:13:10.184Z] Session [986f1e50-55a6-11e6-a763-9183c24d29b1] - page.onError - msg: getPresentingPlayerType@https://s.ytimg.com/yts/jsbin/player-es_ES-vflY26K4P/base.js:7240:109
+Sr@https://s.ytimg.com/yts/jsbin/player-es_ES-vflY26K4P/base.js:2139:78
+v8@https://s.ytimg.com/yts/jsbin/player-es_ES-vflY26K4P/base.js:4209:81
+Z8@https://s.ytimg.com/yts/jsbin/player-es_ES-vflY26K4P/base.js:4295:299
+create@https://s.ytimg.com/yts/jsbin/player-es_ES-vflY26K4P/base.js:7230:552
+https://s.ytimg.com/yts/jsbin/www-embed-player-vfl_5XjZ-/www-embed-player.js:459:276
+[native code]
+pe@https://s.ytimg.com/yts/jsbin/www-embed-player-vfl_5XjZ-/www-embed-player.js:459:318
+yh@https://s.ytimg.com/yts/jsbin/www-embed-player-vfl_5XjZ-/www-embed-player.js:457:147
+Tb@https://s.ytimg.com/yts/jsbin/www-embed-player-vfl_5XjZ-/www-embed-player.js:450:189
+https://s.ytimg.com/yts/jsbin/www-embed-player-vfl_5XjZ-/www-embed-player.js:492:422
+[ERROR - 2016-07-29T16:13:10.184Z] Session [986f1e50-55a6-11e6-a763-9183c24d29b1] - page.onError - stack:
+  (anonymous function) (https://s.ytimg.com/yts/jsbin/player-es_ES-vflY26K4P/base.js:3948)
+  (anonymous function) (:0)
+[ERROR - 2016-07-29T16:13:15.795Z] Session [986f1e50-55a6-11e6-a763-9183c24d29b1] - page.onError - msg: getPresentingPlayerType@https://s.ytimg.com/yts/jsbin/player-es_ES-vflY26K4P/base.js:7240:109
+Sr@https://s.ytimg.com/yts/jsbin/player-es_ES-vflY26K4P/base.js:2139:78
+v8@https://s.ytimg.com/yts/jsbin/player-es_ES-vflY26K4P/base.js:4209:81
+Z8@https://s.ytimg.com/yts/jsbin/player-es_ES-vflY26K4P/base.js:4295:299
+create@https://s.ytimg.com/yts/jsbin/player-es_ES-vflY26K4P/base.js:7230:552
+https://s.ytimg.com/yts/jsbin/www-embed-player-vfl_5XjZ-/www-embed-player.js:459:276
+[native code]
+pe@https://s.ytimg.com/yts/jsbin/www-embed-player-vfl_5XjZ-/www-embed-player.js:459:318
+yh@https://s.ytimg.com/yts/jsbin/www-embed-player-vfl_5XjZ-/www-embed-player.js:457:147
+Tb@https://s.ytimg.com/yts/jsbin/www-embed-player-vfl_5XjZ-/www-embed-player.js:450:189
+https://s.ytimg.com/yts/jsbin/www-embed-player-vfl_5XjZ-/www-embed-player.js:492:422
+[ERROR - 2016-07-29T16:13:15.796Z] Session [986f1e50-55a6-11e6-a763-9183c24d29b1] - page.onError - stack:
+  (anonymous function) (https://s.ytimg.com/yts/jsbin/player-es_ES-vflY26K4P/base.js:3948)
+  (anonymous function) (:0)
+[ERROR - 2016-07-29T16:13:25.635Z] Session [986f1e50-55a6-11e6-a763-9183c24d29b1] - page.onError - msg: getPresentingPlayerType@https://s.ytimg.com/yts/jsbin/player-es_ES-vflY26K4P/base.js:7240:109
+Sr@https://s.ytimg.com/yts/jsbin/player-es_ES-vflY26K4P/base.js:2139:78
+v8@https://s.ytimg.com/yts/jsbin/player-es_ES-vflY26K4P/base.js:4209:81
+Z8@https://s.ytimg.com/yts/jsbin/player-es_ES-vflY26K4P/base.js:4295:299
+create@https://s.ytimg.com/yts/jsbin/player-es_ES-vflY26K4P/base.js:7230:552
+https://s.ytimg.com/yts/jsbin/www-embed-player-vfl_5XjZ-/www-embed-player.js:459:276
+[native code]
+pe@https://s.ytimg.com/yts/jsbin/www-embed-player-vfl_5XjZ-/www-embed-player.js:459:318
+yh@https://s.ytimg.com/yts/jsbin/www-embed-player-vfl_5XjZ-/www-embed-player.js:457:147
+Tb@https://s.ytimg.com/yts/jsbin/www-embed-player-vfl_5XjZ-/www-embed-player.js:450:189
+https://s.ytimg.com/yts/jsbin/www-embed-player-vfl_5XjZ-/www-embed-player.js:492:422
+[ERROR - 2016-07-29T16:13:25.635Z] Session [986f1e50-55a6-11e6-a763-9183c24d29b1] - page.onError - stack:
+  (anonymous function) (https://s.ytimg.com/yts/jsbin/player-es_ES-vflY26K4P/base.js:3948)
+  (anonymous function) (:0)
+[INFO  - 2016-07-29T16:13:26.119Z] ShutdownReqHand - _handle - About to shutdown
+[INFO  - 2016-07-29T16:13:29.690Z] GhostDriver - Main - running on port 47207
+[INFO  - 2016-07-29T16:13:30.158Z] Session [63ab5110-55a7-11e6-84a5-ed2d045b46d3] - page.settings - {"XSSAuditingEnabled":false,"javascriptCanCloseWindows":true,"javascriptCanOpenWindows":true,"javascriptEnabled":true,"loadImages":true,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.1.1 Safari/538.1","webSecurityEnabled":true}
+[INFO  - 2016-07-29T16:13:30.158Z] Session [63ab5110-55a7-11e6-84a5-ed2d045b46d3] - page.customHeaders:  - {}
+[INFO  - 2016-07-29T16:13:30.158Z] Session [63ab5110-55a7-11e6-84a5-ed2d045b46d3] - Session.negotiatedCapabilities - {"browserName":"phantomjs","version":"2.1.1","driverName":"ghostdriver","driverVersion":"1.2.0","platform":"windows-10-32bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2016-07-29T16:13:30.159Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: 63ab5110-55a7-11e6-84a5-ed2d045b46d3
+[ERROR - 2016-07-29T16:13:33.907Z] Session [63ab5110-55a7-11e6-84a5-ed2d045b46d3] - page.onError - msg: TypeError: undefined is not a constructor (evaluating 'videoLoopObj.play()')
+[ERROR - 2016-07-29T16:13:33.908Z] Session [63ab5110-55a7-11e6-84a5-ed2d045b46d3] - page.onError - stack:
+  (anonymous function) (http://iinsandbox.prod.acquia-sites.com/sites/default/files//advagg_js/js__ovbvDb5JvP01kpSIeTp3975god7lfHtbBHtwAlESp7E__RbNrCX1II7sWtYJLa6wHFwFLE1WfYn6RDuiI1lWds8g__DFS7sfByEXJKuikTGVRoW4mN5oUoszzrS0h-6JAzqc0.js:13)
+  c (http://code.jquery.com/jquery-1.10.2.min.js:4)
+  fireWith (http://code.jquery.com/jquery-1.10.2.min.js:4)
+  ready (http://code.jquery.com/jquery-1.10.2.min.js:4)
+  q (http://code.jquery.com/jquery-1.10.2.min.js:4)
+[ERROR - 2016-07-29T16:13:36.799Z] Session [63ab5110-55a7-11e6-84a5-ed2d045b46d3] - page.onError - msg: getPresentingPlayerType@https://s.ytimg.com/yts/jsbin/player-es_ES-vflY26K4P/base.js:7240:109
+Sr@https://s.ytimg.com/yts/jsbin/player-es_ES-vflY26K4P/base.js:2139:78
+v8@https://s.ytimg.com/yts/jsbin/player-es_ES-vflY26K4P/base.js:4209:81
+Z8@https://s.ytimg.com/yts/jsbin/player-es_ES-vflY26K4P/base.js:4295:299
+create@https://s.ytimg.com/yts/jsbin/player-es_ES-vflY26K4P/base.js:7230:552
+https://s.ytimg.com/yts/jsbin/www-embed-player-vfl_5XjZ-/www-embed-player.js:459:276
+[native code]
+pe@https://s.ytimg.com/yts/jsbin/www-embed-player-vfl_5XjZ-/www-embed-player.js:459:318
+yh@https://s.ytimg.com/yts/jsbin/www-embed-player-vfl_5XjZ-/www-embed-player.js:457:147
+Tb@https://s.ytimg.com/yts/jsbin/www-embed-player-vfl_5XjZ-/www-embed-player.js:450:189
+https://s.ytimg.com/yts/jsbin/www-embed-player-vfl_5XjZ-/www-embed-player.js:492:422
+[ERROR - 2016-07-29T16:13:36.800Z] Session [63ab5110-55a7-11e6-84a5-ed2d045b46d3] - page.onError - stack:
+  (anonymous function) (https://s.ytimg.com/yts/jsbin/player-es_ES-vflY26K4P/base.js:3948)
+  (anonymous function) (:0)
+[ERROR - 2016-07-29T16:13:40.496Z] Session [63ab5110-55a7-11e6-84a5-ed2d045b46d3] - page.onError - msg: TypeError: undefined is not a constructor (evaluating 'videoLoopObj.play()')
+[ERROR - 2016-07-29T16:13:40.497Z] Session [63ab5110-55a7-11e6-84a5-ed2d045b46d3] - page.onError - stack:
+  (anonymous function) (http://iinsandbox.prod.acquia-sites.com/sites/default/files//advagg_js/js__ovbvDb5JvP01kpSIeTp3975god7lfHtbBHtwAlESp7E__RbNrCX1II7sWtYJLa6wHFwFLE1WfYn6RDuiI1lWds8g__DFS7sfByEXJKuikTGVRoW4mN5oUoszzrS0h-6JAzqc0.js:13)
+  c (http://code.jquery.com/jquery-1.10.2.min.js:4)
+  fireWith (http://code.jquery.com/jquery-1.10.2.min.js:4)
+  ready (http://code.jquery.com/jquery-1.10.2.min.js:4)
+  q (http://code.jquery.com/jquery-1.10.2.min.js:4)
+[ERROR - 2016-07-29T16:13:40.691Z] Session [63ab5110-55a7-11e6-84a5-ed2d045b46d3] - page.onError - msg: getPresentingPlayerType@https://s.ytimg.com/yts/jsbin/player-es_ES-vflY26K4P/base.js:7240:109
+Sr@https://s.ytimg.com/yts/jsbin/player-es_ES-vflY26K4P/base.js:2139:78
+v8@https://s.ytimg.com/yts/jsbin/player-es_ES-vflY26K4P/base.js:4209:81
+Z8@https://s.ytimg.com/yts/jsbin/player-es_ES-vflY26K4P/base.js:4295:299
+create@https://s.ytimg.com/yts/jsbin/player-es_ES-vflY26K4P/base.js:7230:552
+https://s.ytimg.com/yts/jsbin/www-embed-player-vfl_5XjZ-/www-embed-player.js:459:276
+[native code]
+pe@https://s.ytimg.com/yts/jsbin/www-embed-player-vfl_5XjZ-/www-embed-player.js:459:318
+yh@https://s.ytimg.com/yts/jsbin/www-embed-player-vfl_5XjZ-/www-embed-player.js:457:147
+Tb@https://s.ytimg.com/yts/jsbin/www-embed-player-vfl_5XjZ-/www-embed-player.js:450:189
+https://s.ytimg.com/yts/jsbin/www-embed-player-vfl_5XjZ-/www-embed-player.js:492:422
+[ERROR - 2016-07-29T16:13:40.693Z] Session [63ab5110-55a7-11e6-84a5-ed2d045b46d3] - page.onError - stack:
+  (anonymous function) (https://s.ytimg.com/yts/jsbin/player-es_ES-vflY26K4P/base.js:3948)
+  (anonymous function) (:0)
+[ERROR - 2016-07-29T16:13:47.626Z] Session [63ab5110-55a7-11e6-84a5-ed2d045b46d3] - page.onError - msg: TypeError: undefined is not a constructor (evaluating 'videoLoopObj.play()')
+[ERROR - 2016-07-29T16:13:47.627Z] Session [63ab5110-55a7-11e6-84a5-ed2d045b46d3] - page.onError - stack:
+  (anonymous function) (http://iinsandbox.prod.acquia-sites.com/sites/default/files//advagg_js/js__ovbvDb5JvP01kpSIeTp3975god7lfHtbBHtwAlESp7E__RbNrCX1II7sWtYJLa6wHFwFLE1WfYn6RDuiI1lWds8g__DFS7sfByEXJKuikTGVRoW4mN5oUoszzrS0h-6JAzqc0.js:13)
+  c (http://code.jquery.com/jquery-1.10.2.min.js:4)
+  fireWith (http://code.jquery.com/jquery-1.10.2.min.js:4)
+  ready (http://code.jquery.com/jquery-1.10.2.min.js:4)
+  q (http://code.jquery.com/jquery-1.10.2.min.js:4)
+[ERROR - 2016-07-29T16:13:47.959Z] Session [63ab5110-55a7-11e6-84a5-ed2d045b46d3] - page.onError - msg: getPresentingPlayerType@https://s.ytimg.com/yts/jsbin/player-es_ES-vflY26K4P/base.js:7240:109
+Sr@https://s.ytimg.com/yts/jsbin/player-es_ES-vflY26K4P/base.js:2139:78
+v8@https://s.ytimg.com/yts/jsbin/player-es_ES-vflY26K4P/base.js:4209:81
+Z8@https://s.ytimg.com/yts/jsbin/player-es_ES-vflY26K4P/base.js:4295:299
+create@https://s.ytimg.com/yts/jsbin/player-es_ES-vflY26K4P/base.js:7230:552
+https://s.ytimg.com/yts/jsbin/www-embed-player-vfl_5XjZ-/www-embed-player.js:459:276
+[native code]
+pe@https://s.ytimg.com/yts/jsbin/www-embed-player-vfl_5XjZ-/www-embed-player.js:459:318
+yh@https://s.ytimg.com/yts/jsbin/www-embed-player-vfl_5XjZ-/www-embed-player.js:457:147
+Tb@https://s.ytimg.com/yts/jsbin/www-embed-player-vfl_5XjZ-/www-embed-player.js:450:189
+https://s.ytimg.com/yts/jsbin/www-embed-player-vfl_5XjZ-/www-embed-player.js:492:422
+[ERROR - 2016-07-29T16:13:47.959Z] Session [63ab5110-55a7-11e6-84a5-ed2d045b46d3] - page.onError - stack:
+  (anonymous function) (https://s.ytimg.com/yts/jsbin/player-es_ES-vflY26K4P/base.js:3948)
+  (anonymous function) (:0)
+[ERROR - 2016-07-29T16:13:55.277Z] Session [63ab5110-55a7-11e6-84a5-ed2d045b46d3] - page.onError - msg: TypeError: undefined is not a constructor (evaluating 'videoLoopObj.play()')
+[ERROR - 2016-07-29T16:13:55.278Z] Session [63ab5110-55a7-11e6-84a5-ed2d045b46d3] - page.onError - stack:
+  (anonymous function) (http://iinsandbox.prod.acquia-sites.com/sites/default/files//advagg_js/js__ovbvDb5JvP01kpSIeTp3975god7lfHtbBHtwAlESp7E__RbNrCX1II7sWtYJLa6wHFwFLE1WfYn6RDuiI1lWds8g__DFS7sfByEXJKuikTGVRoW4mN5oUoszzrS0h-6JAzqc0.js:13)
+  c (http://code.jquery.com/jquery-1.10.2.min.js:4)
+  fireWith (http://code.jquery.com/jquery-1.10.2.min.js:4)
+  ready (http://code.jquery.com/jquery-1.10.2.min.js:4)
+  q (http://code.jquery.com/jquery-1.10.2.min.js:4)
+[ERROR - 2016-07-29T16:13:55.386Z] Session [63ab5110-55a7-11e6-84a5-ed2d045b46d3] - page.onError - msg: getPresentingPlayerType@https://s.ytimg.com/yts/jsbin/player-es_ES-vflY26K4P/base.js:7240:109
+Sr@https://s.ytimg.com/yts/jsbin/player-es_ES-vflY26K4P/base.js:2139:78
+v8@https://s.ytimg.com/yts/jsbin/player-es_ES-vflY26K4P/base.js:4209:81
+Z8@https://s.ytimg.com/yts/jsbin/player-es_ES-vflY26K4P/base.js:4295:299
+create@https://s.ytimg.com/yts/jsbin/player-es_ES-vflY26K4P/base.js:7230:552
+https://s.ytimg.com/yts/jsbin/www-embed-player-vfl_5XjZ-/www-embed-player.js:459:276
+[native code]
+pe@https://s.ytimg.com/yts/jsbin/www-embed-player-vfl_5XjZ-/www-embed-player.js:459:318
+yh@https://s.ytimg.com/yts/jsbin/www-embed-player-vfl_5XjZ-/www-embed-player.js:457:147
+Tb@https://s.ytimg.com/yts/jsbin/www-embed-player-vfl_5XjZ-/www-embed-player.js:450:189
+https://s.ytimg.com/yts/jsbin/www-embed-player-vfl_5XjZ-/www-embed-player.js:492:422
+[ERROR - 2016-07-29T16:13:55.387Z] Session [63ab5110-55a7-11e6-84a5-ed2d045b46d3] - page.onError - stack:
+  (anonymous function) (https://s.ytimg.com/yts/jsbin/player-es_ES-vflY26K4P/base.js:3948)
+  (anonymous function) (:0)
+[ERROR - 2016-07-29T16:13:58.134Z] Session [63ab5110-55a7-11e6-84a5-ed2d045b46d3] - page.onError - msg: TypeError: undefined is not a constructor (evaluating 'videoLoopObj.play()')
+[ERROR - 2016-07-29T16:13:58.135Z] Session [63ab5110-55a7-11e6-84a5-ed2d045b46d3] - page.onError - stack:
+  (anonymous function) (http://iinsandbox.prod.acquia-sites.com/sites/default/files//advagg_js/js__ovbvDb5JvP01kpSIeTp3975god7lfHtbBHtwAlESp7E__RbNrCX1II7sWtYJLa6wHFwFLE1WfYn6RDuiI1lWds8g__DFS7sfByEXJKuikTGVRoW4mN5oUoszzrS0h-6JAzqc0.js:13)
+  c (http://code.jquery.com/jquery-1.10.2.min.js:4)
+  fireWith (http://code.jquery.com/jquery-1.10.2.min.js:4)
+  ready (http://code.jquery.com/jquery-1.10.2.min.js:4)
+  q (http://code.jquery.com/jquery-1.10.2.min.js:4)
+[ERROR - 2016-07-29T16:13:58.313Z] Session [63ab5110-55a7-11e6-84a5-ed2d045b46d3] - page.onError - msg: getPresentingPlayerType@https://s.ytimg.com/yts/jsbin/player-es_ES-vflY26K4P/base.js:7240:109
+Sr@https://s.ytimg.com/yts/jsbin/player-es_ES-vflY26K4P/base.js:2139:78
+v8@https://s.ytimg.com/yts/jsbin/player-es_ES-vflY26K4P/base.js:4209:81
+Z8@https://s.ytimg.com/yts/jsbin/player-es_ES-vflY26K4P/base.js:4295:299
+create@https://s.ytimg.com/yts/jsbin/player-es_ES-vflY26K4P/base.js:7230:552
+https://s.ytimg.com/yts/jsbin/www-embed-player-vfl_5XjZ-/www-embed-player.js:459:276
+[native code]
+pe@https://s.ytimg.com/yts/jsbin/www-embed-player-vfl_5XjZ-/www-embed-player.js:459:318
+yh@https://s.ytimg.com/yts/jsbin/www-embed-player-vfl_5XjZ-/www-embed-player.js:457:147
+Tb@https://s.ytimg.com/yts/jsbin/www-embed-player-vfl_5XjZ-/www-embed-player.js:450:189
+https://s.ytimg.com/yts/jsbin/www-embed-player-vfl_5XjZ-/www-embed-player.js:492:422
+[ERROR - 2016-07-29T16:13:58.314Z] Session [63ab5110-55a7-11e6-84a5-ed2d045b46d3] - page.onError - stack:
+  (anonymous function) (https://s.ytimg.com/yts/jsbin/player-es_ES-vflY26K4P/base.js:3948)
+  (anonymous function) (:0)
+[ERROR - 2016-07-29T16:14:00.779Z] Session [63ab5110-55a7-11e6-84a5-ed2d045b46d3] - page.onError - msg: TypeError: undefined is not a constructor (evaluating 'videoLoopObj.play()')
+[ERROR - 2016-07-29T16:14:00.780Z] Session [63ab5110-55a7-11e6-84a5-ed2d045b46d3] - page.onError - stack:
+  (anonymous function) (http://iinsandbox.prod.acquia-sites.com/sites/default/files//advagg_js/js__ovbvDb5JvP01kpSIeTp3975god7lfHtbBHtwAlESp7E__RbNrCX1II7sWtYJLa6wHFwFLE1WfYn6RDuiI1lWds8g__DFS7sfByEXJKuikTGVRoW4mN5oUoszzrS0h-6JAzqc0.js:13)
+  c (http://code.jquery.com/jquery-1.10.2.min.js:4)
+  fireWith (http://code.jquery.com/jquery-1.10.2.min.js:4)
+  ready (http://code.jquery.com/jquery-1.10.2.min.js:4)
+  q (http://code.jquery.com/jquery-1.10.2.min.js:4)
+[ERROR - 2016-07-29T16:14:01.015Z] Session [63ab5110-55a7-11e6-84a5-ed2d045b46d3] - page.onError - msg: getPresentingPlayerType@https://s.ytimg.com/yts/jsbin/player-es_ES-vflY26K4P/base.js:7240:109
+Sr@https://s.ytimg.com/yts/jsbin/player-es_ES-vflY26K4P/base.js:2139:78
+v8@https://s.ytimg.com/yts/jsbin/player-es_ES-vflY26K4P/base.js:4209:81
+Z8@https://s.ytimg.com/yts/jsbin/player-es_ES-vflY26K4P/base.js:4295:299
+create@https://s.ytimg.com/yts/jsbin/player-es_ES-vflY26K4P/base.js:7230:552
+https://s.ytimg.com/yts/jsbin/www-embed-player-vfl_5XjZ-/www-embed-player.js:459:276
+[native code]
+pe@https://s.ytimg.com/yts/jsbin/www-embed-player-vfl_5XjZ-/www-embed-player.js:459:318
+yh@https://s.ytimg.com/yts/jsbin/www-embed-player-vfl_5XjZ-/www-embed-player.js:457:147
+Tb@https://s.ytimg.com/yts/jsbin/www-embed-player-vfl_5XjZ-/www-embed-player.js:450:189
+https://s.ytimg.com/yts/jsbin/www-embed-player-vfl_5XjZ-/www-embed-player.js:492:422
+[ERROR - 2016-07-29T16:14:01.016Z] Session [63ab5110-55a7-11e6-84a5-ed2d045b46d3] - page.onError - stack:
+  (anonymous function) (https://s.ytimg.com/yts/jsbin/player-es_ES-vflY26K4P/base.js:3948)
+  (anonymous function) (:0)
+[ERROR - 2016-07-29T16:14:07.447Z] Session [63ab5110-55a7-11e6-84a5-ed2d045b46d3] - page.onError - msg: TypeError: undefined is not a constructor (evaluating 'videoLoopObj.play()')
+[ERROR - 2016-07-29T16:14:07.457Z] Session [63ab5110-55a7-11e6-84a5-ed2d045b46d3] - page.onError - stack:
+  (anonymous function) (http://iinsandbox.prod.acquia-sites.com/sites/default/files//advagg_js/js__ovbvDb5JvP01kpSIeTp3975god7lfHtbBHtwAlESp7E__RbNrCX1II7sWtYJLa6wHFwFLE1WfYn6RDuiI1lWds8g__DFS7sfByEXJKuikTGVRoW4mN5oUoszzrS0h-6JAzqc0.js:13)
+  c (http://code.jquery.com/jquery-1.10.2.min.js:4)
+  fireWith (http://code.jquery.com/jquery-1.10.2.min.js:4)
+  ready (http://code.jquery.com/jquery-1.10.2.min.js:4)
+  q (http://code.jquery.com/jquery-1.10.2.min.js:4)
+[ERROR - 2016-07-29T16:14:07.610Z] Session [63ab5110-55a7-11e6-84a5-ed2d045b46d3] - page.onError - msg: getPresentingPlayerType@https://s.ytimg.com/yts/jsbin/player-es_ES-vflY26K4P/base.js:7240:109
+Sr@https://s.ytimg.com/yts/jsbin/player-es_ES-vflY26K4P/base.js:2139:78
+v8@https://s.ytimg.com/yts/jsbin/player-es_ES-vflY26K4P/base.js:4209:81
+Z8@https://s.ytimg.com/yts/jsbin/player-es_ES-vflY26K4P/base.js:4295:299
+create@https://s.ytimg.com/yts/jsbin/player-es_ES-vflY26K4P/base.js:7230:552
+https://s.ytimg.com/yts/jsbin/www-embed-player-vfl_5XjZ-/www-embed-player.js:459:276
+[native code]
+pe@https://s.ytimg.com/yts/jsbin/www-embed-player-vfl_5XjZ-/www-embed-player.js:459:318
+yh@https://s.ytimg.com/yts/jsbin/www-embed-player-vfl_5XjZ-/www-embed-player.js:457:147
+Tb@https://s.ytimg.com/yts/jsbin/www-embed-player-vfl_5XjZ-/www-embed-player.js:450:189
+https://s.ytimg.com/yts/jsbin/www-embed-player-vfl_5XjZ-/www-embed-player.js:492:422
+[ERROR - 2016-07-29T16:14:07.666Z] Session [63ab5110-55a7-11e6-84a5-ed2d045b46d3] - page.onError - stack:
+  (anonymous function) (https://s.ytimg.com/yts/jsbin/player-es_ES-vflY26K4P/base.js:3948)
+  (anonymous function) (:0)
+[ERROR - 2016-07-29T16:14:10.767Z] Session [63ab5110-55a7-11e6-84a5-ed2d045b46d3] - page.onError - msg: TypeError: undefined is not a constructor (evaluating 'videoLoopObj.play()')
+[ERROR - 2016-07-29T16:14:10.768Z] Session [63ab5110-55a7-11e6-84a5-ed2d045b46d3] - page.onError - stack:
+  (anonymous function) (http://iinsandbox.prod.acquia-sites.com/sites/default/files//advagg_js/js__ovbvDb5JvP01kpSIeTp3975god7lfHtbBHtwAlESp7E__RbNrCX1II7sWtYJLa6wHFwFLE1WfYn6RDuiI1lWds8g__DFS7sfByEXJKuikTGVRoW4mN5oUoszzrS0h-6JAzqc0.js:13)
+  c (http://code.jquery.com/jquery-1.10.2.min.js:4)
+  fireWith (http://code.jquery.com/jquery-1.10.2.min.js:4)
+  ready (http://code.jquery.com/jquery-1.10.2.min.js:4)
+  q (http://code.jquery.com/jquery-1.10.2.min.js:4)
+[ERROR - 2016-07-29T16:14:10.857Z] Session [63ab5110-55a7-11e6-84a5-ed2d045b46d3] - page.onError - msg: getPresentingPlayerType@https://s.ytimg.com/yts/jsbin/player-es_ES-vflY26K4P/base.js:7240:109
+Sr@https://s.ytimg.com/yts/jsbin/player-es_ES-vflY26K4P/base.js:2139:78
+v8@https://s.ytimg.com/yts/jsbin/player-es_ES-vflY26K4P/base.js:4209:81
+Z8@https://s.ytimg.com/yts/jsbin/player-es_ES-vflY26K4P/base.js:4295:299
+create@https://s.ytimg.com/yts/jsbin/player-es_ES-vflY26K4P/base.js:7230:552
+https://s.ytimg.com/yts/jsbin/www-embed-player-vfl_5XjZ-/www-embed-player.js:459:276
+[native code]
+pe@https://s.ytimg.com/yts/jsbin/www-embed-player-vfl_5XjZ-/www-embed-player.js:459:318
+yh@https://s.ytimg.com/yts/jsbin/www-embed-player-vfl_5XjZ-/www-embed-player.js:457:147
+Tb@https://s.ytimg.com/yts/jsbin/www-embed-player-vfl_5XjZ-/www-embed-player.js:450:189
+https://s.ytimg.com/yts/jsbin/www-embed-player-vfl_5XjZ-/www-embed-player.js:492:422
+[ERROR - 2016-07-29T16:14:10.857Z] Session [63ab5110-55a7-11e6-84a5-ed2d045b46d3] - page.onError - stack:
+  (anonymous function) (https://s.ytimg.com/yts/jsbin/player-es_ES-vflY26K4P/base.js:3948)
+  (anonymous function) (:0)
+[ERROR - 2016-07-29T16:14:12.899Z] Session [63ab5110-55a7-11e6-84a5-ed2d045b46d3] - page.onError - msg: TypeError: undefined is not a constructor (evaluating 'videoLoopObj.play()')
+[ERROR - 2016-07-29T16:14:12.900Z] Session [63ab5110-55a7-11e6-84a5-ed2d045b46d3] - page.onError - stack:
+  (anonymous function) (http://iinsandbox.prod.acquia-sites.com/sites/default/files//advagg_js/js__ovbvDb5JvP01kpSIeTp3975god7lfHtbBHtwAlESp7E__RbNrCX1II7sWtYJLa6wHFwFLE1WfYn6RDuiI1lWds8g__DFS7sfByEXJKuikTGVRoW4mN5oUoszzrS0h-6JAzqc0.js:13)
+  c (http://code.jquery.com/jquery-1.10.2.min.js:4)
+  fireWith (http://code.jquery.com/jquery-1.10.2.min.js:4)
+  ready (http://code.jquery.com/jquery-1.10.2.min.js:4)
+  q (http://code.jquery.com/jquery-1.10.2.min.js:4)
+[ERROR - 2016-07-29T16:14:13.163Z] Session [63ab5110-55a7-11e6-84a5-ed2d045b46d3] - page.onError - msg: getPresentingPlayerType@https://s.ytimg.com/yts/jsbin/player-es_ES-vflY26K4P/base.js:7240:109
+Sr@https://s.ytimg.com/yts/jsbin/player-es_ES-vflY26K4P/base.js:2139:78
+v8@https://s.ytimg.com/yts/jsbin/player-es_ES-vflY26K4P/base.js:4209:81
+Z8@https://s.ytimg.com/yts/jsbin/player-es_ES-vflY26K4P/base.js:4295:299
+create@https://s.ytimg.com/yts/jsbin/player-es_ES-vflY26K4P/base.js:7230:552
+https://s.ytimg.com/yts/jsbin/www-embed-player-vfl_5XjZ-/www-embed-player.js:459:276
+[native code]
+pe@https://s.ytimg.com/yts/jsbin/www-embed-player-vfl_5XjZ-/www-embed-player.js:459:318
+yh@https://s.ytimg.com/yts/jsbin/www-embed-player-vfl_5XjZ-/www-embed-player.js:457:147
+Tb@https://s.ytimg.com/yts/jsbin/www-embed-player-vfl_5XjZ-/www-embed-player.js:450:189
+https://s.ytimg.com/yts/jsbin/www-embed-player-vfl_5XjZ-/www-embed-player.js:492:422
+[ERROR - 2016-07-29T16:14:13.171Z] Session [63ab5110-55a7-11e6-84a5-ed2d045b46d3] - page.onError - stack:
+  (anonymous function) (https://s.ytimg.com/yts/jsbin/player-es_ES-vflY26K4P/base.js:3948)
+  (anonymous function) (:0)
+[ERROR - 2016-07-29T16:14:15.658Z] Session [63ab5110-55a7-11e6-84a5-ed2d045b46d3] - page.onError - msg: TypeError: undefined is not a constructor (evaluating 'videoLoopObj.play()')
+[ERROR - 2016-07-29T16:14:15.659Z] Session [63ab5110-55a7-11e6-84a5-ed2d045b46d3] - page.onError - stack:
+  (anonymous function) (http://iinsandbox.prod.acquia-sites.com/sites/default/files//advagg_js/js__ovbvDb5JvP01kpSIeTp3975god7lfHtbBHtwAlESp7E__RbNrCX1II7sWtYJLa6wHFwFLE1WfYn6RDuiI1lWds8g__DFS7sfByEXJKuikTGVRoW4mN5oUoszzrS0h-6JAzqc0.js:13)
+  c (http://code.jquery.com/jquery-1.10.2.min.js:4)
+  fireWith (http://code.jquery.com/jquery-1.10.2.min.js:4)
+  ready (http://code.jquery.com/jquery-1.10.2.min.js:4)
+  q (http://code.jquery.com/jquery-1.10.2.min.js:4)
+[ERROR - 2016-07-29T16:14:16.039Z] Session [63ab5110-55a7-11e6-84a5-ed2d045b46d3] - page.onError - msg: getPresentingPlayerType@https://s.ytimg.com/yts/jsbin/player-es_ES-vflY26K4P/base.js:7240:109
+Sr@https://s.ytimg.com/yts/jsbin/player-es_ES-vflY26K4P/base.js:2139:78
+v8@https://s.ytimg.com/yts/jsbin/player-es_ES-vflY26K4P/base.js:4209:81
+Z8@https://s.ytimg.com/yts/jsbin/player-es_ES-vflY26K4P/base.js:4295:299
+create@https://s.ytimg.com/yts/jsbin/player-es_ES-vflY26K4P/base.js:7230:552
+https://s.ytimg.com/yts/jsbin/www-embed-player-vfl_5XjZ-/www-embed-player.js:459:276
+[native code]
+pe@https://s.ytimg.com/yts/jsbin/www-embed-player-vfl_5XjZ-/www-embed-player.js:459:318
+yh@https://s.ytimg.com/yts/jsbin/www-embed-player-vfl_5XjZ-/www-embed-player.js:457:147
+Tb@https://s.ytimg.com/yts/jsbin/www-embed-player-vfl_5XjZ-/www-embed-player.js:450:189
+https://s.ytimg.com/yts/jsbin/www-embed-player-vfl_5XjZ-/www-embed-player.js:492:422
+[ERROR - 2016-07-29T16:14:16.039Z] Session [63ab5110-55a7-11e6-84a5-ed2d045b46d3] - page.onError - stack:
+  (anonymous function) (https://s.ytimg.com/yts/jsbin/player-es_ES-vflY26K4P/base.js:3948)
+  (anonymous function) (:0)
+[ERROR - 2016-07-29T16:14:18.398Z] Session [63ab5110-55a7-11e6-84a5-ed2d045b46d3] - page.onError - msg: TypeError: undefined is not a constructor (evaluating 'videoLoopObj.play()')
+[ERROR - 2016-07-29T16:14:18.399Z] Session [63ab5110-55a7-11e6-84a5-ed2d045b46d3] - page.onError - stack:
+  (anonymous function) (http://iinsandbox.prod.acquia-sites.com/sites/default/files//advagg_js/js__ovbvDb5JvP01kpSIeTp3975god7lfHtbBHtwAlESp7E__RbNrCX1II7sWtYJLa6wHFwFLE1WfYn6RDuiI1lWds8g__DFS7sfByEXJKuikTGVRoW4mN5oUoszzrS0h-6JAzqc0.js:13)
+  c (http://code.jquery.com/jquery-1.10.2.min.js:4)
+  fireWith (http://code.jquery.com/jquery-1.10.2.min.js:4)
+  ready (http://code.jquery.com/jquery-1.10.2.min.js:4)
+  q (http://code.jquery.com/jquery-1.10.2.min.js:4)
+[ERROR - 2016-07-29T16:14:18.800Z] Session [63ab5110-55a7-11e6-84a5-ed2d045b46d3] - page.onError - msg: getPresentingPlayerType@https://s.ytimg.com/yts/jsbin/player-es_ES-vflY26K4P/base.js:7240:109
+Sr@https://s.ytimg.com/yts/jsbin/player-es_ES-vflY26K4P/base.js:2139:78
+v8@https://s.ytimg.com/yts/jsbin/player-es_ES-vflY26K4P/base.js:4209:81
+Z8@https://s.ytimg.com/yts/jsbin/player-es_ES-vflY26K4P/base.js:4295:299
+create@https://s.ytimg.com/yts/jsbin/player-es_ES-vflY26K4P/base.js:7230:552
+https://s.ytimg.com/yts/jsbin/www-embed-player-vfl_5XjZ-/www-embed-player.js:459:276
+[native code]
+pe@https://s.ytimg.com/yts/jsbin/www-embed-player-vfl_5XjZ-/www-embed-player.js:459:318
+yh@https://s.ytimg.com/yts/jsbin/www-embed-player-vfl_5XjZ-/www-embed-player.js:457:147
+Tb@https://s.ytimg.com/yts/jsbin/www-embed-player-vfl_5XjZ-/www-embed-player.js:450:189
+https://s.ytimg.com/yts/jsbin/www-embed-player-vfl_5XjZ-/www-embed-player.js:492:422
+[ERROR - 2016-07-29T16:14:18.805Z] Session [63ab5110-55a7-11e6-84a5-ed2d045b46d3] - page.onError - stack:
+  (anonymous function) (https://s.ytimg.com/yts/jsbin/player-es_ES-vflY26K4P/base.js:3948)
+  (anonymous function) (:0)
+[INFO  - 2016-07-29T16:14:19.935Z] ShutdownReqHand - _handle - About to shutdown
+[INFO  - 2016-07-29T16:14:23.782Z] GhostDriver - Main - running on port 2888
+[INFO  - 2016-07-29T16:14:23.967Z] Session [83bdeb20-55a7-11e6-b044-b7adfda34935] - page.settings - {"XSSAuditingEnabled":false,"javascriptCanCloseWindows":true,"javascriptCanOpenWindows":true,"javascriptEnabled":true,"loadImages":true,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.1.1 Safari/538.1","webSecurityEnabled":true}
+[INFO  - 2016-07-29T16:14:23.967Z] Session [83bdeb20-55a7-11e6-b044-b7adfda34935] - page.customHeaders:  - {}
+[INFO  - 2016-07-29T16:14:23.968Z] Session [83bdeb20-55a7-11e6-b044-b7adfda34935] - Session.negotiatedCapabilities - {"browserName":"phantomjs","version":"2.1.1","driverName":"ghostdriver","driverVersion":"1.2.0","platform":"windows-10-32bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2016-07-29T16:14:23.968Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: 83bdeb20-55a7-11e6-b044-b7adfda34935
+[ERROR - 2016-07-29T16:14:27.721Z] Session [83bdeb20-55a7-11e6-b044-b7adfda34935] - page.onError - msg: TypeError: undefined is not a constructor (evaluating 'videoLoopObj.play()')
+[ERROR - 2016-07-29T16:14:27.721Z] Session [83bdeb20-55a7-11e6-b044-b7adfda34935] - page.onError - stack:
+  (anonymous function) (http://iinsandbox.prod.acquia-sites.com/sites/default/files//advagg_js/js__ovbvDb5JvP01kpSIeTp3975god7lfHtbBHtwAlESp7E__RbNrCX1II7sWtYJLa6wHFwFLE1WfYn6RDuiI1lWds8g__DFS7sfByEXJKuikTGVRoW4mN5oUoszzrS0h-6JAzqc0.js:13)
+  c (http://code.jquery.com/jquery-1.10.2.min.js:4)
+  fireWith (http://code.jquery.com/jquery-1.10.2.min.js:4)
+  ready (http://code.jquery.com/jquery-1.10.2.min.js:4)
+  q (http://code.jquery.com/jquery-1.10.2.min.js:4)
+[ERROR - 2016-07-29T16:14:30.066Z] Session [83bdeb20-55a7-11e6-b044-b7adfda34935] - page.onError - msg: getPresentingPlayerType@https://s.ytimg.com/yts/jsbin/player-es_ES-vflY26K4P/base.js:7240:109
+Sr@https://s.ytimg.com/yts/jsbin/player-es_ES-vflY26K4P/base.js:2139:78
+v8@https://s.ytimg.com/yts/jsbin/player-es_ES-vflY26K4P/base.js:4209:81
+Z8@https://s.ytimg.com/yts/jsbin/player-es_ES-vflY26K4P/base.js:4295:299
+create@https://s.ytimg.com/yts/jsbin/player-es_ES-vflY26K4P/base.js:7230:552
+https://s.ytimg.com/yts/jsbin/www-embed-player-vfl_5XjZ-/www-embed-player.js:459:276
+[native code]
+pe@https://s.ytimg.com/yts/jsbin/www-embed-player-vfl_5XjZ-/www-embed-player.js:459:318
+yh@https://s.ytimg.com/yts/jsbin/www-embed-player-vfl_5XjZ-/www-embed-player.js:457:147
+Tb@https://s.ytimg.com/yts/jsbin/www-embed-player-vfl_5XjZ-/www-embed-player.js:450:189
+https://s.ytimg.com/yts/jsbin/www-embed-player-vfl_5XjZ-/www-embed-player.js:492:422
+[ERROR - 2016-07-29T16:14:30.067Z] Session [83bdeb20-55a7-11e6-b044-b7adfda34935] - page.onError - stack:
+  (anonymous function) (https://s.ytimg.com/yts/jsbin/player-es_ES-vflY26K4P/base.js:3948)
+  (anonymous function) (:0)
+[ERROR - 2016-07-29T16:14:32.459Z] Session [83bdeb20-55a7-11e6-b044-b7adfda34935] - page.onError - msg: TypeError: undefined is not a constructor (evaluating 'videoLoopObj.play()')
+[ERROR - 2016-07-29T16:14:32.460Z] Session [83bdeb20-55a7-11e6-b044-b7adfda34935] - page.onError - stack:
+  (anonymous function) (http://iinsandbox.prod.acquia-sites.com/sites/default/files//advagg_js/js__ovbvDb5JvP01kpSIeTp3975god7lfHtbBHtwAlESp7E__RbNrCX1II7sWtYJLa6wHFwFLE1WfYn6RDuiI1lWds8g__DFS7sfByEXJKuikTGVRoW4mN5oUoszzrS0h-6JAzqc0.js:13)
+  c (http://code.jquery.com/jquery-1.10.2.min.js:4)
+  fireWith (http://code.jquery.com/jquery-1.10.2.min.js:4)
+  ready (http://code.jquery.com/jquery-1.10.2.min.js:4)
+  q (http://code.jquery.com/jquery-1.10.2.min.js:4)
+[ERROR - 2016-07-29T16:14:32.643Z] Session [83bdeb20-55a7-11e6-b044-b7adfda34935] - page.onError - msg: getPresentingPlayerType@https://s.ytimg.com/yts/jsbin/player-es_ES-vflY26K4P/base.js:7240:109
+Sr@https://s.ytimg.com/yts/jsbin/player-es_ES-vflY26K4P/base.js:2139:78
+v8@https://s.ytimg.com/yts/jsbin/player-es_ES-vflY26K4P/base.js:4209:81
+Z8@https://s.ytimg.com/yts/jsbin/player-es_ES-vflY26K4P/base.js:4295:299
+create@https://s.ytimg.com/yts/jsbin/player-es_ES-vflY26K4P/base.js:7230:552
+https://s.ytimg.com/yts/jsbin/www-embed-player-vfl_5XjZ-/www-embed-player.js:459:276
+[native code]
+pe@https://s.ytimg.com/yts/jsbin/www-embed-player-vfl_5XjZ-/www-embed-player.js:459:318
+yh@https://s.ytimg.com/yts/jsbin/www-embed-player-vfl_5XjZ-/www-embed-player.js:457:147
+Tb@https://s.ytimg.com/yts/jsbin/www-embed-player-vfl_5XjZ-/www-embed-player.js:450:189
+https://s.ytimg.com/yts/jsbin/www-embed-player-vfl_5XjZ-/www-embed-player.js:492:422
+[ERROR - 2016-07-29T16:14:32.643Z] Session [83bdeb20-55a7-11e6-b044-b7adfda34935] - page.onError - stack:
+  (anonymous function) (https://s.ytimg.com/yts/jsbin/player-es_ES-vflY26K4P/base.js:3948)
+  (anonymous function) (:0)
+[ERROR - 2016-07-29T16:14:34.612Z] Session [83bdeb20-55a7-11e6-b044-b7adfda34935] - page.onError - msg: TypeError: undefined is not a constructor (evaluating 'videoLoopObj.play()')
+[ERROR - 2016-07-29T16:14:34.613Z] Session [83bdeb20-55a7-11e6-b044-b7adfda34935] - page.onError - stack:
+  (anonymous function) (http://iinsandbox.prod.acquia-sites.com/sites/default/files//advagg_js/js__ovbvDb5JvP01kpSIeTp3975god7lfHtbBHtwAlESp7E__RbNrCX1II7sWtYJLa6wHFwFLE1WfYn6RDuiI1lWds8g__DFS7sfByEXJKuikTGVRoW4mN5oUoszzrS0h-6JAzqc0.js:13)
+  c (http://code.jquery.com/jquery-1.10.2.min.js:4)
+  fireWith (http://code.jquery.com/jquery-1.10.2.min.js:4)
+  ready (http://code.jquery.com/jquery-1.10.2.min.js:4)
+  q (http://code.jquery.com/jquery-1.10.2.min.js:4)
+[ERROR - 2016-07-29T16:14:34.932Z] Session [83bdeb20-55a7-11e6-b044-b7adfda34935] - page.onError - msg: getPresentingPlayerType@https://s.ytimg.com/yts/jsbin/player-es_ES-vflY26K4P/base.js:7240:109
+Sr@https://s.ytimg.com/yts/jsbin/player-es_ES-vflY26K4P/base.js:2139:78
+v8@https://s.ytimg.com/yts/jsbin/player-es_ES-vflY26K4P/base.js:4209:81
+Z8@https://s.ytimg.com/yts/jsbin/player-es_ES-vflY26K4P/base.js:4295:299
+create@https://s.ytimg.com/yts/jsbin/player-es_ES-vflY26K4P/base.js:7230:552
+https://s.ytimg.com/yts/jsbin/www-embed-player-vfl_5XjZ-/www-embed-player.js:459:276
+[native code]
+pe@https://s.ytimg.com/yts/jsbin/www-embed-player-vfl_5XjZ-/www-embed-player.js:459:318
+yh@https://s.ytimg.com/yts/jsbin/www-embed-player-vfl_5XjZ-/www-embed-player.js:457:147
+Tb@https://s.ytimg.com/yts/jsbin/www-embed-player-vfl_5XjZ-/www-embed-player.js:450:189
+https://s.ytimg.com/yts/jsbin/www-embed-player-vfl_5XjZ-/www-embed-player.js:492:422
+[ERROR - 2016-07-29T16:14:34.932Z] Session [83bdeb20-55a7-11e6-b044-b7adfda34935] - page.onError - stack:
+  (anonymous function) (https://s.ytimg.com/yts/jsbin/player-es_ES-vflY26K4P/base.js:3948)
+  (anonymous function) (:0)
+[ERROR - 2016-07-29T16:14:36.640Z] Session [83bdeb20-55a7-11e6-b044-b7adfda34935] - page.onError - msg: TypeError: undefined is not a constructor (evaluating 'videoLoopObj.play()')
+[ERROR - 2016-07-29T16:14:36.640Z] Session [83bdeb20-55a7-11e6-b044-b7adfda34935] - page.onError - stack:
+  (anonymous function) (http://iinsandbox.prod.acquia-sites.com/sites/default/files//advagg_js/js__ovbvDb5JvP01kpSIeTp3975god7lfHtbBHtwAlESp7E__RbNrCX1II7sWtYJLa6wHFwFLE1WfYn6RDuiI1lWds8g__DFS7sfByEXJKuikTGVRoW4mN5oUoszzrS0h-6JAzqc0.js:13)
+  c (http://code.jquery.com/jquery-1.10.2.min.js:4)
+  fireWith (http://code.jquery.com/jquery-1.10.2.min.js:4)
+  ready (http://code.jquery.com/jquery-1.10.2.min.js:4)
+  q (http://code.jquery.com/jquery-1.10.2.min.js:4)
+[ERROR - 2016-07-29T16:14:36.978Z] Session [83bdeb20-55a7-11e6-b044-b7adfda34935] - page.onError - msg: getPresentingPlayerType@https://s.ytimg.com/yts/jsbin/player-es_ES-vflY26K4P/base.js:7240:109
+Sr@https://s.ytimg.com/yts/jsbin/player-es_ES-vflY26K4P/base.js:2139:78
+v8@https://s.ytimg.com/yts/jsbin/player-es_ES-vflY26K4P/base.js:4209:81
+Z8@https://s.ytimg.com/yts/jsbin/player-es_ES-vflY26K4P/base.js:4295:299
+create@https://s.ytimg.com/yts/jsbin/player-es_ES-vflY26K4P/base.js:7230:552
+https://s.ytimg.com/yts/jsbin/www-embed-player-vfl_5XjZ-/www-embed-player.js:459:276
+[native code]
+pe@https://s.ytimg.com/yts/jsbin/www-embed-player-vfl_5XjZ-/www-embed-player.js:459:318
+yh@https://s.ytimg.com/yts/jsbin/www-embed-player-vfl_5XjZ-/www-embed-player.js:457:147
+Tb@https://s.ytimg.com/yts/jsbin/www-embed-player-vfl_5XjZ-/www-embed-player.js:450:189
+https://s.ytimg.com/yts/jsbin/www-embed-player-vfl_5XjZ-/www-embed-player.js:492:422
+[ERROR - 2016-07-29T16:14:36.979Z] Session [83bdeb20-55a7-11e6-b044-b7adfda34935] - page.onError - stack:
+  (anonymous function) (https://s.ytimg.com/yts/jsbin/player-es_ES-vflY26K4P/base.js:3948)
+  (anonymous function) (:0)
+[ERROR - 2016-07-29T16:14:39.167Z] Session [83bdeb20-55a7-11e6-b044-b7adfda34935] - page.onError - msg: TypeError: undefined is not a constructor (evaluating 'videoLoopObj.play()')
+[ERROR - 2016-07-29T16:14:39.168Z] Session [83bdeb20-55a7-11e6-b044-b7adfda34935] - page.onError - stack:
+  (anonymous function) (http://iinsandbox.prod.acquia-sites.com/sites/default/files//advagg_js/js__ovbvDb5JvP01kpSIeTp3975god7lfHtbBHtwAlESp7E__RbNrCX1II7sWtYJLa6wHFwFLE1WfYn6RDuiI1lWds8g__DFS7sfByEXJKuikTGVRoW4mN5oUoszzrS0h-6JAzqc0.js:13)
+  c (http://code.jquery.com/jquery-1.10.2.min.js:4)
+  fireWith (http://code.jquery.com/jquery-1.10.2.min.js:4)
+  ready (http://code.jquery.com/jquery-1.10.2.min.js:4)
+  q (http://code.jquery.com/jquery-1.10.2.min.js:4)
+[ERROR - 2016-07-29T16:14:39.276Z] Session [83bdeb20-55a7-11e6-b044-b7adfda34935] - page.onError - msg: getPresentingPlayerType@https://s.ytimg.com/yts/jsbin/player-es_ES-vflY26K4P/base.js:7240:109
+Sr@https://s.ytimg.com/yts/jsbin/player-es_ES-vflY26K4P/base.js:2139:78
+v8@https://s.ytimg.com/yts/jsbin/player-es_ES-vflY26K4P/base.js:4209:81
+Z8@https://s.ytimg.com/yts/jsbin/player-es_ES-vflY26K4P/base.js:4295:299
+create@https://s.ytimg.com/yts/jsbin/player-es_ES-vflY26K4P/base.js:7230:552
+https://s.ytimg.com/yts/jsbin/www-embed-player-vfl_5XjZ-/www-embed-player.js:459:276
+[native code]
+pe@https://s.ytimg.com/yts/jsbin/www-embed-player-vfl_5XjZ-/www-embed-player.js:459:318
+yh@https://s.ytimg.com/yts/jsbin/www-embed-player-vfl_5XjZ-/www-embed-player.js:457:147
+Tb@https://s.ytimg.com/yts/jsbin/www-embed-player-vfl_5XjZ-/www-embed-player.js:450:189
+https://s.ytimg.com/yts/jsbin/www-embed-player-vfl_5XjZ-/www-embed-player.js:492:422
+[ERROR - 2016-07-29T16:14:39.291Z] Session [83bdeb20-55a7-11e6-b044-b7adfda34935] - page.onError - stack:
+  (anonymous function) (https://s.ytimg.com/yts/jsbin/player-es_ES-vflY26K4P/base.js:3948)
+  (anonymous function) (:0)
+[ERROR - 2016-07-29T16:14:41.632Z] Session [83bdeb20-55a7-11e6-b044-b7adfda34935] - page.onError - msg: TypeError: undefined is not a constructor (evaluating 'videoLoopObj.play()')
+[ERROR - 2016-07-29T16:14:41.634Z] Session [83bdeb20-55a7-11e6-b044-b7adfda34935] - page.onError - stack:
+  (anonymous function) (http://iinsandbox.prod.acquia-sites.com/sites/default/files//advagg_js/js__ovbvDb5JvP01kpSIeTp3975god7lfHtbBHtwAlESp7E__RbNrCX1II7sWtYJLa6wHFwFLE1WfYn6RDuiI1lWds8g__DFS7sfByEXJKuikTGVRoW4mN5oUoszzrS0h-6JAzqc0.js:13)
+  c (http://code.jquery.com/jquery-1.10.2.min.js:4)
+  fireWith (http://code.jquery.com/jquery-1.10.2.min.js:4)
+  ready (http://code.jquery.com/jquery-1.10.2.min.js:4)
+  q (http://code.jquery.com/jquery-1.10.2.min.js:4)
+[ERROR - 2016-07-29T16:14:42.064Z] Session [83bdeb20-55a7-11e6-b044-b7adfda34935] - page.onError - msg: getPresentingPlayerType@https://s.ytimg.com/yts/jsbin/player-es_ES-vflY26K4P/base.js:7240:109
+Sr@https://s.ytimg.com/yts/jsbin/player-es_ES-vflY26K4P/base.js:2139:78
+v8@https://s.ytimg.com/yts/jsbin/player-es_ES-vflY26K4P/base.js:4209:81
+Z8@https://s.ytimg.com/yts/jsbin/player-es_ES-vflY26K4P/base.js:4295:299
+create@https://s.ytimg.com/yts/jsbin/player-es_ES-vflY26K4P/base.js:7230:552
+https://s.ytimg.com/yts/jsbin/www-embed-player-vfl_5XjZ-/www-embed-player.js:459:276
+[native code]
+pe@https://s.ytimg.com/yts/jsbin/www-embed-player-vfl_5XjZ-/www-embed-player.js:459:318
+yh@https://s.ytimg.com/yts/jsbin/www-embed-player-vfl_5XjZ-/www-embed-player.js:457:147
+Tb@https://s.ytimg.com/yts/jsbin/www-embed-player-vfl_5XjZ-/www-embed-player.js:450:189
+https://s.ytimg.com/yts/jsbin/www-embed-player-vfl_5XjZ-/www-embed-player.js:492:422
+[ERROR - 2016-07-29T16:14:42.065Z] Session [83bdeb20-55a7-11e6-b044-b7adfda34935] - page.onError - stack:
+  (anonymous function) (https://s.ytimg.com/yts/jsbin/player-es_ES-vflY26K4P/base.js:3948)
+  (anonymous function) (:0)
+[ERROR - 2016-07-29T16:14:44.279Z] Session [83bdeb20-55a7-11e6-b044-b7adfda34935] - page.onError - msg: TypeError: undefined is not a constructor (evaluating 'videoLoopObj.play()')
+[ERROR - 2016-07-29T16:14:44.279Z] Session [83bdeb20-55a7-11e6-b044-b7adfda34935] - page.onError - stack:
+  (anonymous function) (http://iinsandbox.prod.acquia-sites.com/sites/default/files//advagg_js/js__ovbvDb5JvP01kpSIeTp3975god7lfHtbBHtwAlESp7E__RbNrCX1II7sWtYJLa6wHFwFLE1WfYn6RDuiI1lWds8g__DFS7sfByEXJKuikTGVRoW4mN5oUoszzrS0h-6JAzqc0.js:13)
+  c (http://code.jquery.com/jquery-1.10.2.min.js:4)
+  fireWith (http://code.jquery.com/jquery-1.10.2.min.js:4)
+  ready (http://code.jquery.com/jquery-1.10.2.min.js:4)
+  q (http://code.jquery.com/jquery-1.10.2.min.js:4)
+[ERROR - 2016-07-29T16:14:44.618Z] Session [83bdeb20-55a7-11e6-b044-b7adfda34935] - page.onError - msg: getPresentingPlayerType@https://s.ytimg.com/yts/jsbin/player-es_ES-vflY26K4P/base.js:7240:109
+Sr@https://s.ytimg.com/yts/jsbin/player-es_ES-vflY26K4P/base.js:2139:78
+v8@https://s.ytimg.com/yts/jsbin/player-es_ES-vflY26K4P/base.js:4209:81
+Z8@https://s.ytimg.com/yts/jsbin/player-es_ES-vflY26K4P/base.js:4295:299
+create@https://s.ytimg.com/yts/jsbin/player-es_ES-vflY26K4P/base.js:7230:552
+https://s.ytimg.com/yts/jsbin/www-embed-player-vfl_5XjZ-/www-embed-player.js:459:276
+[native code]
+pe@https://s.ytimg.com/yts/jsbin/www-embed-player-vfl_5XjZ-/www-embed-player.js:459:318
+yh@https://s.ytimg.com/yts/jsbin/www-embed-player-vfl_5XjZ-/www-embed-player.js:457:147
+Tb@https://s.ytimg.com/yts/jsbin/www-embed-player-vfl_5XjZ-/www-embed-player.js:450:189
+https://s.ytimg.com/yts/jsbin/www-embed-player-vfl_5XjZ-/www-embed-player.js:492:422
+[ERROR - 2016-07-29T16:14:44.619Z] Session [83bdeb20-55a7-11e6-b044-b7adfda34935] - page.onError - stack:
+  (anonymous function) (https://s.ytimg.com/yts/jsbin/player-es_ES-vflY26K4P/base.js:3948)
+  (anonymous function) (:0)
+[ERROR - 2016-07-29T16:14:47.071Z] Session [83bdeb20-55a7-11e6-b044-b7adfda34935] - page.onError - msg: TypeError: undefined is not a constructor (evaluating 'videoLoopObj.play()')
+[ERROR - 2016-07-29T16:14:47.072Z] Session [83bdeb20-55a7-11e6-b044-b7adfda34935] - page.onError - stack:
+  (anonymous function) (http://iinsandbox.prod.acquia-sites.com/sites/default/files//advagg_js/js__ovbvDb5JvP01kpSIeTp3975god7lfHtbBHtwAlESp7E__RbNrCX1II7sWtYJLa6wHFwFLE1WfYn6RDuiI1lWds8g__DFS7sfByEXJKuikTGVRoW4mN5oUoszzrS0h-6JAzqc0.js:13)
+  c (http://code.jquery.com/jquery-1.10.2.min.js:4)
+  fireWith (http://code.jquery.com/jquery-1.10.2.min.js:4)
+  ready (http://code.jquery.com/jquery-1.10.2.min.js:4)
+  q (http://code.jquery.com/jquery-1.10.2.min.js:4)
+[ERROR - 2016-07-29T16:14:47.387Z] Session [83bdeb20-55a7-11e6-b044-b7adfda34935] - page.onError - msg: getPresentingPlayerType@https://s.ytimg.com/yts/jsbin/player-es_ES-vflY26K4P/base.js:7240:109
+Sr@https://s.ytimg.com/yts/jsbin/player-es_ES-vflY26K4P/base.js:2139:78
+v8@https://s.ytimg.com/yts/jsbin/player-es_ES-vflY26K4P/base.js:4209:81
+Z8@https://s.ytimg.com/yts/jsbin/player-es_ES-vflY26K4P/base.js:4295:299
+create@https://s.ytimg.com/yts/jsbin/player-es_ES-vflY26K4P/base.js:7230:552
+https://s.ytimg.com/yts/jsbin/www-embed-player-vfl_5XjZ-/www-embed-player.js:459:276
+[native code]
+pe@https://s.ytimg.com/yts/jsbin/www-embed-player-vfl_5XjZ-/www-embed-player.js:459:318
+yh@https://s.ytimg.com/yts/jsbin/www-embed-player-vfl_5XjZ-/www-embed-player.js:457:147
+Tb@https://s.ytimg.com/yts/jsbin/www-embed-player-vfl_5XjZ-/www-embed-player.js:450:189
+https://s.ytimg.com/yts/jsbin/www-embed-player-vfl_5XjZ-/www-embed-player.js:492:422
+[ERROR - 2016-07-29T16:14:47.387Z] Session [83bdeb20-55a7-11e6-b044-b7adfda34935] - page.onError - stack:
+  (anonymous function) (https://s.ytimg.com/yts/jsbin/player-es_ES-vflY26K4P/base.js:3948)
+  (anonymous function) (:0)
+[ERROR - 2016-07-29T16:14:51.116Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1469808891054
+[ERROR - 2016-07-29T16:14:57.020Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1469808897018
+[ERROR - 2016-07-29T16:15:02.608Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1469808902596
+[ERROR - 2016-07-29T16:15:08.303Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1469808908268
+[ERROR - 2016-07-29T16:15:14.047Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1469808914045
+[ERROR - 2016-07-29T16:15:19.880Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1469808919873
+[ERROR - 2016-07-29T16:15:25.788Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1469808925783
+[ERROR - 2016-07-29T16:15:31.563Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1469808931533
+[ERROR - 2016-07-29T16:15:37.239Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1469808937222
+[ERROR - 2016-07-29T16:15:43.094Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1469808943046
+[ERROR - 2016-07-29T16:15:48.802Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1469808948788
+[ERROR - 2016-07-29T16:15:54.720Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1469808954665
+[ERROR - 2016-07-29T16:16:00.453Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1469808960399
+[ERROR - 2016-07-29T16:16:06.318Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1469808966315
+[ERROR - 2016-07-29T16:16:11.999Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1469808971973
+[ERROR - 2016-07-29T16:16:17.867Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1469808977799
+[ERROR - 2016-07-29T16:16:23.579Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1469808983561
+[ERROR - 2016-07-29T16:16:29.355Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1469808989276
+[ERROR - 2016-07-29T16:16:35.323Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1469808995292
+[ERROR - 2016-07-29T16:16:41.586Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1469809001573
+[ERROR - 2016-07-29T16:16:47.720Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1469809007677
+[ERROR - 2016-07-29T16:16:53.865Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1469809013834
+[ERROR - 2016-07-29T16:17:00.615Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1469809020585
+[ERROR - 2016-07-29T16:17:07.569Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1469809027548
+[ERROR - 2016-07-29T16:17:13.366Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1469809033359
+[ERROR - 2016-07-29T16:17:19.099Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1469809039044
+[ERROR - 2016-07-29T16:17:24.756Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1469809044727
+[ERROR - 2016-07-29T16:17:30.584Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1469809050554
+[ERROR - 2016-07-29T16:17:36.469Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1469809056412
+[ERROR - 2016-07-29T16:17:42.195Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1469809062180
+[ERROR - 2016-07-29T16:17:47.831Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1469809067804
+[ERROR - 2016-07-29T16:17:53.661Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1469809073641
+[ERROR - 2016-07-29T16:17:59.386Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1469809079350
+[ERROR - 2016-07-29T16:18:05.586Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1469809085535
+[ERROR - 2016-07-29T16:18:11.187Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1469809091180
+[ERROR - 2016-07-29T16:18:16.347Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1469809096342
+[ERROR - 2016-07-29T16:18:21.067Z] Session [83bdeb20-55a7-11e6-b044-b7adfda34935] - page.onError - msg: TypeError: undefined is not a constructor (evaluating 'videoLoopObj.play()')
+[ERROR - 2016-07-29T16:18:21.069Z] Session [83bdeb20-55a7-11e6-b044-b7adfda34935] - page.onError - stack:
+  (anonymous function) (http://iinsandbox.prod.acquia-sites.com/sites/default/files//advagg_js/js__ovbvDb5JvP01kpSIeTp3975god7lfHtbBHtwAlESp7E__RbNrCX1II7sWtYJLa6wHFwFLE1WfYn6RDuiI1lWds8g__DFS7sfByEXJKuikTGVRoW4mN5oUoszzrS0h-6JAzqc0.js:13)
+  c (http://code.jquery.com/jquery-1.10.2.min.js:4)
+  fireWith (http://code.jquery.com/jquery-1.10.2.min.js:4)
+  ready (http://code.jquery.com/jquery-1.10.2.min.js:4)
+  q (http://code.jquery.com/jquery-1.10.2.min.js:4)
+[ERROR - 2016-07-29T16:18:22.061Z] Session [83bdeb20-55a7-11e6-b044-b7adfda34935] - page.onError - msg: getPresentingPlayerType@https://s.ytimg.com/yts/jsbin/player-es_ES-vflY26K4P/base.js:7240:109
+Sr@https://s.ytimg.com/yts/jsbin/player-es_ES-vflY26K4P/base.js:2139:78
+v8@https://s.ytimg.com/yts/jsbin/player-es_ES-vflY26K4P/base.js:4209:81
+Z8@https://s.ytimg.com/yts/jsbin/player-es_ES-vflY26K4P/base.js:4295:299
+create@https://s.ytimg.com/yts/jsbin/player-es_ES-vflY26K4P/base.js:7230:552
+https://s.ytimg.com/yts/jsbin/www-embed-player-vfl_5XjZ-/www-embed-player.js:459:276
+[native code]
+pe@https://s.ytimg.com/yts/jsbin/www-embed-player-vfl_5XjZ-/www-embed-player.js:459:318
+yh@https://s.ytimg.com/yts/jsbin/www-embed-player-vfl_5XjZ-/www-embed-player.js:457:147
+Tb@https://s.ytimg.com/yts/jsbin/www-embed-player-vfl_5XjZ-/www-embed-player.js:450:189
+https://s.ytimg.com/yts/jsbin/www-embed-player-vfl_5XjZ-/www-embed-player.js:492:422
+[ERROR - 2016-07-29T16:18:22.062Z] Session [83bdeb20-55a7-11e6-b044-b7adfda34935] - page.onError - stack:
+  (anonymous function) (https://s.ytimg.com/yts/jsbin/player-es_ES-vflY26K4P/base.js:3948)
+  (anonymous function) (:0)
+[ERROR - 2016-07-29T16:18:27.430Z] Session [83bdeb20-55a7-11e6-b044-b7adfda34935] - page.onError - msg: TypeError: undefined is not a constructor (evaluating 'videoLoopObj.play()')
+[ERROR - 2016-07-29T16:18:27.430Z] Session [83bdeb20-55a7-11e6-b044-b7adfda34935] - page.onError - stack:
+  (anonymous function) (http://iinsandbox.prod.acquia-sites.com/sites/default/files//advagg_js/js__ovbvDb5JvP01kpSIeTp3975god7lfHtbBHtwAlESp7E__RbNrCX1II7sWtYJLa6wHFwFLE1WfYn6RDuiI1lWds8g__DFS7sfByEXJKuikTGVRoW4mN5oUoszzrS0h-6JAzqc0.js:13)
+  c (http://code.jquery.com/jquery-1.10.2.min.js:4)
+  fireWith (http://code.jquery.com/jquery-1.10.2.min.js:4)
+  ready (http://code.jquery.com/jquery-1.10.2.min.js:4)
+  q (http://code.jquery.com/jquery-1.10.2.min.js:4)
+[ERROR - 2016-07-29T16:18:27.801Z] Session [83bdeb20-55a7-11e6-b044-b7adfda34935] - page.onError - msg: getPresentingPlayerType@https://s.ytimg.com/yts/jsbin/player-es_ES-vflY26K4P/base.js:7240:109
+Sr@https://s.ytimg.com/yts/jsbin/player-es_ES-vflY26K4P/base.js:2139:78
+v8@https://s.ytimg.com/yts/jsbin/player-es_ES-vflY26K4P/base.js:4209:81
+Z8@https://s.ytimg.com/yts/jsbin/player-es_ES-vflY26K4P/base.js:4295:299
+create@https://s.ytimg.com/yts/jsbin/player-es_ES-vflY26K4P/base.js:7230:552
+https://s.ytimg.com/yts/jsbin/www-embed-player-vfl_5XjZ-/www-embed-player.js:459:276
+[native code]
+pe@https://s.ytimg.com/yts/jsbin/www-embed-player-vfl_5XjZ-/www-embed-player.js:459:318
+yh@https://s.ytimg.com/yts/jsbin/www-embed-player-vfl_5XjZ-/www-embed-player.js:457:147
+Tb@https://s.ytimg.com/yts/jsbin/www-embed-player-vfl_5XjZ-/www-embed-player.js:450:189
+https://s.ytimg.com/yts/jsbin/www-embed-player-vfl_5XjZ-/www-embed-player.js:492:422
+[ERROR - 2016-07-29T16:18:27.802Z] Session [83bdeb20-55a7-11e6-b044-b7adfda34935] - page.onError - stack:
+  (anonymous function) (https://s.ytimg.com/yts/jsbin/player-es_ES-vflY26K4P/base.js:3948)
+  (anonymous function) (:0)
+[ERROR - 2016-07-29T16:18:30.492Z] Session [83bdeb20-55a7-11e6-b044-b7adfda34935] - page.onError - msg: TypeError: undefined is not a constructor (evaluating 'videoLoopObj.play()')
+[ERROR - 2016-07-29T16:18:30.493Z] Session [83bdeb20-55a7-11e6-b044-b7adfda34935] - page.onError - stack:
+  (anonymous function) (http://iinsandbox.prod.acquia-sites.com/sites/default/files//advagg_js/js__ovbvDb5JvP01kpSIeTp3975god7lfHtbBHtwAlESp7E__RbNrCX1II7sWtYJLa6wHFwFLE1WfYn6RDuiI1lWds8g__DFS7sfByEXJKuikTGVRoW4mN5oUoszzrS0h-6JAzqc0.js:13)
+  c (http://code.jquery.com/jquery-1.10.2.min.js:4)
+  fireWith (http://code.jquery.com/jquery-1.10.2.min.js:4)
+  ready (http://code.jquery.com/jquery-1.10.2.min.js:4)
+  q (http://code.jquery.com/jquery-1.10.2.min.js:4)
+[ERROR - 2016-07-29T16:18:30.801Z] Session [83bdeb20-55a7-11e6-b044-b7adfda34935] - page.onError - msg: getPresentingPlayerType@https://s.ytimg.com/yts/jsbin/player-es_ES-vflY26K4P/base.js:7240:109
+Sr@https://s.ytimg.com/yts/jsbin/player-es_ES-vflY26K4P/base.js:2139:78
+v8@https://s.ytimg.com/yts/jsbin/player-es_ES-vflY26K4P/base.js:4209:81
+Z8@https://s.ytimg.com/yts/jsbin/player-es_ES-vflY26K4P/base.js:4295:299
+create@https://s.ytimg.com/yts/jsbin/player-es_ES-vflY26K4P/base.js:7230:552
+https://s.ytimg.com/yts/jsbin/www-embed-player-vfl_5XjZ-/www-embed-player.js:459:276
+[native code]
+pe@https://s.ytimg.com/yts/jsbin/www-embed-player-vfl_5XjZ-/www-embed-player.js:459:318
+yh@https://s.ytimg.com/yts/jsbin/www-embed-player-vfl_5XjZ-/www-embed-player.js:457:147
+Tb@https://s.ytimg.com/yts/jsbin/www-embed-player-vfl_5XjZ-/www-embed-player.js:450:189
+https://s.ytimg.com/yts/jsbin/www-embed-player-vfl_5XjZ-/www-embed-player.js:492:422
+[ERROR - 2016-07-29T16:18:30.801Z] Session [83bdeb20-55a7-11e6-b044-b7adfda34935] - page.onError - stack:
+  (anonymous function) (https://s.ytimg.com/yts/jsbin/player-es_ES-vflY26K4P/base.js:3948)
+  (anonymous function) (:0)
+[ERROR - 2016-07-29T16:18:37.069Z] Session [83bdeb20-55a7-11e6-b044-b7adfda34935] - page.onError - msg: TypeError: undefined is not a constructor (evaluating 'videoLoopObj.play()')
+[ERROR - 2016-07-29T16:18:37.069Z] Session [83bdeb20-55a7-11e6-b044-b7adfda34935] - page.onError - stack:
+  (anonymous function) (http://iinsandbox.prod.acquia-sites.com/sites/default/files//advagg_js/js__ovbvDb5JvP01kpSIeTp3975god7lfHtbBHtwAlESp7E__RbNrCX1II7sWtYJLa6wHFwFLE1WfYn6RDuiI1lWds8g__DFS7sfByEXJKuikTGVRoW4mN5oUoszzrS0h-6JAzqc0.js:13)
+  c (http://code.jquery.com/jquery-1.10.2.min.js:4)
+  fireWith (http://code.jquery.com/jquery-1.10.2.min.js:4)
+  ready (http://code.jquery.com/jquery-1.10.2.min.js:4)
+  q (http://code.jquery.com/jquery-1.10.2.min.js:4)
+[ERROR - 2016-07-29T16:18:37.398Z] Session [83bdeb20-55a7-11e6-b044-b7adfda34935] - page.onError - msg: getPresentingPlayerType@https://s.ytimg.com/yts/jsbin/player-es_ES-vflY26K4P/base.js:7240:109
+Sr@https://s.ytimg.com/yts/jsbin/player-es_ES-vflY26K4P/base.js:2139:78
+v8@https://s.ytimg.com/yts/jsbin/player-es_ES-vflY26K4P/base.js:4209:81
+Z8@https://s.ytimg.com/yts/jsbin/player-es_ES-vflY26K4P/base.js:4295:299
+create@https://s.ytimg.com/yts/jsbin/player-es_ES-vflY26K4P/base.js:7230:552
+https://s.ytimg.com/yts/jsbin/www-embed-player-vfl_5XjZ-/www-embed-player.js:459:276
+[native code]
+pe@https://s.ytimg.com/yts/jsbin/www-embed-player-vfl_5XjZ-/www-embed-player.js:459:318
+yh@https://s.ytimg.com/yts/jsbin/www-embed-player-vfl_5XjZ-/www-embed-player.js:457:147
+Tb@https://s.ytimg.com/yts/jsbin/www-embed-player-vfl_5XjZ-/www-embed-player.js:450:189
+https://s.ytimg.com/yts/jsbin/www-embed-player-vfl_5XjZ-/www-embed-player.js:492:422
+[ERROR - 2016-07-29T16:18:37.417Z] Session [83bdeb20-55a7-11e6-b044-b7adfda34935] - page.onError - stack:
+  (anonymous function) (https://s.ytimg.com/yts/jsbin/player-es_ES-vflY26K4P/base.js:3948)
+  (anonymous function) (:0)
+[ERROR - 2016-07-29T16:18:42.623Z] Session [83bdeb20-55a7-11e6-b044-b7adfda34935] - page.onError - msg: TypeError: undefined is not a constructor (evaluating 'videoLoopObj.play()')
+[ERROR - 2016-07-29T16:18:42.624Z] Session [83bdeb20-55a7-11e6-b044-b7adfda34935] - page.onError - stack:
+  (anonymous function) (http://iinsandbox.prod.acquia-sites.com/sites/default/files//advagg_js/js__ovbvDb5JvP01kpSIeTp3975god7lfHtbBHtwAlESp7E__RbNrCX1II7sWtYJLa6wHFwFLE1WfYn6RDuiI1lWds8g__DFS7sfByEXJKuikTGVRoW4mN5oUoszzrS0h-6JAzqc0.js:13)
+  c (http://code.jquery.com/jquery-1.10.2.min.js:4)
+  fireWith (http://code.jquery.com/jquery-1.10.2.min.js:4)
+  ready (http://code.jquery.com/jquery-1.10.2.min.js:4)
+  q (http://code.jquery.com/jquery-1.10.2.min.js:4)
+[ERROR - 2016-07-29T16:18:42.721Z] Session [83bdeb20-55a7-11e6-b044-b7adfda34935] - page.onError - msg: getPresentingPlayerType@https://s.ytimg.com/yts/jsbin/player-es_ES-vflY26K4P/base.js:7240:109
+Sr@https://s.ytimg.com/yts/jsbin/player-es_ES-vflY26K4P/base.js:2139:78
+v8@https://s.ytimg.com/yts/jsbin/player-es_ES-vflY26K4P/base.js:4209:81
+Z8@https://s.ytimg.com/yts/jsbin/player-es_ES-vflY26K4P/base.js:4295:299
+create@https://s.ytimg.com/yts/jsbin/player-es_ES-vflY26K4P/base.js:7230:552
+https://s.ytimg.com/yts/jsbin/www-embed-player-vfl_5XjZ-/www-embed-player.js:459:276
+[native code]
+pe@https://s.ytimg.com/yts/jsbin/www-embed-player-vfl_5XjZ-/www-embed-player.js:459:318
+yh@https://s.ytimg.com/yts/jsbin/www-embed-player-vfl_5XjZ-/www-embed-player.js:457:147
+Tb@https://s.ytimg.com/yts/jsbin/www-embed-player-vfl_5XjZ-/www-embed-player.js:450:189
+https://s.ytimg.com/yts/jsbin/www-embed-player-vfl_5XjZ-/www-embed-player.js:492:422
+[ERROR - 2016-07-29T16:18:42.721Z] Session [83bdeb20-55a7-11e6-b044-b7adfda34935] - page.onError - stack:
+  (anonymous function) (https://s.ytimg.com/yts/jsbin/player-es_ES-vflY26K4P/base.js:3948)
+  (anonymous function) (:0)
+[ERROR - 2016-07-29T16:18:46.448Z] Session [83bdeb20-55a7-11e6-b044-b7adfda34935] - page.onError - msg: TypeError: undefined is not a constructor (evaluating 'videoLoopObj.play()')
+[ERROR - 2016-07-29T16:18:46.455Z] Session [83bdeb20-55a7-11e6-b044-b7adfda34935] - page.onError - stack:
+  (anonymous function) (http://iinsandbox.prod.acquia-sites.com/sites/default/files//advagg_js/js__ovbvDb5JvP01kpSIeTp3975god7lfHtbBHtwAlESp7E__RbNrCX1II7sWtYJLa6wHFwFLE1WfYn6RDuiI1lWds8g__DFS7sfByEXJKuikTGVRoW4mN5oUoszzrS0h-6JAzqc0.js:13)
+  c (http://code.jquery.com/jquery-1.10.2.min.js:4)
+  fireWith (http://code.jquery.com/jquery-1.10.2.min.js:4)
+  ready (http://code.jquery.com/jquery-1.10.2.min.js:4)
+  q (http://code.jquery.com/jquery-1.10.2.min.js:4)
+[ERROR - 2016-07-29T16:18:46.701Z] Session [83bdeb20-55a7-11e6-b044-b7adfda34935] - page.onError - msg: getPresentingPlayerType@https://s.ytimg.com/yts/jsbin/player-es_ES-vflY26K4P/base.js:7240:109
+Sr@https://s.ytimg.com/yts/jsbin/player-es_ES-vflY26K4P/base.js:2139:78
+v8@https://s.ytimg.com/yts/jsbin/player-es_ES-vflY26K4P/base.js:4209:81
+Z8@https://s.ytimg.com/yts/jsbin/player-es_ES-vflY26K4P/base.js:4295:299
+create@https://s.ytimg.com/yts/jsbin/player-es_ES-vflY26K4P/base.js:7230:552
+https://s.ytimg.com/yts/jsbin/www-embed-player-vfl_5XjZ-/www-embed-player.js:459:276
+[native code]
+pe@https://s.ytimg.com/yts/jsbin/www-embed-player-vfl_5XjZ-/www-embed-player.js:459:318
+yh@https://s.ytimg.com/yts/jsbin/www-embed-player-vfl_5XjZ-/www-embed-player.js:457:147
+Tb@https://s.ytimg.com/yts/jsbin/www-embed-player-vfl_5XjZ-/www-embed-player.js:450:189
+https://s.ytimg.com/yts/jsbin/www-embed-player-vfl_5XjZ-/www-embed-player.js:492:422
+[ERROR - 2016-07-29T16:18:46.702Z] Session [83bdeb20-55a7-11e6-b044-b7adfda34935] - page.onError - stack:
+  (anonymous function) (https://s.ytimg.com/yts/jsbin/player-es_ES-vflY26K4P/base.js:3948)
+  (anonymous function) (:0)
+[ERROR - 2016-07-29T16:18:50.465Z] Session [83bdeb20-55a7-11e6-b044-b7adfda34935] - page.onError - msg: TypeError: undefined is not a constructor (evaluating 'videoLoopObj.play()')
+[ERROR - 2016-07-29T16:18:50.466Z] Session [83bdeb20-55a7-11e6-b044-b7adfda34935] - page.onError - stack:
+  (anonymous function) (http://iinsandbox.prod.acquia-sites.com/sites/default/files//advagg_js/js__ovbvDb5JvP01kpSIeTp3975god7lfHtbBHtwAlESp7E__RbNrCX1II7sWtYJLa6wHFwFLE1WfYn6RDuiI1lWds8g__DFS7sfByEXJKuikTGVRoW4mN5oUoszzrS0h-6JAzqc0.js:13)
+  c (http://code.jquery.com/jquery-1.10.2.min.js:4)
+  fireWith (http://code.jquery.com/jquery-1.10.2.min.js:4)
+  ready (http://code.jquery.com/jquery-1.10.2.min.js:4)
+  q (http://code.jquery.com/jquery-1.10.2.min.js:4)
+[ERROR - 2016-07-29T16:18:50.737Z] Session [83bdeb20-55a7-11e6-b044-b7adfda34935] - page.onError - msg: getPresentingPlayerType@https://s.ytimg.com/yts/jsbin/player-es_ES-vflY26K4P/base.js:7240:109
+Sr@https://s.ytimg.com/yts/jsbin/player-es_ES-vflY26K4P/base.js:2139:78
+v8@https://s.ytimg.com/yts/jsbin/player-es_ES-vflY26K4P/base.js:4209:81
+Z8@https://s.ytimg.com/yts/jsbin/player-es_ES-vflY26K4P/base.js:4295:299
+create@https://s.ytimg.com/yts/jsbin/player-es_ES-vflY26K4P/base.js:7230:552
+https://s.ytimg.com/yts/jsbin/www-embed-player-vfl_5XjZ-/www-embed-player.js:459:276
+[native code]
+pe@https://s.ytimg.com/yts/jsbin/www-embed-player-vfl_5XjZ-/www-embed-player.js:459:318
+yh@https://s.ytimg.com/yts/jsbin/www-embed-player-vfl_5XjZ-/www-embed-player.js:457:147
+Tb@https://s.ytimg.com/yts/jsbin/www-embed-player-vfl_5XjZ-/www-embed-player.js:450:189
+https://s.ytimg.com/yts/jsbin/www-embed-player-vfl_5XjZ-/www-embed-player.js:492:422
+[ERROR - 2016-07-29T16:18:50.737Z] Session [83bdeb20-55a7-11e6-b044-b7adfda34935] - page.onError - stack:
+  (anonymous function) (https://s.ytimg.com/yts/jsbin/player-es_ES-vflY26K4P/base.js:3948)
+  (anonymous function) (:0)
+[ERROR - 2016-07-29T16:18:56.313Z] Session [83bdeb20-55a7-11e6-b044-b7adfda34935] - page.onError - msg: TypeError: undefined is not a constructor (evaluating 'videoLoopObj.play()')
+[ERROR - 2016-07-29T16:18:56.315Z] Session [83bdeb20-55a7-11e6-b044-b7adfda34935] - page.onError - stack:
+  (anonymous function) (http://iinsandbox.prod.acquia-sites.com/sites/default/files//advagg_js/js__ovbvDb5JvP01kpSIeTp3975god7lfHtbBHtwAlESp7E__RbNrCX1II7sWtYJLa6wHFwFLE1WfYn6RDuiI1lWds8g__DFS7sfByEXJKuikTGVRoW4mN5oUoszzrS0h-6JAzqc0.js:13)
+  c (http://code.jquery.com/jquery-1.10.2.min.js:4)
+  fireWith (http://code.jquery.com/jquery-1.10.2.min.js:4)
+  ready (http://code.jquery.com/jquery-1.10.2.min.js:4)
+  q (http://code.jquery.com/jquery-1.10.2.min.js:4)
+[ERROR - 2016-07-29T16:18:56.488Z] Session [83bdeb20-55a7-11e6-b044-b7adfda34935] - page.onError - msg: getPresentingPlayerType@https://s.ytimg.com/yts/jsbin/player-es_ES-vflY26K4P/base.js:7240:109
+Sr@https://s.ytimg.com/yts/jsbin/player-es_ES-vflY26K4P/base.js:2139:78
+v8@https://s.ytimg.com/yts/jsbin/player-es_ES-vflY26K4P/base.js:4209:81
+Z8@https://s.ytimg.com/yts/jsbin/player-es_ES-vflY26K4P/base.js:4295:299
+create@https://s.ytimg.com/yts/jsbin/player-es_ES-vflY26K4P/base.js:7230:552
+https://s.ytimg.com/yts/jsbin/www-embed-player-vfl_5XjZ-/www-embed-player.js:459:276
+[native code]
+pe@https://s.ytimg.com/yts/jsbin/www-embed-player-vfl_5XjZ-/www-embed-player.js:459:318
+yh@https://s.ytimg.com/yts/jsbin/www-embed-player-vfl_5XjZ-/www-embed-player.js:457:147
+Tb@https://s.ytimg.com/yts/jsbin/www-embed-player-vfl_5XjZ-/www-embed-player.js:450:189
+https://s.ytimg.com/yts/jsbin/www-embed-player-vfl_5XjZ-/www-embed-player.js:492:422
+[ERROR - 2016-07-29T16:18:56.488Z] Session [83bdeb20-55a7-11e6-b044-b7adfda34935] - page.onError - stack:
+  (anonymous function) (https://s.ytimg.com/yts/jsbin/player-es_ES-vflY26K4P/base.js:3948)
+  (anonymous function) (:0)
+[ERROR - 2016-07-29T16:19:01.540Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1469809141507
+[ERROR - 2016-07-29T16:19:06.294Z] Session [83bdeb20-55a7-11e6-b044-b7adfda34935] - page.onError - msg: TypeError: undefined is not a constructor (evaluating 'videoLoopObj.play()')
+[ERROR - 2016-07-29T16:19:06.295Z] Session [83bdeb20-55a7-11e6-b044-b7adfda34935] - page.onError - stack:
+  (anonymous function) (http://iinsandbox.prod.acquia-sites.com/sites/default/files//advagg_js/js__ovbvDb5JvP01kpSIeTp3975god7lfHtbBHtwAlESp7E__RbNrCX1II7sWtYJLa6wHFwFLE1WfYn6RDuiI1lWds8g__DFS7sfByEXJKuikTGVRoW4mN5oUoszzrS0h-6JAzqc0.js:13)
+  c (http://code.jquery.com/jquery-1.10.2.min.js:4)
+  fireWith (http://code.jquery.com/jquery-1.10.2.min.js:4)
+  ready (http://code.jquery.com/jquery-1.10.2.min.js:4)
+  q (http://code.jquery.com/jquery-1.10.2.min.js:4)
+[ERROR - 2016-07-29T16:19:07.171Z] Session [83bdeb20-55a7-11e6-b044-b7adfda34935] - page.onError - msg: getPresentingPlayerType@https://s.ytimg.com/yts/jsbin/player-es_ES-vflY26K4P/base.js:7240:109
+Sr@https://s.ytimg.com/yts/jsbin/player-es_ES-vflY26K4P/base.js:2139:78
+v8@https://s.ytimg.com/yts/jsbin/player-es_ES-vflY26K4P/base.js:4209:81
+Z8@https://s.ytimg.com/yts/jsbin/player-es_ES-vflY26K4P/base.js:4295:299
+create@https://s.ytimg.com/yts/jsbin/player-es_ES-vflY26K4P/base.js:7230:552
+https://s.ytimg.com/yts/jsbin/www-embed-player-vfl_5XjZ-/www-embed-player.js:459:276
+[native code]
+pe@https://s.ytimg.com/yts/jsbin/www-embed-player-vfl_5XjZ-/www-embed-player.js:459:318
+yh@https://s.ytimg.com/yts/jsbin/www-embed-player-vfl_5XjZ-/www-embed-player.js:457:147
+Tb@https://s.ytimg.com/yts/jsbin/www-embed-player-vfl_5XjZ-/www-embed-player.js:450:189
+https://s.ytimg.com/yts/jsbin/www-embed-player-vfl_5XjZ-/www-embed-player.js:492:422
+[ERROR - 2016-07-29T16:19:07.172Z] Session [83bdeb20-55a7-11e6-b044-b7adfda34935] - page.onError - stack:
+  (anonymous function) (https://s.ytimg.com/yts/jsbin/player-es_ES-vflY26K4P/base.js:3948)
+  (anonymous function) (:0)
+[ERROR - 2016-07-29T16:19:16.781Z] Session [83bdeb20-55a7-11e6-b044-b7adfda34935] - page.onError - msg: TypeError: undefined is not a constructor (evaluating 'videoLoopObj.play()')
+[ERROR - 2016-07-29T16:19:16.782Z] Session [83bdeb20-55a7-11e6-b044-b7adfda34935] - page.onError - stack:
+  (anonymous function) (http://iinsandbox.prod.acquia-sites.com/sites/default/files//advagg_js/js__ovbvDb5JvP01kpSIeTp3975god7lfHtbBHtwAlESp7E__RbNrCX1II7sWtYJLa6wHFwFLE1WfYn6RDuiI1lWds8g__DFS7sfByEXJKuikTGVRoW4mN5oUoszzrS0h-6JAzqc0.js:13)
+  c (http://code.jquery.com/jquery-1.10.2.min.js:4)
+  fireWith (http://code.jquery.com/jquery-1.10.2.min.js:4)
+  ready (http://code.jquery.com/jquery-1.10.2.min.js:4)
+  q (http://code.jquery.com/jquery-1.10.2.min.js:4)
+[ERROR - 2016-07-29T16:19:17.275Z] Session [83bdeb20-55a7-11e6-b044-b7adfda34935] - page.onError - msg: getPresentingPlayerType@https://s.ytimg.com/yts/jsbin/player-es_ES-vflY26K4P/base.js:7240:109
+Sr@https://s.ytimg.com/yts/jsbin/player-es_ES-vflY26K4P/base.js:2139:78
+v8@https://s.ytimg.com/yts/jsbin/player-es_ES-vflY26K4P/base.js:4209:81
+Z8@https://s.ytimg.com/yts/jsbin/player-es_ES-vflY26K4P/base.js:4295:299
+create@https://s.ytimg.com/yts/jsbin/player-es_ES-vflY26K4P/base.js:7230:552
+https://s.ytimg.com/yts/jsbin/www-embed-player-vfl_5XjZ-/www-embed-player.js:459:276
+[native code]
+pe@https://s.ytimg.com/yts/jsbin/www-embed-player-vfl_5XjZ-/www-embed-player.js:459:318
+yh@https://s.ytimg.com/yts/jsbin/www-embed-player-vfl_5XjZ-/www-embed-player.js:457:147
+Tb@https://s.ytimg.com/yts/jsbin/www-embed-player-vfl_5XjZ-/www-embed-player.js:450:189
+https://s.ytimg.com/yts/jsbin/www-embed-player-vfl_5XjZ-/www-embed-player.js:492:422
+[ERROR - 2016-07-29T16:19:17.276Z] Session [83bdeb20-55a7-11e6-b044-b7adfda34935] - page.onError - stack:
+  (anonymous function) (https://s.ytimg.com/yts/jsbin/player-es_ES-vflY26K4P/base.js:3948)
+  (anonymous function) (:0)
+[INFO  - 2016-07-29T16:19:23.876Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2016-07-29T16:19:24.364Z] ShutdownReqHand - _handle - About to shutdown
+[INFO  - 2016-07-29T16:19:27.705Z] GhostDriver - Main - running on port 40870
+[INFO  - 2016-07-29T16:19:28.197Z] Session [3913bb80-55a8-11e6-82cd-c380200db796] - page.settings - {"XSSAuditingEnabled":false,"javascriptCanCloseWindows":true,"javascriptCanOpenWindows":true,"javascriptEnabled":true,"loadImages":true,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.1.1 Safari/538.1","webSecurityEnabled":true}
+[INFO  - 2016-07-29T16:19:28.198Z] Session [3913bb80-55a8-11e6-82cd-c380200db796] - page.customHeaders:  - {}
+[INFO  - 2016-07-29T16:19:28.198Z] Session [3913bb80-55a8-11e6-82cd-c380200db796] - Session.negotiatedCapabilities - {"browserName":"phantomjs","version":"2.1.1","driverName":"ghostdriver","driverVersion":"1.2.0","platform":"windows-10-32bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2016-07-29T16:19:28.198Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: 3913bb80-55a8-11e6-82cd-c380200db796
+[ERROR - 2016-07-29T16:19:31.885Z] Session [3913bb80-55a8-11e6-82cd-c380200db796] - page.onError - msg: TypeError: undefined is not a constructor (evaluating 'videoLoopObj.play()')
+[ERROR - 2016-07-29T16:19:31.886Z] Session [3913bb80-55a8-11e6-82cd-c380200db796] - page.onError - stack:
+  (anonymous function) (http://iinsandbox.prod.acquia-sites.com/sites/default/files//advagg_js/js__ovbvDb5JvP01kpSIeTp3975god7lfHtbBHtwAlESp7E__RbNrCX1II7sWtYJLa6wHFwFLE1WfYn6RDuiI1lWds8g__DFS7sfByEXJKuikTGVRoW4mN5oUoszzrS0h-6JAzqc0.js:13)
+  c (http://code.jquery.com/jquery-1.10.2.min.js:4)
+  fireWith (http://code.jquery.com/jquery-1.10.2.min.js:4)
+  ready (http://code.jquery.com/jquery-1.10.2.min.js:4)
+  q (http://code.jquery.com/jquery-1.10.2.min.js:4)
+[ERROR - 2016-07-29T16:19:36.493Z] Session [3913bb80-55a8-11e6-82cd-c380200db796] - page.onError - msg: getPresentingPlayerType@https://s.ytimg.com/yts/jsbin/player-es_ES-vflY26K4P/base.js:7240:109
+Sr@https://s.ytimg.com/yts/jsbin/player-es_ES-vflY26K4P/base.js:2139:78
+v8@https://s.ytimg.com/yts/jsbin/player-es_ES-vflY26K4P/base.js:4209:81
+Z8@https://s.ytimg.com/yts/jsbin/player-es_ES-vflY26K4P/base.js:4295:299
+create@https://s.ytimg.com/yts/jsbin/player-es_ES-vflY26K4P/base.js:7230:552
+https://s.ytimg.com/yts/jsbin/www-embed-player-vfl_5XjZ-/www-embed-player.js:459:276
+[native code]
+pe@https://s.ytimg.com/yts/jsbin/www-embed-player-vfl_5XjZ-/www-embed-player.js:459:318
+yh@https://s.ytimg.com/yts/jsbin/www-embed-player-vfl_5XjZ-/www-embed-player.js:457:147
+Tb@https://s.ytimg.com/yts/jsbin/www-embed-player-vfl_5XjZ-/www-embed-player.js:450:189
+https://s.ytimg.com/yts/jsbin/www-embed-player-vfl_5XjZ-/www-embed-player.js:492:422
+[ERROR - 2016-07-29T16:19:36.499Z] Session [3913bb80-55a8-11e6-82cd-c380200db796] - page.onError - stack:
+  (anonymous function) (https://s.ytimg.com/yts/jsbin/player-es_ES-vflY26K4P/base.js:3948)
+  (anonymous function) (:0)
+[ERROR - 2016-07-29T16:19:39.354Z] Session [3913bb80-55a8-11e6-82cd-c380200db796] - page.onError - msg: TypeError: undefined is not a constructor (evaluating 'videoLoopObj.play()')
+[ERROR - 2016-07-29T16:19:39.355Z] Session [3913bb80-55a8-11e6-82cd-c380200db796] - page.onError - stack:
+  (anonymous function) (http://iinsandbox.prod.acquia-sites.com/sites/default/files//advagg_js/js__ovbvDb5JvP01kpSIeTp3975god7lfHtbBHtwAlESp7E__RbNrCX1II7sWtYJLa6wHFwFLE1WfYn6RDuiI1lWds8g__DFS7sfByEXJKuikTGVRoW4mN5oUoszzrS0h-6JAzqc0.js:13)
+  c (http://code.jquery.com/jquery-1.10.2.min.js:4)
+  fireWith (http://code.jquery.com/jquery-1.10.2.min.js:4)
+  ready (http://code.jquery.com/jquery-1.10.2.min.js:4)
+  q (http://code.jquery.com/jquery-1.10.2.min.js:4)
+[ERROR - 2016-07-29T16:19:39.437Z] Session [3913bb80-55a8-11e6-82cd-c380200db796] - page.onError - msg: getPresentingPlayerType@https://s.ytimg.com/yts/jsbin/player-es_ES-vflY26K4P/base.js:7240:109
+Sr@https://s.ytimg.com/yts/jsbin/player-es_ES-vflY26K4P/base.js:2139:78
+v8@https://s.ytimg.com/yts/jsbin/player-es_ES-vflY26K4P/base.js:4209:81
+Z8@https://s.ytimg.com/yts/jsbin/player-es_ES-vflY26K4P/base.js:4295:299
+create@https://s.ytimg.com/yts/jsbin/player-es_ES-vflY26K4P/base.js:7230:552
+https://s.ytimg.com/yts/jsbin/www-embed-player-vfl_5XjZ-/www-embed-player.js:459:276
+[native code]
+pe@https://s.ytimg.com/yts/jsbin/www-embed-player-vfl_5XjZ-/www-embed-player.js:459:318
+yh@https://s.ytimg.com/yts/jsbin/www-embed-player-vfl_5XjZ-/www-embed-player.js:457:147
+Tb@https://s.ytimg.com/yts/jsbin/www-embed-player-vfl_5XjZ-/www-embed-player.js:450:189
+https://s.ytimg.com/yts/jsbin/www-embed-player-vfl_5XjZ-/www-embed-player.js:492:422
+[ERROR - 2016-07-29T16:19:39.437Z] Session [3913bb80-55a8-11e6-82cd-c380200db796] - page.onError - stack:
+  (anonymous function) (https://s.ytimg.com/yts/jsbin/player-es_ES-vflY26K4P/base.js:3948)
+  (anonymous function) (:0)
+[ERROR - 2016-07-29T16:19:41.306Z] Session [3913bb80-55a8-11e6-82cd-c380200db796] - page.onError - msg: TypeError: undefined is not a constructor (evaluating 'videoLoopObj.play()')
+[ERROR - 2016-07-29T16:19:41.307Z] Session [3913bb80-55a8-11e6-82cd-c380200db796] - page.onError - stack:
+  (anonymous function) (http://iinsandbox.prod.acquia-sites.com/sites/default/files//advagg_js/js__ovbvDb5JvP01kpSIeTp3975god7lfHtbBHtwAlESp7E__RbNrCX1II7sWtYJLa6wHFwFLE1WfYn6RDuiI1lWds8g__DFS7sfByEXJKuikTGVRoW4mN5oUoszzrS0h-6JAzqc0.js:13)
+  c (http://code.jquery.com/jquery-1.10.2.min.js:4)
+  fireWith (http://code.jquery.com/jquery-1.10.2.min.js:4)
+  ready (http://code.jquery.com/jquery-1.10.2.min.js:4)
+  q (http://code.jquery.com/jquery-1.10.2.min.js:4)
+[ERROR - 2016-07-29T16:19:41.595Z] Session [3913bb80-55a8-11e6-82cd-c380200db796] - page.onError - msg: getPresentingPlayerType@https://s.ytimg.com/yts/jsbin/player-es_ES-vflY26K4P/base.js:7240:109
+Sr@https://s.ytimg.com/yts/jsbin/player-es_ES-vflY26K4P/base.js:2139:78
+v8@https://s.ytimg.com/yts/jsbin/player-es_ES-vflY26K4P/base.js:4209:81
+Z8@https://s.ytimg.com/yts/jsbin/player-es_ES-vflY26K4P/base.js:4295:299
+create@https://s.ytimg.com/yts/jsbin/player-es_ES-vflY26K4P/base.js:7230:552
+https://s.ytimg.com/yts/jsbin/www-embed-player-vfl_5XjZ-/www-embed-player.js:459:276
+[native code]
+pe@https://s.ytimg.com/yts/jsbin/www-embed-player-vfl_5XjZ-/www-embed-player.js:459:318
+yh@https://s.ytimg.com/yts/jsbin/www-embed-player-vfl_5XjZ-/www-embed-player.js:457:147
+Tb@https://s.ytimg.com/yts/jsbin/www-embed-player-vfl_5XjZ-/www-embed-player.js:450:189
+https://s.ytimg.com/yts/jsbin/www-embed-player-vfl_5XjZ-/www-embed-player.js:492:422
+[ERROR - 2016-07-29T16:19:41.596Z] Session [3913bb80-55a8-11e6-82cd-c380200db796] - page.onError - stack:
+  (anonymous function) (https://s.ytimg.com/yts/jsbin/player-es_ES-vflY26K4P/base.js:3948)
+  (anonymous function) (:0)
+[ERROR - 2016-07-29T16:19:50.981Z] Session [3913bb80-55a8-11e6-82cd-c380200db796] - page.onError - msg: TypeError: undefined is not a constructor (evaluating 'videoLoopObj.play()')
+[ERROR - 2016-07-29T16:19:50.982Z] Session [3913bb80-55a8-11e6-82cd-c380200db796] - page.onError - stack:
+  (anonymous function) (http://iinsandbox.prod.acquia-sites.com/sites/default/files//advagg_js/js__ovbvDb5JvP01kpSIeTp3975god7lfHtbBHtwAlESp7E__RbNrCX1II7sWtYJLa6wHFwFLE1WfYn6RDuiI1lWds8g__DFS7sfByEXJKuikTGVRoW4mN5oUoszzrS0h-6JAzqc0.js:13)
+  c (http://code.jquery.com/jquery-1.10.2.min.js:4)
+  fireWith (http://code.jquery.com/jquery-1.10.2.min.js:4)
+  ready (http://code.jquery.com/jquery-1.10.2.min.js:4)
+  q (http://code.jquery.com/jquery-1.10.2.min.js:4)
+[ERROR - 2016-07-29T16:19:51.332Z] Session [3913bb80-55a8-11e6-82cd-c380200db796] - page.onError - msg: getPresentingPlayerType@https://s.ytimg.com/yts/jsbin/player-es_ES-vflY26K4P/base.js:7240:109
+Sr@https://s.ytimg.com/yts/jsbin/player-es_ES-vflY26K4P/base.js:2139:78
+v8@https://s.ytimg.com/yts/jsbin/player-es_ES-vflY26K4P/base.js:4209:81
+Z8@https://s.ytimg.com/yts/jsbin/player-es_ES-vflY26K4P/base.js:4295:299
+create@https://s.ytimg.com/yts/jsbin/player-es_ES-vflY26K4P/base.js:7230:552
+https://s.ytimg.com/yts/jsbin/www-embed-player-vfl_5XjZ-/www-embed-player.js:459:276
+[native code]
+pe@https://s.ytimg.com/yts/jsbin/www-embed-player-vfl_5XjZ-/www-embed-player.js:459:318
+yh@https://s.ytimg.com/yts/jsbin/www-embed-player-vfl_5XjZ-/www-embed-player.js:457:147
+Tb@https://s.ytimg.com/yts/jsbin/www-embed-player-vfl_5XjZ-/www-embed-player.js:450:189
+https://s.ytimg.com/yts/jsbin/www-embed-player-vfl_5XjZ-/www-embed-player.js:492:422
+[ERROR - 2016-07-29T16:19:51.334Z] Session [3913bb80-55a8-11e6-82cd-c380200db796] - page.onError - stack:
+  (anonymous function) (https://s.ytimg.com/yts/jsbin/player-es_ES-vflY26K4P/base.js:3948)
+  (anonymous function) (:0)
+[ERROR - 2016-07-29T16:19:55.498Z] Session [3913bb80-55a8-11e6-82cd-c380200db796] - page.onError - msg: TypeError: undefined is not a constructor (evaluating 'videoLoopObj.play()')
+[ERROR - 2016-07-29T16:19:55.499Z] Session [3913bb80-55a8-11e6-82cd-c380200db796] - page.onError - stack:
+  (anonymous function) (http://iinsandbox.prod.acquia-sites.com/sites/default/files//advagg_js/js__ovbvDb5JvP01kpSIeTp3975god7lfHtbBHtwAlESp7E__RbNrCX1II7sWtYJLa6wHFwFLE1WfYn6RDuiI1lWds8g__DFS7sfByEXJKuikTGVRoW4mN5oUoszzrS0h-6JAzqc0.js:13)
+  c (http://code.jquery.com/jquery-1.10.2.min.js:4)
+  fireWith (http://code.jquery.com/jquery-1.10.2.min.js:4)
+  ready (http://code.jquery.com/jquery-1.10.2.min.js:4)
+  q (http://code.jquery.com/jquery-1.10.2.min.js:4)
+[ERROR - 2016-07-29T16:19:55.649Z] Session [3913bb80-55a8-11e6-82cd-c380200db796] - page.onError - msg: getPresentingPlayerType@https://s.ytimg.com/yts/jsbin/player-es_ES-vflY26K4P/base.js:7240:109
+Sr@https://s.ytimg.com/yts/jsbin/player-es_ES-vflY26K4P/base.js:2139:78
+v8@https://s.ytimg.com/yts/jsbin/player-es_ES-vflY26K4P/base.js:4209:81
+Z8@https://s.ytimg.com/yts/jsbin/player-es_ES-vflY26K4P/base.js:4295:299
+create@https://s.ytimg.com/yts/jsbin/player-es_ES-vflY26K4P/base.js:7230:552
+https://s.ytimg.com/yts/jsbin/www-embed-player-vfl_5XjZ-/www-embed-player.js:459:276
+[native code]
+pe@https://s.ytimg.com/yts/jsbin/www-embed-player-vfl_5XjZ-/www-embed-player.js:459:318
+yh@https://s.ytimg.com/yts/jsbin/www-embed-player-vfl_5XjZ-/www-embed-player.js:457:147
+Tb@https://s.ytimg.com/yts/jsbin/www-embed-player-vfl_5XjZ-/www-embed-player.js:450:189
+https://s.ytimg.com/yts/jsbin/www-embed-player-vfl_5XjZ-/www-embed-player.js:492:422
+[ERROR - 2016-07-29T16:19:55.663Z] Session [3913bb80-55a8-11e6-82cd-c380200db796] - page.onError - stack:
+  (anonymous function) (https://s.ytimg.com/yts/jsbin/player-es_ES-vflY26K4P/base.js:3948)
+  (anonymous function) (:0)
+[ERROR - 2016-07-29T16:19:59.434Z] Session [3913bb80-55a8-11e6-82cd-c380200db796] - page.onError - msg: TypeError: undefined is not a constructor (evaluating 'videoLoopObj.play()')
+[ERROR - 2016-07-29T16:19:59.435Z] Session [3913bb80-55a8-11e6-82cd-c380200db796] - page.onError - stack:
+  (anonymous function) (http://iinsandbox.prod.acquia-sites.com/sites/default/files//advagg_js/js__ovbvDb5JvP01kpSIeTp3975god7lfHtbBHtwAlESp7E__RbNrCX1II7sWtYJLa6wHFwFLE1WfYn6RDuiI1lWds8g__DFS7sfByEXJKuikTGVRoW4mN5oUoszzrS0h-6JAzqc0.js:13)
+  c (http://code.jquery.com/jquery-1.10.2.min.js:4)
+  fireWith (http://code.jquery.com/jquery-1.10.2.min.js:4)
+  ready (http://code.jquery.com/jquery-1.10.2.min.js:4)
+  q (http://code.jquery.com/jquery-1.10.2.min.js:4)
+[ERROR - 2016-07-29T16:19:59.707Z] Session [3913bb80-55a8-11e6-82cd-c380200db796] - page.onError - msg: getPresentingPlayerType@https://s.ytimg.com/yts/jsbin/player-es_ES-vflY26K4P/base.js:7240:109
+Sr@https://s.ytimg.com/yts/jsbin/player-es_ES-vflY26K4P/base.js:2139:78
+v8@https://s.ytimg.com/yts/jsbin/player-es_ES-vflY26K4P/base.js:4209:81
+Z8@https://s.ytimg.com/yts/jsbin/player-es_ES-vflY26K4P/base.js:4295:299
+create@https://s.ytimg.com/yts/jsbin/player-es_ES-vflY26K4P/base.js:7230:552
+https://s.ytimg.com/yts/jsbin/www-embed-player-vfl_5XjZ-/www-embed-player.js:459:276
+[native code]
+pe@https://s.ytimg.com/yts/jsbin/www-embed-player-vfl_5XjZ-/www-embed-player.js:459:318
+yh@https://s.ytimg.com/yts/jsbin/www-embed-player-vfl_5XjZ-/www-embed-player.js:457:147
+Tb@https://s.ytimg.com/yts/jsbin/www-embed-player-vfl_5XjZ-/www-embed-player.js:450:189
+https://s.ytimg.com/yts/jsbin/www-embed-player-vfl_5XjZ-/www-embed-player.js:492:422
+[ERROR - 2016-07-29T16:19:59.708Z] Session [3913bb80-55a8-11e6-82cd-c380200db796] - page.onError - stack:
+  (anonymous function) (https://s.ytimg.com/yts/jsbin/player-es_ES-vflY26K4P/base.js:3948)
+  (anonymous function) (:0)
+[ERROR - 2016-07-29T16:20:06.392Z] Session [3913bb80-55a8-11e6-82cd-c380200db796] - page.onError - msg: TypeError: undefined is not a constructor (evaluating 'videoLoopObj.play()')
+[ERROR - 2016-07-29T16:20:06.393Z] Session [3913bb80-55a8-11e6-82cd-c380200db796] - page.onError - stack:
+  (anonymous function) (http://iinsandbox.prod.acquia-sites.com/sites/default/files//advagg_js/js__ovbvDb5JvP01kpSIeTp3975god7lfHtbBHtwAlESp7E__RbNrCX1II7sWtYJLa6wHFwFLE1WfYn6RDuiI1lWds8g__DFS7sfByEXJKuikTGVRoW4mN5oUoszzrS0h-6JAzqc0.js:13)
+  c (http://code.jquery.com/jquery-1.10.2.min.js:4)
+  fireWith (http://code.jquery.com/jquery-1.10.2.min.js:4)
+  ready (http://code.jquery.com/jquery-1.10.2.min.js:4)
+  q (http://code.jquery.com/jquery-1.10.2.min.js:4)
+[ERROR - 2016-07-29T16:20:06.868Z] Session [3913bb80-55a8-11e6-82cd-c380200db796] - page.onError - msg: getPresentingPlayerType@https://s.ytimg.com/yts/jsbin/player-es_ES-vflY26K4P/base.js:7240:109
+Sr@https://s.ytimg.com/yts/jsbin/player-es_ES-vflY26K4P/base.js:2139:78
+v8@https://s.ytimg.com/yts/jsbin/player-es_ES-vflY26K4P/base.js:4209:81
+Z8@https://s.ytimg.com/yts/jsbin/player-es_ES-vflY26K4P/base.js:4295:299
+create@https://s.ytimg.com/yts/jsbin/player-es_ES-vflY26K4P/base.js:7230:552
+https://s.ytimg.com/yts/jsbin/www-embed-player-vfl_5XjZ-/www-embed-player.js:459:276
+[native code]
+pe@https://s.ytimg.com/yts/jsbin/www-embed-player-vfl_5XjZ-/www-embed-player.js:459:318
+yh@https://s.ytimg.com/yts/jsbin/www-embed-player-vfl_5XjZ-/www-embed-player.js:457:147
+Tb@https://s.ytimg.com/yts/jsbin/www-embed-player-vfl_5XjZ-/www-embed-player.js:450:189
+https://s.ytimg.com/yts/jsbin/www-embed-player-vfl_5XjZ-/www-embed-player.js:492:422
+[ERROR - 2016-07-29T16:20:06.869Z] Session [3913bb80-55a8-11e6-82cd-c380200db796] - page.onError - stack:
+  (anonymous function) (https://s.ytimg.com/yts/jsbin/player-es_ES-vflY26K4P/base.js:3948)
+  (anonymous function) (:0)
+[INFO  - 2016-07-29T16:20:07.898Z] Session [3913bb80-55a8-11e6-82cd-c380200db796] - page.settings - {"XSSAuditingEnabled":false,"javascriptCanCloseWindows":true,"javascriptCanOpenWindows":true,"javascriptEnabled":true,"loadImages":true,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.1.1 Safari/538.1","webSecurityEnabled":true}
+[INFO  - 2016-07-29T16:20:07.898Z] Session [3913bb80-55a8-11e6-82cd-c380200db796] - page.customHeaders:  - {}
+[ERROR - 2016-07-29T16:20:10.188Z] Session [3913bb80-55a8-11e6-82cd-c380200db796] - page.onError - msg: ReferenceError: Can't find variable: ue
+[ERROR - 2016-07-29T16:20:10.188Z] Session [3913bb80-55a8-11e6-82cd-c380200db796] - page.onError - stack:
+  (anonymous function) (https://www.amazon.com/s?ie=UTF8&me=A388GKFOEEICY0&page=1:974)
+[ERROR - 2016-07-29T16:20:10.481Z] Session [3913bb80-55a8-11e6-82cd-c380200db796] - page.onError - msg: ReferenceError: Can't find variable: viewCompleteImageLoaded
+[ERROR - 2016-07-29T16:20:10.482Z] Session [3913bb80-55a8-11e6-82cd-c380200db796] - page.onError - stack:
+  onload (https://www.amazon.com/s?ie=UTF8&me=A388GKFOEEICY0&page=1:1089)
+[ERROR - 2016-07-29T16:20:10.482Z] Session [3913bb80-55a8-11e6-82cd-c380200db796] - page.onError - msg: ReferenceError: Can't find variable: viewCompleteImageLoaded
+[ERROR - 2016-07-29T16:20:10.483Z] Session [3913bb80-55a8-11e6-82cd-c380200db796] - page.onError - stack:
+  onload (https://www.amazon.com/s?ie=UTF8&me=A388GKFOEEICY0&page=1:1092)
+[ERROR - 2016-07-29T16:20:10.556Z] Session [3913bb80-55a8-11e6-82cd-c380200db796] - page.onError - msg: ReferenceError: Can't find variable: viewCompleteImageLoaded
+[ERROR - 2016-07-29T16:20:10.557Z] Session [3913bb80-55a8-11e6-82cd-c380200db796] - page.onError - stack:
+  onload (https://www.amazon.com/s?ie=UTF8&me=A388GKFOEEICY0&page=1:1101)
+[ERROR - 2016-07-29T16:20:10.588Z] Session [3913bb80-55a8-11e6-82cd-c380200db796] - page.onError - msg: ReferenceError: Can't find variable: viewCompleteImageLoaded
+[ERROR - 2016-07-29T16:20:10.589Z] Session [3913bb80-55a8-11e6-82cd-c380200db796] - page.onError - stack:
+  onload (https://www.amazon.com/s?ie=UTF8&me=A388GKFOEEICY0&page=1:1098)
+[ERROR - 2016-07-29T16:20:10.853Z] Session [3913bb80-55a8-11e6-82cd-c380200db796] - page.onError - msg: ReferenceError: Can't find variable: viewCompleteImageLoaded
+[ERROR - 2016-07-29T16:20:10.853Z] Session [3913bb80-55a8-11e6-82cd-c380200db796] - page.onError - stack:
+  onload (https://www.amazon.com/s?ie=UTF8&me=A388GKFOEEICY0&page=1:1104)
+[ERROR - 2016-07-29T16:20:10.855Z] Session [3913bb80-55a8-11e6-82cd-c380200db796] - page.onError - msg: ReferenceError: Can't find variable: viewCompleteImageLoaded
+[ERROR - 2016-07-29T16:20:10.855Z] Session [3913bb80-55a8-11e6-82cd-c380200db796] - page.onError - stack:
+  onload (https://www.amazon.com/s?ie=UTF8&me=A388GKFOEEICY0&page=1:1107)
+[ERROR - 2016-07-29T16:20:11.047Z] Session [3913bb80-55a8-11e6-82cd-c380200db796] - page.onError - msg: ReferenceError: Can't find variable: viewCompleteImageLoaded
+[ERROR - 2016-07-29T16:20:11.048Z] Session [3913bb80-55a8-11e6-82cd-c380200db796] - page.onError - stack:
+  onload (https://www.amazon.com/s?ie=UTF8&me=A388GKFOEEICY0&page=1:1095)
+[ERROR - 2016-07-29T16:20:18.783Z] Session [3913bb80-55a8-11e6-82cd-c380200db796] - page.onError - msg: TypeError: undefined is not a constructor (evaluating 'videoLoopObj.play()')
+[ERROR - 2016-07-29T16:20:18.783Z] Session [3913bb80-55a8-11e6-82cd-c380200db796] - page.onError - stack:
+  (anonymous function) (http://iinsandbox.prod.acquia-sites.com/sites/default/files//advagg_js/js__ovbvDb5JvP01kpSIeTp3975god7lfHtbBHtwAlESp7E__RbNrCX1II7sWtYJLa6wHFwFLE1WfYn6RDuiI1lWds8g__DFS7sfByEXJKuikTGVRoW4mN5oUoszzrS0h-6JAzqc0.js:13)
+  c (http://code.jquery.com/jquery-1.10.2.min.js:4)
+  fireWith (http://code.jquery.com/jquery-1.10.2.min.js:4)
+  ready (http://code.jquery.com/jquery-1.10.2.min.js:4)
+  q (http://code.jquery.com/jquery-1.10.2.min.js:4)
+[ERROR - 2016-07-29T16:20:18.953Z] Session [3913bb80-55a8-11e6-82cd-c380200db796] - page.onError - msg: getPresentingPlayerType@https://s.ytimg.com/yts/jsbin/player-es_ES-vflY26K4P/base.js:7240:109
+Sr@https://s.ytimg.com/yts/jsbin/player-es_ES-vflY26K4P/base.js:2139:78
+v8@https://s.ytimg.com/yts/jsbin/player-es_ES-vflY26K4P/base.js:4209:81
+Z8@https://s.ytimg.com/yts/jsbin/player-es_ES-vflY26K4P/base.js:4295:299
+create@https://s.ytimg.com/yts/jsbin/player-es_ES-vflY26K4P/base.js:7230:552
+https://s.ytimg.com/yts/jsbin/www-embed-player-vfl_5XjZ-/www-embed-player.js:459:276
+[native code]
+pe@https://s.ytimg.com/yts/jsbin/www-embed-player-vfl_5XjZ-/www-embed-player.js:459:318
+yh@https://s.ytimg.com/yts/jsbin/www-embed-player-vfl_5XjZ-/www-embed-player.js:457:147
+Tb@https://s.ytimg.com/yts/jsbin/www-embed-player-vfl_5XjZ-/www-embed-player.js:450:189
+https://s.ytimg.com/yts/jsbin/www-embed-player-vfl_5XjZ-/www-embed-player.js:492:422
+https://s.ytimg.com/yts/jsbin/www-embed-player-vfl_5XjZ-/www-embed-player.js:122:68
+[ERROR - 2016-07-29T16:20:18.954Z] Session [3913bb80-55a8-11e6-82cd-c380200db796] - page.onError - stack:
+  (anonymous function) (https://s.ytimg.com/yts/jsbin/player-es_ES-vflY26K4P/base.js:3948)
+  (anonymous function) (:0)
+[INFO  - 2016-07-29T16:20:20.507Z] Session [3913bb80-55a8-11e6-82cd-c380200db796] - page.settings - {"XSSAuditingEnabled":false,"javascriptCanCloseWindows":true,"javascriptCanOpenWindows":true,"javascriptEnabled":true,"loadImages":true,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.1.1 Safari/538.1","webSecurityEnabled":true}
+[INFO  - 2016-07-29T16:20:20.507Z] Session [3913bb80-55a8-11e6-82cd-c380200db796] - page.customHeaders:  - {}
+[ERROR - 2016-07-29T16:20:35.990Z] Session [3913bb80-55a8-11e6-82cd-c380200db796] - page.onError - msg: TypeError: undefined is not a constructor (evaluating 'videoLoopObj.play()')
+[ERROR - 2016-07-29T16:20:35.991Z] Session [3913bb80-55a8-11e6-82cd-c380200db796] - page.onError - stack:
+  (anonymous function) (http://iinsandbox.prod.acquia-sites.com/sites/default/files//advagg_js/js__ovbvDb5JvP01kpSIeTp3975god7lfHtbBHtwAlESp7E__RbNrCX1II7sWtYJLa6wHFwFLE1WfYn6RDuiI1lWds8g__DFS7sfByEXJKuikTGVRoW4mN5oUoszzrS0h-6JAzqc0.js:13)
+  c (http://code.jquery.com/jquery-1.10.2.min.js:4)
+  fireWith (http://code.jquery.com/jquery-1.10.2.min.js:4)
+  ready (http://code.jquery.com/jquery-1.10.2.min.js:4)
+  q (http://code.jquery.com/jquery-1.10.2.min.js:4)
+[ERROR - 2016-07-29T16:20:36.195Z] Session [3913bb80-55a8-11e6-82cd-c380200db796] - page.onError - msg: getPresentingPlayerType@https://s.ytimg.com/yts/jsbin/player-es_ES-vflY26K4P/base.js:7240:109
+Sr@https://s.ytimg.com/yts/jsbin/player-es_ES-vflY26K4P/base.js:2139:78
+v8@https://s.ytimg.com/yts/jsbin/player-es_ES-vflY26K4P/base.js:4209:81
+Z8@https://s.ytimg.com/yts/jsbin/player-es_ES-vflY26K4P/base.js:4295:299
+create@https://s.ytimg.com/yts/jsbin/player-es_ES-vflY26K4P/base.js:7230:552
+https://s.ytimg.com/yts/jsbin/www-embed-player-vfl_5XjZ-/www-embed-player.js:459:276
+[native code]
+pe@https://s.ytimg.com/yts/jsbin/www-embed-player-vfl_5XjZ-/www-embed-player.js:459:318
+yh@https://s.ytimg.com/yts/jsbin/www-embed-player-vfl_5XjZ-/www-embed-player.js:457:147
+Tb@https://s.ytimg.com/yts/jsbin/www-embed-player-vfl_5XjZ-/www-embed-player.js:450:189
+https://s.ytimg.com/yts/jsbin/www-embed-player-vfl_5XjZ-/www-embed-player.js:492:422
+[ERROR - 2016-07-29T16:20:36.196Z] Session [3913bb80-55a8-11e6-82cd-c380200db796] - page.onError - stack:
+  (anonymous function) (https://s.ytimg.com/yts/jsbin/player-es_ES-vflY26K4P/base.js:3948)
+  (anonymous function) (:0)
+[INFO  - 2016-07-29T16:20:37.710Z] Session [3913bb80-55a8-11e6-82cd-c380200db796] - page.settings - {"XSSAuditingEnabled":false,"javascriptCanCloseWindows":true,"javascriptCanOpenWindows":true,"javascriptEnabled":true,"loadImages":true,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.1.1 Safari/538.1","webSecurityEnabled":true}
+[INFO  - 2016-07-29T16:20:37.711Z] Session [3913bb80-55a8-11e6-82cd-c380200db796] - page.customHeaders:  - {}
+[ERROR - 2016-07-29T16:20:47.134Z] Session [3913bb80-55a8-11e6-82cd-c380200db796] - page.onError - msg: TypeError: undefined is not a constructor (evaluating 'videoLoopObj.play()')
+[ERROR - 2016-07-29T16:20:47.134Z] Session [3913bb80-55a8-11e6-82cd-c380200db796] - page.onError - stack:
+  (anonymous function) (http://iinsandbox.prod.acquia-sites.com/sites/default/files//advagg_js/js__ovbvDb5JvP01kpSIeTp3975god7lfHtbBHtwAlESp7E__RbNrCX1II7sWtYJLa6wHFwFLE1WfYn6RDuiI1lWds8g__DFS7sfByEXJKuikTGVRoW4mN5oUoszzrS0h-6JAzqc0.js:13)
+  c (http://code.jquery.com/jquery-1.10.2.min.js:4)
+  fireWith (http://code.jquery.com/jquery-1.10.2.min.js:4)
+  ready (http://code.jquery.com/jquery-1.10.2.min.js:4)
+  q (http://code.jquery.com/jquery-1.10.2.min.js:4)
+[ERROR - 2016-07-29T16:20:47.563Z] Session [3913bb80-55a8-11e6-82cd-c380200db796] - page.onError - msg: getPresentingPlayerType@https://s.ytimg.com/yts/jsbin/player-es_ES-vflY26K4P/base.js:7240:109
+Sr@https://s.ytimg.com/yts/jsbin/player-es_ES-vflY26K4P/base.js:2139:78
+v8@https://s.ytimg.com/yts/jsbin/player-es_ES-vflY26K4P/base.js:4209:81
+Z8@https://s.ytimg.com/yts/jsbin/player-es_ES-vflY26K4P/base.js:4295:299
+create@https://s.ytimg.com/yts/jsbin/player-es_ES-vflY26K4P/base.js:7230:552
+https://s.ytimg.com/yts/jsbin/www-embed-player-vfl_5XjZ-/www-embed-player.js:459:276
+[native code]
+pe@https://s.ytimg.com/yts/jsbin/www-embed-player-vfl_5XjZ-/www-embed-player.js:459:318
+yh@https://s.ytimg.com/yts/jsbin/www-embed-player-vfl_5XjZ-/www-embed-player.js:457:147
+Tb@https://s.ytimg.com/yts/jsbin/www-embed-player-vfl_5XjZ-/www-embed-player.js:450:189
+https://s.ytimg.com/yts/jsbin/www-embed-player-vfl_5XjZ-/www-embed-player.js:492:422
+[ERROR - 2016-07-29T16:20:47.564Z] Session [3913bb80-55a8-11e6-82cd-c380200db796] - page.onError - stack:
+  (anonymous function) (https://s.ytimg.com/yts/jsbin/player-es_ES-vflY26K4P/base.js:3948)
+  (anonymous function) (:0)
+[INFO  - 2016-07-29T16:20:48.767Z] Session [3913bb80-55a8-11e6-82cd-c380200db796] - page.settings - {"XSSAuditingEnabled":false,"javascriptCanCloseWindows":true,"javascriptCanOpenWindows":true,"javascriptEnabled":true,"loadImages":true,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.1.1 Safari/538.1","webSecurityEnabled":true}
+[INFO  - 2016-07-29T16:20:48.768Z] Session [3913bb80-55a8-11e6-82cd-c380200db796] - page.customHeaders:  - {}
+[ERROR - 2016-07-29T16:21:06.364Z] Session [3913bb80-55a8-11e6-82cd-c380200db796] - page.onError - msg: TypeError: undefined is not a constructor (evaluating 'videoLoopObj.play()')
+[ERROR - 2016-07-29T16:21:06.365Z] Session [3913bb80-55a8-11e6-82cd-c380200db796] - page.onError - stack:
+  (anonymous function) (http://iinsandbox.prod.acquia-sites.com/sites/default/files//advagg_js/js__ovbvDb5JvP01kpSIeTp3975god7lfHtbBHtwAlESp7E__RbNrCX1II7sWtYJLa6wHFwFLE1WfYn6RDuiI1lWds8g__DFS7sfByEXJKuikTGVRoW4mN5oUoszzrS0h-6JAzqc0.js:13)
+  c (http://code.jquery.com/jquery-1.10.2.min.js:4)
+  fireWith (http://code.jquery.com/jquery-1.10.2.min.js:4)
+  ready (http://code.jquery.com/jquery-1.10.2.min.js:4)
+  q (http://code.jquery.com/jquery-1.10.2.min.js:4)
+[ERROR - 2016-07-29T16:21:06.819Z] Session [3913bb80-55a8-11e6-82cd-c380200db796] - page.onError - msg: getPresentingPlayerType@https://s.ytimg.com/yts/jsbin/player-es_ES-vflY26K4P/base.js:7240:109
+Sr@https://s.ytimg.com/yts/jsbin/player-es_ES-vflY26K4P/base.js:2139:78
+v8@https://s.ytimg.com/yts/jsbin/player-es_ES-vflY26K4P/base.js:4209:81
+Z8@https://s.ytimg.com/yts/jsbin/player-es_ES-vflY26K4P/base.js:4295:299
+create@https://s.ytimg.com/yts/jsbin/player-es_ES-vflY26K4P/base.js:7230:552
+https://s.ytimg.com/yts/jsbin/www-embed-player-vfl_5XjZ-/www-embed-player.js:459:276
+[native code]
+pe@https://s.ytimg.com/yts/jsbin/www-embed-player-vfl_5XjZ-/www-embed-player.js:459:318
+yh@https://s.ytimg.com/yts/jsbin/www-embed-player-vfl_5XjZ-/www-embed-player.js:457:147
+Tb@https://s.ytimg.com/yts/jsbin/www-embed-player-vfl_5XjZ-/www-embed-player.js:450:189
+https://s.ytimg.com/yts/jsbin/www-embed-player-vfl_5XjZ-/www-embed-player.js:492:422
+[ERROR - 2016-07-29T16:21:06.820Z] Session [3913bb80-55a8-11e6-82cd-c380200db796] - page.onError - stack:
+  (anonymous function) (https://s.ytimg.com/yts/jsbin/player-es_ES-vflY26K4P/base.js:3948)
+  (anonymous function) (:0)
+[INFO  - 2016-07-29T16:21:07.724Z] Session [3913bb80-55a8-11e6-82cd-c380200db796] - page.settings - {"XSSAuditingEnabled":false,"javascriptCanCloseWindows":true,"javascriptCanOpenWindows":true,"javascriptEnabled":true,"loadImages":true,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.1.1 Safari/538.1","webSecurityEnabled":true}
+[INFO  - 2016-07-29T16:21:07.724Z] Session [3913bb80-55a8-11e6-82cd-c380200db796] - page.customHeaders:  - {}
+[ERROR - 2016-07-29T16:21:13.391Z] Session [3913bb80-55a8-11e6-82cd-c380200db796] - page.onError - msg: getPresentingPlayerType@https://s.ytimg.com/yts/jsbin/player-es_ES-vflY26K4P/base.js:7240:109
+Sr@https://s.ytimg.com/yts/jsbin/player-es_ES-vflY26K4P/base.js:2139:78
+v8@https://s.ytimg.com/yts/jsbin/player-es_ES-vflY26K4P/base.js:4209:81
+Z8@https://s.ytimg.com/yts/jsbin/player-es_ES-vflY26K4P/base.js:4295:299
+create@https://s.ytimg.com/yts/jsbin/player-es_ES-vflY26K4P/base.js:7230:552
+https://s.ytimg.com/yts/jsbin/www-en_US-vflNaEMVs/base.js:496:286
+[native code]
+https://s.ytimg.com/yts/jsbin/spf-vflVj4-IK/spf.js:11:478
+forEach@[native code]
+v@https://s.ytimg.com/yts/jsbin/spf-vflVj4-IK/spf.js:4:476
+Ha@https://s.ytimg.com/yts/jsbin/spf-vflVj4-IK/spf.js:11:442
+Ua@https://s.ytimg.com/yts/jsbin/spf-vflVj4-IK/spf.js:14:287
+https://s.ytimg.com/yts/jsbin/spf-vflVj4-IK/spf.js:3:139
+[ERROR - 2016-07-29T16:21:13.392Z] Session [3913bb80-55a8-11e6-82cd-c380200db796] - page.onError - stack:
+  (anonymous function) (https://s.ytimg.com/yts/jsbin/player-es_ES-vflY26K4P/base.js:3948)
+  (anonymous function) (:0)
+[ERROR - 2016-07-29T16:21:17.918Z] Session [3913bb80-55a8-11e6-82cd-c380200db796] - page.onError - msg: TypeError: undefined is not a constructor (evaluating 'videoLoopObj.play()')
+[ERROR - 2016-07-29T16:21:17.920Z] Session [3913bb80-55a8-11e6-82cd-c380200db796] - page.onError - stack:
+  (anonymous function) (http://iinsandbox.prod.acquia-sites.com/sites/default/files//advagg_js/js__ovbvDb5JvP01kpSIeTp3975god7lfHtbBHtwAlESp7E__RbNrCX1II7sWtYJLa6wHFwFLE1WfYn6RDuiI1lWds8g__DFS7sfByEXJKuikTGVRoW4mN5oUoszzrS0h-6JAzqc0.js:13)
+  c (http://code.jquery.com/jquery-1.10.2.min.js:4)
+  fireWith (http://code.jquery.com/jquery-1.10.2.min.js:4)
+  ready (http://code.jquery.com/jquery-1.10.2.min.js:4)
+  q (http://code.jquery.com/jquery-1.10.2.min.js:4)
+[ERROR - 2016-07-29T16:21:19.082Z] Session [3913bb80-55a8-11e6-82cd-c380200db796] - page.onError - msg: getPresentingPlayerType@https://s.ytimg.com/yts/jsbin/player-es_ES-vflY26K4P/base.js:7240:109
+Sr@https://s.ytimg.com/yts/jsbin/player-es_ES-vflY26K4P/base.js:2139:78
+v8@https://s.ytimg.com/yts/jsbin/player-es_ES-vflY26K4P/base.js:4209:81
+Z8@https://s.ytimg.com/yts/jsbin/player-es_ES-vflY26K4P/base.js:4295:299
+create@https://s.ytimg.com/yts/jsbin/player-es_ES-vflY26K4P/base.js:7230:552
+https://s.ytimg.com/yts/jsbin/www-embed-player-vfl_5XjZ-/www-embed-player.js:459:276
+[native code]
+pe@https://s.ytimg.com/yts/jsbin/www-embed-player-vfl_5XjZ-/www-embed-player.js:459:318
+yh@https://s.ytimg.com/yts/jsbin/www-embed-player-vfl_5XjZ-/www-embed-player.js:457:147
+Tb@https://s.ytimg.com/yts/jsbin/www-embed-player-vfl_5XjZ-/www-embed-player.js:450:189
+https://s.ytimg.com/yts/jsbin/www-embed-player-vfl_5XjZ-/www-embed-player.js:492:422
+[ERROR - 2016-07-29T16:21:19.087Z] Session [3913bb80-55a8-11e6-82cd-c380200db796] - page.onError - stack:
+  (anonymous function) (https://s.ytimg.com/yts/jsbin/player-es_ES-vflY26K4P/base.js:3948)
+  (anonymous function) (:0)
+[INFO  - 2016-07-29T16:21:20.324Z] Session [3913bb80-55a8-11e6-82cd-c380200db796] - page.settings - {"XSSAuditingEnabled":false,"javascriptCanCloseWindows":true,"javascriptCanOpenWindows":true,"javascriptEnabled":true,"loadImages":true,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.1.1 Safari/538.1","webSecurityEnabled":true}
+[INFO  - 2016-07-29T16:21:20.324Z] Session [3913bb80-55a8-11e6-82cd-c380200db796] - page.customHeaders:  - {}
+[ERROR - 2016-07-29T16:21:38.651Z] Session [3913bb80-55a8-11e6-82cd-c380200db796] - page.onError - msg: TypeError: undefined is not a constructor (evaluating 'videoLoopObj.play()')
+[ERROR - 2016-07-29T16:21:38.651Z] Session [3913bb80-55a8-11e6-82cd-c380200db796] - page.onError - stack:
+  (anonymous function) (http://iinsandbox.prod.acquia-sites.com/sites/default/files//advagg_js/js__ovbvDb5JvP01kpSIeTp3975god7lfHtbBHtwAlESp7E__RbNrCX1II7sWtYJLa6wHFwFLE1WfYn6RDuiI1lWds8g__DFS7sfByEXJKuikTGVRoW4mN5oUoszzrS0h-6JAzqc0.js:13)
+  c (http://code.jquery.com/jquery-1.10.2.min.js:4)
+  fireWith (http://code.jquery.com/jquery-1.10.2.min.js:4)
+  ready (http://code.jquery.com/jquery-1.10.2.min.js:4)
+  q (http://code.jquery.com/jquery-1.10.2.min.js:4)
+[ERROR - 2016-07-29T16:21:40.049Z] Session [3913bb80-55a8-11e6-82cd-c380200db796] - page.onError - msg: getPresentingPlayerType@https://s.ytimg.com/yts/jsbin/player-es_ES-vflY26K4P/base.js:7240:109
+Sr@https://s.ytimg.com/yts/jsbin/player-es_ES-vflY26K4P/base.js:2139:78
+v8@https://s.ytimg.com/yts/jsbin/player-es_ES-vflY26K4P/base.js:4209:81
+Z8@https://s.ytimg.com/yts/jsbin/player-es_ES-vflY26K4P/base.js:4295:299
+create@https://s.ytimg.com/yts/jsbin/player-es_ES-vflY26K4P/base.js:7230:552
+https://s.ytimg.com/yts/jsbin/www-embed-player-vfl_5XjZ-/www-embed-player.js:459:276
+[native code]
+pe@https://s.ytimg.com/yts/jsbin/www-embed-player-vfl_5XjZ-/www-embed-player.js:459:318
+yh@https://s.ytimg.com/yts/jsbin/www-embed-player-vfl_5XjZ-/www-embed-player.js:457:147
+Tb@https://s.ytimg.com/yts/jsbin/www-embed-player-vfl_5XjZ-/www-embed-player.js:450:189
+https://s.ytimg.com/yts/jsbin/www-embed-player-vfl_5XjZ-/www-embed-player.js:492:422
+[ERROR - 2016-07-29T16:21:40.051Z] Session [3913bb80-55a8-11e6-82cd-c380200db796] - page.onError - stack:
+  (anonymous function) (https://s.ytimg.com/yts/jsbin/player-es_ES-vflY26K4P/base.js:3948)
+  (anonymous function) (:0)
+[INFO  - 2016-07-29T16:21:40.960Z] Session [3913bb80-55a8-11e6-82cd-c380200db796] - page.settings - {"XSSAuditingEnabled":false,"javascriptCanCloseWindows":true,"javascriptCanOpenWindows":true,"javascriptEnabled":true,"loadImages":true,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.1.1 Safari/538.1","webSecurityEnabled":true}
+[INFO  - 2016-07-29T16:21:40.960Z] Session [3913bb80-55a8-11e6-82cd-c380200db796] - page.customHeaders:  - {}
+[ERROR - 2016-07-29T16:21:55.929Z] Session [3913bb80-55a8-11e6-82cd-c380200db796] - page.onError - msg: TypeError: undefined is not a constructor (evaluating 'videoLoopObj.play()')
+[ERROR - 2016-07-29T16:21:55.930Z] Session [3913bb80-55a8-11e6-82cd-c380200db796] - page.onError - stack:
+  (anonymous function) (http://iinsandbox.prod.acquia-sites.com/sites/default/files//advagg_js/js__ovbvDb5JvP01kpSIeTp3975god7lfHtbBHtwAlESp7E__RbNrCX1II7sWtYJLa6wHFwFLE1WfYn6RDuiI1lWds8g__DFS7sfByEXJKuikTGVRoW4mN5oUoszzrS0h-6JAzqc0.js:13)
+  c (http://code.jquery.com/jquery-1.10.2.min.js:4)
+  fireWith (http://code.jquery.com/jquery-1.10.2.min.js:4)
+  ready (http://code.jquery.com/jquery-1.10.2.min.js:4)
+  q (http://code.jquery.com/jquery-1.10.2.min.js:4)
+[ERROR - 2016-07-29T16:21:56.123Z] Session [3913bb80-55a8-11e6-82cd-c380200db796] - page.onError - msg: getPresentingPlayerType@https://s.ytimg.com/yts/jsbin/player-es_ES-vflY26K4P/base.js:7240:109
+Sr@https://s.ytimg.com/yts/jsbin/player-es_ES-vflY26K4P/base.js:2139:78
+v8@https://s.ytimg.com/yts/jsbin/player-es_ES-vflY26K4P/base.js:4209:81
+Z8@https://s.ytimg.com/yts/jsbin/player-es_ES-vflY26K4P/base.js:4295:299
+create@https://s.ytimg.com/yts/jsbin/player-es_ES-vflY26K4P/base.js:7230:552
+https://s.ytimg.com/yts/jsbin/www-embed-player-vfl_5XjZ-/www-embed-player.js:459:276
+[native code]
+pe@https://s.ytimg.com/yts/jsbin/www-embed-player-vfl_5XjZ-/www-embed-player.js:459:318
+yh@https://s.ytimg.com/yts/jsbin/www-embed-player-vfl_5XjZ-/www-embed-player.js:457:147
+Tb@https://s.ytimg.com/yts/jsbin/www-embed-player-vfl_5XjZ-/www-embed-player.js:450:189
+https://s.ytimg.com/yts/jsbin/www-embed-player-vfl_5XjZ-/www-embed-player.js:492:422
+[ERROR - 2016-07-29T16:21:56.123Z] Session [3913bb80-55a8-11e6-82cd-c380200db796] - page.onError - stack:
+  (anonymous function) (https://s.ytimg.com/yts/jsbin/player-es_ES-vflY26K4P/base.js:3948)
+  (anonymous function) (:0)
+[INFO  - 2016-07-29T16:21:57.831Z] Session [3913bb80-55a8-11e6-82cd-c380200db796] - page.settings - {"XSSAuditingEnabled":false,"javascriptCanCloseWindows":true,"javascriptCanOpenWindows":true,"javascriptEnabled":true,"loadImages":true,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.1.1 Safari/538.1","webSecurityEnabled":true}
+[INFO  - 2016-07-29T16:21:57.831Z] Session [3913bb80-55a8-11e6-82cd-c380200db796] - page.customHeaders:  - {}
+[INFO  - 2016-07-29T16:22:19.533Z] ShutdownReqHand - _handle - About to shutdown
+[INFO  - 2016-07-29T16:22:25.098Z] GhostDriver - Main - running on port 31005
+[INFO  - 2016-07-29T16:22:25.966Z] Session [a3094820-55a8-11e6-9832-e98c84c61b0e] - page.settings - {"XSSAuditingEnabled":false,"javascriptCanCloseWindows":true,"javascriptCanOpenWindows":true,"javascriptEnabled":true,"loadImages":true,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.1.1 Safari/538.1","webSecurityEnabled":true}
+[INFO  - 2016-07-29T16:22:25.966Z] Session [a3094820-55a8-11e6-9832-e98c84c61b0e] - page.customHeaders:  - {}
+[INFO  - 2016-07-29T16:22:25.967Z] Session [a3094820-55a8-11e6-9832-e98c84c61b0e] - Session.negotiatedCapabilities - {"browserName":"phantomjs","version":"2.1.1","driverName":"ghostdriver","driverVersion":"1.2.0","platform":"windows-10-32bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2016-07-29T16:22:25.967Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: a3094820-55a8-11e6-9832-e98c84c61b0e
+[ERROR - 2016-07-29T16:22:33.326Z] Session [a3094820-55a8-11e6-9832-e98c84c61b0e] - page.onError - msg: getPresentingPlayerType@https://s.ytimg.com/yts/jsbin/player-es_ES-vflY26K4P/base.js:7240:109
+Sr@https://s.ytimg.com/yts/jsbin/player-es_ES-vflY26K4P/base.js:2139:78
+v8@https://s.ytimg.com/yts/jsbin/player-es_ES-vflY26K4P/base.js:4209:81
+Z8@https://s.ytimg.com/yts/jsbin/player-es_ES-vflY26K4P/base.js:4295:299
+create@https://s.ytimg.com/yts/jsbin/player-es_ES-vflY26K4P/base.js:7230:552
+https://s.ytimg.com/yts/jsbin/www-embed-player-vfl_5XjZ-/www-embed-player.js:459:276
+[native code]
+pe@https://s.ytimg.com/yts/jsbin/www-embed-player-vfl_5XjZ-/www-embed-player.js:459:318
+yh@https://s.ytimg.com/yts/jsbin/www-embed-player-vfl_5XjZ-/www-embed-player.js:457:147
+Tb@https://s.ytimg.com/yts/jsbin/www-embed-player-vfl_5XjZ-/www-embed-player.js:450:189
+https://s.ytimg.com/yts/jsbin/www-embed-player-vfl_5XjZ-/www-embed-player.js:492:422
+[ERROR - 2016-07-29T16:22:33.328Z] Session [a3094820-55a8-11e6-9832-e98c84c61b0e] - page.onError - stack:
+  (anonymous function) (https://s.ytimg.com/yts/jsbin/player-es_ES-vflY26K4P/base.js:3948)
+  (anonymous function) (:0)
+[ERROR - 2016-07-29T16:22:36.720Z] Session [a3094820-55a8-11e6-9832-e98c84c61b0e] - page.onError - msg: getPresentingPlayerType@https://s.ytimg.com/yts/jsbin/player-es_ES-vflY26K4P/base.js:7240:109
+Sr@https://s.ytimg.com/yts/jsbin/player-es_ES-vflY26K4P/base.js:2139:78
+v8@https://s.ytimg.com/yts/jsbin/player-es_ES-vflY26K4P/base.js:4209:81
+Z8@https://s.ytimg.com/yts/jsbin/player-es_ES-vflY26K4P/base.js:4295:299
+create@https://s.ytimg.com/yts/jsbin/player-es_ES-vflY26K4P/base.js:7230:552
+https://s.ytimg.com/yts/jsbin/www-embed-player-vfl_5XjZ-/www-embed-player.js:459:276
+[native code]
+pe@https://s.ytimg.com/yts/jsbin/www-embed-player-vfl_5XjZ-/www-embed-player.js:459:318
+yh@https://s.ytimg.com/yts/jsbin/www-embed-player-vfl_5XjZ-/www-embed-player.js:457:147
+Tb@https://s.ytimg.com/yts/jsbin/www-embed-player-vfl_5XjZ-/www-embed-player.js:450:189
+https://s.ytimg.com/yts/jsbin/www-embed-player-vfl_5XjZ-/www-embed-player.js:492:422
+[ERROR - 2016-07-29T16:22:36.720Z] Session [a3094820-55a8-11e6-9832-e98c84c61b0e] - page.onError - stack:
+  (anonymous function) (https://s.ytimg.com/yts/jsbin/player-es_ES-vflY26K4P/base.js:3948)
+  (anonymous function) (:0)
+[ERROR - 2016-07-29T16:22:40.424Z] Session [a3094820-55a8-11e6-9832-e98c84c61b0e] - page.onError - msg: getPresentingPlayerType@https://s.ytimg.com/yts/jsbin/player-es_ES-vflY26K4P/base.js:7240:109
+Sr@https://s.ytimg.com/yts/jsbin/player-es_ES-vflY26K4P/base.js:2139:78
+v8@https://s.ytimg.com/yts/jsbin/player-es_ES-vflY26K4P/base.js:4209:81
+Z8@https://s.ytimg.com/yts/jsbin/player-es_ES-vflY26K4P/base.js:4295:299
+create@https://s.ytimg.com/yts/jsbin/player-es_ES-vflY26K4P/base.js:7230:552
+https://s.ytimg.com/yts/jsbin/www-embed-player-vfl_5XjZ-/www-embed-player.js:459:276
+[native code]
+pe@https://s.ytimg.com/yts/jsbin/www-embed-player-vfl_5XjZ-/www-embed-player.js:459:318
+yh@https://s.ytimg.com/yts/jsbin/www-embed-player-vfl_5XjZ-/www-embed-player.js:457:147
+Tb@https://s.ytimg.com/yts/jsbin/www-embed-player-vfl_5XjZ-/www-embed-player.js:450:189
+https://s.ytimg.com/yts/jsbin/www-embed-player-vfl_5XjZ-/www-embed-player.js:492:422
+[ERROR - 2016-07-29T16:22:40.425Z] Session [a3094820-55a8-11e6-9832-e98c84c61b0e] - page.onError - stack:
+  (anonymous function) (https://s.ytimg.com/yts/jsbin/player-es_ES-vflY26K4P/base.js:3948)
+  (anonymous function) (:0)
+[ERROR - 2016-07-29T16:22:43.503Z] Session [a3094820-55a8-11e6-9832-e98c84c61b0e] - page.onError - msg: getPresentingPlayerType@https://s.ytimg.com/yts/jsbin/player-es_ES-vflY26K4P/base.js:7240:109
+Sr@https://s.ytimg.com/yts/jsbin/player-es_ES-vflY26K4P/base.js:2139:78
+v8@https://s.ytimg.com/yts/jsbin/player-es_ES-vflY26K4P/base.js:4209:81
+Z8@https://s.ytimg.com/yts/jsbin/player-es_ES-vflY26K4P/base.js:4295:299
+create@https://s.ytimg.com/yts/jsbin/player-es_ES-vflY26K4P/base.js:7230:552
+https://s.ytimg.com/yts/jsbin/www-embed-player-vfl_5XjZ-/www-embed-player.js:459:276
+[native code]
+pe@https://s.ytimg.com/yts/jsbin/www-embed-player-vfl_5XjZ-/www-embed-player.js:459:318
+yh@https://s.ytimg.com/yts/jsbin/www-embed-player-vfl_5XjZ-/www-embed-player.js:457:147
+Tb@https://s.ytimg.com/yts/jsbin/www-embed-player-vfl_5XjZ-/www-embed-player.js:450:189
+https://s.ytimg.com/yts/jsbin/www-embed-player-vfl_5XjZ-/www-embed-player.js:492:422
+[ERROR - 2016-07-29T16:22:43.503Z] Session [a3094820-55a8-11e6-9832-e98c84c61b0e] - page.onError - stack:
+  (anonymous function) (https://s.ytimg.com/yts/jsbin/player-es_ES-vflY26K4P/base.js:3948)
+  (anonymous function) (:0)
+[ERROR - 2016-07-29T16:22:47.769Z] Session [a3094820-55a8-11e6-9832-e98c84c61b0e] - page.onError - msg: getPresentingPlayerType@https://s.ytimg.com/yts/jsbin/player-es_ES-vflY26K4P/base.js:7240:109
+Sr@https://s.ytimg.com/yts/jsbin/player-es_ES-vflY26K4P/base.js:2139:78
+v8@https://s.ytimg.com/yts/jsbin/player-es_ES-vflY26K4P/base.js:4209:81
+Z8@https://s.ytimg.com/yts/jsbin/player-es_ES-vflY26K4P/base.js:4295:299
+create@https://s.ytimg.com/yts/jsbin/player-es_ES-vflY26K4P/base.js:7230:552
+https://s.ytimg.com/yts/jsbin/www-embed-player-vfl_5XjZ-/www-embed-player.js:459:276
+[native code]
+pe@https://s.ytimg.com/yts/jsbin/www-embed-player-vfl_5XjZ-/www-embed-player.js:459:318
+yh@https://s.ytimg.com/yts/jsbin/www-embed-player-vfl_5XjZ-/www-embed-player.js:457:147
+Tb@https://s.ytimg.com/yts/jsbin/www-embed-player-vfl_5XjZ-/www-embed-player.js:450:189
+https://s.ytimg.com/yts/jsbin/www-embed-player-vfl_5XjZ-/www-embed-player.js:492:422
+[ERROR - 2016-07-29T16:22:47.770Z] Session [a3094820-55a8-11e6-9832-e98c84c61b0e] - page.onError - stack:
+  (anonymous function) (https://s.ytimg.com/yts/jsbin/player-es_ES-vflY26K4P/base.js:3948)
+  (anonymous function) (:0)
+[ERROR - 2016-07-29T16:26:53.116Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1469809613099
+[ERROR - 2016-07-29T16:27:00.672Z] Session [a3094820-55a8-11e6-9832-e98c84c61b0e] - page.onError - msg: getPresentingPlayerType@https://s.ytimg.com/yts/jsbin/player-es_ES-vflY26K4P/base.js:7240:109
+Sr@https://s.ytimg.com/yts/jsbin/player-es_ES-vflY26K4P/base.js:2139:78
+v8@https://s.ytimg.com/yts/jsbin/player-es_ES-vflY26K4P/base.js:4209:81
+Z8@https://s.ytimg.com/yts/jsbin/player-es_ES-vflY26K4P/base.js:4295:299
+create@https://s.ytimg.com/yts/jsbin/player-es_ES-vflY26K4P/base.js:7230:552
+https://s.ytimg.com/yts/jsbin/www-embed-player-vfl_5XjZ-/www-embed-player.js:459:276
+[native code]
+pe@https://s.ytimg.com/yts/jsbin/www-embed-player-vfl_5XjZ-/www-embed-player.js:459:318
+yh@https://s.ytimg.com/yts/jsbin/www-embed-player-vfl_5XjZ-/www-embed-player.js:457:147
+Tb@https://s.ytimg.com/yts/jsbin/www-embed-player-vfl_5XjZ-/www-embed-player.js:450:189
+https://s.ytimg.com/yts/jsbin/www-embed-player-vfl_5XjZ-/www-embed-player.js:492:422
+[ERROR - 2016-07-29T16:27:00.673Z] Session [a3094820-55a8-11e6-9832-e98c84c61b0e] - page.onError - stack:
+  (anonymous function) (https://s.ytimg.com/yts/jsbin/player-es_ES-vflY26K4P/base.js:3948)
+  (anonymous function) (:0)
+[ERROR - 2016-07-29T16:27:03.805Z] Session [a3094820-55a8-11e6-9832-e98c84c61b0e] - page.onError - msg: getPresentingPlayerType@https://s.ytimg.com/yts/jsbin/player-es_ES-vflY26K4P/base.js:7240:109
+Sr@https://s.ytimg.com/yts/jsbin/player-es_ES-vflY26K4P/base.js:2139:78
+v8@https://s.ytimg.com/yts/jsbin/player-es_ES-vflY26K4P/base.js:4209:81
+Z8@https://s.ytimg.com/yts/jsbin/player-es_ES-vflY26K4P/base.js:4295:299
+create@https://s.ytimg.com/yts/jsbin/player-es_ES-vflY26K4P/base.js:7230:552
+https://s.ytimg.com/yts/jsbin/www-embed-player-vfl_5XjZ-/www-embed-player.js:459:276
+[native code]
+pe@https://s.ytimg.com/yts/jsbin/www-embed-player-vfl_5XjZ-/www-embed-player.js:459:318
+yh@https://s.ytimg.com/yts/jsbin/www-embed-player-vfl_5XjZ-/www-embed-player.js:457:147
+Tb@https://s.ytimg.com/yts/jsbin/www-embed-player-vfl_5XjZ-/www-embed-player.js:450:189
+https://s.ytimg.com/yts/jsbin/www-embed-player-vfl_5XjZ-/www-embed-player.js:492:422
+[ERROR - 2016-07-29T16:27:03.806Z] Session [a3094820-55a8-11e6-9832-e98c84c61b0e] - page.onError - stack:
+  (anonymous function) (https://s.ytimg.com/yts/jsbin/player-es_ES-vflY26K4P/base.js:3948)
+  (anonymous function) (:0)
+[ERROR - 2016-07-29T16:27:06.798Z] Session [a3094820-55a8-11e6-9832-e98c84c61b0e] - page.onError - msg: getPresentingPlayerType@https://s.ytimg.com/yts/jsbin/player-es_ES-vflY26K4P/base.js:7240:109
+Sr@https://s.ytimg.com/yts/jsbin/player-es_ES-vflY26K4P/base.js:2139:78
+v8@https://s.ytimg.com/yts/jsbin/player-es_ES-vflY26K4P/base.js:4209:81
+Z8@https://s.ytimg.com/yts/jsbin/player-es_ES-vflY26K4P/base.js:4295:299
+create@https://s.ytimg.com/yts/jsbin/player-es_ES-vflY26K4P/base.js:7230:552
+https://s.ytimg.com/yts/jsbin/www-embed-player-vfl_5XjZ-/www-embed-player.js:459:276
+[native code]
+pe@https://s.ytimg.com/yts/jsbin/www-embed-player-vfl_5XjZ-/www-embed-player.js:459:318
+yh@https://s.ytimg.com/yts/jsbin/www-embed-player-vfl_5XjZ-/www-embed-player.js:457:147
+Tb@https://s.ytimg.com/yts/jsbin/www-embed-player-vfl_5XjZ-/www-embed-player.js:450:189
+https://s.ytimg.com/yts/jsbin/www-embed-player-vfl_5XjZ-/www-embed-player.js:492:422
+[ERROR - 2016-07-29T16:27:06.800Z] Session [a3094820-55a8-11e6-9832-e98c84c61b0e] - page.onError - stack:
+  (anonymous function) (https://s.ytimg.com/yts/jsbin/player-es_ES-vflY26K4P/base.js:3948)
+  (anonymous function) (:0)
+[INFO  - 2016-07-29T16:27:25.092Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[ERROR - 2016-07-29T16:29:09.610Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1469809749595
+[ERROR - 2016-07-29T16:31:15.287Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1469809875229
+[INFO  - 2016-07-29T16:32:25.092Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[ERROR - 2016-07-29T16:33:24.943Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1469810004876
+[INFO  - 2016-07-29T16:33:32.225Z] ShutdownReqHand - _handle - About to shutdown
+[INFO  - 2016-07-29T16:33:37.191Z] GhostDriver - Main - running on port 15760
+[INFO  - 2016-07-29T16:33:37.726Z] Session [336fe030-55aa-11e6-af5e-f3b1d68d65d6] - page.settings - {"XSSAuditingEnabled":false,"javascriptCanCloseWindows":true,"javascriptCanOpenWindows":true,"javascriptEnabled":true,"loadImages":true,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.1.1 Safari/538.1","webSecurityEnabled":true}
+[INFO  - 2016-07-29T16:33:37.726Z] Session [336fe030-55aa-11e6-af5e-f3b1d68d65d6] - page.customHeaders:  - {}
+[INFO  - 2016-07-29T16:33:37.727Z] Session [336fe030-55aa-11e6-af5e-f3b1d68d65d6] - Session.negotiatedCapabilities - {"browserName":"phantomjs","version":"2.1.1","driverName":"ghostdriver","driverVersion":"1.2.0","platform":"windows-10-32bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2016-07-29T16:33:37.727Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: 336fe030-55aa-11e6-af5e-f3b1d68d65d6
+[ERROR - 2016-07-29T16:33:47.974Z] Session [336fe030-55aa-11e6-af5e-f3b1d68d65d6] - page.onError - msg: getPresentingPlayerType@https://s.ytimg.com/yts/jsbin/player-es_ES-vflY26K4P/base.js:7240:109
+Sr@https://s.ytimg.com/yts/jsbin/player-es_ES-vflY26K4P/base.js:2139:78
+v8@https://s.ytimg.com/yts/jsbin/player-es_ES-vflY26K4P/base.js:4209:81
+Z8@https://s.ytimg.com/yts/jsbin/player-es_ES-vflY26K4P/base.js:4295:299
+create@https://s.ytimg.com/yts/jsbin/player-es_ES-vflY26K4P/base.js:7230:552
+https://s.ytimg.com/yts/jsbin/www-embed-player-vfl_5XjZ-/www-embed-player.js:459:276
+[native code]
+pe@https://s.ytimg.com/yts/jsbin/www-embed-player-vfl_5XjZ-/www-embed-player.js:459:318
+yh@https://s.ytimg.com/yts/jsbin/www-embed-player-vfl_5XjZ-/www-embed-player.js:457:147
+Tb@https://s.ytimg.com/yts/jsbin/www-embed-player-vfl_5XjZ-/www-embed-player.js:450:189
+https://s.ytimg.com/yts/jsbin/www-embed-player-vfl_5XjZ-/www-embed-player.js:492:422
+[ERROR - 2016-07-29T16:33:47.974Z] Session [336fe030-55aa-11e6-af5e-f3b1d68d65d6] - page.onError - stack:
+  (anonymous function) (https://s.ytimg.com/yts/jsbin/player-es_ES-vflY26K4P/base.js:3948)
+  (anonymous function) (:0)
+[ERROR - 2016-07-29T16:33:51.239Z] Session [336fe030-55aa-11e6-af5e-f3b1d68d65d6] - page.onError - msg: getPresentingPlayerType@https://s.ytimg.com/yts/jsbin/player-es_ES-vflY26K4P/base.js:7240:109
+Sr@https://s.ytimg.com/yts/jsbin/player-es_ES-vflY26K4P/base.js:2139:78
+v8@https://s.ytimg.com/yts/jsbin/player-es_ES-vflY26K4P/base.js:4209:81
+Z8@https://s.ytimg.com/yts/jsbin/player-es_ES-vflY26K4P/base.js:4295:299
+create@https://s.ytimg.com/yts/jsbin/player-es_ES-vflY26K4P/base.js:7230:552
+https://s.ytimg.com/yts/jsbin/www-embed-player-vfl_5XjZ-/www-embed-player.js:459:276
+[native code]
+pe@https://s.ytimg.com/yts/jsbin/www-embed-player-vfl_5XjZ-/www-embed-player.js:459:318
+yh@https://s.ytimg.com/yts/jsbin/www-embed-player-vfl_5XjZ-/www-embed-player.js:457:147
+Tb@https://s.ytimg.com/yts/jsbin/www-embed-player-vfl_5XjZ-/www-embed-player.js:450:189
+https://s.ytimg.com/yts/jsbin/www-embed-player-vfl_5XjZ-/www-embed-player.js:492:422
+[ERROR - 2016-07-29T16:33:51.239Z] Session [336fe030-55aa-11e6-af5e-f3b1d68d65d6] - page.onError - stack:
+  (anonymous function) (https://s.ytimg.com/yts/jsbin/player-es_ES-vflY26K4P/base.js:3948)
+  (anonymous function) (:0)
+[ERROR - 2016-07-29T16:33:53.933Z] Session [336fe030-55aa-11e6-af5e-f3b1d68d65d6] - page.onError - msg: getPresentingPlayerType@https://s.ytimg.com/yts/jsbin/player-es_ES-vflY26K4P/base.js:7240:109
+Sr@https://s.ytimg.com/yts/jsbin/player-es_ES-vflY26K4P/base.js:2139:78
+v8@https://s.ytimg.com/yts/jsbin/player-es_ES-vflY26K4P/base.js:4209:81
+Z8@https://s.ytimg.com/yts/jsbin/player-es_ES-vflY26K4P/base.js:4295:299
+create@https://s.ytimg.com/yts/jsbin/player-es_ES-vflY26K4P/base.js:7230:552
+https://s.ytimg.com/yts/jsbin/www-embed-player-vfl_5XjZ-/www-embed-player.js:459:276
+[native code]
+pe@https://s.ytimg.com/yts/jsbin/www-embed-player-vfl_5XjZ-/www-embed-player.js:459:318
+yh@https://s.ytimg.com/yts/jsbin/www-embed-player-vfl_5XjZ-/www-embed-player.js:457:147
+Tb@https://s.ytimg.com/yts/jsbin/www-embed-player-vfl_5XjZ-/www-embed-player.js:450:189
+https://s.ytimg.com/yts/jsbin/www-embed-player-vfl_5XjZ-/www-embed-player.js:492:422
+[ERROR - 2016-07-29T16:33:53.934Z] Session [336fe030-55aa-11e6-af5e-f3b1d68d65d6] - page.onError - stack:
+  (anonymous function) (https://s.ytimg.com/yts/jsbin/player-es_ES-vflY26K4P/base.js:3948)
+  (anonymous function) (:0)
+[ERROR - 2016-07-29T16:33:55.659Z] Session [336fe030-55aa-11e6-af5e-f3b1d68d65d6] - page.onError - msg: getPresentingPlayerType@https://s.ytimg.com/yts/jsbin/player-es_ES-vflY26K4P/base.js:7240:109
+Sr@https://s.ytimg.com/yts/jsbin/player-es_ES-vflY26K4P/base.js:2139:78
+v8@https://s.ytimg.com/yts/jsbin/player-es_ES-vflY26K4P/base.js:4209:81
+Z8@https://s.ytimg.com/yts/jsbin/player-es_ES-vflY26K4P/base.js:4295:299
+create@https://s.ytimg.com/yts/jsbin/player-es_ES-vflY26K4P/base.js:7230:552
+https://s.ytimg.com/yts/jsbin/www-embed-player-vfl_5XjZ-/www-embed-player.js:459:276
+[native code]
+pe@https://s.ytimg.com/yts/jsbin/www-embed-player-vfl_5XjZ-/www-embed-player.js:459:318
+yh@https://s.ytimg.com/yts/jsbin/www-embed-player-vfl_5XjZ-/www-embed-player.js:457:147
+Tb@https://s.ytimg.com/yts/jsbin/www-embed-player-vfl_5XjZ-/www-embed-player.js:450:189
+https://s.ytimg.com/yts/jsbin/www-embed-player-vfl_5XjZ-/www-embed-player.js:492:422
+[ERROR - 2016-07-29T16:33:55.659Z] Session [336fe030-55aa-11e6-af5e-f3b1d68d65d6] - page.onError - stack:
+  (anonymous function) (https://s.ytimg.com/yts/jsbin/player-es_ES-vflY26K4P/base.js:3948)
+  (anonymous function) (:0)
+[ERROR - 2016-07-29T16:33:57.767Z] Session [336fe030-55aa-11e6-af5e-f3b1d68d65d6] - page.onError - msg: getPresentingPlayerType@https://s.ytimg.com/yts/jsbin/player-es_ES-vflY26K4P/base.js:7240:109
+Sr@https://s.ytimg.com/yts/jsbin/player-es_ES-vflY26K4P/base.js:2139:78
+v8@https://s.ytimg.com/yts/jsbin/player-es_ES-vflY26K4P/base.js:4209:81
+Z8@https://s.ytimg.com/yts/jsbin/player-es_ES-vflY26K4P/base.js:4295:299
+create@https://s.ytimg.com/yts/jsbin/player-es_ES-vflY26K4P/base.js:7230:552
+https://s.ytimg.com/yts/jsbin/www-embed-player-vfl_5XjZ-/www-embed-player.js:459:276
+[native code]
+pe@https://s.ytimg.com/yts/jsbin/www-embed-player-vfl_5XjZ-/www-embed-player.js:459:318
+yh@https://s.ytimg.com/yts/jsbin/www-embed-player-vfl_5XjZ-/www-embed-player.js:457:147
+Tb@https://s.ytimg.com/yts/jsbin/www-embed-player-vfl_5XjZ-/www-embed-player.js:450:189
+https://s.ytimg.com/yts/jsbin/www-embed-player-vfl_5XjZ-/www-embed-player.js:492:422
+[ERROR - 2016-07-29T16:33:57.768Z] Session [336fe030-55aa-11e6-af5e-f3b1d68d65d6] - page.onError - stack:
+  (anonymous function) (https://s.ytimg.com/yts/jsbin/player-es_ES-vflY26K4P/base.js:3948)
+  (anonymous function) (:0)
+[ERROR - 2016-07-29T16:34:01.397Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1469810041380
+[ERROR - 2016-07-29T16:34:12.647Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1469810052596
+[ERROR - 2016-07-29T16:34:38.517Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1469810078513
+[ERROR - 2016-07-29T16:34:49.990Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1469810089965
+[ERROR - 2016-07-29T16:35:01.460Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1469810101432
+[ERROR - 2016-07-29T16:35:13.195Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1469810113193
+[ERROR - 2016-07-29T16:35:25.271Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1469810125252
+[ERROR - 2016-07-29T16:35:36.600Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1469810136566
+[ERROR - 2016-07-29T16:35:47.304Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1469810147299
+[ERROR - 2016-07-29T16:36:01.287Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1469810161283
+[ERROR - 2016-07-29T16:36:12.646Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1469810172619
+[ERROR - 2016-07-29T16:36:23.132Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1469810183115
+[ERROR - 2016-07-29T16:36:34.179Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1469810194161
+[ERROR - 2016-07-29T16:36:46.648Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1469810206629
+[ERROR - 2016-07-29T16:36:58.474Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1469810218469
+[ERROR - 2016-07-29T16:37:10.601Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1469810230568
+[ERROR - 2016-07-29T16:37:22.614Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1469810242605
+[ERROR - 2016-07-29T16:37:35.521Z] Session [336fe030-55aa-11e6-af5e-f3b1d68d65d6] - page.onError - msg: getPresentingPlayerType@https://s.ytimg.com/yts/jsbin/player-es_ES-vflY26K4P/base.js:7240:109
+Sr@https://s.ytimg.com/yts/jsbin/player-es_ES-vflY26K4P/base.js:2139:78
+v8@https://s.ytimg.com/yts/jsbin/player-es_ES-vflY26K4P/base.js:4209:81
+Z8@https://s.ytimg.com/yts/jsbin/player-es_ES-vflY26K4P/base.js:4295:299
+create@https://s.ytimg.com/yts/jsbin/player-es_ES-vflY26K4P/base.js:7230:552
+https://s.ytimg.com/yts/jsbin/www-embed-player-vfl_5XjZ-/www-embed-player.js:459:276
+[native code]
+pe@https://s.ytimg.com/yts/jsbin/www-embed-player-vfl_5XjZ-/www-embed-player.js:459:318
+yh@https://s.ytimg.com/yts/jsbin/www-embed-player-vfl_5XjZ-/www-embed-player.js:457:147
+Tb@https://s.ytimg.com/yts/jsbin/www-embed-player-vfl_5XjZ-/www-embed-player.js:450:189
+https://s.ytimg.com/yts/jsbin/www-embed-player-vfl_5XjZ-/www-embed-player.js:492:422
+[ERROR - 2016-07-29T16:37:35.522Z] Session [336fe030-55aa-11e6-af5e-f3b1d68d65d6] - page.onError - stack:
+  (anonymous function) (https://s.ytimg.com/yts/jsbin/player-es_ES-vflY26K4P/base.js:3948)
+  (anonymous function) (:0)
+[ERROR - 2016-07-29T16:37:41.173Z] Session [336fe030-55aa-11e6-af5e-f3b1d68d65d6] - page.onError - msg: getPresentingPlayerType@https://s.ytimg.com/yts/jsbin/player-es_ES-vflY26K4P/base.js:7240:109
+Sr@https://s.ytimg.com/yts/jsbin/player-es_ES-vflY26K4P/base.js:2139:78
+v8@https://s.ytimg.com/yts/jsbin/player-es_ES-vflY26K4P/base.js:4209:81
+Z8@https://s.ytimg.com/yts/jsbin/player-es_ES-vflY26K4P/base.js:4295:299
+create@https://s.ytimg.com/yts/jsbin/player-es_ES-vflY26K4P/base.js:7230:552
+https://s.ytimg.com/yts/jsbin/www-embed-player-vfl_5XjZ-/www-embed-player.js:459:276
+[native code]
+pe@https://s.ytimg.com/yts/jsbin/www-embed-player-vfl_5XjZ-/www-embed-player.js:459:318
+yh@https://s.ytimg.com/yts/jsbin/www-embed-player-vfl_5XjZ-/www-embed-player.js:457:147
+Tb@https://s.ytimg.com/yts/jsbin/www-embed-player-vfl_5XjZ-/www-embed-player.js:450:189
+https://s.ytimg.com/yts/jsbin/www-embed-player-vfl_5XjZ-/www-embed-player.js:492:422
+[ERROR - 2016-07-29T16:37:41.174Z] Session [336fe030-55aa-11e6-af5e-f3b1d68d65d6] - page.onError - stack:
+  (anonymous function) (https://s.ytimg.com/yts/jsbin/player-es_ES-vflY26K4P/base.js:3948)
+  (anonymous function) (:0)
+[ERROR - 2016-07-29T16:37:43.862Z] Session [336fe030-55aa-11e6-af5e-f3b1d68d65d6] - page.onError - msg: getPresentingPlayerType@https://s.ytimg.com/yts/jsbin/player-es_ES-vflY26K4P/base.js:7240:109
+Sr@https://s.ytimg.com/yts/jsbin/player-es_ES-vflY26K4P/base.js:2139:78
+v8@https://s.ytimg.com/yts/jsbin/player-es_ES-vflY26K4P/base.js:4209:81
+Z8@https://s.ytimg.com/yts/jsbin/player-es_ES-vflY26K4P/base.js:4295:299
+create@https://s.ytimg.com/yts/jsbin/player-es_ES-vflY26K4P/base.js:7230:552
+https://s.ytimg.com/yts/jsbin/www-embed-player-vfl_5XjZ-/www-embed-player.js:459:276
+[native code]
+pe@https://s.ytimg.com/yts/jsbin/www-embed-player-vfl_5XjZ-/www-embed-player.js:459:318
+yh@https://s.ytimg.com/yts/jsbin/www-embed-player-vfl_5XjZ-/www-embed-player.js:457:147
+Tb@https://s.ytimg.com/yts/jsbin/www-embed-player-vfl_5XjZ-/www-embed-player.js:450:189
+https://s.ytimg.com/yts/jsbin/www-embed-player-vfl_5XjZ-/www-embed-player.js:492:422
+[ERROR - 2016-07-29T16:37:43.863Z] Session [336fe030-55aa-11e6-af5e-f3b1d68d65d6] - page.onError - stack:
+  (anonymous function) (https://s.ytimg.com/yts/jsbin/player-es_ES-vflY26K4P/base.js:3948)
+  (anonymous function) (:0)
+[ERROR - 2016-07-29T16:37:48.547Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1469810268506
+[ERROR - 2016-07-29T16:38:02.562Z] Session [336fe030-55aa-11e6-af5e-f3b1d68d65d6] - page.onError - msg: getPresentingPlayerType@https://s.ytimg.com/yts/jsbin/player-es_ES-vflY26K4P/base.js:7240:109
+Sr@https://s.ytimg.com/yts/jsbin/player-es_ES-vflY26K4P/base.js:2139:78
+v8@https://s.ytimg.com/yts/jsbin/player-es_ES-vflY26K4P/base.js:4209:81
+Z8@https://s.ytimg.com/yts/jsbin/player-es_ES-vflY26K4P/base.js:4295:299
+create@https://s.ytimg.com/yts/jsbin/player-es_ES-vflY26K4P/base.js:7230:552
+https://s.ytimg.com/yts/jsbin/www-embed-player-vfl_5XjZ-/www-embed-player.js:459:276
+[native code]
+pe@https://s.ytimg.com/yts/jsbin/www-embed-player-vfl_5XjZ-/www-embed-player.js:459:318
+yh@https://s.ytimg.com/yts/jsbin/www-embed-player-vfl_5XjZ-/www-embed-player.js:457:147
+Tb@https://s.ytimg.com/yts/jsbin/www-embed-player-vfl_5XjZ-/www-embed-player.js:450:189
+https://s.ytimg.com/yts/jsbin/www-embed-player-vfl_5XjZ-/www-embed-player.js:492:422
+[ERROR - 2016-07-29T16:38:02.563Z] Session [336fe030-55aa-11e6-af5e-f3b1d68d65d6] - page.onError - stack:
+  (anonymous function) (https://s.ytimg.com/yts/jsbin/player-es_ES-vflY26K4P/base.js:3948)
+  (anonymous function) (:0)
+[ERROR - 2016-07-29T16:38:08.127Z] Session [336fe030-55aa-11e6-af5e-f3b1d68d65d6] - page.onError - msg: getPresentingPlayerType@https://s.ytimg.com/yts/jsbin/player-es_ES-vflY26K4P/base.js:7240:109
+Sr@https://s.ytimg.com/yts/jsbin/player-es_ES-vflY26K4P/base.js:2139:78
+v8@https://s.ytimg.com/yts/jsbin/player-es_ES-vflY26K4P/base.js:4209:81
+Z8@https://s.ytimg.com/yts/jsbin/player-es_ES-vflY26K4P/base.js:4295:299
+create@https://s.ytimg.com/yts/jsbin/player-es_ES-vflY26K4P/base.js:7230:552
+https://s.ytimg.com/yts/jsbin/www-embed-player-vfl_5XjZ-/www-embed-player.js:459:276
+[native code]
+pe@https://s.ytimg.com/yts/jsbin/www-embed-player-vfl_5XjZ-/www-embed-player.js:459:318
+yh@https://s.ytimg.com/yts/jsbin/www-embed-player-vfl_5XjZ-/www-embed-player.js:457:147
+Tb@https://s.ytimg.com/yts/jsbin/www-embed-player-vfl_5XjZ-/www-embed-player.js:450:189
+https://s.ytimg.com/yts/jsbin/www-embed-player-vfl_5XjZ-/www-embed-player.js:492:422
+[ERROR - 2016-07-29T16:38:08.127Z] Session [336fe030-55aa-11e6-af5e-f3b1d68d65d6] - page.onError - stack:
+  (anonymous function) (https://s.ytimg.com/yts/jsbin/player-es_ES-vflY26K4P/base.js:3948)
+  (anonymous function) (:0)
+[ERROR - 2016-07-29T16:38:11.795Z] Session [336fe030-55aa-11e6-af5e-f3b1d68d65d6] - page.onError - msg: getPresentingPlayerType@https://s.ytimg.com/yts/jsbin/player-es_ES-vflY26K4P/base.js:7240:109
+Sr@https://s.ytimg.com/yts/jsbin/player-es_ES-vflY26K4P/base.js:2139:78
+v8@https://s.ytimg.com/yts/jsbin/player-es_ES-vflY26K4P/base.js:4209:81
+Z8@https://s.ytimg.com/yts/jsbin/player-es_ES-vflY26K4P/base.js:4295:299
+create@https://s.ytimg.com/yts/jsbin/player-es_ES-vflY26K4P/base.js:7230:552
+https://s.ytimg.com/yts/jsbin/www-embed-player-vfl_5XjZ-/www-embed-player.js:459:276
+[native code]
+pe@https://s.ytimg.com/yts/jsbin/www-embed-player-vfl_5XjZ-/www-embed-player.js:459:318
+yh@https://s.ytimg.com/yts/jsbin/www-embed-player-vfl_5XjZ-/www-embed-player.js:457:147
+Tb@https://s.ytimg.com/yts/jsbin/www-embed-player-vfl_5XjZ-/www-embed-player.js:450:189
+https://s.ytimg.com/yts/jsbin/www-embed-player-vfl_5XjZ-/www-embed-player.js:492:422
+[ERROR - 2016-07-29T16:38:11.796Z] Session [336fe030-55aa-11e6-af5e-f3b1d68d65d6] - page.onError - stack:
+  (anonymous function) (https://s.ytimg.com/yts/jsbin/player-es_ES-vflY26K4P/base.js:3948)
+  (anonymous function) (:0)
+[ERROR - 2016-07-29T16:38:20.097Z] Session [336fe030-55aa-11e6-af5e-f3b1d68d65d6] - page.onError - msg: getPresentingPlayerType@https://s.ytimg.com/yts/jsbin/player-es_ES-vflY26K4P/base.js:7240:109
+Sr@https://s.ytimg.com/yts/jsbin/player-es_ES-vflY26K4P/base.js:2139:78
+v8@https://s.ytimg.com/yts/jsbin/player-es_ES-vflY26K4P/base.js:4209:81
+Z8@https://s.ytimg.com/yts/jsbin/player-es_ES-vflY26K4P/base.js:4295:299
+create@https://s.ytimg.com/yts/jsbin/player-es_ES-vflY26K4P/base.js:7230:552
+https://s.ytimg.com/yts/jsbin/www-embed-player-vfl_5XjZ-/www-embed-player.js:459:276
+[native code]
+pe@https://s.ytimg.com/yts/jsbin/www-embed-player-vfl_5XjZ-/www-embed-player.js:459:318
+yh@https://s.ytimg.com/yts/jsbin/www-embed-player-vfl_5XjZ-/www-embed-player.js:457:147
+Tb@https://s.ytimg.com/yts/jsbin/www-embed-player-vfl_5XjZ-/www-embed-player.js:450:189
+https://s.ytimg.com/yts/jsbin/www-embed-player-vfl_5XjZ-/www-embed-player.js:492:422
+[ERROR - 2016-07-29T16:38:20.097Z] Session [336fe030-55aa-11e6-af5e-f3b1d68d65d6] - page.onError - stack:
+  (anonymous function) (https://s.ytimg.com/yts/jsbin/player-es_ES-vflY26K4P/base.js:3948)
+  (anonymous function) (:0)
+[INFO  - 2016-07-29T16:38:20.363Z] ShutdownReqHand - _handle - About to shutdown
+[INFO  - 2016-07-29T16:38:23.612Z] GhostDriver - Main - running on port 38665
+[INFO  - 2016-07-29T16:38:24.041Z] Session [de17c5c0-55aa-11e6-869f-af7204039813] - page.settings - {"XSSAuditingEnabled":false,"javascriptCanCloseWindows":true,"javascriptCanOpenWindows":true,"javascriptEnabled":true,"loadImages":true,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.1.1 Safari/538.1","webSecurityEnabled":true}
+[INFO  - 2016-07-29T16:38:24.041Z] Session [de17c5c0-55aa-11e6-869f-af7204039813] - page.customHeaders:  - {}
+[INFO  - 2016-07-29T16:38:24.041Z] Session [de17c5c0-55aa-11e6-869f-af7204039813] - Session.negotiatedCapabilities - {"browserName":"phantomjs","version":"2.1.1","driverName":"ghostdriver","driverVersion":"1.2.0","platform":"windows-10-32bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2016-07-29T16:38:24.042Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: de17c5c0-55aa-11e6-869f-af7204039813
+[ERROR - 2016-07-29T16:38:33.880Z] Session [de17c5c0-55aa-11e6-869f-af7204039813] - page.onError - msg: getPresentingPlayerType@https://s.ytimg.com/yts/jsbin/player-es_ES-vflY26K4P/base.js:7240:109
+Sr@https://s.ytimg.com/yts/jsbin/player-es_ES-vflY26K4P/base.js:2139:78
+v8@https://s.ytimg.com/yts/jsbin/player-es_ES-vflY26K4P/base.js:4209:81
+Z8@https://s.ytimg.com/yts/jsbin/player-es_ES-vflY26K4P/base.js:4295:299
+create@https://s.ytimg.com/yts/jsbin/player-es_ES-vflY26K4P/base.js:7230:552
+https://s.ytimg.com/yts/jsbin/www-embed-player-vfl_5XjZ-/www-embed-player.js:459:276
+[native code]
+pe@https://s.ytimg.com/yts/jsbin/www-embed-player-vfl_5XjZ-/www-embed-player.js:459:318
+yh@https://s.ytimg.com/yts/jsbin/www-embed-player-vfl_5XjZ-/www-embed-player.js:457:147
+Tb@https://s.ytimg.com/yts/jsbin/www-embed-player-vfl_5XjZ-/www-embed-player.js:450:189
+https://s.ytimg.com/yts/jsbin/www-embed-player-vfl_5XjZ-/www-embed-player.js:492:422
+[ERROR - 2016-07-29T16:38:33.880Z] Session [de17c5c0-55aa-11e6-869f-af7204039813] - page.onError - stack:
+  (anonymous function) (https://s.ytimg.com/yts/jsbin/player-es_ES-vflY26K4P/base.js:3948)
+  (anonymous function) (:0)
+[ERROR - 2016-07-29T16:38:37.483Z] Session [de17c5c0-55aa-11e6-869f-af7204039813] - page.onError - msg: getPresentingPlayerType@https://s.ytimg.com/yts/jsbin/player-es_ES-vflY26K4P/base.js:7240:109
+Sr@https://s.ytimg.com/yts/jsbin/player-es_ES-vflY26K4P/base.js:2139:78
+v8@https://s.ytimg.com/yts/jsbin/player-es_ES-vflY26K4P/base.js:4209:81
+Z8@https://s.ytimg.com/yts/jsbin/player-es_ES-vflY26K4P/base.js:4295:299
+create@https://s.ytimg.com/yts/jsbin/player-es_ES-vflY26K4P/base.js:7230:552
+https://s.ytimg.com/yts/jsbin/www-embed-player-vfl_5XjZ-/www-embed-player.js:459:276
+[native code]
+pe@https://s.ytimg.com/yts/jsbin/www-embed-player-vfl_5XjZ-/www-embed-player.js:459:318
+yh@https://s.ytimg.com/yts/jsbin/www-embed-player-vfl_5XjZ-/www-embed-player.js:457:147
+Tb@https://s.ytimg.com/yts/jsbin/www-embed-player-vfl_5XjZ-/www-embed-player.js:450:189
+https://s.ytimg.com/yts/jsbin/www-embed-player-vfl_5XjZ-/www-embed-player.js:492:422
+[ERROR - 2016-07-29T16:38:37.483Z] Session [de17c5c0-55aa-11e6-869f-af7204039813] - page.onError - stack:
+  (anonymous function) (https://s.ytimg.com/yts/jsbin/player-es_ES-vflY26K4P/base.js:3948)
+  (anonymous function) (:0)
+[ERROR - 2016-07-29T16:38:40.107Z] Session [de17c5c0-55aa-11e6-869f-af7204039813] - page.onError - msg: getPresentingPlayerType@https://s.ytimg.com/yts/jsbin/player-es_ES-vflY26K4P/base.js:7240:109
+Sr@https://s.ytimg.com/yts/jsbin/player-es_ES-vflY26K4P/base.js:2139:78
+v8@https://s.ytimg.com/yts/jsbin/player-es_ES-vflY26K4P/base.js:4209:81
+Z8@https://s.ytimg.com/yts/jsbin/player-es_ES-vflY26K4P/base.js:4295:299
+create@https://s.ytimg.com/yts/jsbin/player-es_ES-vflY26K4P/base.js:7230:552
+https://s.ytimg.com/yts/jsbin/www-embed-player-vfl_5XjZ-/www-embed-player.js:459:276
+[native code]
+pe@https://s.ytimg.com/yts/jsbin/www-embed-player-vfl_5XjZ-/www-embed-player.js:459:318
+yh@https://s.ytimg.com/yts/jsbin/www-embed-player-vfl_5XjZ-/www-embed-player.js:457:147
+Tb@https://s.ytimg.com/yts/jsbin/www-embed-player-vfl_5XjZ-/www-embed-player.js:450:189
+https://s.ytimg.com/yts/jsbin/www-embed-player-vfl_5XjZ-/www-embed-player.js:492:422
+[ERROR - 2016-07-29T16:38:40.108Z] Session [de17c5c0-55aa-11e6-869f-af7204039813] - page.onError - stack:
+  (anonymous function) (https://s.ytimg.com/yts/jsbin/player-es_ES-vflY26K4P/base.js:3948)
+  (anonymous function) (:0)
+[ERROR - 2016-07-29T16:38:42.543Z] Session [de17c5c0-55aa-11e6-869f-af7204039813] - page.onError - msg: getPresentingPlayerType@https://s.ytimg.com/yts/jsbin/player-es_ES-vflY26K4P/base.js:7240:109
+Sr@https://s.ytimg.com/yts/jsbin/player-es_ES-vflY26K4P/base.js:2139:78
+v8@https://s.ytimg.com/yts/jsbin/player-es_ES-vflY26K4P/base.js:4209:81
+Z8@https://s.ytimg.com/yts/jsbin/player-es_ES-vflY26K4P/base.js:4295:299
+create@https://s.ytimg.com/yts/jsbin/player-es_ES-vflY26K4P/base.js:7230:552
+https://s.ytimg.com/yts/jsbin/www-embed-player-vfl_5XjZ-/www-embed-player.js:459:276
+[native code]
+pe@https://s.ytimg.com/yts/jsbin/www-embed-player-vfl_5XjZ-/www-embed-player.js:459:318
+yh@https://s.ytimg.com/yts/jsbin/www-embed-player-vfl_5XjZ-/www-embed-player.js:457:147
+Tb@https://s.ytimg.com/yts/jsbin/www-embed-player-vfl_5XjZ-/www-embed-player.js:450:189
+https://s.ytimg.com/yts/jsbin/www-embed-player-vfl_5XjZ-/www-embed-player.js:492:422
+[ERROR - 2016-07-29T16:38:42.545Z] Session [de17c5c0-55aa-11e6-869f-af7204039813] - page.onError - stack:
+  (anonymous function) (https://s.ytimg.com/yts/jsbin/player-es_ES-vflY26K4P/base.js:3948)
+  (anonymous function) (:0)
+[ERROR - 2016-07-29T16:38:44.618Z] Session [de17c5c0-55aa-11e6-869f-af7204039813] - page.onError - msg: getPresentingPlayerType@https://s.ytimg.com/yts/jsbin/player-es_ES-vflY26K4P/base.js:7240:109
+Sr@https://s.ytimg.com/yts/jsbin/player-es_ES-vflY26K4P/base.js:2139:78
+v8@https://s.ytimg.com/yts/jsbin/player-es_ES-vflY26K4P/base.js:4209:81
+Z8@https://s.ytimg.com/yts/jsbin/player-es_ES-vflY26K4P/base.js:4295:299
+create@https://s.ytimg.com/yts/jsbin/player-es_ES-vflY26K4P/base.js:7230:552
+https://s.ytimg.com/yts/jsbin/www-embed-player-vfl_5XjZ-/www-embed-player.js:459:276
+[native code]
+pe@https://s.ytimg.com/yts/jsbin/www-embed-player-vfl_5XjZ-/www-embed-player.js:459:318
+yh@https://s.ytimg.com/yts/jsbin/www-embed-player-vfl_5XjZ-/www-embed-player.js:457:147
+Tb@https://s.ytimg.com/yts/jsbin/www-embed-player-vfl_5XjZ-/www-embed-player.js:450:189
+https://s.ytimg.com/yts/jsbin/www-embed-player-vfl_5XjZ-/www-embed-player.js:492:422
+[ERROR - 2016-07-29T16:38:44.619Z] Session [de17c5c0-55aa-11e6-869f-af7204039813] - page.onError - stack:
+  (anonymous function) (https://s.ytimg.com/yts/jsbin/player-es_ES-vflY26K4P/base.js:3948)
+  (anonymous function) (:0)
+[ERROR - 2016-07-29T16:38:47.277Z] Session [de17c5c0-55aa-11e6-869f-af7204039813] - page.onError - msg: getPresentingPlayerType@https://s.ytimg.com/yts/jsbin/player-es_ES-vflY26K4P/base.js:7240:109
+Sr@https://s.ytimg.com/yts/jsbin/player-es_ES-vflY26K4P/base.js:2139:78
+v8@https://s.ytimg.com/yts/jsbin/player-es_ES-vflY26K4P/base.js:4209:81
+Z8@https://s.ytimg.com/yts/jsbin/player-es_ES-vflY26K4P/base.js:4295:299
+create@https://s.ytimg.com/yts/jsbin/player-es_ES-vflY26K4P/base.js:7230:552
+https://s.ytimg.com/yts/jsbin/www-embed-player-vfl_5XjZ-/www-embed-player.js:459:276
+[native code]
+pe@https://s.ytimg.com/yts/jsbin/www-embed-player-vfl_5XjZ-/www-embed-player.js:459:318
+yh@https://s.ytimg.com/yts/jsbin/www-embed-player-vfl_5XjZ-/www-embed-player.js:457:147
+Tb@https://s.ytimg.com/yts/jsbin/www-embed-player-vfl_5XjZ-/www-embed-player.js:450:189
+https://s.ytimg.com/yts/jsbin/www-embed-player-vfl_5XjZ-/www-embed-player.js:492:422
+[ERROR - 2016-07-29T16:38:47.277Z] Session [de17c5c0-55aa-11e6-869f-af7204039813] - page.onError - stack:
+  (anonymous function) (https://s.ytimg.com/yts/jsbin/player-es_ES-vflY26K4P/base.js:3948)
+  (anonymous function) (:0)
+[ERROR - 2016-07-29T16:38:49.242Z] Session [de17c5c0-55aa-11e6-869f-af7204039813] - page.onError - msg: getPresentingPlayerType@https://s.ytimg.com/yts/jsbin/player-es_ES-vflY26K4P/base.js:7240:109
+Sr@https://s.ytimg.com/yts/jsbin/player-es_ES-vflY26K4P/base.js:2139:78
+v8@https://s.ytimg.com/yts/jsbin/player-es_ES-vflY26K4P/base.js:4209:81
+Z8@https://s.ytimg.com/yts/jsbin/player-es_ES-vflY26K4P/base.js:4295:299
+create@https://s.ytimg.com/yts/jsbin/player-es_ES-vflY26K4P/base.js:7230:552
+https://s.ytimg.com/yts/jsbin/www-embed-player-vfl_5XjZ-/www-embed-player.js:459:276
+[native code]
+pe@https://s.ytimg.com/yts/jsbin/www-embed-player-vfl_5XjZ-/www-embed-player.js:459:318
+yh@https://s.ytimg.com/yts/jsbin/www-embed-player-vfl_5XjZ-/www-embed-player.js:457:147
+Tb@https://s.ytimg.com/yts/jsbin/www-embed-player-vfl_5XjZ-/www-embed-player.js:450:189
+https://s.ytimg.com/yts/jsbin/www-embed-player-vfl_5XjZ-/www-embed-player.js:492:422
+[ERROR - 2016-07-29T16:38:49.243Z] Session [de17c5c0-55aa-11e6-869f-af7204039813] - page.onError - stack:
+  (anonymous function) (https://s.ytimg.com/yts/jsbin/player-es_ES-vflY26K4P/base.js:3948)
+  (anonymous function) (:0)
+[ERROR - 2016-07-29T16:38:50.859Z] Session [de17c5c0-55aa-11e6-869f-af7204039813] - page.onError - msg: getPresentingPlayerType@https://s.ytimg.com/yts/jsbin/player-es_ES-vflY26K4P/base.js:7240:109
+Sr@https://s.ytimg.com/yts/jsbin/player-es_ES-vflY26K4P/base.js:2139:78
+v8@https://s.ytimg.com/yts/jsbin/player-es_ES-vflY26K4P/base.js:4209:81
+Z8@https://s.ytimg.com/yts/jsbin/player-es_ES-vflY26K4P/base.js:4295:299
+create@https://s.ytimg.com/yts/jsbin/player-es_ES-vflY26K4P/base.js:7230:552
+https://s.ytimg.com/yts/jsbin/www-embed-player-vfl_5XjZ-/www-embed-player.js:459:276
+[native code]
+pe@https://s.ytimg.com/yts/jsbin/www-embed-player-vfl_5XjZ-/www-embed-player.js:459:318
+yh@https://s.ytimg.com/yts/jsbin/www-embed-player-vfl_5XjZ-/www-embed-player.js:457:147
+Tb@https://s.ytimg.com/yts/jsbin/www-embed-player-vfl_5XjZ-/www-embed-player.js:450:189
+https://s.ytimg.com/yts/jsbin/www-embed-player-vfl_5XjZ-/www-embed-player.js:492:422
+[ERROR - 2016-07-29T16:38:50.859Z] Session [de17c5c0-55aa-11e6-869f-af7204039813] - page.onError - stack:
+  (anonymous function) (https://s.ytimg.com/yts/jsbin/player-es_ES-vflY26K4P/base.js:3948)
+  (anonymous function) (:0)
+[ERROR - 2016-07-29T16:38:52.462Z] Session [de17c5c0-55aa-11e6-869f-af7204039813] - page.onError - msg: getPresentingPlayerType@https://s.ytimg.com/yts/jsbin/player-es_ES-vflY26K4P/base.js:7240:109
+Sr@https://s.ytimg.com/yts/jsbin/player-es_ES-vflY26K4P/base.js:2139:78
+v8@https://s.ytimg.com/yts/jsbin/player-es_ES-vflY26K4P/base.js:4209:81
+Z8@https://s.ytimg.com/yts/jsbin/player-es_ES-vflY26K4P/base.js:4295:299
+create@https://s.ytimg.com/yts/jsbin/player-es_ES-vflY26K4P/base.js:7230:552
+https://s.ytimg.com/yts/jsbin/www-embed-player-vfl_5XjZ-/www-embed-player.js:459:276
+[native code]
+pe@https://s.ytimg.com/yts/jsbin/www-embed-player-vfl_5XjZ-/www-embed-player.js:459:318
+yh@https://s.ytimg.com/yts/jsbin/www-embed-player-vfl_5XjZ-/www-embed-player.js:457:147
+Tb@https://s.ytimg.com/yts/jsbin/www-embed-player-vfl_5XjZ-/www-embed-player.js:450:189
+https://s.ytimg.com/yts/jsbin/www-embed-player-vfl_5XjZ-/www-embed-player.js:492:422
+[ERROR - 2016-07-29T16:38:52.463Z] Session [de17c5c0-55aa-11e6-869f-af7204039813] - page.onError - stack:
+  (anonymous function) (https://s.ytimg.com/yts/jsbin/player-es_ES-vflY26K4P/base.js:3948)
+  (anonymous function) (:0)
+[ERROR - 2016-07-29T16:38:56.328Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1469810336320
+[ERROR - 2016-07-29T16:39:08.974Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1469810348964
+[ERROR - 2016-07-29T16:39:21.692Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1469810361666
+[ERROR - 2016-07-29T16:39:34.131Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1469810374077
+[ERROR - 2016-07-29T16:39:45.615Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1469810385589
+[ERROR - 2016-07-29T16:39:57.492Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1469810397445
+[ERROR - 2016-07-29T16:40:09.646Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1469810409610
+[ERROR - 2016-07-29T16:40:21.505Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1469810421490
+[ERROR - 2016-07-29T16:40:33.672Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1469810433654
+[ERROR - 2016-07-29T16:40:45.678Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1469810445635
+[ERROR - 2016-07-29T16:40:59.991Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1469810459954
+[ERROR - 2016-07-29T16:41:12.381Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1469810472328
+[ERROR - 2016-07-29T16:41:24.974Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1469810484943
+[ERROR - 2016-07-29T16:41:37.927Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1469810497872
+[ERROR - 2016-07-29T16:41:51.223Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1469810511190
+[ERROR - 2016-07-29T16:42:03.331Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1469810523322
+[ERROR - 2016-07-29T16:42:15.374Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1469810535323
+[ERROR - 2016-07-29T16:42:27.803Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1469810547772
+[INFO  - 2016-07-29T16:42:36.860Z] ShutdownReqHand - _handle - About to shutdown
+[INFO  - 2016-07-29T16:42:39.426Z] GhostDriver - Main - running on port 12780
+[INFO  - 2016-07-29T16:42:39.485Z] Session [76599610-55ab-11e6-8880-8b55095890b9] - page.settings - {"XSSAuditingEnabled":false,"javascriptCanCloseWindows":true,"javascriptCanOpenWindows":true,"javascriptEnabled":true,"loadImages":true,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.1.1 Safari/538.1","webSecurityEnabled":true}
+[INFO  - 2016-07-29T16:42:39.486Z] Session [76599610-55ab-11e6-8880-8b55095890b9] - page.customHeaders:  - {}
+[INFO  - 2016-07-29T16:42:39.486Z] Session [76599610-55ab-11e6-8880-8b55095890b9] - Session.negotiatedCapabilities - {"browserName":"phantomjs","version":"2.1.1","driverName":"ghostdriver","driverVersion":"1.2.0","platform":"windows-10-32bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2016-07-29T16:42:39.487Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: 76599610-55ab-11e6-8880-8b55095890b9
+[INFO  - 2016-07-29T16:43:03.713Z] ShutdownReqHand - _handle - About to shutdown
+[INFO  - 2016-07-29T16:43:06.853Z] GhostDriver - Main - running on port 48619
+[INFO  - 2016-07-29T16:43:06.893Z] Session [86af9000-55ab-11e6-b703-957b91a82bbe] - page.settings - {"XSSAuditingEnabled":false,"javascriptCanCloseWindows":true,"javascriptCanOpenWindows":true,"javascriptEnabled":true,"loadImages":true,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.1.1 Safari/538.1","webSecurityEnabled":true}
+[INFO  - 2016-07-29T16:43:06.893Z] Session [86af9000-55ab-11e6-b703-957b91a82bbe] - page.customHeaders:  - {}
+[INFO  - 2016-07-29T16:43:06.893Z] Session [86af9000-55ab-11e6-b703-957b91a82bbe] - Session.negotiatedCapabilities - {"browserName":"phantomjs","version":"2.1.1","driverName":"ghostdriver","driverVersion":"1.2.0","platform":"windows-10-32bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2016-07-29T16:43:06.894Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: 86af9000-55ab-11e6-b703-957b91a82bbe
+[INFO  - 2016-07-29T16:43:57.087Z] ShutdownReqHand - _handle - About to shutdown

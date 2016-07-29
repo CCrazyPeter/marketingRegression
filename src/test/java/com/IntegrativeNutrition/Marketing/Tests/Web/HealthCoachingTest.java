@@ -12,7 +12,7 @@ import org.testng.Assert;
 public class HealthCoachingTest extends TestStarter {
 
 	//This test ensures the banner is displayed  
-    @Test (groups = {"web.critical", "web", "beforemerge", "fasttest"}, priority = 1)
+    @Test (groups = {"web.critical", "web", "beforemerge", "fasttest","beforedeploy"}, priority = 1)
     public void assertBannerIsDisplayed ()  throws Exception {
     	HealthCoachingPage healthCoachingPage = Screens.HealthCoachingPage();
     	healthCoachingPage.closePromo();
@@ -20,7 +20,7 @@ public class HealthCoachingTest extends TestStarter {
     }
     
 	//This test ensures the header banner text is displayed  
-    @Test (groups = {"web.critical", "web", "beforemerge", "fasttest"}, priority = 2)
+    @Test (groups = {"web.critical", "web", "beforemerge", "fasttest","beforedeploy"}, priority = 2)
     public void assertBannerTextIsDisplayed ()  throws Exception {
     	HealthCoachingPage healthCoachingPage = Screens.HealthCoachingPage();
     	healthCoachingPage.closePromo();
@@ -57,7 +57,7 @@ public class HealthCoachingTest extends TestStarter {
 	
 
 	//Tests form won't submit if name field is blank
-	@Test (groups = {"web", "afterproduction", "fasttest"}, priority = 6)
+	@Test (groups = {"web", "afterproduction", "fasttest","beforedeploy"}, priority = 6)
     public void nameValidation() throws Exception {
     	HealthCoachingPage healthCoachingPage = Screens.HealthCoachingPage();
     	healthCoachingPage.closePromo();
@@ -68,7 +68,7 @@ public class HealthCoachingTest extends TestStarter {
     }
 
 	//Tests that form won't submit if email field is blank
-	@Test (groups = {"web", "afterproduction", "fasttest"}, priority = 7) 
+	@Test (groups = {"web", "afterproduction", "fasttest","beforedeploy"}, priority = 7) 
     public void emailValidation() throws Exception {
     	HealthCoachingPage healthCoachingPage = Screens.HealthCoachingPage();
     	healthCoachingPage.closePromo();

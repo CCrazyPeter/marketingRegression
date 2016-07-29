@@ -11,7 +11,7 @@ import org.testng.annotations.*;
 public class HeaderTest extends TestStarter {
 
 	//Test if phone number is present in header
-    @Test  (groups = {"web", "beforemerge", "fasttest"}, priority = 1)
+    @Test  (groups = {"web", "beforemerge", "fasttest", "beforedeploy"}, priority = 1)
     public void assertHeaderPhoneisDisplayed () throws Exception  {
         Header header = Screens.Header();
         header.closePromo();
@@ -19,7 +19,7 @@ public class HeaderTest extends TestStarter {
     }
 
   //Search functionality - Search for "learning"
-    @Test (groups = {"web.critical", "web", "beforemerge", "slowtest"}, priority = 2)
+    @Test (groups = {"web.critical", "web", "beforemerge", "slowtest", "beforedeploy"}, priority = 2)
     public void headerSearch() throws Exception {
         Header header = Screens.Header();
         header.closePromo();
@@ -40,7 +40,7 @@ public class HeaderTest extends TestStarter {
     //*** This section is to test that all header links go to their respective pages on click ************************
   
     //Home link
-    @Test (groups = {"web.critical", "web", "beforemerge", "slowtest"}, priority = 4)
+    @Test (groups = {"web.critical", "web", "beforemerge", "slowtest", "beforedeploy"}, priority = 4)
     public void headerHomeIcon() throws Exception {
     	Header header = Screens.Header();
     	header.closePromo();
@@ -49,7 +49,7 @@ public class HeaderTest extends TestStarter {
     }
 
     //Contact Us link
-    @Test (groups = {"web.critical", "web", "beforemerge", "slowtest"}, priority = 5)
+    @Test (groups = {"web.critical", "web", "beforemerge", "slowtest", "beforedeploy"}, priority = 5)
     public void headerContactUs() throws Exception {
     	Header header = Screens.Header();
     	header.closePromo();

@@ -11,21 +11,21 @@ public class InfoSessionTest extends TestStarter {
 
 	
 	//This test ensures the banner is displayed  
-    @Test (groups = {"web.critical", "web", "beforemerge", "fasttest"}, priority = 1)
+    @Test (groups = {"web.critical", "web", "beforemerge", "fasttest","beforedeploy"}, priority = 1)
     public void assertBannerIsDisplayed ()  throws Exception {
     	InfoSessionsPage infoSessionsPage = Screens.InfoSessionsPage();
     	Assert.assertTrue(infoSessionsPage.verifyBannerIsDisplayed());
     }
     
 	//This test ensures the header banner text is displayed  
-    @Test (groups = {"web.critical", "web", "beforemerge", "fasttest"}, priority = 1)
+    @Test (groups = {"web.critical", "web", "beforemerge", "fasttest","beforedeploy"}, priority = 1)
     public void assertBannerTextIsDisplayed ()  throws Exception {
     	InfoSessionsPage infoSessionsPage = Screens.InfoSessionsPage();
     	Assert.assertTrue(infoSessionsPage.verifyBannerTextIsDisplayed());
     }
     
 	//Tests form won't submit if name field is blank
-    @Test (groups = {"web", "afterproduction", "fasttest"}, priority = 1)
+    @Test (groups = {"web", "afterproduction", "fasttest","beforedeploy"}, priority = 1)
     public void nameValidation() throws Exception{
         InfoSessionsPage infoSessionsPage = Screens.InfoSessionsPage();
         
@@ -36,7 +36,7 @@ public class InfoSessionTest extends TestStarter {
     }
 
   //Tests that form won't submit if email field is blank
-    @Test (groups = {"web", "afterproduction", "fasttest"}, priority = 1)
+    @Test (groups = {"web", "afterproduction", "fasttest","beforedeploy"}, priority = 1)
     public void emailValidation() throws Exception{
         InfoSessionsPage infoSessionsPage = Screens.InfoSessionsPage();
         

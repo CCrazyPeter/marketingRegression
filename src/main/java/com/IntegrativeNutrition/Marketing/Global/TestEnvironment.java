@@ -142,7 +142,7 @@ public class TestEnvironment {
         } else if (Operation_System.contains("win")) {
             OS_Simple_Name = "Windows";
             fileExtension = ".exe";
-        } else if (Operation_System.contains("nix")) {
+        } else if (Operation_System.contains("nux")) {
             OS_Simple_Name = "Linux";
         }
         
