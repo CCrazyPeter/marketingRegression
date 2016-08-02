@@ -39,6 +39,8 @@ buildNumber.properties
 .settings/
 phantomjsdriver.log
 
+.classpath
+
 debug.log
 testng.xml
 
