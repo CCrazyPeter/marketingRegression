@@ -39,6 +39,10 @@ buildNumber.properties
 .settings/
 phantomjsdriver.log
 
+debug.log
+testng.xml
+
+
 *.class
 
 # Mobile Tools for Java (J2ME)
