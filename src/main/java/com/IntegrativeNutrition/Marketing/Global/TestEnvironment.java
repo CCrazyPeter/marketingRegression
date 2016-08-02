@@ -12,17 +12,22 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.ie.InternetExplorerDriver;
 import org.openqa.selenium.phantomjs.PhantomJSDriver;
+import org.openqa.selenium.remote.RemoteWebDriver;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.openqa.selenium.remote.CapabilityType;
 import org.openqa.selenium.remote.DesiredCapabilities;
 import org.openqa.selenium.chrome.ChromeDriver;
 
 import java.io.File;
+import java.net.URL;
 import java.util.concurrent.TimeUnit;
 
 public class TestEnvironment {
     private static WebDriver _driver;
     private static WebDriverWait _waitForElement;
+
+    public static final String USERNAME = "alex-iin";
+    public static final String ACCESS_KEY = "474d6b2f-477f-4fc6-bc16-89a7ae831603";
 
     public static WebDriver get_Driver() {
         return _driver;
@@ -39,6 +44,9 @@ public class TestEnvironment {
 
             DesiredCapabilities capabilities = new DesiredCapabilities();
 
+            capabilities.setCapability("platform", "Windows XP");
+            capabilities.setCapability("version", "43.0");
+
             if (browserVersion != null && !(browserVersion.length() == 0))
                 capabilities.setCapability(CapabilityType.VERSION, browserVersion);
 
@@ -50,6 +58,9 @@ public class TestEnvironment {
                 capabilities.setCapability(CapabilityType.BROWSER_NAME, browserName);
                 _driver = new ChromeDriver(capabilities);
                 _driver.manage().timeouts().implicitlyWait(60, TimeUnit.SECONDS);
+            }
+            else if (testURL == "saucelabs") {
+                _driver = new RemoteWebDriver(new URL("http://" + USERNAME + ":" + ACCESS_KEY + "@ondemand.saucelabs.com:80/wd/hub"), capabilities);
             }
             else if (browserName.toLowerCase().equals("headless") && (testURL == null || testURL.length() == 0)) {
             	initializeWebDriver("phantomjs");
