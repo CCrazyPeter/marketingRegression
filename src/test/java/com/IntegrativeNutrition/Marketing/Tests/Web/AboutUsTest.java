@@ -74,7 +74,7 @@ public class AboutUsTest extends TestStarter {
     }
 
     //This test is to ensure video plays until the end
-    @Test (groups = {"web", "beforedeploy", "slowtest"}, priority = 9)
+    @Test (groups = {"web", "beforedeploy.ui", "slowtest"}, priority = 9)
     public void videoPlay() throws Exception {
     	AboutUsPage aboutUsPage = Screens.AboutUsPage();
     	aboutUsPage.closePromo();

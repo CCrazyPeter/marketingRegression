@@ -46,7 +46,7 @@ public class HealthCoachingTest extends TestStarter {
 
 
     //This test is to ensure video plays until the end
-    @Test (groups = {"web", "beforedeploy", "slowtest"}, priority = 5)
+    @Test (groups = {"web", "beforedeploy.ui", "slowtest"}, priority = 5)
     public void videoPlay() throws Exception {
     	HealthCoachingPage healthCoachingPage = Screens.HealthCoachingPage();
     	healthCoachingPage.closePromo();
@@ -79,7 +79,7 @@ public class HealthCoachingTest extends TestStarter {
     }
 
 	//Tests that flags match country code using United Kingdom
-	@Test (groups = {"web.critical", "web", "beforedeploy", "fasttest"}, priority = 8) 
+	@Test (groups = {"web.critical", "web", "beforedeploy.ui", "fasttest"}, priority = 8) 
     public void countryFlagMatch() throws Exception {
     	HealthCoachingPage healthCoachingPage = Screens.HealthCoachingPage();
     	healthCoachingPage.closePromo();

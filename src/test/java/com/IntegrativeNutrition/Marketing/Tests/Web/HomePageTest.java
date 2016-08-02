@@ -67,7 +67,7 @@ public class HomePageTest extends TestStarter {
     }
     
     //This test is to ensure video plays until the end
-    @Test (groups = {"web", "beforedeploy", "slowtest"}, priority = 7)
+    @Test (groups = {"web", "beforedeploy.ui", "slowtest"}, priority = 7)
     public void videoPlay() throws Exception {
     	HomePage homePage = Screens.HomePage();
         homePage.closePromo();
@@ -162,7 +162,7 @@ public class HomePageTest extends TestStarter {
     }
 	
 	//Tests that flags match country code using United Kingdom
-	@Test (groups = {"web", "beforedeploy", "fasttest"}, priority = 15) 
+	@Test (groups = {"web", "beforedeploy.ui", "fasttest"}, priority = 15) 
     public void countryFlagMatch() throws Exception {
     	HomePage homePage = Screens.HomePage();
         homePage.closePromo();

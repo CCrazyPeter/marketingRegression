@@ -87,7 +87,7 @@ public class CurriculumPage {
     private static WebElement formCheckBox;
 
     //Country flag dropdown
-    @FindBy(how = How.XPATH, using = "//div[@class='selected-flag']")
+    @FindBy(how = How.XPATH, using = "//div[@id='webform-component-Home-Phone--c']/div/div/div")
     private static WebElement formFlag;
     
     //Phone text field
@@ -146,7 +146,7 @@ public class CurriculumPage {
     public boolean verifyOurVisitinTeachersIsDisplayed(){
 
         String headerText = CurriculumPage.headerText.getText();
-        boolean TextPresent = headerText.toLowerCase().contains("our visiting teachers");
+        boolean TextPresent = headerText.toLowerCase().contains("HEALTH COACH TRAINING CURRICULUM".toLowerCase());
         return TextPresent;
     }
     

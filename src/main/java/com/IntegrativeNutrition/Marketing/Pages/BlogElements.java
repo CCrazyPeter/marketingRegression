@@ -64,7 +64,7 @@ public class BlogElements  {
     private static WebElement formCheckBox;
 
     //Country flag dropdown
-    @FindBy(how = How.XPATH, using = "//div[@class='selected-flag']")
+    @FindBy(how = How.XPATH, using = "//div[@id='webform-component-Home-Phone--c']/div/div/div")
     private static WebElement formFlag;
     
     //Phone text field

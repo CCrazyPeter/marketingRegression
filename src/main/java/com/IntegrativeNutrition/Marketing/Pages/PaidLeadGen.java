@@ -10,6 +10,7 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.How;
 
 public class PaidLeadGen {
+	
     /************************************
      * CONSTRUCTORS
      ***********************************/
@@ -39,9 +40,9 @@ public class PaidLeadGen {
     @FindBy(how = How.XPATH, using =".//*[@id='webform-component-Home-Phone--c']/div[1]/div/ul/li[108]/span[1]")
     private WebElement jamaica;
     
-  //Uruguay Flag
-    WebElement uruguay = driver.findElement(By.xpath(".//*[@id='webform-component-Home-Phone--c']/div[1]/div/ul/li[230]/span[1]"));
-    
+    //Uruguay Flag
+    @FindBy(how = How.XPATH, using =".//*[@id='webform-component-Home-Phone--c']/div[1]/div/ul/li[230]/span[1]")
+    private WebElement uruguay;
     
     //---------------------------------------Form-----------------------------------------
     
@@ -58,7 +59,7 @@ public class PaidLeadGen {
     private static WebElement formCheckBox;
 
     //Country flag dropdown
-    @FindBy(how = How.XPATH, using = "//div[@class='selected-flag']")
+    @FindBy(how = How.XPATH, using = "//div[@id='webform-component-Home-Phone--c']/div/div/div")
     private static WebElement formFlag;
     
     //Phone text field

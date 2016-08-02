@@ -67,7 +67,7 @@ public class SampleClassModuleTest extends TestStarter {
     }
 
   //This test tests the first video module
-    @Test (groups = {"web.critical", "web", "beforedeploy", "slowtest"}, priority = 4)
+    @Test (groups = {"web.critical", "web", "beforedeploy.ui", "slowtest"}, priority = 4)
     public void videoPlay() throws Exception {
     	SampleClassModulePage sampleClassModulePage = Screens.SampleClassModulePage();
 

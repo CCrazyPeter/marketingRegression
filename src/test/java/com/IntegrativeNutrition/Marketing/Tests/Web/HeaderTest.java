@@ -58,16 +58,16 @@ public class HeaderTest extends TestStarter {
     }
 
     //Curriculum Page
-    @Test (groups = {"web.critical", "web", "beforedeploy", "slowtest"}, priority = 6)
+    @Test (groups = {"web.critical", "web", "beforedeploy.ui", "slowtest"}, priority = 6)
     public void headerCurric() throws Exception {
     	Header header = Screens.Header();
     	header.closePromo();
     	header.clickCurriculumBasics();
     	Assert.assertTrue(header.assertCorrectURL(Common.FRONTEND_URL + "/curriculum"));
     }
-    
+
     //Educational Partnerships Page
-    @Test (groups = {"web.critical", "web", "beforedeploy", "slowtest"}, priority = 7)
+    @Test (groups = {"web.critical", "web", "beforedeploy.ui", "slowtest"}, priority = 7)
     public void headerEducationalPartnerships() throws Exception {
     	Header header = Screens.Header();
     	header.closePromo();
@@ -76,7 +76,7 @@ public class HeaderTest extends TestStarter {
     }
 
 	//Info Sessions Page
-    @Test (groups = {"web.critical", "web", "beforedeploy", "slowtest"}, priority = 8)
+    @Test (groups = {"web.critical", "web", "beforedeploy.ui", "slowtest"}, priority = 8)
     public void headerInfoSess() throws Exception {
     	Header header = Screens.Header();
     	header.closePromo();
@@ -85,7 +85,7 @@ public class HeaderTest extends TestStarter {
     }
 
     //Health Coaching Page
-    @Test (groups = {"web.critical", "web", "beforedeploy", "slowtest"}, priority = 9)
+    @Test (groups = {"web.critical", "web", "beforedeploy.ui", "slowtest"}, priority = 9)
     public void headerHealthCoach() throws Exception {
     	Header header = Screens.Header();
     	header.closePromo();
@@ -94,7 +94,7 @@ public class HeaderTest extends TestStarter {
     }
 
     //About Us Page
-    @Test  (groups = {"web.critical", "web", "beforedeploy", "slowtest"}, priority = 10)
+    @Test  (groups = {"web.critical", "web", "beforedeploy.ui", "slowtest"}, priority = 10)
     public void headerAboutUs() throws Exception {
     	Header header = Screens.Header();
     	header.closePromo();

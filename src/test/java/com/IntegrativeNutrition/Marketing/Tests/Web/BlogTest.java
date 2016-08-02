@@ -122,7 +122,7 @@ public class BlogTest extends TestStarter {
     }
 
 	//Tests that flags match country code using United Kingdom
-	@Test (groups = {"web.critical", "web", "beforedeploy", "slowtest"}, priority = 12) 
+	@Test (groups = {"web.critical", "web", "beforedeploy.ui", "slowtest"}, priority = 12) 
     public void countryFlagMatch() throws Exception {
     	BlogElements blogElements = Screens.BlogElements();
     	blogElements.closePromo();

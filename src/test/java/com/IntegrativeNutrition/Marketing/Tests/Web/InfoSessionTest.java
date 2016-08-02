@@ -48,7 +48,7 @@ public class InfoSessionTest extends TestStarter {
     }
 
   //Tests that flags match country code using Cyprus
-    @Test (groups = {"web.critical", "web", "beforedeploy", "fasttest"}, priority = 1)
+    @Test (groups = {"web.critical", "web", "beforedeploy.ui", "fasttest"}, priority = 1)
     public void countryFlagMatch() throws Exception {
         InfoSessionsPage infoSessionsPage = Screens.InfoSessionsPage();
         

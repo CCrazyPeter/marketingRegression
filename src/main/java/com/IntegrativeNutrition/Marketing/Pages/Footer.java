@@ -208,7 +208,8 @@ public class Footer {
         jobsLink.click();
     }
 
-    public boolean assertCorrectURL(String url, boolean newWindow, boolean newTab) {
+    
+    public boolean assertCorrectURL(String url, boolean newWindow, boolean newTab) throws InterruptedException {
         String currentURL;
 
         if (newWindow){
@@ -219,31 +220,29 @@ public class Footer {
 
             driver.close();
 
-            if (url.equals(currentURL)){
-                return true;
-            }
-            else {
-                return false;
-            }
+            return url.equals(currentURL);
         }
         else if(newTab) {
             ArrayList<String> tabs2 = new ArrayList<String> (driver.getWindowHandles());
             
             driver.switchTo().window(tabs2.get(1));
-            
+
             currentURL = driver.getCurrentUrl();
             
+        	if(!url.equals(currentURL)){
+        		
+        		Thread.sleep(4000);
+
+        		currentURL = driver.getCurrentUrl();
+
+        	}
+        	
             driver.close();
 
             driver.switchTo().window(tabs2.get(0));
-
-            if (url.equals(currentURL)){
-                return true;
-            }
-            else {
-                return false;
-            }
-
+            
+            return url.equals(currentURL);
+            
         }
         else {
 
@@ -251,12 +250,8 @@ public class Footer {
             
         	driver.navigate().back();
 
-            if (url.equals(currentURL)){
-                return true;
-            }
-            else {
-                return false;
-            }
+        	return url.equals(currentURL);
+
         }
     }
     

@@ -76,7 +76,9 @@ public class FooterSocialMediaTest extends TestStarter {
         Footer footer = Screens.Footer();
         footer.closePromo();
         footer.clickAmazonIcon();
+        
         Assert.assertTrue(footer.assertCorrectURL("https://www.amazon.com/s?marketplaceID=ATVPDKIKX0DER&me=A388GKFOEEICY0&merchant=A388GKFOEEICY0&redirect=true", false, true));
+        
     }
 	
     //Facebook Icon Link

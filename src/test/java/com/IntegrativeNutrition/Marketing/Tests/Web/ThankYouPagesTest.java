@@ -36,7 +36,7 @@ public class ThankYouPagesTest extends TestStarter {
     }
 
     //This test is to ensure video plays until the end
-    @Test (groups = {"web", "beforedeploy", "slowtest"}, priority = 1)
+    @Test (groups = {"web", "beforedeploy.ui", "slowtest"}, priority = 1)
     public void videoPlay() throws Exception {
     	ThankYouPages classThankYou = Screens.ClassThankYou();
     	
@@ -72,7 +72,7 @@ public class ThankYouPagesTest extends TestStarter {
         }
         
         //This test is to ensure video plays until the end
-        @Test (groups = {"web", "beforedeploy", "slowtest"}, priority = 1)
+        @Test (groups = {"web", "beforedeploy.ui", "slowtest"}, priority = 1)
         public void guideTyPlay() throws Exception {
         	ThankYouPages guideThankYou = Screens.GuideThankYou();
         	

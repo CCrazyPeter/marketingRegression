@@ -25,59 +25,37 @@
       <class name="com.IntegrativeNutrition.Marketing.Tests.Web.HealthCoachingTest">
         <methods>
           <include name="TestSetup"/>
-          <include name="videoPlay"/>
           <include name="countryFlagMatch"/>
           <include name="TestCleanUp"/>
         </methods>
       </class> <!-- com.IntegrativeNutrition.Marketing.Tests.Web.HealthCoachingTest -->
       <class name="com.IntegrativeNutrition.Marketing.Tests.Web.PaidLeadTest">
         <methods>
-          <include name="bannerDisplayedD"/>
-          <include name="formSubmitD"/>
           <include name="countryFlagMatchR"/>
-          <include name="nameValidationD"/>
           <include name="TestSetup"/>
           <include name="countryFlagMatchD"/>
           <include name="TestCleanUp"/>
-          <include name="emailValidationD"/>
-          <include name="nameValidationR"/>
-          <include name="nameValidation"/>
-          <include name="bannerDisplayedR"/>
-          <include name="emailValidation"/>
-          <include name="emailValidationR"/>
-          <include name="assertBannerIsDisplayed"/>
-          <include name="formSubmit"/>
           <include name="countryFlagMatch"/>
-          <include name="formSubmitR"/>
         </methods>
       </class> <!-- com.IntegrativeNutrition.Marketing.Tests.Web.PaidLeadTest -->
       <class name="com.IntegrativeNutrition.Marketing.Tests.Web.HomePageTest">
         <methods>
           <include name="TestSetup"/>
-          <include name="assertSampleProgramButtonTriggersScroll"/>
           <include name="TestCleanUp"/>
-          <include name="videoPlay"/>
           <include name="countryFlagMatch"/>
         </methods>
       </class> <!-- com.IntegrativeNutrition.Marketing.Tests.Web.HomePageTest -->
       <class name="com.IntegrativeNutrition.Marketing.Tests.Web.HeaderTest">
         <methods>
           <include name="TestSetup"/>
-          <include name="headerEducationalPartnerships"/>
-          <include name="headerCurric"/>
-          <include name="headerInfoSess"/>
           <include name="TestCleanUp"/>
-          <include name="headerHealthCoach"/>
-          <include name="headerAboutUs"/>
         </methods>
       </class> <!-- com.IntegrativeNutrition.Marketing.Tests.Web.HeaderTest -->
       <class name="com.IntegrativeNutrition.Marketing.Tests.Web.CurriculumPageTest">
         <methods>
           <include name="TestSetup"/>
-          <include name="videoPlay"/>
           <include name="countryFlagMatch"/>
           <include name="TestCleanUp"/>
-          <include name="assertOurVisitinTeachersIsDisplayed"/>
         </methods>
       </class> <!-- com.IntegrativeNutrition.Marketing.Tests.Web.CurriculumPageTest -->
       <class name="com.IntegrativeNutrition.Marketing.Tests.Web.BlogTest">
@@ -90,14 +68,11 @@
       <class name="com.IntegrativeNutrition.Marketing.Tests.Web.ThankYouPagesTest">
         <methods>
           <include name="TestSetup"/>
-          <include name="videoPlay"/>
           <include name="TestCleanUp"/>
-          <include name="guideTyPlay"/>
         </methods>
       </class> <!-- com.IntegrativeNutrition.Marketing.Tests.Web.ThankYouPagesTest -->
       <class name="com.IntegrativeNutrition.Marketing.Tests.Web.SampleClassModuleTest">
         <methods>
-          <include name="videoPlay"/>
           <include name="TestSetup"/>
           <include name="TestCleanUp"/>
         </methods>
@@ -111,7 +86,6 @@
       <class name="com.IntegrativeNutrition.Marketing.Tests.Web.AboutUsTest">
         <methods>
           <include name="TestSetup"/>
-          <include name="videoPlay"/>
           <include name="TestCleanUp"/>
         </methods>
       </class> <!-- com.IntegrativeNutrition.Marketing.Tests.Web.AboutUsTest -->

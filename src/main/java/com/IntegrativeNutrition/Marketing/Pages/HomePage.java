@@ -114,7 +114,7 @@ public class HomePage {
     private static WebElement formCheckBox;
 
     //Country flag dropdown
-    @FindBy(how = How.XPATH, using = "//div[@class='selected-flag']")
+    @FindBy(how = How.XPATH, using = "//div[@id='webform-component-Home-Phone--c']/div/div/div")
     private static WebElement formFlag;
     
     //Phone text field
@@ -246,8 +246,9 @@ public class HomePage {
         return videoComplete;
     }
 
-    public boolean assertPageScrolledDown(){
+    public boolean assertPageScrolledDown() throws InterruptedException{
     	JavascriptExecutor executor = (JavascriptExecutor) driver;
+    	Thread.sleep(500);
     	Long value = (Long) executor.executeScript("return window.scrollY;");
     	if (value > 10){
     		return true;
