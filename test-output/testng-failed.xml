@@ -1,22 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
-  <test name="Default test(failed)">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [MarketingSite by groups]">
+  <test name="GRP-omgwork(failed)">
+    <groups>
+      <run>
+        <include name="omgwork"/>
+      </run>
+    </groups>
     <classes>
-      <class name="com.IntegrativeNutrition.Marketing.Tests.Web.ThankYouPagesTest">
+      <class name="com.IntegrativeNutrition.Marketing.Tests.Web.FooterSocialMediaTest">
         <methods>
-          <include name="verifyBannerTextIsDisplayed"/>
           <include name="TestSetup"/>
-          <include name="assertGuideBodyTextIsDisplayed"/>
-          <include name="videoPlay"/>
           <include name="TestCleanUp"/>
-          <include name="assertBannerTextIsDisplayed"/>
-          <include name="guideTyPlay"/>
-          <include name="assertClassBodyTextIsDisplayed"/>
-          <include name="verifyBannerIsDisplayed"/>
-          <include name="assertBannerIsDisplayed"/>
+          <include name="assertCorrectAmazonLinkIcon"/>
         </methods>
-      </class> <!-- com.IntegrativeNutrition.Marketing.Tests.Web.ThankYouPagesTest -->
+      </class> <!-- com.IntegrativeNutrition.Marketing.Tests.Web.FooterSocialMediaTest -->
     </classes>
-  </test> <!-- Default test(failed) -->
-</suite> <!-- Failed suite [Default suite] -->
+  </test> <!-- GRP-omgwork(failed) -->
+</suite> <!-- Failed suite [MarketingSite by groups] -->

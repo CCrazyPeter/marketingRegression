@@ -47,7 +47,7 @@ public class Screens {
         PageFactory.initElements(driver, aboutUsPage);
         return aboutUsPage;
     }
-    
+
     public static ContactUsPage ContactUsPage() {
         driver = TestEnvironment.get_Driver();
         driver.get(Common.FRONTEND_URL + "/contact-us");

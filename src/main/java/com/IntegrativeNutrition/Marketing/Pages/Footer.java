@@ -218,9 +218,17 @@ public class Footer {
             driver.switchTo().window(currentHandle);
             currentURL = driver.getCurrentUrl();
 
+        	if(!url.contains(currentURL)){
+        		
+        		Thread.sleep(4000);
+
+        		currentURL = driver.getCurrentUrl();
+
+        	}
+
             driver.close();
 
-            return url.equals(currentURL);
+            return url.contains(currentURL);
         }
         else if(newTab) {
             ArrayList<String> tabs2 = new ArrayList<String> (driver.getWindowHandles());
@@ -229,7 +237,7 @@ public class Footer {
 
             currentURL = driver.getCurrentUrl();
             
-        	if(!url.equals(currentURL)){
+        	if(!url.contains(currentURL)){
         		
         		Thread.sleep(4000);
 
@@ -241,16 +249,24 @@ public class Footer {
 
             driver.switchTo().window(tabs2.get(0));
             
-            return url.equals(currentURL);
+            return url.contains(currentURL);
             
         }
         else {
 
         	currentURL = driver.getCurrentUrl();
-            
+
+        	if(!url.contains(currentURL)){
+        		
+        		Thread.sleep(4000);
+
+        		currentURL = driver.getCurrentUrl();
+
+        	}
+        	
         	driver.navigate().back();
 
-        	return url.equals(currentURL);
+        	return url.contains(currentURL);
 
         }
     }

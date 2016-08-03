@@ -10,7 +10,7 @@ import com.IntegrativeNutrition.Marketing.Tests.Common.TestStarter;
 public class SampleClassModuleTest extends TestStarter {
 
 	 //This tests the banner being displayed
-    @Test (groups = {"web.critical", "web", "beforedeploy", "fasttest"}, priority = 1)
+    @Test (groups = {"web.critical", "web", "beforedeploy", "fasttest"}, priority = 126)
     public void bannerDisplayed() throws Exception{
     	SampleClassModulePage sampleClassModulePage = Screens.SampleClassModulePage();
     	
@@ -27,7 +27,7 @@ public class SampleClassModuleTest extends TestStarter {
     }
 
 	 //This tests the banner text being displayed
-    @Test (groups = {"web.critical", "web", "beforedeploy", "fasttest"}, priority = 2)
+    @Test (groups = {"web.critical", "web", "beforedeploy", "fasttest"}, priority = 127)
     public void bannerTextDisplayed() throws Exception{
     	SampleClassModulePage sampleClassModulePage = Screens.SampleClassModulePage();
 
@@ -44,7 +44,7 @@ public class SampleClassModuleTest extends TestStarter {
     }
     
 	 //This tests the video intro text being displayed
-    @Test (groups = {"web.critical", "web", "beforedeploy", "fasttest"}, priority = 3)
+    @Test (groups = {"web.critical", "web", "beforedeploy", "fasttest"}, priority = 128)
     public void videoIntroTextDisplayed() throws Exception{
     	SampleClassModulePage sampleClassModulePage = Screens.SampleClassModulePage();
 
@@ -67,7 +67,7 @@ public class SampleClassModuleTest extends TestStarter {
     }
 
   //This test tests the first video module
-    @Test (groups = {"web.critical", "web", "beforedeploy.ui", "slowtest"}, priority = 4)
+    @Test (groups = {"web.critical", "web", "beforedeploy.ui", "slowtest"}, priority = 129)
     public void videoPlay() throws Exception {
     	SampleClassModulePage sampleClassModulePage = Screens.SampleClassModulePage();
 

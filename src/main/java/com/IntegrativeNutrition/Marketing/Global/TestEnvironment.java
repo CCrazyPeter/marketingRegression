@@ -110,6 +110,7 @@ public class TestEnvironment {
 
     public static void StopEnvironment() {
         try {
+        	_driver.close();
             _driver.quit();
             _driver = null ;
         }
@@ -199,5 +200,3 @@ public class TestEnvironment {
         }
     }
 }
-
-

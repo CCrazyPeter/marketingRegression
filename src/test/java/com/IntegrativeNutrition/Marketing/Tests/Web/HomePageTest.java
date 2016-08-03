@@ -10,7 +10,7 @@ import org.testng.Assert;
 public class HomePageTest extends TestStarter {
 
 	//This test ensures the banner is displayed  
-    @Test (groups = {"web.critical", "web", "beforemerge", "fasttest","beforedeploy"}, priority = 0)
+    @Test (groups = {"web.critical", "web", "beforemerge", "fasttest","beforedeploy"}, priority = 20)
     public void assertBannerIsDisplayed ()  throws Exception {
         HomePage homePage = Screens.HomePage();
         homePage.closePromo();
@@ -18,7 +18,7 @@ public class HomePageTest extends TestStarter {
     }
 
 	//This test ensures the header banner text is displayed  
-    @Test (groups = {"web.critical", "web", "beforemerge", "fasttest","beforedeploy"}, priority = 1)
+    @Test (groups = {"web.critical", "web", "beforemerge", "fasttest","beforedeploy"}, priority = 21)
     public void assertBannerTextIsDisplayed ()  throws Exception {
         HomePage homePage = Screens.HomePage();
         homePage.closePromo();
@@ -26,7 +26,7 @@ public class HomePageTest extends TestStarter {
     }
 
 	//This test ensures the Watch Our Video button is displayed  
-    @Test (groups = {"web.critical", "web", "beforemerge", "fasttest","beforedeploy"}, priority = 2)
+    @Test (groups = {"web.critical", "web", "beforemerge", "fasttest","beforedeploy", "linuxdebug"}, priority = 22)
     public void assertWatchOurVideoIsPresent ()  throws Exception {
         HomePage homePage = Screens.HomePage();
         homePage.closePromo();
@@ -34,7 +34,7 @@ public class HomePageTest extends TestStarter {
     }
 
 	//This test ensures the Sample Our Program button is displayed  
-    @Test (groups = {"web.critical", "web", "beforemerge", "fasttest","beforedeploy"}, priority = 3)
+    @Test (groups = {"web.critical", "web", "beforemerge", "fasttest","beforedeploy", "linuxdebug"}, priority = 23)
     public void assertSampleOurProgramIsPresent ()  throws Exception {
         HomePage homePage = Screens.HomePage();
         homePage.closePromo();
@@ -42,7 +42,7 @@ public class HomePageTest extends TestStarter {
     }
 
 	//This test ensures the Body Copy is present  
-    @Test (groups = {"web", "beforemerge", "fasttest","beforedeploy"}, priority = 4)
+    @Test (groups = {"web", "beforemerge", "fasttest","beforedeploy", "linuxdebug"}, priority = 24)
     public void assertBodyCopyIsPresent ()  throws Exception {
         HomePage homePage = Screens.HomePage();
         homePage.closePromo();
@@ -50,7 +50,7 @@ public class HomePageTest extends TestStarter {
     }
     
 	//This test ensures the SlideShow is present  
-    @Test (groups = {"web", "beforedeploy", "fasttest"}, priority = 5)
+    @Test (groups = {"web", "beforedeploy", "fasttest"}, priority = 25)
     public void assertSlideShowIsPresent ()  throws Exception {
         HomePage homePage = Screens.HomePage();
         homePage.closePromo();
@@ -58,7 +58,7 @@ public class HomePageTest extends TestStarter {
     }
 
     //This test ensures the Sample Our Program button triggers a page scroll to the Sample Class form   
-    @Test (groups = {"web", "beforedeploy", "fasttest"}, priority = 6)
+    @Test (groups = {"web", "beforedeploy", "fasttest"}, priority = 26)
     public void assertSampleProgramButtonTriggersScroll () throws Exception {
         HomePage homePage = Screens.HomePage();
         homePage.closePromo();
@@ -67,7 +67,7 @@ public class HomePageTest extends TestStarter {
     }
     
     //This test is to ensure video plays until the end
-    @Test (groups = {"web", "beforedeploy.ui", "slowtest"}, priority = 7)
+    @Test (groups = {"web", "beforedeploy.ui", "slowtest"}, priority = 27)
     public void videoPlay() throws Exception {
     	HomePage homePage = Screens.HomePage();
         homePage.closePromo();
@@ -77,7 +77,7 @@ public class HomePageTest extends TestStarter {
     }
     
 	//Tests form won't submit if name field is blank
-	@Test (groups = {"web", "afterproduction", "fasttest","beforedeploy"}, priority = 8)
+	@Test (groups = {"web", "afterproduction", "fasttest","beforedeploy"}, priority = 28)
     public void nameValidation() throws Exception {
     	HomePage homePage = Screens.HomePage();
         homePage.closePromo();
@@ -88,7 +88,7 @@ public class HomePageTest extends TestStarter {
     }
 
 	//Tests that form won't submit if email field is blank
-	@Test (groups = {"web", "afterproduction", "fasttest","beforedeploy"}, priority = 9) 
+	@Test (groups = {"web", "afterproduction", "fasttest","beforedeploy"}, priority = 29) 
     public void emailValidation() throws Exception {
     	HomePage homePage = Screens.HomePage();
         homePage.closePromo();
@@ -99,7 +99,7 @@ public class HomePageTest extends TestStarter {
     }
 	
 	//Tests that form won't submit if email is invalid
-	@Test (groups = {"web", "afterproduction", "fasttest","beforedeploy"}, priority = 10) 
+	@Test (groups = {"web", "afterproduction", "fasttest","beforedeploy"}, priority = 30) 
     public void invalidEmailNoPhoneValidation() throws Exception {
     	HomePage homePage = Screens.HomePage();
         homePage.closePromo();
@@ -111,7 +111,7 @@ public class HomePageTest extends TestStarter {
     }
 	
 	//Tests that form won't submit if email is invalid
-	@Test (groups = {"web", "afterproduction", "fasttest","beforedeploy"}, priority = 11) 
+	@Test (groups = {"web", "afterproduction", "fasttest","beforedeploy"}, priority = 31) 
     public void invalidEmailPhoneValidation() throws Exception {
     	HomePage homePage = Screens.HomePage();
         homePage.closePromo();
@@ -125,7 +125,7 @@ public class HomePageTest extends TestStarter {
     }
 	
 	//Tests that form won't submit if all fields are blank
-	@Test (groups = {"web", "afterproduction", "fasttest","beforedeploy"}, priority = 12) 
+	@Test (groups = {"web", "afterproduction", "fasttest","beforedeploy"}, priority = 32) 
     public void blankFieldsNoPhoneValidation() throws Exception {
     	HomePage homePage = Screens.HomePage();
         homePage.closePromo();
@@ -136,7 +136,7 @@ public class HomePageTest extends TestStarter {
     }
 
 	//Tests that form won't submit if all fields are blank
-	@Test (groups = {"web", "afterproduction", "fasttest","beforedeploy"}, priority = 13) 
+	@Test (groups = {"web", "afterproduction", "fasttest","beforedeploy"}, priority = 33) 
     public void blankFieldsPhoneValidation() throws Exception {
     	HomePage homePage = Screens.HomePage();
         homePage.closePromo();
@@ -149,7 +149,7 @@ public class HomePageTest extends TestStarter {
     }
 	
 	//Tests that form won't submit if phone is invalid
-	@Test (groups = {"web", "afterproduction", "fasttest","beforedeploy"}, priority = 14) 
+	@Test (groups = {"web", "afterproduction", "fasttest","beforedeploy"}, priority = 34) 
     public void phoneValidation() throws Exception {
     	HomePage homePage = Screens.HomePage();
         homePage.closePromo();
@@ -162,7 +162,7 @@ public class HomePageTest extends TestStarter {
     }
 	
 	//Tests that flags match country code using United Kingdom
-	@Test (groups = {"web", "beforedeploy.ui", "fasttest"}, priority = 15) 
+	@Test (groups = {"web", "beforedeploy.ui", "fasttest"}, priority = 35) 
     public void countryFlagMatch() throws Exception {
     	HomePage homePage = Screens.HomePage();
         homePage.closePromo();
@@ -178,7 +178,7 @@ public class HomePageTest extends TestStarter {
     }
 	
 	//Submit Sample Class form with no phone number
-	@Test (groups = {"web", "beforedeploy", "fasttest"}, priority = 16) 
+	@Test (groups = {"web", "beforedeploy", "fasttest"}, priority = 36) 
     public void submitFormNoPhone() {
     	HomePage homePage = Screens.HomePage();
         homePage.closePromo();
@@ -190,7 +190,7 @@ public class HomePageTest extends TestStarter {
     }
 
 	//Submit Sample Class form with phone number
-	@Test (groups = {"web", "beforemerge", "fasttest","beforedeploy"}, priority = 17)
+	@Test (groups = {"web", "beforemerge", "fasttest","beforedeploy", "linuxdebug"}, priority = 37)
     public void submitFormWithPhone() {
     	HomePage homePage = Screens.HomePage();
         homePage.closePromo();

@@ -3,20 +3,26 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="com.IntegrativeNutrition.Marketing.Tests.Web.ThankYouPagesTest">
+      <class name="com.IntegrativeNutrition.Marketing.Tests.Web.FooterSocialMediaTest">
         <methods>
-          <include name="verifyBannerTextIsDisplayed"/>
           <include name="TestSetup"/>
-          <include name="assertGuideBodyTextIsDisplayed"/>
-          <include name="videoPlay"/>
+          <include name="assertFormSubmissionNoEmailWorks"/>
+          <include name="assertLocalPhoneNumberIsDisplayed"/>
+          <include name="assertFormSubmissionInvalidEmailWorks"/>
+          <include name="assertInternationalPhoneNumberIsDisplayed"/>
           <include name="TestCleanUp"/>
-          <include name="assertBannerTextIsDisplayed"/>
-          <include name="guideTyPlay"/>
-          <include name="assertClassBodyTextIsDisplayed"/>
-          <include name="verifyBannerIsDisplayed"/>
-          <include name="assertBannerIsDisplayed"/>
+          <include name="assertCorrectTwitterLinkIcon"/>
+          <include name="assertCorrectAmazonLinkIcon"/>
+          <include name="assertCorrectYouTubeLinkIcon"/>
+          <include name="assertCorrectInstagramLinkIcon"/>
+          <include name="assertFormSubmissionInactiveEmailWorks"/>
+          <include name="assertFormSubmissionWorks"/>
+          <include name="assertCorrectFacebookLinkIcon"/>
+          <include name="assertCorrectLinkedInLinkIcon"/>
+          <include name="assertCorrectPinterestLinkIcon"/>
+          <include name="assertCorrectGooglePlusLinkIcon"/>
         </methods>
-      </class> <!-- com.IntegrativeNutrition.Marketing.Tests.Web.ThankYouPagesTest -->
+      </class> <!-- com.IntegrativeNutrition.Marketing.Tests.Web.FooterSocialMediaTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

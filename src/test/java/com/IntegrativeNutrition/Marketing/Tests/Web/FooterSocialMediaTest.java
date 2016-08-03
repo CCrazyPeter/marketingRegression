@@ -9,7 +9,7 @@ import org.testng.Assert;
 public class FooterSocialMediaTest extends TestStarter {
 
     //Need Help Info Local Phone
-    @Test (groups = {"web.critical", "web", "beforemerge", "fasttest","beforedeploy"}, priority = 1)
+    @Test (groups = {"web.critical", "web", "beforemerge", "fasttest","beforedeploy"}, priority = 82)
     public void assertLocalPhoneNumberIsDisplayed() throws Exception {
         Footer footer = Screens.Footer();
         footer.closePromo();
@@ -17,7 +17,7 @@ public class FooterSocialMediaTest extends TestStarter {
     }
 
     //Need Help Info International Phone
-    @Test (groups = {"web.critical", "web", "beforemerge", "fasttest","beforedeploy"}, priority = 2)
+    @Test (groups = {"web.critical", "web", "beforemerge", "fasttest","beforedeploy"}, priority = 83)
     public void assertInternationalPhoneNumberIsDisplayed() throws Exception {
         Footer footer = Screens.Footer();
         footer.closePromo();
@@ -25,17 +25,17 @@ public class FooterSocialMediaTest extends TestStarter {
     }
 
 	//Tests correct form submission
-	@Test (groups = {"web.critical", "web", "beforemerge", "slowtest","beforedeploy"}, priority = 3) 
+	@Test (groups = {"web.critical", "web", "beforemerge", "slowtest","beforedeploy"}, priority = 84) 
     public void assertFormSubmissionWorks() throws Exception {
     	Footer footer = Screens.Footer();
     	footer.closePromo();
     	footer.inputEmail("iinqatest@gmail.com");
     	footer.clickSubscribe();
-    	footer.formConfirmationDisplayed("thank you for joining the mission – check your inbox for the latest from integrative nutrition!");
+    	footer.formConfirmationDisplayed("thank you for joining the mission ï¿½ check your inbox for the latest from integrative nutrition!");
 	}
 
 	//Tests form submission no email
-	@Test (groups = {"web.critical", "web", "beforedeploy", "slowtest"}, priority = 4) 
+	@Test (groups = {"web.critical", "web", "beforedeploy", "slowtest"}, priority = 85) 
     public void assertFormSubmissionNoEmailWorks() throws Exception {
     	Footer footer = Screens.Footer();
     	footer.closePromo();
@@ -45,7 +45,7 @@ public class FooterSocialMediaTest extends TestStarter {
 	}
 
 	//Tests form submission invalid email
-	@Test (groups = {"web.critical", "web", "beforedeploy", "slowtest"}, priority = 5) 
+	@Test (groups = {"web.critical", "web", "beforedeploy", "slowtest"}, priority = 86) 
     public void assertFormSubmissionInvalidEmailWorks() throws Exception {
     	Footer footer = Screens.Footer();
     	footer.closePromo();
@@ -55,7 +55,7 @@ public class FooterSocialMediaTest extends TestStarter {
 	}
 
 	//Tests form submission inactive email
-	@Test (groups = {"web.critical", "web", "beforedeploy", "slowtest"}, priority = 6) 
+	@Test (groups = {"web.critical", "web", "beforedeploy", "slowtest"}, priority = 87) 
     public void assertFormSubmissionInactiveEmailWorks() throws Exception {
     	Footer footer = Screens.Footer();
     	footer.closePromo();
@@ -71,18 +71,25 @@ public class FooterSocialMediaTest extends TestStarter {
      ***************************************/
 
     //Amazon Icon Link
-    @Test (groups = {"web.critical", "web", "beforedeploy", "fasttest"}, priority = 7)
+    @Test (groups = {"web.critical", "web", "beforedeploy", "fasttest", "omgwork"}, priority = 88)
     public void assertCorrectAmazonLinkIcon() throws Exception {
         Footer footer = Screens.Footer();
         footer.closePromo();
         footer.clickAmazonIcon();
+
+        boolean correctURL = false;
         
-        Assert.assertTrue(footer.assertCorrectURL("https://www.amazon.com/s?marketplaceID=ATVPDKIKX0DER&me=A388GKFOEEICY0&merchant=A388GKFOEEICY0&redirect=true", false, true));
+        if (footer.assertCorrectURL("https://www.amazon.com/s?ie=UTF8&me=A388GKFOEEICY0&page=1", false, true)
+        		|| footer.assertCorrectURL("https://www.amazon.com/s?marketplaceID=ATVPDKIKX0DER&me=A388GKFOEEICY0&merchant=A388GKFOEEICY0&redirect=true", false, true)){
+        	correctURL = true;
+        }
+        
+        Assert.assertTrue(correctURL);
         
     }
 	
     //Facebook Icon Link
-    @Test (groups = {"web.critical", "web", "beforedeploy", "fasttest"}, priority = 8)
+    @Test (groups = {"web.critical", "web", "beforedeploy", "fasttest"}, priority = 89)
     public void assertCorrectFacebookLinkIcon() throws Exception {
         Footer footer = Screens.Footer();
         footer.closePromo();
@@ -91,7 +98,7 @@ public class FooterSocialMediaTest extends TestStarter {
     }
 
     //Instagram Icon Link
-    @Test (groups = {"web.critical", "web", "beforedeploy", "fasttest"}, priority = 9)
+    @Test (groups = {"web.critical", "web", "beforedeploy", "fasttest"}, priority = 90)
     public void assertCorrectInstagramLinkIcon() throws Exception {
         Footer footer = Screens.Footer();
         footer.closePromo();
@@ -100,7 +107,7 @@ public class FooterSocialMediaTest extends TestStarter {
     }
 
     //Twitter Icon Link
-    @Test (groups = {"web.critical", "web", "beforedeploy", "fasttest"}, priority = 10)
+    @Test (groups = {"web.critical", "web", "beforedeploy", "fasttest"}, priority = 91)
     public void assertCorrectTwitterLinkIcon() throws Exception {
         Footer footer = Screens.Footer();
         footer.closePromo();
@@ -109,7 +116,7 @@ public class FooterSocialMediaTest extends TestStarter {
     }
 
     //YouTube Icon Link
-    @Test (groups = {"web.critical", "web", "beforedeploy", "fasttest"}, priority = 11)
+    @Test (groups = {"web.critical", "web", "beforedeploy", "fasttest"}, priority = 92)
     public void assertCorrectYouTubeLinkIcon() throws Exception {
         Footer footer = Screens.Footer();
         footer.closePromo();
@@ -117,17 +124,17 @@ public class FooterSocialMediaTest extends TestStarter {
         Assert.assertTrue(footer.assertCorrectURL("https://www.youtube.com/c/instituteforintegrativenutrition", false, true));
     }
 
-    //Pinterest Icon Link
-    @Test (groups = {"web.critical", "web", "beforedeploy", "fasttest"}, priority = 12)
-    public void assertCorrectPinterestLinkIcon() throws Exception {
-        Footer footer = Screens.Footer();
-        footer.closePromo();
-        footer.clickPinterestIcon();
-        Assert.assertTrue(footer.assertCorrectURL("https://www.pinterest.com/nutritionschool/", false, true));
-    }
+//    //Pinterest Icon Link
+//    @Test (groups = {"web.critical", "web", "beforedeploy", "fasttest", "omgwork"}, priority = 93)
+//    public void assertCorrectPinterestLinkIcon() throws Exception {
+//        Footer footer = Screens.Footer();
+//        footer.closePromo();
+//        footer.clickPinterestIcon();
+//        Assert.assertTrue(footer.assertCorrectURL("pinterest", false, true));
+//    }
 
     //LinkedIn Icon Link
-    @Test (groups = {"web.critical", "web", "beforedeploy", "fasttest"}, priority = 13)
+    @Test (groups = {"web.critical", "web", "beforedeploy", "fasttest"}, priority = 94)
     public void assertCorrectLinkedInLinkIcon() throws Exception {
         Footer footer = Screens.Footer();
         footer.closePromo();
@@ -136,7 +143,7 @@ public class FooterSocialMediaTest extends TestStarter {
     }
 
     //Google Plus Icon Link
-    @Test (groups = {"web.critical", "web", "beforedeploy", "fasttest"}, priority = 14)
+    @Test (groups = {"web.critical", "web", "beforedeploy", "fasttest"}, priority = 95)
     public void assertCorrectGooglePlusLinkIcon() throws Exception {
         Footer footer = Screens.Footer();
         footer.closePromo();

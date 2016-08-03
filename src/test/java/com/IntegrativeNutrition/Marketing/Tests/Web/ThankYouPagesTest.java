@@ -12,7 +12,7 @@ public class ThankYouPagesTest extends TestStarter {
      *******************************************************************************************/
 
 	//This test ensures the banner is displayed  
-    @Test (groups = {"web.critical", "web", "beforedeploy", "fasttest"}, priority = 1)
+    @Test (groups = {"web.critical", "web", "beforedeploy", "fasttest"}, priority = 130)
     public void verifyBannerIsDisplayed ()  throws Exception {
         ThankYouPages thankYouPage = Screens.GuideThankYou();
         
@@ -20,7 +20,7 @@ public class ThankYouPagesTest extends TestStarter {
     }
     
 	//This test ensures the banner text is displayed  
-    @Test (groups = {"web.critical", "web", "beforedeploy", "fasttest"}, priority = 1)
+    @Test (groups = {"web.critical", "web", "beforedeploy", "fasttest"}, priority = 131)
     public void verifyBannerTextIsDisplayed ()  throws Exception {
         ThankYouPages thankYouPage = Screens.GuideThankYou();
         
@@ -29,7 +29,7 @@ public class ThankYouPagesTest extends TestStarter {
     
 
 	//This test ensures the body text is displayed  
-    @Test (groups = {"web.critical", "web", "beforedeploy", "fasttest"}, priority = 1)
+    @Test (groups = {"web.critical", "web", "beforedeploy", "fasttest"}, priority = 132)
     public void assertClassBodyTextIsDisplayed ()  throws Exception {
         ThankYouPages thankYouPage = Screens.GuideThankYou();
         thankYouPage.verifyClassBodyTextIsDisplayed();
@@ -51,28 +51,28 @@ public class ThankYouPagesTest extends TestStarter {
          *******************************************************************************************/
 
     	//This test ensures the banner is displayed  
-        @Test (groups = {"web.critical", "web", "beforedeploy", "fasttest"}, priority = 1)
+        @Test (groups = {"web.critical", "web", "beforedeploy", "fasttest"}, priority = 133)
         public void assertBannerIsDisplayed ()  throws Exception {
             ThankYouPages thankYouPage = Screens.GuideThankYou();
             thankYouPage.verifyBannerIsDisplayed();
         }
         
     	//This test ensures the banner is displayed  
-        @Test (groups = {"web.critical", "web", "beforedeploy", "fasttest"}, priority = 1)
+        @Test (groups = {"web.critical", "web", "beforedeploy", "fasttest"}, priority = 134)
         public void assertBannerTextIsDisplayed ()  throws Exception {
             ThankYouPages thankYouPage = Screens.GuideThankYou();
             thankYouPage.verifyBannerTextIsDisplayed();
         }
         
     	//This test ensures the body text is displayed  
-        @Test (groups = {"web.critical", "web", "beforedeploy", "fasttest"}, priority = 1)
+        @Test (groups = {"web.critical", "web", "beforedeploy", "fasttest"}, priority = 135)
         public void assertGuideBodyTextIsDisplayed ()  throws Exception {
             ThankYouPages thankYouPage = Screens.GuideThankYou();
             thankYouPage.verifyGuideBodyTextIsDisplayed();
         }
         
         //This test is to ensure video plays until the end
-        @Test (groups = {"web", "beforedeploy.ui", "slowtest"}, priority = 1)
+        @Test (groups = {"web", "beforedeploy.ui", "slowtest"}, priority = 136)
         public void guideTyPlay() throws Exception {
         	ThankYouPages guideThankYou = Screens.GuideThankYou();
         	

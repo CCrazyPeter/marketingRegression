@@ -17,7 +17,7 @@ public class PaidLeadTest extends TestStarter {
      **************************************************************/
 	
 	//This test ensures the banner is displayed  
-    @Test (groups = {"web.critical", "web", "beforedeploy", "fasttest"}, priority = 1)
+    @Test (groups = {"web.critical", "web", "beforedeploy", "fasttest"}, priority = 111)
     public void assertBannerIsDisplayed ()  throws Exception {
     	PaidLeadGen sampleNutritionClassPage = Screens.SampleNutritionClassPage();
     	
@@ -25,7 +25,7 @@ public class PaidLeadTest extends TestStarter {
     }
 
     //Tests form won't submit if name field is blank
-    @Test (groups = {"web", "afterproduction", "fasttest","beforedeploy"}, priority = 2) 
+    @Test (groups = {"web", "afterproduction", "fasttest","beforedeploy"}, priority = 112) 
     public void nameValidation() throws Exception{
     	PaidLeadGen sampleNutritionClassPage = Screens.SampleNutritionClassPage();
     	
@@ -36,7 +36,7 @@ public class PaidLeadTest extends TestStarter {
     }
 
     //Tests that form won't submit if email field is blank
-    @Test (groups = {"web", "afterproduction", "fasttest","beforedeploy"}, priority = 3) 
+    @Test (groups = {"web", "afterproduction", "fasttest","beforedeploy"}, priority = 113) 
     public void emailValidation() throws Exception{
     	PaidLeadGen sampleNutritionClassPage = Screens.SampleNutritionClassPage();
     	
@@ -46,7 +46,7 @@ public class PaidLeadTest extends TestStarter {
     }
 
     //Tests that flags match country code using Fiji
-    @Test (groups = {"web.critical", "web", "beforedeploy.ui", "fasttest"}, priority = 4) 
+    @Test (groups = {"web.critical", "web", "beforedeploy.ui", "fasttest"}, priority = 114) 
     public void countryFlagMatch() throws Exception{
     	PaidLeadGen sampleNutritionClassPage = Screens.SampleNutritionClassPage();
     	
@@ -65,7 +65,7 @@ public class PaidLeadTest extends TestStarter {
     }
 
     //Tests that form submits properly
-    @Test (groups = {"web.critical", "web", "beforedeploy", "fasttest"}, priority = 5) 
+    @Test (groups = {"web.critical", "web", "beforedeploy", "fasttest"}, priority = 115) 
     public void formSubmit() throws Exception{
     	PaidLeadGen sampleNutritionClassPage = Screens.SampleNutritionClassPage();
     	
@@ -81,7 +81,7 @@ public class PaidLeadTest extends TestStarter {
      **************************************************************/
 
     //Tests if banner is displayed
-    @Test (groups = {"web.critical", "web", "beforedeploy", "fasttest"}, priority = 6)
+    @Test (groups = {"web.critical", "web", "beforedeploy", "fasttest"}, priority = 116)
     public void bannerDisplayedR() throws Exception{
     	PaidLeadGen sampleNutritionClassPage_r = Screens.SampleNutritionClassPage_r();
     	
@@ -90,7 +90,7 @@ public class PaidLeadTest extends TestStarter {
 
     
     //Tests form won't submit if name field is blank
-    @Test (groups = {"web", "afterproduction", "fasttest","beforedeploy"}, priority = 7)
+    @Test (groups = {"web", "afterproduction", "fasttest","beforedeploy"}, priority = 117)
     public void nameValidationR() throws Exception{
     	PaidLeadGen sampleNutritionClassPage_r = Screens.SampleNutritionClassPage_r();
     	
@@ -101,7 +101,7 @@ public class PaidLeadTest extends TestStarter {
 
     
     //Tests that form won't submit if email field is blank
-    @Test (groups = {"web", "afterproduction", "fasttest","beforedeploy"}, priority = 8)
+    @Test (groups = {"web", "afterproduction", "fasttest","beforedeploy"}, priority = 118)
     public void emailValidationR() throws Exception{
     	PaidLeadGen sampleNutritionClassPage_r = Screens.SampleNutritionClassPage_r();
     	sampleNutritionClassPage_r.inputName("qaTest");
@@ -110,7 +110,7 @@ public class PaidLeadTest extends TestStarter {
     }
 
     //Tests that flags match country code using Jamaica
-    @Test (groups = {"web.critical", "web", "beforedeploy.ui", "fasttest"}, priority = 9)
+    @Test (groups = {"web.critical", "web", "beforedeploy.ui", "fasttest"}, priority = 119)
     public void countryFlagMatchR() throws Exception{
     	PaidLeadGen sampleNutritionClassPage_r = Screens.SampleNutritionClassPage_r();
     	sampleNutritionClassPage_r.clickPhoneBox();
@@ -128,7 +128,7 @@ public class PaidLeadTest extends TestStarter {
     }
 
     //Tests that form submits properly
-    @Test (groups = {"web.critical", "web", "beforedeploy", "fasttest"}, priority = 10)
+    @Test (groups = {"web.critical", "web", "beforedeploy", "fasttest"}, priority = 120)
     public void formSubmitR() throws Exception{
     	PaidLeadGen sampleNutritionClassPage_r = Screens.SampleNutritionClassPage_r();
     	sampleNutritionClassPage_r.inputName("qaTest");
@@ -142,7 +142,7 @@ public class PaidLeadTest extends TestStarter {
      **************************************************************/
 
     //Tests if banner is displayed
-    @Test (groups = {"web.critical", "web", "beforedeploy", "fasttest"}, priority = 11)
+    @Test (groups = {"web.critical", "web", "beforedeploy", "fasttest"}, priority = 121)
     public void bannerDisplayedD() throws Exception{
     	PaidLeadGen sampleNutritionClassPage_d = Screens.SampleNutritionClassPage_d();
     	
@@ -151,7 +151,7 @@ public class PaidLeadTest extends TestStarter {
 
     
     //Tests form won't submit if name field is blank
-    @Test (groups = {"web", "afterproduction", "fasttest","beforedeploy"}, priority = 12)
+    @Test (groups = {"web", "afterproduction", "fasttest","beforedeploy"}, priority = 122)
     public void nameValidationD() throws Exception{
     	PaidLeadGen sampleNutritionClassPage_d = Screens.SampleNutritionClassPage_d();
     	
@@ -161,7 +161,7 @@ public class PaidLeadTest extends TestStarter {
     }
 
     //Tests that form won't submit if email field is blank
-    @Test (groups = {"web", "afterproduction", "fasttest","beforedeploy"}, priority = 13)
+    @Test (groups = {"web", "afterproduction", "fasttest","beforedeploy"}, priority = 123)
     public void emailValidationD() throws Exception{
     	PaidLeadGen sampleNutritionClassPage_d = Screens.SampleNutritionClassPage_d();
     	
@@ -171,7 +171,7 @@ public class PaidLeadTest extends TestStarter {
     }
 
     //Tests that flags match country code using Uruguay
-    @Test (groups = {"web.critical", "web", "beforedeploy.ui", "fasttest"}, priority = 14)
+    @Test (groups = {"web.critical", "web", "beforedeploy.ui", "fasttest"}, priority = 124)
     public void countryFlagMatchD() throws Exception{
     	PaidLeadGen sampleNutritionClassPage_d = Screens.SampleNutritionClassPage_d();
     	sampleNutritionClassPage_d.selectFlag();
@@ -188,7 +188,7 @@ public class PaidLeadTest extends TestStarter {
     }
 
     //Tests that form submits properly
-    @Test (groups = {"web.critical", "web", "beforedeploy", "fasttest"}, priority = 15)
+    @Test (groups = {"web.critical", "web", "beforedeploy", "fasttest"}, priority = 125)
     public void formSubmitD() {
     	PaidLeadGen sampleNutritionClassPage_d = Screens.SampleNutritionClassPage_d();
     	sampleNutritionClassPage_d.inputName("qaTest");

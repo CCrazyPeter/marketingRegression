@@ -9,7 +9,7 @@ import com.IntegrativeNutrition.Marketing.Pages.*;
 public class CurriculumPageTest extends TestStarter {
 
 	//This test ensures the banner is displayed  
-    @Test (groups = {"web.critical", "web","beforemerge", "fasttest","beforedeploy"}, priority = 1)
+    @Test (groups = {"web.critical", "web","beforemerge", "fasttest","beforedeploy"}, priority = 65)
     public void assertBannerIsDisplayed ()  throws Exception {
         CurriculumPage curriculumPage = Screens.CurriculumPage();
         curriculumPage.closePromo();
@@ -17,7 +17,7 @@ public class CurriculumPageTest extends TestStarter {
     }
 
 	//This test ensures the header banner text is displayed  
-    @Test (groups = {"web.critical", "web","beforemerge", "fasttest","beforedeploy"}, priority = 2)
+    @Test (groups = {"web.critical", "web","beforemerge", "fasttest","beforedeploy"}, priority = 66)
     public void assertBannerTextIsDisplayed ()  throws Exception {
         CurriculumPage curriculumPage = Screens.CurriculumPage();
         curriculumPage.closePromo();
@@ -25,7 +25,7 @@ public class CurriculumPageTest extends TestStarter {
     }
 
 	//This test ensures the body text is displayed  
-    @Test (groups = {"web.critical", "web","beforedeploy", "fasttest"}, priority = 3)
+    @Test (groups = {"web.critical", "web","beforedeploy", "fasttest"}, priority = 67)
     public void assertBodyTextIsDisplayed ()  throws Exception {
         CurriculumPage curriculumPage = Screens.CurriculumPage();
         curriculumPage.closePromo();
@@ -33,7 +33,7 @@ public class CurriculumPageTest extends TestStarter {
     }
 
 	//This test ensures the Our Visiting Teachers section is displayed  
-    @Test (groups = {"web","beforedeploy", "slowtest"}, priority = 4)
+    @Test (groups = {"web","beforedeploy", "slowtest"}, priority = 68)
     public void assertOurVisitinTeachersIsDisplayed ()  throws Exception {
         CurriculumPage curriculumPage = Screens.CurriculumPage();
         curriculumPage.closePromo();
@@ -41,7 +41,7 @@ public class CurriculumPageTest extends TestStarter {
     }
 
 	//This test ensures the Testimonial Carrousel is displayed  
-    @Test (groups = {"web","beforedeploy", "slowtest"}, priority = 5)
+    @Test (groups = {"web","beforedeploy", "slowtest"}, priority = 69)
     public void assertTestimonialCarrouselIsDisplayed ()  throws Exception {
         CurriculumPage curriculumPage = Screens.CurriculumPage();
         curriculumPage.closePromo();
@@ -49,7 +49,7 @@ public class CurriculumPageTest extends TestStarter {
     }
 
 	//This test ensures the Get Real World Training section is displayed  
-    @Test (groups = {"web","beforedeploy", "slowtest"}, priority = 6)
+    @Test (groups = {"web","beforedeploy", "slowtest"}, priority = 70)
     public void assertGetRealWorldTrainingIsDisplayed ()  throws Exception {
         CurriculumPage curriculumPage = Screens.CurriculumPage();
         curriculumPage.closePromo();
@@ -57,7 +57,7 @@ public class CurriculumPageTest extends TestStarter {
     }
 
      //This test is to ensure video plays until the end
-    @Test (groups = {"web","beforedeploy.ui", "slowtest"}, priority = 7)
+    @Test (groups = {"web","beforedeploy.ui", "slowtest"}, priority = 71)
     public void videoPlay() throws Exception {
     	CurriculumPage curriculumPage = Screens.CurriculumPage();
     	curriculumPage.closePromo();
@@ -67,7 +67,7 @@ public class CurriculumPageTest extends TestStarter {
     }
 
 	//Tests form won't submit if name field is blank
-	@Test (groups = {"web","afterproduction", "fasttest","beforedeploy"}, priority = 8)
+	@Test (groups = {"web","afterproduction", "fasttest","beforedeploy"}, priority = 72)
     public void nameValidation() throws Exception {
     	CurriculumPage curriculumPage = Screens.CurriculumPage();
     	curriculumPage.closePromo();
@@ -77,7 +77,7 @@ public class CurriculumPageTest extends TestStarter {
     }
 
 	//Tests that form won't submit if email field is blank
-	@Test (groups = {"web","afterproduction", "fasttest","beforedeploy"}, priority = 9) 
+	@Test (groups = {"web","afterproduction", "fasttest","beforedeploy"}, priority = 73) 
     public void emailValidation() throws Exception {
     	CurriculumPage curriculumPage = Screens.CurriculumPage();
     	curriculumPage.closePromo();
@@ -87,7 +87,7 @@ public class CurriculumPageTest extends TestStarter {
     }
 
 	//Tests that form won't submit if email is invalid
-	@Test (groups = {"web","afterproduction", "fasttest","beforedeploy"}, priority = 10) 
+	@Test (groups = {"web","afterproduction", "fasttest","beforedeploy"}, priority = 74) 
     public void invalidEmailNoPhoneValidation() throws Exception {
     	CurriculumPage curriculumPage = Screens.CurriculumPage();
     	curriculumPage.closePromo();
@@ -98,7 +98,7 @@ public class CurriculumPageTest extends TestStarter {
     }
 
 	//Tests that form won't submit if email is invalid
-	@Test (groups = {"web","afterproduction", "fasttest","beforedeploy"}, priority = 11) 
+	@Test (groups = {"web","afterproduction", "fasttest","beforedeploy"}, priority = 75) 
     public void invalidEmailPhoneValidation() throws Exception {
     	CurriculumPage curriculumPage = Screens.CurriculumPage();
     	curriculumPage.closePromo();
@@ -111,7 +111,7 @@ public class CurriculumPageTest extends TestStarter {
     }
 
 	//Tests that form won't submit if all fields are blank
-	@Test (groups = {"web","afterproduction", "fasttest","beforedeploy"}, priority = 12) 
+	@Test (groups = {"web","afterproduction", "fasttest","beforedeploy"}, priority = 76) 
     public void blankFieldsNoPhoneValidation() throws Exception {
     	CurriculumPage curriculumPage = Screens.CurriculumPage();
     	curriculumPage.closePromo();
@@ -122,7 +122,7 @@ public class CurriculumPageTest extends TestStarter {
     }
 
 	//Tests that form won't submit if all fields are blank
-	@Test (groups = {"web","afterproduction", "fasttest","beforedeploy"}, priority = 13) 
+	@Test (groups = {"web","afterproduction", "fasttest","beforedeploy"}, priority = 77) 
     public void blankFieldsPhoneValidation() throws Exception {
     	CurriculumPage curriculumPage = Screens.CurriculumPage();
     	curriculumPage.closePromo();
@@ -135,7 +135,7 @@ public class CurriculumPageTest extends TestStarter {
     }
 
 	//Tests that form won't submit if phone is invalid
-	@Test (groups = {"web","afterproduction", "fasttest","beforedeploy"}, priority = 14) 
+	@Test (groups = {"web","afterproduction", "fasttest","beforedeploy"}, priority = 78) 
     public void phoneValidation() throws Exception {
     	CurriculumPage curriculumPage = Screens.CurriculumPage();
     	curriculumPage.closePromo();
@@ -148,7 +148,7 @@ public class CurriculumPageTest extends TestStarter {
     }
 
 	//Tests that flags match country code using United Kingdom
-	@Test (groups = {"web.critical", "web","beforedeploy.ui", "fasttest"}, priority = 15) 
+	@Test (groups = {"web.critical", "web","beforedeploy.ui", "fasttest"}, priority = 79) 
     public void countryFlagMatch() throws Exception {
     	CurriculumPage curriculumPage = Screens.CurriculumPage();
     	curriculumPage.closePromo();
@@ -163,7 +163,7 @@ public class CurriculumPageTest extends TestStarter {
     }
 
 	//Submit Sample Class form with no phone number
-	@Test (groups = {"web.critical", "web","beforedeploy", "fasttest"}, priority = 16) 
+	@Test (groups = {"web.critical", "web","beforedeploy", "fasttest"}, priority = 80) 
     public void submitFormNoPhone() {
     	CurriculumPage curriculumPage = Screens.CurriculumPage();
     	curriculumPage.closePromo();
@@ -174,7 +174,7 @@ public class CurriculumPageTest extends TestStarter {
     }
 
 	//Submit Sample Class form with phone number
-	@Test (groups = {"web.critical", "web","beforedeploy", "fasttest"}, priority = 17)
+	@Test (groups = {"web.critical", "web","beforedeploy", "fasttest"}, priority = 81)
     public void submitFormWithPhone() {
     	CurriculumPage curriculumPage = Screens.CurriculumPage();
     	curriculumPage.closePromo();
